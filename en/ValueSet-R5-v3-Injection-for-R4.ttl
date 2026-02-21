@@ -1,0 +1,1214 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-Injection-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-v3-Injection-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-v3-Injection-for-R4</b></p><a name=\"R5-v3-Injection-for-R4\"> </a><a name=\"hcR5-v3-Injection-for-R4\"> </a><p>This value set expansion contains 97 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-AMNINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-AMNINJ\">AMNINJ</a></td><td>Injection, amniotic fluid</td><td>Injection, amniotic fluid</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-BILINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-BILINJ\">BILINJ</a></td><td>Injection, biliary tract</td><td>Injection, biliary tract</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-BLADINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-BLADINJ\">BLADINJ</a></td><td>Injection, urinary bladder</td><td>Injection, urinary bladder</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-CERVINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-CERVINJ\">CERVINJ</a></td><td>Injection, cervical</td><td>Injection, cervical</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-CHOLINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-CHOLINJ\">CHOLINJ</a></td><td>Injection, for cholangiography</td><td>Injection, for cholangiography</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ENDOSININJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ENDOSININJ\">ENDOSININJ</a></td><td>Injection, endosinusial</td><td>Injection, endosinusial</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-EPIDURINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-EPIDURINJ\">EPIDURINJ</a></td><td>Injection, epidural</td><td>Injection, epidural</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-EPIINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-EPIINJ\">EPIINJ</a></td><td>Injection, epidural, push</td><td>Injection, epidural, push</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-EPINJSP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-EPINJSP\">EPINJSP</a></td><td>Injection, epidural, slow push</td><td>Injection, epidural, slow push</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-EXTCORPINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-EXTCORPINJ\">EXTCORPINJ</a></td><td>Injection, extracorporeal</td><td>Injection, extracorporeal</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-EXTRAMNINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-EXTRAMNINJ\">EXTRAMNINJ</a></td><td>Injection, extra-amniotic</td><td>Injection, extra-amniotic</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-GBINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-GBINJ\">GBINJ</a></td><td>Injection, gastric button</td><td>Injection, gastric button</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-GINGINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-GINGINJ\">GINGINJ</a></td><td>Injection, gingival</td><td>Injection, gingival</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-HEMOPORT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-HEMOPORT\">HEMOPORT</a></td><td>Injection, hemodialysis port</td><td>Injection, hemodialysis port</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IABDINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IABDINJ\">IABDINJ</a></td><td>Injection, intra-abdominal</td><td>Injection, intra-abdominal</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IAINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IAINJ\">IAINJ</a></td><td>Injection, intraarterial</td><td>Injection, intraarterial</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IAINJP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IAINJP\">IAINJP</a></td><td>Injection, intraarterial, push</td><td>Injection, intraarterial, push</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IAINJSP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IAINJSP\">IAINJSP</a></td><td>Injection, intraarterial, slow push</td><td>Injection, intraarterial, slow push</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IARTINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IARTINJ\">IARTINJ</a></td><td>Injection, intraarticular</td><td>Injection, intraarticular</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IBURSINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IBURSINJ\">IBURSINJ</a></td><td>Injection, intrabursal</td><td>Injection, intrabursal</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ICARDINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ICARDINJ\">ICARDINJ</a></td><td>Injection, intracardiac</td><td>Injection, intracardiac</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ICARDINJRP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ICARDINJRP\">ICARDINJRP</a></td><td>Injection, intracardiac, rapid push</td><td>Injection, intracardiac, rapid push</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ICARDINJSP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ICARDINJSP\">ICARDINJSP</a></td><td>Injection, intracardiac, slow push</td><td>Injection, intracardiac, slow push</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ICARINJP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ICARINJP\">ICARINJP</a></td><td>Injection, intracardiac, push</td><td>Injection, intracardiac, push</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ICARTINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ICARTINJ\">ICARTINJ</a></td><td>Injection, intracartilaginous</td><td>Injection, intracartilaginous</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ICAUDINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ICAUDINJ\">ICAUDINJ</a></td><td>Injection, intracaudal</td><td>Injection, intracaudal</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ICAVINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ICAVINJ\">ICAVINJ</a></td><td>Injection, intracavernous</td><td>Injection, intracavernous</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ICAVITINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ICAVITINJ\">ICAVITINJ</a></td><td>Injection, intracavitary</td><td>Injection, intracavitary</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ICEREBINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ICEREBINJ\">ICEREBINJ</a></td><td>Injection, intracerebral</td><td>Injection, intracerebral</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ICISTERNINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ICISTERNINJ\">ICISTERNINJ</a></td><td>Injection, intracisternal</td><td>Injection, intracisternal</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ICORONINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ICORONINJ\">ICORONINJ</a></td><td>Injection, intracoronary</td><td>Injection, intracoronary</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ICORONINJP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ICORONINJP\">ICORONINJP</a></td><td>Injection, intracoronary, push</td><td>Injection, intracoronary, push</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ICORPCAVINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ICORPCAVINJ\">ICORPCAVINJ</a></td><td>Injection, intracorpus cavernosum</td><td>Injection, intracorpus cavernosum</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IDINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IDINJ\">IDINJ</a></td><td>Injection, intradermal</td><td>Injection, intradermal</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IDISCINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IDISCINJ\">IDISCINJ</a></td><td>Injection, intradiscal</td><td>Injection, intradiscal</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IDUCTINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IDUCTINJ\">IDUCTINJ</a></td><td>Injection, intraductal</td><td>Injection, intraductal</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IDURINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IDURINJ\">IDURINJ</a></td><td>Injection, intradural</td><td>Injection, intradural</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IEPIDINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IEPIDINJ\">IEPIDINJ</a></td><td>Injection, intraepidermal</td><td>Injection, intraepidermal</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IEPITHINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IEPITHINJ\">IEPITHINJ</a></td><td>Injection, intraepithelial</td><td>Injection, intraepithelial</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ILESINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ILESINJ\">ILESINJ</a></td><td>Injection, intralesional</td><td>Injection, intralesional</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ILUMINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ILUMINJ\">ILUMINJ</a></td><td>Injection, intraluminal</td><td>Injection, intraluminal</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ILYMPJINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ILYMPJINJ\">ILYMPJINJ</a></td><td>Injection, intralymphatic</td><td>Injection, intralymphatic</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IM\">IM</a></td><td>Injection, intramuscular</td><td>Injection, intramuscular</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IMD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IMD\">IMD</a></td><td>Injection, intramuscular, deep</td><td>Injection, intramuscular, deep</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IMEDULINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IMEDULINJ\">IMEDULINJ</a></td><td>Injection, intramedullary</td><td>Injection, intramedullary</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IMZ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IMZ\">IMZ</a></td><td>Injection, intramuscular, z track</td><td>Injection, intramuscular, z track</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-INTERMENINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-INTERMENINJ\">INTERMENINJ</a></td><td>Injection, interameningeal</td><td>Injection, interameningeal</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-INTERSTITINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-INTERSTITINJ\">INTERSTITINJ</a></td><td>Injection, interstitial</td><td>Injection, interstitial</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IOINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IOINJ\">IOINJ</a></td><td>Injection, intraocular</td><td>Injection, intraocular</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IOSSINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IOSSINJ\">IOSSINJ</a></td><td>Injection, intraosseous</td><td>Injection, intraosseous</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IOVARINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IOVARINJ\">IOVARINJ</a></td><td>Injection, intraovarian</td><td>Injection, intraovarian</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IPCARDINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IPCARDINJ\">IPCARDINJ</a></td><td>Injection, intrapericardial</td><td>Injection, intrapericardial</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IPERINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IPERINJ\">IPERINJ</a></td><td>Injection, intraperitoneal</td><td>Injection, intraperitoneal</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IPINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IPINJ\">IPINJ</a></td><td>Injection, intrapulmonary</td><td>Injection, intrapulmonary</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IPLRINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IPLRINJ\">IPLRINJ</a></td><td>Injection, intrapleural</td><td>Injection, intrapleural</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IPROSTINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IPROSTINJ\">IPROSTINJ</a></td><td>Injection, intraprostatic</td><td>Injection, intraprostatic</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IPUMPINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IPUMPINJ\">IPUMPINJ</a></td><td>Injection, insulin pump</td><td>Injection, insulin pump</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ISINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ISINJ\">ISINJ</a></td><td>Injection, intraspinal</td><td>Injection, intraspinal</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ISTERINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ISTERINJ\">ISTERINJ</a></td><td>Injection, intrasternal</td><td>Injection, intrasternal</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ISYNINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ISYNINJ\">ISYNINJ</a></td><td>Injection, intrasynovial</td><td>Injection, intrasynovial</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ITENDINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ITENDINJ\">ITENDINJ</a></td><td>Injection, intratendinous</td><td>Injection, intratendinous</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ITESTINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ITESTINJ\">ITESTINJ</a></td><td>Injection, intratesticular</td><td>Injection, intratesticular</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ITHORINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ITHORINJ\">ITHORINJ</a></td><td>Injection, intrathoracic</td><td>Injection, intrathoracic</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ITINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ITINJ\">ITINJ</a></td><td>Injection, intrathecal</td><td>Injection, intrathecal</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ITUBINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ITUBINJ\">ITUBINJ</a></td><td>Injection, intratubular</td><td>Injection, intratubular</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ITUMINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ITUMINJ\">ITUMINJ</a></td><td>Injection, intratumor</td><td>Injection, intratumor</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-ITYMPINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-ITYMPINJ\">ITYMPINJ</a></td><td>Injection, intratympanic</td><td>Injection, intratympanic</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IUINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IUINJ\">IUINJ</a></td><td>Injection, intrauterine</td><td>Injection, intracervical (uterus)</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IUINJC\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IUINJC\">IUINJC</a></td><td>Injection, intracervical (uterus)</td><td>Injection, intracervical (uterus)</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IURETINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IURETINJ\">IURETINJ</a></td><td>Injection, intraureteral, retrograde</td><td>Injection, intraureteral, retrograde</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IVASCINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IVASCINJ\">IVASCINJ</a></td><td>Injection, intravascular</td><td>Injection, intravascular</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IVENTINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IVENTINJ\">IVENTINJ</a></td><td>Injection, intraventricular (heart)</td><td>Injection, intraventricular (heart)</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IVESINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IVESINJ\">IVESINJ</a></td><td>Injection, intravesicle</td><td>Injection, intravesicle</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IVINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IVINJ\">IVINJ</a></td><td>Injection, intravenous</td><td>Injection, intravenous</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IVINJBOL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IVINJBOL\">IVINJBOL</a></td><td>Injection, intravenous, bolus</td><td>Injection, intravenous, bolus</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IVITINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IVITINJ\">IVITINJ</a></td><td>Injection, intravitreal</td><td>Injection, intravitreal</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IVPUSH\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IVPUSH\">IVPUSH</a></td><td>Injection, intravenous, push</td><td>Injection, intravenous, push</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IVRPUSH\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IVRPUSH\">IVRPUSH</a></td><td>Injection, intravenous, rapid push</td><td>Injection, intravenous, rapid push</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-IVSPUSH\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-IVSPUSH\">IVSPUSH</a></td><td>Injection, intravenous, slow push</td><td>Injection, intravenous, slow push</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-PAINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-PAINJ\">PAINJ</a></td><td>Injection, periarticular</td><td>Injection, periarticular</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-PARENTINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-PARENTINJ\">PARENTINJ</a></td><td>Injection, parenteral</td><td>Injection, parenteral</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-PDONTINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-PDONTINJ\">PDONTINJ</a></td><td>Injection, periodontal</td><td>Injection, periodontal</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-PDPINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-PDPINJ\">PDPINJ</a></td><td>Injection, peritoneal dialysis port</td><td>Injection, peritoneal dialysis port</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-PDURINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-PDURINJ\">PDURINJ</a></td><td>Injection, peridural</td><td>Injection, peridural</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-PNINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-PNINJ\">PNINJ</a></td><td>Injection, perineural</td><td>Injection, perineural</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-PNSINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-PNSINJ\">PNSINJ</a></td><td>Injection, paranasal sinuses</td><td>Injection, paranasal sinuses</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-RBINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-RBINJ\">RBINJ</a></td><td>Injection, retrobulbar</td><td>Injection, retrobulbar</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-SCINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-SCINJ\">SCINJ</a></td><td>Injection, subconjunctival</td><td>Injection, subconjunctival</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-SLESINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-SLESINJ\">SLESINJ</a></td><td>Injection, sublesional</td><td>Injection, sublesional</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-SOFTISINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-SOFTISINJ\">SOFTISINJ</a></td><td>Injection, soft tissue</td><td>Injection, soft tissue</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-SQ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-SQ\">SQ</a></td><td>Injection, subcutaneous</td><td>Injection, subcutaneous</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-SUBARACHINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-SUBARACHINJ\">SUBARACHINJ</a></td><td>Injection, subarachnoid</td><td>Injection, subarachnoid</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-SUBMUCINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-SUBMUCINJ\">SUBMUCINJ</a></td><td>Injection, submucosal</td><td>Injection, submucosal</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-TRPLACINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-TRPLACINJ\">TRPLACINJ</a></td><td>Injection, transplacental</td><td>Injection, transplacental</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-TRTRACHINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-TRTRACHINJ\">TRTRACHINJ</a></td><td>Injection, transtracheal</td><td>Injection, transtracheal</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-URETHINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-URETHINJ\">URETHINJ</a></td><td>Injection, urethral</td><td>Injection, urethral</td></tr><tr><td><a name=\"R5-v3-Injection-for-R4-http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration-URETINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-RouteOfAdministration.html#v3-RouteOfAdministration-URETINJ\">URETINJ</a></td><td>Injection, ureteral</td><td>Injection, ureteral</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-Injection-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-Injection-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5V3InjectionForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.Injection for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v3-Injection|2.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/v3-Injection|2.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* \r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://terminology.hl7.org/ValueSet/v3-Injection|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "AMNINJ" ] ;
+         fhir:display [ fhir:v "Injection, amniotic fluid" ]
+       ] [
+         fhir:code [ fhir:v "BILINJ" ] ;
+         fhir:display [ fhir:v "Injection, biliary tract" ]
+       ] [
+         fhir:code [ fhir:v "BLADINJ" ] ;
+         fhir:display [ fhir:v "Injection, urinary bladder" ]
+       ] [
+         fhir:code [ fhir:v "CERVINJ" ] ;
+         fhir:display [ fhir:v "Injection, cervical" ]
+       ] [
+         fhir:code [ fhir:v "CHOLINJ" ] ;
+         fhir:display [ fhir:v "Injection, for cholangiography" ]
+       ] [
+         fhir:code [ fhir:v "ENDOSININJ" ] ;
+         fhir:display [ fhir:v "Injection, endosinusial" ]
+       ] [
+         fhir:code [ fhir:v "EPIDURINJ" ] ;
+         fhir:display [ fhir:v "Injection, epidural" ]
+       ] [
+         fhir:code [ fhir:v "EPIINJ" ] ;
+         fhir:display [ fhir:v "Injection, epidural, push" ]
+       ] [
+         fhir:code [ fhir:v "EPINJSP" ] ;
+         fhir:display [ fhir:v "Injection, epidural, slow push" ]
+       ] [
+         fhir:code [ fhir:v "EXTCORPINJ" ] ;
+         fhir:display [ fhir:v "Injection, extracorporeal" ]
+       ] [
+         fhir:code [ fhir:v "EXTRAMNINJ" ] ;
+         fhir:display [ fhir:v "Injection, extra-amniotic" ]
+       ] [
+         fhir:code [ fhir:v "GBINJ" ] ;
+         fhir:display [ fhir:v "Injection, gastric button" ]
+       ] [
+         fhir:code [ fhir:v "GINGINJ" ] ;
+         fhir:display [ fhir:v "Injection, gingival" ]
+       ] [
+         fhir:code [ fhir:v "HEMOPORT" ] ;
+         fhir:display [ fhir:v "Injection, hemodialysis port" ]
+       ] [
+         fhir:code [ fhir:v "IABDINJ" ] ;
+         fhir:display [ fhir:v "Injection, intra-abdominal" ]
+       ] [
+         fhir:code [ fhir:v "IAINJ" ] ;
+         fhir:display [ fhir:v "Injection, intraarterial" ]
+       ] [
+         fhir:code [ fhir:v "IAINJP" ] ;
+         fhir:display [ fhir:v "Injection, intraarterial, push" ]
+       ] [
+         fhir:code [ fhir:v "IAINJSP" ] ;
+         fhir:display [ fhir:v "Injection, intraarterial, slow push" ]
+       ] [
+         fhir:code [ fhir:v "IARTINJ" ] ;
+         fhir:display [ fhir:v "Injection, intraarticular" ]
+       ] [
+         fhir:code [ fhir:v "IBURSINJ" ] ;
+         fhir:display [ fhir:v "Injection, intrabursal" ]
+       ] [
+         fhir:code [ fhir:v "ICARDINJ" ] ;
+         fhir:display [ fhir:v "Injection, intracardiac" ]
+       ] [
+         fhir:code [ fhir:v "ICARDINJRP" ] ;
+         fhir:display [ fhir:v "Injection, intracardiac, rapid push" ]
+       ] [
+         fhir:code [ fhir:v "ICARDINJSP" ] ;
+         fhir:display [ fhir:v "Injection, intracardiac, slow push" ]
+       ] [
+         fhir:code [ fhir:v "ICARINJP" ] ;
+         fhir:display [ fhir:v "Injection, intracardiac, push" ]
+       ] [
+         fhir:code [ fhir:v "ICARTINJ" ] ;
+         fhir:display [ fhir:v "Injection, intracartilaginous" ]
+       ] [
+         fhir:code [ fhir:v "ICAUDINJ" ] ;
+         fhir:display [ fhir:v "Injection, intracaudal" ]
+       ] [
+         fhir:code [ fhir:v "ICAVINJ" ] ;
+         fhir:display [ fhir:v "Injection, intracavernous" ]
+       ] [
+         fhir:code [ fhir:v "ICAVITINJ" ] ;
+         fhir:display [ fhir:v "Injection, intracavitary" ]
+       ] [
+         fhir:code [ fhir:v "ICEREBINJ" ] ;
+         fhir:display [ fhir:v "Injection, intracerebral" ]
+       ] [
+         fhir:code [ fhir:v "ICISTERNINJ" ] ;
+         fhir:display [ fhir:v "Injection, intracisternal" ]
+       ] [
+         fhir:code [ fhir:v "ICORONINJ" ] ;
+         fhir:display [ fhir:v "Injection, intracoronary" ]
+       ] [
+         fhir:code [ fhir:v "ICORONINJP" ] ;
+         fhir:display [ fhir:v "Injection, intracoronary, push" ]
+       ] [
+         fhir:code [ fhir:v "ICORPCAVINJ" ] ;
+         fhir:display [ fhir:v "Injection, intracorpus cavernosum" ]
+       ] [
+         fhir:code [ fhir:v "IDINJ" ] ;
+         fhir:display [ fhir:v "Injection, intradermal" ]
+       ] [
+         fhir:code [ fhir:v "IDISCINJ" ] ;
+         fhir:display [ fhir:v "Injection, intradiscal" ]
+       ] [
+         fhir:code [ fhir:v "IDUCTINJ" ] ;
+         fhir:display [ fhir:v "Injection, intraductal" ]
+       ] [
+         fhir:code [ fhir:v "IDURINJ" ] ;
+         fhir:display [ fhir:v "Injection, intradural" ]
+       ] [
+         fhir:code [ fhir:v "IEPIDINJ" ] ;
+         fhir:display [ fhir:v "Injection, intraepidermal" ]
+       ] [
+         fhir:code [ fhir:v "IEPITHINJ" ] ;
+         fhir:display [ fhir:v "Injection, intraepithelial" ]
+       ] [
+         fhir:code [ fhir:v "ILESINJ" ] ;
+         fhir:display [ fhir:v "Injection, intralesional" ]
+       ] [
+         fhir:code [ fhir:v "ILUMINJ" ] ;
+         fhir:display [ fhir:v "Injection, intraluminal" ]
+       ] [
+         fhir:code [ fhir:v "ILYMPJINJ" ] ;
+         fhir:display [ fhir:v "Injection, intralymphatic" ]
+       ] [
+         fhir:code [ fhir:v "IM" ] ;
+         fhir:display [ fhir:v "Injection, intramuscular" ]
+       ] [
+         fhir:code [ fhir:v "IMD" ] ;
+         fhir:display [ fhir:v "Injection, intramuscular, deep" ]
+       ] [
+         fhir:code [ fhir:v "IMEDULINJ" ] ;
+         fhir:display [ fhir:v "Injection, intramedullary" ]
+       ] [
+         fhir:code [ fhir:v "IMZ" ] ;
+         fhir:display [ fhir:v "Injection, intramuscular, z track" ]
+       ] [
+         fhir:code [ fhir:v "INTERMENINJ" ] ;
+         fhir:display [ fhir:v "Injection, interameningeal" ]
+       ] [
+         fhir:code [ fhir:v "INTERSTITINJ" ] ;
+         fhir:display [ fhir:v "Injection, interstitial" ]
+       ] [
+         fhir:code [ fhir:v "IOINJ" ] ;
+         fhir:display [ fhir:v "Injection, intraocular" ]
+       ] [
+         fhir:code [ fhir:v "IOSSINJ" ] ;
+         fhir:display [ fhir:v "Injection, intraosseous" ]
+       ] [
+         fhir:code [ fhir:v "IOVARINJ" ] ;
+         fhir:display [ fhir:v "Injection, intraovarian" ]
+       ] [
+         fhir:code [ fhir:v "IPCARDINJ" ] ;
+         fhir:display [ fhir:v "Injection, intrapericardial" ]
+       ] [
+         fhir:code [ fhir:v "IPERINJ" ] ;
+         fhir:display [ fhir:v "Injection, intraperitoneal" ]
+       ] [
+         fhir:code [ fhir:v "IPINJ" ] ;
+         fhir:display [ fhir:v "Injection, intrapulmonary" ]
+       ] [
+         fhir:code [ fhir:v "IPLRINJ" ] ;
+         fhir:display [ fhir:v "Injection, intrapleural" ]
+       ] [
+         fhir:code [ fhir:v "IPROSTINJ" ] ;
+         fhir:display [ fhir:v "Injection, intraprostatic" ]
+       ] [
+         fhir:code [ fhir:v "IPUMPINJ" ] ;
+         fhir:display [ fhir:v "Injection, insulin pump" ]
+       ] [
+         fhir:code [ fhir:v "ISINJ" ] ;
+         fhir:display [ fhir:v "Injection, intraspinal" ]
+       ] [
+         fhir:code [ fhir:v "ISTERINJ" ] ;
+         fhir:display [ fhir:v "Injection, intrasternal" ]
+       ] [
+         fhir:code [ fhir:v "ISYNINJ" ] ;
+         fhir:display [ fhir:v "Injection, intrasynovial" ]
+       ] [
+         fhir:code [ fhir:v "ITENDINJ" ] ;
+         fhir:display [ fhir:v "Injection, intratendinous" ]
+       ] [
+         fhir:code [ fhir:v "ITESTINJ" ] ;
+         fhir:display [ fhir:v "Injection, intratesticular" ]
+       ] [
+         fhir:code [ fhir:v "ITHORINJ" ] ;
+         fhir:display [ fhir:v "Injection, intrathoracic" ]
+       ] [
+         fhir:code [ fhir:v "ITINJ" ] ;
+         fhir:display [ fhir:v "Injection, intrathecal" ]
+       ] [
+         fhir:code [ fhir:v "ITUBINJ" ] ;
+         fhir:display [ fhir:v "Injection, intratubular" ]
+       ] [
+         fhir:code [ fhir:v "ITUMINJ" ] ;
+         fhir:display [ fhir:v "Injection, intratumor" ]
+       ] [
+         fhir:code [ fhir:v "ITYMPINJ" ] ;
+         fhir:display [ fhir:v "Injection, intratympanic" ]
+       ] [
+         fhir:code [ fhir:v "IUINJ" ] ;
+         fhir:display [ fhir:v "Injection, intrauterine" ]
+       ] [
+         fhir:code [ fhir:v "IUINJC" ] ;
+         fhir:display [ fhir:v "Injection, intracervical (uterus)" ]
+       ] [
+         fhir:code [ fhir:v "IURETINJ" ] ;
+         fhir:display [ fhir:v "Injection, intraureteral, retrograde" ]
+       ] [
+         fhir:code [ fhir:v "IVASCINJ" ] ;
+         fhir:display [ fhir:v "Injection, intravascular" ]
+       ] [
+         fhir:code [ fhir:v "IVENTINJ" ] ;
+         fhir:display [ fhir:v "Injection, intraventricular (heart)" ]
+       ] [
+         fhir:code [ fhir:v "IVESINJ" ] ;
+         fhir:display [ fhir:v "Injection, intravesicle" ]
+       ] [
+         fhir:code [ fhir:v "IVINJ" ] ;
+         fhir:display [ fhir:v "Injection, intravenous" ]
+       ] [
+         fhir:code [ fhir:v "IVINJBOL" ] ;
+         fhir:display [ fhir:v "Injection, intravenous, bolus" ]
+       ] [
+         fhir:code [ fhir:v "IVITINJ" ] ;
+         fhir:display [ fhir:v "Injection, intravitreal" ]
+       ] [
+         fhir:code [ fhir:v "IVPUSH" ] ;
+         fhir:display [ fhir:v "Injection, intravenous, push" ]
+       ] [
+         fhir:code [ fhir:v "IVRPUSH" ] ;
+         fhir:display [ fhir:v "Injection, intravenous, rapid push" ]
+       ] [
+         fhir:code [ fhir:v "IVSPUSH" ] ;
+         fhir:display [ fhir:v "Injection, intravenous, slow push" ]
+       ] [
+         fhir:code [ fhir:v "PAINJ" ] ;
+         fhir:display [ fhir:v "Injection, periarticular" ]
+       ] [
+         fhir:code [ fhir:v "PARENTINJ" ] ;
+         fhir:display [ fhir:v "Injection, parenteral" ]
+       ] [
+         fhir:code [ fhir:v "PDONTINJ" ] ;
+         fhir:display [ fhir:v "Injection, periodontal" ]
+       ] [
+         fhir:code [ fhir:v "PDPINJ" ] ;
+         fhir:display [ fhir:v "Injection, peritoneal dialysis port" ]
+       ] [
+         fhir:code [ fhir:v "PDURINJ" ] ;
+         fhir:display [ fhir:v "Injection, peridural" ]
+       ] [
+         fhir:code [ fhir:v "PNINJ" ] ;
+         fhir:display [ fhir:v "Injection, perineural" ]
+       ] [
+         fhir:code [ fhir:v "PNSINJ" ] ;
+         fhir:display [ fhir:v "Injection, paranasal sinuses" ]
+       ] [
+         fhir:code [ fhir:v "RBINJ" ] ;
+         fhir:display [ fhir:v "Injection, retrobulbar" ]
+       ] [
+         fhir:code [ fhir:v "SCINJ" ] ;
+         fhir:display [ fhir:v "Injection, subconjunctival" ]
+       ] [
+         fhir:code [ fhir:v "SLESINJ" ] ;
+         fhir:display [ fhir:v "Injection, sublesional" ]
+       ] [
+         fhir:code [ fhir:v "SOFTISINJ" ] ;
+         fhir:display [ fhir:v "Injection, soft tissue" ]
+       ] [
+         fhir:code [ fhir:v "SQ" ] ;
+         fhir:display [ fhir:v "Injection, subcutaneous" ]
+       ] [
+         fhir:code [ fhir:v "SUBARACHINJ" ] ;
+         fhir:display [ fhir:v "Injection, subarachnoid" ]
+       ] [
+         fhir:code [ fhir:v "SUBMUCINJ" ] ;
+         fhir:display [ fhir:v "Injection, submucosal" ]
+       ] [
+         fhir:code [ fhir:v "TRPLACINJ" ] ;
+         fhir:display [ fhir:v "Injection, transplacental" ]
+       ] [
+         fhir:code [ fhir:v "TRTRACHINJ" ] ;
+         fhir:display [ fhir:v "Injection, transtracheal" ]
+       ] [
+         fhir:code [ fhir:v "URETHINJ" ] ;
+         fhir:display [ fhir:v "Injection, urethral" ]
+       ] [
+         fhir:code [ fhir:v "URETINJ" ] ;
+         fhir:display [ fhir:v "Injection, ureteral" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "AMNINJ" ] ;
+       fhir:display [ fhir:v "Injection, amniotic fluid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BILINJ" ] ;
+       fhir:display [ fhir:v "Injection, biliary tract" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BLADINJ" ] ;
+       fhir:display [ fhir:v "Injection, urinary bladder" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CERVINJ" ] ;
+       fhir:display [ fhir:v "Injection, cervical" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CHOLINJ" ] ;
+       fhir:display [ fhir:v "Injection, for cholangiography" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ENDOSININJ" ] ;
+       fhir:display [ fhir:v "Injection, endosinusial" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "EPIDURINJ" ] ;
+       fhir:display [ fhir:v "Injection, epidural" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "EPIINJ" ] ;
+       fhir:display [ fhir:v "Injection, epidural, push" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "EPINJSP" ] ;
+       fhir:display [ fhir:v "Injection, epidural, slow push" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "EXTCORPINJ" ] ;
+       fhir:display [ fhir:v "Injection, extracorporeal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "EXTRAMNINJ" ] ;
+       fhir:display [ fhir:v "Injection, extra-amniotic" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "GBINJ" ] ;
+       fhir:display [ fhir:v "Injection, gastric button" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "GINGINJ" ] ;
+       fhir:display [ fhir:v "Injection, gingival" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "HEMOPORT" ] ;
+       fhir:display [ fhir:v "Injection, hemodialysis port" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IABDINJ" ] ;
+       fhir:display [ fhir:v "Injection, intra-abdominal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IAINJ" ] ;
+       fhir:display [ fhir:v "Injection, intraarterial" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IAINJP" ] ;
+       fhir:display [ fhir:v "Injection, intraarterial, push" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IAINJSP" ] ;
+       fhir:display [ fhir:v "Injection, intraarterial, slow push" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IARTINJ" ] ;
+       fhir:display [ fhir:v "Injection, intraarticular" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IBURSINJ" ] ;
+       fhir:display [ fhir:v "Injection, intrabursal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ICARDINJ" ] ;
+       fhir:display [ fhir:v "Injection, intracardiac" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ICARDINJRP" ] ;
+       fhir:display [ fhir:v "Injection, intracardiac, rapid push" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ICARDINJSP" ] ;
+       fhir:display [ fhir:v "Injection, intracardiac, slow push" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ICARINJP" ] ;
+       fhir:display [ fhir:v "Injection, intracardiac, push" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ICARTINJ" ] ;
+       fhir:display [ fhir:v "Injection, intracartilaginous" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ICAUDINJ" ] ;
+       fhir:display [ fhir:v "Injection, intracaudal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ICAVINJ" ] ;
+       fhir:display [ fhir:v "Injection, intracavernous" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ICAVITINJ" ] ;
+       fhir:display [ fhir:v "Injection, intracavitary" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ICEREBINJ" ] ;
+       fhir:display [ fhir:v "Injection, intracerebral" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ICISTERNINJ" ] ;
+       fhir:display [ fhir:v "Injection, intracisternal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ICORONINJ" ] ;
+       fhir:display [ fhir:v "Injection, intracoronary" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ICORONINJP" ] ;
+       fhir:display [ fhir:v "Injection, intracoronary, push" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ICORPCAVINJ" ] ;
+       fhir:display [ fhir:v "Injection, intracorpus cavernosum" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IDINJ" ] ;
+       fhir:display [ fhir:v "Injection, intradermal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IDISCINJ" ] ;
+       fhir:display [ fhir:v "Injection, intradiscal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IDUCTINJ" ] ;
+       fhir:display [ fhir:v "Injection, intraductal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IDURINJ" ] ;
+       fhir:display [ fhir:v "Injection, intradural" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IEPIDINJ" ] ;
+       fhir:display [ fhir:v "Injection, intraepidermal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IEPITHINJ" ] ;
+       fhir:display [ fhir:v "Injection, intraepithelial" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ILESINJ" ] ;
+       fhir:display [ fhir:v "Injection, intralesional" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ILUMINJ" ] ;
+       fhir:display [ fhir:v "Injection, intraluminal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ILYMPJINJ" ] ;
+       fhir:display [ fhir:v "Injection, intralymphatic" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IM" ] ;
+       fhir:display [ fhir:v "Injection, intramuscular" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IMD" ] ;
+       fhir:display [ fhir:v "Injection, intramuscular, deep" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IMEDULINJ" ] ;
+       fhir:display [ fhir:v "Injection, intramedullary" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IMZ" ] ;
+       fhir:display [ fhir:v "Injection, intramuscular, z track" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "INTERMENINJ" ] ;
+       fhir:display [ fhir:v "Injection, interameningeal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "INTERSTITINJ" ] ;
+       fhir:display [ fhir:v "Injection, interstitial" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IOINJ" ] ;
+       fhir:display [ fhir:v "Injection, intraocular" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IOSSINJ" ] ;
+       fhir:display [ fhir:v "Injection, intraosseous" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IOVARINJ" ] ;
+       fhir:display [ fhir:v "Injection, intraovarian" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IPCARDINJ" ] ;
+       fhir:display [ fhir:v "Injection, intrapericardial" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IPERINJ" ] ;
+       fhir:display [ fhir:v "Injection, intraperitoneal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IPINJ" ] ;
+       fhir:display [ fhir:v "Injection, intrapulmonary" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IPLRINJ" ] ;
+       fhir:display [ fhir:v "Injection, intrapleural" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IPROSTINJ" ] ;
+       fhir:display [ fhir:v "Injection, intraprostatic" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IPUMPINJ" ] ;
+       fhir:display [ fhir:v "Injection, insulin pump" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ISINJ" ] ;
+       fhir:display [ fhir:v "Injection, intraspinal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ISTERINJ" ] ;
+       fhir:display [ fhir:v "Injection, intrasternal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ISYNINJ" ] ;
+       fhir:display [ fhir:v "Injection, intrasynovial" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ITENDINJ" ] ;
+       fhir:display [ fhir:v "Injection, intratendinous" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ITESTINJ" ] ;
+       fhir:display [ fhir:v "Injection, intratesticular" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ITHORINJ" ] ;
+       fhir:display [ fhir:v "Injection, intrathoracic" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ITINJ" ] ;
+       fhir:display [ fhir:v "Injection, intrathecal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ITUBINJ" ] ;
+       fhir:display [ fhir:v "Injection, intratubular" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ITUMINJ" ] ;
+       fhir:display [ fhir:v "Injection, intratumor" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ITYMPINJ" ] ;
+       fhir:display [ fhir:v "Injection, intratympanic" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IUINJ" ] ;
+       fhir:display [ fhir:v "Injection, intrauterine" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IUINJC" ] ;
+       fhir:display [ fhir:v "Injection, intracervical (uterus)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IURETINJ" ] ;
+       fhir:display [ fhir:v "Injection, intraureteral, retrograde" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IVASCINJ" ] ;
+       fhir:display [ fhir:v "Injection, intravascular" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IVENTINJ" ] ;
+       fhir:display [ fhir:v "Injection, intraventricular (heart)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IVESINJ" ] ;
+       fhir:display [ fhir:v "Injection, intravesicle" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IVINJ" ] ;
+       fhir:display [ fhir:v "Injection, intravenous" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IVINJBOL" ] ;
+       fhir:display [ fhir:v "Injection, intravenous, bolus" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IVITINJ" ] ;
+       fhir:display [ fhir:v "Injection, intravitreal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IVPUSH" ] ;
+       fhir:display [ fhir:v "Injection, intravenous, push" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IVRPUSH" ] ;
+       fhir:display [ fhir:v "Injection, intravenous, rapid push" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IVSPUSH" ] ;
+       fhir:display [ fhir:v "Injection, intravenous, slow push" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PAINJ" ] ;
+       fhir:display [ fhir:v "Injection, periarticular" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PARENTINJ" ] ;
+       fhir:display [ fhir:v "Injection, parenteral" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PDONTINJ" ] ;
+       fhir:display [ fhir:v "Injection, periodontal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PDPINJ" ] ;
+       fhir:display [ fhir:v "Injection, peritoneal dialysis port" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PDURINJ" ] ;
+       fhir:display [ fhir:v "Injection, peridural" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PNINJ" ] ;
+       fhir:display [ fhir:v "Injection, perineural" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PNSINJ" ] ;
+       fhir:display [ fhir:v "Injection, paranasal sinuses" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "RBINJ" ] ;
+       fhir:display [ fhir:v "Injection, retrobulbar" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SCINJ" ] ;
+       fhir:display [ fhir:v "Injection, subconjunctival" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SLESINJ" ] ;
+       fhir:display [ fhir:v "Injection, sublesional" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SOFTISINJ" ] ;
+       fhir:display [ fhir:v "Injection, soft tissue" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SQ" ] ;
+       fhir:display [ fhir:v "Injection, subcutaneous" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SUBARACHINJ" ] ;
+       fhir:display [ fhir:v "Injection, subarachnoid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SUBMUCINJ" ] ;
+       fhir:display [ fhir:v "Injection, submucosal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TRPLACINJ" ] ;
+       fhir:display [ fhir:v "Injection, transplacental" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TRTRACHINJ" ] ;
+       fhir:display [ fhir:v "Injection, transtracheal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "URETHINJ" ] ;
+       fhir:display [ fhir:v "Injection, urethral" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "URETINJ" ] ;
+       fhir:display [ fhir:v "Injection, ureteral" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

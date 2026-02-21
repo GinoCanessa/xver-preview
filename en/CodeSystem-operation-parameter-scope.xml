@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="operation-parameter-scope"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/operation-parameter-scope</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">instance
+                  <a name="operation-parameter-scope-instance"> </a>
+                </td>
+                <td>Instance</td>
+                <td>This is a parameter that can be used at the instance level.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">type
+                  <a name="operation-parameter-scope-type"> </a>
+                </td>
+                <td>Type</td>
+                <td>This is a parameter that can be used at the type level.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">system
+                  <a name="operation-parameter-scope-system"> </a>
+                </td>
+                <td>System</td>
+                <td>This is a parameter that can be used at the system level.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="normative"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="5"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+    <valueCode value="5.0.0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <url value="http://hl7.org/fhir/operation-parameter-scope"/>
+  <version value="5.0.0"/>
+  <name value="OperationParameterScope"/>
+  <title value="Operation Parameter Use"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="Indicates that a parameter applies when the operation is being invoked at the specified level"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/operation-parameter-scope"/>
+  <content value="complete"/>
+  <concept>
+    <code value="instance"/>
+    <display value="Instance"/>
+    <definition value="This is a parameter that can be used at the instance level."/>
+  </concept>
+  <concept>
+    <code value="type"/>
+    <display value="Type"/>
+    <definition value="This is a parameter that can be used at the type level."/>
+  </concept>
+  <concept>
+    <code value="system"/>
+    <display value="System"/>
+    <definition value="This is a parameter that can be used at the system level."/>
+  </concept>
+</CodeSystem>

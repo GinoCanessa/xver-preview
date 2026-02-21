@@ -1,0 +1,378 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-regulated-authorization-case-type-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-regulated-authorization-case-type-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-regulated-authorization-case-type-for-R4</b></p><a name=\"R5-regulated-authorization-case-type-for-R4\"> </a><a name=\"hcR5-regulated-authorization-case-type-for-R4\"> </a><p>This value set expansion contains 22 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-regulated-authorization-case-type-for-R4-http://hl7.org/fhir/regulated-authorization-case-type-100000155699\"> </a><code>http://hl7.org/fhir/regulated-authorization-case-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-regulated-authorization-case-type.html#regulated-authorization-case-type-100000155699\">100000155699</a></td><td>Specific Obligation</td></tr><tr><td><a name=\"R5-regulated-authorization-case-type-for-R4-http://hl7.org/fhir/regulated-authorization-case-type-AnnualReassessment\"> </a><code>http://hl7.org/fhir/regulated-authorization-case-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-regulated-authorization-case-type.html#regulated-authorization-case-type-AnnualReassessment\">AnnualReassessment</a></td><td>Annual Reassessment</td></tr><tr><td><a name=\"R5-regulated-authorization-case-type-for-R4-http://hl7.org/fhir/regulated-authorization-case-type-FLU\"> </a><code>http://hl7.org/fhir/regulated-authorization-case-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-regulated-authorization-case-type.html#regulated-authorization-case-type-FLU\">FLU</a></td><td>FLU STRAIN UPDATE</td></tr><tr><td><a name=\"R5-regulated-authorization-case-type-for-R4-http://hl7.org/fhir/regulated-authorization-case-type-Follow-up\"> </a><code>http://hl7.org/fhir/regulated-authorization-case-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-regulated-authorization-case-type.html#regulated-authorization-case-type-Follow-up\">Follow-up</a></td><td>Follow-up Measure</td></tr><tr><td><a name=\"R5-regulated-authorization-case-type-for-R4-http://hl7.org/fhir/regulated-authorization-case-type-InitialMAA\"> </a><code>http://hl7.org/fhir/regulated-authorization-case-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-regulated-authorization-case-type.html#regulated-authorization-case-type-InitialMAA\">InitialMAA</a></td><td>Initial Marketing Authorization Application</td></tr><tr><td><a name=\"R5-regulated-authorization-case-type-for-R4-http://hl7.org/fhir/regulated-authorization-case-type-LiftingSuspension\"> </a><code>http://hl7.org/fhir/regulated-authorization-case-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-regulated-authorization-case-type.html#regulated-authorization-case-type-LiftingSuspension\">LiftingSuspension</a></td><td>Lifting of a Suspension</td></tr><tr><td><a name=\"R5-regulated-authorization-case-type-for-R4-http://hl7.org/fhir/regulated-authorization-case-type-LineExtension\"> </a><code>http://hl7.org/fhir/regulated-authorization-case-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-regulated-authorization-case-type.html#regulated-authorization-case-type-LineExtension\">LineExtension</a></td><td>Line Extension</td></tr><tr><td><a name=\"R5-regulated-authorization-case-type-for-R4-http://hl7.org/fhir/regulated-authorization-case-type-Orphan\"> </a><code>http://hl7.org/fhir/regulated-authorization-case-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-regulated-authorization-case-type.html#regulated-authorization-case-type-Orphan\">Orphan</a></td><td>Orphan Designation Application</td></tr><tr><td><a name=\"R5-regulated-authorization-case-type-for-R4-http://hl7.org/fhir/regulated-authorization-case-type-PANDEMIC\"> </a><code>http://hl7.org/fhir/regulated-authorization-case-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-regulated-authorization-case-type.html#regulated-authorization-case-type-PANDEMIC\">PANDEMIC</a></td><td>PANDEMIC UPDATE</td></tr><tr><td><a name=\"R5-regulated-authorization-case-type-for-R4-http://hl7.org/fhir/regulated-authorization-case-type-PSUR\"> </a><code>http://hl7.org/fhir/regulated-authorization-case-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-regulated-authorization-case-type.html#regulated-authorization-case-type-PSUR\">PSUR</a></td><td>Periodic Safety Update Report</td></tr><tr><td><a name=\"R5-regulated-authorization-case-type-for-R4-http://hl7.org/fhir/regulated-authorization-case-type-PaediatricSubmission\"> </a><code>http://hl7.org/fhir/regulated-authorization-case-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-regulated-authorization-case-type.html#regulated-authorization-case-type-PaediatricSubmission\">PaediatricSubmission</a></td><td>Paediatric Submission</td></tr><tr><td><a name=\"R5-regulated-authorization-case-type-for-R4-http://hl7.org/fhir/regulated-authorization-case-type-RMP\"> </a><code>http://hl7.org/fhir/regulated-authorization-case-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-regulated-authorization-case-type.html#regulated-authorization-case-type-RMP\">RMP</a></td><td>Risk Management Plan</td></tr><tr><td><a name=\"R5-regulated-authorization-case-type-for-R4-http://hl7.org/fhir/regulated-authorization-case-type-Reformatting\"> </a><code>http://hl7.org/fhir/regulated-authorization-case-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-regulated-authorization-case-type.html#regulated-authorization-case-type-Reformatting\">Reformatting</a></td><td>Reformatting</td></tr><tr><td><a name=\"R5-regulated-authorization-case-type-for-R4-http://hl7.org/fhir/regulated-authorization-case-type-Renewal\"> </a><code>http://hl7.org/fhir/regulated-authorization-case-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-regulated-authorization-case-type.html#regulated-authorization-case-type-Renewal\">Renewal</a></td><td>Renewal</td></tr><tr><td><a name=\"R5-regulated-authorization-case-type-for-R4-http://hl7.org/fhir/regulated-authorization-case-type-RepeatUse\"> </a><code>http://hl7.org/fhir/regulated-authorization-case-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-regulated-authorization-case-type.html#regulated-authorization-case-type-RepeatUse\">RepeatUse</a></td><td>Repeat Use Procedure</td></tr><tr><td><a name=\"R5-regulated-authorization-case-type-for-R4-http://hl7.org/fhir/regulated-authorization-case-type-ReviewSuspension\"> </a><code>http://hl7.org/fhir/regulated-authorization-case-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-regulated-authorization-case-type.html#regulated-authorization-case-type-ReviewSuspension\">ReviewSuspension</a></td><td>Review of a Suspension of MA</td></tr><tr><td><a name=\"R5-regulated-authorization-case-type-for-R4-http://hl7.org/fhir/regulated-authorization-case-type-SignalDetection\"> </a><code>http://hl7.org/fhir/regulated-authorization-case-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-regulated-authorization-case-type.html#regulated-authorization-case-type-SignalDetection\">SignalDetection</a></td><td>Signal detection</td></tr><tr><td><a name=\"R5-regulated-authorization-case-type-for-R4-http://hl7.org/fhir/regulated-authorization-case-type-SupplementalInformation\"> </a><code>http://hl7.org/fhir/regulated-authorization-case-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-regulated-authorization-case-type.html#regulated-authorization-case-type-SupplementalInformation\">SupplementalInformation</a></td><td>Supplemental Information</td></tr><tr><td><a name=\"R5-regulated-authorization-case-type-for-R4-http://hl7.org/fhir/regulated-authorization-case-type-TransferMA\"> </a><code>http://hl7.org/fhir/regulated-authorization-case-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-regulated-authorization-case-type.html#regulated-authorization-case-type-TransferMA\">TransferMA</a></td><td>Transfer of a marketing authorization</td></tr><tr><td><a name=\"R5-regulated-authorization-case-type-for-R4-http://hl7.org/fhir/regulated-authorization-case-type-UrgentSafetyRestriction\"> </a><code>http://hl7.org/fhir/regulated-authorization-case-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-regulated-authorization-case-type.html#regulated-authorization-case-type-UrgentSafetyRestriction\">UrgentSafetyRestriction</a></td><td>Urgent Safety Restriction</td></tr><tr><td><a name=\"R5-regulated-authorization-case-type-for-R4-http://hl7.org/fhir/regulated-authorization-case-type-Variation\"> </a><code>http://hl7.org/fhir/regulated-authorization-case-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-regulated-authorization-case-type.html#regulated-authorization-case-type-Variation\">Variation</a></td><td>Variation</td></tr><tr><td><a name=\"R5-regulated-authorization-case-type-for-R4-http://hl7.org/fhir/regulated-authorization-case-type-Withdrawal\"> </a><code>http://hl7.org/fhir/regulated-authorization-case-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-regulated-authorization-case-type.html#regulated-authorization-case-type-Withdrawal\">Withdrawal</a></td><td>Withdrawal</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "brr"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-regulated-authorization-case-type-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-regulated-authorization-case-type-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5RegulatedAuthorizationCaseTypeForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.RegulatedAuthorizationCaseType for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Biomedical Research and Regulation"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Biomedical Research and Regulation" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/rcrim" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/regulated-authorization-case-type|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/regulated-authorization-case-type|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `RegulatedAuthorization.case.type` as Example\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/regulated-authorization-case-type|5.0.0`\n* `http://hl7.org/fhir/ValueSet/regulated-authorization-case-type|4.3.0`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\nAll concepts in the comparison are have code literals listed as identical.\nThe source and target value sets have the same number of active concepts (22).\nFHIR ValueSet `http://hl7.org/fhir/ValueSet/regulated-authorization-case-type|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/regulated-authorization-case-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/regulated-authorization-case-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "100000155699" ] ;
+         fhir:display [ fhir:v "Specific Obligation" ]
+       ] [
+         fhir:code [ fhir:v "AnnualReassessment" ] ;
+         fhir:display [ fhir:v "Annual Reassessment" ]
+       ] [
+         fhir:code [ fhir:v "FLU" ] ;
+         fhir:display [ fhir:v "FLU STRAIN UPDATE" ]
+       ] [
+         fhir:code [ fhir:v "Follow-up" ] ;
+         fhir:display [ fhir:v "Follow-up Measure" ]
+       ] [
+         fhir:code [ fhir:v "InitialMAA" ] ;
+         fhir:display [ fhir:v "Initial Marketing Authorization Application" ]
+       ] [
+         fhir:code [ fhir:v "LiftingSuspension" ] ;
+         fhir:display [ fhir:v "Lifting of a Suspension" ]
+       ] [
+         fhir:code [ fhir:v "LineExtension" ] ;
+         fhir:display [ fhir:v "Line Extension" ]
+       ] [
+         fhir:code [ fhir:v "Orphan" ] ;
+         fhir:display [ fhir:v "Orphan Designation Application" ]
+       ] [
+         fhir:code [ fhir:v "PANDEMIC" ] ;
+         fhir:display [ fhir:v "PANDEMIC UPDATE" ]
+       ] [
+         fhir:code [ fhir:v "PSUR" ] ;
+         fhir:display [ fhir:v "Periodic Safety Update Report" ]
+       ] [
+         fhir:code [ fhir:v "PaediatricSubmission" ] ;
+         fhir:display [ fhir:v "Paediatric Submission" ]
+       ] [
+         fhir:code [ fhir:v "RMP" ] ;
+         fhir:display [ fhir:v "Risk Management Plan" ]
+       ] [
+         fhir:code [ fhir:v "Reformatting" ] ;
+         fhir:display [ fhir:v "Reformatting" ]
+       ] [
+         fhir:code [ fhir:v "Renewal" ] ;
+         fhir:display [ fhir:v "Renewal" ]
+       ] [
+         fhir:code [ fhir:v "RepeatUse" ] ;
+         fhir:display [ fhir:v "Repeat Use Procedure" ]
+       ] [
+         fhir:code [ fhir:v "ReviewSuspension" ] ;
+         fhir:display [ fhir:v "Review of a Suspension of MA" ]
+       ] [
+         fhir:code [ fhir:v "SignalDetection" ] ;
+         fhir:display [ fhir:v "Signal detection" ]
+       ] [
+         fhir:code [ fhir:v "SupplementalInformation" ] ;
+         fhir:display [ fhir:v "Supplemental Information" ]
+       ] [
+         fhir:code [ fhir:v "TransferMA" ] ;
+         fhir:display [ fhir:v "Transfer of a marketing authorization" ]
+       ] [
+         fhir:code [ fhir:v "UrgentSafetyRestriction" ] ;
+         fhir:display [ fhir:v "Urgent Safety Restriction" ]
+       ] [
+         fhir:code [ fhir:v "Variation" ] ;
+         fhir:display [ fhir:v "Variation" ]
+       ] [
+         fhir:code [ fhir:v "Withdrawal" ] ;
+         fhir:display [ fhir:v "Withdrawal" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/regulated-authorization-case-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/regulated-authorization-case-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000155699" ] ;
+       fhir:display [ fhir:v "Specific Obligation" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/regulated-authorization-case-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/regulated-authorization-case-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "AnnualReassessment" ] ;
+       fhir:display [ fhir:v "Annual Reassessment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/regulated-authorization-case-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/regulated-authorization-case-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "FLU" ] ;
+       fhir:display [ fhir:v "FLU STRAIN UPDATE" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/regulated-authorization-case-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/regulated-authorization-case-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Follow-up" ] ;
+       fhir:display [ fhir:v "Follow-up Measure" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/regulated-authorization-case-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/regulated-authorization-case-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "InitialMAA" ] ;
+       fhir:display [ fhir:v "Initial Marketing Authorization Application" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/regulated-authorization-case-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/regulated-authorization-case-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "LiftingSuspension" ] ;
+       fhir:display [ fhir:v "Lifting of a Suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/regulated-authorization-case-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/regulated-authorization-case-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "LineExtension" ] ;
+       fhir:display [ fhir:v "Line Extension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/regulated-authorization-case-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/regulated-authorization-case-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Orphan" ] ;
+       fhir:display [ fhir:v "Orphan Designation Application" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/regulated-authorization-case-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/regulated-authorization-case-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "PANDEMIC" ] ;
+       fhir:display [ fhir:v "PANDEMIC UPDATE" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/regulated-authorization-case-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/regulated-authorization-case-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "PSUR" ] ;
+       fhir:display [ fhir:v "Periodic Safety Update Report" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/regulated-authorization-case-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/regulated-authorization-case-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "PaediatricSubmission" ] ;
+       fhir:display [ fhir:v "Paediatric Submission" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/regulated-authorization-case-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/regulated-authorization-case-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "RMP" ] ;
+       fhir:display [ fhir:v "Risk Management Plan" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/regulated-authorization-case-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/regulated-authorization-case-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Reformatting" ] ;
+       fhir:display [ fhir:v "Reformatting" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/regulated-authorization-case-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/regulated-authorization-case-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Renewal" ] ;
+       fhir:display [ fhir:v "Renewal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/regulated-authorization-case-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/regulated-authorization-case-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "RepeatUse" ] ;
+       fhir:display [ fhir:v "Repeat Use Procedure" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/regulated-authorization-case-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/regulated-authorization-case-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "ReviewSuspension" ] ;
+       fhir:display [ fhir:v "Review of a Suspension of MA" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/regulated-authorization-case-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/regulated-authorization-case-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SignalDetection" ] ;
+       fhir:display [ fhir:v "Signal detection" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/regulated-authorization-case-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/regulated-authorization-case-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SupplementalInformation" ] ;
+       fhir:display [ fhir:v "Supplemental Information" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/regulated-authorization-case-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/regulated-authorization-case-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "TransferMA" ] ;
+       fhir:display [ fhir:v "Transfer of a marketing authorization" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/regulated-authorization-case-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/regulated-authorization-case-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "UrgentSafetyRestriction" ] ;
+       fhir:display [ fhir:v "Urgent Safety Restriction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/regulated-authorization-case-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/regulated-authorization-case-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Variation" ] ;
+       fhir:display [ fhir:v "Variation" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/regulated-authorization-case-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/regulated-authorization-case-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Withdrawal" ] ;
+       fhir:display [ fhir:v "Withdrawal" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

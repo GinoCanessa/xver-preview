@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-inventoryreport-status-for-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-inventoryreport-status-for-R4</b></p><a name="R5-inventoryreport-status-for-R4"> </a><a name="hcR5-inventoryreport-status-for-R4"> </a><p>This value set expansion contains 4 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="R5-inventoryreport-status-for-R4-http://hl7.org/fhir/inventoryreport-status-active"> </a><code>http://hl7.org/fhir/inventoryreport-status</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-inventoryreport-status.html#inventoryreport-status-active">active</a></td><td>Active</td><td>This report is submitted as current.</td></tr><tr><td><a name="R5-inventoryreport-status-for-R4-http://hl7.org/fhir/inventoryreport-status-draft"> </a><code>http://hl7.org/fhir/inventoryreport-status</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-inventoryreport-status.html#inventoryreport-status-draft">draft</a></td><td>Draft</td><td>The existence of the report is registered, but it is still without content or only some preliminary content.</td></tr><tr><td><a name="R5-inventoryreport-status-for-R4-http://hl7.org/fhir/inventoryreport-status-entered-in-error"> </a><code>http://hl7.org/fhir/inventoryreport-status</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-inventoryreport-status.html#inventoryreport-status-entered-in-error">entered-in-error</a></td><td>Entered in Error</td><td>The report has been withdrawn following a previous final release.  This electronic record should never have existed, though it is possible that real-world decisions were based on it.</td></tr><tr><td><a name="R5-inventoryreport-status-for-R4-http://hl7.org/fhir/inventoryreport-status-requested"> </a><code>http://hl7.org/fhir/inventoryreport-status</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-inventoryreport-status.html#inventoryreport-status-requested">requested</a></td><td>Requested</td><td>The inventory report has been requested but there is no data available.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-inventoryreport-status-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5InventoryreportStatusForR4"/>
+  <title value="Cross-version ValueSet R5.InventoryReportStatus for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="Orders and Observations"/>
+  <contact>
+    <name value="Orders and Observations"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/orders"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/inventoryreport-status|5.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/inventoryreport-status|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `InventoryReport.status`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;&#xA;FHIR ValueSet `http://hl7.org/fhir/ValueSet/inventoryreport-status|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/inventoryreport-status"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="active"/>
+        <display value="Active"/>
+      </concept>
+      <concept>
+        <code value="draft"/>
+        <display value="Draft"/>
+      </concept>
+      <concept>
+        <code value="entered-in-error"/>
+        <display value="Entered in Error"/>
+      </concept>
+      <concept>
+        <code value="requested"/>
+        <display value="Requested"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/inventoryreport-status"/>
+      <version value="5.0.0"/>
+      <code value="active"/>
+      <display value="Active"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/inventoryreport-status"/>
+      <version value="5.0.0"/>
+      <code value="draft"/>
+      <display value="Draft"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/inventoryreport-status"/>
+      <version value="5.0.0"/>
+      <code value="entered-in-error"/>
+      <display value="Entered in Error"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/inventoryreport-status"/>
+      <version value="5.0.0"/>
+      <code value="requested"/>
+      <display value="Requested"/>
+    </contains>
+  </expansion>
+</ValueSet>

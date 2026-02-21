@@ -1,0 +1,2336 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-target-species-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-target-species-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-target-species-for-R4</b></p><a name=\"R5-target-species-for-R4\"> </a><a name=\"hcR5-target-species-for-R4\"> </a><p>This value set expansion contains 200 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108874\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108874\">100000108874</a></td><td>Dove</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108875\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108875\">100000108875</a></td><td>Quail</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108876\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108876\">100000108876</a></td><td>Snipe</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108877\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108877\">100000108877</a></td><td>Sparrow</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108878\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108878\">100000108878</a></td><td>Starling</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108879\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108879\">100000108879</a></td><td>Swan</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108880\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108880\">100000108880</a></td><td>Turkey hen</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108881\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108881\">100000108881</a></td><td>Turkey cock</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108882\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108882\">100000108882</a></td><td>Turkeys</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108883\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108883\">100000108883</a></td><td>Turkey for reproduction</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108884\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108884\">100000108884</a></td><td>Poult</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108885\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108885\">100000108885</a></td><td>Turtle dove</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108886\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108886\">100000108886</a></td><td>Bison</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108887\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108887\">100000108887</a></td><td>Buffalo</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108888\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108888\">100000108888</a></td><td>Cows</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108889\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108889\">100000108889</a></td><td>Cow for reproduction</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108890\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108890\">100000108890</a></td><td>Bull for reproduction</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108891\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108891\">100000108891</a></td><td>Ox</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108892\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108892\">100000108892</a></td><td>Bullock</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108893\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108893\">100000108893</a></td><td>Cattle</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108894\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108894\">100000108894</a></td><td>Beef cattle</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108895\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108895\">100000108895</a></td><td>Dairy cattle</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108896\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108896\">100000108896</a></td><td>Dry cow</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108897\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108897\">100000108897</a></td><td>Bull</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108898\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108898\">100000108898</a></td><td>Lactating cow</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108899\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108899\">100000108899</a></td><td>All other food producing species</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108900\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108900\">100000108900</a></td><td>All non-food producing species</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108901\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108901\">100000108901</a></td><td>All species</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108902\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108902\">100000108902</a></td><td>Carnivores</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108903\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108903\">100000108903</a></td><td>Domestic animals</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108904\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108904\">100000108904</a></td><td>Fur animals</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108905\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108905\">100000108905</a></td><td>Game animals</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108906\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108906\">100000108906</a></td><td>Laboratory animals</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108907\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108907\">100000108907</a></td><td>Major species</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108908\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108908\">100000108908</a></td><td>Minor species</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108909\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108909\">100000108909</a></td><td>Ruminant</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108910\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108910\">100000108910</a></td><td>Ruminant and porcine</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108911\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108911\">100000108911</a></td><td>Small animals</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108912\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108912\">100000108912</a></td><td>Crocodile</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108913\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108913\">100000108913</a></td><td>Frog</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108914\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108914\">100000108914</a></td><td>Iguana</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108915\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108915\">100000108915</a></td><td>Lizard</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108916\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108916\">100000108916</a></td><td>Amphibians</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108917\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108917\">100000108917</a></td><td>Reptiles</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108918\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108918\">100000108918</a></td><td>Reptiles for production</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108919\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108919\">100000108919</a></td><td>Snake</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108920\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108920\">100000108920</a></td><td>Tortoise</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108921\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108921\">100000108921</a></td><td>Turtle</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108922\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108922\">100000108922</a></td><td>Honey bees</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108923\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108923\">100000108923</a></td><td>Crustacean</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108924\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108924\">100000108924</a></td><td>Spider</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108925\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108925\">100000108925</a></td><td>Indian hen</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108926\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108926\">100000108926</a></td><td>African Goshawk</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108927\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108927\">100000108927</a></td><td>Black Kite</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108928\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108928\">100000108928</a></td><td>Budgerigar</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108929\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108929\">100000108929</a></td><td>Bustard</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108930\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108930\">100000108930</a></td><td>Buzzard</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108931\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108931\">100000108931</a></td><td>Hen</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108932\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108932\">100000108932</a></td><td>Layer hen</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108933\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108933\">100000108933</a></td><td>Cock</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108934\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108934\">100000108934</a></td><td>Broiler</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108935\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108935\">100000108935</a></td><td>Chickens</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108936\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108936\">100000108936</a></td><td>Chicken embryonated eggs</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108937\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108937\">100000108937</a></td><td>Chicken for reproduction</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108938\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108938\">100000108938</a></td><td>Replacement chick</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108939\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108939\">100000108939</a></td><td>Chick</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108940\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108940\">100000108940</a></td><td>Pullet</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108941\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108941\">100000108941</a></td><td>Cockatiel</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108942\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108942\">100000108942</a></td><td>Cockatoo</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108943\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108943\">100000108943</a></td><td>Common canary</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108944\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108944\">100000108944</a></td><td>Crow</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108945\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108945\">100000108945</a></td><td>Duck</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108946\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108946\">100000108946</a></td><td>Duck broiler</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108947\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108947\">100000108947</a></td><td>Duckling</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108948\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108948\">100000108948</a></td><td>Eagle</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108949\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108949\">100000108949</a></td><td>Emu</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108950\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108950\">100000108950</a></td><td>Goose</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108951\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108951\">100000108951</a></td><td>Guinea fowl</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108952\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108952\">100000108952</a></td><td>Kestrel</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108953\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108953\">100000108953</a></td><td>Kite</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108954\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108954\">100000108954</a></td><td>Macaw</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108955\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108955\">100000108955</a></td><td>Ostrich</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108956\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108956\">100000108956</a></td><td>Birds</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108957\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108957\">100000108957</a></td><td>Fowls</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108958\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108958\">100000108958</a></td><td>Finch</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108959\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108959\">100000108959</a></td><td>Galliformes</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108960\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108960\">100000108960</a></td><td>Game birds</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108961\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108961\">100000108961</a></td><td>Pekin duck</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108962\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108962\">100000108962</a></td><td>Ornamental birds</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108963\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108963\">100000108963</a></td><td>Poultry</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108964\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108964\">100000108964</a></td><td>Owl</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108965\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108965\">100000108965</a></td><td>Parakeet</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108966\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108966\">100000108966</a></td><td>Parrot</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108967\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108967\">100000108967</a></td><td>Partridge</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108968\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108968\">100000108968</a></td><td>Peregrine Falcon</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108969\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108969\">100000108969</a></td><td>Pheasants</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108970\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108970\">100000108970</a></td><td>Carrier pigeon</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108971\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108971\">100000108971</a></td><td>Newborn calves</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108972\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108972\">100000108972</a></td><td>Pregnant cow</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108973\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108973\">100000108973</a></td><td>Pregnant heifer</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108974\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108974\">100000108974</a></td><td>Pre-ruminant cattle</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108975\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108975\">100000108975</a></td><td>Ruminant cattle</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108976\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108976\">100000108976</a></td><td>Wild cattle</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108977\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108977\">100000108977</a></td><td>Calf</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108978\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108978\">100000108978</a></td><td>Heifers</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108979\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108979\">100000108979</a></td><td>Other Bovids</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108980\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108980\">100000108980</a></td><td>Alpaca</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108981\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108981\">100000108981</a></td><td>Camel</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108982\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108982\">100000108982</a></td><td>Llama</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108983\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108983\">100000108983</a></td><td>Other Camelids</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108984\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108984\">100000108984</a></td><td>Bitch</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108985\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108985\">100000108985</a></td><td>Bitch for reproduction</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108986\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108986\">100000108986</a></td><td>Adult male dog</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108987\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108987\">100000108987</a></td><td>Adult male dog for reproduction</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108988\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108988\">100000108988</a></td><td>Dogs</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108989\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108989\">100000108989</a></td><td>Lactating bitch</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108990\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108990\">100000108990</a></td><td>Large dog</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108991\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108991\">100000108991</a></td><td>Medium dog</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108992\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108992\">100000108992</a></td><td>Pregnant bitch</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108993\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108993\">100000108993</a></td><td>Small dog</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108994\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108994\">100000108994</a></td><td>Very large dog</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108995\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108995\">100000108995</a></td><td>Very small dog</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108996\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108996\">100000108996</a></td><td>Puppy</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108997\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108997\">100000108997</a></td><td>Foxes</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108998\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108998\">100000108998</a></td><td>Jackal</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000108999\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000108999\">100000108999</a></td><td>Other Canids</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109000\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109000\">100000109000</a></td><td>Raccoon dogs</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109001\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109001\">100000109001</a></td><td>Wolf</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109002\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109002\">100000109002</a></td><td>Chamois</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109003\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109003\">100000109003</a></td><td>Other Caprines</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109004\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109004\">100000109004</a></td><td>Adult female goat</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109005\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109005\">100000109005</a></td><td>Adult male goat</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109006\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109006\">100000109006</a></td><td>Dry adult female goat</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109007\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109007\">100000109007</a></td><td>Goats</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109008\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109008\">100000109008</a></td><td>Lactating adult female goat</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109009\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109009\">100000109009</a></td><td>Pregnant adult female goat</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109010\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109010\">100000109010</a></td><td>Pre-ruminant goat</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109011\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109011\">100000109011</a></td><td>Ruminant goat</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109012\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109012\">100000109012</a></td><td>Wild goat</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109013\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109013\">100000109013</a></td><td>Kid</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109014\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109014\">100000109014</a></td><td>Other Ovids</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109015\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109015\">100000109015</a></td><td>Ewe</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109016\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109016\">100000109016</a></td><td>Ram</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109017\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109017\">100000109017</a></td><td>Dry ewe</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109018\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109018\">100000109018</a></td><td>Lactating ewe</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109019\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109019\">100000109019</a></td><td>Pregnant ewe</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109020\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109020\">100000109020</a></td><td>Pre-ruminant sheep</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109021\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109021\">100000109021</a></td><td>Ruminant sheep</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109022\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109022\">100000109022</a></td><td>Sheep</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109023\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109023\">100000109023</a></td><td>Sheep for meat production</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109024\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109024\">100000109024</a></td><td>Dairy sheep</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109025\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109025\">100000109025</a></td><td>Wild sheep</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109026\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109026\">100000109026</a></td><td>Lamb</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109027\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109027\">100000109027</a></td><td>Elk</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109028\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109028\">100000109028</a></td><td>Fallow deer</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109029\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109029\">100000109029</a></td><td>Moose</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109030\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109030\">100000109030</a></td><td>Antelope</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109031\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109031\">100000109031</a></td><td>Cervid</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109032\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109032\">100000109032</a></td><td>Deer</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109033\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109033\">100000109033</a></td><td>Other Deer</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109034\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109034\">100000109034</a></td><td>Red deer</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109035\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109035\">100000109035</a></td><td>Reindeer</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109036\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109036\">100000109036</a></td><td>Roe deer</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109037\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109037\">100000109037</a></td><td>Donkey</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109038\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109038\">100000109038</a></td><td>Mare</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109039\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109039\">100000109039</a></td><td>Gelding</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109040\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109040\">100000109040</a></td><td>Horses</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109041\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109041\">100000109041</a></td><td>Stallion</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109042\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109042\">100000109042</a></td><td>Pony</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109043\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109043\">100000109043</a></td><td>Pregnant mare</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109044\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109044\">100000109044</a></td><td>Non food-producing horse</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109045\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109045\">100000109045</a></td><td>Suckling colt</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109046\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109046\">100000109046</a></td><td>Colt</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109047\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109047\">100000109047</a></td><td>Mule</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109048\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109048\">100000109048</a></td><td>Equid</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109049\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109049\">100000109049</a></td><td>Female equid</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109050\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109050\">100000109050</a></td><td>Other Equids</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109051\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109051\">100000109051</a></td><td>Zebra</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109052\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109052\">100000109052</a></td><td>Bobcat</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109053\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109053\">100000109053</a></td><td>Adult female cat</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109054\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109054\">100000109054</a></td><td>Adult female cat for reproduction</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109055\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109055\">100000109055</a></td><td>Adult male cat</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109056\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109056\">100000109056</a></td><td>Cats</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109057\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109057\">100000109057</a></td><td>Lactating cat</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109058\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109058\">100000109058</a></td><td>Large cat</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109059\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109059\">100000109059</a></td><td>Medium cat</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109060\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109060\">100000109060</a></td><td>Pregnant cat</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109061\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109061\">100000109061</a></td><td>Small cat</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109062\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109062\">100000109062</a></td><td>Kitten</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109063\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109063\">100000109063</a></td><td>Cougar</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109064\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109064\">100000109064</a></td><td>Jaguar</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109065\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109065\">100000109065</a></td><td>Leopard</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109066\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109066\">100000109066</a></td><td>Lion</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109067\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109067\">100000109067</a></td><td>Lynx</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109068\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109068\">100000109068</a></td><td>Other Felids</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109069\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109069\">100000109069</a></td><td>Tiger</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109070\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109070\">100000109070</a></td><td>Tsushima wild cat</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109071\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109071\">100000109071</a></td><td>Other Leporids</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109072\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109072\">100000109072</a></td><td>Hare</td></tr><tr><td><a name=\"R5-target-species-for-R4-http://hl7.org/fhir/target-species-100000109073\"> </a><code>http://hl7.org/fhir/target-species</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-target-species.html#target-species-100000109073\">100000109073</a></td><td>Female rabbit for reproduction</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "brr"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-target-species-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-target-species-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5TargetSpeciesForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.TargetSpecies for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Biomedical Research and Regulation"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Biomedical Research and Regulation" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/rcrim" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/target-species|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/target-species|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `AdministrableProductDefinition.routeOfAdministration.targetSpecies.code` as Example\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/target-species|5.0.0`\n* `http://hl7.org/fhir/ValueSet/target-species|4.3.0`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\nAll concepts in the comparison are have code literals listed as identical.\nThe source and target value sets have the same number of active concepts (200).\nFHIR ValueSet `http://hl7.org/fhir/ValueSet/target-species|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "100000108874" ] ;
+         fhir:display [ fhir:v "Dove" ]
+       ] [
+         fhir:code [ fhir:v "100000108875" ] ;
+         fhir:display [ fhir:v "Quail" ]
+       ] [
+         fhir:code [ fhir:v "100000108876" ] ;
+         fhir:display [ fhir:v "Snipe" ]
+       ] [
+         fhir:code [ fhir:v "100000108877" ] ;
+         fhir:display [ fhir:v "Sparrow" ]
+       ] [
+         fhir:code [ fhir:v "100000108878" ] ;
+         fhir:display [ fhir:v "Starling" ]
+       ] [
+         fhir:code [ fhir:v "100000108879" ] ;
+         fhir:display [ fhir:v "Swan" ]
+       ] [
+         fhir:code [ fhir:v "100000108880" ] ;
+         fhir:display [ fhir:v "Turkey hen" ]
+       ] [
+         fhir:code [ fhir:v "100000108881" ] ;
+         fhir:display [ fhir:v "Turkey cock" ]
+       ] [
+         fhir:code [ fhir:v "100000108882" ] ;
+         fhir:display [ fhir:v "Turkeys" ]
+       ] [
+         fhir:code [ fhir:v "100000108883" ] ;
+         fhir:display [ fhir:v "Turkey for reproduction" ]
+       ] [
+         fhir:code [ fhir:v "100000108884" ] ;
+         fhir:display [ fhir:v "Poult" ]
+       ] [
+         fhir:code [ fhir:v "100000108885" ] ;
+         fhir:display [ fhir:v "Turtle dove" ]
+       ] [
+         fhir:code [ fhir:v "100000108886" ] ;
+         fhir:display [ fhir:v "Bison" ]
+       ] [
+         fhir:code [ fhir:v "100000108887" ] ;
+         fhir:display [ fhir:v "Buffalo" ]
+       ] [
+         fhir:code [ fhir:v "100000108888" ] ;
+         fhir:display [ fhir:v "Cows" ]
+       ] [
+         fhir:code [ fhir:v "100000108889" ] ;
+         fhir:display [ fhir:v "Cow for reproduction" ]
+       ] [
+         fhir:code [ fhir:v "100000108890" ] ;
+         fhir:display [ fhir:v "Bull for reproduction" ]
+       ] [
+         fhir:code [ fhir:v "100000108891" ] ;
+         fhir:display [ fhir:v "Ox" ]
+       ] [
+         fhir:code [ fhir:v "100000108892" ] ;
+         fhir:display [ fhir:v "Bullock" ]
+       ] [
+         fhir:code [ fhir:v "100000108893" ] ;
+         fhir:display [ fhir:v "Cattle" ]
+       ] [
+         fhir:code [ fhir:v "100000108894" ] ;
+         fhir:display [ fhir:v "Beef cattle" ]
+       ] [
+         fhir:code [ fhir:v "100000108895" ] ;
+         fhir:display [ fhir:v "Dairy cattle" ]
+       ] [
+         fhir:code [ fhir:v "100000108896" ] ;
+         fhir:display [ fhir:v "Dry cow" ]
+       ] [
+         fhir:code [ fhir:v "100000108897" ] ;
+         fhir:display [ fhir:v "Bull" ]
+       ] [
+         fhir:code [ fhir:v "100000108898" ] ;
+         fhir:display [ fhir:v "Lactating cow" ]
+       ] [
+         fhir:code [ fhir:v "100000108899" ] ;
+         fhir:display [ fhir:v "All other food producing species" ]
+       ] [
+         fhir:code [ fhir:v "100000108900" ] ;
+         fhir:display [ fhir:v "All non-food producing species" ]
+       ] [
+         fhir:code [ fhir:v "100000108901" ] ;
+         fhir:display [ fhir:v "All species" ]
+       ] [
+         fhir:code [ fhir:v "100000108902" ] ;
+         fhir:display [ fhir:v "Carnivores" ]
+       ] [
+         fhir:code [ fhir:v "100000108903" ] ;
+         fhir:display [ fhir:v "Domestic animals" ]
+       ] [
+         fhir:code [ fhir:v "100000108904" ] ;
+         fhir:display [ fhir:v "Fur animals" ]
+       ] [
+         fhir:code [ fhir:v "100000108905" ] ;
+         fhir:display [ fhir:v "Game animals" ]
+       ] [
+         fhir:code [ fhir:v "100000108906" ] ;
+         fhir:display [ fhir:v "Laboratory animals" ]
+       ] [
+         fhir:code [ fhir:v "100000108907" ] ;
+         fhir:display [ fhir:v "Major species" ]
+       ] [
+         fhir:code [ fhir:v "100000108908" ] ;
+         fhir:display [ fhir:v "Minor species" ]
+       ] [
+         fhir:code [ fhir:v "100000108909" ] ;
+         fhir:display [ fhir:v "Ruminant" ]
+       ] [
+         fhir:code [ fhir:v "100000108910" ] ;
+         fhir:display [ fhir:v "Ruminant and porcine" ]
+       ] [
+         fhir:code [ fhir:v "100000108911" ] ;
+         fhir:display [ fhir:v "Small animals" ]
+       ] [
+         fhir:code [ fhir:v "100000108912" ] ;
+         fhir:display [ fhir:v "Crocodile" ]
+       ] [
+         fhir:code [ fhir:v "100000108913" ] ;
+         fhir:display [ fhir:v "Frog" ]
+       ] [
+         fhir:code [ fhir:v "100000108914" ] ;
+         fhir:display [ fhir:v "Iguana" ]
+       ] [
+         fhir:code [ fhir:v "100000108915" ] ;
+         fhir:display [ fhir:v "Lizard" ]
+       ] [
+         fhir:code [ fhir:v "100000108916" ] ;
+         fhir:display [ fhir:v "Amphibians" ]
+       ] [
+         fhir:code [ fhir:v "100000108917" ] ;
+         fhir:display [ fhir:v "Reptiles" ]
+       ] [
+         fhir:code [ fhir:v "100000108918" ] ;
+         fhir:display [ fhir:v "Reptiles for production" ]
+       ] [
+         fhir:code [ fhir:v "100000108919" ] ;
+         fhir:display [ fhir:v "Snake" ]
+       ] [
+         fhir:code [ fhir:v "100000108920" ] ;
+         fhir:display [ fhir:v "Tortoise" ]
+       ] [
+         fhir:code [ fhir:v "100000108921" ] ;
+         fhir:display [ fhir:v "Turtle" ]
+       ] [
+         fhir:code [ fhir:v "100000108922" ] ;
+         fhir:display [ fhir:v "Honey bees" ]
+       ] [
+         fhir:code [ fhir:v "100000108923" ] ;
+         fhir:display [ fhir:v "Crustacean" ]
+       ] [
+         fhir:code [ fhir:v "100000108924" ] ;
+         fhir:display [ fhir:v "Spider" ]
+       ] [
+         fhir:code [ fhir:v "100000108925" ] ;
+         fhir:display [ fhir:v "Indian hen" ]
+       ] [
+         fhir:code [ fhir:v "100000108926" ] ;
+         fhir:display [ fhir:v "African Goshawk" ]
+       ] [
+         fhir:code [ fhir:v "100000108927" ] ;
+         fhir:display [ fhir:v "Black Kite" ]
+       ] [
+         fhir:code [ fhir:v "100000108928" ] ;
+         fhir:display [ fhir:v "Budgerigar" ]
+       ] [
+         fhir:code [ fhir:v "100000108929" ] ;
+         fhir:display [ fhir:v "Bustard" ]
+       ] [
+         fhir:code [ fhir:v "100000108930" ] ;
+         fhir:display [ fhir:v "Buzzard" ]
+       ] [
+         fhir:code [ fhir:v "100000108931" ] ;
+         fhir:display [ fhir:v "Hen" ]
+       ] [
+         fhir:code [ fhir:v "100000108932" ] ;
+         fhir:display [ fhir:v "Layer hen" ]
+       ] [
+         fhir:code [ fhir:v "100000108933" ] ;
+         fhir:display [ fhir:v "Cock" ]
+       ] [
+         fhir:code [ fhir:v "100000108934" ] ;
+         fhir:display [ fhir:v "Broiler" ]
+       ] [
+         fhir:code [ fhir:v "100000108935" ] ;
+         fhir:display [ fhir:v "Chickens" ]
+       ] [
+         fhir:code [ fhir:v "100000108936" ] ;
+         fhir:display [ fhir:v "Chicken embryonated eggs" ]
+       ] [
+         fhir:code [ fhir:v "100000108937" ] ;
+         fhir:display [ fhir:v "Chicken for reproduction" ]
+       ] [
+         fhir:code [ fhir:v "100000108938" ] ;
+         fhir:display [ fhir:v "Replacement chick" ]
+       ] [
+         fhir:code [ fhir:v "100000108939" ] ;
+         fhir:display [ fhir:v "Chick" ]
+       ] [
+         fhir:code [ fhir:v "100000108940" ] ;
+         fhir:display [ fhir:v "Pullet" ]
+       ] [
+         fhir:code [ fhir:v "100000108941" ] ;
+         fhir:display [ fhir:v "Cockatiel" ]
+       ] [
+         fhir:code [ fhir:v "100000108942" ] ;
+         fhir:display [ fhir:v "Cockatoo" ]
+       ] [
+         fhir:code [ fhir:v "100000108943" ] ;
+         fhir:display [ fhir:v "Common canary" ]
+       ] [
+         fhir:code [ fhir:v "100000108944" ] ;
+         fhir:display [ fhir:v "Crow" ]
+       ] [
+         fhir:code [ fhir:v "100000108945" ] ;
+         fhir:display [ fhir:v "Duck" ]
+       ] [
+         fhir:code [ fhir:v "100000108946" ] ;
+         fhir:display [ fhir:v "Duck broiler" ]
+       ] [
+         fhir:code [ fhir:v "100000108947" ] ;
+         fhir:display [ fhir:v "Duckling" ]
+       ] [
+         fhir:code [ fhir:v "100000108948" ] ;
+         fhir:display [ fhir:v "Eagle" ]
+       ] [
+         fhir:code [ fhir:v "100000108949" ] ;
+         fhir:display [ fhir:v "Emu" ]
+       ] [
+         fhir:code [ fhir:v "100000108950" ] ;
+         fhir:display [ fhir:v "Goose" ]
+       ] [
+         fhir:code [ fhir:v "100000108951" ] ;
+         fhir:display [ fhir:v "Guinea fowl" ]
+       ] [
+         fhir:code [ fhir:v "100000108952" ] ;
+         fhir:display [ fhir:v "Kestrel" ]
+       ] [
+         fhir:code [ fhir:v "100000108953" ] ;
+         fhir:display [ fhir:v "Kite" ]
+       ] [
+         fhir:code [ fhir:v "100000108954" ] ;
+         fhir:display [ fhir:v "Macaw" ]
+       ] [
+         fhir:code [ fhir:v "100000108955" ] ;
+         fhir:display [ fhir:v "Ostrich" ]
+       ] [
+         fhir:code [ fhir:v "100000108956" ] ;
+         fhir:display [ fhir:v "Birds" ]
+       ] [
+         fhir:code [ fhir:v "100000108957" ] ;
+         fhir:display [ fhir:v "Fowls" ]
+       ] [
+         fhir:code [ fhir:v "100000108958" ] ;
+         fhir:display [ fhir:v "Finch" ]
+       ] [
+         fhir:code [ fhir:v "100000108959" ] ;
+         fhir:display [ fhir:v "Galliformes" ]
+       ] [
+         fhir:code [ fhir:v "100000108960" ] ;
+         fhir:display [ fhir:v "Game birds" ]
+       ] [
+         fhir:code [ fhir:v "100000108961" ] ;
+         fhir:display [ fhir:v "Pekin duck" ]
+       ] [
+         fhir:code [ fhir:v "100000108962" ] ;
+         fhir:display [ fhir:v "Ornamental birds" ]
+       ] [
+         fhir:code [ fhir:v "100000108963" ] ;
+         fhir:display [ fhir:v "Poultry" ]
+       ] [
+         fhir:code [ fhir:v "100000108964" ] ;
+         fhir:display [ fhir:v "Owl" ]
+       ] [
+         fhir:code [ fhir:v "100000108965" ] ;
+         fhir:display [ fhir:v "Parakeet" ]
+       ] [
+         fhir:code [ fhir:v "100000108966" ] ;
+         fhir:display [ fhir:v "Parrot" ]
+       ] [
+         fhir:code [ fhir:v "100000108967" ] ;
+         fhir:display [ fhir:v "Partridge" ]
+       ] [
+         fhir:code [ fhir:v "100000108968" ] ;
+         fhir:display [ fhir:v "Peregrine Falcon" ]
+       ] [
+         fhir:code [ fhir:v "100000108969" ] ;
+         fhir:display [ fhir:v "Pheasants" ]
+       ] [
+         fhir:code [ fhir:v "100000108970" ] ;
+         fhir:display [ fhir:v "Carrier pigeon" ]
+       ] [
+         fhir:code [ fhir:v "100000108971" ] ;
+         fhir:display [ fhir:v "Newborn calves" ]
+       ] [
+         fhir:code [ fhir:v "100000108972" ] ;
+         fhir:display [ fhir:v "Pregnant cow" ]
+       ] [
+         fhir:code [ fhir:v "100000108973" ] ;
+         fhir:display [ fhir:v "Pregnant heifer" ]
+       ] [
+         fhir:code [ fhir:v "100000108974" ] ;
+         fhir:display [ fhir:v "Pre-ruminant cattle" ]
+       ] [
+         fhir:code [ fhir:v "100000108975" ] ;
+         fhir:display [ fhir:v "Ruminant cattle" ]
+       ] [
+         fhir:code [ fhir:v "100000108976" ] ;
+         fhir:display [ fhir:v "Wild cattle" ]
+       ] [
+         fhir:code [ fhir:v "100000108977" ] ;
+         fhir:display [ fhir:v "Calf" ]
+       ] [
+         fhir:code [ fhir:v "100000108978" ] ;
+         fhir:display [ fhir:v "Heifers" ]
+       ] [
+         fhir:code [ fhir:v "100000108979" ] ;
+         fhir:display [ fhir:v "Other Bovids" ]
+       ] [
+         fhir:code [ fhir:v "100000108980" ] ;
+         fhir:display [ fhir:v "Alpaca" ]
+       ] [
+         fhir:code [ fhir:v "100000108981" ] ;
+         fhir:display [ fhir:v "Camel" ]
+       ] [
+         fhir:code [ fhir:v "100000108982" ] ;
+         fhir:display [ fhir:v "Llama" ]
+       ] [
+         fhir:code [ fhir:v "100000108983" ] ;
+         fhir:display [ fhir:v "Other Camelids" ]
+       ] [
+         fhir:code [ fhir:v "100000108984" ] ;
+         fhir:display [ fhir:v "Bitch" ]
+       ] [
+         fhir:code [ fhir:v "100000108985" ] ;
+         fhir:display [ fhir:v "Bitch for reproduction" ]
+       ] [
+         fhir:code [ fhir:v "100000108986" ] ;
+         fhir:display [ fhir:v "Adult male dog" ]
+       ] [
+         fhir:code [ fhir:v "100000108987" ] ;
+         fhir:display [ fhir:v "Adult male dog for reproduction" ]
+       ] [
+         fhir:code [ fhir:v "100000108988" ] ;
+         fhir:display [ fhir:v "Dogs" ]
+       ] [
+         fhir:code [ fhir:v "100000108989" ] ;
+         fhir:display [ fhir:v "Lactating bitch" ]
+       ] [
+         fhir:code [ fhir:v "100000108990" ] ;
+         fhir:display [ fhir:v "Large dog" ]
+       ] [
+         fhir:code [ fhir:v "100000108991" ] ;
+         fhir:display [ fhir:v "Medium dog" ]
+       ] [
+         fhir:code [ fhir:v "100000108992" ] ;
+         fhir:display [ fhir:v "Pregnant bitch" ]
+       ] [
+         fhir:code [ fhir:v "100000108993" ] ;
+         fhir:display [ fhir:v "Small dog" ]
+       ] [
+         fhir:code [ fhir:v "100000108994" ] ;
+         fhir:display [ fhir:v "Very large dog" ]
+       ] [
+         fhir:code [ fhir:v "100000108995" ] ;
+         fhir:display [ fhir:v "Very small dog" ]
+       ] [
+         fhir:code [ fhir:v "100000108996" ] ;
+         fhir:display [ fhir:v "Puppy" ]
+       ] [
+         fhir:code [ fhir:v "100000108997" ] ;
+         fhir:display [ fhir:v "Foxes" ]
+       ] [
+         fhir:code [ fhir:v "100000108998" ] ;
+         fhir:display [ fhir:v "Jackal" ]
+       ] [
+         fhir:code [ fhir:v "100000108999" ] ;
+         fhir:display [ fhir:v "Other Canids" ]
+       ] [
+         fhir:code [ fhir:v "100000109000" ] ;
+         fhir:display [ fhir:v "Raccoon dogs" ]
+       ] [
+         fhir:code [ fhir:v "100000109001" ] ;
+         fhir:display [ fhir:v "Wolf" ]
+       ] [
+         fhir:code [ fhir:v "100000109002" ] ;
+         fhir:display [ fhir:v "Chamois" ]
+       ] [
+         fhir:code [ fhir:v "100000109003" ] ;
+         fhir:display [ fhir:v "Other Caprines" ]
+       ] [
+         fhir:code [ fhir:v "100000109004" ] ;
+         fhir:display [ fhir:v "Adult female goat" ]
+       ] [
+         fhir:code [ fhir:v "100000109005" ] ;
+         fhir:display [ fhir:v "Adult male goat" ]
+       ] [
+         fhir:code [ fhir:v "100000109006" ] ;
+         fhir:display [ fhir:v "Dry adult female goat" ]
+       ] [
+         fhir:code [ fhir:v "100000109007" ] ;
+         fhir:display [ fhir:v "Goats" ]
+       ] [
+         fhir:code [ fhir:v "100000109008" ] ;
+         fhir:display [ fhir:v "Lactating adult female goat" ]
+       ] [
+         fhir:code [ fhir:v "100000109009" ] ;
+         fhir:display [ fhir:v "Pregnant adult female goat" ]
+       ] [
+         fhir:code [ fhir:v "100000109010" ] ;
+         fhir:display [ fhir:v "Pre-ruminant goat" ]
+       ] [
+         fhir:code [ fhir:v "100000109011" ] ;
+         fhir:display [ fhir:v "Ruminant goat" ]
+       ] [
+         fhir:code [ fhir:v "100000109012" ] ;
+         fhir:display [ fhir:v "Wild goat" ]
+       ] [
+         fhir:code [ fhir:v "100000109013" ] ;
+         fhir:display [ fhir:v "Kid" ]
+       ] [
+         fhir:code [ fhir:v "100000109014" ] ;
+         fhir:display [ fhir:v "Other Ovids" ]
+       ] [
+         fhir:code [ fhir:v "100000109015" ] ;
+         fhir:display [ fhir:v "Ewe" ]
+       ] [
+         fhir:code [ fhir:v "100000109016" ] ;
+         fhir:display [ fhir:v "Ram" ]
+       ] [
+         fhir:code [ fhir:v "100000109017" ] ;
+         fhir:display [ fhir:v "Dry ewe" ]
+       ] [
+         fhir:code [ fhir:v "100000109018" ] ;
+         fhir:display [ fhir:v "Lactating ewe" ]
+       ] [
+         fhir:code [ fhir:v "100000109019" ] ;
+         fhir:display [ fhir:v "Pregnant ewe" ]
+       ] [
+         fhir:code [ fhir:v "100000109020" ] ;
+         fhir:display [ fhir:v "Pre-ruminant sheep" ]
+       ] [
+         fhir:code [ fhir:v "100000109021" ] ;
+         fhir:display [ fhir:v "Ruminant sheep" ]
+       ] [
+         fhir:code [ fhir:v "100000109022" ] ;
+         fhir:display [ fhir:v "Sheep" ]
+       ] [
+         fhir:code [ fhir:v "100000109023" ] ;
+         fhir:display [ fhir:v "Sheep for meat production" ]
+       ] [
+         fhir:code [ fhir:v "100000109024" ] ;
+         fhir:display [ fhir:v "Dairy sheep" ]
+       ] [
+         fhir:code [ fhir:v "100000109025" ] ;
+         fhir:display [ fhir:v "Wild sheep" ]
+       ] [
+         fhir:code [ fhir:v "100000109026" ] ;
+         fhir:display [ fhir:v "Lamb" ]
+       ] [
+         fhir:code [ fhir:v "100000109027" ] ;
+         fhir:display [ fhir:v "Elk" ]
+       ] [
+         fhir:code [ fhir:v "100000109028" ] ;
+         fhir:display [ fhir:v "Fallow deer" ]
+       ] [
+         fhir:code [ fhir:v "100000109029" ] ;
+         fhir:display [ fhir:v "Moose" ]
+       ] [
+         fhir:code [ fhir:v "100000109030" ] ;
+         fhir:display [ fhir:v "Antelope" ]
+       ] [
+         fhir:code [ fhir:v "100000109031" ] ;
+         fhir:display [ fhir:v "Cervid" ]
+       ] [
+         fhir:code [ fhir:v "100000109032" ] ;
+         fhir:display [ fhir:v "Deer" ]
+       ] [
+         fhir:code [ fhir:v "100000109033" ] ;
+         fhir:display [ fhir:v "Other Deer" ]
+       ] [
+         fhir:code [ fhir:v "100000109034" ] ;
+         fhir:display [ fhir:v "Red deer" ]
+       ] [
+         fhir:code [ fhir:v "100000109035" ] ;
+         fhir:display [ fhir:v "Reindeer" ]
+       ] [
+         fhir:code [ fhir:v "100000109036" ] ;
+         fhir:display [ fhir:v "Roe deer" ]
+       ] [
+         fhir:code [ fhir:v "100000109037" ] ;
+         fhir:display [ fhir:v "Donkey" ]
+       ] [
+         fhir:code [ fhir:v "100000109038" ] ;
+         fhir:display [ fhir:v "Mare" ]
+       ] [
+         fhir:code [ fhir:v "100000109039" ] ;
+         fhir:display [ fhir:v "Gelding" ]
+       ] [
+         fhir:code [ fhir:v "100000109040" ] ;
+         fhir:display [ fhir:v "Horses" ]
+       ] [
+         fhir:code [ fhir:v "100000109041" ] ;
+         fhir:display [ fhir:v "Stallion" ]
+       ] [
+         fhir:code [ fhir:v "100000109042" ] ;
+         fhir:display [ fhir:v "Pony" ]
+       ] [
+         fhir:code [ fhir:v "100000109043" ] ;
+         fhir:display [ fhir:v "Pregnant mare" ]
+       ] [
+         fhir:code [ fhir:v "100000109044" ] ;
+         fhir:display [ fhir:v "Non food-producing horse" ]
+       ] [
+         fhir:code [ fhir:v "100000109045" ] ;
+         fhir:display [ fhir:v "Suckling colt" ]
+       ] [
+         fhir:code [ fhir:v "100000109046" ] ;
+         fhir:display [ fhir:v "Colt" ]
+       ] [
+         fhir:code [ fhir:v "100000109047" ] ;
+         fhir:display [ fhir:v "Mule" ]
+       ] [
+         fhir:code [ fhir:v "100000109048" ] ;
+         fhir:display [ fhir:v "Equid" ]
+       ] [
+         fhir:code [ fhir:v "100000109049" ] ;
+         fhir:display [ fhir:v "Female equid" ]
+       ] [
+         fhir:code [ fhir:v "100000109050" ] ;
+         fhir:display [ fhir:v "Other Equids" ]
+       ] [
+         fhir:code [ fhir:v "100000109051" ] ;
+         fhir:display [ fhir:v "Zebra" ]
+       ] [
+         fhir:code [ fhir:v "100000109052" ] ;
+         fhir:display [ fhir:v "Bobcat" ]
+       ] [
+         fhir:code [ fhir:v "100000109053" ] ;
+         fhir:display [ fhir:v "Adult female cat" ]
+       ] [
+         fhir:code [ fhir:v "100000109054" ] ;
+         fhir:display [ fhir:v "Adult female cat for reproduction" ]
+       ] [
+         fhir:code [ fhir:v "100000109055" ] ;
+         fhir:display [ fhir:v "Adult male cat" ]
+       ] [
+         fhir:code [ fhir:v "100000109056" ] ;
+         fhir:display [ fhir:v "Cats" ]
+       ] [
+         fhir:code [ fhir:v "100000109057" ] ;
+         fhir:display [ fhir:v "Lactating cat" ]
+       ] [
+         fhir:code [ fhir:v "100000109058" ] ;
+         fhir:display [ fhir:v "Large cat" ]
+       ] [
+         fhir:code [ fhir:v "100000109059" ] ;
+         fhir:display [ fhir:v "Medium cat" ]
+       ] [
+         fhir:code [ fhir:v "100000109060" ] ;
+         fhir:display [ fhir:v "Pregnant cat" ]
+       ] [
+         fhir:code [ fhir:v "100000109061" ] ;
+         fhir:display [ fhir:v "Small cat" ]
+       ] [
+         fhir:code [ fhir:v "100000109062" ] ;
+         fhir:display [ fhir:v "Kitten" ]
+       ] [
+         fhir:code [ fhir:v "100000109063" ] ;
+         fhir:display [ fhir:v "Cougar" ]
+       ] [
+         fhir:code [ fhir:v "100000109064" ] ;
+         fhir:display [ fhir:v "Jaguar" ]
+       ] [
+         fhir:code [ fhir:v "100000109065" ] ;
+         fhir:display [ fhir:v "Leopard" ]
+       ] [
+         fhir:code [ fhir:v "100000109066" ] ;
+         fhir:display [ fhir:v "Lion" ]
+       ] [
+         fhir:code [ fhir:v "100000109067" ] ;
+         fhir:display [ fhir:v "Lynx" ]
+       ] [
+         fhir:code [ fhir:v "100000109068" ] ;
+         fhir:display [ fhir:v "Other Felids" ]
+       ] [
+         fhir:code [ fhir:v "100000109069" ] ;
+         fhir:display [ fhir:v "Tiger" ]
+       ] [
+         fhir:code [ fhir:v "100000109070" ] ;
+         fhir:display [ fhir:v "Tsushima wild cat" ]
+       ] [
+         fhir:code [ fhir:v "100000109071" ] ;
+         fhir:display [ fhir:v "Other Leporids" ]
+       ] [
+         fhir:code [ fhir:v "100000109072" ] ;
+         fhir:display [ fhir:v "Hare" ]
+       ] [
+         fhir:code [ fhir:v "100000109073" ] ;
+         fhir:display [ fhir:v "Female rabbit for reproduction" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108874" ] ;
+       fhir:display [ fhir:v "Dove" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108875" ] ;
+       fhir:display [ fhir:v "Quail" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108876" ] ;
+       fhir:display [ fhir:v "Snipe" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108877" ] ;
+       fhir:display [ fhir:v "Sparrow" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108878" ] ;
+       fhir:display [ fhir:v "Starling" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108879" ] ;
+       fhir:display [ fhir:v "Swan" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108880" ] ;
+       fhir:display [ fhir:v "Turkey hen" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108881" ] ;
+       fhir:display [ fhir:v "Turkey cock" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108882" ] ;
+       fhir:display [ fhir:v "Turkeys" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108883" ] ;
+       fhir:display [ fhir:v "Turkey for reproduction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108884" ] ;
+       fhir:display [ fhir:v "Poult" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108885" ] ;
+       fhir:display [ fhir:v "Turtle dove" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108886" ] ;
+       fhir:display [ fhir:v "Bison" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108887" ] ;
+       fhir:display [ fhir:v "Buffalo" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108888" ] ;
+       fhir:display [ fhir:v "Cows" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108889" ] ;
+       fhir:display [ fhir:v "Cow for reproduction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108890" ] ;
+       fhir:display [ fhir:v "Bull for reproduction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108891" ] ;
+       fhir:display [ fhir:v "Ox" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108892" ] ;
+       fhir:display [ fhir:v "Bullock" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108893" ] ;
+       fhir:display [ fhir:v "Cattle" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108894" ] ;
+       fhir:display [ fhir:v "Beef cattle" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108895" ] ;
+       fhir:display [ fhir:v "Dairy cattle" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108896" ] ;
+       fhir:display [ fhir:v "Dry cow" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108897" ] ;
+       fhir:display [ fhir:v "Bull" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108898" ] ;
+       fhir:display [ fhir:v "Lactating cow" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108899" ] ;
+       fhir:display [ fhir:v "All other food producing species" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108900" ] ;
+       fhir:display [ fhir:v "All non-food producing species" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108901" ] ;
+       fhir:display [ fhir:v "All species" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108902" ] ;
+       fhir:display [ fhir:v "Carnivores" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108903" ] ;
+       fhir:display [ fhir:v "Domestic animals" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108904" ] ;
+       fhir:display [ fhir:v "Fur animals" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108905" ] ;
+       fhir:display [ fhir:v "Game animals" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108906" ] ;
+       fhir:display [ fhir:v "Laboratory animals" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108907" ] ;
+       fhir:display [ fhir:v "Major species" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108908" ] ;
+       fhir:display [ fhir:v "Minor species" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108909" ] ;
+       fhir:display [ fhir:v "Ruminant" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108910" ] ;
+       fhir:display [ fhir:v "Ruminant and porcine" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108911" ] ;
+       fhir:display [ fhir:v "Small animals" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108912" ] ;
+       fhir:display [ fhir:v "Crocodile" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108913" ] ;
+       fhir:display [ fhir:v "Frog" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108914" ] ;
+       fhir:display [ fhir:v "Iguana" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108915" ] ;
+       fhir:display [ fhir:v "Lizard" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108916" ] ;
+       fhir:display [ fhir:v "Amphibians" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108917" ] ;
+       fhir:display [ fhir:v "Reptiles" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108918" ] ;
+       fhir:display [ fhir:v "Reptiles for production" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108919" ] ;
+       fhir:display [ fhir:v "Snake" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108920" ] ;
+       fhir:display [ fhir:v "Tortoise" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108921" ] ;
+       fhir:display [ fhir:v "Turtle" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108922" ] ;
+       fhir:display [ fhir:v "Honey bees" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108923" ] ;
+       fhir:display [ fhir:v "Crustacean" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108924" ] ;
+       fhir:display [ fhir:v "Spider" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108925" ] ;
+       fhir:display [ fhir:v "Indian hen" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108926" ] ;
+       fhir:display [ fhir:v "African Goshawk" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108927" ] ;
+       fhir:display [ fhir:v "Black Kite" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108928" ] ;
+       fhir:display [ fhir:v "Budgerigar" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108929" ] ;
+       fhir:display [ fhir:v "Bustard" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108930" ] ;
+       fhir:display [ fhir:v "Buzzard" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108931" ] ;
+       fhir:display [ fhir:v "Hen" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108932" ] ;
+       fhir:display [ fhir:v "Layer hen" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108933" ] ;
+       fhir:display [ fhir:v "Cock" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108934" ] ;
+       fhir:display [ fhir:v "Broiler" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108935" ] ;
+       fhir:display [ fhir:v "Chickens" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108936" ] ;
+       fhir:display [ fhir:v "Chicken embryonated eggs" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108937" ] ;
+       fhir:display [ fhir:v "Chicken for reproduction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108938" ] ;
+       fhir:display [ fhir:v "Replacement chick" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108939" ] ;
+       fhir:display [ fhir:v "Chick" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108940" ] ;
+       fhir:display [ fhir:v "Pullet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108941" ] ;
+       fhir:display [ fhir:v "Cockatiel" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108942" ] ;
+       fhir:display [ fhir:v "Cockatoo" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108943" ] ;
+       fhir:display [ fhir:v "Common canary" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108944" ] ;
+       fhir:display [ fhir:v "Crow" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108945" ] ;
+       fhir:display [ fhir:v "Duck" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108946" ] ;
+       fhir:display [ fhir:v "Duck broiler" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108947" ] ;
+       fhir:display [ fhir:v "Duckling" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108948" ] ;
+       fhir:display [ fhir:v "Eagle" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108949" ] ;
+       fhir:display [ fhir:v "Emu" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108950" ] ;
+       fhir:display [ fhir:v "Goose" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108951" ] ;
+       fhir:display [ fhir:v "Guinea fowl" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108952" ] ;
+       fhir:display [ fhir:v "Kestrel" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108953" ] ;
+       fhir:display [ fhir:v "Kite" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108954" ] ;
+       fhir:display [ fhir:v "Macaw" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108955" ] ;
+       fhir:display [ fhir:v "Ostrich" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108956" ] ;
+       fhir:display [ fhir:v "Birds" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108957" ] ;
+       fhir:display [ fhir:v "Fowls" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108958" ] ;
+       fhir:display [ fhir:v "Finch" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108959" ] ;
+       fhir:display [ fhir:v "Galliformes" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108960" ] ;
+       fhir:display [ fhir:v "Game birds" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108961" ] ;
+       fhir:display [ fhir:v "Pekin duck" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108962" ] ;
+       fhir:display [ fhir:v "Ornamental birds" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108963" ] ;
+       fhir:display [ fhir:v "Poultry" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108964" ] ;
+       fhir:display [ fhir:v "Owl" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108965" ] ;
+       fhir:display [ fhir:v "Parakeet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108966" ] ;
+       fhir:display [ fhir:v "Parrot" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108967" ] ;
+       fhir:display [ fhir:v "Partridge" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108968" ] ;
+       fhir:display [ fhir:v "Peregrine Falcon" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108969" ] ;
+       fhir:display [ fhir:v "Pheasants" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108970" ] ;
+       fhir:display [ fhir:v "Carrier pigeon" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108971" ] ;
+       fhir:display [ fhir:v "Newborn calves" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108972" ] ;
+       fhir:display [ fhir:v "Pregnant cow" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108973" ] ;
+       fhir:display [ fhir:v "Pregnant heifer" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108974" ] ;
+       fhir:display [ fhir:v "Pre-ruminant cattle" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108975" ] ;
+       fhir:display [ fhir:v "Ruminant cattle" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108976" ] ;
+       fhir:display [ fhir:v "Wild cattle" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108977" ] ;
+       fhir:display [ fhir:v "Calf" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108978" ] ;
+       fhir:display [ fhir:v "Heifers" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108979" ] ;
+       fhir:display [ fhir:v "Other Bovids" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108980" ] ;
+       fhir:display [ fhir:v "Alpaca" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108981" ] ;
+       fhir:display [ fhir:v "Camel" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108982" ] ;
+       fhir:display [ fhir:v "Llama" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108983" ] ;
+       fhir:display [ fhir:v "Other Camelids" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108984" ] ;
+       fhir:display [ fhir:v "Bitch" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108985" ] ;
+       fhir:display [ fhir:v "Bitch for reproduction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108986" ] ;
+       fhir:display [ fhir:v "Adult male dog" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108987" ] ;
+       fhir:display [ fhir:v "Adult male dog for reproduction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108988" ] ;
+       fhir:display [ fhir:v "Dogs" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108989" ] ;
+       fhir:display [ fhir:v "Lactating bitch" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108990" ] ;
+       fhir:display [ fhir:v "Large dog" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108991" ] ;
+       fhir:display [ fhir:v "Medium dog" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108992" ] ;
+       fhir:display [ fhir:v "Pregnant bitch" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108993" ] ;
+       fhir:display [ fhir:v "Small dog" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108994" ] ;
+       fhir:display [ fhir:v "Very large dog" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108995" ] ;
+       fhir:display [ fhir:v "Very small dog" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108996" ] ;
+       fhir:display [ fhir:v "Puppy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108997" ] ;
+       fhir:display [ fhir:v "Foxes" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108998" ] ;
+       fhir:display [ fhir:v "Jackal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000108999" ] ;
+       fhir:display [ fhir:v "Other Canids" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109000" ] ;
+       fhir:display [ fhir:v "Raccoon dogs" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109001" ] ;
+       fhir:display [ fhir:v "Wolf" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109002" ] ;
+       fhir:display [ fhir:v "Chamois" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109003" ] ;
+       fhir:display [ fhir:v "Other Caprines" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109004" ] ;
+       fhir:display [ fhir:v "Adult female goat" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109005" ] ;
+       fhir:display [ fhir:v "Adult male goat" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109006" ] ;
+       fhir:display [ fhir:v "Dry adult female goat" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109007" ] ;
+       fhir:display [ fhir:v "Goats" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109008" ] ;
+       fhir:display [ fhir:v "Lactating adult female goat" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109009" ] ;
+       fhir:display [ fhir:v "Pregnant adult female goat" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109010" ] ;
+       fhir:display [ fhir:v "Pre-ruminant goat" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109011" ] ;
+       fhir:display [ fhir:v "Ruminant goat" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109012" ] ;
+       fhir:display [ fhir:v "Wild goat" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109013" ] ;
+       fhir:display [ fhir:v "Kid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109014" ] ;
+       fhir:display [ fhir:v "Other Ovids" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109015" ] ;
+       fhir:display [ fhir:v "Ewe" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109016" ] ;
+       fhir:display [ fhir:v "Ram" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109017" ] ;
+       fhir:display [ fhir:v "Dry ewe" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109018" ] ;
+       fhir:display [ fhir:v "Lactating ewe" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109019" ] ;
+       fhir:display [ fhir:v "Pregnant ewe" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109020" ] ;
+       fhir:display [ fhir:v "Pre-ruminant sheep" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109021" ] ;
+       fhir:display [ fhir:v "Ruminant sheep" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109022" ] ;
+       fhir:display [ fhir:v "Sheep" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109023" ] ;
+       fhir:display [ fhir:v "Sheep for meat production" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109024" ] ;
+       fhir:display [ fhir:v "Dairy sheep" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109025" ] ;
+       fhir:display [ fhir:v "Wild sheep" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109026" ] ;
+       fhir:display [ fhir:v "Lamb" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109027" ] ;
+       fhir:display [ fhir:v "Elk" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109028" ] ;
+       fhir:display [ fhir:v "Fallow deer" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109029" ] ;
+       fhir:display [ fhir:v "Moose" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109030" ] ;
+       fhir:display [ fhir:v "Antelope" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109031" ] ;
+       fhir:display [ fhir:v "Cervid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109032" ] ;
+       fhir:display [ fhir:v "Deer" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109033" ] ;
+       fhir:display [ fhir:v "Other Deer" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109034" ] ;
+       fhir:display [ fhir:v "Red deer" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109035" ] ;
+       fhir:display [ fhir:v "Reindeer" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109036" ] ;
+       fhir:display [ fhir:v "Roe deer" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109037" ] ;
+       fhir:display [ fhir:v "Donkey" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109038" ] ;
+       fhir:display [ fhir:v "Mare" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109039" ] ;
+       fhir:display [ fhir:v "Gelding" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109040" ] ;
+       fhir:display [ fhir:v "Horses" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109041" ] ;
+       fhir:display [ fhir:v "Stallion" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109042" ] ;
+       fhir:display [ fhir:v "Pony" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109043" ] ;
+       fhir:display [ fhir:v "Pregnant mare" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109044" ] ;
+       fhir:display [ fhir:v "Non food-producing horse" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109045" ] ;
+       fhir:display [ fhir:v "Suckling colt" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109046" ] ;
+       fhir:display [ fhir:v "Colt" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109047" ] ;
+       fhir:display [ fhir:v "Mule" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109048" ] ;
+       fhir:display [ fhir:v "Equid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109049" ] ;
+       fhir:display [ fhir:v "Female equid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109050" ] ;
+       fhir:display [ fhir:v "Other Equids" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109051" ] ;
+       fhir:display [ fhir:v "Zebra" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109052" ] ;
+       fhir:display [ fhir:v "Bobcat" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109053" ] ;
+       fhir:display [ fhir:v "Adult female cat" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109054" ] ;
+       fhir:display [ fhir:v "Adult female cat for reproduction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109055" ] ;
+       fhir:display [ fhir:v "Adult male cat" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109056" ] ;
+       fhir:display [ fhir:v "Cats" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109057" ] ;
+       fhir:display [ fhir:v "Lactating cat" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109058" ] ;
+       fhir:display [ fhir:v "Large cat" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109059" ] ;
+       fhir:display [ fhir:v "Medium cat" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109060" ] ;
+       fhir:display [ fhir:v "Pregnant cat" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109061" ] ;
+       fhir:display [ fhir:v "Small cat" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109062" ] ;
+       fhir:display [ fhir:v "Kitten" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109063" ] ;
+       fhir:display [ fhir:v "Cougar" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109064" ] ;
+       fhir:display [ fhir:v "Jaguar" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109065" ] ;
+       fhir:display [ fhir:v "Leopard" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109066" ] ;
+       fhir:display [ fhir:v "Lion" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109067" ] ;
+       fhir:display [ fhir:v "Lynx" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109068" ] ;
+       fhir:display [ fhir:v "Other Felids" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109069" ] ;
+       fhir:display [ fhir:v "Tiger" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109070" ] ;
+       fhir:display [ fhir:v "Tsushima wild cat" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109071" ] ;
+       fhir:display [ fhir:v "Other Leporids" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109072" ] ;
+       fhir:display [ fhir:v "Hare" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/target-species"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/target-species>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000109073" ] ;
+       fhir:display [ fhir:v "Female rabbit for reproduction" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

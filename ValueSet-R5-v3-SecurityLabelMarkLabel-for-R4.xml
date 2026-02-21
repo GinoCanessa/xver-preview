@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-v3-SecurityLabelMarkLabel-for-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-v3-SecurityLabelMarkLabel-for-R4</b></p><a name="R5-v3-SecurityLabelMarkLabel-for-R4"> </a><a name="hcR5-v3-SecurityLabelMarkLabel-for-R4"> </a><p>This value set expansion contains 6 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="R5-v3-SecurityLabelMarkLabel-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-COPYMark"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ActCode.html#v3-ActCode-COPYMark">COPYMark</a></td><td>copy of original mark</td><td><div><p>A displayed mark indicating that the electronic or hardcopy information is a copy of an authoritative source for the information. The copy is not considered authoritative but is a duplicate of the authoritative content.</p>
+<p><em>Usage Note:</em> Applicable policy will dictate how the COPY mark will be displayed. Typical renderings include the marking appearing at the top or &quot;banner&quot; of electronic or hardcopy pages, or as watermarks set diagonally across each page.</p>
+</div></td></tr><tr><td><a name="R5-v3-SecurityLabelMarkLabel-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-ConfidentialMark"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ActCode.html#v3-ActCode-ConfidentialMark">ConfidentialMark</a></td><td>confidential mark</td><td><div><p>A displayed mark rendered as &quot;Confidential&quot;, which indicates to end users that the electronic or hardcopy information they are viewing must be protected at a level of protection as dictated by applicable policy.</p>
+<p>May be used to indicate proprietary or classified information that is, for example, business, intelligence, or project related, e.g., secret ingredients in a therapeutic substance; location of disaster health facilities and providers, or the name of a manufacturer or project contractor. Example use cases include a display to alert authorized business system users that they are viewing additionally protected proprietary and business confidential information deemed proprietary under an applicable jurisdictional or organizational policy.</p>
+<p><em>Usage Note:</em></p>
+<p>The ConfidentialMark (confidential mark) description is based on the HL7 Confidentiality Concept Domain: Types of privacy metadata classifying an IT resource (data, information object, service, or system capability) according to its level of sensitivity, which is based on an analysis of applicable privacy policies and the risk of financial, reputational, or other harm to an individual or entity that could result if made available or disclosed to unauthorized individuals, entities, or processes.</p>
+<p><em>Usage Note:</em> Confidentiality codes may be used in security labels and privacy markings to classify IT resources based on sensitivity to indicate the obligation of a custodian or receiver to ensure that the protected resource is not made available or disclosed to individuals, entities, or processes (security principals) unless authorized per applicable policies. Confidentiality codes may also be used in the clearances of initiators requesting access to protected resources.</p>
+<p>Map: Definition aligns with ISO 7498-2:1989 - Confidentiality is the property that information is not made available or disclosed to unauthorized individuals, entities, or processes.</p>
+</div></td></tr><tr><td><a name="R5-v3-SecurityLabelMarkLabel-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DRAFTMark"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ActCode.html#v3-ActCode-DRAFTMark">DRAFTMark</a></td><td>Draft Mark</td><td><div><p>A displayed mark indicating that the electronic or hard-copy information is still under development and is not yet considered to be ready for normal use.</p>
+</div></td></tr><tr><td><a name="R5-v3-SecurityLabelMarkLabel-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DeliverToAddresseeOnlyMark"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ActCode.html#v3-ActCode-DeliverToAddresseeOnlyMark">DeliverToAddresseeOnlyMark</a></td><td>deliver only to addressee mark</td><td><div><p>A displayed mark on an electronic transmission or physical container such as an electronic transmittal wrapper, batch file, message header, or a physical envelop or package indicating that the contents, whether electronic or hardcopy information, must only be delivered to the authorized recipient(s) named in the address.</p>
+<p><em>Usage Note:</em> Required by US 32 CRF Part 2002 for container storing or transmitting CUI.</p>
+</div></td></tr><tr><td><a name="R5-v3-SecurityLabelMarkLabel-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-RedisclosureProhibitionMark"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ActCode.html#v3-ActCode-RedisclosureProhibitionMark">RedisclosureProhibitionMark</a></td><td>prohibition against redisclosure mark</td><td><div><p>A displayed mark rendered to end users as a prescribed text warning that the electronic or hardcopy information shall not be further disclosed without consent of the subject of the information. For example, in order to warn a recipient of 42 CFR Part 2 information of the redisclosure restrictions, the rule mandates that end users receive a written prohibition against redisclosure unless authorized by patient consent or otherwise permitted by Part 2. See 42 CFR Â§ 2.32 Prohibition on re-disclosure. (a)Notice to accompany disclosure. Each disclosure made with the patient's written consent must be accompanied by one of the following written statements: (1) This information has been disclosed to you from records protected by federal confidentiality rules ( 42 CFR part 2). The federal rules prohibit you from making any further disclosure of information in this record that identifies a patient as having or having had a substance use disorder either directly, by reference to publicly available information, or through verification of such identification by another person unless further disclosure is expressly permitted by the written consent of the individual whose information is being disclosed or as otherwise permitted by 42 CFR part 2. A general authorization for the release of medical or other information is NOT sufficient for this purpose (see Â§ 2.31). The federal rules restrict any use of the information to investigate or prosecute with regard to a crime any patient with a substance use disorder, except as provided at Â§Â§ 2.12(c)(5) and 2.65; or (2) 42 CFR part 2 prohibits unauthorized disclosure of these records. https://www.law.cornell.edu/cfr/text/42/2.32</p>
+<p><em>Usage Note:</em> Example of marking requirement from SAMHSA FAQ Response to question 13:</p>
+<p>Would a logon or splash page notification on an HIOâ€™s portal that contains the Part 2 notice prohibiting redisclosure be sufficient to meet Part 2â€™s requirement that disclosures made with patient consent be accompanied by such a statement?</p>
+<p>No. Part 2 requires each disclosure made with written patient consent to be accompanied by a written statement that the information disclosed is protected by federal law and that the recipient cannot make any further disclosure of it unless permitted by the regulations (42 CFR Â§ 2.32). A logon page is the page where a user logs onto a computer system; a splash page is an introductory page to a web site. A logon or splash page notification on a HIO's portal including the statement as required by Â§ 2.32 would not be sufficient notification regarding prohibitions on redisclosure since it would not accompany a specific disclosure. The notification must be tied to the Part 2 information being disclosed in order to ensure that the recipient of that information knows that specific information is protected by Part 2 and cannot be redisclosed except as authorized by the express written consent of the person to whom it pertains or as otherwise permitted by Part 2. https://www.samhsa.gov/about-us/who-we-are/laws-regulations/confidentiality-regulations-faqs</p>
+</div></td></tr><tr><td><a name="R5-v3-SecurityLabelMarkLabel-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-RestrictedConfidentialityMark"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ActCode.html#v3-ActCode-RestrictedConfidentialityMark">RestrictedConfidentialityMark</a></td><td>restricted confidentiality mark</td><td><div><p>A displayed mark rendered to end users as &quot;Restricted Confidentiality&quot;, which indicates that the electronic or hardcopy information they are viewing, must be protected at a restricted level of confidentiality protection as defined by HL7 Confidentiality code &quot;R&quot; (restricted). Examples: Includes information that is additionally protected such as sensitive conditions mental health, HIV, substance abuse, domestic violence, child abuse, genetic disease, and reproductive health; or sensitive demographic information such as a patient's standing as an employee or a celebrity. Use cases include a display to alert authorized EHR users that they are viewing additionally protected health information deemed sensitive by an applicable jurisdictional, organizational, or personal privacy policy.</p>
+<p><em>Usage Note:</em> The definition is based on HL7 Confidentiality code &quot;R&quot; (restricted), which is described as:</p>
+<p>Privacy metadata indicating highly sensitive, potentially stigmatizing information, which presents a high risk to the information subject if disclosed without authorization. May be pre-empted by jurisdictional law, e.g., for public health reporting or emergency treatment. Foundational definitions of Confidentiality: From HL7 Confidentiality Concept Domain: Types of privacy metadata classifying an IT resource (data, information object, service, or system capability) according to its level of sensitivity, which is based on an analysis of applicable privacy policies and the risk of financial, reputational, or other harm to an individual or entity that could result if made available or disclosed to unauthorized individuals, entities, or processes.</p>
+<p>Usage Note from HL7 Confidentiality code &quot;R&quot;: Confidentiality codes may be used in security labels and privacy markings to classify IT resources based on sensitivity to indicate the obligation of a custodian or receiver to ensure that the protected resource is not made available or disclosed to individuals, entities, or processes (security principals) unless authorized per applicable policies. Confidentiality codes may also be used in the clearances of initiators requesting access to protected resources.</p>
+<p>This metadata indicates that the receiver may be obligated to comply with applicable, prevailing (default) jurisdictional privacy law or disclosure authorization.</p>
+<p>Map: Definition aligns with ISO 7498-2:1989 - Confidentiality is the property that information is not made available or disclosed to unauthorized individuals, entities, or processes. Map: Partial Map to ISO 13606-4 Sensitivity Level (3) Clinical Care: Default for normal clinical care access (i.e. most clinical staff directly caring for the patient should be able to access nearly all of the EHR). Maps to normal confidentiality for treatment information but not to ancillary care, payment and operations.</p>
+</div></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-SecurityLabelMarkLabel-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5V3SecurityLabelMarkLabelForR4"/>
+  <title value="Cross-version ValueSet R5.SecurityLabelMarkLabel for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v3-SecurityLabelMarkLabel|2.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://terminology.hl7.org/ValueSet/v3-SecurityLabelMarkLabel|2.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* &#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;&#xA;FHIR ValueSet `http://terminology.hl7.org/ValueSet/v3-SecurityLabelMarkLabel|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+      <version value="8.0.0"/>
+      <concept>
+        <code value="COPYMark"/>
+        <display value="copy of original mark"/>
+      </concept>
+      <concept>
+        <code value="ConfidentialMark"/>
+        <display value="confidential mark"/>
+      </concept>
+      <concept>
+        <code value="DRAFTMark"/>
+        <display value="Draft Mark"/>
+      </concept>
+      <concept>
+        <code value="DeliverToAddresseeOnlyMark"/>
+        <display value="deliver only to addressee mark"/>
+      </concept>
+      <concept>
+        <code value="RedisclosureProhibitionMark"/>
+        <display value="prohibition against redisclosure mark"/>
+      </concept>
+      <concept>
+        <code value="RestrictedConfidentialityMark"/>
+        <display value="restricted confidentiality mark"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+      <version value="8.0.0"/>
+      <code value="COPYMark"/>
+      <display value="copy of original mark"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+      <version value="8.0.0"/>
+      <code value="ConfidentialMark"/>
+      <display value="confidential mark"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+      <version value="8.0.0"/>
+      <code value="DRAFTMark"/>
+      <display value="Draft Mark"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+      <version value="8.0.0"/>
+      <code value="DeliverToAddresseeOnlyMark"/>
+      <display value="deliver only to addressee mark"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+      <version value="8.0.0"/>
+      <code value="RedisclosureProhibitionMark"/>
+      <display value="prohibition against redisclosure mark"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+      <version value="8.0.0"/>
+      <code value="RestrictedConfidentialityMark"/>
+      <display value="restricted confidentiality mark"/>
+    </contains>
+  </expansion>
+</ValueSet>

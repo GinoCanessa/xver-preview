@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-Medication-element-map-to-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-Medication-element-map-to-R4</b></p><a name="R5-Medication-element-map-to-R4"> </a><a name="hcR5-Medication-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Medication|5.0.0</code> to <a href="http://hl7.org/fhir/R4/medication.html">Medicationversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Medication.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Medication.meta` is mapped to FHIR R4 element `Medication.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Medication.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Medication.implicitRules` is mapped to FHIR R4 element `Medication.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Medication.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Medication.language` is mapped to FHIR R4 element `Medication.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Medication.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Medication.text` is mapped to FHIR R4 element `Medication.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Medication.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Medication.contained` is mapped to FHIR R4 element `Medication.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Medication.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Medication.identifier` is mapped to FHIR R4 element `Medication.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Medication.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Medication.code` is mapped to FHIR R4 element `Medication.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Medication.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Medication.status`: `http://hl7.org/fhir/StructureDefinition/artifact-status`.
+Element `Medication.status` is mapped to FHIR R4 element `Medication.status` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Medication.marketingAuthorizationHolder (marketingAuthorizationHolder)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Medication.marketingAuthorizationHolder` is mapped to FHIR R4 element `Medication.manufacturer` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Medication.doseForm (doseForm)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Medication.doseForm` is mapped to FHIR R4 element `Medication.form` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Medication.totalVolume (totalVolume)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `Medication.totalVolume` is mapped to FHIR R4 element `Medication.amount` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Medication.ingredient (ingredient)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `Medication.ingredient` is mapped to FHIR R4 element `Medication.ingredient` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Medication.ingredient.item (item)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Note that the target element context `Medication.ingredient.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Medication.ingredient`.
+Element `Medication.ingredient.item` is mapped to FHIR R4 element `Medication.ingredient.item[x]` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note that the target element context `Medication.ingredient.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Medication.ingredient`.</td></tr><tr><td>Medication.ingredient.isActive (isActive)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Medication.ingredient.isActive` is mapped to FHIR R4 element `Medication.ingredient.isActive` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Medication.ingredient.strength[x] (strength[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `Medication.ingredient.strength[x]` is mapped to FHIR R4 element `Medication.ingredient.strength` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Medication.batch (batch)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `Medication.batch` is mapped to FHIR R4 element `Medication.batch` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Medication.batch.lotNumber (lotNumber)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Medication.batch.lotNumber` is mapped to FHIR R4 element `Medication.batch.lotNumber` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Medication.batch.expirationDate (expirationDate)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Medication.batch.expirationDate` is mapped to FHIR R4 element `Medication.batch.expirationDate` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Medication|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Medication.totalVolume (totalVolume)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.totalVolume</td><td>Element `Medication.totalVolume` is mapped to FHIR R4 element `Medication.amount` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Medication.ingredient.strength[x] (strength[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.ingredient.strength</td><td>Element `Medication.ingredient.strength[x]` is mapped to FHIR R4 element `Medication.ingredient.strength` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Medication|5.0.0</code> to <a href="http://hl7.org/fhir/extensions/5.2.0/index.html">FHIR Extensions Packversion: 5.2.0)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Medication.definition (definition)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Medication.definition` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Medication.definition` has a context of Medication based on following the parent source element upwards and mapping to `Medication`.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-Medication-element-map-to-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5MedicationElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 Medication to FHIR R4 Medication"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T13:36:57.6851697-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 Medication to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Medication"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/Medication"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="Medication.meta"/>
+      <display value="meta"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Medication.meta` is mapped to FHIR R4 element `Medication.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Medication.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Medication.implicitRules` is mapped to FHIR R4 element `Medication.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Medication.language"/>
+      <display value="language"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Medication.language` is mapped to FHIR R4 element `Medication.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Medication.text"/>
+      <display value="text"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Medication.text` is mapped to FHIR R4 element `Medication.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Medication.contained"/>
+      <display value="contained"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Medication.contained` is mapped to FHIR R4 element `Medication.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Medication.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Medication.identifier` is mapped to FHIR R4 element `Medication.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Medication.code"/>
+      <display value="code"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Medication.code` is mapped to FHIR R4 element `Medication.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Medication.status"/>
+      <display value="status"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Medication.status`: `http://hl7.org/fhir/StructureDefinition/artifact-status`.&#xA;Element `Medication.status` is mapped to FHIR R4 element `Medication.status` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Medication.marketingAuthorizationHolder"/>
+      <display value="marketingAuthorizationHolder"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Medication.marketingAuthorizationHolder` is mapped to FHIR R4 element `Medication.manufacturer` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Medication.doseForm"/>
+      <display value="doseForm"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Medication.doseForm` is mapped to FHIR R4 element `Medication.form` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Medication.totalVolume"/>
+      <display value="totalVolume"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `Medication.totalVolume` is mapped to FHIR R4 element `Medication.amount` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Medication.ingredient"/>
+      <display value="ingredient"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `Medication.ingredient` is mapped to FHIR R4 element `Medication.ingredient` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Medication.ingredient.item"/>
+      <display value="item"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Note that the target element context `Medication.ingredient.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Medication.ingredient`.&#xA;Element `Medication.ingredient.item` is mapped to FHIR R4 element `Medication.ingredient.item[x]` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note that the target element context `Medication.ingredient.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Medication.ingredient`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Medication.ingredient.isActive"/>
+      <display value="isActive"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Medication.ingredient.isActive` is mapped to FHIR R4 element `Medication.ingredient.isActive` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Medication.ingredient.strength[x]"/>
+      <display value="strength[x]"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `Medication.ingredient.strength[x]` is mapped to FHIR R4 element `Medication.ingredient.strength` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Medication.batch"/>
+      <display value="batch"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `Medication.batch` is mapped to FHIR R4 element `Medication.batch` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Medication.batch.lotNumber"/>
+      <display value="lotNumber"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Medication.batch.lotNumber` is mapped to FHIR R4 element `Medication.batch.lotNumber` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Medication.batch.expirationDate"/>
+      <display value="expirationDate"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Medication.batch.expirationDate` is mapped to FHIR R4 element `Medication.batch.expirationDate` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Medication"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="Medication.totalVolume"/>
+      <display value="totalVolume"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.totalVolume"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Medication.totalVolume` is mapped to FHIR R4 element `Medication.amount` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Medication.ingredient.strength[x]"/>
+      <display value="strength[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.ingredient.strength"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Medication.ingredient.strength[x]` is mapped to FHIR R4 element `Medication.ingredient.strength` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Medication"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <targetVersion value="5.2.0"/>
+    <element>
+      <code value="Medication.definition"/>
+      <display value="definition"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="wider"/>
+        <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Medication.definition` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Medication.definition` has a context of Medication based on following the parent source element upwards and mapping to `Medication`."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

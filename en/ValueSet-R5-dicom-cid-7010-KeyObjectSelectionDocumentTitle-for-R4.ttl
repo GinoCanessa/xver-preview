@@ -1,0 +1,1005 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4</b></p><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4\"> </a><a name=\"hcR5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4\"> </a><p>This value set expansion contains 78 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113000\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  113000</td><td>Of Interest</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113001\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  113001</td><td>Rejected for Quality Reasons</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113002\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  113002</td><td>For Referring Provider</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113003\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  113003</td><td>For Surgery</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113004\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  113004</td><td>For Teaching</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113005\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  113005</td><td>For Conference</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113006\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  113006</td><td>For Therapy</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113007\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  113007</td><td>For Patient</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113008\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  113008</td><td>For Peer Review</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113009\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  113009</td><td>For Research</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113010\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  113010</td><td>Quality Issue</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113013\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  113013</td><td>Best In Set</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113018\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  113018</td><td>For Printing</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113020\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  113020</td><td>For Report Attachment</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113021\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  113021</td><td>For Litigation</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113022\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  113022</td><td>Collection of Presentation States</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113030\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  113030</td><td>Manifest</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113031\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  113031</td><td>Signed Manifest</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113032\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  113032</td><td>Complete Study Content</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113033\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  113033</td><td>Signed Complete Study Content</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113034\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  113034</td><td>Complete Acquisition Content</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113035\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  113035</td><td>Signed Complete Acquisition Content</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113036\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  113036</td><td>Group of Frames for Display</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113037\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  113037</td><td>Rejected for Patient Safety Reasons</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113038\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  113038</td><td>Incorrect Modality Worklist Entry</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113039\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  113039</td><td>Data Retention Policy Expired</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128180\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128180</td><td>For RT Workflow</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128181\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128181</td><td>Diagnostic Source Images</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128182\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128182</td><td>Segmentation Result</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128183\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128183</td><td>Registration Result</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128184\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128184</td><td>Pre-Planning Result</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128185\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128185</td><td>RT Prescription Result</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128186\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128186</td><td>Dose Calculation Image Series</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128187\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128187</td><td>Coordinate Alignment Image Series</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128188\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128188</td><td>RT Treatment Simulation Result</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128189\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128189</td><td>RT Planning Result</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128190\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128190</td><td>Dosimetric Result</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128191\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128191</td><td>Patient Setup Verification Result</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128192\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128192</td><td>RT Treatment Session Result</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128193\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128193</td><td>RT Treatment Course Summary</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128194\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128194</td><td>RT Treatment QA Result</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128195\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128195</td><td>For Diagnosis</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128196\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128196</td><td>For Segmentation</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128197\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128197</td><td>For RT Prescription</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128198\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128198</td><td>For RT Treatment Planning</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128199\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128199</td><td>For Plan Comparison</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128200\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128200</td><td>For RT Plan Summation</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128201\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128201</td><td>For Physician Review</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128202\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128202</td><td>For Physicist Review</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128203\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128203</td><td>For Tumor Board</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128204\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128204</td><td>For Plan Quality Assurance</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128205\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128205</td><td>For Machine Quality Assurance</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128206\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128206</td><td>For Patient Setup Verification</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128207\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128207</td><td>For Clinical Trial Submission</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128208\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128208</td><td>For Tumor Registry</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128209\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128209</td><td>RT Workflow Input Used</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128210\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128210</td><td>RT Prescription Input Used</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128211\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128211</td><td>RT Treatment Planning Input Used</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128212\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128212</td><td>RT Plan Summation Input Used</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128213\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128213</td><td>Physician Review Input Used</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128214\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128214</td><td>Physicist Review Input Used</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128215\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128215</td><td>Plan Quality Assurance Input Used</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128216\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128216</td><td>Machine Quality Assurance Input Used</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128217\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128217</td><td>Patient Setup Verification Input Used</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128218\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128218</td><td>Diagnosis Input Used</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128219\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128219</td><td>Contouring Input Used</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128220\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128220</td><td>Plan Comparison Input Used</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128221\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128221</td><td>Tumor Board Input Used</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128222\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128222</td><td>Tumor Registry Input Used</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128223\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128223</td><td>Clinical Trial Submission Input Used</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128710\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128710</td><td>For Teaching File Export</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128711\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128711</td><td>For Clinical Trial Export</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128713\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128713</td><td>For Research Collection Export</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128714\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  128714</td><td>For Publication Export</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-130370\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  130370</td><td>RTV Rendition</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-130371\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  130371</td><td>RTV Audio and Video Rendition</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-130372\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  130372</td><td>RTV Stereo Video Rendition</td></tr><tr><td><a name=\"R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-130373\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  130373</td><td>RTV Audio and Stereo Video Rendition</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5DicomCid7010KeyObjectSelectionDocumentTitleForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.KeyObjectSelectionDocumentTitle for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7010.html|2023.1.20230123` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7010.html|2023.1.20230123` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `ImagingSelection.category`\n* `ImagingSelection.code`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7010.html|2023.1.20230123`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "113000" ] ;
+         fhir:display [ fhir:v "Of Interest" ]
+       ] [
+         fhir:code [ fhir:v "113001" ] ;
+         fhir:display [ fhir:v "Rejected for Quality Reasons" ]
+       ] [
+         fhir:code [ fhir:v "113002" ] ;
+         fhir:display [ fhir:v "For Referring Provider" ]
+       ] [
+         fhir:code [ fhir:v "113003" ] ;
+         fhir:display [ fhir:v "For Surgery" ]
+       ] [
+         fhir:code [ fhir:v "113004" ] ;
+         fhir:display [ fhir:v "For Teaching" ]
+       ] [
+         fhir:code [ fhir:v "113005" ] ;
+         fhir:display [ fhir:v "For Conference" ]
+       ] [
+         fhir:code [ fhir:v "113006" ] ;
+         fhir:display [ fhir:v "For Therapy" ]
+       ] [
+         fhir:code [ fhir:v "113007" ] ;
+         fhir:display [ fhir:v "For Patient" ]
+       ] [
+         fhir:code [ fhir:v "113008" ] ;
+         fhir:display [ fhir:v "For Peer Review" ]
+       ] [
+         fhir:code [ fhir:v "113009" ] ;
+         fhir:display [ fhir:v "For Research" ]
+       ] [
+         fhir:code [ fhir:v "113010" ] ;
+         fhir:display [ fhir:v "Quality Issue" ]
+       ] [
+         fhir:code [ fhir:v "113013" ] ;
+         fhir:display [ fhir:v "Best In Set" ]
+       ] [
+         fhir:code [ fhir:v "113018" ] ;
+         fhir:display [ fhir:v "For Printing" ]
+       ] [
+         fhir:code [ fhir:v "113020" ] ;
+         fhir:display [ fhir:v "For Report Attachment" ]
+       ] [
+         fhir:code [ fhir:v "113021" ] ;
+         fhir:display [ fhir:v "For Litigation" ]
+       ] [
+         fhir:code [ fhir:v "113022" ] ;
+         fhir:display [ fhir:v "Collection of Presentation States" ]
+       ] [
+         fhir:code [ fhir:v "113030" ] ;
+         fhir:display [ fhir:v "Manifest" ]
+       ] [
+         fhir:code [ fhir:v "113031" ] ;
+         fhir:display [ fhir:v "Signed Manifest" ]
+       ] [
+         fhir:code [ fhir:v "113032" ] ;
+         fhir:display [ fhir:v "Complete Study Content" ]
+       ] [
+         fhir:code [ fhir:v "113033" ] ;
+         fhir:display [ fhir:v "Signed Complete Study Content" ]
+       ] [
+         fhir:code [ fhir:v "113034" ] ;
+         fhir:display [ fhir:v "Complete Acquisition Content" ]
+       ] [
+         fhir:code [ fhir:v "113035" ] ;
+         fhir:display [ fhir:v "Signed Complete Acquisition Content" ]
+       ] [
+         fhir:code [ fhir:v "113036" ] ;
+         fhir:display [ fhir:v "Group of Frames for Display" ]
+       ] [
+         fhir:code [ fhir:v "113037" ] ;
+         fhir:display [ fhir:v "Rejected for Patient Safety Reasons" ]
+       ] [
+         fhir:code [ fhir:v "113038" ] ;
+         fhir:display [ fhir:v "Incorrect Modality Worklist Entry" ]
+       ] [
+         fhir:code [ fhir:v "113039" ] ;
+         fhir:display [ fhir:v "Data Retention Policy Expired" ]
+       ] [
+         fhir:code [ fhir:v "128180" ] ;
+         fhir:display [ fhir:v "For RT Workflow" ]
+       ] [
+         fhir:code [ fhir:v "128181" ] ;
+         fhir:display [ fhir:v "Diagnostic Source Images" ]
+       ] [
+         fhir:code [ fhir:v "128182" ] ;
+         fhir:display [ fhir:v "Segmentation Result" ]
+       ] [
+         fhir:code [ fhir:v "128183" ] ;
+         fhir:display [ fhir:v "Registration Result" ]
+       ] [
+         fhir:code [ fhir:v "128184" ] ;
+         fhir:display [ fhir:v "Pre-Planning Result" ]
+       ] [
+         fhir:code [ fhir:v "128185" ] ;
+         fhir:display [ fhir:v "RT Prescription Result" ]
+       ] [
+         fhir:code [ fhir:v "128186" ] ;
+         fhir:display [ fhir:v "Dose Calculation Image Series" ]
+       ] [
+         fhir:code [ fhir:v "128187" ] ;
+         fhir:display [ fhir:v "Coordinate Alignment Image Series" ]
+       ] [
+         fhir:code [ fhir:v "128188" ] ;
+         fhir:display [ fhir:v "RT Treatment Simulation Result" ]
+       ] [
+         fhir:code [ fhir:v "128189" ] ;
+         fhir:display [ fhir:v "RT Planning Result" ]
+       ] [
+         fhir:code [ fhir:v "128190" ] ;
+         fhir:display [ fhir:v "Dosimetric Result" ]
+       ] [
+         fhir:code [ fhir:v "128191" ] ;
+         fhir:display [ fhir:v "Patient Setup Verification Result" ]
+       ] [
+         fhir:code [ fhir:v "128192" ] ;
+         fhir:display [ fhir:v "RT Treatment Session Result" ]
+       ] [
+         fhir:code [ fhir:v "128193" ] ;
+         fhir:display [ fhir:v "RT Treatment Course Summary" ]
+       ] [
+         fhir:code [ fhir:v "128194" ] ;
+         fhir:display [ fhir:v "RT Treatment QA Result" ]
+       ] [
+         fhir:code [ fhir:v "128195" ] ;
+         fhir:display [ fhir:v "For Diagnosis" ]
+       ] [
+         fhir:code [ fhir:v "128196" ] ;
+         fhir:display [ fhir:v "For Segmentation" ]
+       ] [
+         fhir:code [ fhir:v "128197" ] ;
+         fhir:display [ fhir:v "For RT Prescription" ]
+       ] [
+         fhir:code [ fhir:v "128198" ] ;
+         fhir:display [ fhir:v "For RT Treatment Planning" ]
+       ] [
+         fhir:code [ fhir:v "128199" ] ;
+         fhir:display [ fhir:v "For Plan Comparison" ]
+       ] [
+         fhir:code [ fhir:v "128200" ] ;
+         fhir:display [ fhir:v "For RT Plan Summation" ]
+       ] [
+         fhir:code [ fhir:v "128201" ] ;
+         fhir:display [ fhir:v "For Physician Review" ]
+       ] [
+         fhir:code [ fhir:v "128202" ] ;
+         fhir:display [ fhir:v "For Physicist Review" ]
+       ] [
+         fhir:code [ fhir:v "128203" ] ;
+         fhir:display [ fhir:v "For Tumor Board" ]
+       ] [
+         fhir:code [ fhir:v "128204" ] ;
+         fhir:display [ fhir:v "For Plan Quality Assurance" ]
+       ] [
+         fhir:code [ fhir:v "128205" ] ;
+         fhir:display [ fhir:v "For Machine Quality Assurance" ]
+       ] [
+         fhir:code [ fhir:v "128206" ] ;
+         fhir:display [ fhir:v "For Patient Setup Verification" ]
+       ] [
+         fhir:code [ fhir:v "128207" ] ;
+         fhir:display [ fhir:v "For Clinical Trial Submission" ]
+       ] [
+         fhir:code [ fhir:v "128208" ] ;
+         fhir:display [ fhir:v "For Tumor Registry" ]
+       ] [
+         fhir:code [ fhir:v "128209" ] ;
+         fhir:display [ fhir:v "RT Workflow Input Used" ]
+       ] [
+         fhir:code [ fhir:v "128210" ] ;
+         fhir:display [ fhir:v "RT Prescription Input Used" ]
+       ] [
+         fhir:code [ fhir:v "128211" ] ;
+         fhir:display [ fhir:v "RT Treatment Planning Input Used" ]
+       ] [
+         fhir:code [ fhir:v "128212" ] ;
+         fhir:display [ fhir:v "RT Plan Summation Input Used" ]
+       ] [
+         fhir:code [ fhir:v "128213" ] ;
+         fhir:display [ fhir:v "Physician Review Input Used" ]
+       ] [
+         fhir:code [ fhir:v "128214" ] ;
+         fhir:display [ fhir:v "Physicist Review Input Used" ]
+       ] [
+         fhir:code [ fhir:v "128215" ] ;
+         fhir:display [ fhir:v "Plan Quality Assurance Input Used" ]
+       ] [
+         fhir:code [ fhir:v "128216" ] ;
+         fhir:display [ fhir:v "Machine Quality Assurance Input Used" ]
+       ] [
+         fhir:code [ fhir:v "128217" ] ;
+         fhir:display [ fhir:v "Patient Setup Verification Input Used" ]
+       ] [
+         fhir:code [ fhir:v "128218" ] ;
+         fhir:display [ fhir:v "Diagnosis Input Used" ]
+       ] [
+         fhir:code [ fhir:v "128219" ] ;
+         fhir:display [ fhir:v "Contouring Input Used" ]
+       ] [
+         fhir:code [ fhir:v "128220" ] ;
+         fhir:display [ fhir:v "Plan Comparison Input Used" ]
+       ] [
+         fhir:code [ fhir:v "128221" ] ;
+         fhir:display [ fhir:v "Tumor Board Input Used" ]
+       ] [
+         fhir:code [ fhir:v "128222" ] ;
+         fhir:display [ fhir:v "Tumor Registry Input Used" ]
+       ] [
+         fhir:code [ fhir:v "128223" ] ;
+         fhir:display [ fhir:v "Clinical Trial Submission Input Used" ]
+       ] [
+         fhir:code [ fhir:v "128710" ] ;
+         fhir:display [ fhir:v "For Teaching File Export" ]
+       ] [
+         fhir:code [ fhir:v "128711" ] ;
+         fhir:display [ fhir:v "For Clinical Trial Export" ]
+       ] [
+         fhir:code [ fhir:v "128713" ] ;
+         fhir:display [ fhir:v "For Research Collection Export" ]
+       ] [
+         fhir:code [ fhir:v "128714" ] ;
+         fhir:display [ fhir:v "For Publication Export" ]
+       ] [
+         fhir:code [ fhir:v "130370" ] ;
+         fhir:display [ fhir:v "RTV Rendition" ]
+       ] [
+         fhir:code [ fhir:v "130371" ] ;
+         fhir:display [ fhir:v "RTV Audio and Video Rendition" ]
+       ] [
+         fhir:code [ fhir:v "130372" ] ;
+         fhir:display [ fhir:v "RTV Stereo Video Rendition" ]
+       ] [
+         fhir:code [ fhir:v "130373" ] ;
+         fhir:display [ fhir:v "RTV Audio and Stereo Video Rendition" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "113000" ] ;
+       fhir:display [ fhir:v "Of Interest" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "113001" ] ;
+       fhir:display [ fhir:v "Rejected for Quality Reasons" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "113002" ] ;
+       fhir:display [ fhir:v "For Referring Provider" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "113003" ] ;
+       fhir:display [ fhir:v "For Surgery" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "113004" ] ;
+       fhir:display [ fhir:v "For Teaching" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "113005" ] ;
+       fhir:display [ fhir:v "For Conference" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "113006" ] ;
+       fhir:display [ fhir:v "For Therapy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "113007" ] ;
+       fhir:display [ fhir:v "For Patient" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "113008" ] ;
+       fhir:display [ fhir:v "For Peer Review" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "113009" ] ;
+       fhir:display [ fhir:v "For Research" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "113010" ] ;
+       fhir:display [ fhir:v "Quality Issue" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "113013" ] ;
+       fhir:display [ fhir:v "Best In Set" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "113018" ] ;
+       fhir:display [ fhir:v "For Printing" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "113020" ] ;
+       fhir:display [ fhir:v "For Report Attachment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "113021" ] ;
+       fhir:display [ fhir:v "For Litigation" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "113022" ] ;
+       fhir:display [ fhir:v "Collection of Presentation States" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "113030" ] ;
+       fhir:display [ fhir:v "Manifest" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "113031" ] ;
+       fhir:display [ fhir:v "Signed Manifest" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "113032" ] ;
+       fhir:display [ fhir:v "Complete Study Content" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "113033" ] ;
+       fhir:display [ fhir:v "Signed Complete Study Content" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "113034" ] ;
+       fhir:display [ fhir:v "Complete Acquisition Content" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "113035" ] ;
+       fhir:display [ fhir:v "Signed Complete Acquisition Content" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "113036" ] ;
+       fhir:display [ fhir:v "Group of Frames for Display" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "113037" ] ;
+       fhir:display [ fhir:v "Rejected for Patient Safety Reasons" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "113038" ] ;
+       fhir:display [ fhir:v "Incorrect Modality Worklist Entry" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "113039" ] ;
+       fhir:display [ fhir:v "Data Retention Policy Expired" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128180" ] ;
+       fhir:display [ fhir:v "For RT Workflow" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128181" ] ;
+       fhir:display [ fhir:v "Diagnostic Source Images" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128182" ] ;
+       fhir:display [ fhir:v "Segmentation Result" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128183" ] ;
+       fhir:display [ fhir:v "Registration Result" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128184" ] ;
+       fhir:display [ fhir:v "Pre-Planning Result" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128185" ] ;
+       fhir:display [ fhir:v "RT Prescription Result" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128186" ] ;
+       fhir:display [ fhir:v "Dose Calculation Image Series" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128187" ] ;
+       fhir:display [ fhir:v "Coordinate Alignment Image Series" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128188" ] ;
+       fhir:display [ fhir:v "RT Treatment Simulation Result" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128189" ] ;
+       fhir:display [ fhir:v "RT Planning Result" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128190" ] ;
+       fhir:display [ fhir:v "Dosimetric Result" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128191" ] ;
+       fhir:display [ fhir:v "Patient Setup Verification Result" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128192" ] ;
+       fhir:display [ fhir:v "RT Treatment Session Result" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128193" ] ;
+       fhir:display [ fhir:v "RT Treatment Course Summary" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128194" ] ;
+       fhir:display [ fhir:v "RT Treatment QA Result" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128195" ] ;
+       fhir:display [ fhir:v "For Diagnosis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128196" ] ;
+       fhir:display [ fhir:v "For Segmentation" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128197" ] ;
+       fhir:display [ fhir:v "For RT Prescription" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128198" ] ;
+       fhir:display [ fhir:v "For RT Treatment Planning" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128199" ] ;
+       fhir:display [ fhir:v "For Plan Comparison" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128200" ] ;
+       fhir:display [ fhir:v "For RT Plan Summation" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128201" ] ;
+       fhir:display [ fhir:v "For Physician Review" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128202" ] ;
+       fhir:display [ fhir:v "For Physicist Review" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128203" ] ;
+       fhir:display [ fhir:v "For Tumor Board" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128204" ] ;
+       fhir:display [ fhir:v "For Plan Quality Assurance" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128205" ] ;
+       fhir:display [ fhir:v "For Machine Quality Assurance" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128206" ] ;
+       fhir:display [ fhir:v "For Patient Setup Verification" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128207" ] ;
+       fhir:display [ fhir:v "For Clinical Trial Submission" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128208" ] ;
+       fhir:display [ fhir:v "For Tumor Registry" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128209" ] ;
+       fhir:display [ fhir:v "RT Workflow Input Used" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128210" ] ;
+       fhir:display [ fhir:v "RT Prescription Input Used" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128211" ] ;
+       fhir:display [ fhir:v "RT Treatment Planning Input Used" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128212" ] ;
+       fhir:display [ fhir:v "RT Plan Summation Input Used" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128213" ] ;
+       fhir:display [ fhir:v "Physician Review Input Used" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128214" ] ;
+       fhir:display [ fhir:v "Physicist Review Input Used" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128215" ] ;
+       fhir:display [ fhir:v "Plan Quality Assurance Input Used" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128216" ] ;
+       fhir:display [ fhir:v "Machine Quality Assurance Input Used" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128217" ] ;
+       fhir:display [ fhir:v "Patient Setup Verification Input Used" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128218" ] ;
+       fhir:display [ fhir:v "Diagnosis Input Used" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128219" ] ;
+       fhir:display [ fhir:v "Contouring Input Used" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128220" ] ;
+       fhir:display [ fhir:v "Plan Comparison Input Used" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128221" ] ;
+       fhir:display [ fhir:v "Tumor Board Input Used" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128222" ] ;
+       fhir:display [ fhir:v "Tumor Registry Input Used" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128223" ] ;
+       fhir:display [ fhir:v "Clinical Trial Submission Input Used" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128710" ] ;
+       fhir:display [ fhir:v "For Teaching File Export" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128711" ] ;
+       fhir:display [ fhir:v "For Clinical Trial Export" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128713" ] ;
+       fhir:display [ fhir:v "For Research Collection Export" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "128714" ] ;
+       fhir:display [ fhir:v "For Publication Export" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "130370" ] ;
+       fhir:display [ fhir:v "RTV Rendition" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "130371" ] ;
+       fhir:display [ fhir:v "RTV Audio and Video Rendition" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "130372" ] ;
+       fhir:display [ fhir:v "RTV Stereo Video Rendition" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "130373" ] ;
+       fhir:display [ fhir:v "RTV Audio and Stereo Video Rendition" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

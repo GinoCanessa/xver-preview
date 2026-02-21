@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="medication-ingredientstrength"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/CodeSystem/medication-ingredientstrength</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">qs
+                  <a name="medication-ingredientstrength-qs"> </a>
+                </td>
+                <td>QS</td>
+                <td>As much as is sufficient.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">trace
+                  <a name="medication-ingredientstrength-trace"> </a>
+                </td>
+                <td>Trace</td>
+                <td>Very small amount.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="phx"/>
+  </extension>
+  <url value="http://hl7.org/fhir/CodeSystem/medication-ingredientstrength"/>
+  <version value="5.0.0"/>
+  <name value="MedicationIngredientStrengthCodes"/>
+  <title value="Medication Ingredient Strength Codes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T13:39:05-06:00"/>
+  <publisher value="Pharmacy"/>
+  <contact>
+    <name value="Pharmacy"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/medication"/>
+    </telecom>
+  </contact>
+  <description value="Medication Ingredient Strength Codes"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/medication-ingredientstrength"/>
+  <content value="complete"/>
+  <concept>
+    <code value="qs"/>
+    <display value="QS"/>
+    <definition value="As much as is sufficient."/>
+  </concept>
+  <concept>
+    <code value="trace"/>
+    <display value="Trace"/>
+    <definition value="Very small amount."/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,414 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>R5V3HokanForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"7.2338"}
+    h3,h4,h5,h6{--heading-prefix:"7.2338"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" data-no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img alt="International flag" src="../assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>R5V3HokanForR4</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="ValueSet-R5-v3-HemClinPracticeSetting-for-R4.ttl.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="ValueSet-R5-v3-Hokan-for-R4-testing.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<!-- layouts\layout-valueset -->
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ValueSet-R5-v3-Hokan-for-R4.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-R5-v3-Hokan-for-R4.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-R5-v3-Hokan-for-R4.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">ValueSet: Cross-version ValueSet R5.Hokan for use in FHIR R4
+
+  </h2>
+  <table class="colsd" data-fhir="generated">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-Hokan-for-R4<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-Hokan-for-R4"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.0.1-snapshot-3<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-Hokan-for-R4|0.0.1-snapshot-3"/></span>
+      </td>
+      <td style="text-align: right;border-left-style: hidden" title="Enable this to see changes since the last official release">
+        <span id="toggle-change-display"><label style="margin:0;font-weight:normal" for="showChanges">Highlight text changes?</label>
+  
+        <input style="margin:0" type="checkbox" id="showChanges" onchange="toggleChanges()"/>
+  
+      </span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          <i>
+            
+            Standards status:
+          </i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standards Status">Trial-use</a>
+          
+          
+          Active
+          
+
+            as of 
+2026-02-21
+
+          
+        
+      </td>
+
+      <td>
+        <a href="http://hl7.org/fhir/versions.html#maturity">Maturity Level</a>: 0
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">R5V3HokanForR4</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>This cross-version ValueSet represents content from <code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/ValueSet/v3-Hokan|2.0.0</code> for use in FHIR R4.</p>
+
+</p>
+
+<p>
+
+
+</p>
+
+
+  <p>
+    <b>References</b>
+  </p>
+  
+<p>This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)</p>
+
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <a name="definition"> </a>
+
+<!-- Content Logical Definition heading in the fragment -->
+  <h3>Logical Definition (CLD)</h3>
+<div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated"><p class="res-header-id"></p><a name="R5-v3-Hokan-for-R4"> </a><a name="hcR5-v3-Hokan-for-R4"> </a>
+<ul><li>Include these codes as defined in <code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code><span title="Version is explicitly stated to be 2.1.0"> version &#x1F4CD;</span><table class="none" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>_CochimiYuman</td><td>CochimiYuman</td></tr><tr><td>_DeltaCalifornia</td><td>DeltaCalifornia</td></tr><tr><td>_Diegueno</td><td>Diegueno</td></tr><tr><td>_Pai</td><td>Pai</td></tr><tr><td>_Palaihnihan</td><td>Palaihnihan</td></tr><tr><td>_Pomoan</td><td>Pomoan</td></tr><tr><td>_River</td><td>River</td></tr><tr><td>_Shasta</td><td>Shasta</td></tr><tr><td>_Yuman</td><td>Yuman</td></tr><tr><td>x-ACH</td><td>Achumawi</td></tr><tr><td>x-ATW</td><td>Atsugewi</td></tr><tr><td>x-COC</td><td>Cocopa</td></tr><tr><td>x-DIH</td><td>Kumeyaay</td></tr><tr><td>x-KJU</td><td>Kashaya</td></tr><tr><td>x-KYH</td><td>Karok</td></tr><tr><td>x-MOV</td><td>Mohave</td></tr><tr><td>x-MRC</td><td>Maricopa</td></tr><tr><td>x-PEF</td><td>Northeastern Pomo</td></tr><tr><td>x-PEO</td><td>Southeastern Pomo</td></tr><tr><td>x-PEQ</td><td>Southern Pomo</td></tr><tr><td>x-POO</td><td>Central Pomo</td></tr><tr><td>x-SHT</td><td>Shasta</td></tr><tr><td>x-WAS</td><td>Washoe</td></tr><tr><td>x-YUF</td><td>Havasupai</td></tr><tr><td>x-YUM</td><td>Quechan</td></tr></table></li></ul></div>
+
+  <p>&#160;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">Expansion</h3>
+
+  <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated"><p class="res-header-id"/><p>This value set expansion contains 25 concepts.</p><table class="codes" data-fhir="generated"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name="x-R5-v3-Hokan-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-_CochimiYuman"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style="white-space:nowrap">  _CochimiYuman</td><td>CochimiYuman</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;_CochimiYuman&quot;, &quot;display&quot;: &quot;CochimiYuman&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;_CochimiYuman&quot;&gt;&lt;display value=&quot;CochimiYuman&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-Hokan-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-_DeltaCalifornia"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style="white-space:nowrap">  _DeltaCalifornia</td><td>DeltaCalifornia</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;_DeltaCalifornia&quot;, &quot;display&quot;: &quot;DeltaCalifornia&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;_DeltaCalifornia&quot;&gt;&lt;display value=&quot;DeltaCalifornia&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-Hokan-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-_Diegueno"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style="white-space:nowrap">  _Diegueno</td><td>Diegueno</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;_Diegueno&quot;, &quot;display&quot;: &quot;Diegueno&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;_Diegueno&quot;&gt;&lt;display value=&quot;Diegueno&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-Hokan-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-_Pai"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style="white-space:nowrap">  _Pai</td><td>Pai</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;_Pai&quot;, &quot;display&quot;: &quot;Pai&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;_Pai&quot;&gt;&lt;display value=&quot;Pai&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-Hokan-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-_Palaihnihan"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style="white-space:nowrap">  _Palaihnihan</td><td>Palaihnihan</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;_Palaihnihan&quot;, &quot;display&quot;: &quot;Palaihnihan&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;_Palaihnihan&quot;&gt;&lt;display value=&quot;Palaihnihan&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-Hokan-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-_Pomoan"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style="white-space:nowrap">  _Pomoan</td><td>Pomoan</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;_Pomoan&quot;, &quot;display&quot;: &quot;Pomoan&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;_Pomoan&quot;&gt;&lt;display value=&quot;Pomoan&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-Hokan-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-_River"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style="white-space:nowrap">  _River</td><td>River</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;_River&quot;, &quot;display&quot;: &quot;River&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;_River&quot;&gt;&lt;display value=&quot;River&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-Hokan-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-_Shasta"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style="white-space:nowrap">  _Shasta</td><td>Shasta</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;_Shasta&quot;, &quot;display&quot;: &quot;Shasta&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;_Shasta&quot;&gt;&lt;display value=&quot;Shasta&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-Hokan-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-_Yuman"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style="white-space:nowrap">  _Yuman</td><td>Yuman</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;_Yuman&quot;, &quot;display&quot;: &quot;Yuman&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;_Yuman&quot;&gt;&lt;display value=&quot;Yuman&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-Hokan-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-ACH"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style="white-space:nowrap">  x-ACH</td><td>Achumawi</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;x-ACH&quot;, &quot;display&quot;: &quot;Achumawi&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;x-ACH&quot;&gt;&lt;display value=&quot;Achumawi&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-Hokan-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-ATW"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style="white-space:nowrap">  x-ATW</td><td>Atsugewi</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;x-ATW&quot;, &quot;display&quot;: &quot;Atsugewi&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;x-ATW&quot;&gt;&lt;display value=&quot;Atsugewi&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-Hokan-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-COC"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style="white-space:nowrap">  x-COC</td><td>Cocopa</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;x-COC&quot;, &quot;display&quot;: &quot;Cocopa&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;x-COC&quot;&gt;&lt;display value=&quot;Cocopa&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-Hokan-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-DIH"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style="white-space:nowrap">  x-DIH</td><td>Kumeyaay</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;x-DIH&quot;, &quot;display&quot;: &quot;Kumeyaay&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;x-DIH&quot;&gt;&lt;display value=&quot;Kumeyaay&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-Hokan-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-KJU"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style="white-space:nowrap">  x-KJU</td><td>Kashaya</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;x-KJU&quot;, &quot;display&quot;: &quot;Kashaya&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;x-KJU&quot;&gt;&lt;display value=&quot;Kashaya&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-Hokan-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-KYH"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style="white-space:nowrap">  x-KYH</td><td>Karok</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;x-KYH&quot;, &quot;display&quot;: &quot;Karok&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;x-KYH&quot;&gt;&lt;display value=&quot;Karok&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-Hokan-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-MOV"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style="white-space:nowrap">  x-MOV</td><td>Mohave</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;x-MOV&quot;, &quot;display&quot;: &quot;Mohave&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;x-MOV&quot;&gt;&lt;display value=&quot;Mohave&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-Hokan-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-MRC"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style="white-space:nowrap">  x-MRC</td><td>Maricopa</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;x-MRC&quot;, &quot;display&quot;: &quot;Maricopa&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;x-MRC&quot;&gt;&lt;display value=&quot;Maricopa&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-Hokan-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-PEF"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style="white-space:nowrap">  x-PEF</td><td>Northeastern Pomo</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;x-PEF&quot;, &quot;display&quot;: &quot;Northeastern Pomo&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;x-PEF&quot;&gt;&lt;display value=&quot;Northeastern Pomo&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-Hokan-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-PEO"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style="white-space:nowrap">  x-PEO</td><td>Southeastern Pomo</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;x-PEO&quot;, &quot;display&quot;: &quot;Southeastern Pomo&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;x-PEO&quot;&gt;&lt;display value=&quot;Southeastern Pomo&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-Hokan-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-PEQ"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style="white-space:nowrap">  x-PEQ</td><td>Southern Pomo</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;x-PEQ&quot;, &quot;display&quot;: &quot;Southern Pomo&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;x-PEQ&quot;&gt;&lt;display value=&quot;Southern Pomo&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-Hokan-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-POO"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style="white-space:nowrap">  x-POO</td><td>Central Pomo</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;x-POO&quot;, &quot;display&quot;: &quot;Central Pomo&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;x-POO&quot;&gt;&lt;display value=&quot;Central Pomo&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-Hokan-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-SHT"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style="white-space:nowrap">  x-SHT</td><td>Shasta</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;x-SHT&quot;, &quot;display&quot;: &quot;Shasta&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;x-SHT&quot;&gt;&lt;display value=&quot;Shasta&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-Hokan-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-WAS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style="white-space:nowrap">  x-WAS</td><td>Washoe</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;x-WAS&quot;, &quot;display&quot;: &quot;Washoe&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;x-WAS&quot;&gt;&lt;display value=&quot;Washoe&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-Hokan-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-YUF"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style="white-space:nowrap">  x-YUF</td><td>Havasupai</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;x-YUF&quot;, &quot;display&quot;: &quot;Havasupai&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;x-YUF&quot;&gt;&lt;display value=&quot;Havasupai&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-Hokan-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-YUM"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style="white-space:nowrap">  x-YUM</td><td>Quechan</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;x-YUM&quot;, &quot;display&quot;: &quot;Quechan&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;x-YUM&quot;&gt;&lt;display value=&quot;Quechan&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr></table></div>
+
+  <hr/>
+  <p>
+    <a href="http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology">Description of the above table(s)</a>.
+  </p>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="ValueSet-R5-v3-HemClinPracticeSetting-for-R4.ttl.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="ValueSet-R5-v3-Hokan-for-R4-testing.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-21 13:39:00 -0600">
+    2026-02-21
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir/uv/xver/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

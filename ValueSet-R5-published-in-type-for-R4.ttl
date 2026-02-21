@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "R5-published-in-type-for-R4"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-published-in-type-for-R4</b></p><a name=\"R5-published-in-type-for-R4\"> </a><a name=\"hcR5-published-in-type-for-R4\"> </a><p>This value set expansion contains 4 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-published-in-type-for-R4-http://hl7.org/fhir/published-in-type-D001877\"> </a><code>http://hl7.org/fhir/published-in-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  D001877</td><td>Book</td></tr><tr><td><a name=\"R5-published-in-type-for-R4-http://hl7.org/fhir/published-in-type-D019991\"> </a><code>http://hl7.org/fhir/published-in-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  D019991</td><td>Database</td></tr><tr><td><a name=\"R5-published-in-type-for-R4-http://hl7.org/fhir/published-in-type-D020492\"> </a><code>http://hl7.org/fhir/published-in-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  D020492</td><td>Periodical</td></tr><tr><td><a name=\"R5-published-in-type-for-R4-http://hl7.org/fhir/published-in-type-D064886\"> </a><code>http://hl7.org/fhir/published-in-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  D064886</td><td>Dataset</td></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-published-in-type-for-R4</b></p><a name=\"R5-published-in-type-for-R4\"> </a><a name=\"hcR5-published-in-type-for-R4\"> </a><p>This value set expansion contains 4 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"R5-published-in-type-for-R4-http://hl7.org/fhir/published-in-type-D001877\"> </a><code>http://hl7.org/fhir/published-in-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-published-in-type.html#published-in-type-D001877\">D001877</a></td><td>Book</td><td>Non-periodical written or printed works consisting of sheets of pages fastened or bound together within covers.</td></tr><tr><td><a name=\"R5-published-in-type-for-R4-http://hl7.org/fhir/published-in-type-D019991\"> </a><code>http://hl7.org/fhir/published-in-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-published-in-type.html#published-in-type-D019991\">D019991</a></td><td>Database</td><td>A structured file of information or a set of logically related data stored and retrieved using computer-based means.</td></tr><tr><td><a name=\"R5-published-in-type-for-R4-http://hl7.org/fhir/published-in-type-D020492\"> </a><code>http://hl7.org/fhir/published-in-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-published-in-type.html#published-in-type-D020492\">D020492</a></td><td>Periodical</td><td>Publication intended to be issued on an ongoing basis, generally more frequently than annually, containing separate articles, stories, or writings.</td></tr><tr><td><a name=\"R5-published-in-type-for-R4-http://hl7.org/fhir/published-in-type-D064886\"> </a><code>http://hl7.org/fhir/published-in-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-published-in-type.html#published-in-type-D064886\">D064886</a></td><td>Dataset</td><td>Works consisting of organized collections of data, which have been stored permanently in a formalized manner suitable for communication, interpretation, or processing.</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:url [
@@ -29,7 +29,7 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "fhir"
+       fhir:v "cds"
      ]
   ] [
      fhir:extension ( [
@@ -95,13 +95,13 @@
   fhir:title [ fhir:v "Cross-version ValueSet R5.PublishedInType for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-20T17:59:09.1776521+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Clinical Decision Support"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:name [ fhir:v "Clinical Decision Support" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/dss" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/published-in-type|5.0.0` for use in FHIR R4."] ; # 
@@ -115,7 +115,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/published-in-type|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `Citation.citedArtifact.publicationForm.publishedIn.type` as Extensible\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/published-in-type|5.0.0`\n* `http://hl7.org/fhir/ValueSet/published-in-type|4.3.0`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\nAll concepts in the comparison are listed as identical.\nThe source and target value sets have the same number of active concepts (4)."] ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/published-in-type|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `Citation.citedArtifact.publicationForm.publishedIn.type` as Extensible\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/published-in-type|5.0.0`\n* `http://hl7.org/fhir/ValueSet/published-in-type|4.3.0`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\nAll concepts in the comparison are listed as identical.\nThe source and target value sets have the same number of active concepts (4).\nFHIR ValueSet `http://hl7.org/fhir/ValueSet/published-in-type|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
   fhir:compose [
      fhir:include ( [
        fhir:system [
@@ -139,7 +139,7 @@
      ] )
   ] ; # 
   fhir:expansion [
-     fhir:timestamp [ fhir:v "2026-02-20T17:59:09.1776521+00:00"^^xsd:dateTime ] ;
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
      fhir:contains ( [
        fhir:system [
          fhir:v "http://hl7.org/fhir/published-in-type"^^xsd:anyURI ;

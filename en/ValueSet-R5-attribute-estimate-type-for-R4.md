@@ -1,0 +1,158 @@
+# R5AttributeEstimateTypeForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## ValueSet: Cross-version ValueSet R5.AttributeEstimateType for use in FHIR R4 
+
+ 
+This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/attribute-estimate-type|5.0.0` for use in FHIR R4. 
+
+ **References** 
+
+* [Cross-version Extension `R5.Evidence.statistic.attributeEstimate` for use in FHIR R4](StructureDefinition-attributeEstimate.md)
+* [Cross-version Extension `R5.Evidence.statistic` for use in FHIR R4](StructureDefinition-ext-R5-Evidence.statistic.md)
+
+### Logical Definition (CLD)
+
+ 
+
+### Expansion
+
+-------
+
+ [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ValueSet",
+  "id" : "R5-attribute-estimate-type-for-R4",
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger" : 1
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "cds"
+    },
+    {
+      "extension" : [
+        {
+          "url" : "packageId",
+          "valueId" : "hl7.fhir.uv.xver-r5.r4"
+        },
+        {
+          "url" : "version",
+          "valueString" : "0.0.1-snapshot-3"
+        },
+        {
+          "url" : "uri",
+          "valueUri" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+        }
+      ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/package-source"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode" : "trial-use",
+      "_valueCode" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    }
+  ],
+  "url" : "http://hl7.org/fhir/uv/xver/ValueSet/R5-attribute-estimate-type-for-R4",
+  "version" : "0.0.1-snapshot-3",
+  "name" : "R5AttributeEstimateTypeForR4",
+  "title" : "Cross-version ValueSet R5.AttributeEstimateType for use in FHIR R4",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-02-21T19:36:42.9229177+00:00",
+  "publisher" : "Clinical Decision Support",
+  "contact" : [
+    {
+      "name" : "Clinical Decision Support",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/dss"
+        }
+      ]
+    }
+  ],
+  "description" : "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/attribute-estimate-type|5.0.0` for use in FHIR R4.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }
+      ]
+    }
+  ],
+  "purpose" : "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/attribute-estimate-type|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `Evidence.statistic.attributeEstimate.type` as Extensible\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/attribute-estimate-type|5.0.0`\n* `http://hl7.org/fhir/ValueSet/attribute-estimate-type|4.3.0`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\nAll concepts in the comparison are listed as identical.\nThe source and target value sets have the same number of active concepts (11).\nFHIR ValueSet `http://hl7.org/fhir/ValueSet/attribute-estimate-type|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/attribute-estimate-type",
+        "version" : "0.1.0",
+        "concept" : [
+          {
+            "code" : "0000037",
+            "display" : "Standard error of the mean"
+          },
+          {
+            "code" : "0000419",
+            "display" : "Cochran's Q statistic"
+          },
+          {
+            "code" : "0000420",
+            "display" : "I-squared"
+          },
+          {
+            "code" : "0000421",
+            "display" : "Tau squared"
+          },
+          {
+            "code" : "0000455",
+            "display" : "Credible interval"
+          },
+          {
+            "code" : "C38013",
+            "display" : "Range"
+          },
+          {
+            "code" : "C44185",
+            "display" : "P-value"
+          },
+          {
+            "code" : "C48918",
+            "display" : "Variance"
+          },
+          {
+            "code" : "C53245",
+            "display" : "Interquartile range"
+          },
+          {
+            "code" : "C53322",
+            "display" : "Standard deviation"
+          },
+          {
+            "code" : "C53324",
+            "display" : "Confidence interval"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+```

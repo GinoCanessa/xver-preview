@@ -1,0 +1,268 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-PractitionerRole-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-PractitionerRole-element-map-to-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-PractitionerRole-element-map-to-R4</b></p><a name=\"R5-PractitionerRole-element-map-to-R4\"> </a><a name=\"hcR5-PractitionerRole-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/PractitionerRole|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/practitionerrole.html\">PractitionerRoleversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>PractitionerRole.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `PractitionerRole.meta` is mapped to FHIR R4 element `PractitionerRole.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>PractitionerRole.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `PractitionerRole.implicitRules` is mapped to FHIR R4 element `PractitionerRole.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>PractitionerRole.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `PractitionerRole.language` is mapped to FHIR R4 element `PractitionerRole.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>PractitionerRole.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `PractitionerRole.text` is mapped to FHIR R4 element `PractitionerRole.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>PractitionerRole.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `PractitionerRole.contained` is mapped to FHIR R4 element `PractitionerRole.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>PractitionerRole.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `PractitionerRole.identifier` is mapped to FHIR R4 element `PractitionerRole.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>PractitionerRole.active (active)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `PractitionerRole.active` is mapped to FHIR R4 element `PractitionerRole.active` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>PractitionerRole.period (period)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `PractitionerRole.period` is mapped to FHIR R4 element `PractitionerRole.period` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>PractitionerRole.practitioner (practitioner)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `PractitionerRole.practitioner` is mapped to FHIR R4 element `PractitionerRole.practitioner` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>PractitionerRole.organization (organization)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `PractitionerRole.organization` is mapped to FHIR R4 element `PractitionerRole.organization` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>PractitionerRole.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `PractitionerRole.code` is mapped to FHIR R4 element `PractitionerRole.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>PractitionerRole.specialty (specialty)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `PractitionerRole.specialty` is mapped to FHIR R4 element `PractitionerRole.specialty` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>PractitionerRole.location (location)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `PractitionerRole.location` is mapped to FHIR R4 element `PractitionerRole.location` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>PractitionerRole.healthcareService (healthcareService)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `PractitionerRole.healthcareService` is mapped to FHIR R4 element `PractitionerRole.healthcareService` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>PractitionerRole.endpoint (endpoint)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `PractitionerRole.endpoint` is mapped to FHIR R4 element `PractitionerRole.endpoint` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/PractitionerRole|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>PractitionerRole.contact (contact)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-PractitionerRole.contact</td><td>Element `PractitionerRole.contact` has a context of PractitionerRole based on following the parent source element upwards and mapping to `PractitionerRole`.</td></tr><tr><td>PractitionerRole.characteristic (characteristic)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-PractitionerRole.characteristic</td><td>Element `PractitionerRole.characteristic` has a context of PractitionerRole based on following the parent source element upwards and mapping to `PractitionerRole`.</td></tr><tr><td>PractitionerRole.communication (communication)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-PractitionerRole.communication</td><td>Element `PractitionerRole.communication` has a context of PractitionerRole based on following the parent source element upwards and mapping to `PractitionerRole`.</td></tr><tr><td>PractitionerRole.availability (availability)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-PractitionerRole.availability</td><td>Element `PractitionerRole.availability` has a context of PractitionerRole based on following the parent source element upwards and mapping to `PractitionerRole`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-PractitionerRole-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-PractitionerRole-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5PractitionerRoleElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 PractitionerRole to FHIR R4 PractitionerRole"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T13:36:58.523707-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 PractitionerRole to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/PractitionerRole"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/PractitionerRole>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/PractitionerRole"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/PractitionerRole>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "PractitionerRole.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PractitionerRole.meta` is mapped to FHIR R4 element `PractitionerRole.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PractitionerRole.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PractitionerRole.implicitRules` is mapped to FHIR R4 element `PractitionerRole.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PractitionerRole.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PractitionerRole.language` is mapped to FHIR R4 element `PractitionerRole.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PractitionerRole.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PractitionerRole.text` is mapped to FHIR R4 element `PractitionerRole.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PractitionerRole.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PractitionerRole.contained` is mapped to FHIR R4 element `PractitionerRole.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PractitionerRole.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PractitionerRole.identifier` is mapped to FHIR R4 element `PractitionerRole.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PractitionerRole.active" ] ;
+       fhir:display [ fhir:v "active" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PractitionerRole.active` is mapped to FHIR R4 element `PractitionerRole.active` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PractitionerRole.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PractitionerRole.period` is mapped to FHIR R4 element `PractitionerRole.period` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PractitionerRole.practitioner" ] ;
+       fhir:display [ fhir:v "practitioner" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PractitionerRole.practitioner` is mapped to FHIR R4 element `PractitionerRole.practitioner` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PractitionerRole.organization" ] ;
+       fhir:display [ fhir:v "organization" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PractitionerRole.organization` is mapped to FHIR R4 element `PractitionerRole.organization` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PractitionerRole.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PractitionerRole.code` is mapped to FHIR R4 element `PractitionerRole.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PractitionerRole.specialty" ] ;
+       fhir:display [ fhir:v "specialty" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PractitionerRole.specialty` is mapped to FHIR R4 element `PractitionerRole.specialty` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PractitionerRole.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PractitionerRole.location` is mapped to FHIR R4 element `PractitionerRole.location` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PractitionerRole.healthcareService" ] ;
+       fhir:display [ fhir:v "healthcareService" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PractitionerRole.healthcareService` is mapped to FHIR R4 element `PractitionerRole.healthcareService` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PractitionerRole.endpoint" ] ;
+       fhir:display [ fhir:v "endpoint" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PractitionerRole.endpoint` is mapped to FHIR R4 element `PractitionerRole.endpoint` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/PractitionerRole"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/PractitionerRole>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "PractitionerRole.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PractitionerRole.contact" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PractitionerRole.contact` has a context of PractitionerRole based on following the parent source element upwards and mapping to `PractitionerRole`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PractitionerRole.characteristic" ] ;
+       fhir:display [ fhir:v "characteristic" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PractitionerRole.characteristic" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PractitionerRole.characteristic` has a context of PractitionerRole based on following the parent source element upwards and mapping to `PractitionerRole`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PractitionerRole.communication" ] ;
+       fhir:display [ fhir:v "communication" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PractitionerRole.communication" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PractitionerRole.communication` has a context of PractitionerRole based on following the parent source element upwards and mapping to `PractitionerRole`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PractitionerRole.availability" ] ;
+       fhir:display [ fhir:v "availability" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PractitionerRole.availability" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PractitionerRole.availability` has a context of PractitionerRole based on following the parent source element upwards and mapping to `PractitionerRole`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

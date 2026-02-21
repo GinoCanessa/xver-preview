@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-devicedefinition-regulatory-identifier-type-for-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-devicedefinition-regulatory-identifier-type-for-R4</b></p><a name="R5-devicedefinition-regulatory-identifier-type-for-R4"> </a><a name="hcR5-devicedefinition-regulatory-identifier-type-for-R4"> </a><p>This value set expansion contains 3 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="R5-devicedefinition-regulatory-identifier-type-for-R4-http://hl7.org/fhir/devicedefinition-regulatory-identifier-type-basic"> </a><code>http://hl7.org/fhir/devicedefinition-regulatory-identifier-type</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-devicedefinition-regulatory-identifier-type.html#devicedefinition-regulatory-identifier-type-basic">basic</a></td><td>Basic</td><td>EUDAMED's basic UDI-DI identifier.</td></tr><tr><td><a name="R5-devicedefinition-regulatory-identifier-type-for-R4-http://hl7.org/fhir/devicedefinition-regulatory-identifier-type-license"> </a><code>http://hl7.org/fhir/devicedefinition-regulatory-identifier-type</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-devicedefinition-regulatory-identifier-type.html#devicedefinition-regulatory-identifier-type-license">license</a></td><td>License</td><td>The identifier is a license number.</td></tr><tr><td><a name="R5-devicedefinition-regulatory-identifier-type-for-R4-http://hl7.org/fhir/devicedefinition-regulatory-identifier-type-master"> </a><code>http://hl7.org/fhir/devicedefinition-regulatory-identifier-type</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-devicedefinition-regulatory-identifier-type.html#devicedefinition-regulatory-identifier-type-master">master</a></td><td>Master</td><td>EUDAMED's master UDI-DI identifier.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-devicedefinition-regulatory-identifier-type-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5DevicedefinitionRegulatoryIdentifierTypeForR4"/>
+  <title value="Cross-version ValueSet R5.DeviceDefinitionRegulatoryIdentifierType for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="Orders and Observations"/>
+  <contact>
+    <name value="Orders and Observations"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/orders"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/devicedefinition-regulatory-identifier-type|5.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/devicedefinition-regulatory-identifier-type|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `DeviceDefinition.regulatoryIdentifier.type`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;&#xA;FHIR ValueSet `http://hl7.org/fhir/ValueSet/devicedefinition-regulatory-identifier-type|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/devicedefinition-regulatory-identifier-type"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="basic"/>
+        <display value="Basic"/>
+      </concept>
+      <concept>
+        <code value="license"/>
+        <display value="License"/>
+      </concept>
+      <concept>
+        <code value="master"/>
+        <display value="Master"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/devicedefinition-regulatory-identifier-type"/>
+      <version value="5.0.0"/>
+      <code value="basic"/>
+      <display value="Basic"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/devicedefinition-regulatory-identifier-type"/>
+      <version value="5.0.0"/>
+      <code value="license"/>
+      <display value="License"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/devicedefinition-regulatory-identifier-type"/>
+      <version value="5.0.0"/>
+      <code value="master"/>
+      <display value="Master"/>
+    </contains>
+  </expansion>
+</ValueSet>

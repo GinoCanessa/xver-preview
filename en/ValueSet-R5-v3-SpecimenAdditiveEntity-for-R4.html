@@ -1,0 +1,414 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>R5V3SpecimenAdditiveEntityForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"7.3099"}
+    h3,h4,h5,h6{--heading-prefix:"7.3099"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" data-no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img alt="International flag" src="../assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>R5V3SpecimenAdditiveEntityForR4</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="ValueSet-R5-v3-SouthernNumic-for-R4.ttl.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="ValueSet-R5-v3-SpecimenAdditiveEntity-for-R4-testing.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<!-- layouts\layout-valueset -->
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ValueSet-R5-v3-SpecimenAdditiveEntity-for-R4.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-R5-v3-SpecimenAdditiveEntity-for-R4.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-R5-v3-SpecimenAdditiveEntity-for-R4.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">ValueSet: Cross-version ValueSet R5.SpecimenAdditiveEntity for use in FHIR R4
+
+  </h2>
+  <table class="colsd" data-fhir="generated">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-SpecimenAdditiveEntity-for-R4<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-SpecimenAdditiveEntity-for-R4"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.0.1-snapshot-3<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-SpecimenAdditiveEntity-for-R4|0.0.1-snapshot-3"/></span>
+      </td>
+      <td style="text-align: right;border-left-style: hidden" title="Enable this to see changes since the last official release">
+        <span id="toggle-change-display"><label style="margin:0;font-weight:normal" for="showChanges">Highlight text changes?</label>
+  
+        <input style="margin:0" type="checkbox" id="showChanges" onchange="toggleChanges()"/>
+  
+      </span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          <i>
+            
+            Standards status:
+          </i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standards Status">Trial-use</a>
+          
+          
+          Active
+          
+
+            as of 
+2026-02-21
+
+          
+        
+      </td>
+
+      <td>
+        <a href="http://hl7.org/fhir/versions.html#maturity">Maturity Level</a>: 0
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">R5V3SpecimenAdditiveEntityForR4</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>This cross-version ValueSet represents content from <code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/ValueSet/v3-SpecimenAdditiveEntity|2.0.0</code> for use in FHIR R4.</p>
+
+</p>
+
+<p>
+
+
+</p>
+
+
+  <p>
+    <b>References</b>
+  </p>
+  
+<p>This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)</p>
+
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <a name="definition"> </a>
+
+<!-- Content Logical Definition heading in the fragment -->
+  <h3>Logical Definition (CLD)</h3>
+<div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated"><p class="res-header-id"></p><a name="R5-v3-SpecimenAdditiveEntity-for-R4"> </a><a name="hcR5-v3-SpecimenAdditiveEntity-for-R4"> </a>
+<ul><li>Include these codes as defined in <code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code><span title="Version is explicitly stated to be 2.1.0"> version &#x1F4CD;</span><table class="none" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>ACDA</td><td>ACD Solution A</td></tr><tr><td>ACDB</td><td>ACD Solution B</td></tr><tr><td>ACET</td><td>Acetic Acid</td></tr><tr><td>AMIES</td><td>Amies transport medium</td></tr><tr><td>BACTM</td><td>Bacterial Transport medium</td></tr><tr><td>BF10</td><td>Buffered 10% formalin</td></tr><tr><td>BOR</td><td>Boric Acid</td></tr><tr><td>BOUIN</td><td>Bouin's solution</td></tr><tr><td>BSKM</td><td>Buffered skim milk</td></tr><tr><td>C32</td><td>3.2% Citrate</td></tr><tr><td>C38</td><td>3.8% Citrate</td></tr><tr><td>CARS</td><td>Carson's Modified 10% formalin</td></tr><tr><td>CARY</td><td>Cary Blair Medium</td></tr><tr><td>CHLTM</td><td>Chlamydia transport medium</td></tr><tr><td>CTAD</td><td>CTAD</td></tr><tr><td>EDTK15</td><td>Potassium/K EDTA 15%</td></tr><tr><td>EDTK75</td><td>Potassium/K EDTA 7.5%</td></tr><tr><td>EDTN</td><td>Sodium/Na EDTA</td></tr><tr><td>ENT</td><td>Enteric bacteria transport medium</td></tr><tr><td>F10</td><td>10% Formalin</td></tr><tr><td>FDP</td><td>Thrombin NIH; soybean trypsin inhibitor</td></tr><tr><td>FL10</td><td>Sodium Fluoride, 10mg</td></tr><tr><td>FL100</td><td>Sodium Fluoride, 100mg</td></tr><tr><td>HCL6</td><td>6N HCL</td></tr><tr><td>HEPA</td><td>Ammonium heparin</td></tr><tr><td>HEPL</td><td>Lithium/Li Heparin</td></tr><tr><td>HEPN</td><td>Sodium/Na Heparin</td></tr><tr><td>HNO3</td><td>Nitric Acid</td></tr><tr><td>JKM</td><td>Jones Kendrick Medium</td></tr><tr><td>KARN</td><td>Karnovsky's fixative</td></tr><tr><td>KOX</td><td>Potassium Oxalate</td></tr><tr><td>LIA</td><td>Lithium iodoacetate</td></tr><tr><td>M4</td><td>M4</td></tr><tr><td>M4RT</td><td>M4-RT</td></tr><tr><td>M5</td><td>M5</td></tr><tr><td>MICHTM</td><td>Michel's transport medium</td></tr><tr><td>MMDTM</td><td>MMD transport medium</td></tr><tr><td>NAF</td><td>Sodium Fluoride</td></tr><tr><td>NONE</td><td>None</td></tr><tr><td>PAGE</td><td>Page's Saline</td></tr><tr><td>PHENOL</td><td>Phenol</td></tr><tr><td>PVA</td><td>Polyvinylalcohol</td></tr><tr><td>RLM</td><td>Reagan Lowe Medium</td></tr><tr><td>SILICA</td><td>Siliceous earth</td></tr><tr><td>SPS</td><td>Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride</td></tr><tr><td>SST</td><td>Serum Separator Tube</td></tr><tr><td>STUTM</td><td>Stuart transport medium</td></tr><tr><td>THROM</td><td>Thrombin</td></tr><tr><td>THYMOL</td><td>Thymol</td></tr><tr><td>THYO</td><td>Thyoglycolate broth</td></tr><tr><td>TOLU</td><td>Toluene</td></tr><tr><td>URETM</td><td>Ureaplasma transport medium</td></tr><tr><td>VIRTM</td><td>Viral Transport medium</td></tr><tr><td>WEST</td><td>Buffered Citrate</td></tr></table></li></ul></div>
+
+  <p>&#160;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">Expansion</h3>
+
+  <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated"><p class="res-header-id"/><p>This value set expansion contains 54 concepts.</p><table class="codes" data-fhir="generated"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-ACDA"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  ACDA</td><td>ACD Solution A</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;ACDA&quot;, &quot;display&quot;: &quot;ACD Solution A&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;ACDA&quot;&gt;&lt;display value=&quot;ACD Solution A&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-ACDB"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  ACDB</td><td>ACD Solution B</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;ACDB&quot;, &quot;display&quot;: &quot;ACD Solution B&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;ACDB&quot;&gt;&lt;display value=&quot;ACD Solution B&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-ACET"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  ACET</td><td>Acetic Acid</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;ACET&quot;, &quot;display&quot;: &quot;Acetic Acid&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;ACET&quot;&gt;&lt;display value=&quot;Acetic Acid&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-AMIES"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  AMIES</td><td>Amies transport medium</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;AMIES&quot;, &quot;display&quot;: &quot;Amies transport medium&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;AMIES&quot;&gt;&lt;display value=&quot;Amies transport medium&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BACTM"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  BACTM</td><td>Bacterial Transport medium</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;BACTM&quot;, &quot;display&quot;: &quot;Bacterial Transport medium&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;BACTM&quot;&gt;&lt;display value=&quot;Bacterial Transport medium&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BF10"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  BF10</td><td>Buffered 10% formalin</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;BF10&quot;, &quot;display&quot;: &quot;Buffered 10% formalin&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;BF10&quot;&gt;&lt;display value=&quot;Buffered 10% formalin&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BOR"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  BOR</td><td>Boric Acid</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;BOR&quot;, &quot;display&quot;: &quot;Boric Acid&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;BOR&quot;&gt;&lt;display value=&quot;Boric Acid&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BOUIN"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  BOUIN</td><td>Bouin's solution</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;BOUIN&quot;, &quot;display&quot;: &quot;Bouin's solution&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;BOUIN&quot;&gt;&lt;display value=&quot;Bouin's solution&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BSKM"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  BSKM</td><td>Buffered skim milk</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;BSKM&quot;, &quot;display&quot;: &quot;Buffered skim milk&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;BSKM&quot;&gt;&lt;display value=&quot;Buffered skim milk&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-C32"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  C32</td><td>3.2% Citrate</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;C32&quot;, &quot;display&quot;: &quot;3.2% Citrate&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;C32&quot;&gt;&lt;display value=&quot;3.2% Citrate&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-C38"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  C38</td><td>3.8% Citrate</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;C38&quot;, &quot;display&quot;: &quot;3.8% Citrate&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;C38&quot;&gt;&lt;display value=&quot;3.8% Citrate&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-CARS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  CARS</td><td>Carson's Modified 10% formalin</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;CARS&quot;, &quot;display&quot;: &quot;Carson's Modified 10% formalin&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;CARS&quot;&gt;&lt;display value=&quot;Carson's Modified 10% formalin&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-CARY"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  CARY</td><td>Cary Blair Medium</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;CARY&quot;, &quot;display&quot;: &quot;Cary Blair Medium&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;CARY&quot;&gt;&lt;display value=&quot;Cary Blair Medium&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-CHLTM"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  CHLTM</td><td>Chlamydia transport medium</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;CHLTM&quot;, &quot;display&quot;: &quot;Chlamydia transport medium&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;CHLTM&quot;&gt;&lt;display value=&quot;Chlamydia transport medium&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-CTAD"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  CTAD</td><td>CTAD</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;CTAD&quot;, &quot;display&quot;: &quot;CTAD&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;CTAD&quot;&gt;&lt;display value=&quot;CTAD&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-EDTK15"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  EDTK15</td><td>Potassium/K EDTA 15%</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;EDTK15&quot;, &quot;display&quot;: &quot;Potassium/K EDTA 15%&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;EDTK15&quot;&gt;&lt;display value=&quot;Potassium/K EDTA 15%&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-EDTK75"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  EDTK75</td><td>Potassium/K EDTA 7.5%</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;EDTK75&quot;, &quot;display&quot;: &quot;Potassium/K EDTA 7.5%&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;EDTK75&quot;&gt;&lt;display value=&quot;Potassium/K EDTA 7.5%&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-EDTN"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  EDTN</td><td>Sodium/Na EDTA</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;EDTN&quot;, &quot;display&quot;: &quot;Sodium/Na EDTA&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;EDTN&quot;&gt;&lt;display value=&quot;Sodium/Na EDTA&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-ENT"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  ENT</td><td>Enteric bacteria transport medium</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;ENT&quot;, &quot;display&quot;: &quot;Enteric bacteria transport medium&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;ENT&quot;&gt;&lt;display value=&quot;Enteric bacteria transport medium&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-F10"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  F10</td><td>10% Formalin</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;F10&quot;, &quot;display&quot;: &quot;10% Formalin&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;F10&quot;&gt;&lt;display value=&quot;10% Formalin&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-FDP"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  FDP</td><td>Thrombin NIH; soybean trypsin inhibitor</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;FDP&quot;, &quot;display&quot;: &quot;Thrombin NIH; soybean trypsin inhibitor&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;FDP&quot;&gt;&lt;display value=&quot;Thrombin NIH; soybean trypsin inhibitor&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-FL10"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  FL10</td><td>Sodium Fluoride, 10mg</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;FL10&quot;, &quot;display&quot;: &quot;Sodium Fluoride, 10mg&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;FL10&quot;&gt;&lt;display value=&quot;Sodium Fluoride, 10mg&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-FL100"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  FL100</td><td>Sodium Fluoride, 100mg</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;FL100&quot;, &quot;display&quot;: &quot;Sodium Fluoride, 100mg&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;FL100&quot;&gt;&lt;display value=&quot;Sodium Fluoride, 100mg&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-HCL6"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  HCL6</td><td>6N HCL</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;HCL6&quot;, &quot;display&quot;: &quot;6N HCL&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;HCL6&quot;&gt;&lt;display value=&quot;6N HCL&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-HEPA"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  HEPA</td><td>Ammonium heparin</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;HEPA&quot;, &quot;display&quot;: &quot;Ammonium heparin&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;HEPA&quot;&gt;&lt;display value=&quot;Ammonium heparin&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-HEPL"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  HEPL</td><td>Lithium/Li Heparin</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;HEPL&quot;, &quot;display&quot;: &quot;Lithium/Li Heparin&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;HEPL&quot;&gt;&lt;display value=&quot;Lithium/Li Heparin&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-HEPN"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  HEPN</td><td>Sodium/Na Heparin</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;HEPN&quot;, &quot;display&quot;: &quot;Sodium/Na Heparin&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;HEPN&quot;&gt;&lt;display value=&quot;Sodium/Na Heparin&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-HNO3"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  HNO3</td><td>Nitric Acid</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;HNO3&quot;, &quot;display&quot;: &quot;Nitric Acid&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;HNO3&quot;&gt;&lt;display value=&quot;Nitric Acid&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-JKM"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  JKM</td><td>Jones Kendrick Medium</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;JKM&quot;, &quot;display&quot;: &quot;Jones Kendrick Medium&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;JKM&quot;&gt;&lt;display value=&quot;Jones Kendrick Medium&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-KARN"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  KARN</td><td>Karnovsky's fixative</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;KARN&quot;, &quot;display&quot;: &quot;Karnovsky's fixative&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;KARN&quot;&gt;&lt;display value=&quot;Karnovsky's fixative&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-KOX"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  KOX</td><td>Potassium Oxalate</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;KOX&quot;, &quot;display&quot;: &quot;Potassium Oxalate&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;KOX&quot;&gt;&lt;display value=&quot;Potassium Oxalate&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-LIA"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  LIA</td><td>Lithium iodoacetate</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;LIA&quot;, &quot;display&quot;: &quot;Lithium iodoacetate&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;LIA&quot;&gt;&lt;display value=&quot;Lithium iodoacetate&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-M4"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  M4</td><td>M4</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;M4&quot;, &quot;display&quot;: &quot;M4&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;M4&quot;&gt;&lt;display value=&quot;M4&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-M4RT"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  M4RT</td><td>M4-RT</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;M4RT&quot;, &quot;display&quot;: &quot;M4-RT&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;M4RT&quot;&gt;&lt;display value=&quot;M4-RT&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-M5"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  M5</td><td>M5</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;M5&quot;, &quot;display&quot;: &quot;M5&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;M5&quot;&gt;&lt;display value=&quot;M5&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-MICHTM"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  MICHTM</td><td>Michel's transport medium</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;MICHTM&quot;, &quot;display&quot;: &quot;Michel's transport medium&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;MICHTM&quot;&gt;&lt;display value=&quot;Michel's transport medium&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-MMDTM"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  MMDTM</td><td>MMD transport medium</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;MMDTM&quot;, &quot;display&quot;: &quot;MMD transport medium&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;MMDTM&quot;&gt;&lt;display value=&quot;MMD transport medium&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-NAF"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  NAF</td><td>Sodium Fluoride</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;NAF&quot;, &quot;display&quot;: &quot;Sodium Fluoride&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;NAF&quot;&gt;&lt;display value=&quot;Sodium Fluoride&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-NONE"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  NONE</td><td>None</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;NONE&quot;, &quot;display&quot;: &quot;None&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;NONE&quot;&gt;&lt;display value=&quot;None&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-PAGE"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  PAGE</td><td>Page's Saline</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;PAGE&quot;, &quot;display&quot;: &quot;Page's Saline&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;PAGE&quot;&gt;&lt;display value=&quot;Page's Saline&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-PHENOL"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  PHENOL</td><td>Phenol</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;PHENOL&quot;, &quot;display&quot;: &quot;Phenol&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;PHENOL&quot;&gt;&lt;display value=&quot;Phenol&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-PVA"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  PVA</td><td>Polyvinylalcohol</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;PVA&quot;, &quot;display&quot;: &quot;Polyvinylalcohol&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;PVA&quot;&gt;&lt;display value=&quot;Polyvinylalcohol&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-RLM"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  RLM</td><td>Reagan Lowe Medium</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;RLM&quot;, &quot;display&quot;: &quot;Reagan Lowe Medium&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;RLM&quot;&gt;&lt;display value=&quot;Reagan Lowe Medium&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-SILICA"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  SILICA</td><td>Siliceous earth</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;SILICA&quot;, &quot;display&quot;: &quot;Siliceous earth&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;SILICA&quot;&gt;&lt;display value=&quot;Siliceous earth&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-SPS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  SPS</td><td>Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;SPS&quot;, &quot;display&quot;: &quot;Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;SPS&quot;&gt;&lt;display value=&quot;Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-SST"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  SST</td><td>Serum Separator Tube</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;SST&quot;, &quot;display&quot;: &quot;Serum Separator Tube&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;SST&quot;&gt;&lt;display value=&quot;Serum Separator Tube&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-STUTM"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  STUTM</td><td>Stuart transport medium</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;STUTM&quot;, &quot;display&quot;: &quot;Stuart transport medium&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;STUTM&quot;&gt;&lt;display value=&quot;Stuart transport medium&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-THROM"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  THROM</td><td>Thrombin</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;THROM&quot;, &quot;display&quot;: &quot;Thrombin&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;THROM&quot;&gt;&lt;display value=&quot;Thrombin&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-THYMOL"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  THYMOL</td><td>Thymol</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;THYMOL&quot;, &quot;display&quot;: &quot;Thymol&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;THYMOL&quot;&gt;&lt;display value=&quot;Thymol&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-THYO"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  THYO</td><td>Thyoglycolate broth</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;THYO&quot;, &quot;display&quot;: &quot;Thyoglycolate broth&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;THYO&quot;&gt;&lt;display value=&quot;Thyoglycolate broth&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-TOLU"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  TOLU</td><td>Toluene</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;TOLU&quot;, &quot;display&quot;: &quot;Toluene&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;TOLU&quot;&gt;&lt;display value=&quot;Toluene&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-URETM"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  URETM</td><td>Ureaplasma transport medium</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;URETM&quot;, &quot;display&quot;: &quot;Ureaplasma transport medium&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;URETM&quot;&gt;&lt;display value=&quot;Ureaplasma transport medium&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-VIRTM"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  VIRTM</td><td>Viral Transport medium</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;VIRTM&quot;, &quot;display&quot;: &quot;Viral Transport medium&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;VIRTM&quot;&gt;&lt;display value=&quot;Viral Transport medium&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-WEST"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  WEST</td><td>Buffered Citrate</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;WEST&quot;, &quot;display&quot;: &quot;Buffered Citrate&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;WEST&quot;&gt;&lt;display value=&quot;Buffered Citrate&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr></table></div>
+
+  <hr/>
+  <p>
+    <a href="http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology">Description of the above table(s)</a>.
+  </p>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="ValueSet-R5-v3-SouthernNumic-for-R4.ttl.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="ValueSet-R5-v3-SpecimenAdditiveEntity-for-R4-testing.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-21 13:39:00 -0600">
+    2026-02-21
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir/uv/xver/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

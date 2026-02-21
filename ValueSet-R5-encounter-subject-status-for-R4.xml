@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-encounter-subject-status-for-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-encounter-subject-status-for-R4</b></p><a name="R5-encounter-subject-status-for-R4"> </a><a name="hcR5-encounter-subject-status-for-R4"> </a><p>This value set expansion contains 5 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="R5-encounter-subject-status-for-R4-http://terminology.hl7.org/CodeSystem/encounter-subject-status-arrived"> </a><code>http://terminology.hl7.org/CodeSystem/encounter-subject-status</code></td><td>1.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-encounter-subject-status.html#encounter-subject-status-arrived">arrived</a></td><td>Arrived</td><td>The subject has arrived at the physical or virtual location and is ready to receive care.</td></tr><tr><td><a name="R5-encounter-subject-status-for-R4-http://terminology.hl7.org/CodeSystem/encounter-subject-status-departed"> </a><code>http://terminology.hl7.org/CodeSystem/encounter-subject-status</code></td><td>1.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-encounter-subject-status.html#encounter-subject-status-departed">departed</a></td><td>Departed</td><td>The subject has left the physical or virtual location, and is not expected to return as part of this encounter.</td></tr><tr><td><a name="R5-encounter-subject-status-for-R4-http://terminology.hl7.org/CodeSystem/encounter-subject-status-on-leave"> </a><code>http://terminology.hl7.org/CodeSystem/encounter-subject-status</code></td><td>1.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-encounter-subject-status.html#encounter-subject-status-on-leave">on-leave</a></td><td>On Leave</td><td>The subject has left the physical or virtual location, but is expected to return and resume care as part of this encounter.</td></tr><tr><td><a name="R5-encounter-subject-status-for-R4-http://terminology.hl7.org/CodeSystem/encounter-subject-status-receiving-care"> </a><code>http://terminology.hl7.org/CodeSystem/encounter-subject-status</code></td><td>1.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-encounter-subject-status.html#encounter-subject-status-receiving-care">receiving-care</a></td><td>Receiving Care</td><td>The subject is present and commenced receiving care.  This can include periods of waiting between care.</td></tr><tr><td><a name="R5-encounter-subject-status-for-R4-http://terminology.hl7.org/CodeSystem/encounter-subject-status-triaged"> </a><code>http://terminology.hl7.org/CodeSystem/encounter-subject-status</code></td><td>1.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-encounter-subject-status.html#encounter-subject-status-triaged">triaged</a></td><td>Triaged</td><td>The subject has been seen triaged by staff and is waiting for further care.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pa"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-encounter-subject-status-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5EncounterSubjectStatusForR4"/>
+  <title value="Cross-version ValueSet R5.EncounterSubjectStatus for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="Patient Administration"/>
+  <contact>
+    <name value="Patient Administration"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pafm"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/encounter-subject-status|5.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/encounter-subject-status|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `Encounter.subjectStatus`&#xA;* `EncounterHistory.subjectStatus`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;&#xA;FHIR ValueSet `http://hl7.org/fhir/ValueSet/encounter-subject-status|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/encounter-subject-status"/>
+      <version value="1.0.0"/>
+      <concept>
+        <code value="arrived"/>
+        <display value="Arrived"/>
+      </concept>
+      <concept>
+        <code value="departed"/>
+        <display value="Departed"/>
+      </concept>
+      <concept>
+        <code value="on-leave"/>
+        <display value="On Leave"/>
+      </concept>
+      <concept>
+        <code value="receiving-care"/>
+        <display value="Receiving Care"/>
+      </concept>
+      <concept>
+        <code value="triaged"/>
+        <display value="Triaged"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/encounter-subject-status"/>
+      <version value="1.0.0"/>
+      <code value="arrived"/>
+      <display value="Arrived"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/encounter-subject-status"/>
+      <version value="1.0.0"/>
+      <code value="departed"/>
+      <display value="Departed"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/encounter-subject-status"/>
+      <version value="1.0.0"/>
+      <code value="on-leave"/>
+      <display value="On Leave"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/encounter-subject-status"/>
+      <version value="1.0.0"/>
+      <code value="receiving-care"/>
+      <display value="Receiving Care"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/encounter-subject-status"/>
+      <version value="1.0.0"/>
+      <code value="triaged"/>
+      <display value="Triaged"/>
+    </contains>
+  </expansion>
+</ValueSet>

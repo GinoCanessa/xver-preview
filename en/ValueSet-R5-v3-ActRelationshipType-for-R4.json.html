@@ -1,0 +1,1854 @@
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>R5V3ActRelationshipTypeForR4 - JSON Representation - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"7.2000"}
+    h3,h4,h5,h6{--heading-prefix:"7.2000"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" data-no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img alt="International flag" src="../assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>R5V3ActRelationshipTypeForR4</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="ValueSet-R5-v3-ActRelationshipType-for-R4.xml.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="ValueSet-R5-v3-ActRelationshipType-for-R4.ttl.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<!-- layouts\layout-instance-format -->
+<div style="counter-reset: section 8" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="ValueSet-R5-v3-ActRelationshipType-for-R4.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ValueSet-R5-v3-ActRelationshipType-for-R4.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-R5-v3-ActRelationshipType-for-R4.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+
+<h2 id="root">: R5V3ActRelationshipTypeForR4</h2>
+
+  <table class="colsd" data-fhir="generated">
+    <tr>
+
+      <td colspan="1">
+        
+          <i>Page standards status:</i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standards Status">Trial-use</a>
+          
+        
+      </td>
+
+      <td>
+        <a href="http://hl7.org/fhir/versions.html#maturity">Maturity Level</a>: 0
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p><a href="ValueSet-R5-v3-ActRelationshipType-for-R4.json" no-download="true">Raw json</a> | <a href="ValueSet-R5-v3-ActRelationshipType-for-R4.json" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="json" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code style="white-space: pre; text-wrap: nowrap;">{
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet">resourceType</a>" : "ValueSet",
+  "<a href="http://hl7.org/fhir/R4/resource.html#ValueSet.id">id</a>" : "R5-v3-ActRelationshipType-for-R4",
+  "<a href="http://hl7.org/fhir/R4/resource.html#ValueSet.language">language</a>" : "en",
+  "<a href="http://hl7.org/fhir/R4/domainresource.html#ValueSet.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: ValueSet R5-v3-ActRelationshipType-for-R4&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcR5-v3-ActRelationshipType-for-R4\&quot;&gt; &lt;/a&gt;&lt;p&gt;This value set expansion contains 141 concepts.&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;System&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Version&lt;/b&gt;&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-ACTIMM\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0ACTIMM&lt;/td&gt;&lt;td&gt;active immunization against&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-ADJUNCT\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0ADJUNCT&lt;/td&gt;&lt;td&gt;adjunctive treatment&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-APND\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0APND&lt;/td&gt;&lt;td&gt;is appendage&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-ARR\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0ARR&lt;/td&gt;&lt;td&gt;arrival&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-ART\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0ART&lt;/td&gt;&lt;td&gt;act relationship type&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-AUTH\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0AUTH&lt;/td&gt;&lt;td&gt;authorized by&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-BLOCK\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0BLOCK&lt;/td&gt;&lt;td&gt;blocks&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-BSLN\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0BSLN&lt;/td&gt;&lt;td&gt;has baseline&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-CAUS\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0CAUS&lt;/td&gt;&lt;td&gt;is etiology for&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-CHRG\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0CHRG&lt;/td&gt;&lt;td&gt;has charge&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-CIND\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0CIND&lt;/td&gt;&lt;td&gt;has contra-indication&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-COMP\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0COMP&lt;/td&gt;&lt;td&gt;has component&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-COMPLY\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0COMPLY&lt;/td&gt;&lt;td&gt;complies with&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-CONCURRENT\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0CONCURRENT&lt;/td&gt;&lt;td&gt;concurrent with&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-COST\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0COST&lt;/td&gt;&lt;td&gt;has cost&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-COVBY\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0COVBY&lt;/td&gt;&lt;td&gt;covered by&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-CREDIT\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0CREDIT&lt;/td&gt;&lt;td&gt;has credit&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-CTRLV\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0CTRLV&lt;/td&gt;&lt;td&gt;has control variable&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-CURE\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0CURE&lt;/td&gt;&lt;td&gt;curative indication&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-CURE.ADJ\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0CURE.ADJ&lt;/td&gt;&lt;td&gt;adjunct curative indication&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-DEBIT\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0DEBIT&lt;/td&gt;&lt;td&gt;has debit&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-DEP\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0DEP&lt;/td&gt;&lt;td&gt;departure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-DIAG\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0DIAG&lt;/td&gt;&lt;td&gt;diagnoses&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-DOC\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0DOC&lt;/td&gt;&lt;td&gt;documents&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-DRIV\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0DRIV&lt;/td&gt;&lt;td&gt;is derived from&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-DURING\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0DURING&lt;/td&gt;&lt;td&gt;occurs during&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-EAE\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0EAE&lt;/td&gt;&lt;td&gt;ends after end of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-EAEORECW\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0EAEORECW&lt;/td&gt;&lt;td&gt;ends after or concurrent with end of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-EAS\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0EAS&lt;/td&gt;&lt;td&gt;ends after start of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-EASORECWS\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0EASORECWS&lt;/td&gt;&lt;td&gt;ends after or concurrent with start of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-EBE\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0EBE&lt;/td&gt;&lt;td&gt;ends before end of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-EBEORECW\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0EBEORECW&lt;/td&gt;&lt;td&gt;ends before or concurrent with end of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-EBS\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0EBS&lt;/td&gt;&lt;td&gt;ends before start of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-EBSORECWS\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0EBSORECWS&lt;/td&gt;&lt;td&gt;ends before or concurrent with start of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-ECW\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0ECW&lt;/td&gt;&lt;td&gt;ends concurrent with&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-ECWS\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0ECWS&lt;/td&gt;&lt;td&gt;ends concurrent with start of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-EDU\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0EDU&lt;/td&gt;&lt;td&gt;ends during&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-ELNK\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0ELNK&lt;/td&gt;&lt;td&gt;episodeLink&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-ENE\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0ENE&lt;/td&gt;&lt;td&gt;ends near end&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-ENS\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0ENS&lt;/td&gt;&lt;td&gt;ends near start&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-EVID\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0EVID&lt;/td&gt;&lt;td&gt;provides evidence for&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-EXACBY\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0EXACBY&lt;/td&gt;&lt;td&gt;exacerbated by&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-EXPL\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0EXPL&lt;/td&gt;&lt;td&gt;has explanation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-FLFS\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0FLFS&lt;/td&gt;&lt;td&gt;fulfills&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-GEN\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0GEN&lt;/td&gt;&lt;td&gt;has generalization&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-GEVL\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0GEVL&lt;/td&gt;&lt;td&gt;evaluates (goal)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-GOAL\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0GOAL&lt;/td&gt;&lt;td&gt;has goal&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-IMM\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0IMM&lt;/td&gt;&lt;td&gt;immunization against&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-INDEPENDENT\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0INDEPENDENT&lt;/td&gt;&lt;td&gt;independent of time of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-INST\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0INST&lt;/td&gt;&lt;td&gt;instantiates (master)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-INTF\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0INTF&lt;/td&gt;&lt;td&gt;interfered by&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-ITEMSLOC\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0ITEMSLOC&lt;/td&gt;&lt;td&gt;items located&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-LIMIT\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0LIMIT&lt;/td&gt;&lt;td&gt;limited by&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-MBR\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0MBR&lt;/td&gt;&lt;td&gt;has member&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-META\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0META&lt;/td&gt;&lt;td&gt;has metadata&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-MFST\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0MFST&lt;/td&gt;&lt;td&gt;is manifestation of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-MITGT\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0MITGT&lt;/td&gt;&lt;td&gt;mitigates&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-MOD\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0MOD&lt;/td&gt;&lt;td&gt;modifies&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-MTCH\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0MTCH&lt;/td&gt;&lt;td&gt;matches (trigger)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-MTGT.ADJ\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0MTGT.ADJ&lt;/td&gt;&lt;td&gt;adjunct mitigation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-MTREAT\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0MTREAT&lt;/td&gt;&lt;td&gt;maintenance treatment&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-NAME\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0NAME&lt;/td&gt;&lt;td&gt;assigns name&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-OBJC\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0OBJC&lt;/td&gt;&lt;td&gt;has continuing objective&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-OBJF\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0OBJF&lt;/td&gt;&lt;td&gt;has final objective&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-OCCR\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0OCCR&lt;/td&gt;&lt;td&gt;occurrence&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-OPTN\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0OPTN&lt;/td&gt;&lt;td&gt;has option&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-OREF\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0OREF&lt;/td&gt;&lt;td&gt;references order&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-OUTC\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0OUTC&lt;/td&gt;&lt;td&gt;has outcome&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-OVERLAP\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0OVERLAP&lt;/td&gt;&lt;td&gt;overlaps with&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-PALLTREAT\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0PALLTREAT&lt;/td&gt;&lt;td&gt;palliates&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-PART\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0PART&lt;/td&gt;&lt;td&gt;has part&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-PASSIMM\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0PASSIMM&lt;/td&gt;&lt;td&gt;passive immunization against&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-PERT\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0PERT&lt;/td&gt;&lt;td&gt;has pertinent information&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-PRCN\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0PRCN&lt;/td&gt;&lt;td&gt;has pre-condition&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-PREV\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0PREV&lt;/td&gt;&lt;td&gt;has previous instance&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-PRYLX\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0PRYLX&lt;/td&gt;&lt;td&gt;prophylaxis of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-QUALF\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0QUALF&lt;/td&gt;&lt;td&gt;has qualifier&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-RACT\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0RACT&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-RCHAL\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0RCHAL&lt;/td&gt;&lt;td&gt;re-challenge&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-RCVY\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0RCVY&lt;/td&gt;&lt;td&gt;recovers&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-REFR\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0REFR&lt;/td&gt;&lt;td&gt;refers to&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-REFV\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0REFV&lt;/td&gt;&lt;td&gt;has reference values&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-RELVBY\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0RELVBY&lt;/td&gt;&lt;td&gt;relieved by&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-REV\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0REV&lt;/td&gt;&lt;td&gt;reverses&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-RISK\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0RISK&lt;/td&gt;&lt;td&gt;has risk&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-RPLC\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0RPLC&lt;/td&gt;&lt;td&gt;replaces&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-RSON\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0RSON&lt;/td&gt;&lt;td&gt;has reason&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SAE\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SAE&lt;/td&gt;&lt;td&gt;starts after end of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SAEORSCWE\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SAEORSCWE&lt;/td&gt;&lt;td&gt;starts after or concurrent with end of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SAS\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SAS&lt;/td&gt;&lt;td&gt;starts after start of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SASEAE\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SASEAE&lt;/td&gt;&lt;td&gt;starts after start of, ends after end of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SASECWE\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SASECWE&lt;/td&gt;&lt;td&gt;starts after start of, ends with&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SASORSCW\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SASORSCW&lt;/td&gt;&lt;td&gt;starts after or concurrent with start of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SASSBEEAS\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SASSBEEAS&lt;/td&gt;&lt;td&gt;start after start of, contains end of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SBE\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SBE&lt;/td&gt;&lt;td&gt;starts before end of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SBEEAE\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SBEEAE&lt;/td&gt;&lt;td&gt;contains end of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SBEORSCWE\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SBEORSCWE&lt;/td&gt;&lt;td&gt;starts before or concurrent with end of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SBS\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SBS&lt;/td&gt;&lt;td&gt;starts before start of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SBSEAE\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SBSEAE&lt;/td&gt;&lt;td&gt;contains time of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SBSEAS\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SBSEAS&lt;/td&gt;&lt;td&gt;contains start of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SBSEASEBE\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SBSEASEBE&lt;/td&gt;&lt;td&gt;contains start of, ends before end of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SBSEBE\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SBSEBE&lt;/td&gt;&lt;td&gt;starts before start of, ends before end of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SBSECWE\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SBSECWE&lt;/td&gt;&lt;td&gt;starts before start of, ends with&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SBSORSCW\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SBSORSCW&lt;/td&gt;&lt;td&gt;starts before or concurrent with start of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SCH\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SCH&lt;/td&gt;&lt;td&gt;schedules request&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SCW\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SCW&lt;/td&gt;&lt;td&gt;starts concurrent with&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SCWE\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SCWE&lt;/td&gt;&lt;td&gt;starts concurrent with end of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SCWSEAE\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SCWSEAE&lt;/td&gt;&lt;td&gt;starts with, ends after end of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SCWSEBE\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SCWSEBE&lt;/td&gt;&lt;td&gt;starts with. ends before end of&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SDU\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SDU&lt;/td&gt;&lt;td&gt;starts during&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SEQL\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SEQL&lt;/td&gt;&lt;td&gt;is sequel&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SNE\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SNE&lt;/td&gt;&lt;td&gt;starts near end&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SNS\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SNS&lt;/td&gt;&lt;td&gt;starts near start&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SPRT\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SPRT&lt;/td&gt;&lt;td&gt;has support&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SPRTBND\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SPRTBND&lt;/td&gt;&lt;td&gt;has bounded support&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-STEP\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0STEP&lt;/td&gt;&lt;td&gt;has step&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SUBJ\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SUBJ&lt;/td&gt;&lt;td&gt;has subject&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SUCC\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SUCC&lt;/td&gt;&lt;td&gt;succeeds&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SUGG\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SUGG&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SUMM\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SUMM&lt;/td&gt;&lt;td&gt;summarized by&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-SYMP\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0SYMP&lt;/td&gt;&lt;td&gt;symptomatic relief&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-TREAT\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0TREAT&lt;/td&gt;&lt;td&gt;treats&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-TRIG\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0TRIG&lt;/td&gt;&lt;td&gt;has trigger&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-TemporallyPertains\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0TemporallyPertains&lt;/td&gt;&lt;td&gt;ActClassTemporallyPertains&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-UPDT\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0UPDT&lt;/td&gt;&lt;td&gt;updates (condition)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-USE\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0USE&lt;/td&gt;&lt;td&gt;uses&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-VALUE\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0VALUE&lt;/td&gt;&lt;td&gt;has value&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-VRXCRPT\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0VRXCRPT&lt;/td&gt;&lt;td&gt;Excerpt verbatim&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-XCRPT\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0XCRPT&lt;/td&gt;&lt;td&gt;Excerpts&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-XFRM\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0XFRM&lt;/td&gt;&lt;td&gt;transformation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-_ActClassTemporallyPertains\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0_ActClassTemporallyPertains&lt;/td&gt;&lt;td&gt;ActClassTemporallyPertains&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-_ActRelationshipAccounting\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0_ActRelationshipAccounting&lt;/td&gt;&lt;td&gt;ActRelationshipAccounting&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-_ActRelationshipConditional\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0_ActRelationshipConditional&lt;/td&gt;&lt;td&gt;ActRelationshipConditional&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-_ActRelationshipCostTracking\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0_ActRelationshipCostTracking&lt;/td&gt;&lt;td&gt;ActRelationshipCostTracking&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-_ActRelationshipPosting\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0_ActRelationshipPosting&lt;/td&gt;&lt;td&gt;ActRelationshipPosting&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-_ActRelationshipPosts\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0_ActRelationshipPosts&lt;/td&gt;&lt;td&gt;ActRelationshipAccounting&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-_ActRelationshipTemporallyPertains\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0_ActRelationshipTemporallyPertains&lt;/td&gt;&lt;td&gt;ActRelationshipTemporallyPertains&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-_ActRelationshipTemporallyPertainsApproximates\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0_ActRelationshipTemporallyPertainsApproximates&lt;/td&gt;&lt;td&gt;ActRelationshipTemporallyPertainsApproximates&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-_ActRelationshipTemporallyPertainsEnd\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0_ActRelationshipTemporallyPertainsEnd&lt;/td&gt;&lt;td&gt;ActRelationshipTemporallyPertainsEnd&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-_ActRelationshipTemporallyPertainsStart\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0_ActRelationshipTemporallyPertainsStart&lt;/td&gt;&lt;td&gt;ActRelationshipTemporallyPertainsStart&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v3-ActRelationshipType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType-_ActRelationsipObjective\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0_ActRelationsipObjective&lt;/td&gt;&lt;td&gt;Act Relationsip Objective&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+  },
+  "<a href="http://hl7.org/fhir/R4/domainresource.html#ValueSet.extension">extension</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a>" : "fhir"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "packageId",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueId</a>" : "hl7.fhir.uv.xver-r5.r4"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "version",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "0.0.1-snapshot-3"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "uri",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueUri</a>" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/package-source"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 0,
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">_valueInteger</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#integer.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCanonical</a>" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a>" : "trial-use",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">_valueCode</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#code.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCanonical</a>" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">url</a>" : "http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-ActRelationshipType-for-R4",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">version</a>" : "0.0.1-snapshot-3",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">name</a>" : "R5V3ActRelationshipTypeForR4",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">title</a>" : "Cross-version ValueSet R5.ActRelationshipType for use in FHIR R4",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">status</a>" : "active",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.experimental">experimental</a>" : false,
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">date</a>" : "2026-02-21T19:36:42.9229177+00:00",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">publisher</a>" : "FHIR Infrastructure",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">contact</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "FHIR Infrastructure",
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "http://www.hl7.org/Special/committees/fiwg"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.description">description</a>" : "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v3-ActRelationshipType|2.0.0` for use in FHIR R4.",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.jurisdiction">jurisdiction</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "001",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "World"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.purpose">purpose</a>" : "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/v3-ActRelationshipType|2.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* \r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://terminology.hl7.org/ValueSet/v3-ActRelationshipType|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose">compose</a>" : {
+    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include">include</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "ACTIMM",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "active immunization against"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "ADJUNCT",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "adjunctive treatment"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "APND",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "is appendage"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "ARR",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "arrival"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "ART",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "act relationship type"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "AUTH",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "authorized by"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "BLOCK",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "blocks"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "BSLN",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has baseline"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "CAUS",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "is etiology for"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "CHRG",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has charge"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "CIND",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has contra-indication"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "COMP",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has component"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "COMPLY",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "complies with"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "CONCURRENT",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "concurrent with"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "COST",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has cost"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "COVBY",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "covered by"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "CREDIT",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has credit"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "CTRLV",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has control variable"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "CURE",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "curative indication"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "CURE.ADJ",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "adjunct curative indication"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "DEBIT",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has debit"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "DEP",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "departure"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "DIAG",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "diagnoses"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "DOC",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "documents"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "DRIV",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "is derived from"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "DURING",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "occurs during"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "EAE",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "ends after end of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "EAEORECW",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "ends after or concurrent with end of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "EAS",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "ends after start of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "EASORECWS",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "ends after or concurrent with start of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "EBE",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "ends before end of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "EBEORECW",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "ends before or concurrent with end of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "EBS",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "ends before start of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "EBSORECWS",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "ends before or concurrent with start of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "ECW",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "ends concurrent with"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "ECWS",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "ends concurrent with start of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "EDU",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "ends during"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "ELNK",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "episodeLink"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "ENE",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "ends near end"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "ENS",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "ends near start"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "EVID",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "provides evidence for"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "EXACBY",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "exacerbated by"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "EXPL",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has explanation"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "FLFS",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "fulfills"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "GEN",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has generalization"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "GEVL",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "evaluates (goal)"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "GOAL",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has goal"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "IMM",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "immunization against"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "INDEPENDENT",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "independent of time of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "INST",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "instantiates (master)"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "INTF",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "interfered by"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "ITEMSLOC",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "items located"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "LIMIT",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "limited by"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "MBR",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has member"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "META",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has metadata"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "MFST",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "is manifestation of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "MITGT",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "mitigates"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "MOD",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "modifies"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "MTCH",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "matches (trigger)"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "MTGT.ADJ",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "adjunct mitigation"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "MTREAT",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "maintenance treatment"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "NAME",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "assigns name"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "OBJC",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has continuing objective"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "OBJF",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has final objective"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "OCCR",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "occurrence"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "OPTN",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has option"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "OREF",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "references order"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "OUTC",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has outcome"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "OVERLAP",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "overlaps with"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "PALLTREAT",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "palliates"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "PART",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has part"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "PASSIMM",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "passive immunization against"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "PERT",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has pertinent information"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "PRCN",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has pre-condition"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "PREV",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has previous instance"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "PRYLX",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "prophylaxis of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "QUALF",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has qualifier"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "RACT"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "RCHAL",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "re-challenge"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "RCVY",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "recovers"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "REFR",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "refers to"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "REFV",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has reference values"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "RELVBY",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "relieved by"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "REV",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "reverses"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "RISK",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has risk"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "RPLC",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "replaces"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "RSON",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has reason"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SAE",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "starts after end of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SAEORSCWE",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "starts after or concurrent with end of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SAS",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "starts after start of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SASEAE",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "starts after start of, ends after end of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SASECWE",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "starts after start of, ends with"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SASORSCW",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "starts after or concurrent with start of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SASSBEEAS",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "start after start of, contains end of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SBE",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "starts before end of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SBEEAE",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "contains end of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SBEORSCWE",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "starts before or concurrent with end of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SBS",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "starts before start of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SBSEAE",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "contains time of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SBSEAS",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "contains start of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SBSEASEBE",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "contains start of, ends before end of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SBSEBE",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "starts before start of, ends before end of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SBSECWE",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "starts before start of, ends with"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SBSORSCW",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "starts before or concurrent with start of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SCH",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "schedules request"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SCW",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "starts concurrent with"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SCWE",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "starts concurrent with end of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SCWSEAE",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "starts with, ends after end of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SCWSEBE",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "starts with. ends before end of"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SDU",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "starts during"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SEQL",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "is sequel"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SNE",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "starts near end"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SNS",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "starts near start"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SPRT",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has support"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SPRTBND",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has bounded support"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "STEP",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has step"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SUBJ",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has subject"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SUCC",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "succeeds"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SUGG"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SUMM",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "summarized by"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "SYMP",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "symptomatic relief"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "TREAT",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "treats"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "TRIG",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has trigger"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "TemporallyPertains",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "ActClassTemporallyPertains"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "UPDT",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "updates (condition)"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "USE",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "uses"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "VALUE",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "has value"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "VRXCRPT",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Excerpt verbatim"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "XCRPT",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Excerpts"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "XFRM",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "transformation"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "_ActClassTemporallyPertains",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "ActClassTemporallyPertains"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "_ActRelationshipAccounting",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "ActRelationshipAccounting"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "_ActRelationshipConditional",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "ActRelationshipConditional"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "_ActRelationshipCostTracking",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "ActRelationshipCostTracking"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "_ActRelationshipPosting",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "ActRelationshipPosting"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "_ActRelationshipPosts",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "ActRelationshipAccounting"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "_ActRelationshipTemporallyPertains",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "ActRelationshipTemporallyPertains"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "_ActRelationshipTemporallyPertainsApproximates",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "ActRelationshipTemporallyPertainsApproximates"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "_ActRelationshipTemporallyPertainsEnd",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "ActRelationshipTemporallyPertainsEnd"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "_ActRelationshipTemporallyPertainsStart",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "ActRelationshipTemporallyPertainsStart"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "_ActRelationsipObjective",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Act Relationsip Objective"
+          }
+        ]
+      }
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion">expansion</a>" : {
+    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.timestamp">timestamp</a>" : "2026-02-21T19:36:42.9229177+00:00",
+    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "ACTIMM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "active immunization against"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "ADJUNCT",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "adjunctive treatment"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "APND",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "is appendage"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "ARR",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "arrival"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "ART",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "act relationship type"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "AUTH",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "authorized by"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "BLOCK",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "blocks"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "BSLN",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has baseline"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "CAUS",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "is etiology for"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "CHRG",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has charge"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "CIND",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has contra-indication"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "COMP",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has component"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "COMPLY",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "complies with"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "CONCURRENT",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "concurrent with"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "COST",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has cost"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "COVBY",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "covered by"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "CREDIT",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has credit"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "CTRLV",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has control variable"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "CURE",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "curative indication"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "CURE.ADJ",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "adjunct curative indication"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "DEBIT",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has debit"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "DEP",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "departure"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "DIAG",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "diagnoses"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "DOC",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "documents"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "DRIV",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "is derived from"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "DURING",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "occurs during"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "EAE",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "ends after end of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "EAEORECW",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "ends after or concurrent with end of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "EAS",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "ends after start of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "EASORECWS",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "ends after or concurrent with start of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "EBE",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "ends before end of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "EBEORECW",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "ends before or concurrent with end of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "EBS",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "ends before start of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "EBSORECWS",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "ends before or concurrent with start of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "ECW",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "ends concurrent with"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "ECWS",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "ends concurrent with start of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "EDU",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "ends during"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "ELNK",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "episodeLink"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "ENE",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "ends near end"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "ENS",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "ends near start"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "EVID",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "provides evidence for"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "EXACBY",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "exacerbated by"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "EXPL",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has explanation"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "FLFS",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "fulfills"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "GEN",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has generalization"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "GEVL",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "evaluates (goal)"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "GOAL",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has goal"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "IMM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "immunization against"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "INDEPENDENT",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "independent of time of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "INST",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "instantiates (master)"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "INTF",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "interfered by"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "ITEMSLOC",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "items located"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "LIMIT",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "limited by"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "MBR",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has member"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "META",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has metadata"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "MFST",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "is manifestation of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "MITGT",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "mitigates"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "MOD",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "modifies"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "MTCH",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "matches (trigger)"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "MTGT.ADJ",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "adjunct mitigation"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "MTREAT",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "maintenance treatment"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "NAME",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "assigns name"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "OBJC",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has continuing objective"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "OBJF",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has final objective"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "OCCR",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "occurrence"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "OPTN",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has option"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "OREF",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "references order"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "OUTC",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has outcome"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "OVERLAP",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "overlaps with"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "PALLTREAT",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "palliates"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "PART",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has part"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "PASSIMM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "passive immunization against"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "PERT",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has pertinent information"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "PRCN",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has pre-condition"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "PREV",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has previous instance"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "PRYLX",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "prophylaxis of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "QUALF",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has qualifier"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "RACT"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "RCHAL",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "re-challenge"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "RCVY",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "recovers"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "REFR",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "refers to"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "REFV",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has reference values"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "RELVBY",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "relieved by"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "REV",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "reverses"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "RISK",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has risk"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "RPLC",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "replaces"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "RSON",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has reason"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SAE",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "starts after end of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SAEORSCWE",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "starts after or concurrent with end of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SAS",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "starts after start of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SASEAE",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "starts after start of, ends after end of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SASECWE",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "starts after start of, ends with"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SASORSCW",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "starts after or concurrent with start of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SASSBEEAS",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "start after start of, contains end of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SBE",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "starts before end of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SBEEAE",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "contains end of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SBEORSCWE",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "starts before or concurrent with end of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SBS",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "starts before start of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SBSEAE",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "contains time of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SBSEAS",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "contains start of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SBSEASEBE",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "contains start of, ends before end of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SBSEBE",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "starts before start of, ends before end of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SBSECWE",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "starts before start of, ends with"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SBSORSCW",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "starts before or concurrent with start of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SCH",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "schedules request"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SCW",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "starts concurrent with"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SCWE",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "starts concurrent with end of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SCWSEAE",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "starts with, ends after end of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SCWSEBE",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "starts with. ends before end of"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SDU",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "starts during"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SEQL",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "is sequel"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SNE",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "starts near end"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SNS",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "starts near start"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SPRT",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has support"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SPRTBND",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has bounded support"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "STEP",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has step"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SUBJ",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has subject"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SUCC",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "succeeds"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SUGG"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SUMM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "summarized by"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "SYMP",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "symptomatic relief"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "TREAT",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "treats"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "TRIG",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has trigger"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "TemporallyPertains",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "ActClassTemporallyPertains"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "UPDT",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "updates (condition)"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "USE",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "uses"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "VALUE",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "has value"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "VRXCRPT",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Excerpt verbatim"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "XCRPT",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Excerpts"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "XFRM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "transformation"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "_ActClassTemporallyPertains",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "ActClassTemporallyPertains"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "_ActRelationshipAccounting",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "ActRelationshipAccounting"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "_ActRelationshipConditional",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "ActRelationshipConditional"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "_ActRelationshipCostTracking",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "ActRelationshipCostTracking"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "_ActRelationshipPosting",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "ActRelationshipPosting"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "_ActRelationshipPosts",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "ActRelationshipAccounting"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "_ActRelationshipTemporallyPertains",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "ActRelationshipTemporallyPertains"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "_ActRelationshipTemporallyPertainsApproximates",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "ActRelationshipTemporallyPertainsApproximates"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "_ActRelationshipTemporallyPertainsEnd",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "ActRelationshipTemporallyPertainsEnd"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "_ActRelationshipTemporallyPertainsStart",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "ActRelationshipTemporallyPertainsStart"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "_ActRelationsipObjective",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Act Relationsip Objective"
+      }
+    ]
+  }
+}</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="ValueSet-R5-v3-ActRelationshipType-for-R4.xml.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="ValueSet-R5-v3-ActRelationshipType-for-R4.ttl.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-21 13:39:00 -0600">
+    2026-02-21
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir/uv/xver/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

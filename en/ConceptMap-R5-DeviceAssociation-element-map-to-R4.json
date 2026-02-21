@@ -1,0 +1,241 @@
+{
+  "resourceType" : "ConceptMap",
+  "id" : "R5-DeviceAssociation-element-map-to-R4",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-DeviceAssociation-element-map-to-R4</b></p><a name=\"R5-DeviceAssociation-element-map-to-R4\"> </a><a name=\"hcR5-DeviceAssociation-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/DeviceAssociation|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/device.html\">Deviceversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>DeviceAssociation.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `DeviceAssociation.meta` is mapped to FHIR R4 element `Device.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>DeviceAssociation.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `DeviceAssociation.implicitRules` is mapped to FHIR R4 element `Device.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>DeviceAssociation.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `DeviceAssociation.language` is mapped to FHIR R4 element `Device.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>DeviceAssociation.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `DeviceAssociation.text` is mapped to FHIR R4 element `Device.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>DeviceAssociation.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `DeviceAssociation.contained` is mapped to FHIR R4 element `Device.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>DeviceAssociation.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `DeviceAssociation.identifier` is mapped to FHIR R4 element `Device.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>DeviceAssociation.statusReason (statusReason)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `DeviceAssociation.statusReason` is mapped to FHIR R4 element `Device.statusReason` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>DeviceAssociation.subject (subject)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceAssociation.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceAssociation.subject` is mapped to FHIR R4 element `Device.patient` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/DeviceAssociation|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Packversion: 5.2.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>DeviceAssociation.device (device)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceAssociation.device` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceAssociation.device` has a context of Device based on following the parent source element upwards and mapping to `Device`.</td></tr><tr><td>DeviceAssociation.subject (subject)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceAssociation.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceAssociation.subject` is mapped to FHIR R4 element `Device.patient` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>DeviceAssociation.bodyStructure (bodyStructure)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceAssociation.bodyStructure` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceAssociation.bodyStructure` has a context of Device based on following the parent source element upwards and mapping to `Device`.</td></tr><tr><td>DeviceAssociation.operation.operator (operator)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceAssociation.operation.operator` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceAssociation.operation.operator` has a context of Device based on following the parent source element upwards and mapping to `Device`.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/DeviceAssociation|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>DeviceAssociation.category (category)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.category</td><td>Element `DeviceAssociation.category` has a context of Device based on following the parent source element upwards and mapping to `Device`.</td></tr><tr><td>DeviceAssociation.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.status</td><td>Element `DeviceAssociation.status` has a context of Device based on following the parent source element upwards and mapping to `Device`.</td></tr><tr><td>DeviceAssociation.statusReason (statusReason)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.statusReason</td><td>Element `DeviceAssociation.statusReason` is mapped to FHIR R4 element `Device.statusReason` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>DeviceAssociation.period (period)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.period</td><td>Element `DeviceAssociation.period` has a context of Device based on following the parent source element upwards and mapping to `Device`.</td></tr><tr><td>DeviceAssociation.operation (operation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.operation</td><td>Element `DeviceAssociation.operation` has a context of Device based on following the parent source element upwards and mapping to `Device`.</td></tr></table><hr/><p><b>Group 4 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/DeviceAssociation|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>DeviceAssociation.operation.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>status</td><td>Element `DeviceAssociation.operation.status` has a context of Device based on following the parent source element upwards and mapping to `Device`.</td></tr><tr><td>DeviceAssociation.operation.period (period)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>period</td><td>Element `DeviceAssociation.operation.period` has a context of Device based on following the parent source element upwards and mapping to `Device`.</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "fhir"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 0,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  }],
+  "url" : "http://hl7.org/fhir/uv/xver/ConceptMap/R5-DeviceAssociation-element-map-to-R4",
+  "version" : "0.0.1-snapshot-3",
+  "name" : "R5DeviceAssociationElementMapToR4",
+  "title" : "Cross-version mapping for FHIR R5 DeviceAssociation to FHIR R4 Device",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-02-21T13:36:55.9250959-06:00",
+  "contact" : [{
+    "name" : "FHIR Infrastructure",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/fiwg"
+    }]
+  }],
+  "description" : "This ConceptMap represents cross-version mappings for elements from a FHIR R5 DeviceAssociation to FHIR R4.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "sourceCanonical" : "http://hl7.org/fhir/5.0",
+  "targetUri" : "http://hl7.org/fhir/4.0",
+  "group" : [{
+    "source" : "http://hl7.org/fhir/StructureDefinition/DeviceAssociation",
+    "sourceVersion" : "5.0.0",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Device",
+    "targetVersion" : "4.0.1",
+    "element" : [{
+      "code" : "DeviceAssociation.meta",
+      "display" : "meta",
+      "target" : [{
+        "equivalence" : "equivalent",
+        "comment" : "Element `DeviceAssociation.meta` is mapped to FHIR R4 element `Device.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+      }]
+    },
+    {
+      "code" : "DeviceAssociation.implicitRules",
+      "display" : "implicitRules",
+      "target" : [{
+        "equivalence" : "equivalent",
+        "comment" : "Element `DeviceAssociation.implicitRules` is mapped to FHIR R4 element `Device.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+      }]
+    },
+    {
+      "code" : "DeviceAssociation.language",
+      "display" : "language",
+      "target" : [{
+        "equivalence" : "equivalent",
+        "comment" : "Element `DeviceAssociation.language` is mapped to FHIR R4 element `Device.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+      }]
+    },
+    {
+      "code" : "DeviceAssociation.text",
+      "display" : "text",
+      "target" : [{
+        "equivalence" : "equivalent",
+        "comment" : "Element `DeviceAssociation.text` is mapped to FHIR R4 element `Device.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+      }]
+    },
+    {
+      "code" : "DeviceAssociation.contained",
+      "display" : "contained",
+      "target" : [{
+        "equivalence" : "equivalent",
+        "comment" : "Element `DeviceAssociation.contained` is mapped to FHIR R4 element `Device.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+      }]
+    },
+    {
+      "code" : "DeviceAssociation.identifier",
+      "display" : "identifier",
+      "target" : [{
+        "equivalence" : "equivalent",
+        "comment" : "Element `DeviceAssociation.identifier` is mapped to FHIR R4 element `Device.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+      }]
+    },
+    {
+      "code" : "DeviceAssociation.statusReason",
+      "display" : "statusReason",
+      "target" : [{
+        "equivalence" : "wider",
+        "comment" : "Element `DeviceAssociation.statusReason` is mapped to FHIR R4 element `Device.statusReason` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+      }]
+    },
+    {
+      "code" : "DeviceAssociation.subject",
+      "display" : "subject",
+      "target" : [{
+        "equivalence" : "wider",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceAssociation.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceAssociation.subject` is mapped to FHIR R4 element `Device.patient` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+      }]
+    }]
+  },
+  {
+    "source" : "http://hl7.org/fhir/StructureDefinition/DeviceAssociation",
+    "sourceVersion" : "5.0.0",
+    "target" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+    "targetVersion" : "5.2.0",
+    "element" : [{
+      "code" : "DeviceAssociation.device",
+      "display" : "device",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
+        "equivalence" : "wider",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceAssociation.device` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceAssociation.device` has a context of Device based on following the parent source element upwards and mapping to `Device`."
+      }]
+    },
+    {
+      "code" : "DeviceAssociation.subject",
+      "display" : "subject",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
+        "equivalence" : "wider",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceAssociation.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceAssociation.subject` is mapped to FHIR R4 element `Device.patient` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+      }]
+    },
+    {
+      "code" : "DeviceAssociation.bodyStructure",
+      "display" : "bodyStructure",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
+        "equivalence" : "wider",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceAssociation.bodyStructure` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceAssociation.bodyStructure` has a context of Device based on following the parent source element upwards and mapping to `Device`."
+      }]
+    },
+    {
+      "code" : "DeviceAssociation.operation.operator",
+      "display" : "operator",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
+        "equivalence" : "wider",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceAssociation.operation.operator` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceAssociation.operation.operator` has a context of Device based on following the parent source element upwards and mapping to `Device`."
+      }]
+    }]
+  },
+  {
+    "source" : "http://hl7.org/fhir/StructureDefinition/DeviceAssociation",
+    "sourceVersion" : "5.0.0",
+    "target" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4",
+    "element" : [{
+      "code" : "DeviceAssociation.category",
+      "display" : "category",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.category",
+        "equivalence" : "wider",
+        "comment" : "Element `DeviceAssociation.category` has a context of Device based on following the parent source element upwards and mapping to `Device`."
+      }]
+    },
+    {
+      "code" : "DeviceAssociation.status",
+      "display" : "status",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.status",
+        "equivalence" : "equivalent",
+        "comment" : "Element `DeviceAssociation.status` has a context of Device based on following the parent source element upwards and mapping to `Device`."
+      }]
+    },
+    {
+      "code" : "DeviceAssociation.statusReason",
+      "display" : "statusReason",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.statusReason",
+        "equivalence" : "equivalent",
+        "comment" : "Element `DeviceAssociation.statusReason` is mapped to FHIR R4 element `Device.statusReason` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+      }]
+    },
+    {
+      "code" : "DeviceAssociation.period",
+      "display" : "period",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.period",
+        "equivalence" : "wider",
+        "comment" : "Element `DeviceAssociation.period` has a context of Device based on following the parent source element upwards and mapping to `Device`."
+      }]
+    },
+    {
+      "code" : "DeviceAssociation.operation",
+      "display" : "operation",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.operation",
+        "equivalence" : "wider",
+        "comment" : "Element `DeviceAssociation.operation` has a context of Device based on following the parent source element upwards and mapping to `Device`."
+      }]
+    }]
+  },
+  {
+    "source" : "http://hl7.org/fhir/StructureDefinition/DeviceAssociation",
+    "sourceVersion" : "5.0.0",
+    "element" : [{
+      "code" : "DeviceAssociation.operation.status",
+      "display" : "status",
+      "target" : [{
+        "code" : "status",
+        "equivalence" : "wider",
+        "comment" : "Element `DeviceAssociation.operation.status` has a context of Device based on following the parent source element upwards and mapping to `Device`."
+      }]
+    },
+    {
+      "code" : "DeviceAssociation.operation.period",
+      "display" : "period",
+      "target" : [{
+        "code" : "period",
+        "equivalence" : "wider",
+        "comment" : "Element `DeviceAssociation.operation.period` has a context of Device based on following the parent source element upwards and mapping to `Device`."
+      }]
+    }]
+  }]
+}

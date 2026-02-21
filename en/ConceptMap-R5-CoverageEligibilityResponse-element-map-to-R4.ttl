@@ -1,0 +1,464 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-CoverageEligibilityResponse-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-CoverageEligibilityResponse-element-map-to-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-CoverageEligibilityResponse-element-map-to-R4</b></p><a name=\"R5-CoverageEligibilityResponse-element-map-to-R4\"> </a><a name=\"hcR5-CoverageEligibilityResponse-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/coverageeligibilityresponse.html\">CoverageEligibilityResponseversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>CoverageEligibilityResponse.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.meta` is mapped to FHIR R4 element `CoverageEligibilityResponse.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.implicitRules` is mapped to FHIR R4 element `CoverageEligibilityResponse.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.language` is mapped to FHIR R4 element `CoverageEligibilityResponse.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.text` is mapped to FHIR R4 element `CoverageEligibilityResponse.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.contained` is mapped to FHIR R4 element `CoverageEligibilityResponse.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.identifier` is mapped to FHIR R4 element `CoverageEligibilityResponse.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.status` is mapped to FHIR R4 element `CoverageEligibilityResponse.status` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.purpose (purpose)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.purpose` is mapped to FHIR R4 element `CoverageEligibilityResponse.purpose` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.patient (patient)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.patient` is mapped to FHIR R4 element `CoverageEligibilityResponse.patient` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.serviced[x] (serviced[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Note that the target element context `CoverageEligibilityResponse.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityResponse`.\nElement `CoverageEligibilityResponse.serviced[x]` is mapped to FHIR R4 element `CoverageEligibilityResponse.serviced[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `CoverageEligibilityResponse.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityResponse`.</td></tr><tr><td>CoverageEligibilityResponse.created (created)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.created` is mapped to FHIR R4 element `CoverageEligibilityResponse.created` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.requestor (requestor)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.requestor` is mapped to FHIR R4 element `CoverageEligibilityResponse.requestor` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.request (request)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.request` is mapped to FHIR R4 element `CoverageEligibilityResponse.request` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.outcome (outcome)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.outcome` is mapped to FHIR R4 element `CoverageEligibilityResponse.outcome` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.disposition (disposition)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.disposition` is mapped to FHIR R4 element `CoverageEligibilityResponse.disposition` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.insurer (insurer)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.insurer` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurer` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.insurance (insurance)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CoverageEligibilityResponse.insurance` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.insurance.coverage (coverage)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.insurance.coverage` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.coverage` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.insurance.inforce (inforce)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.insurance.inforce` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.inforce` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.insurance.benefitPeriod (benefitPeriod)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.insurance.benefitPeriod` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.benefitPeriod` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.insurance.item (item)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CoverageEligibilityResponse.insurance.item` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.insurance.item.category (category)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.insurance.item.category` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.category` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.insurance.item.productOrService (productOrService)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.insurance.item.productOrService` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.productOrService` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.insurance.item.modifier (modifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.insurance.item.modifier` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.modifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.insurance.item.provider (provider)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.insurance.item.provider` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.provider` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.insurance.item.excluded (excluded)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.insurance.item.excluded` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.excluded` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.insurance.item.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.insurance.item.name` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.insurance.item.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.insurance.item.description` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.insurance.item.network (network)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.insurance.item.network` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.network` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.insurance.item.unit (unit)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.insurance.item.unit` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.unit` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.insurance.item.term (term)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.insurance.item.term` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.term` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.insurance.item.benefit (benefit)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CoverageEligibilityResponse.insurance.item.benefit` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.benefit` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.insurance.item.benefit.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.insurance.item.benefit.type` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.benefit.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.insurance.item.benefit.allowed[x] (allowed[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Note that the target element context `CoverageEligibilityResponse.insurance.item.benefit.allowed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityResponse.insurance.item.benefit`.\nElement `CoverageEligibilityResponse.insurance.item.benefit.allowed[x]` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.benefit.allowed[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `CoverageEligibilityResponse.insurance.item.benefit.allowed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityResponse.insurance.item.benefit`.</td></tr><tr><td>CoverageEligibilityResponse.insurance.item.benefit.used[x] (used[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Note that the target element context `CoverageEligibilityResponse.insurance.item.benefit.used[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityResponse.insurance.item.benefit`.\nElement `CoverageEligibilityResponse.insurance.item.benefit.used[x]` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.benefit.used[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `CoverageEligibilityResponse.insurance.item.benefit.used[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityResponse.insurance.item.benefit`.</td></tr><tr><td>CoverageEligibilityResponse.insurance.item.authorizationRequired (authorizationRequired)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.insurance.item.authorizationRequired` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.authorizationRequired` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.insurance.item.authorizationSupporting (authorizationSupporting)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.insurance.item.authorizationSupporting` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.authorizationSupporting` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.insurance.item.authorizationUrl (authorizationUrl)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.insurance.item.authorizationUrl` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.authorizationUrl` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.preAuthRef (preAuthRef)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.preAuthRef` is mapped to FHIR R4 element `CoverageEligibilityResponse.preAuthRef` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.form (form)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.form` is mapped to FHIR R4 element `CoverageEligibilityResponse.form` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.error (error)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CoverageEligibilityResponse.error` is mapped to FHIR R4 element `CoverageEligibilityResponse.error` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CoverageEligibilityResponse.error.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityResponse.error.code` is mapped to FHIR R4 element `CoverageEligibilityResponse.error.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>CoverageEligibilityResponse.event (event)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityResponse.event</td><td>Element `CoverageEligibilityResponse.event` has a context of CoverageEligibilityResponse based on following the parent source element upwards and mapping to `CoverageEligibilityResponse`.</td></tr><tr><td>CoverageEligibilityResponse.error.expression (expression)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityResponse.error.expression</td><td>Element `CoverageEligibilityResponse.error.expression` has a context of CoverageEligibilityResponse.error based on following the parent source element upwards and mapping to `CoverageEligibilityResponse`.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>CoverageEligibilityResponse.event.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>type</td><td>Element `CoverageEligibilityResponse.event.type` has a context of CoverageEligibilityResponse based on following the parent source element upwards and mapping to `CoverageEligibilityResponse`.</td></tr><tr><td>CoverageEligibilityResponse.event.when[x] (when[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>when</td><td>Element `CoverageEligibilityResponse.event.when[x]` has a context of CoverageEligibilityResponse based on following the parent source element upwards and mapping to `CoverageEligibilityResponse`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-CoverageEligibilityResponse-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-CoverageEligibilityResponse-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5CoverageEligibilityResponseElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 CoverageEligibilityResponse to FHIR R4 CoverageEligibilityResponse"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T13:36:55.9119139-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 CoverageEligibilityResponse to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.meta` is mapped to FHIR R4 element `CoverageEligibilityResponse.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.implicitRules` is mapped to FHIR R4 element `CoverageEligibilityResponse.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.language` is mapped to FHIR R4 element `CoverageEligibilityResponse.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.text` is mapped to FHIR R4 element `CoverageEligibilityResponse.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.contained` is mapped to FHIR R4 element `CoverageEligibilityResponse.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.identifier` is mapped to FHIR R4 element `CoverageEligibilityResponse.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.status` is mapped to FHIR R4 element `CoverageEligibilityResponse.status` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.purpose" ] ;
+       fhir:display [ fhir:v "purpose" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.purpose` is mapped to FHIR R4 element `CoverageEligibilityResponse.purpose` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.patient" ] ;
+       fhir:display [ fhir:v "patient" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.patient` is mapped to FHIR R4 element `CoverageEligibilityResponse.patient` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.serviced[x]" ] ;
+       fhir:display [ fhir:v "serviced[x]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `CoverageEligibilityResponse.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityResponse`.\nElement `CoverageEligibilityResponse.serviced[x]` is mapped to FHIR R4 element `CoverageEligibilityResponse.serviced[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `CoverageEligibilityResponse.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityResponse`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.created" ] ;
+       fhir:display [ fhir:v "created" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.created` is mapped to FHIR R4 element `CoverageEligibilityResponse.created` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.requestor" ] ;
+       fhir:display [ fhir:v "requestor" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.requestor` is mapped to FHIR R4 element `CoverageEligibilityResponse.requestor` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.request" ] ;
+       fhir:display [ fhir:v "request" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.request` is mapped to FHIR R4 element `CoverageEligibilityResponse.request` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.outcome" ] ;
+       fhir:display [ fhir:v "outcome" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.outcome` is mapped to FHIR R4 element `CoverageEligibilityResponse.outcome` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.disposition" ] ;
+       fhir:display [ fhir:v "disposition" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.disposition` is mapped to FHIR R4 element `CoverageEligibilityResponse.disposition` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.insurer" ] ;
+       fhir:display [ fhir:v "insurer" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.insurer` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurer` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.insurance" ] ;
+       fhir:display [ fhir:v "insurance" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.insurance` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.insurance.coverage" ] ;
+       fhir:display [ fhir:v "coverage" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.insurance.coverage` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.coverage` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.insurance.inforce" ] ;
+       fhir:display [ fhir:v "inforce" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.insurance.inforce` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.inforce` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.insurance.benefitPeriod" ] ;
+       fhir:display [ fhir:v "benefitPeriod" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.insurance.benefitPeriod` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.benefitPeriod` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.insurance.item" ] ;
+       fhir:display [ fhir:v "item" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.insurance.item` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.insurance.item.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.insurance.item.category` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.category` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.insurance.item.productOrService" ] ;
+       fhir:display [ fhir:v "productOrService" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.insurance.item.productOrService` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.productOrService` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.insurance.item.modifier" ] ;
+       fhir:display [ fhir:v "modifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.insurance.item.modifier` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.modifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.insurance.item.provider" ] ;
+       fhir:display [ fhir:v "provider" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.insurance.item.provider` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.provider` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.insurance.item.excluded" ] ;
+       fhir:display [ fhir:v "excluded" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.insurance.item.excluded` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.excluded` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.insurance.item.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.insurance.item.name` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.insurance.item.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.insurance.item.description` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.insurance.item.network" ] ;
+       fhir:display [ fhir:v "network" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.insurance.item.network` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.network` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.insurance.item.unit" ] ;
+       fhir:display [ fhir:v "unit" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.insurance.item.unit` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.unit` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.insurance.item.term" ] ;
+       fhir:display [ fhir:v "term" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.insurance.item.term` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.term` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.insurance.item.benefit" ] ;
+       fhir:display [ fhir:v "benefit" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.insurance.item.benefit` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.benefit` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.insurance.item.benefit.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.insurance.item.benefit.type` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.benefit.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.insurance.item.benefit.allowed[x]" ] ;
+       fhir:display [ fhir:v "allowed[x]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `CoverageEligibilityResponse.insurance.item.benefit.allowed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityResponse.insurance.item.benefit`.\nElement `CoverageEligibilityResponse.insurance.item.benefit.allowed[x]` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.benefit.allowed[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `CoverageEligibilityResponse.insurance.item.benefit.allowed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityResponse.insurance.item.benefit`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.insurance.item.benefit.used[x]" ] ;
+       fhir:display [ fhir:v "used[x]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `CoverageEligibilityResponse.insurance.item.benefit.used[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityResponse.insurance.item.benefit`.\nElement `CoverageEligibilityResponse.insurance.item.benefit.used[x]` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.benefit.used[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `CoverageEligibilityResponse.insurance.item.benefit.used[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityResponse.insurance.item.benefit`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.insurance.item.authorizationRequired" ] ;
+       fhir:display [ fhir:v "authorizationRequired" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.insurance.item.authorizationRequired` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.authorizationRequired` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.insurance.item.authorizationSupporting" ] ;
+       fhir:display [ fhir:v "authorizationSupporting" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.insurance.item.authorizationSupporting` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.authorizationSupporting` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.insurance.item.authorizationUrl" ] ;
+       fhir:display [ fhir:v "authorizationUrl" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.insurance.item.authorizationUrl` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.authorizationUrl` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.preAuthRef" ] ;
+       fhir:display [ fhir:v "preAuthRef" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.preAuthRef` is mapped to FHIR R4 element `CoverageEligibilityResponse.preAuthRef` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.form" ] ;
+       fhir:display [ fhir:v "form" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.form` is mapped to FHIR R4 element `CoverageEligibilityResponse.form` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.error" ] ;
+       fhir:display [ fhir:v "error" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.error` is mapped to FHIR R4 element `CoverageEligibilityResponse.error` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.error.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.error.code` is mapped to FHIR R4 element `CoverageEligibilityResponse.error.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.event" ] ;
+       fhir:display [ fhir:v "event" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityResponse.event" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.event` has a context of CoverageEligibilityResponse based on following the parent source element upwards and mapping to `CoverageEligibilityResponse`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.error.expression" ] ;
+       fhir:display [ fhir:v "expression" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityResponse.error.expression" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.error.expression` has a context of CoverageEligibilityResponse.error based on following the parent source element upwards and mapping to `CoverageEligibilityResponse`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.event.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.event.type` has a context of CoverageEligibilityResponse based on following the parent source element upwards and mapping to `CoverageEligibilityResponse`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityResponse.event.when[x]" ] ;
+       fhir:display [ fhir:v "when[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "when" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityResponse.event.when[x]` has a context of CoverageEligibilityResponse based on following the parent source element upwards and mapping to `CoverageEligibilityResponse`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

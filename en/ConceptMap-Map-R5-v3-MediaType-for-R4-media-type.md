@@ -1,0 +1,405 @@
+# MapR5V3MediaTypeForR4MediaType - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## ConceptMap: MapR5V3MediaTypeForR4MediaType 
+
+ 
+This ConceptMap represents the cross-version mapping of concepts from ValueSet `http://terminology.hl7.org/ValueSet/v3-MediaType|2.0.0` for use in FHIR R4. 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ConceptMap",
+  "id" : "Map-R5-v3-MediaType-for-R4-media-type",
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "fhir"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger" : 0,
+      "_valueInteger" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode" : "trial-use",
+      "_valueCode" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    }
+  ],
+  "url" : "http://hl7.org/fhir/uv/xver/ConceptMap/R5-v3-MediaType-for-R4-media-type",
+  "version" : "0.0.1-snapshot-3",
+  "name" : "MapR5V3MediaTypeForR4MediaType",
+  "title" : "Cross-version ConceptMap for ValueSet R5-v3-MediaType-for-R4-media-type from FHIR R5 to FHIR R4",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-02-21T13:36:49.5561863-06:00",
+  "contact" : [
+    {
+      "name" : "FHIR Infrastructure",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/fiwg"
+        }
+      ]
+    }
+  ],
+  "description" : "This ConceptMap represents the cross-version mapping of concepts from ValueSet `http://terminology.hl7.org/ValueSet/v3-MediaType|2.0.0` for use in FHIR R4.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }
+      ]
+    }
+  ],
+  "sourceUri" : "http://terminology.hl7.org/ValueSet/v3-MediaType|2.0.0",
+  "targetUri" : "http://hl7.org/fhir/ValueSet/media-type|4.0.1",
+  "group" : [
+    {
+      "source" : "http://terminology.hl7.org/CodeSystem/v3-mediaType",
+      "sourceVersion" : "3.0.0",
+      "target" : "http://terminology.hl7.org/CodeSystem/media-type",
+      "targetVersion" : "4.0.1",
+      "element" : [
+        {
+          "code" : "audio",
+          "display" : "AudioMediaType",
+          "target" : [
+            {
+              "code" : "audio",
+              "display" : "Audio",
+              "equivalence" : "equivalent",
+              "comment" : "Using explicit mapping from `http://hl7.org/fhir/ValueSet/media-type|4.3.0` to `http://hl7.org/fhir/ValueSet/media-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-MediaType-R4-MediaType` (`ConceptMap-R4B-MediaType-R4-MediaType.json`)"
+            }
+          ]
+        },
+        {
+          "code" : "image",
+          "display" : "ImageMediaType",
+          "target" : [
+            {
+              "code" : "image",
+              "display" : "Image",
+              "equivalence" : "equivalent",
+              "comment" : "Using explicit mapping from `http://hl7.org/fhir/ValueSet/media-type|4.3.0` to `http://hl7.org/fhir/ValueSet/media-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-MediaType-R4-MediaType` (`ConceptMap-R4B-MediaType-R4-MediaType.json`)"
+            }
+          ]
+        },
+        {
+          "code" : "video",
+          "display" : "VideoMediaType",
+          "target" : [
+            {
+              "code" : "video",
+              "display" : "Video",
+              "equivalence" : "equivalent",
+              "comment" : "Using explicit mapping from `http://hl7.org/fhir/ValueSet/media-type|4.3.0` to `http://hl7.org/fhir/ValueSet/media-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-MediaType-R4-MediaType` (`ConceptMap-R4B-MediaType-R4-MediaType.json`)"
+            }
+          ]
+        },
+        {
+          "code" : "application",
+          "display" : "ApplicationMediaType",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "application/dicom",
+          "display" : "DICOM",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "application/msword",
+          "display" : "MSWORD",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "application/pdf",
+          "display" : "PDF",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "audio/basic",
+          "display" : "Basic Audio",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "audio/k32adpcm",
+          "display" : "K32ADPCM Audio",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "audio/mpeg",
+          "display" : "MPEG audio layer 3",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "image/g3fax",
+          "display" : "G3Fax Image",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "image/gif",
+          "display" : "GIF Image",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "image/jpeg",
+          "display" : "JPEG Image",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "image/png",
+          "display" : "PNG Image",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "image/tiff",
+          "display" : "TIFF Image",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "model",
+          "display" : "ModelMediaType",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "model/vrml",
+          "display" : "VRML Model",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "multipart",
+          "display" : "MultipartMediaType",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "multipart/x-hl7-cda-level-one",
+          "display" : "CDA Level 1 Multipart",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "multipart/x-hl7-cda-level1",
+          "display" : "CDA Level 1 Multipart",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "text",
+          "display" : "TextMediaType",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "text/html",
+          "display" : "HTML Text",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "text/plain",
+          "display" : "Plain Text",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "text/rtf",
+          "display" : "RTF Text",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "text/sgml",
+          "display" : "SGML Text",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "text/x-hl7-ft",
+          "display" : "HL7 Text",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "text/x-hl7-text+xml",
+          "display" : "HL7 Structured Narrative",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "text/xml",
+          "display" : "XML Text",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "video/mp4",
+          "display" : "MP4 Video",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "video/mpeg",
+          "display" : "MPEG Video",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "video/quicktime",
+          "display" : "QuickTime Video",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "video/webm",
+          "display" : "WebM Video",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "video/x-avi",
+          "display" : "X-AVI Video",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        },
+        {
+          "code" : "video/x-ms-wmv",
+          "display" : "Windows Media Video",
+          "target" : [
+            {
+              "equivalence" : "unmatched"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+```

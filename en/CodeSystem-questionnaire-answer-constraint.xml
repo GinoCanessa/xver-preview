@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="questionnaire-answer-constraint"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/questionnaire-answer-constraint</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">optionsOnly
+                  <a name="questionnaire-answer-constraint-optionsOnly"> </a>
+                </td>
+                <td>Options only</td>
+                <td>Only values listed as answerOption or in the expansion of the answerValueSet are permitted</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">optionsOrType
+                  <a name="questionnaire-answer-constraint-optionsOrType"> </a>
+                </td>
+                <td>Options or 'type'</td>
+                <td>In addition to the values listed as answerOption or in the expansion of the answerValueSet, any other values that correspond to the specified item.type are permitted</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">optionsOrString
+                  <a name="questionnaire-answer-constraint-optionsOrString"> </a>
+                </td>
+                <td>Options or string</td>
+                <td>In addition to the values listed as answerOption or in the expansion of the answerValueSet, free-text strings are permitted.  Answers will have a type of 'string'.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <url value="http://hl7.org/fhir/questionnaire-answer-constraint"/>
+  <version value="5.0.0"/>
+  <name value="QuestionnaireAnswerConstraint"/>
+  <title value="Questionnaire answer constraint codes"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2026-02-21T13:39:05-06:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="Codes that describe the types of constraints possible on a question item that has a list of permitted answers"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="optionsOnly"/>
+    <display value="Options only"/>
+    <definition value="Only values listed as answerOption or in the expansion of the answerValueSet are permitted"/>
+  </concept>
+  <concept>
+    <code value="optionsOrType"/>
+    <display value="Options or 'type'"/>
+    <definition value="In addition to the values listed as answerOption or in the expansion of the answerValueSet, any other values that correspond to the specified item.type are permitted"/>
+  </concept>
+  <concept>
+    <code value="optionsOrString"/>
+    <display value="Options or string"/>
+    <definition value="In addition to the values listed as answerOption or in the expansion of the answerValueSet, free-text strings are permitted.  Answers will have a type of 'string'."/>
+  </concept>
+</CodeSystem>

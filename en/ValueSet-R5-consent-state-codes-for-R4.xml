@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-consent-state-codes-for-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-consent-state-codes-for-R4</b></p><a name="R5-consent-state-codes-for-R4"> </a><a name="hcR5-consent-state-codes-for-R4"> </a><p>This value set expansion contains 2 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="R5-consent-state-codes-for-R4-http://hl7.org/fhir/consent-state-codes-not-done"> </a><code>http://hl7.org/fhir/consent-state-codes</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-consent-state-codes.html#consent-state-codes-not-done">not-done</a></td><td>Abandoned</td><td>The consent development has been terminated prior to completion.</td></tr><tr><td><a name="R5-consent-state-codes-for-R4-http://hl7.org/fhir/consent-state-codes-unknown"> </a><code>http://hl7.org/fhir/consent-state-codes</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-consent-state-codes.html#consent-state-codes-unknown">unknown</a></td><td>Unknown</td><td>The resource is in an indeterminate state.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="cbcc"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-consent-state-codes-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5ConsentStateCodesForR4"/>
+  <title value="Cross-version ValueSet R5.ConsentState for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="Community Based Collaborative Care"/>
+  <contact>
+    <name value="Community Based Collaborative Care"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/cbcc"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0 for use in FHIR R4 that is appropriate for use but unavailable in `http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1`."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `Consent.status` as Required&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the value set has been mapped as:&#xD;&#xA;* `http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0`&#xA;* `http://hl7.org/fhir/ValueSet/consent-state-codes|4.3.0`&#xA;* `http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* `http://hl7.org/fhir/consent-state-codes#active`&#xA;* `http://hl7.org/fhir/consent-state-codes#draft`&#xA;* `http://hl7.org/fhir/consent-state-codes#entered-in-error`&#xA;* `http://hl7.org/fhir/consent-state-codes#inactive`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;One or more source concepts are either not mapped or broader than their targets, so the value set relationship is broadened.&#xA;The source and target value sets have the same number of active concepts (6).&#xA;All concepts in the comparison are listed as identical.&#xA;The source and target value sets have the same number of active concepts (6).&#xA;Using explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1` in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ConsentStateCodes-R4-ConsentStateCodes` (`ConceptMap-R5-ConsentStateCodes-R4-ConsentStateCodes.json`)"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/consent-state-codes"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="not-done"/>
+        <display value="Abandoned"/>
+      </concept>
+      <concept>
+        <code value="unknown"/>
+        <display value="Unknown"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/consent-state-codes"/>
+      <version value="5.0.0"/>
+      <code value="not-done"/>
+      <display value="Abandoned"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/consent-state-codes"/>
+      <version value="5.0.0"/>
+      <code value="unknown"/>
+      <display value="Unknown"/>
+    </contains>
+  </expansion>
+</ValueSet>

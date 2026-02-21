@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="action-code"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/action-code</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">send-message
+                  <a name="action-code-send-message"> </a>
+                </td>
+                <td>Send a message</td>
+                <td>The action indicates that a particular message should be sent to a participant in the process.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">collect-information
+                  <a name="action-code-collect-information"> </a>
+                </td>
+                <td>Collect information</td>
+                <td>The action indicates that information should be collected from a participant in the process.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">prescribe-medication
+                  <a name="action-code-prescribe-medication"> </a>
+                </td>
+                <td>Prescribe a medication</td>
+                <td>The action indicates that a particular medication should be prescribed to the patient.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">recommend-immunization
+                  <a name="action-code-recommend-immunization"> </a>
+                </td>
+                <td>Recommend an immunization</td>
+                <td>The action indicates that a particular immunization should be performed.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">order-service
+                  <a name="action-code-order-service"> </a>
+                </td>
+                <td>Order a service</td>
+                <td>The action indicates that a particular service should be provided.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">propose-diagnosis
+                  <a name="action-code-propose-diagnosis"> </a>
+                </td>
+                <td>Propose a diagnosis</td>
+                <td>The action indicates that a particular diagnosis should be proposed.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">record-detected-issue
+                  <a name="action-code-record-detected-issue"> </a>
+                </td>
+                <td>Record a detected issue</td>
+                <td>The action indicates that a particular detected issue should be recorded.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">record-inference
+                  <a name="action-code-record-inference"> </a>
+                </td>
+                <td>Record an inference</td>
+                <td>The action indicates that a particular inference should be recorded.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">report-flag
+                  <a name="action-code-report-flag"> </a>
+                </td>
+                <td>Report a flag</td>
+                <td>The action indicates that a particular flag should be reported.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="draft"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="cds"/>
+  </extension>
+  <url value="http://hl7.org/fhir/action-code"/>
+  <version value="5.0.0"/>
+  <name value="ActionCode"/>
+  <title value="Action Code"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2020-12-27T23:55:11-06:00"/>
+  <publisher value="Clinical Decision Support"/>
+  <contact>
+    <name value="Clinical Decision Support"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/dss"/>
+    </telecom>
+  </contact>
+  <description value="Provides examples of actions to be performed."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/action-code"/>
+  <content value="complete"/>
+  <concept>
+    <code value="send-message"/>
+    <display value="Send a message"/>
+    <definition value="The action indicates that a particular message should be sent to a participant in the process."/>
+  </concept>
+  <concept>
+    <code value="collect-information"/>
+    <display value="Collect information"/>
+    <definition value="The action indicates that information should be collected from a participant in the process."/>
+  </concept>
+  <concept>
+    <code value="prescribe-medication"/>
+    <display value="Prescribe a medication"/>
+    <definition value="The action indicates that a particular medication should be prescribed to the patient."/>
+  </concept>
+  <concept>
+    <code value="recommend-immunization"/>
+    <display value="Recommend an immunization"/>
+    <definition value="The action indicates that a particular immunization should be performed."/>
+  </concept>
+  <concept>
+    <code value="order-service"/>
+    <display value="Order a service"/>
+    <definition value="The action indicates that a particular service should be provided."/>
+  </concept>
+  <concept>
+    <code value="propose-diagnosis"/>
+    <display value="Propose a diagnosis"/>
+    <definition value="The action indicates that a particular diagnosis should be proposed."/>
+  </concept>
+  <concept>
+    <code value="record-detected-issue"/>
+    <display value="Record a detected issue"/>
+    <definition value="The action indicates that a particular detected issue should be recorded."/>
+  </concept>
+  <concept>
+    <code value="record-inference"/>
+    <display value="Record an inference"/>
+    <definition value="The action indicates that a particular inference should be recorded."/>
+  </concept>
+  <concept>
+    <code value="report-flag"/>
+    <display value="Report a flag"/>
+    <definition value="The action indicates that a particular flag should be reported."/>
+  </concept>
+</CodeSystem>

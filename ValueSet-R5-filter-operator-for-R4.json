@@ -3,7 +3,7 @@
   "id" : "R5-filter-operator-for-R4",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-filter-operator-for-R4</b></p><a name=\"R5-filter-operator-for-R4\"> </a><a name=\"hcR5-filter-operator-for-R4\"> </a><p>This value set expansion contains 2 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-filter-operator-for-R4-http://hl7.org/fhir/filter-operator-child-of\"> </a><code>http://hl7.org/fhir/filter-operator</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">\u00a0\u00a0child-of</td><td>Child Of</td></tr><tr><td><a name=\"R5-filter-operator-for-R4-http://hl7.org/fhir/filter-operator-descendent-leaf\"> </a><code>http://hl7.org/fhir/filter-operator</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">\u00a0\u00a0descendent-leaf</td><td>Descendent Leaf</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-filter-operator-for-R4</b></p><a name=\"R5-filter-operator-for-R4\"> </a><a name=\"hcR5-filter-operator-for-R4\"> </a><p>This value set expansion contains 2 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"R5-filter-operator-for-R4-http://hl7.org/fhir/filter-operator-child-of\"> </a><code>http://hl7.org/fhir/filter-operator</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-filter-operator.html#filter-operator-child-of\">child-of</a></td><td>Child Of</td><td>Only concepts with a direct hierarchical relationship to the index code and no other concepts. This does not include the index code in the output.</td></tr><tr><td><a name=\"R5-filter-operator-for-R4-http://hl7.org/fhir/filter-operator-descendent-leaf\"> </a><code>http://hl7.org/fhir/filter-operator</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">\u00a0\u00a0<a href=\"CodeSystem-filter-operator.html#filter-operator-descendent-leaf\">descendent-leaf</a></td><td>Descendent Leaf</td><td>Includes concept ids that have a transitive is-a relationship with the concept Id provided as the value, but which do not have any concept ids with transitive is-a relationships with themselves.</td></tr></table></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
@@ -11,7 +11,7 @@
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-    "valueCode" : "fhir"
+    "valueCode" : "vocab"
   },
   {
     "extension" : [{
@@ -44,13 +44,13 @@
   "title" : "Cross-version ValueSet R5.FilterOperator for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-20T17:59:09.1776521+00:00",
-  "publisher" : "FHIR Infrastructure",
+  "date" : "2026-02-21T19:36:42.9229177+00:00",
+  "publisher" : "HL7 International / Terminology Infrastructure",
   "contact" : [{
-    "name" : "FHIR Infrastructure",
+    "name" : "HL7 International / Terminology Infrastructure",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://www.hl7.org/Special/committees/fiwg"
+      "value" : "http://www.hl7.org/Special/committees/Vocab"
     }]
   }],
   "description" : "This cross-version ValueSet represents content from http://hl7.org/fhir/ValueSet/filter-operator|5.0.0 for use in FHIR R4 that is appropriate for use but unavailable in `http://hl7.org/fhir/ValueSet/filter-operator|4.0.1`.",
@@ -77,7 +77,7 @@
     }]
   },
   "expansion" : {
-    "timestamp" : "2026-02-20T17:59:09.1776521+00:00",
+    "timestamp" : "2026-02-21T19:36:42.9229177+00:00",
     "contains" : [{
       "system" : "http://hl7.org/fhir/filter-operator",
       "version" : "5.0.0",

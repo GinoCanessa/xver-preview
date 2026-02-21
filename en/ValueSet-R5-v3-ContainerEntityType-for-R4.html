@@ -1,0 +1,414 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>R5V3ContainerEntityTypeForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"7.2145"}
+    h3,h4,h5,h6{--heading-prefix:"7.2145"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" data-no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img alt="International flag" src="../assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>R5V3ContainerEntityTypeForR4</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="ValueSet-R5-v3-ContactRoleType-for-R4.ttl.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="ValueSet-R5-v3-ContainerEntityType-for-R4-testing.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<!-- layouts\layout-valueset -->
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ValueSet-R5-v3-ContainerEntityType-for-R4.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-R5-v3-ContainerEntityType-for-R4.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-R5-v3-ContainerEntityType-for-R4.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">ValueSet: Cross-version ValueSet R5.ContainerEntityType for use in FHIR R4
+
+  </h2>
+  <table class="colsd" data-fhir="generated">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-ContainerEntityType-for-R4<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-ContainerEntityType-for-R4"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.0.1-snapshot-3<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-ContainerEntityType-for-R4|0.0.1-snapshot-3"/></span>
+      </td>
+      <td style="text-align: right;border-left-style: hidden" title="Enable this to see changes since the last official release">
+        <span id="toggle-change-display"><label style="margin:0;font-weight:normal" for="showChanges">Highlight text changes?</label>
+  
+        <input style="margin:0" type="checkbox" id="showChanges" onchange="toggleChanges()"/>
+  
+      </span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          <i>
+            
+            Standards status:
+          </i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standards Status">Trial-use</a>
+          
+          
+          Active
+          
+
+            as of 
+2026-02-21
+
+          
+        
+      </td>
+
+      <td>
+        <a href="http://hl7.org/fhir/versions.html#maturity">Maturity Level</a>: 0
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">R5V3ContainerEntityTypeForR4</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>This cross-version ValueSet represents content from <code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/ValueSet/v3-ContainerEntityType|2.0.0</code> for use in FHIR R4.</p>
+
+</p>
+
+<p>
+
+
+</p>
+
+
+  <p>
+    <b>References</b>
+  </p>
+  
+<p>This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)</p>
+
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <a name="definition"> </a>
+
+<!-- Content Logical Definition heading in the fragment -->
+  <h3>Logical Definition (CLD)</h3>
+<div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated"><p class="res-header-id"></p><a name="R5-v3-ContainerEntityType-for-R4"> </a><a name="hcR5-v3-ContainerEntityType-for-R4"> </a>
+<ul><li>Include these codes as defined in <code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code><span title="Version is explicitly stated to be 2.1.0"> version &#x1F4CD;</span><table class="none" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>AMP</td><td>Ampule</td></tr><tr><td>BAG</td><td>Bag</td></tr><tr><td>BLSTRPK</td><td>Blister Pack</td></tr><tr><td>BOT</td><td>Bottle</td></tr><tr><td>BOTA</td><td>Amber Bottle</td></tr><tr><td>BOTD</td><td>Dropper Bottle</td></tr><tr><td>BOTG</td><td>Glass Bottle</td></tr><tr><td>BOTP</td><td>Plastic Bottle</td></tr><tr><td>BOTPLY</td><td>Polyethylene Bottle</td></tr><tr><td>BOX</td><td>Box</td></tr><tr><td>CAN</td><td>Can</td></tr><tr><td>CARD</td><td>Card</td></tr><tr><td>CART</td><td>Cartridge</td></tr><tr><td>CNSTR</td><td>Canister</td></tr><tr><td>COMPPKG</td><td>Compliance Package</td></tr><tr><td>DIALPK</td><td>Dial Pack</td></tr><tr><td>DISK</td><td>Disk</td></tr><tr><td>DOSET</td><td>Dosette</td></tr><tr><td>JAR</td><td>Jar</td></tr><tr><td>JUG</td><td>Jug</td></tr><tr><td>KIT</td><td>Kit</td></tr><tr><td>MINIM</td><td>Minim</td></tr><tr><td>NEBAMP</td><td>Nebuamp</td></tr><tr><td>OVUL</td><td>Ovule</td></tr><tr><td>PACKT</td><td>Packet</td></tr><tr><td>PCH</td><td>Pouch</td></tr><tr><td>PKG</td><td>Package</td></tr><tr><td>SACH</td><td>Sachet</td></tr><tr><td>STRIP</td><td>Strip</td></tr><tr><td>SYSTM</td><td>System</td></tr><tr><td>TIN</td><td>Tin</td></tr><tr><td>TUB</td><td>Tub</td></tr><tr><td>TUBE</td><td>Tube</td></tr><tr><td>VIAL</td><td>Vial</td></tr><tr><td>_IndividualPackageEntityType</td><td>IndividualPackageEntityType</td></tr><tr><td>_MultiUseContainerEntityType</td><td>MultiUseContainerEntityType</td></tr><tr><td>_NonRigidContainerEntityType</td><td>NonRigidContainerEntityType</td></tr><tr><td>_RigidContainerEntityType</td><td>RigidContainerEntityType</td></tr></table></li></ul></div>
+
+  <p>&#160;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">Expansion</h3>
+
+  <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated"><p class="res-header-id"/><p>This value set expansion contains 38 concepts.</p><table class="codes" data-fhir="generated"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-AMP"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  AMP</td><td>Ampule</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;AMP&quot;, &quot;display&quot;: &quot;Ampule&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;AMP&quot;&gt;&lt;display value=&quot;Ampule&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BAG"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  BAG</td><td>Bag</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;BAG&quot;, &quot;display&quot;: &quot;Bag&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;BAG&quot;&gt;&lt;display value=&quot;Bag&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BLSTRPK"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  BLSTRPK</td><td>Blister Pack</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;BLSTRPK&quot;, &quot;display&quot;: &quot;Blister Pack&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;BLSTRPK&quot;&gt;&lt;display value=&quot;Blister Pack&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BOT"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  BOT</td><td>Bottle</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;BOT&quot;, &quot;display&quot;: &quot;Bottle&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;BOT&quot;&gt;&lt;display value=&quot;Bottle&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BOTA"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  BOTA</td><td>Amber Bottle</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;BOTA&quot;, &quot;display&quot;: &quot;Amber Bottle&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;BOTA&quot;&gt;&lt;display value=&quot;Amber Bottle&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BOTD"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  BOTD</td><td>Dropper Bottle</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;BOTD&quot;, &quot;display&quot;: &quot;Dropper Bottle&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;BOTD&quot;&gt;&lt;display value=&quot;Dropper Bottle&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BOTG"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  BOTG</td><td>Glass Bottle</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;BOTG&quot;, &quot;display&quot;: &quot;Glass Bottle&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;BOTG&quot;&gt;&lt;display value=&quot;Glass Bottle&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BOTP"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  BOTP</td><td>Plastic Bottle</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;BOTP&quot;, &quot;display&quot;: &quot;Plastic Bottle&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;BOTP&quot;&gt;&lt;display value=&quot;Plastic Bottle&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BOTPLY"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  BOTPLY</td><td>Polyethylene Bottle</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;BOTPLY&quot;, &quot;display&quot;: &quot;Polyethylene Bottle&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;BOTPLY&quot;&gt;&lt;display value=&quot;Polyethylene Bottle&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BOX"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  BOX</td><td>Box</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;BOX&quot;, &quot;display&quot;: &quot;Box&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;BOX&quot;&gt;&lt;display value=&quot;Box&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-CAN"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  CAN</td><td>Can</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;CAN&quot;, &quot;display&quot;: &quot;Can&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;CAN&quot;&gt;&lt;display value=&quot;Can&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-CARD"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  CARD</td><td>Card</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;CARD&quot;, &quot;display&quot;: &quot;Card&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;CARD&quot;&gt;&lt;display value=&quot;Card&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-CART"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  CART</td><td>Cartridge</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;CART&quot;, &quot;display&quot;: &quot;Cartridge&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;CART&quot;&gt;&lt;display value=&quot;Cartridge&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-CNSTR"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  CNSTR</td><td>Canister</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;CNSTR&quot;, &quot;display&quot;: &quot;Canister&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;CNSTR&quot;&gt;&lt;display value=&quot;Canister&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-COMPPKG"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  COMPPKG</td><td>Compliance Package</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;COMPPKG&quot;, &quot;display&quot;: &quot;Compliance Package&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;COMPPKG&quot;&gt;&lt;display value=&quot;Compliance Package&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-DIALPK"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  DIALPK</td><td>Dial Pack</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;DIALPK&quot;, &quot;display&quot;: &quot;Dial Pack&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;DIALPK&quot;&gt;&lt;display value=&quot;Dial Pack&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-DISK"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  DISK</td><td>Disk</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;DISK&quot;, &quot;display&quot;: &quot;Disk&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;DISK&quot;&gt;&lt;display value=&quot;Disk&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-DOSET"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  DOSET</td><td>Dosette</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;DOSET&quot;, &quot;display&quot;: &quot;Dosette&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;DOSET&quot;&gt;&lt;display value=&quot;Dosette&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-JAR"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  JAR</td><td>Jar</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;JAR&quot;, &quot;display&quot;: &quot;Jar&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;JAR&quot;&gt;&lt;display value=&quot;Jar&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-JUG"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  JUG</td><td>Jug</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;JUG&quot;, &quot;display&quot;: &quot;Jug&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;JUG&quot;&gt;&lt;display value=&quot;Jug&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-KIT"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  KIT</td><td>Kit</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;KIT&quot;, &quot;display&quot;: &quot;Kit&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;KIT&quot;&gt;&lt;display value=&quot;Kit&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-MINIM"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  MINIM</td><td>Minim</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;MINIM&quot;, &quot;display&quot;: &quot;Minim&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;MINIM&quot;&gt;&lt;display value=&quot;Minim&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-NEBAMP"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  NEBAMP</td><td>Nebuamp</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;NEBAMP&quot;, &quot;display&quot;: &quot;Nebuamp&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;NEBAMP&quot;&gt;&lt;display value=&quot;Nebuamp&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-OVUL"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  OVUL</td><td>Ovule</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;OVUL&quot;, &quot;display&quot;: &quot;Ovule&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;OVUL&quot;&gt;&lt;display value=&quot;Ovule&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-PACKT"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  PACKT</td><td>Packet</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;PACKT&quot;, &quot;display&quot;: &quot;Packet&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;PACKT&quot;&gt;&lt;display value=&quot;Packet&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-PCH"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  PCH</td><td>Pouch</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;PCH&quot;, &quot;display&quot;: &quot;Pouch&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;PCH&quot;&gt;&lt;display value=&quot;Pouch&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-PKG"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  PKG</td><td>Package</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;PKG&quot;, &quot;display&quot;: &quot;Package&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;PKG&quot;&gt;&lt;display value=&quot;Package&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-SACH"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  SACH</td><td>Sachet</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;SACH&quot;, &quot;display&quot;: &quot;Sachet&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;SACH&quot;&gt;&lt;display value=&quot;Sachet&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-STRIP"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  STRIP</td><td>Strip</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;STRIP&quot;, &quot;display&quot;: &quot;Strip&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;STRIP&quot;&gt;&lt;display value=&quot;Strip&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-SYSTM"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  SYSTM</td><td>System</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;SYSTM&quot;, &quot;display&quot;: &quot;System&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;SYSTM&quot;&gt;&lt;display value=&quot;System&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-TIN"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  TIN</td><td>Tin</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;TIN&quot;, &quot;display&quot;: &quot;Tin&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;TIN&quot;&gt;&lt;display value=&quot;Tin&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-TUB"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  TUB</td><td>Tub</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;TUB&quot;, &quot;display&quot;: &quot;Tub&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;TUB&quot;&gt;&lt;display value=&quot;Tub&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-TUBE"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  TUBE</td><td>Tube</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;TUBE&quot;, &quot;display&quot;: &quot;Tube&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;TUBE&quot;&gt;&lt;display value=&quot;Tube&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-VIAL"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  VIAL</td><td>Vial</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;VIAL&quot;, &quot;display&quot;: &quot;Vial&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;VIAL&quot;&gt;&lt;display value=&quot;Vial&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-_IndividualPackageEntityType"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  _IndividualPackageEntityType</td><td>IndividualPackageEntityType</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;_IndividualPackageEntityType&quot;, &quot;display&quot;: &quot;IndividualPackageEntityType&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;_IndividualPackageEntityType&quot;&gt;&lt;display value=&quot;IndividualPackageEntityType&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-_MultiUseContainerEntityType"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  _MultiUseContainerEntityType</td><td>MultiUseContainerEntityType</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;_MultiUseContainerEntityType&quot;, &quot;display&quot;: &quot;MultiUseContainerEntityType&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;_MultiUseContainerEntityType&quot;&gt;&lt;display value=&quot;MultiUseContainerEntityType&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-_NonRigidContainerEntityType"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  _NonRigidContainerEntityType</td><td>NonRigidContainerEntityType</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;_NonRigidContainerEntityType&quot;, &quot;display&quot;: &quot;NonRigidContainerEntityType&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;_NonRigidContainerEntityType&quot;&gt;&lt;display value=&quot;NonRigidContainerEntityType&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-ContainerEntityType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-_RigidContainerEntityType"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style="white-space:nowrap">  _RigidContainerEntityType</td><td>RigidContainerEntityType</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;, &quot;version&quot;: &quot;2.1.0&quot;, &quot;code&quot;: &quot;_RigidContainerEntityType&quot;, &quot;display&quot;: &quot;RigidContainerEntityType&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;&gt;&lt;version value=&quot;2.1.0&quot;&gt;&lt;code value=&quot;_RigidContainerEntityType&quot;&gt;&lt;display value=&quot;RigidContainerEntityType&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr></table></div>
+
+  <hr/>
+  <p>
+    <a href="http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology">Description of the above table(s)</a>.
+  </p>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="ValueSet-R5-v3-ContactRoleType-for-R4.ttl.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="ValueSet-R5-v3-ContainerEntityType-for-R4-testing.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-21 13:39:00 -0600">
+    2026-02-21
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir/uv/xver/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

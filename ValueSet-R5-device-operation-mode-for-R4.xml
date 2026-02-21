@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-device-operation-mode-for-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-device-operation-mode-for-R4</b></p><a name="R5-device-operation-mode-for-R4"> </a><a name="hcR5-device-operation-mode-for-R4"> </a><p>This value set expansion contains 5 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="R5-device-operation-mode-for-R4-http://hl7.org/fhir/device-operation-mode-demo"> </a><code>http://hl7.org/fhir/device-operation-mode</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-device-operation-mode.html#device-operation-mode-demo">demo</a></td><td>Demo</td><td>The device operates in a mode that is intended for demonstration purposes only. Arbitrary values are generated.</td></tr><tr><td><a name="R5-device-operation-mode-for-R4-http://hl7.org/fhir/device-operation-mode-maintenance"> </a><code>http://hl7.org/fhir/device-operation-mode</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-device-operation-mode.html#device-operation-mode-maintenance">maintenance</a></td><td>Maintenance</td><td>The device operates in a mode that is intended for preventative and/or scheduled maintenance purposes only.</td></tr><tr><td><a name="R5-device-operation-mode-for-R4-http://hl7.org/fhir/device-operation-mode-normal"> </a><code>http://hl7.org/fhir/device-operation-mode</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-device-operation-mode.html#device-operation-mode-normal">normal</a></td><td>Normal</td><td>The device operates in a mode that supports the fulfillment of its clinical functions.</td></tr><tr><td><a name="R5-device-operation-mode-for-R4-http://hl7.org/fhir/device-operation-mode-service"> </a><code>http://hl7.org/fhir/device-operation-mode</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-device-operation-mode.html#device-operation-mode-service">service</a></td><td>Service</td><td>The device operates in a mode that is intended for correcting a functional problem of the device only. Arbitrary values may be generated.</td></tr><tr><td><a name="R5-device-operation-mode-for-R4-http://hl7.org/fhir/device-operation-mode-test"> </a><code>http://hl7.org/fhir/device-operation-mode</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-device-operation-mode.html#device-operation-mode-test">test</a></td><td>Test</td><td>The device operates in a test mode that is not intended to be used for production/operational purposes.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-device-operation-mode-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5DeviceOperationModeForR4"/>
+  <title value="Cross-version ValueSet R5.FHIRDeviceOperationMode for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="Orders and Observations"/>
+  <contact>
+    <name value="Orders and Observations"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/orders"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/device-operation-mode|5.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/device-operation-mode|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `Device.mode`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;&#xA;FHIR ValueSet `http://hl7.org/fhir/ValueSet/device-operation-mode|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/device-operation-mode"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="demo"/>
+        <display value="Demo"/>
+      </concept>
+      <concept>
+        <code value="maintenance"/>
+        <display value="Maintenance"/>
+      </concept>
+      <concept>
+        <code value="normal"/>
+        <display value="Normal"/>
+      </concept>
+      <concept>
+        <code value="service"/>
+        <display value="Service"/>
+      </concept>
+      <concept>
+        <code value="test"/>
+        <display value="Test"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/device-operation-mode"/>
+      <version value="5.0.0"/>
+      <code value="demo"/>
+      <display value="Demo"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/device-operation-mode"/>
+      <version value="5.0.0"/>
+      <code value="maintenance"/>
+      <display value="Maintenance"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/device-operation-mode"/>
+      <version value="5.0.0"/>
+      <code value="normal"/>
+      <display value="Normal"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/device-operation-mode"/>
+      <version value="5.0.0"/>
+      <code value="service"/>
+      <display value="Service"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/device-operation-mode"/>
+      <version value="5.0.0"/>
+      <code value="test"/>
+      <display value="Test"/>
+    </contains>
+  </expansion>
+</ValueSet>

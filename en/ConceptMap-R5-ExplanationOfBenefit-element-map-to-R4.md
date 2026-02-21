@@ -1,0 +1,2626 @@
+# R5ExplanationOfBenefitElementMapToR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## ConceptMap: R5ExplanationOfBenefitElementMapToR4 
+
+ 
+This ConceptMap represents cross-version mappings for elements from a FHIR R5 ExplanationOfBenefit to FHIR R4. 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ConceptMap",
+  "id" : "R5-ExplanationOfBenefit-element-map-to-R4",
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "fhir"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger" : 0,
+      "_valueInteger" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode" : "trial-use",
+      "_valueCode" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    }
+  ],
+  "url" : "http://hl7.org/fhir/uv/xver/ConceptMap/R5-ExplanationOfBenefit-element-map-to-R4",
+  "version" : "0.0.1-snapshot-3",
+  "name" : "R5ExplanationOfBenefitElementMapToR4",
+  "title" : "Cross-version mapping for FHIR R5 ExplanationOfBenefit to FHIR R4 ExplanationOfBenefit",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-02-21T13:36:56.3757345-06:00",
+  "contact" : [
+    {
+      "name" : "FHIR Infrastructure",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/fiwg"
+        }
+      ]
+    }
+  ],
+  "description" : "This ConceptMap represents cross-version mappings for elements from a FHIR R5 ExplanationOfBenefit to FHIR R4.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }
+      ]
+    }
+  ],
+  "sourceCanonical" : "http://hl7.org/fhir/5.0",
+  "targetUri" : "http://hl7.org/fhir/4.0",
+  "group" : [
+    {
+      "source" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit",
+      "sourceVersion" : "5.0.0",
+      "target" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit",
+      "targetVersion" : "4.0.1",
+      "element" : [
+        {
+          "code" : "ExplanationOfBenefit.meta",
+          "display" : "meta",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.meta` is mapped to FHIR R4 element `ExplanationOfBenefit.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.implicitRules",
+          "display" : "implicitRules",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.implicitRules` is mapped to FHIR R4 element `ExplanationOfBenefit.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.language",
+          "display" : "language",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.language` is mapped to FHIR R4 element `ExplanationOfBenefit.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.text",
+          "display" : "text",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.text` is mapped to FHIR R4 element `ExplanationOfBenefit.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.contained",
+          "display" : "contained",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.contained` is mapped to FHIR R4 element `ExplanationOfBenefit.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.identifier",
+          "display" : "identifier",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.identifier` is mapped to FHIR R4 element `ExplanationOfBenefit.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.status",
+          "display" : "status",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.status` is mapped to FHIR R4 element `ExplanationOfBenefit.status` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.type",
+          "display" : "type",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.type` is mapped to FHIR R4 element `ExplanationOfBenefit.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.subType",
+          "display" : "subType",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.subType` is mapped to FHIR R4 element `ExplanationOfBenefit.subType` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.use",
+          "display" : "use",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.use` is mapped to FHIR R4 element `ExplanationOfBenefit.use` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.patient",
+          "display" : "patient",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.patient` is mapped to FHIR R4 element `ExplanationOfBenefit.patient` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.billablePeriod",
+          "display" : "billablePeriod",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.billablePeriod` is mapped to FHIR R4 element `ExplanationOfBenefit.billablePeriod` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.created",
+          "display" : "created",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.created` is mapped to FHIR R4 element `ExplanationOfBenefit.created` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.enterer",
+          "display" : "enterer",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ExplanationOfBenefit.enterer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ExplanationOfBenefit.enterer` is mapped to FHIR R4 element `ExplanationOfBenefit.enterer` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.insurer",
+          "display" : "insurer",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.insurer` is mapped to FHIR R4 element `ExplanationOfBenefit.insurer` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.provider",
+          "display" : "provider",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.provider` is mapped to FHIR R4 element `ExplanationOfBenefit.provider` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.priority",
+          "display" : "priority",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.priority` is mapped to FHIR R4 element `ExplanationOfBenefit.priority` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.fundsReserveRequested",
+          "display" : "fundsReserveRequested",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.fundsReserveRequested` is mapped to FHIR R4 element `ExplanationOfBenefit.fundsReserveRequested` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.fundsReserve",
+          "display" : "fundsReserve",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.fundsReserve` is mapped to FHIR R4 element `ExplanationOfBenefit.fundsReserve` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.related",
+          "display" : "related",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.related` is mapped to FHIR R4 element `ExplanationOfBenefit.related` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.related.claim",
+          "display" : "claim",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.related.claim` is mapped to FHIR R4 element `ExplanationOfBenefit.related.claim` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.related.relationship",
+          "display" : "relationship",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.related.relationship` is mapped to FHIR R4 element `ExplanationOfBenefit.related.relationship` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.related.reference",
+          "display" : "reference",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.related.reference` is mapped to FHIR R4 element `ExplanationOfBenefit.related.reference` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.prescription",
+          "display" : "prescription",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.prescription` is mapped to FHIR R4 element `ExplanationOfBenefit.prescription` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.originalPrescription",
+          "display" : "originalPrescription",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.originalPrescription` is mapped to FHIR R4 element `ExplanationOfBenefit.originalPrescription` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.payee",
+          "display" : "payee",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.payee` is mapped to FHIR R4 element `ExplanationOfBenefit.payee` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.payee.type",
+          "display" : "type",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.payee.type` is mapped to FHIR R4 element `ExplanationOfBenefit.payee.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.payee.party",
+          "display" : "party",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.payee.party` is mapped to FHIR R4 element `ExplanationOfBenefit.payee.party` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.referral",
+          "display" : "referral",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.referral` is mapped to FHIR R4 element `ExplanationOfBenefit.referral` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.facility",
+          "display" : "facility",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ExplanationOfBenefit.facility` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ExplanationOfBenefit.facility` is mapped to FHIR R4 element `ExplanationOfBenefit.facility` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.claim",
+          "display" : "claim",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.claim` is mapped to FHIR R4 element `ExplanationOfBenefit.claim` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.claimResponse",
+          "display" : "claimResponse",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.claimResponse` is mapped to FHIR R4 element `ExplanationOfBenefit.claimResponse` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.outcome",
+          "display" : "outcome",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.outcome` is mapped to FHIR R4 element `ExplanationOfBenefit.outcome` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.disposition",
+          "display" : "disposition",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.disposition` is mapped to FHIR R4 element `ExplanationOfBenefit.disposition` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.preAuthRef",
+          "display" : "preAuthRef",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.preAuthRef` is mapped to FHIR R4 element `ExplanationOfBenefit.preAuthRef` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.preAuthRefPeriod",
+          "display" : "preAuthRefPeriod",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.preAuthRefPeriod` is mapped to FHIR R4 element `ExplanationOfBenefit.preAuthRefPeriod` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.careTeam",
+          "display" : "careTeam",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.careTeam` is mapped to FHIR R4 element `ExplanationOfBenefit.careTeam` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.careTeam.sequence",
+          "display" : "sequence",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.careTeam.sequence` is mapped to FHIR R4 element `ExplanationOfBenefit.careTeam.sequence` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.careTeam.provider",
+          "display" : "provider",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.careTeam.provider` is mapped to FHIR R4 element `ExplanationOfBenefit.careTeam.provider` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.careTeam.responsible",
+          "display" : "responsible",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.careTeam.responsible` is mapped to FHIR R4 element `ExplanationOfBenefit.careTeam.responsible` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.careTeam.role",
+          "display" : "role",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.careTeam.role` is mapped to FHIR R4 element `ExplanationOfBenefit.careTeam.role` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.careTeam.specialty",
+          "display" : "specialty",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.careTeam.specialty` is mapped to FHIR R4 element `ExplanationOfBenefit.careTeam.qualification` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.supportingInfo",
+          "display" : "supportingInfo",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.supportingInfo` is mapped to FHIR R4 element `ExplanationOfBenefit.supportingInfo` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.supportingInfo.sequence",
+          "display" : "sequence",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.supportingInfo.sequence` is mapped to FHIR R4 element `ExplanationOfBenefit.supportingInfo.sequence` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.supportingInfo.category",
+          "display" : "category",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.supportingInfo.category` is mapped to FHIR R4 element `ExplanationOfBenefit.supportingInfo.category` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.supportingInfo.code",
+          "display" : "code",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.supportingInfo.code` is mapped to FHIR R4 element `ExplanationOfBenefit.supportingInfo.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.supportingInfo.timing[x]",
+          "display" : "timing[x]",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Note that the target element context `ExplanationOfBenefit.supportingInfo.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.supportingInfo`.\nElement `ExplanationOfBenefit.supportingInfo.timing[x]` is mapped to FHIR R4 element `ExplanationOfBenefit.supportingInfo.timing[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `ExplanationOfBenefit.supportingInfo.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.supportingInfo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.supportingInfo.value[x]",
+          "display" : "value[x]",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Note that the target element context `ExplanationOfBenefit.supportingInfo.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.supportingInfo`.\nElement `ExplanationOfBenefit.supportingInfo.value[x]` is mapped to FHIR R4 element `ExplanationOfBenefit.supportingInfo.value[x]` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `ExplanationOfBenefit.supportingInfo.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.supportingInfo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.supportingInfo.reason",
+          "display" : "reason",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.supportingInfo.reason` is mapped to FHIR R4 element `ExplanationOfBenefit.supportingInfo.reason` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.diagnosis",
+          "display" : "diagnosis",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.diagnosis` is mapped to FHIR R4 element `ExplanationOfBenefit.diagnosis` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.diagnosis.sequence",
+          "display" : "sequence",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.diagnosis.sequence` is mapped to FHIR R4 element `ExplanationOfBenefit.diagnosis.sequence` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.diagnosis.diagnosis[x]",
+          "display" : "diagnosis[x]",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Note that the target element context `ExplanationOfBenefit.diagnosis.diagnosis[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.diagnosis`.\nElement `ExplanationOfBenefit.diagnosis.diagnosis[x]` is mapped to FHIR R4 element `ExplanationOfBenefit.diagnosis.diagnosis[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `ExplanationOfBenefit.diagnosis.diagnosis[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.diagnosis`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.diagnosis.type",
+          "display" : "type",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.diagnosis.type` is mapped to FHIR R4 element `ExplanationOfBenefit.diagnosis.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.diagnosis.onAdmission",
+          "display" : "onAdmission",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.diagnosis.onAdmission` is mapped to FHIR R4 element `ExplanationOfBenefit.diagnosis.onAdmission` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.procedure",
+          "display" : "procedure",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.procedure` is mapped to FHIR R4 element `ExplanationOfBenefit.procedure` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.procedure.sequence",
+          "display" : "sequence",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.procedure.sequence` is mapped to FHIR R4 element `ExplanationOfBenefit.procedure.sequence` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.procedure.type",
+          "display" : "type",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.procedure.type` is mapped to FHIR R4 element `ExplanationOfBenefit.procedure.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.procedure.date",
+          "display" : "date",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.procedure.date` is mapped to FHIR R4 element `ExplanationOfBenefit.procedure.date` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.procedure.procedure[x]",
+          "display" : "procedure[x]",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Note that the target element context `ExplanationOfBenefit.procedure.procedure[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.procedure`.\nElement `ExplanationOfBenefit.procedure.procedure[x]` is mapped to FHIR R4 element `ExplanationOfBenefit.procedure.procedure[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `ExplanationOfBenefit.procedure.procedure[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.procedure`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.procedure.udi",
+          "display" : "udi",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.procedure.udi` is mapped to FHIR R4 element `ExplanationOfBenefit.procedure.udi` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.precedence",
+          "display" : "precedence",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.precedence` is mapped to FHIR R4 element `ExplanationOfBenefit.precedence` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.insurance",
+          "display" : "insurance",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.insurance` is mapped to FHIR R4 element `ExplanationOfBenefit.insurance` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.insurance.focal",
+          "display" : "focal",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.insurance.focal` is mapped to FHIR R4 element `ExplanationOfBenefit.insurance.focal` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.insurance.coverage",
+          "display" : "coverage",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.insurance.coverage` is mapped to FHIR R4 element `ExplanationOfBenefit.insurance.coverage` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.insurance.preAuthRef",
+          "display" : "preAuthRef",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.insurance.preAuthRef` is mapped to FHIR R4 element `ExplanationOfBenefit.insurance.preAuthRef` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.accident",
+          "display" : "accident",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.accident` is mapped to FHIR R4 element `ExplanationOfBenefit.accident` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.accident.date",
+          "display" : "date",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.accident.date` is mapped to FHIR R4 element `ExplanationOfBenefit.accident.date` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.accident.type",
+          "display" : "type",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.accident.type` is mapped to FHIR R4 element `ExplanationOfBenefit.accident.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.accident.location[x]",
+          "display" : "location[x]",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Note that the target element context `ExplanationOfBenefit.accident.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.accident`.\nElement `ExplanationOfBenefit.accident.location[x]` is mapped to FHIR R4 element `ExplanationOfBenefit.accident.location[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `ExplanationOfBenefit.accident.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.accident`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item",
+          "display" : "item",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.item` is mapped to FHIR R4 element `ExplanationOfBenefit.item` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.sequence",
+          "display" : "sequence",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.sequence` is mapped to FHIR R4 element `ExplanationOfBenefit.item.sequence` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.careTeamSequence",
+          "display" : "careTeamSequence",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.careTeamSequence` is mapped to FHIR R4 element `ExplanationOfBenefit.item.careTeamSequence` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.diagnosisSequence",
+          "display" : "diagnosisSequence",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.diagnosisSequence` is mapped to FHIR R4 element `ExplanationOfBenefit.item.diagnosisSequence` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.procedureSequence",
+          "display" : "procedureSequence",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.procedureSequence` is mapped to FHIR R4 element `ExplanationOfBenefit.item.procedureSequence` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.informationSequence",
+          "display" : "informationSequence",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.informationSequence` is mapped to FHIR R4 element `ExplanationOfBenefit.item.informationSequence` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.revenue",
+          "display" : "revenue",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.revenue` is mapped to FHIR R4 element `ExplanationOfBenefit.item.revenue` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.category",
+          "display" : "category",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.category` is mapped to FHIR R4 element `ExplanationOfBenefit.item.category` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.productOrService",
+          "display" : "productOrService",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.productOrService` is mapped to FHIR R4 element `ExplanationOfBenefit.item.productOrService` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.modifier",
+          "display" : "modifier",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.modifier` is mapped to FHIR R4 element `ExplanationOfBenefit.item.modifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.programCode",
+          "display" : "programCode",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.programCode` is mapped to FHIR R4 element `ExplanationOfBenefit.item.programCode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.serviced[x]",
+          "display" : "serviced[x]",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Note that the target element context `ExplanationOfBenefit.item.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.item`.\nElement `ExplanationOfBenefit.item.serviced[x]` is mapped to FHIR R4 element `ExplanationOfBenefit.item.serviced[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `ExplanationOfBenefit.item.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.item`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.location[x]",
+          "display" : "location[x]",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Note that the target element context `ExplanationOfBenefit.item.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.item`.\nElement `ExplanationOfBenefit.item.location[x]` is mapped to FHIR R4 element `ExplanationOfBenefit.item.location[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `ExplanationOfBenefit.item.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.item`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.quantity",
+          "display" : "quantity",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.quantity` is mapped to FHIR R4 element `ExplanationOfBenefit.item.quantity` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.unitPrice",
+          "display" : "unitPrice",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.unitPrice` is mapped to FHIR R4 element `ExplanationOfBenefit.item.unitPrice` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.factor",
+          "display" : "factor",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.factor` is mapped to FHIR R4 element `ExplanationOfBenefit.item.factor` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.net",
+          "display" : "net",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.net` is mapped to FHIR R4 element `ExplanationOfBenefit.item.net` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.udi",
+          "display" : "udi",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.udi` is mapped to FHIR R4 element `ExplanationOfBenefit.item.udi` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.bodySite",
+          "display" : "bodySite",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.item.bodySite` is mapped to FHIR R4 element `ExplanationOfBenefit.item.bodySite` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.bodySite.site",
+          "display" : "site",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.bodySite.site` is mapped to FHIR R4 element `ExplanationOfBenefit.item` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.bodySite.subSite",
+          "display" : "subSite",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.bodySite.subSite` is mapped to FHIR R4 element `ExplanationOfBenefit.item.subSite` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.encounter",
+          "display" : "encounter",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.encounter` is mapped to FHIR R4 element `ExplanationOfBenefit.item.encounter` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.noteNumber",
+          "display" : "noteNumber",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.noteNumber` is mapped to FHIR R4 element `ExplanationOfBenefit.item.noteNumber` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.adjudication",
+          "display" : "adjudication",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.item.adjudication` is mapped to FHIR R4 element `ExplanationOfBenefit.item.adjudication` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `ExplanationOfBenefit.addItem.adjudication` because `ExplanationOfBenefit.addItem.adjudication` is defined as a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.addItem.detail.adjudication` because `ExplanationOfBenefit.addItem.detail.adjudication` is defined as a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.addItem.detail.subDetail.adjudication` because `ExplanationOfBenefit.addItem.detail.subDetail.adjudication` is defined as a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.adjudication` because `ExplanationOfBenefit.adjudication` is defined as a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.item.detail.adjudication` because `ExplanationOfBenefit.item.detail.adjudication` is defined as a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.item.detail.subDetail.adjudication` because `ExplanationOfBenefit.item.detail.subDetail.adjudication` is defined as a content reference to `ExplanationOfBenefit.item.adjudication`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.adjudication.category",
+          "display" : "category",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.adjudication.category` is mapped to FHIR R4 element `ExplanationOfBenefit.item.adjudication.category` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `ExplanationOfBenefit.addItem.adjudication.category` because `ExplanationOfBenefit.addItem.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.addItem.detail.adjudication.category` because `ExplanationOfBenefit.addItem.detail.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.category` because `ExplanationOfBenefit.addItem.detail.subDetail.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.adjudication.category` because `ExplanationOfBenefit.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.item.detail.adjudication.category` because `ExplanationOfBenefit.item.detail.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.item.detail.subDetail.adjudication.category` because `ExplanationOfBenefit.item.detail.subDetail.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.adjudication.reason",
+          "display" : "reason",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.adjudication.reason` is mapped to FHIR R4 element `ExplanationOfBenefit.item.adjudication.reason` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `ExplanationOfBenefit.addItem.adjudication.reason` because `ExplanationOfBenefit.addItem.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.addItem.detail.adjudication.reason` because `ExplanationOfBenefit.addItem.detail.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.reason` because `ExplanationOfBenefit.addItem.detail.subDetail.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.adjudication.reason` because `ExplanationOfBenefit.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.item.detail.adjudication.reason` because `ExplanationOfBenefit.item.detail.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.item.detail.subDetail.adjudication.reason` because `ExplanationOfBenefit.item.detail.subDetail.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.adjudication.amount",
+          "display" : "amount",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.adjudication.amount` is mapped to FHIR R4 element `ExplanationOfBenefit.item.adjudication.amount` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `ExplanationOfBenefit.addItem.adjudication.amount` because `ExplanationOfBenefit.addItem.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.addItem.detail.adjudication.amount` because `ExplanationOfBenefit.addItem.detail.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.amount` because `ExplanationOfBenefit.addItem.detail.subDetail.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.adjudication.amount` because `ExplanationOfBenefit.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.item.detail.adjudication.amount` because `ExplanationOfBenefit.item.detail.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.item.detail.subDetail.adjudication.amount` because `ExplanationOfBenefit.item.detail.subDetail.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.adjudication.quantity",
+          "display" : "quantity",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.item.adjudication.quantity` is mapped to FHIR R4 element `ExplanationOfBenefit.item.adjudication.value` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `ExplanationOfBenefit.addItem.adjudication.value` because `ExplanationOfBenefit.addItem.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.addItem.detail.adjudication.value` because `ExplanationOfBenefit.addItem.detail.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.value` because `ExplanationOfBenefit.addItem.detail.subDetail.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.adjudication.value` because `ExplanationOfBenefit.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.item.detail.adjudication.value` because `ExplanationOfBenefit.item.detail.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.item.detail.subDetail.adjudication.value` because `ExplanationOfBenefit.item.detail.subDetail.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail",
+          "display" : "detail",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.item.detail` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.sequence",
+          "display" : "sequence",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.sequence` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.sequence` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.revenue",
+          "display" : "revenue",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.revenue` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.revenue` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.category",
+          "display" : "category",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.category` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.category` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.productOrService",
+          "display" : "productOrService",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.productOrService` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.productOrService` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.modifier",
+          "display" : "modifier",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.modifier` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.modifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.programCode",
+          "display" : "programCode",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.programCode` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.programCode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.quantity",
+          "display" : "quantity",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.quantity` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.quantity` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.unitPrice",
+          "display" : "unitPrice",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.unitPrice` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.unitPrice` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.factor",
+          "display" : "factor",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.factor` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.factor` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.net",
+          "display" : "net",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.net` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.net` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.udi",
+          "display" : "udi",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.udi` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.udi` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.noteNumber",
+          "display" : "noteNumber",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.noteNumber` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.noteNumber` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.adjudication",
+          "display" : "adjudication",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.adjudication` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.adjudication` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.subDetail",
+          "display" : "subDetail",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.subDetail.sequence",
+          "display" : "sequence",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.sequence` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.sequence` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.subDetail.revenue",
+          "display" : "revenue",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.revenue` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.revenue` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.subDetail.category",
+          "display" : "category",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.category` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.category` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.subDetail.productOrService",
+          "display" : "productOrService",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.productOrService` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.productOrService` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.subDetail.modifier",
+          "display" : "modifier",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.modifier` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.modifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.subDetail.programCode",
+          "display" : "programCode",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.programCode` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.programCode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.subDetail.quantity",
+          "display" : "quantity",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.quantity` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.quantity` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.subDetail.unitPrice",
+          "display" : "unitPrice",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.unitPrice` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.unitPrice` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.subDetail.factor",
+          "display" : "factor",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.factor` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.factor` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.subDetail.net",
+          "display" : "net",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.net` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.net` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.subDetail.udi",
+          "display" : "udi",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.udi` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.udi` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.subDetail.noteNumber",
+          "display" : "noteNumber",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.noteNumber` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.noteNumber` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.subDetail.adjudication",
+          "display" : "adjudication",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.adjudication` is mapped to FHIR R4 element `ExplanationOfBenefit.item.detail.subDetail.adjudication` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem",
+          "display" : "addItem",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.addItem` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.itemSequence",
+          "display" : "itemSequence",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.itemSequence` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.itemSequence` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detailSequence",
+          "display" : "detailSequence",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detailSequence` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detailSequence` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.subDetailSequence",
+          "display" : "subDetailSequence",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.subDetailSequence` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.subDetailSequence` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.provider",
+          "display" : "provider",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.provider` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.provider` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.productOrService",
+          "display" : "productOrService",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.productOrService` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.productOrService` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.modifier",
+          "display" : "modifier",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.modifier` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.modifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.programCode",
+          "display" : "programCode",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.programCode` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.programCode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.serviced[x]",
+          "display" : "serviced[x]",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Note that the target element context `ExplanationOfBenefit.addItem.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.addItem`.\nElement `ExplanationOfBenefit.addItem.serviced[x]` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.serviced[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `ExplanationOfBenefit.addItem.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.addItem`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.location[x]",
+          "display" : "location[x]",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Note that the target element context `ExplanationOfBenefit.addItem.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.addItem`.\nElement `ExplanationOfBenefit.addItem.location[x]` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.location[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `ExplanationOfBenefit.addItem.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.addItem`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.quantity",
+          "display" : "quantity",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.quantity` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.quantity` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.unitPrice",
+          "display" : "unitPrice",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.unitPrice` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.unitPrice` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.factor",
+          "display" : "factor",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.factor` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.factor` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.net",
+          "display" : "net",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.net` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.net` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.bodySite",
+          "display" : "bodySite",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.addItem.bodySite` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.bodySite` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.noteNumber",
+          "display" : "noteNumber",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.noteNumber` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.noteNumber` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.adjudication",
+          "display" : "adjudication",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.adjudication` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.adjudication` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail",
+          "display" : "detail",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.productOrService",
+          "display" : "productOrService",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.productOrService` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.productOrService` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.modifier",
+          "display" : "modifier",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.modifier` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.modifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.quantity",
+          "display" : "quantity",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.quantity` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.quantity` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.unitPrice",
+          "display" : "unitPrice",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.unitPrice` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.unitPrice` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.factor",
+          "display" : "factor",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.factor` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.factor` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.net",
+          "display" : "net",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.net` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.net` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.noteNumber",
+          "display" : "noteNumber",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.noteNumber` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.noteNumber` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.adjudication",
+          "display" : "adjudication",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.adjudication` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.adjudication` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.subDetail",
+          "display" : "subDetail",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.subDetail` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.subDetail.productOrService",
+          "display" : "productOrService",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.productOrService` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.subDetail.productOrService` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.subDetail.modifier",
+          "display" : "modifier",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.modifier` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.subDetail.modifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.subDetail.quantity",
+          "display" : "quantity",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.quantity` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.subDetail.quantity` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.subDetail.unitPrice",
+          "display" : "unitPrice",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.unitPrice` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.subDetail.unitPrice` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.subDetail.factor",
+          "display" : "factor",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.factor` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.subDetail.factor` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.subDetail.net",
+          "display" : "net",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.net` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.subDetail.net` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.subDetail.noteNumber",
+          "display" : "noteNumber",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.noteNumber` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.subDetail.noteNumber` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.subDetail.adjudication",
+          "display" : "adjudication",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.adjudication",
+          "display" : "adjudication",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.adjudication` is mapped to FHIR R4 element `ExplanationOfBenefit.adjudication` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.total",
+          "display" : "total",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.total` is mapped to FHIR R4 element `ExplanationOfBenefit.total` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.total.category",
+          "display" : "category",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.total.category` is mapped to FHIR R4 element `ExplanationOfBenefit.total.category` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.total.amount",
+          "display" : "amount",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.total.amount` is mapped to FHIR R4 element `ExplanationOfBenefit.total.amount` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.payment",
+          "display" : "payment",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.payment` is mapped to FHIR R4 element `ExplanationOfBenefit.payment` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.payment.type",
+          "display" : "type",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.payment.type` is mapped to FHIR R4 element `ExplanationOfBenefit.payment.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.payment.adjustment",
+          "display" : "adjustment",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.payment.adjustment` is mapped to FHIR R4 element `ExplanationOfBenefit.payment.adjustment` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.payment.adjustmentReason",
+          "display" : "adjustmentReason",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.payment.adjustmentReason` is mapped to FHIR R4 element `ExplanationOfBenefit.payment.adjustmentReason` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.payment.date",
+          "display" : "date",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.payment.date` is mapped to FHIR R4 element `ExplanationOfBenefit.payment.date` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.payment.amount",
+          "display" : "amount",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.payment.amount` is mapped to FHIR R4 element `ExplanationOfBenefit.payment.amount` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.payment.identifier",
+          "display" : "identifier",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.payment.identifier` is mapped to FHIR R4 element `ExplanationOfBenefit.payment.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.formCode",
+          "display" : "formCode",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.formCode` is mapped to FHIR R4 element `ExplanationOfBenefit.formCode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.form",
+          "display" : "form",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.form` is mapped to FHIR R4 element `ExplanationOfBenefit.form` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.processNote",
+          "display" : "processNote",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.processNote` is mapped to FHIR R4 element `ExplanationOfBenefit.processNote` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.processNote.number",
+          "display" : "number",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.processNote.number` is mapped to FHIR R4 element `ExplanationOfBenefit.processNote.number` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.processNote.type",
+          "display" : "type",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.processNote.type` is mapped to FHIR R4 element `ExplanationOfBenefit.processNote.type` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.processNote.text",
+          "display" : "text",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.processNote.text` is mapped to FHIR R4 element `ExplanationOfBenefit.processNote.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.processNote.language",
+          "display" : "language",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.processNote.language` is mapped to FHIR R4 element `ExplanationOfBenefit.processNote.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.benefitPeriod",
+          "display" : "benefitPeriod",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.benefitPeriod` is mapped to FHIR R4 element `ExplanationOfBenefit.benefitPeriod` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.benefitBalance",
+          "display" : "benefitBalance",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.benefitBalance` is mapped to FHIR R4 element `ExplanationOfBenefit.benefitBalance` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.benefitBalance.category",
+          "display" : "category",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.benefitBalance.category` is mapped to FHIR R4 element `ExplanationOfBenefit.benefitBalance.category` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.benefitBalance.excluded",
+          "display" : "excluded",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.benefitBalance.excluded` is mapped to FHIR R4 element `ExplanationOfBenefit.benefitBalance.excluded` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.benefitBalance.name",
+          "display" : "name",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.benefitBalance.name` is mapped to FHIR R4 element `ExplanationOfBenefit.benefitBalance.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.benefitBalance.description",
+          "display" : "description",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.benefitBalance.description` is mapped to FHIR R4 element `ExplanationOfBenefit.benefitBalance.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.benefitBalance.network",
+          "display" : "network",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.benefitBalance.network` is mapped to FHIR R4 element `ExplanationOfBenefit.benefitBalance.network` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.benefitBalance.unit",
+          "display" : "unit",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.benefitBalance.unit` is mapped to FHIR R4 element `ExplanationOfBenefit.benefitBalance.unit` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.benefitBalance.term",
+          "display" : "term",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.benefitBalance.term` is mapped to FHIR R4 element `ExplanationOfBenefit.benefitBalance.term` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.benefitBalance.financial",
+          "display" : "financial",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.benefitBalance.financial` is mapped to FHIR R4 element `ExplanationOfBenefit.benefitBalance.financial` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.benefitBalance.financial.type",
+          "display" : "type",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.benefitBalance.financial.type` is mapped to FHIR R4 element `ExplanationOfBenefit.benefitBalance.financial.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.benefitBalance.financial.allowed[x]",
+          "display" : "allowed[x]",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Note that the target element context `ExplanationOfBenefit.benefitBalance.financial.allowed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.benefitBalance.financial`.\nElement `ExplanationOfBenefit.benefitBalance.financial.allowed[x]` is mapped to FHIR R4 element `ExplanationOfBenefit.benefitBalance.financial.allowed[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `ExplanationOfBenefit.benefitBalance.financial.allowed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.benefitBalance.financial`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.benefitBalance.financial.used[x]",
+          "display" : "used[x]",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Note that the target element context `ExplanationOfBenefit.benefitBalance.financial.used[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.benefitBalance.financial`.\nElement `ExplanationOfBenefit.benefitBalance.financial.used[x]` is mapped to FHIR R4 element `ExplanationOfBenefit.benefitBalance.financial.used[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `ExplanationOfBenefit.benefitBalance.financial.used[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.benefitBalance.financial`."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit",
+      "sourceVersion" : "5.0.0",
+      "target" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4",
+      "element" : [
+        {
+          "code" : "ExplanationOfBenefit.traceNumber",
+          "display" : "traceNumber",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.traceNumber",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.traceNumber` has a context of ExplanationOfBenefit based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.event",
+          "display" : "event",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.event",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.event` has a context of ExplanationOfBenefit based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.decision",
+          "display" : "decision",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.decision",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.decision` has a context of ExplanationOfBenefit based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.diagnosisRelatedGroup",
+          "display" : "diagnosisRelatedGroup",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.diagnosisRelatedGroup",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.diagnosisRelatedGroup` has a context of ExplanationOfBenefit based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.supportingInfo.value[x]",
+          "display" : "value[x]",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.supportingInfo.value",
+              "equivalence" : "equivalent",
+              "comment" : "Note that the target element context `ExplanationOfBenefit.supportingInfo.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.supportingInfo`.\nElement `ExplanationOfBenefit.supportingInfo.value[x]` is mapped to FHIR R4 element `ExplanationOfBenefit.supportingInfo.value[x]` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `ExplanationOfBenefit.supportingInfo.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ExplanationOfBenefit.supportingInfo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.patientPaid",
+          "display" : "patientPaid",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.patientPaid",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.patientPaid` has a context of ExplanationOfBenefit based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.traceNumber",
+          "display" : "traceNumber",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.traceNumber",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.item.traceNumber` has a context of ExplanationOfBenefit.item based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.productOrServiceEnd",
+          "display" : "productOrServiceEnd",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.productOrServiceEnd",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.item.productOrServiceEnd` has a context of ExplanationOfBenefit.item based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.patientPaid",
+          "display" : "patientPaid",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.patientPaid",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.item.patientPaid` has a context of ExplanationOfBenefit.item based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.tax",
+          "display" : "tax",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.tax",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.item.tax` has a context of ExplanationOfBenefit.item based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.reviewOutcome",
+          "display" : "reviewOutcome",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.reviewOutcome",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.item.reviewOutcome` has a context of ExplanationOfBenefit.item based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.adjudication.quantity",
+          "display" : "quantity",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.adjudication.quantity",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.item.adjudication.quantity` is mapped to FHIR R4 element `ExplanationOfBenefit.item.adjudication.value` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `ExplanationOfBenefit.addItem.adjudication.value` because `ExplanationOfBenefit.addItem.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.addItem.detail.adjudication.value` because `ExplanationOfBenefit.addItem.detail.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.addItem.detail.subDetail.adjudication.value` because `ExplanationOfBenefit.addItem.detail.subDetail.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.adjudication.value` because `ExplanationOfBenefit.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.item.detail.adjudication.value` because `ExplanationOfBenefit.item.detail.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`.\nNote available implied context: `ExplanationOfBenefit.item.detail.subDetail.adjudication.value` because `ExplanationOfBenefit.item.detail.subDetail.adjudication` is defined via a content reference to `ExplanationOfBenefit.item.adjudication`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.traceNumber",
+          "display" : "traceNumber",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.traceNumber",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.traceNumber` has a context of ExplanationOfBenefit.item.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.productOrServiceEnd",
+          "display" : "productOrServiceEnd",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.productOrServiceEnd",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.productOrServiceEnd` has a context of ExplanationOfBenefit.item.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.patientPaid",
+          "display" : "patientPaid",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.patientPaid",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.patientPaid` has a context of ExplanationOfBenefit.item.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.tax",
+          "display" : "tax",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.tax",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.tax` has a context of ExplanationOfBenefit.item.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.reviewOutcome",
+          "display" : "reviewOutcome",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.reviewOutcome",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.reviewOutcome` has a context of ExplanationOfBenefit.item.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.subDetail.traceNumber",
+          "display" : "traceNumber",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.traceNumber",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.traceNumber` has a context of ExplanationOfBenefit.item.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.subDetail.productOrServiceEnd",
+          "display" : "productOrServiceEnd",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.productOrServiceEnd",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.productOrServiceEnd` has a context of ExplanationOfBenefit.item.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.subDetail.patientPaid",
+          "display" : "patientPaid",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.patientPaid",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.patientPaid` has a context of ExplanationOfBenefit.item.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.subDetail.tax",
+          "display" : "tax",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.tax",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.tax` has a context of ExplanationOfBenefit.item.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.detail.subDetail.reviewOutcome",
+          "display" : "reviewOutcome",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.reviewOutcome",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome` has a context of ExplanationOfBenefit.item.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.traceNumber",
+          "display" : "traceNumber",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.traceNumber",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.addItem.traceNumber` has a context of ExplanationOfBenefit.addItem based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.revenue",
+          "display" : "revenue",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.revenue",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.addItem.revenue` has a context of ExplanationOfBenefit.addItem based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.productOrServiceEnd",
+          "display" : "productOrServiceEnd",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.productOrServiceEnd",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.addItem.productOrServiceEnd` has a context of ExplanationOfBenefit.addItem based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.patientPaid",
+          "display" : "patientPaid",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.patientPaid",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.addItem.patientPaid` has a context of ExplanationOfBenefit.addItem based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.tax",
+          "display" : "tax",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.tax",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.addItem.tax` has a context of ExplanationOfBenefit.addItem based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.bodySite",
+          "display" : "bodySite",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.bodySite",
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.addItem.bodySite` is mapped to FHIR R4 element `ExplanationOfBenefit.addItem.bodySite` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.reviewOutcome",
+          "display" : "reviewOutcome",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.reviewOutcome",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.addItem.reviewOutcome` has a context of ExplanationOfBenefit.addItem based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.traceNumber",
+          "display" : "traceNumber",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.traceNumber",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.traceNumber` has a context of ExplanationOfBenefit.addItem.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.revenue",
+          "display" : "revenue",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.revenue",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.revenue` has a context of ExplanationOfBenefit.addItem.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.productOrServiceEnd",
+          "display" : "productOrServiceEnd",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.productOrServiceEnd",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.productOrServiceEnd` has a context of ExplanationOfBenefit.addItem.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.patientPaid",
+          "display" : "patientPaid",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.patientPaid",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.patientPaid` has a context of ExplanationOfBenefit.addItem.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.tax",
+          "display" : "tax",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.tax",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.tax` has a context of ExplanationOfBenefit.addItem.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.reviewOutcome",
+          "display" : "reviewOutcome",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.reviewOutcome",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.reviewOutcome` has a context of ExplanationOfBenefit.addItem.detail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.subDetail.traceNumber",
+          "display" : "traceNumber",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.traceNumber",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.traceNumber` has a context of ExplanationOfBenefit.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.subDetail.revenue",
+          "display" : "revenue",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.revenue",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.revenue` has a context of ExplanationOfBenefit.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.subDetail.productOrServiceEnd",
+          "display" : "productOrServiceEnd",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.productOrServiceEnd",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.productOrServiceEnd` has a context of ExplanationOfBenefit.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.subDetail.patientPaid",
+          "display" : "patientPaid",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.patientPaid",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.patientPaid` has a context of ExplanationOfBenefit.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.subDetail.tax",
+          "display" : "tax",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.tax",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.tax` has a context of ExplanationOfBenefit.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome",
+          "display" : "reviewOutcome",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.reviewOutcome",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome` has a context of ExplanationOfBenefit.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.processNote.type",
+          "display" : "type",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.processNote.type",
+              "equivalence" : "equivalent",
+              "comment" : "Element `ExplanationOfBenefit.processNote.type` is mapped to FHIR R4 element `ExplanationOfBenefit.processNote.type` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit",
+      "sourceVersion" : "5.0.0",
+      "target" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+      "targetVersion" : "5.2.0",
+      "element" : [
+        {
+          "code" : "ExplanationOfBenefit.enterer",
+          "display" : "enterer",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
+              "equivalence" : "equivalent",
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ExplanationOfBenefit.enterer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ExplanationOfBenefit.enterer` is mapped to FHIR R4 element `ExplanationOfBenefit.enterer` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.encounter",
+          "display" : "encounter",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
+              "equivalence" : "wider",
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ExplanationOfBenefit.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ExplanationOfBenefit.encounter` has a context of ExplanationOfBenefit based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.facility",
+          "display" : "facility",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
+              "equivalence" : "equivalent",
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ExplanationOfBenefit.facility` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ExplanationOfBenefit.facility` is mapped to FHIR R4 element `ExplanationOfBenefit.facility` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.request",
+          "display" : "request",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
+              "equivalence" : "wider",
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ExplanationOfBenefit.item.request` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ExplanationOfBenefit.item.request` has a context of ExplanationOfBenefit.item based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.request",
+          "display" : "request",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
+              "equivalence" : "wider",
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ExplanationOfBenefit.addItem.request` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ExplanationOfBenefit.addItem.request` has a context of ExplanationOfBenefit.addItem based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source" : "http://hl7.org/fhir/StructureDefinition/ExplanationOfBenefit",
+      "sourceVersion" : "5.0.0",
+      "element" : [
+        {
+          "code" : "ExplanationOfBenefit.event.type",
+          "display" : "type",
+          "target" : [
+            {
+              "code" : "type",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.event.type` has a context of ExplanationOfBenefit based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.event.when[x]",
+          "display" : "when[x]",
+          "target" : [
+            {
+              "code" : "when",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.event.when[x]` has a context of ExplanationOfBenefit based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.reviewOutcome.decision",
+          "display" : "decision",
+          "target" : [
+            {
+              "code" : "decision",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.item.reviewOutcome.decision` has a context of ExplanationOfBenefit.item based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.reviewOutcome.reason",
+          "display" : "reason",
+          "target" : [
+            {
+              "code" : "reason",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.item.reviewOutcome.reason` has a context of ExplanationOfBenefit.item based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.reviewOutcome.preAuthRef",
+          "display" : "preAuthRef",
+          "target" : [
+            {
+              "code" : "preAuthRef",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.item.reviewOutcome.preAuthRef` has a context of ExplanationOfBenefit.item based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.item.reviewOutcome.preAuthPeriod",
+          "display" : "preAuthPeriod",
+          "target" : [
+            {
+              "code" : "preAuthPeriod",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.item.reviewOutcome.preAuthPeriod` has a context of ExplanationOfBenefit.item based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.bodySite.site",
+          "display" : "site",
+          "target" : [
+            {
+              "code" : "site",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.addItem.bodySite.site` has a context of ExplanationOfBenefit.addItem.bodySite based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        },
+        {
+          "code" : "ExplanationOfBenefit.addItem.bodySite.subSite",
+          "display" : "subSite",
+          "target" : [
+            {
+              "code" : "subSite",
+              "equivalence" : "wider",
+              "comment" : "Element `ExplanationOfBenefit.addItem.bodySite.subSite` has a context of ExplanationOfBenefit.addItem.bodySite based on following the parent source element upwards and mapping to `ExplanationOfBenefit`."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+```

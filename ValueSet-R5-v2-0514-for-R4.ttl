@@ -1,0 +1,355 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-v2-0514-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-v2-0514-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-v2-0514-for-R4</b></p><a name=\"R5-v2-0514-for-R4\"> </a><a name=\"hcR5-v2-0514-for-R4\"> </a><p>This value set expansion contains 19 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-v2-0514-for-R4-http://terminology.hl7.org/CodeSystem/v2-0514-ABOINC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0514</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ABOINC</td><td>ABO Incompatible Transfusion Reaction</td></tr><tr><td><a name=\"R5-v2-0514-for-R4-http://terminology.hl7.org/CodeSystem/v2-0514-ACUTHEHTR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0514</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ACUTHEHTR</td><td>Acute Hemolytic Transfusion Reaction</td></tr><tr><td><a name=\"R5-v2-0514-for-R4-http://terminology.hl7.org/CodeSystem/v2-0514-ALLERGIC1\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0514</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ALLERGIC1</td><td>Allergic Reaction - First</td></tr><tr><td><a name=\"R5-v2-0514-for-R4-http://terminology.hl7.org/CodeSystem/v2-0514-ALLERGIC2\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0514</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ALLERGIC2</td><td>Allergic Reaction - Recurrent</td></tr><tr><td><a name=\"R5-v2-0514-for-R4-http://terminology.hl7.org/CodeSystem/v2-0514-ALLERGICR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0514</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ALLERGICR</td><td>Allergic Reaction - Repeating</td></tr><tr><td><a name=\"R5-v2-0514-for-R4-http://terminology.hl7.org/CodeSystem/v2-0514-ANAPHYLAC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0514</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ANAPHYLAC</td><td>Anaphylactic Reaction</td></tr><tr><td><a name=\"R5-v2-0514-for-R4-http://terminology.hl7.org/CodeSystem/v2-0514-BACTCONTAM\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0514</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BACTCONTAM</td><td>Reaction to Bacterial Contamination</td></tr><tr><td><a name=\"R5-v2-0514-for-R4-http://terminology.hl7.org/CodeSystem/v2-0514-DELAYEDHTR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0514</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  DELAYEDHTR</td><td>Delayed Hemolytic Transfusion Reaction</td></tr><tr><td><a name=\"R5-v2-0514-for-R4-http://terminology.hl7.org/CodeSystem/v2-0514-DELAYEDSTR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0514</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  DELAYEDSTR</td><td>Delayed Serological Transfusion Reaction</td></tr><tr><td><a name=\"R5-v2-0514-for-R4-http://terminology.hl7.org/CodeSystem/v2-0514-GVHD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0514</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  GVHD</td><td>Graft vs Host Disease - Transfusion - Associated</td></tr><tr><td><a name=\"R5-v2-0514-for-R4-http://terminology.hl7.org/CodeSystem/v2-0514-HYPOTENS\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0514</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  HYPOTENS</td><td>Non-hemolytic Hypotensive Reaction</td></tr><tr><td><a name=\"R5-v2-0514-for-R4-http://terminology.hl7.org/CodeSystem/v2-0514-NONHTR1\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0514</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  NONHTR1</td><td>Non-Hemolytic Fever Chill Transfusion Reaction - First</td></tr><tr><td><a name=\"R5-v2-0514-for-R4-http://terminology.hl7.org/CodeSystem/v2-0514-NONHTR2\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0514</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  NONHTR2</td><td>Non-Hemolytic Fever Chill Transfusion Reaction - Recurrent</td></tr><tr><td><a name=\"R5-v2-0514-for-R4-http://terminology.hl7.org/CodeSystem/v2-0514-NONHTRREC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0514</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  NONHTRREC</td><td>Non-Hemolytic Fever Chill Transfusion Reaction - Repeating</td></tr><tr><td><a name=\"R5-v2-0514-for-R4-http://terminology.hl7.org/CodeSystem/v2-0514-NONIMMUNE\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0514</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  NONIMMUNE</td><td>Non-Immune Hemolysis</td></tr><tr><td><a name=\"R5-v2-0514-for-R4-http://terminology.hl7.org/CodeSystem/v2-0514-NONSPEC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0514</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  NONSPEC</td><td>Non-Specific, Non-Hemolytic Transfusion Reaction</td></tr><tr><td><a name=\"R5-v2-0514-for-R4-http://terminology.hl7.org/CodeSystem/v2-0514-NORXN\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0514</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  NORXN</td><td>No Evidence of Transfusion Reaction</td></tr><tr><td><a name=\"R5-v2-0514-for-R4-http://terminology.hl7.org/CodeSystem/v2-0514-PTP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0514</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  PTP</td><td>Posttransfusion Purpura</td></tr><tr><td><a name=\"R5-v2-0514-for-R4-http://terminology.hl7.org/CodeSystem/v2-0514-VOLOVER\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0514</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  VOLOVER</td><td>Symptoms most likely due to volume overload</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-v2-0514-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-v2-0514-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5V20514ForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.Hl7VSTransfusionAdverseReaction for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v2-0514|2.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/v2-0514|2.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* \r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://terminology.hl7.org/ValueSet/v2-0514|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0514"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0514>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "ABOINC" ] ;
+         fhir:display [ fhir:v "ABO Incompatible Transfusion Reaction" ]
+       ] [
+         fhir:code [ fhir:v "ACUTHEHTR" ] ;
+         fhir:display [ fhir:v "Acute Hemolytic Transfusion Reaction" ]
+       ] [
+         fhir:code [ fhir:v "ALLERGIC1" ] ;
+         fhir:display [ fhir:v "Allergic Reaction - First" ]
+       ] [
+         fhir:code [ fhir:v "ALLERGIC2" ] ;
+         fhir:display [ fhir:v "Allergic Reaction - Recurrent" ]
+       ] [
+         fhir:code [ fhir:v "ALLERGICR" ] ;
+         fhir:display [ fhir:v "Allergic Reaction - Repeating" ]
+       ] [
+         fhir:code [ fhir:v "ANAPHYLAC" ] ;
+         fhir:display [ fhir:v "Anaphylactic Reaction" ]
+       ] [
+         fhir:code [ fhir:v "BACTCONTAM" ] ;
+         fhir:display [ fhir:v "Reaction to Bacterial Contamination" ]
+       ] [
+         fhir:code [ fhir:v "DELAYEDHTR" ] ;
+         fhir:display [ fhir:v "Delayed Hemolytic Transfusion Reaction" ]
+       ] [
+         fhir:code [ fhir:v "DELAYEDSTR" ] ;
+         fhir:display [ fhir:v "Delayed Serological Transfusion Reaction" ]
+       ] [
+         fhir:code [ fhir:v "GVHD" ] ;
+         fhir:display [ fhir:v "Graft vs Host Disease - Transfusion - Associated" ]
+       ] [
+         fhir:code [ fhir:v "HYPOTENS" ] ;
+         fhir:display [ fhir:v "Non-hemolytic Hypotensive Reaction" ]
+       ] [
+         fhir:code [ fhir:v "NONHTR1" ] ;
+         fhir:display [ fhir:v "Non-Hemolytic Fever Chill Transfusion Reaction - First" ]
+       ] [
+         fhir:code [ fhir:v "NONHTR2" ] ;
+         fhir:display [ fhir:v "Non-Hemolytic Fever Chill Transfusion Reaction - Recurrent" ]
+       ] [
+         fhir:code [ fhir:v "NONHTRREC" ] ;
+         fhir:display [ fhir:v "Non-Hemolytic Fever Chill Transfusion Reaction - Repeating" ]
+       ] [
+         fhir:code [ fhir:v "NONIMMUNE" ] ;
+         fhir:display [ fhir:v "Non-Immune Hemolysis" ]
+       ] [
+         fhir:code [ fhir:v "NONSPEC" ] ;
+         fhir:display [ fhir:v "Non-Specific, Non-Hemolytic Transfusion Reaction" ]
+       ] [
+         fhir:code [ fhir:v "NORXN" ] ;
+         fhir:display [ fhir:v "No Evidence of Transfusion Reaction" ]
+       ] [
+         fhir:code [ fhir:v "PTP" ] ;
+         fhir:display [ fhir:v "Posttransfusion Purpura" ]
+       ] [
+         fhir:code [ fhir:v "VOLOVER" ] ;
+         fhir:display [ fhir:v "Symptoms most likely due to volume overload" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0514"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0514>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ABOINC" ] ;
+       fhir:display [ fhir:v "ABO Incompatible Transfusion Reaction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0514"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0514>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ACUTHEHTR" ] ;
+       fhir:display [ fhir:v "Acute Hemolytic Transfusion Reaction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0514"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0514>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ALLERGIC1" ] ;
+       fhir:display [ fhir:v "Allergic Reaction - First" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0514"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0514>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ALLERGIC2" ] ;
+       fhir:display [ fhir:v "Allergic Reaction - Recurrent" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0514"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0514>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ALLERGICR" ] ;
+       fhir:display [ fhir:v "Allergic Reaction - Repeating" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0514"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0514>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ANAPHYLAC" ] ;
+       fhir:display [ fhir:v "Anaphylactic Reaction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0514"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0514>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BACTCONTAM" ] ;
+       fhir:display [ fhir:v "Reaction to Bacterial Contamination" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0514"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0514>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "DELAYEDHTR" ] ;
+       fhir:display [ fhir:v "Delayed Hemolytic Transfusion Reaction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0514"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0514>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "DELAYEDSTR" ] ;
+       fhir:display [ fhir:v "Delayed Serological Transfusion Reaction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0514"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0514>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "GVHD" ] ;
+       fhir:display [ fhir:v "Graft vs Host Disease - Transfusion - Associated" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0514"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0514>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "HYPOTENS" ] ;
+       fhir:display [ fhir:v "Non-hemolytic Hypotensive Reaction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0514"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0514>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "NONHTR1" ] ;
+       fhir:display [ fhir:v "Non-Hemolytic Fever Chill Transfusion Reaction - First" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0514"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0514>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "NONHTR2" ] ;
+       fhir:display [ fhir:v "Non-Hemolytic Fever Chill Transfusion Reaction - Recurrent" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0514"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0514>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "NONHTRREC" ] ;
+       fhir:display [ fhir:v "Non-Hemolytic Fever Chill Transfusion Reaction - Repeating" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0514"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0514>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "NONIMMUNE" ] ;
+       fhir:display [ fhir:v "Non-Immune Hemolysis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0514"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0514>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "NONSPEC" ] ;
+       fhir:display [ fhir:v "Non-Specific, Non-Hemolytic Transfusion Reaction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0514"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0514>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "NORXN" ] ;
+       fhir:display [ fhir:v "No Evidence of Transfusion Reaction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0514"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0514>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PTP" ] ;
+       fhir:display [ fhir:v "Posttransfusion Purpura" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0514"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0514>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "VOLOVER" ] ;
+       fhir:display [ fhir:v "Symptoms most likely due to volume overload" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

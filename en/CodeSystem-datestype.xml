@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="datestype"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/datestype</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">card-issued
+                  <a name="datestype-card-issued"> </a>
+                </td>
+                <td>Card Issued</td>
+                <td>The date when an insurance card was issued.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">claim-received
+                  <a name="datestype-claim-received"> </a>
+                </td>
+                <td>Claim Received</td>
+                <td>The date when an insurer nreceived a claim, pre-authorization or predetermination.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">service-expected
+                  <a name="datestype-service-expected"> </a>
+                </td>
+                <td>Service Expected</td>
+                <td>The date or period on or during which the services are expected to be performed.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fm"/>
+  </extension>
+  <url value="http://hl7.org/fhir/datestype"/>
+  <version value="5.0.0"/>
+  <name value="DatesEventTypeCodes"/>
+  <title value="Dates Event Type Codes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T13:39:05-06:00"/>
+  <publisher value="Financial Management"/>
+  <contact>
+    <name value="Financial Management"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fm"/>
+    </telecom>
+  </contact>
+  <description value="This value set includes sample Dates Event Type codes."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This is an example set."/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="card-issued"/>
+    <display value="Card Issued"/>
+    <definition value="The date when an insurance card was issued."/>
+  </concept>
+  <concept>
+    <code value="claim-received"/>
+    <display value="Claim Received"/>
+    <definition value="The date when an insurer nreceived a claim, pre-authorization or predetermination."/>
+  </concept>
+  <concept>
+    <code value="service-expected"/>
+    <display value="Service Expected"/>
+    <definition value="The date or period on or during which the services are expected to be performed."/>
+  </concept>
+</CodeSystem>

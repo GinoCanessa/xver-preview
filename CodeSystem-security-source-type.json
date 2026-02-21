@@ -26,21 +26,21 @@
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-    "valueCode" : "fhir"
+    "valueCode" : "sec"
   }],
   "url" : "http://terminology.hl7.org/CodeSystem/security-source-type",
-  "version" : "0.0.1-snapshot-3",
+  "version" : "0.5.0",
   "name" : "AuditEventSourceType",
   "title" : "Audit Event Source Type",
   "status" : "active",
   "experimental" : false,
   "date" : "2010-08-25T19:00:00-05:00",
-  "publisher" : "FHIR Infrastructure",
+  "publisher" : "Security",
   "contact" : [{
-    "name" : "FHIR Infrastructure",
+    "name" : "Security",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://www.hl7.org/Special/committees/fiwg"
+      "value" : "http://www.hl7.org/Special/committees/secure"
     }]
   }],
   "description" : "The type of process where the audit event originated from.",
@@ -52,7 +52,7 @@
     }]
   }],
   "caseSensitive" : true,
-  "valueSet" : "http://terminology.hl7.org/ValueSet/audit-source-type",
+  "valueSet" : "http://terminology.hl7.org/ValueSet/audit-source-type|1.0.0",
   "content" : "complete",
   "concept" : [{
     "code" : "1",

@@ -1,0 +1,1228 @@
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>R5DicomCid7010KeyObjectSelectionDocumentTitleForR4 - JSON Representation - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"7.996"}
+    h3,h4,h5,h6{--heading-prefix:"7.996"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" data-no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img alt="International flag" src="../assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>R5DicomCid7010KeyObjectSelectionDocumentTitleForR4</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="ValueSet-R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4.xml.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="ValueSet-R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4.ttl.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<!-- layouts\layout-instance-format -->
+<div style="counter-reset: section 8" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="ValueSet-R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ValueSet-R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+
+<h2 id="root">: R5DicomCid7010KeyObjectSelectionDocumentTitleForR4</h2>
+
+  <table class="colsd" data-fhir="generated">
+    <tr>
+
+      <td colspan="1">
+        
+          <i>Page standards status:</i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standards Status">Trial-use</a>
+          
+        
+      </td>
+
+      <td>
+        <a href="http://hl7.org/fhir/versions.html#maturity">Maturity Level</a>: 0
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p><a href="ValueSet-R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4.json" no-download="true">Raw json</a> | <a href="ValueSet-R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4.json" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="json" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code style="white-space: pre; text-wrap: nowrap;">{
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet">resourceType</a>" : "ValueSet",
+  "<a href="http://hl7.org/fhir/R4/resource.html#ValueSet.id">id</a>" : "R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4",
+  "<a href="http://hl7.org/fhir/R4/resource.html#ValueSet.language">language</a>" : "en",
+  "<a href="http://hl7.org/fhir/R4/domainresource.html#ValueSet.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: ValueSet R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcR5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4\&quot;&gt; &lt;/a&gt;&lt;p&gt;This value set expansion contains 78 concepts.&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;System&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Version&lt;/b&gt;&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113000\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113000&lt;/td&gt;&lt;td&gt;Of Interest&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113001\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113001&lt;/td&gt;&lt;td&gt;Rejected for Quality Reasons&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113002\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113002&lt;/td&gt;&lt;td&gt;For Referring Provider&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113003\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113003&lt;/td&gt;&lt;td&gt;For Surgery&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113004\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113004&lt;/td&gt;&lt;td&gt;For Teaching&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113005\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113005&lt;/td&gt;&lt;td&gt;For Conference&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113006\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113006&lt;/td&gt;&lt;td&gt;For Therapy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113007\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113007&lt;/td&gt;&lt;td&gt;For Patient&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113008\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113008&lt;/td&gt;&lt;td&gt;For Peer Review&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113009\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113009&lt;/td&gt;&lt;td&gt;For Research&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113010\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113010&lt;/td&gt;&lt;td&gt;Quality Issue&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113013\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113013&lt;/td&gt;&lt;td&gt;Best In Set&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113018\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113018&lt;/td&gt;&lt;td&gt;For Printing&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113020\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113020&lt;/td&gt;&lt;td&gt;For Report Attachment&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113021\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113021&lt;/td&gt;&lt;td&gt;For Litigation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113022\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113022&lt;/td&gt;&lt;td&gt;Collection of Presentation States&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113030\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113030&lt;/td&gt;&lt;td&gt;Manifest&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113031\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113031&lt;/td&gt;&lt;td&gt;Signed Manifest&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113032\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113032&lt;/td&gt;&lt;td&gt;Complete Study Content&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113033\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113033&lt;/td&gt;&lt;td&gt;Signed Complete Study Content&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113034\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113034&lt;/td&gt;&lt;td&gt;Complete Acquisition Content&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113035\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113035&lt;/td&gt;&lt;td&gt;Signed Complete Acquisition Content&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113036\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113036&lt;/td&gt;&lt;td&gt;Group of Frames for Display&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113037\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113037&lt;/td&gt;&lt;td&gt;Rejected for Patient Safety Reasons&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113038\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113038&lt;/td&gt;&lt;td&gt;Incorrect Modality Worklist Entry&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-113039\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113039&lt;/td&gt;&lt;td&gt;Data Retention Policy Expired&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128180\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128180&lt;/td&gt;&lt;td&gt;For RT Workflow&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128181\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128181&lt;/td&gt;&lt;td&gt;Diagnostic Source Images&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128182\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128182&lt;/td&gt;&lt;td&gt;Segmentation Result&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128183\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128183&lt;/td&gt;&lt;td&gt;Registration Result&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128184\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128184&lt;/td&gt;&lt;td&gt;Pre-Planning Result&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128185\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128185&lt;/td&gt;&lt;td&gt;RT Prescription Result&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128186\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128186&lt;/td&gt;&lt;td&gt;Dose Calculation Image Series&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128187\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128187&lt;/td&gt;&lt;td&gt;Coordinate Alignment Image Series&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128188\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128188&lt;/td&gt;&lt;td&gt;RT Treatment Simulation Result&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128189\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128189&lt;/td&gt;&lt;td&gt;RT Planning Result&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128190\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128190&lt;/td&gt;&lt;td&gt;Dosimetric Result&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128191\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128191&lt;/td&gt;&lt;td&gt;Patient Setup Verification Result&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128192\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128192&lt;/td&gt;&lt;td&gt;RT Treatment Session Result&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128193\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128193&lt;/td&gt;&lt;td&gt;RT Treatment Course Summary&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128194\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128194&lt;/td&gt;&lt;td&gt;RT Treatment QA Result&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128195\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128195&lt;/td&gt;&lt;td&gt;For Diagnosis&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128196\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128196&lt;/td&gt;&lt;td&gt;For Segmentation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128197\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128197&lt;/td&gt;&lt;td&gt;For RT Prescription&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128198\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128198&lt;/td&gt;&lt;td&gt;For RT Treatment Planning&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128199\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128199&lt;/td&gt;&lt;td&gt;For Plan Comparison&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128200\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128200&lt;/td&gt;&lt;td&gt;For RT Plan Summation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128201\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128201&lt;/td&gt;&lt;td&gt;For Physician Review&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128202\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128202&lt;/td&gt;&lt;td&gt;For Physicist Review&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128203\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128203&lt;/td&gt;&lt;td&gt;For Tumor Board&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128204\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128204&lt;/td&gt;&lt;td&gt;For Plan Quality Assurance&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128205\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128205&lt;/td&gt;&lt;td&gt;For Machine Quality Assurance&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128206\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128206&lt;/td&gt;&lt;td&gt;For Patient Setup Verification&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128207\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128207&lt;/td&gt;&lt;td&gt;For Clinical Trial Submission&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128208\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128208&lt;/td&gt;&lt;td&gt;For Tumor Registry&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128209\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128209&lt;/td&gt;&lt;td&gt;RT Workflow Input Used&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128210\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128210&lt;/td&gt;&lt;td&gt;RT Prescription Input Used&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128211\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128211&lt;/td&gt;&lt;td&gt;RT Treatment Planning Input Used&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128212\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128212&lt;/td&gt;&lt;td&gt;RT Plan Summation Input Used&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128213\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128213&lt;/td&gt;&lt;td&gt;Physician Review Input Used&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128214\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128214&lt;/td&gt;&lt;td&gt;Physicist Review Input Used&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128215\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128215&lt;/td&gt;&lt;td&gt;Plan Quality Assurance Input Used&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128216\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128216&lt;/td&gt;&lt;td&gt;Machine Quality Assurance Input Used&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128217\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128217&lt;/td&gt;&lt;td&gt;Patient Setup Verification Input Used&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128218\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128218&lt;/td&gt;&lt;td&gt;Diagnosis Input Used&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128219\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128219&lt;/td&gt;&lt;td&gt;Contouring Input Used&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128220\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128220&lt;/td&gt;&lt;td&gt;Plan Comparison Input Used&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128221\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128221&lt;/td&gt;&lt;td&gt;Tumor Board Input Used&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128222\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128222&lt;/td&gt;&lt;td&gt;Tumor Registry Input Used&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128223\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128223&lt;/td&gt;&lt;td&gt;Clinical Trial Submission Input Used&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128710\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128710&lt;/td&gt;&lt;td&gt;For Teaching File Export&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128711\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128711&lt;/td&gt;&lt;td&gt;For Clinical Trial Export&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128713\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128713&lt;/td&gt;&lt;td&gt;For Research Collection Export&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-128714\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128714&lt;/td&gt;&lt;td&gt;For Publication Export&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-130370\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0130370&lt;/td&gt;&lt;td&gt;RTV Rendition&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-130371\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0130371&lt;/td&gt;&lt;td&gt;RTV Audio and Video Rendition&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-130372\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0130372&lt;/td&gt;&lt;td&gt;RTV Stereo Video Rendition&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4-http://dicom.nema.org/resources/ontology/DCM-130373\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://dicom.nema.org/resources/ontology/DCM&lt;/code&gt;&lt;/td&gt;&lt;td&gt;3.0.1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0130373&lt;/td&gt;&lt;td&gt;RTV Audio and Stereo Video Rendition&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+  },
+  "<a href="http://hl7.org/fhir/R4/domainresource.html#ValueSet.extension">extension</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a>" : "fhir"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "packageId",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueId</a>" : "hl7.fhir.uv.xver-r5.r4"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "version",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "0.0.1-snapshot-3"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "uri",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueUri</a>" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/package-source"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 0,
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">_valueInteger</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#integer.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCanonical</a>" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a>" : "trial-use",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">_valueCode</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#code.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCanonical</a>" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">url</a>" : "http://hl7.org/fhir/uv/xver/ValueSet/R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">version</a>" : "0.0.1-snapshot-3",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">name</a>" : "R5DicomCid7010KeyObjectSelectionDocumentTitleForR4",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">title</a>" : "Cross-version ValueSet R5.KeyObjectSelectionDocumentTitle for use in FHIR R4",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">status</a>" : "active",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.experimental">experimental</a>" : false,
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">date</a>" : "2026-02-21T19:36:42.9229177+00:00",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">publisher</a>" : "FHIR Infrastructure",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">contact</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "FHIR Infrastructure",
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "http://www.hl7.org/Special/committees/fiwg"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.description">description</a>" : "This cross-version ValueSet represents content from `http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7010.html|2023.1.20230123` for use in FHIR R4.",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.jurisdiction">jurisdiction</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "001",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "World"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.purpose">purpose</a>" : "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7010.html|2023.1.20230123` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `ImagingSelection.category`\n* `ImagingSelection.code`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_7010.html|2023.1.20230123`, defined in FHIR R5 does not have any mapping to FHIR R4",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose">compose</a>" : {
+    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include">include</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113000",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Of Interest"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113001",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Rejected for Quality Reasons"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113002",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For Referring Provider"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113003",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For Surgery"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113004",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For Teaching"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113005",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For Conference"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113006",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For Therapy"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113007",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For Patient"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113008",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For Peer Review"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113009",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For Research"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113010",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Quality Issue"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113013",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Best In Set"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113018",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For Printing"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113020",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For Report Attachment"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113021",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For Litigation"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113022",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Collection of Presentation States"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113030",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Manifest"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113031",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Signed Manifest"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113032",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Complete Study Content"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113033",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Signed Complete Study Content"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113034",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Complete Acquisition Content"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113035",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Signed Complete Acquisition Content"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113036",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Group of Frames for Display"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113037",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Rejected for Patient Safety Reasons"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113038",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Incorrect Modality Worklist Entry"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113039",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Data Retention Policy Expired"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128180",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For RT Workflow"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128181",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Diagnostic Source Images"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128182",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Segmentation Result"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128183",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Registration Result"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128184",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Pre-Planning Result"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128185",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "RT Prescription Result"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128186",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Dose Calculation Image Series"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128187",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Coordinate Alignment Image Series"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128188",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "RT Treatment Simulation Result"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128189",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "RT Planning Result"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128190",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Dosimetric Result"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128191",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Patient Setup Verification Result"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128192",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "RT Treatment Session Result"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128193",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "RT Treatment Course Summary"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128194",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "RT Treatment QA Result"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128195",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For Diagnosis"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128196",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For Segmentation"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128197",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For RT Prescription"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128198",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For RT Treatment Planning"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128199",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For Plan Comparison"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128200",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For RT Plan Summation"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128201",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For Physician Review"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128202",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For Physicist Review"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128203",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For Tumor Board"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128204",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For Plan Quality Assurance"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128205",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For Machine Quality Assurance"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128206",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For Patient Setup Verification"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128207",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For Clinical Trial Submission"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128208",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For Tumor Registry"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128209",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "RT Workflow Input Used"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128210",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "RT Prescription Input Used"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128211",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "RT Treatment Planning Input Used"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128212",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "RT Plan Summation Input Used"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128213",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Physician Review Input Used"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128214",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Physicist Review Input Used"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128215",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Plan Quality Assurance Input Used"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128216",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Machine Quality Assurance Input Used"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128217",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Patient Setup Verification Input Used"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128218",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Diagnosis Input Used"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128219",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Contouring Input Used"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128220",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Plan Comparison Input Used"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128221",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Tumor Board Input Used"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128222",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Tumor Registry Input Used"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128223",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Clinical Trial Submission Input Used"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128710",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For Teaching File Export"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128711",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For Clinical Trial Export"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128713",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For Research Collection Export"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128714",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "For Publication Export"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "130370",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "RTV Rendition"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "130371",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "RTV Audio and Video Rendition"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "130372",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "RTV Stereo Video Rendition"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "130373",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "RTV Audio and Stereo Video Rendition"
+          }
+        ]
+      }
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion">expansion</a>" : {
+    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.timestamp">timestamp</a>" : "2026-02-21T19:36:42.9229177+00:00",
+    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113000",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Of Interest"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113001",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Rejected for Quality Reasons"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113002",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For Referring Provider"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113003",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For Surgery"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113004",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For Teaching"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113005",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For Conference"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113006",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For Therapy"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113007",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For Patient"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113008",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For Peer Review"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113009",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For Research"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113010",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Quality Issue"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113013",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Best In Set"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113018",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For Printing"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113020",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For Report Attachment"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113021",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For Litigation"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113022",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Collection of Presentation States"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113030",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Manifest"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113031",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Signed Manifest"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113032",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Complete Study Content"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113033",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Signed Complete Study Content"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113034",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Complete Acquisition Content"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113035",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Signed Complete Acquisition Content"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113036",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Group of Frames for Display"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113037",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Rejected for Patient Safety Reasons"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113038",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Incorrect Modality Worklist Entry"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113039",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Data Retention Policy Expired"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128180",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For RT Workflow"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128181",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Diagnostic Source Images"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128182",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Segmentation Result"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128183",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Registration Result"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128184",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Pre-Planning Result"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128185",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "RT Prescription Result"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128186",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Dose Calculation Image Series"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128187",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Coordinate Alignment Image Series"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128188",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "RT Treatment Simulation Result"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128189",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "RT Planning Result"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128190",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Dosimetric Result"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128191",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Patient Setup Verification Result"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128192",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "RT Treatment Session Result"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128193",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "RT Treatment Course Summary"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128194",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "RT Treatment QA Result"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128195",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For Diagnosis"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128196",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For Segmentation"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128197",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For RT Prescription"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128198",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For RT Treatment Planning"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128199",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For Plan Comparison"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128200",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For RT Plan Summation"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128201",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For Physician Review"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128202",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For Physicist Review"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128203",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For Tumor Board"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128204",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For Plan Quality Assurance"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128205",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For Machine Quality Assurance"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128206",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For Patient Setup Verification"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128207",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For Clinical Trial Submission"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128208",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For Tumor Registry"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128209",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "RT Workflow Input Used"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128210",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "RT Prescription Input Used"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128211",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "RT Treatment Planning Input Used"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128212",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "RT Plan Summation Input Used"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128213",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Physician Review Input Used"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128214",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Physicist Review Input Used"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128215",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Plan Quality Assurance Input Used"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128216",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Machine Quality Assurance Input Used"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128217",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Patient Setup Verification Input Used"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128218",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Diagnosis Input Used"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128219",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Contouring Input Used"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128220",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Plan Comparison Input Used"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128221",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Tumor Board Input Used"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128222",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Tumor Registry Input Used"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128223",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Clinical Trial Submission Input Used"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128710",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For Teaching File Export"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128711",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For Clinical Trial Export"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128713",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For Research Collection Export"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128714",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "For Publication Export"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "130370",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "RTV Rendition"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "130371",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "RTV Audio and Video Rendition"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "130372",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "RTV Stereo Video Rendition"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://dicom.nema.org/resources/ontology/DCM",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "3.0.1",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "130373",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "RTV Audio and Stereo Video Rendition"
+      }
+    ]
+  }
+}</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="ValueSet-R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4.xml.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="ValueSet-R5-dicom-cid-7010-KeyObjectSelectionDocumentTitle-for-R4.ttl.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-21 13:39:00 -0600">
+    2026-02-21
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir/uv/xver/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="imagingselection-2dgraphictype"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/imagingselection-2dgraphictype</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">point
+                  <a name="imagingselection-2dgraphictype-point"> </a>
+                </td>
+                <td>POINT</td>
+                <td>A single location denoted by a single (x,y) pair.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">polyline
+                  <a name="imagingselection-2dgraphictype-polyline"> </a>
+                </td>
+                <td>POLYLINE</td>
+                <td>A series of connected line segments with ordered vertices denoted by (x,y) triplets; the points need not be coplanar.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">interpolated
+                  <a name="imagingselection-2dgraphictype-interpolated"> </a>
+                </td>
+                <td>INTERPOLATED</td>
+                <td>An n-tuple list of (x,y) pair end points between which some form of implementation dependent curved lines are to be drawn. The rendered line shall pass through all the specified points.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">circle
+                  <a name="imagingselection-2dgraphictype-circle"> </a>
+                </td>
+                <td>CIRCLE</td>
+                <td>Two points shall be present; the first point is to be interpreted as the center and the second point as a point on the circumference of a circle, some form of implementation dependent representation of which is to be drawn.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">ellipse
+                  <a name="imagingselection-2dgraphictype-ellipse"> </a>
+                </td>
+                <td>ELLIPSE</td>
+                <td>An ellipse defined by four (x,y) pairs, the first two pairs specifying the endpoints of the major axis and the second two pairs specifying the endpoints of the minor axis.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="3"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="ii"/>
+  </extension>
+  <url value="http://hl7.org/fhir/imagingselection-2dgraphictype"/>
+  <version value="5.0.0"/>
+  <name value="ImagingSelection2DGraphicType"/>
+  <title value="Imaging Selection2 D Graphic Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Imaging Integration"/>
+  <contact>
+    <name value="Imaging Integration"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/imagemgt"/>
+    </telecom>
+  </contact>
+  <description value="The type of coordinates describing a 2D image region."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/imagingselection-2dgraphictype"/>
+  <content value="complete"/>
+  <concept>
+    <code value="point"/>
+    <display value="POINT"/>
+    <definition value="A single location denoted by a single (x,y) pair."/>
+  </concept>
+  <concept>
+    <code value="polyline"/>
+    <display value="POLYLINE"/>
+    <definition value="A series of connected line segments with ordered vertices denoted by (x,y) triplets; the points need not be coplanar."/>
+  </concept>
+  <concept>
+    <code value="interpolated"/>
+    <display value="INTERPOLATED"/>
+    <definition value="An n-tuple list of (x,y) pair end points between which some form of implementation dependent curved lines are to be drawn. The rendered line shall pass through all the specified points."/>
+  </concept>
+  <concept>
+    <code value="circle"/>
+    <display value="CIRCLE"/>
+    <definition value="Two points shall be present; the first point is to be interpreted as the center and the second point as a point on the circumference of a circle, some form of implementation dependent representation of which is to be drawn."/>
+  </concept>
+  <concept>
+    <code value="ellipse"/>
+    <display value="ELLIPSE"/>
+    <definition value="An ellipse defined by four (x,y) pairs, the first two pairs specifying the endpoints of the major axis and the second two pairs specifying the endpoints of the minor axis."/>
+  </concept>
+</CodeSystem>

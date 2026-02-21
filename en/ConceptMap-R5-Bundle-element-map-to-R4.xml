@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-Bundle-element-map-to-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-Bundle-element-map-to-R4</b></p><a name="R5-Bundle-element-map-to-R4"> </a><a name="hcR5-Bundle-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Bundle|5.0.0</code> to <a href="http://hl7.org/fhir/R4/bundle.html">Bundleversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Bundle.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Bundle.meta` is mapped to FHIR R4 element `Bundle.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Bundle.implicitRules` is mapped to FHIR R4 element `Bundle.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Bundle.language` is mapped to FHIR R4 element `Bundle.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Bundle.identifier` is mapped to FHIR R4 element `Bundle.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `Bundle.type` is mapped to FHIR R4 element `Bundle.type` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.timestamp (timestamp)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Bundle.timestamp` is mapped to FHIR R4 element `Bundle.timestamp` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.total (total)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Bundle.total` is mapped to FHIR R4 element `Bundle.total` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.link (link)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `Bundle.link` is mapped to FHIR R4 element `Bundle.link` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Bundle.entry.link` because `Bundle.entry.link` is defined as a content reference to `Bundle.link`.</td></tr><tr><td>Bundle.link.relation (relation)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `Bundle.link.relation` is mapped to FHIR R4 element `Bundle.link.relation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Bundle.entry.link.relation` because `Bundle.entry.link` is defined via a content reference to `Bundle.link`.</td></tr><tr><td>Bundle.link.url (url)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Bundle.link.url` is mapped to FHIR R4 element `Bundle.link.url` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Bundle.entry.link.url` because `Bundle.entry.link` is defined via a content reference to `Bundle.link`.</td></tr><tr><td>Bundle.entry (entry)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `Bundle.entry` is mapped to FHIR R4 element `Bundle.entry` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.entry.link (link)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Bundle.entry.link` is mapped to FHIR R4 element `Bundle.entry.link` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.entry.fullUrl (fullUrl)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Bundle.entry.fullUrl` is mapped to FHIR R4 element `Bundle.entry.fullUrl` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.entry.resource (resource)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Bundle.entry.resource` is mapped to FHIR R4 element `Bundle.entry.resource` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.entry.search (search)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `Bundle.entry.search` is mapped to FHIR R4 element `Bundle.entry.search` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.entry.search.mode (mode)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Bundle.entry.search.mode` is mapped to FHIR R4 element `Bundle.entry.search.mode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.entry.search.score (score)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Bundle.entry.search.score` is mapped to FHIR R4 element `Bundle.entry.search.score` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.entry.request (request)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `Bundle.entry.request` is mapped to FHIR R4 element `Bundle.entry.request` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.entry.request.method (method)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Bundle.entry.request.method` is mapped to FHIR R4 element `Bundle.entry.request.method` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.entry.request.url (url)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Bundle.entry.request.url` is mapped to FHIR R4 element `Bundle.entry.request.url` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.entry.request.ifNoneMatch (ifNoneMatch)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Bundle.entry.request.ifNoneMatch` is mapped to FHIR R4 element `Bundle.entry.request.ifNoneMatch` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.entry.request.ifModifiedSince (ifModifiedSince)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Bundle.entry.request.ifModifiedSince` is mapped to FHIR R4 element `Bundle.entry.request.ifModifiedSince` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.entry.request.ifMatch (ifMatch)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Bundle.entry.request.ifMatch` is mapped to FHIR R4 element `Bundle.entry.request.ifMatch` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.entry.request.ifNoneExist (ifNoneExist)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Bundle.entry.request.ifNoneExist` is mapped to FHIR R4 element `Bundle.entry.request.ifNoneExist` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.entry.response (response)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `Bundle.entry.response` is mapped to FHIR R4 element `Bundle.entry.response` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.entry.response.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Bundle.entry.response.status` is mapped to FHIR R4 element `Bundle.entry.response.status` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.entry.response.location (location)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Bundle.entry.response.location` is mapped to FHIR R4 element `Bundle.entry.response.location` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.entry.response.etag (etag)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Bundle.entry.response.etag` is mapped to FHIR R4 element `Bundle.entry.response.etag` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.entry.response.lastModified (lastModified)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Bundle.entry.response.lastModified` is mapped to FHIR R4 element `Bundle.entry.response.lastModified` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.entry.response.outcome (outcome)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Bundle.entry.response.outcome` is mapped to FHIR R4 element `Bundle.entry.response.outcome` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.signature (signature)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Bundle.signature` is mapped to FHIR R4 element `Bundle.signature` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Bundle|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Bundle.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.type</td><td>Element `Bundle.type` is mapped to FHIR R4 element `Bundle.type` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Bundle.link.relation (relation)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.link.relation</td><td>Element `Bundle.link.relation` is mapped to FHIR R4 element `Bundle.link.relation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Bundle.entry.link.relation` because `Bundle.entry.link` is defined via a content reference to `Bundle.link`.</td></tr><tr><td>Bundle.issues (issues)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.issues</td><td>Element `Bundle.issues` has a context of Bundle based on following the parent source element upwards and mapping to `Bundle`.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-Bundle-element-map-to-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5BundleElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 Bundle to FHIR R4 Bundle"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T13:36:55.2495959-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 Bundle to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="Bundle.meta"/>
+      <display value="meta"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Bundle.meta` is mapped to FHIR R4 element `Bundle.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Bundle.implicitRules` is mapped to FHIR R4 element `Bundle.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.language"/>
+      <display value="language"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Bundle.language` is mapped to FHIR R4 element `Bundle.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Bundle.identifier` is mapped to FHIR R4 element `Bundle.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.type"/>
+      <display value="type"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `Bundle.type` is mapped to FHIR R4 element `Bundle.type` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.timestamp"/>
+      <display value="timestamp"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Bundle.timestamp` is mapped to FHIR R4 element `Bundle.timestamp` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.total"/>
+      <display value="total"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Bundle.total` is mapped to FHIR R4 element `Bundle.total` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.link"/>
+      <display value="link"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `Bundle.link` is mapped to FHIR R4 element `Bundle.link` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Bundle.entry.link` because `Bundle.entry.link` is defined as a content reference to `Bundle.link`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.link.relation"/>
+      <display value="relation"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `Bundle.link.relation` is mapped to FHIR R4 element `Bundle.link.relation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Bundle.entry.link.relation` because `Bundle.entry.link` is defined via a content reference to `Bundle.link`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.link.url"/>
+      <display value="url"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Bundle.link.url` is mapped to FHIR R4 element `Bundle.link.url` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Bundle.entry.link.url` because `Bundle.entry.link` is defined via a content reference to `Bundle.link`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.entry"/>
+      <display value="entry"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `Bundle.entry` is mapped to FHIR R4 element `Bundle.entry` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.entry.link"/>
+      <display value="link"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Bundle.entry.link` is mapped to FHIR R4 element `Bundle.entry.link` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.entry.fullUrl"/>
+      <display value="fullUrl"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Bundle.entry.fullUrl` is mapped to FHIR R4 element `Bundle.entry.fullUrl` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.entry.resource"/>
+      <display value="resource"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Bundle.entry.resource` is mapped to FHIR R4 element `Bundle.entry.resource` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.entry.search"/>
+      <display value="search"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `Bundle.entry.search` is mapped to FHIR R4 element `Bundle.entry.search` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.entry.search.mode"/>
+      <display value="mode"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Bundle.entry.search.mode` is mapped to FHIR R4 element `Bundle.entry.search.mode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.entry.search.score"/>
+      <display value="score"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Bundle.entry.search.score` is mapped to FHIR R4 element `Bundle.entry.search.score` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.entry.request"/>
+      <display value="request"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `Bundle.entry.request` is mapped to FHIR R4 element `Bundle.entry.request` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.entry.request.method"/>
+      <display value="method"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Bundle.entry.request.method` is mapped to FHIR R4 element `Bundle.entry.request.method` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.entry.request.url"/>
+      <display value="url"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Bundle.entry.request.url` is mapped to FHIR R4 element `Bundle.entry.request.url` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.entry.request.ifNoneMatch"/>
+      <display value="ifNoneMatch"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Bundle.entry.request.ifNoneMatch` is mapped to FHIR R4 element `Bundle.entry.request.ifNoneMatch` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.entry.request.ifModifiedSince"/>
+      <display value="ifModifiedSince"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Bundle.entry.request.ifModifiedSince` is mapped to FHIR R4 element `Bundle.entry.request.ifModifiedSince` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.entry.request.ifMatch"/>
+      <display value="ifMatch"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Bundle.entry.request.ifMatch` is mapped to FHIR R4 element `Bundle.entry.request.ifMatch` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.entry.request.ifNoneExist"/>
+      <display value="ifNoneExist"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Bundle.entry.request.ifNoneExist` is mapped to FHIR R4 element `Bundle.entry.request.ifNoneExist` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.entry.response"/>
+      <display value="response"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `Bundle.entry.response` is mapped to FHIR R4 element `Bundle.entry.response` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.entry.response.status"/>
+      <display value="status"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Bundle.entry.response.status` is mapped to FHIR R4 element `Bundle.entry.response.status` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.entry.response.location"/>
+      <display value="location"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Bundle.entry.response.location` is mapped to FHIR R4 element `Bundle.entry.response.location` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.entry.response.etag"/>
+      <display value="etag"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Bundle.entry.response.etag` is mapped to FHIR R4 element `Bundle.entry.response.etag` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.entry.response.lastModified"/>
+      <display value="lastModified"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Bundle.entry.response.lastModified` is mapped to FHIR R4 element `Bundle.entry.response.lastModified` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.entry.response.outcome"/>
+      <display value="outcome"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Bundle.entry.response.outcome` is mapped to FHIR R4 element `Bundle.entry.response.outcome` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.signature"/>
+      <display value="signature"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Bundle.signature` is mapped to FHIR R4 element `Bundle.signature` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="Bundle.type"/>
+      <display value="type"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Bundle.type` is mapped to FHIR R4 element `Bundle.type` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.link.relation"/>
+      <display value="relation"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.link.relation"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Bundle.link.relation` is mapped to FHIR R4 element `Bundle.link.relation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Bundle.entry.link.relation` because `Bundle.entry.link` is defined via a content reference to `Bundle.link`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Bundle.issues"/>
+      <display value="issues"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.issues"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Bundle.issues` has a context of Bundle based on following the parent source element upwards and mapping to `Bundle`."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

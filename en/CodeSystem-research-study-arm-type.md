@@ -1,0 +1,117 @@
+# ResearchStudyArmType - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## CodeSystem: ResearchStudyArmType 
+
+ 
+Codes for the main intent of the study. 
+
+This Code system is referenced in the definition of the following value sets:
+
+* [R5ResearchStudyArmTypeForR4](ValueSet-R5-research-study-arm-type-for-R4.md)
+
+-------
+
+ [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "CodeSystem",
+  "id" : "research-study-arm-type",
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode" : "trial-use"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger" : 0
+    },
+    {
+      "extension" : [
+        {
+          "url" : "packageId",
+          "valueId" : "hl7.fhir.uv.xver-r5.r4"
+        },
+        {
+          "url" : "version",
+          "valueString" : "0.0.1-snapshot-3"
+        },
+        {
+          "url" : "uri",
+          "valueUri" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+        }
+      ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/package-source"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "brr"
+    }
+  ],
+  "url" : "http://hl7.org/fhir/research-study-arm-type",
+  "version" : "5.0.0",
+  "name" : "ResearchStudyArmType",
+  "title" : "ResearchStudy Arm Type Code System",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2022-05-15T00:55:11.085-05:00",
+  "publisher" : "Biomedical Research and Regulation",
+  "contact" : [
+    {
+      "name" : "Biomedical Research and Regulation",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/rcrim"
+        }
+      ]
+    }
+  ],
+  "description" : "Codes for the main intent of the study.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }
+      ]
+    }
+  ],
+  "caseSensitive" : true,
+  "valueSet" : "http://hl7.org/fhir/ValueSet/research-study-arm-type",
+  "content" : "complete",
+  "concept" : [
+    {
+      "code" : "active-comparator",
+      "display" : "Active Comparator"
+    },
+    {
+      "code" : "placebo-comparator",
+      "display" : "Placebo Comparator"
+    },
+    {
+      "code" : "sham-comparator",
+      "display" : "Sham Comparator"
+    },
+    {
+      "code" : "no-intervention",
+      "display" : "No Intervention"
+    },
+    {
+      "code" : "experimental",
+      "display" : "Experimental"
+    },
+    {
+      "code" : "other-arm-type",
+      "display" : "Other Arm Type"
+    }
+  ]
+}
+
+```

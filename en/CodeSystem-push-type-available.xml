@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="push-type-available"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://terminology.hl7.org/CodeSystem/push-type-available</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">specific<a name="push-type-available-specific"> </a></td><td>Specific requested changes</td></tr><tr><td style="white-space:nowrap">any<a name="push-type-available-any"> </a></td><td>Any changes</td></tr><tr><td style="white-space:nowrap">source<a name="push-type-available-source"> </a></td><td>As defined by source</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pa"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/push-type-available"/>
+  <version value="0.1.0"/>
+  <name value="Push_type_available"/>
+  <title value="Push-type-available"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2018-06-05T09:06:02-05:00"/>
+  <publisher value="Patient Administration"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/fhir"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="fhir@lists.hl7.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/fhir"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="fhir@lists.hl7.org"/>
+    </telecom>
+  </contact>
+  <description value="Type of alerts/updates the primary source can send"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/verificationresult-push-type-available|1.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="specific"/>
+    <display value="Specific requested changes"/>
+  </concept>
+  <concept>
+    <code value="any"/>
+    <display value="Any changes"/>
+  </concept>
+  <concept>
+    <code value="source"/>
+    <display value="As defined by source"/>
+  </concept>
+</CodeSystem>

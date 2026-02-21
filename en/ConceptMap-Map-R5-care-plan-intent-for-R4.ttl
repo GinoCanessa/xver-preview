@@ -1,0 +1,162 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/Map-R5-care-plan-intent-for-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Map-R5-care-plan-intent-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap Map-R5-care-plan-intent-for-R4</b></p><a name=\"Map-R5-care-plan-intent-for-R4\"> </a><a name=\"hcMap-R5-care-plan-intent-for-R4\"> </a><p>Mapping from http://hl7.org/fhir/ValueSet/care-plan-intent|5.0.0 to <a href=\"http://hl7.org/fhir/R4/valueset-care-plan-intent.html\">Care Plan Intent</a></p><br/><p><b>Group 1 </b>Mapping from <a href=\"CodeSystem-request-intent.html\">RequestIntentversion: 5.0.0)</a> to <a href=\"CodeSystem-request-intent.html\">RequestIntentversion: 5.0.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>option</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>option</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/care-plan-intent|5.0.0` to `http://hl7.org/fhir/ValueSet/care-plan-intent|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-CarePlanIntent-R4B-CarePlanIntent` (`ConceptMap-R5-CarePlanIntent-R4B-CarePlanIntent.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/care-plan-intent|4.3.0` to `http://hl7.org/fhir/ValueSet/care-plan-intent|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-CarePlanIntent-R4-CarePlanIntent` (`ConceptMap-R4B-CarePlanIntent-R4-CarePlanIntent.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/care-plan-intent|5.0.0#option` to `http://hl7.org/fhir/ValueSet/care-plan-intent|4.0.1#option` as Equivalent in `ConceptMap-R5-CarePlanIntent-R4-CarePlanIntent.json`, which results in Equivalent.</td></tr><tr><td>order</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>order</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/care-plan-intent|5.0.0` to `http://hl7.org/fhir/ValueSet/care-plan-intent|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-CarePlanIntent-R4B-CarePlanIntent` (`ConceptMap-R5-CarePlanIntent-R4B-CarePlanIntent.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/care-plan-intent|4.3.0` to `http://hl7.org/fhir/ValueSet/care-plan-intent|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-CarePlanIntent-R4-CarePlanIntent` (`ConceptMap-R4B-CarePlanIntent-R4-CarePlanIntent.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/care-plan-intent|5.0.0#order` to `http://hl7.org/fhir/ValueSet/care-plan-intent|4.0.1#order` as Equivalent in `ConceptMap-R5-CarePlanIntent-R4-CarePlanIntent.json`, which results in Equivalent.</td></tr><tr><td>plan</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>plan</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/care-plan-intent|5.0.0` to `http://hl7.org/fhir/ValueSet/care-plan-intent|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-CarePlanIntent-R4B-CarePlanIntent` (`ConceptMap-R5-CarePlanIntent-R4B-CarePlanIntent.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/care-plan-intent|4.3.0` to `http://hl7.org/fhir/ValueSet/care-plan-intent|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-CarePlanIntent-R4-CarePlanIntent` (`ConceptMap-R4B-CarePlanIntent-R4-CarePlanIntent.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/care-plan-intent|5.0.0#plan` to `http://hl7.org/fhir/ValueSet/care-plan-intent|4.0.1#plan` as Equivalent in `ConceptMap-R5-CarePlanIntent-R4-CarePlanIntent.json`, which results in Equivalent.</td></tr><tr><td>proposal</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>proposal</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/care-plan-intent|5.0.0` to `http://hl7.org/fhir/ValueSet/care-plan-intent|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-CarePlanIntent-R4B-CarePlanIntent` (`ConceptMap-R5-CarePlanIntent-R4B-CarePlanIntent.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/care-plan-intent|4.3.0` to `http://hl7.org/fhir/ValueSet/care-plan-intent|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-CarePlanIntent-R4-CarePlanIntent` (`ConceptMap-R4B-CarePlanIntent-R4-CarePlanIntent.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/care-plan-intent|5.0.0#proposal` to `http://hl7.org/fhir/ValueSet/care-plan-intent|4.0.1#proposal` as Equivalent in `ConceptMap-R5-CarePlanIntent-R4-CarePlanIntent.json`, which results in Equivalent.</td></tr><tr><td>directive</td><td colspan=\"3\" style=\"background-color: #efefef\">(not mapped)</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-care-plan-intent-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-care-plan-intent-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "MapR5CarePlanIntentForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for ValueSet R5-care-plan-intent-for-R4 from FHIR R5 to FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T13:36:49.2996495-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of concepts from ValueSet `http://hl7.org/fhir/ValueSet/care-plan-intent|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/ValueSet/care-plan-intent|5.0.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/care-plan-intent?version=5.0.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/ValueSet/care-plan-intent|4.0.1"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/care-plan-intent?version=4.0.1>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/request-intent"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/request-intent>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/request-intent"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/request-intent>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "option" ] ;
+       fhir:display [ fhir:v "Option" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "option" ] ;
+         fhir:display [ fhir:v "Option" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/care-plan-intent|5.0.0` to `http://hl7.org/fhir/ValueSet/care-plan-intent|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-CarePlanIntent-R4B-CarePlanIntent` (`ConceptMap-R5-CarePlanIntent-R4B-CarePlanIntent.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/care-plan-intent|4.3.0` to `http://hl7.org/fhir/ValueSet/care-plan-intent|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-CarePlanIntent-R4-CarePlanIntent` (`ConceptMap-R4B-CarePlanIntent-R4-CarePlanIntent.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/care-plan-intent|5.0.0#option` to `http://hl7.org/fhir/ValueSet/care-plan-intent|4.0.1#option` as Equivalent in `ConceptMap-R5-CarePlanIntent-R4-CarePlanIntent.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "order" ] ;
+       fhir:display [ fhir:v "Order" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "order" ] ;
+         fhir:display [ fhir:v "Order" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/care-plan-intent|5.0.0` to `http://hl7.org/fhir/ValueSet/care-plan-intent|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-CarePlanIntent-R4B-CarePlanIntent` (`ConceptMap-R5-CarePlanIntent-R4B-CarePlanIntent.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/care-plan-intent|4.3.0` to `http://hl7.org/fhir/ValueSet/care-plan-intent|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-CarePlanIntent-R4-CarePlanIntent` (`ConceptMap-R4B-CarePlanIntent-R4-CarePlanIntent.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/care-plan-intent|5.0.0#order` to `http://hl7.org/fhir/ValueSet/care-plan-intent|4.0.1#order` as Equivalent in `ConceptMap-R5-CarePlanIntent-R4-CarePlanIntent.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "plan" ] ;
+       fhir:display [ fhir:v "Plan" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "plan" ] ;
+         fhir:display [ fhir:v "Plan" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/care-plan-intent|5.0.0` to `http://hl7.org/fhir/ValueSet/care-plan-intent|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-CarePlanIntent-R4B-CarePlanIntent` (`ConceptMap-R5-CarePlanIntent-R4B-CarePlanIntent.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/care-plan-intent|4.3.0` to `http://hl7.org/fhir/ValueSet/care-plan-intent|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-CarePlanIntent-R4-CarePlanIntent` (`ConceptMap-R4B-CarePlanIntent-R4-CarePlanIntent.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/care-plan-intent|5.0.0#plan` to `http://hl7.org/fhir/ValueSet/care-plan-intent|4.0.1#plan` as Equivalent in `ConceptMap-R5-CarePlanIntent-R4-CarePlanIntent.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "proposal" ] ;
+       fhir:display [ fhir:v "Proposal" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "proposal" ] ;
+         fhir:display [ fhir:v "Proposal" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/care-plan-intent|5.0.0` to `http://hl7.org/fhir/ValueSet/care-plan-intent|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-CarePlanIntent-R4B-CarePlanIntent` (`ConceptMap-R5-CarePlanIntent-R4B-CarePlanIntent.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/care-plan-intent|4.3.0` to `http://hl7.org/fhir/ValueSet/care-plan-intent|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-CarePlanIntent-R4-CarePlanIntent` (`ConceptMap-R4B-CarePlanIntent-R4-CarePlanIntent.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/care-plan-intent|5.0.0#proposal` to `http://hl7.org/fhir/ValueSet/care-plan-intent|4.0.1#proposal` as Equivalent in `ConceptMap-R5-CarePlanIntent-R4-CarePlanIntent.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "directive" ] ;
+       fhir:display [ fhir:v "Directive" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

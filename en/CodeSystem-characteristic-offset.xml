@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="characteristic-offset"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/characteristic-offset</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">UNL
+                  <a name="characteristic-offset-UNL"> </a>
+                </td>
+                <td>Upper Normal Limit</td>
+                <td>The upper bound of the reference range.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">LNL
+                  <a name="characteristic-offset-LNL"> </a>
+                </td>
+                <td>Lower Normal Limit</td>
+                <td>The lower bound of the reference range.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="draft"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="cds"/>
+  </extension>
+  <url value="http://hl7.org/fhir/characteristic-offset"/>
+  <version value="5.0.0"/>
+  <name value="CharacteristicOffset"/>
+  <title value="Characteristic Offset"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2022-03-03T23:55:11-06:00"/>
+  <publisher value="Clinical Decision Support"/>
+  <contact>
+    <name value="Clinical Decision Support"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/dss"/>
+    </telecom>
+  </contact>
+  <description value="Reference point for characteristic.valueQuantity."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/characteristic-offset"/>
+  <content value="complete"/>
+  <concept>
+    <code value="UNL"/>
+    <display value="Upper Normal Limit"/>
+    <definition value="The upper bound of the reference range."/>
+  </concept>
+  <concept>
+    <code value="LNL"/>
+    <display value="Lower Normal Limit"/>
+    <definition value="The lower bound of the reference range."/>
+  </concept>
+</CodeSystem>

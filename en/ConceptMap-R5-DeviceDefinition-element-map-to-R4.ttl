@@ -1,0 +1,799 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-DeviceDefinition-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-DeviceDefinition-element-map-to-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-DeviceDefinition-element-map-to-R4</b></p><a name=\"R5-DeviceDefinition-element-map-to-R4\"> </a><a name=\"hcR5-DeviceDefinition-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/DeviceDefinition|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/devicedefinition.html\">DeviceDefinitionversion: 4.0.1)</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/DeviceDefinition|5.0.0</td><td/><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/DeviceDefinition|4.0.1</td><td/></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.meta</td><td style=\"border-left-width: 0px\">meta</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.meta` is mapped to FHIR R4 element `DeviceDefinition.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.implicitRules` is mapped to FHIR R4 element `DeviceDefinition.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.language</td><td style=\"border-left-width: 0px\">language</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.language` is mapped to FHIR R4 element `DeviceDefinition.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.text</td><td style=\"border-left-width: 0px\">text</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.text` is mapped to FHIR R4 element `DeviceDefinition.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.contained</td><td style=\"border-left-width: 0px\">contained</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.contained` is mapped to FHIR R4 element `DeviceDefinition.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.identifier` is mapped to FHIR R4 element `DeviceDefinition.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.udiDeviceIdentifier</td><td style=\"border-left-width: 0px\">udiDeviceIdentifier</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.udiDeviceIdentifier` is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `DeviceDefinition.packaging.udiDeviceIdentifier` because `DeviceDefinition.packaging.udiDeviceIdentifier` is defined as a content reference to `DeviceDefinition.udiDeviceIdentifier`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.udiDeviceIdentifier.deviceIdentifier</td><td style=\"border-left-width: 0px\">deviceIdentifier</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.udiDeviceIdentifier.deviceIdentifier` is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier.deviceIdentifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `DeviceDefinition.packaging.udiDeviceIdentifier.deviceIdentifier` because `DeviceDefinition.packaging.udiDeviceIdentifier` is defined via a content reference to `DeviceDefinition.udiDeviceIdentifier`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.udiDeviceIdentifier.issuer</td><td style=\"border-left-width: 0px\">issuer</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.udiDeviceIdentifier.issuer` is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier.issuer` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `DeviceDefinition.packaging.udiDeviceIdentifier.issuer` because `DeviceDefinition.packaging.udiDeviceIdentifier` is defined via a content reference to `DeviceDefinition.udiDeviceIdentifier`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.udiDeviceIdentifier.jurisdiction</td><td style=\"border-left-width: 0px\">jurisdiction</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.udiDeviceIdentifier.jurisdiction` is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier.jurisdiction` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `DeviceDefinition.packaging.udiDeviceIdentifier.jurisdiction` because `DeviceDefinition.packaging.udiDeviceIdentifier` is defined via a content reference to `DeviceDefinition.udiDeviceIdentifier`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.manufacturer</td><td style=\"border-left-width: 0px\">manufacturer</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Note that the target element context `DeviceDefinition.manufacturer[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceDefinition`.\nElement `DeviceDefinition.manufacturer` is mapped to FHIR R4 element `DeviceDefinition.manufacturer[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `DeviceDefinition.manufacturer[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceDefinition`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.deviceName</td><td style=\"border-left-width: 0px\">deviceName</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.deviceName` is mapped to FHIR R4 element `DeviceDefinition.deviceName` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.deviceName.name</td><td style=\"border-left-width: 0px\">name</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.deviceName.name` is mapped to FHIR R4 element `DeviceDefinition.deviceName.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.deviceName.type</td><td style=\"border-left-width: 0px\">type</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.deviceName.type` is mapped to FHIR R4 element `DeviceDefinition.deviceName.type` as `SourceIsNarrowerThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.modelNumber</td><td style=\"border-left-width: 0px\">modelNumber</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.modelNumber` is mapped to FHIR R4 element `DeviceDefinition.modelNumber` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.conformsTo</td><td style=\"border-left-width: 0px\">conformsTo</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceDefinition.conformsTo`: `http://hl7.org/fhir/StructureDefinition/device-conformsTo`.\nElement `DeviceDefinition.conformsTo` is mapped to FHIR R4 element `DeviceDefinition.specialization` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.conformsTo.category</td><td style=\"border-left-width: 0px\">category</td><td><a href=\"CodeSystem-concept-map-relationship.html#narrower\" title=\"narrower\">narrower</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.conformsTo.category` is mapped to FHIR R4 element `DeviceDefinition.specialization` as `SourceIsNarrowerThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.conformsTo.specification</td><td style=\"border-left-width: 0px\">specification</td><td><a href=\"CodeSystem-concept-map-relationship.html#narrower\" title=\"narrower\">narrower</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.conformsTo.specification` is mapped to FHIR R4 element `DeviceDefinition.specialization` as `SourceIsNarrowerThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.conformsTo.version</td><td style=\"border-left-width: 0px\">version</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.conformsTo.version` is mapped to FHIR R4 element `DeviceDefinition.specialization.version` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.conformsTo.source</td><td style=\"border-left-width: 0px\">source</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.conformsTo.source` is mapped to FHIR R4 element `DeviceDefinition.specialization` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.version</td><td style=\"border-left-width: 0px\">version</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.version` is mapped to FHIR R4 element `DeviceDefinition.version` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.safety</td><td style=\"border-left-width: 0px\">safety</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.safety` is mapped to FHIR R4 element `DeviceDefinition.safety` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.shelfLifeStorage</td><td style=\"border-left-width: 0px\">shelfLifeStorage</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.shelfLifeStorage` is mapped to FHIR R4 element `DeviceDefinition.shelfLifeStorage` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.languageCode</td><td style=\"border-left-width: 0px\">languageCode</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.languageCode` is mapped to FHIR R4 element `DeviceDefinition.languageCode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.property</td><td style=\"border-left-width: 0px\">property</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.property` is mapped to FHIR R4 element `DeviceDefinition.property` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.property.type</td><td style=\"border-left-width: 0px\">type</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.property.type` is mapped to FHIR R4 element `DeviceDefinition.property.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DeviceDefinition.property.value[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">value[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueQuantity` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nElement `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueCode` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueQuantity` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nElement `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueCode` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.owner</td><td style=\"border-left-width: 0px\">owner</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.owner` is mapped to FHIR R4 element `DeviceDefinition.owner` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.contact</td><td style=\"border-left-width: 0px\">contact</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceDefinition.contact`: `http://hl7.org/fhir/StructureDefinition/artifact-contact`.\nElement `DeviceDefinition.contact` is mapped to FHIR R4 element `DeviceDefinition.contact` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.note</td><td style=\"border-left-width: 0px\">note</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.note` is mapped to FHIR R4 element `DeviceDefinition.note` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.material</td><td style=\"border-left-width: 0px\">material</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.material` is mapped to FHIR R4 element `DeviceDefinition.material` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.material.substance</td><td style=\"border-left-width: 0px\">substance</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.material.substance` is mapped to FHIR R4 element `DeviceDefinition.material.substance` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.material.alternate</td><td style=\"border-left-width: 0px\">alternate</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.material.alternate` is mapped to FHIR R4 element `DeviceDefinition.material.alternate` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.material.allergenicIndicator</td><td style=\"border-left-width: 0px\">allergenicIndicator</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.material.allergenicIndicator` is mapped to FHIR R4 element `DeviceDefinition.material.allergenicIndicator` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/DeviceDefinition|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Packversion: 5.2.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>DeviceDefinition.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-description</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceDefinition.description`: `http://hl7.org/fhir/StructureDefinition/artifact-description`.\nElement `DeviceDefinition.description` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.hasPart.reference (reference)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceDefinition.hasPart.reference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceDefinition.hasPart.reference` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.packaging.distributor.organizationReference (organizationReference)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceDefinition.packaging.distributor.organizationReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceDefinition.packaging.distributor.organizationReference` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/DeviceDefinition|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>DeviceDefinition.udiDeviceIdentifier.marketDistribution (marketDistribution)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.udiDeviceIdentifier.marketDistribution</td><td>Element `DeviceDefinition.udiDeviceIdentifier.marketDistribution` has a context of DeviceDefinition.udiDeviceIdentifier based on following the parent source element upwards and mapping to `DeviceDefinition`.\nNote available implied context: `DeviceDefinition.packaging.udiDeviceIdentifier` because `DeviceDefinition.packaging.udiDeviceIdentifier` is defined via a content reference to `DeviceDefinition.udiDeviceIdentifier`.</td></tr><tr><td>DeviceDefinition.regulatoryIdentifier (regulatoryIdentifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.regulatoryIdentifier</td><td>Element `DeviceDefinition.regulatoryIdentifier` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.partNumber (partNumber)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.partNumber</td><td>Element `DeviceDefinition.partNumber` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.classification (classification)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.classification</td><td>Element `DeviceDefinition.classification` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.hasPart (hasPart)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.hasPart</td><td>Element `DeviceDefinition.hasPart` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.packaging (packaging)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.packaging</td><td>Element `DeviceDefinition.packaging` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.packaging.udiDeviceIdentifier (udiDeviceIdentifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.udiDeviceIdentifier</td><td>Element `DeviceDefinition.packaging.udiDeviceIdentifier` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.packaging.packaging (packaging)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.packaging</td><td>Element `DeviceDefinition.packaging.packaging` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.version (version)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.version</td><td>Element `DeviceDefinition.version` is mapped to FHIR R4 element `DeviceDefinition.version` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>DeviceDefinition.property.value[x] (value[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.property.value</td><td>Element `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueQuantity` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nElement `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueCode` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>DeviceDefinition.link (link)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.link</td><td>Element `DeviceDefinition.link` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.productionIdentifierInUDI (productionIdentifierInUDI)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.productionIdentifierInUDI</td><td>Element `DeviceDefinition.productionIdentifierInUDI` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.guideline (guideline)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.guideline</td><td>Element `DeviceDefinition.guideline` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.correctiveAction (correctiveAction)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.correctiveAction</td><td>Element `DeviceDefinition.correctiveAction` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.chargeItem (chargeItem)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.chargeItem</td><td>Element `DeviceDefinition.chargeItem` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr></table><hr/><p><b>Group 4 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/DeviceDefinition|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>DeviceDefinition.udiDeviceIdentifier.marketDistribution.marketPeriod (marketPeriod)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>marketPeriod</td><td>Element `DeviceDefinition.udiDeviceIdentifier.marketDistribution.marketPeriod` has a context of DeviceDefinition.udiDeviceIdentifier based on following the parent source element upwards and mapping to `DeviceDefinition`.\nNote available implied context: `DeviceDefinition.packaging.udiDeviceIdentifier` because `DeviceDefinition.packaging.udiDeviceIdentifier` is defined via a content reference to `DeviceDefinition.udiDeviceIdentifier`.</td></tr><tr><td>DeviceDefinition.udiDeviceIdentifier.marketDistribution.subJurisdiction (subJurisdiction)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>subJurisdiction</td><td>Element `DeviceDefinition.udiDeviceIdentifier.marketDistribution.subJurisdiction` has a context of DeviceDefinition.udiDeviceIdentifier based on following the parent source element upwards and mapping to `DeviceDefinition`.\nNote available implied context: `DeviceDefinition.packaging.udiDeviceIdentifier` because `DeviceDefinition.packaging.udiDeviceIdentifier` is defined via a content reference to `DeviceDefinition.udiDeviceIdentifier`.</td></tr><tr><td>DeviceDefinition.regulatoryIdentifier.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>type</td><td>Element `DeviceDefinition.regulatoryIdentifier.type` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.regulatoryIdentifier.deviceIdentifier (deviceIdentifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>deviceIdentifier</td><td>Element `DeviceDefinition.regulatoryIdentifier.deviceIdentifier` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.regulatoryIdentifier.issuer (issuer)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>issuer</td><td>Element `DeviceDefinition.regulatoryIdentifier.issuer` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.regulatoryIdentifier.jurisdiction (jurisdiction)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>jurisdiction</td><td>Element `DeviceDefinition.regulatoryIdentifier.jurisdiction` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.classification.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>type</td><td>Element `DeviceDefinition.classification.type` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.classification.justification (justification)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>justification</td><td>Element `DeviceDefinition.classification.justification` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.hasPart.count (count)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>count</td><td>Element `DeviceDefinition.hasPart.count` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.packaging.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>identifier</td><td>Element `DeviceDefinition.packaging.identifier` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.packaging.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>type</td><td>Element `DeviceDefinition.packaging.type` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.packaging.count (count)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>count</td><td>Element `DeviceDefinition.packaging.count` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.packaging.distributor (distributor)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>distributor</td><td>Element `DeviceDefinition.packaging.distributor` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.packaging.distributor.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>name</td><td>Element `DeviceDefinition.packaging.distributor.name` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.version.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>type</td><td>Element `DeviceDefinition.version.type` has a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.version.component (component)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>component</td><td>Element `DeviceDefinition.version.component` has a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.version.value (value)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>value</td><td>Element `DeviceDefinition.version.value` has a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.link.relation (relation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>relation</td><td>Element `DeviceDefinition.link.relation` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.link.relatedDevice (relatedDevice)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>relatedDevice</td><td>Element `DeviceDefinition.link.relatedDevice` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.guideline.useContext (useContext)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>useContext</td><td>Element `DeviceDefinition.guideline.useContext` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.guideline.usageInstruction (usageInstruction)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>usageInstruction</td><td>Element `DeviceDefinition.guideline.usageInstruction` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.guideline.relatedArtifact (relatedArtifact)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>relatedArtifact</td><td>Element `DeviceDefinition.guideline.relatedArtifact` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.guideline.indication (indication)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>indication</td><td>Element `DeviceDefinition.guideline.indication` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.guideline.contraindication (contraindication)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>contraindication</td><td>Element `DeviceDefinition.guideline.contraindication` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.guideline.warning (warning)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>warning</td><td>Element `DeviceDefinition.guideline.warning` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.guideline.intendedUse (intendedUse)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>intendedUse</td><td>Element `DeviceDefinition.guideline.intendedUse` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.correctiveAction.recall (recall)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>recall</td><td>Element `DeviceDefinition.correctiveAction.recall` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.correctiveAction.scope (scope)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>scope</td><td>Element `DeviceDefinition.correctiveAction.scope` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.correctiveAction.period (period)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>period</td><td>Element `DeviceDefinition.correctiveAction.period` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.chargeItem.chargeItemCode (chargeItemCode)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>chargeItemCode</td><td>Element `DeviceDefinition.chargeItem.chargeItemCode` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.chargeItem.count (count)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>count</td><td>Element `DeviceDefinition.chargeItem.count` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.chargeItem.effectivePeriod (effectivePeriod)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>effectivePeriod</td><td>Element `DeviceDefinition.chargeItem.effectivePeriod` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr><tr><td>DeviceDefinition.chargeItem.useContext (useContext)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>useContext</td><td>Element `DeviceDefinition.chargeItem.useContext` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-DeviceDefinition-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-DeviceDefinition-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5DeviceDefinitionElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 DeviceDefinition to FHIR R4 DeviceDefinition"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T13:36:55.9274609-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 DeviceDefinition to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/DeviceDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/DeviceDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/DeviceDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/DeviceDefinition>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "DeviceDefinition.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.meta` is mapped to FHIR R4 element `DeviceDefinition.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.implicitRules` is mapped to FHIR R4 element `DeviceDefinition.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.language` is mapped to FHIR R4 element `DeviceDefinition.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.text` is mapped to FHIR R4 element `DeviceDefinition.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.contained` is mapped to FHIR R4 element `DeviceDefinition.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.identifier` is mapped to FHIR R4 element `DeviceDefinition.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.udiDeviceIdentifier" ] ;
+       fhir:display [ fhir:v "udiDeviceIdentifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.udiDeviceIdentifier` is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `DeviceDefinition.packaging.udiDeviceIdentifier` because `DeviceDefinition.packaging.udiDeviceIdentifier` is defined as a content reference to `DeviceDefinition.udiDeviceIdentifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.udiDeviceIdentifier.deviceIdentifier" ] ;
+       fhir:display [ fhir:v "deviceIdentifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.udiDeviceIdentifier.deviceIdentifier` is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier.deviceIdentifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `DeviceDefinition.packaging.udiDeviceIdentifier.deviceIdentifier` because `DeviceDefinition.packaging.udiDeviceIdentifier` is defined via a content reference to `DeviceDefinition.udiDeviceIdentifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.udiDeviceIdentifier.issuer" ] ;
+       fhir:display [ fhir:v "issuer" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.udiDeviceIdentifier.issuer` is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier.issuer` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `DeviceDefinition.packaging.udiDeviceIdentifier.issuer` because `DeviceDefinition.packaging.udiDeviceIdentifier` is defined via a content reference to `DeviceDefinition.udiDeviceIdentifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.udiDeviceIdentifier.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.udiDeviceIdentifier.jurisdiction` is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier.jurisdiction` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `DeviceDefinition.packaging.udiDeviceIdentifier.jurisdiction` because `DeviceDefinition.packaging.udiDeviceIdentifier` is defined via a content reference to `DeviceDefinition.udiDeviceIdentifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.manufacturer" ] ;
+       fhir:display [ fhir:v "manufacturer" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `DeviceDefinition.manufacturer[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceDefinition`.\nElement `DeviceDefinition.manufacturer` is mapped to FHIR R4 element `DeviceDefinition.manufacturer[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `DeviceDefinition.manufacturer[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.deviceName" ] ;
+       fhir:display [ fhir:v "deviceName" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.deviceName` is mapped to FHIR R4 element `DeviceDefinition.deviceName` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.deviceName.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.deviceName.name` is mapped to FHIR R4 element `DeviceDefinition.deviceName.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.deviceName.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.deviceName.type` is mapped to FHIR R4 element `DeviceDefinition.deviceName.type` as `SourceIsNarrowerThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.modelNumber" ] ;
+       fhir:display [ fhir:v "modelNumber" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.modelNumber` is mapped to FHIR R4 element `DeviceDefinition.modelNumber` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.conformsTo" ] ;
+       fhir:display [ fhir:v "conformsTo" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceDefinition.conformsTo`: `http://hl7.org/fhir/StructureDefinition/device-conformsTo`.\nElement `DeviceDefinition.conformsTo` is mapped to FHIR R4 element `DeviceDefinition.specialization` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.conformsTo.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "narrower" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.conformsTo.category` is mapped to FHIR R4 element `DeviceDefinition.specialization` as `SourceIsNarrowerThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.conformsTo.specification" ] ;
+       fhir:display [ fhir:v "specification" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "narrower" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.conformsTo.specification` is mapped to FHIR R4 element `DeviceDefinition.specialization` as `SourceIsNarrowerThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.conformsTo.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.conformsTo.version` is mapped to FHIR R4 element `DeviceDefinition.specialization.version` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.conformsTo.source" ] ;
+       fhir:display [ fhir:v "source" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.conformsTo.source` is mapped to FHIR R4 element `DeviceDefinition.specialization` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.version` is mapped to FHIR R4 element `DeviceDefinition.version` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.safety" ] ;
+       fhir:display [ fhir:v "safety" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.safety` is mapped to FHIR R4 element `DeviceDefinition.safety` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.shelfLifeStorage" ] ;
+       fhir:display [ fhir:v "shelfLifeStorage" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.shelfLifeStorage` is mapped to FHIR R4 element `DeviceDefinition.shelfLifeStorage` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.languageCode" ] ;
+       fhir:display [ fhir:v "languageCode" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.languageCode` is mapped to FHIR R4 element `DeviceDefinition.languageCode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.property" ] ;
+       fhir:display [ fhir:v "property" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.property` is mapped to FHIR R4 element `DeviceDefinition.property` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.property.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.property.type` is mapped to FHIR R4 element `DeviceDefinition.property.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.property.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueQuantity` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nElement `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueCode` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] [
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueQuantity` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nElement `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueCode` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.owner" ] ;
+       fhir:display [ fhir:v "owner" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.owner` is mapped to FHIR R4 element `DeviceDefinition.owner` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceDefinition.contact`: `http://hl7.org/fhir/StructureDefinition/artifact-contact`.\nElement `DeviceDefinition.contact` is mapped to FHIR R4 element `DeviceDefinition.contact` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.note` is mapped to FHIR R4 element `DeviceDefinition.note` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.material" ] ;
+       fhir:display [ fhir:v "material" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.material` is mapped to FHIR R4 element `DeviceDefinition.material` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.material.substance" ] ;
+       fhir:display [ fhir:v "substance" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.material.substance` is mapped to FHIR R4 element `DeviceDefinition.material.substance` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.material.alternate" ] ;
+       fhir:display [ fhir:v "alternate" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.material.alternate` is mapped to FHIR R4 element `DeviceDefinition.material.alternate` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.material.allergenicIndicator" ] ;
+       fhir:display [ fhir:v "allergenicIndicator" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.material.allergenicIndicator` is mapped to FHIR R4 element `DeviceDefinition.material.allergenicIndicator` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/DeviceDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/DeviceDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.2.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "DeviceDefinition.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-description" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceDefinition.description`: `http://hl7.org/fhir/StructureDefinition/artifact-description`.\nElement `DeviceDefinition.description` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.hasPart.reference" ] ;
+       fhir:display [ fhir:v "reference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceDefinition.hasPart.reference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceDefinition.hasPart.reference` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.packaging.distributor.organizationReference" ] ;
+       fhir:display [ fhir:v "organizationReference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceDefinition.packaging.distributor.organizationReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceDefinition.packaging.distributor.organizationReference` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/DeviceDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/DeviceDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "DeviceDefinition.udiDeviceIdentifier.marketDistribution" ] ;
+       fhir:display [ fhir:v "marketDistribution" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.udiDeviceIdentifier.marketDistribution" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.udiDeviceIdentifier.marketDistribution` has a context of DeviceDefinition.udiDeviceIdentifier based on following the parent source element upwards and mapping to `DeviceDefinition`.\nNote available implied context: `DeviceDefinition.packaging.udiDeviceIdentifier` because `DeviceDefinition.packaging.udiDeviceIdentifier` is defined via a content reference to `DeviceDefinition.udiDeviceIdentifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.regulatoryIdentifier" ] ;
+       fhir:display [ fhir:v "regulatoryIdentifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.regulatoryIdentifier" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.regulatoryIdentifier` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.partNumber" ] ;
+       fhir:display [ fhir:v "partNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.partNumber" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.partNumber` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.classification" ] ;
+       fhir:display [ fhir:v "classification" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.classification" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.classification` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.hasPart" ] ;
+       fhir:display [ fhir:v "hasPart" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.hasPart" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.hasPart` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.packaging" ] ;
+       fhir:display [ fhir:v "packaging" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.packaging" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.packaging` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.packaging.udiDeviceIdentifier" ] ;
+       fhir:display [ fhir:v "udiDeviceIdentifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.udiDeviceIdentifier" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.packaging.udiDeviceIdentifier` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.packaging.packaging" ] ;
+       fhir:display [ fhir:v "packaging" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.packaging" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.packaging.packaging` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.version" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.version` is mapped to FHIR R4 element `DeviceDefinition.version` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.property.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.property.value" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueQuantity` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nElement `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueCode` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.link" ] ;
+       fhir:display [ fhir:v "link" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.link" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.link` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.productionIdentifierInUDI" ] ;
+       fhir:display [ fhir:v "productionIdentifierInUDI" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.productionIdentifierInUDI" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.productionIdentifierInUDI` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.guideline" ] ;
+       fhir:display [ fhir:v "guideline" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.guideline" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.guideline` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.correctiveAction" ] ;
+       fhir:display [ fhir:v "correctiveAction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.correctiveAction" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.correctiveAction` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.chargeItem" ] ;
+       fhir:display [ fhir:v "chargeItem" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.chargeItem" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.chargeItem` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/DeviceDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/DeviceDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "DeviceDefinition.udiDeviceIdentifier.marketDistribution.marketPeriod" ] ;
+       fhir:display [ fhir:v "marketPeriod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "marketPeriod" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.udiDeviceIdentifier.marketDistribution.marketPeriod` has a context of DeviceDefinition.udiDeviceIdentifier based on following the parent source element upwards and mapping to `DeviceDefinition`.\nNote available implied context: `DeviceDefinition.packaging.udiDeviceIdentifier` because `DeviceDefinition.packaging.udiDeviceIdentifier` is defined via a content reference to `DeviceDefinition.udiDeviceIdentifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.udiDeviceIdentifier.marketDistribution.subJurisdiction" ] ;
+       fhir:display [ fhir:v "subJurisdiction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "subJurisdiction" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.udiDeviceIdentifier.marketDistribution.subJurisdiction` has a context of DeviceDefinition.udiDeviceIdentifier based on following the parent source element upwards and mapping to `DeviceDefinition`.\nNote available implied context: `DeviceDefinition.packaging.udiDeviceIdentifier` because `DeviceDefinition.packaging.udiDeviceIdentifier` is defined via a content reference to `DeviceDefinition.udiDeviceIdentifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.regulatoryIdentifier.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.regulatoryIdentifier.type` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.regulatoryIdentifier.deviceIdentifier" ] ;
+       fhir:display [ fhir:v "deviceIdentifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "deviceIdentifier" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.regulatoryIdentifier.deviceIdentifier` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.regulatoryIdentifier.issuer" ] ;
+       fhir:display [ fhir:v "issuer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "issuer" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.regulatoryIdentifier.issuer` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.regulatoryIdentifier.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.regulatoryIdentifier.jurisdiction` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.classification.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.classification.type` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.classification.justification" ] ;
+       fhir:display [ fhir:v "justification" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "justification" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.classification.justification` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.hasPart.count" ] ;
+       fhir:display [ fhir:v "count" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "count" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.hasPart.count` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.packaging.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "identifier" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.packaging.identifier` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.packaging.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.packaging.type` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.packaging.count" ] ;
+       fhir:display [ fhir:v "count" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "count" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.packaging.count` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.packaging.distributor" ] ;
+       fhir:display [ fhir:v "distributor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "distributor" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.packaging.distributor` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.packaging.distributor.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "name" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.packaging.distributor.name` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.version.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.version.type` has a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.version.component" ] ;
+       fhir:display [ fhir:v "component" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "component" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.version.component` has a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.version.value" ] ;
+       fhir:display [ fhir:v "value" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "value" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.version.value` has a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.link.relation" ] ;
+       fhir:display [ fhir:v "relation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "relation" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.link.relation` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.link.relatedDevice" ] ;
+       fhir:display [ fhir:v "relatedDevice" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "relatedDevice" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.link.relatedDevice` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.guideline.useContext" ] ;
+       fhir:display [ fhir:v "useContext" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "useContext" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.guideline.useContext` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.guideline.usageInstruction" ] ;
+       fhir:display [ fhir:v "usageInstruction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "usageInstruction" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.guideline.usageInstruction` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.guideline.relatedArtifact" ] ;
+       fhir:display [ fhir:v "relatedArtifact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "relatedArtifact" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.guideline.relatedArtifact` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.guideline.indication" ] ;
+       fhir:display [ fhir:v "indication" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "indication" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.guideline.indication` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.guideline.contraindication" ] ;
+       fhir:display [ fhir:v "contraindication" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "contraindication" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.guideline.contraindication` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.guideline.warning" ] ;
+       fhir:display [ fhir:v "warning" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "warning" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.guideline.warning` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.guideline.intendedUse" ] ;
+       fhir:display [ fhir:v "intendedUse" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "intendedUse" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.guideline.intendedUse` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.correctiveAction.recall" ] ;
+       fhir:display [ fhir:v "recall" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "recall" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.correctiveAction.recall` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.correctiveAction.scope" ] ;
+       fhir:display [ fhir:v "scope" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "scope" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.correctiveAction.scope` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.correctiveAction.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "period" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.correctiveAction.period` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.chargeItem.chargeItemCode" ] ;
+       fhir:display [ fhir:v "chargeItemCode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "chargeItemCode" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.chargeItem.chargeItemCode` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.chargeItem.count" ] ;
+       fhir:display [ fhir:v "count" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "count" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.chargeItem.count` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.chargeItem.effectivePeriod" ] ;
+       fhir:display [ fhir:v "effectivePeriod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "effectivePeriod" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.chargeItem.effectivePeriod` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.chargeItem.useContext" ] ;
+       fhir:display [ fhir:v "useContext" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "useContext" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.chargeItem.useContext` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

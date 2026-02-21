@@ -20,21 +20,21 @@
     </extension>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
-    <valueCode value="fhir"/>
+    <valueCode value="inm"/>
   </extension>
   <url value="http://terminology.hl7.org/CodeSystem/message-reasons-encounter"/>
-  <version value="0.0.1-snapshot-3"/>
+  <version value="0.1.0"/>
   <name value="ExampleMessageReasonCodes"/>
   <title value="Example Message Reason Codes"/>
   <status value="draft"/>
   <experimental value="false"/>
   <date value="2023-02-25T12:07:30-06:00"/>
-  <publisher value="FHIR Infrastructure"/>
+  <publisher value="Infrastructure And Messaging"/>
   <contact>
-    <name value="FHIR Infrastructure"/>
+    <name value="Infrastructure And Messaging"/>
     <telecom>
       <system value="url"/>
-      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+      <value value="http://www.hl7.org/Special/committees/inm"/>
     </telecom>
   </contact>
   <description value="Example Message Reasons. These are the set of codes that might be used an updating an encounter using admin-update."/>
@@ -46,7 +46,7 @@
     </coding>
   </jurisdiction>
   <caseSensitive value="true"/>
-  <valueSet value="http://terminology.hl7.org/ValueSet/message-reason-encounter"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/message-reason-encounter|1.0.1"/>
   <content value="complete"/>
   <concept>
     <code value="admit"/>

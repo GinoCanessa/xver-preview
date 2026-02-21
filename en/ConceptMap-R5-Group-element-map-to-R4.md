@@ -1,0 +1,359 @@
+# R5GroupElementMapToR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## ConceptMap: R5GroupElementMapToR4 
+
+ 
+This ConceptMap represents cross-version mappings for elements from a FHIR R5 Group to FHIR R4. 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ConceptMap",
+  "id" : "R5-Group-element-map-to-R4",
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "fhir"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger" : 0,
+      "_valueInteger" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode" : "trial-use",
+      "_valueCode" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    }
+  ],
+  "url" : "http://hl7.org/fhir/uv/xver/ConceptMap/R5-Group-element-map-to-R4",
+  "version" : "0.0.1-snapshot-3",
+  "name" : "R5GroupElementMapToR4",
+  "title" : "Cross-version mapping for FHIR R5 Group to FHIR R4 Group",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-02-21T13:36:56.7522379-06:00",
+  "contact" : [
+    {
+      "name" : "FHIR Infrastructure",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/fiwg"
+        }
+      ]
+    }
+  ],
+  "description" : "This ConceptMap represents cross-version mappings for elements from a FHIR R5 Group to FHIR R4.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }
+      ]
+    }
+  ],
+  "sourceCanonical" : "http://hl7.org/fhir/5.0",
+  "targetUri" : "http://hl7.org/fhir/4.0",
+  "group" : [
+    {
+      "source" : "http://hl7.org/fhir/StructureDefinition/Group",
+      "sourceVersion" : "5.0.0",
+      "target" : "http://hl7.org/fhir/StructureDefinition/Group",
+      "targetVersion" : "4.0.1",
+      "element" : [
+        {
+          "code" : "Group.meta",
+          "display" : "meta",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `Group.meta` is mapped to FHIR R4 element `Group.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "Group.implicitRules",
+          "display" : "implicitRules",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `Group.implicitRules` is mapped to FHIR R4 element `Group.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "Group.language",
+          "display" : "language",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `Group.language` is mapped to FHIR R4 element `Group.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "Group.text",
+          "display" : "text",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `Group.text` is mapped to FHIR R4 element `Group.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "Group.contained",
+          "display" : "contained",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `Group.contained` is mapped to FHIR R4 element `Group.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "Group.identifier",
+          "display" : "identifier",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `Group.identifier` is mapped to FHIR R4 element `Group.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "Group.active",
+          "display" : "active",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `Group.active` is mapped to FHIR R4 element `Group.active` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "Group.type",
+          "display" : "type",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `Group.type` is mapped to FHIR R4 element `Group.type` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "Group.code",
+          "display" : "code",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `Group.code` is mapped to FHIR R4 element `Group.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "Group.name",
+          "display" : "name",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Group.name`: `http://hl7.org/fhir/StructureDefinition/artifact-name`.\nElement `Group.name` is mapped to FHIR R4 element `Group.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "Group.quantity",
+          "display" : "quantity",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `Group.quantity` is mapped to FHIR R4 element `Group.quantity` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "Group.managingEntity",
+          "display" : "managingEntity",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `Group.managingEntity` is mapped to FHIR R4 element `Group.managingEntity` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "Group.characteristic",
+          "display" : "characteristic",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `Group.characteristic` is mapped to FHIR R4 element `Group.characteristic` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "Group.characteristic.code",
+          "display" : "code",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `Group.characteristic.code` is mapped to FHIR R4 element `Group.characteristic.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "Group.characteristic.value[x]",
+          "display" : "value[x]",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Note that the target element context `Group.characteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Group.characteristic`.\nElement `Group.characteristic.value[x]` is mapped to FHIR R4 element `Group.characteristic.value[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `Group.characteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Group.characteristic`."
+            }
+          ]
+        },
+        {
+          "code" : "Group.characteristic.exclude",
+          "display" : "exclude",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `Group.characteristic.exclude` is mapped to FHIR R4 element `Group.characteristic.exclude` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "Group.characteristic.period",
+          "display" : "period",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `Group.characteristic.period` is mapped to FHIR R4 element `Group.characteristic.period` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "Group.member",
+          "display" : "member",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `Group.member` is mapped to FHIR R4 element `Group.member` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "Group.member.entity",
+          "display" : "entity",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Group.member.entity` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Group.member.entity` is mapped to FHIR R4 element `Group.member.entity` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "Group.member.period",
+          "display" : "period",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `Group.member.period` is mapped to FHIR R4 element `Group.member.period` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "Group.member.inactive",
+          "display" : "inactive",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `Group.member.inactive` is mapped to FHIR R4 element `Group.member.inactive` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source" : "http://hl7.org/fhir/StructureDefinition/Group",
+      "sourceVersion" : "5.0.0",
+      "target" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4",
+      "element" : [
+        {
+          "code" : "Group.type",
+          "display" : "type",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.type",
+              "equivalence" : "equivalent",
+              "comment" : "Element `Group.type` is mapped to FHIR R4 element `Group.type` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "Group.membership",
+          "display" : "membership",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.membership",
+              "equivalence" : "wider",
+              "comment" : "Element `Group.membership` has a context of Group based on following the parent source element upwards and mapping to `Group`."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source" : "http://hl7.org/fhir/StructureDefinition/Group",
+      "sourceVersion" : "5.0.0",
+      "target" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+      "targetVersion" : "5.2.0",
+      "element" : [
+        {
+          "code" : "Group.description",
+          "display" : "description",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/artifact-description",
+              "equivalence" : "wider",
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Group.description`: `http://hl7.org/fhir/StructureDefinition/artifact-description`.\nElement `Group.description` has a context of Group based on following the parent source element upwards and mapping to `Group`."
+            }
+          ]
+        },
+        {
+          "code" : "Group.member.entity",
+          "display" : "entity",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
+              "equivalence" : "equivalent",
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Group.member.entity` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Group.member.entity` is mapped to FHIR R4 element `Group.member.entity` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+```

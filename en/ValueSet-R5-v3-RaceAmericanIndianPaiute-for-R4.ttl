@@ -1,0 +1,389 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-RaceAmericanIndianPaiute-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-v3-RaceAmericanIndianPaiute-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-v3-RaceAmericanIndianPaiute-for-R4</b></p><a name=\"R5-v3-RaceAmericanIndianPaiute-for-R4\"> </a><a name=\"hcR5-v3-RaceAmericanIndianPaiute-for-R4\"> </a><p>This value set expansion contains 22 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianPaiute-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1416-7\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1416-7</td><td>Paiute</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianPaiute-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1417-5\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1417-5</td><td>Bishop</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianPaiute-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1418-3\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1418-3</td><td>Bridgeport</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianPaiute-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1419-1\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1419-1</td><td>Burns Paiute</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianPaiute-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1420-9\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1420-9</td><td>Cedarville</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianPaiute-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1421-7\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1421-7</td><td>Fort Bidwell</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianPaiute-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1422-5\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1422-5</td><td>Fort Independence</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianPaiute-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1423-3\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1423-3</td><td>Kaibab</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianPaiute-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1424-1\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1424-1</td><td>Las Vegas</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianPaiute-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1425-8\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1425-8</td><td>Lone Pine</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianPaiute-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1426-6\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1426-6</td><td>Lovelock</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianPaiute-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1427-4\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1427-4</td><td>Malheur Paiute</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianPaiute-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1428-2\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1428-2</td><td>Moapa</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianPaiute-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1429-0\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1429-0</td><td>Northern Paiute</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianPaiute-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1430-8\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1430-8</td><td>Owens Valley</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianPaiute-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1431-6\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1431-6</td><td>Pyramid Lake</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianPaiute-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1432-4\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1432-4</td><td>San Juan Southern Paiute</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianPaiute-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1433-2\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1433-2</td><td>Southern Paiute</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianPaiute-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1434-0\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1434-0</td><td>Summit Lake</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianPaiute-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1435-7\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1435-7</td><td>Utu Utu Gwaitu Paiute</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianPaiute-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1436-5\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1436-5</td><td>Walker River</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianPaiute-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1437-3\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1437-3</td><td>Yerington Paiute</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-RaceAmericanIndianPaiute-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-RaceAmericanIndianPaiute-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5V3RaceAmericanIndianPaiuteForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.RaceAmericanIndianPaiute for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v3-RaceAmericanIndianPaiute|2.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/v3-RaceAmericanIndianPaiute|2.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* \r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://terminology.hl7.org/ValueSet/v3-RaceAmericanIndianPaiute|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "1416-7" ] ;
+         fhir:display [ fhir:v "Paiute" ]
+       ] [
+         fhir:code [ fhir:v "1417-5" ] ;
+         fhir:display [ fhir:v "Bishop" ]
+       ] [
+         fhir:code [ fhir:v "1418-3" ] ;
+         fhir:display [ fhir:v "Bridgeport" ]
+       ] [
+         fhir:code [ fhir:v "1419-1" ] ;
+         fhir:display [ fhir:v "Burns Paiute" ]
+       ] [
+         fhir:code [ fhir:v "1420-9" ] ;
+         fhir:display [ fhir:v "Cedarville" ]
+       ] [
+         fhir:code [ fhir:v "1421-7" ] ;
+         fhir:display [ fhir:v "Fort Bidwell" ]
+       ] [
+         fhir:code [ fhir:v "1422-5" ] ;
+         fhir:display [ fhir:v "Fort Independence" ]
+       ] [
+         fhir:code [ fhir:v "1423-3" ] ;
+         fhir:display [ fhir:v "Kaibab" ]
+       ] [
+         fhir:code [ fhir:v "1424-1" ] ;
+         fhir:display [ fhir:v "Las Vegas" ]
+       ] [
+         fhir:code [ fhir:v "1425-8" ] ;
+         fhir:display [ fhir:v "Lone Pine" ]
+       ] [
+         fhir:code [ fhir:v "1426-6" ] ;
+         fhir:display [ fhir:v "Lovelock" ]
+       ] [
+         fhir:code [ fhir:v "1427-4" ] ;
+         fhir:display [ fhir:v "Malheur Paiute" ]
+       ] [
+         fhir:code [ fhir:v "1428-2" ] ;
+         fhir:display [ fhir:v "Moapa" ]
+       ] [
+         fhir:code [ fhir:v "1429-0" ] ;
+         fhir:display [ fhir:v "Northern Paiute" ]
+       ] [
+         fhir:code [ fhir:v "1430-8" ] ;
+         fhir:display [ fhir:v "Owens Valley" ]
+       ] [
+         fhir:code [ fhir:v "1431-6" ] ;
+         fhir:display [ fhir:v "Pyramid Lake" ]
+       ] [
+         fhir:code [ fhir:v "1432-4" ] ;
+         fhir:display [ fhir:v "San Juan Southern Paiute" ]
+       ] [
+         fhir:code [ fhir:v "1433-2" ] ;
+         fhir:display [ fhir:v "Southern Paiute" ]
+       ] [
+         fhir:code [ fhir:v "1434-0" ] ;
+         fhir:display [ fhir:v "Summit Lake" ]
+       ] [
+         fhir:code [ fhir:v "1435-7" ] ;
+         fhir:display [ fhir:v "Utu Utu Gwaitu Paiute" ]
+       ] [
+         fhir:code [ fhir:v "1436-5" ] ;
+         fhir:display [ fhir:v "Walker River" ]
+       ] [
+         fhir:code [ fhir:v "1437-3" ] ;
+         fhir:display [ fhir:v "Yerington Paiute" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1416-7" ] ;
+       fhir:display [ fhir:v "Paiute" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1417-5" ] ;
+       fhir:display [ fhir:v "Bishop" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1418-3" ] ;
+       fhir:display [ fhir:v "Bridgeport" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1419-1" ] ;
+       fhir:display [ fhir:v "Burns Paiute" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1420-9" ] ;
+       fhir:display [ fhir:v "Cedarville" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1421-7" ] ;
+       fhir:display [ fhir:v "Fort Bidwell" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1422-5" ] ;
+       fhir:display [ fhir:v "Fort Independence" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1423-3" ] ;
+       fhir:display [ fhir:v "Kaibab" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1424-1" ] ;
+       fhir:display [ fhir:v "Las Vegas" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1425-8" ] ;
+       fhir:display [ fhir:v "Lone Pine" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1426-6" ] ;
+       fhir:display [ fhir:v "Lovelock" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1427-4" ] ;
+       fhir:display [ fhir:v "Malheur Paiute" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1428-2" ] ;
+       fhir:display [ fhir:v "Moapa" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1429-0" ] ;
+       fhir:display [ fhir:v "Northern Paiute" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1430-8" ] ;
+       fhir:display [ fhir:v "Owens Valley" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1431-6" ] ;
+       fhir:display [ fhir:v "Pyramid Lake" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1432-4" ] ;
+       fhir:display [ fhir:v "San Juan Southern Paiute" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1433-2" ] ;
+       fhir:display [ fhir:v "Southern Paiute" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1434-0" ] ;
+       fhir:display [ fhir:v "Summit Lake" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1435-7" ] ;
+       fhir:display [ fhir:v "Utu Utu Gwaitu Paiute" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1436-5" ] ;
+       fhir:display [ fhir:v "Walker River" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1437-3" ] ;
+       fhir:display [ fhir:v "Yerington Paiute" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

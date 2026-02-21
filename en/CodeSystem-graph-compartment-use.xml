@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="graph-compartment-use"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/graph-compartment-use</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">where
+                  <a name="graph-compartment-use-where"> </a>
+                </td>
+                <td>Where</td>
+                <td>This compartment rule is a condition for whether the rule applies.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">requires
+                  <a name="graph-compartment-use-requires"> </a>
+                </td>
+                <td>requires</td>
+                <td>This compartment rule is enforced on any relationships that meet the conditions.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <url value="http://hl7.org/fhir/graph-compartment-use"/>
+  <version value="5.0.0"/>
+  <name value="GraphCompartmentUse"/>
+  <title value="Graph Compartment Use"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="Defines how a compartment rule is used."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/graph-compartment-use|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="where"/>
+    <display value="Where"/>
+    <definition value="This compartment rule is a condition for whether the rule applies."/>
+  </concept>
+  <concept>
+    <code value="requires"/>
+    <display value="requires"/>
+    <definition value="This compartment rule is enforced on any relationships that meet the conditions."/>
+  </concept>
+</CodeSystem>

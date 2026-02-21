@@ -1,0 +1,1654 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-v2-0496-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-v2-0496-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-v2-0496-for-R4</b></p><a name=\"R5-v2-0496-for-R4\"> </a><a name=\"hcR5-v2-0496-for-R4\"> </a><p>This value set expansion contains 137 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-001\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  001</td><td>Release of Information/MR / Authorization to Disclosure Protected Health Information</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-002\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  002</td><td>Medical Procedure (invasive)</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-003\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  003</td><td>Acknowledge Receipt of Privacy Notice</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-004\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  004</td><td>Abortion</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-005\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  005</td><td>Abortion/Laminaria</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-006\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  006</td><td>Accutane - Information</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-007\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  007</td><td>Accutane - Woman</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-008\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  008</td><td>Advanced Beneficiary Notice</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-009\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  009</td><td>AFP (Alpha Fetoprotein) Screening</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-010\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  010</td><td>Amniocentesis (consent &amp; refusal)</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-011\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  011</td><td>Anatomical Gift (organ donation)</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-012\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  012</td><td>Anesthesia - Complications</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-013\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  013</td><td>Anesthesia - Questionnaire</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-014\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  014</td><td>Angiogram</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-015\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  015</td><td>Angioplasty</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-016\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  016</td><td>Anticancer Drugs</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-017\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  017</td><td>Antipsychotic Medications</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-018\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  018</td><td>Arthrogram</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-019\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  019</td><td>Autopsy</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-020\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  020</td><td>AZT Therapy</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-021\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  021</td><td>Biliary Drainage</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-022\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  022</td><td>Biliary Stone Extraction</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-023\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  023</td><td>Biopsy</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-024\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  024</td><td>Bleeding Time Test</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-025\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  025</td><td>Bronchogram</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-026\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  026</td><td>Cardiac Catheterization</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-027\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  027</td><td>Coronary Angiography</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-028\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  028</td><td>Coronary Angiography w/o Surgery Capability</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-029\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  029</td><td>Cataract Op/Implant of FDA Aprvd Lens</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-030\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  030</td><td>Cataract Op/Implant of Investigational Lens</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-031\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  031</td><td>Cataract Surgery</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-032\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  032</td><td>Cholera Immunization</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-033\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  033</td><td>Cholesterol Screening</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-034\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  034</td><td>Circumcision - Newborn</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-035\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  035</td><td>Colonoscopy</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-036\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  036</td><td>Contact Lenses</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-037\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  037</td><td>CT Scan - Cervical &amp; Lumbar</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-038\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  038</td><td>CT Scan w/ IV Contrast Media into Vein</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-039\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  039</td><td>CVS (Chorionic Villus) Sampling</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-040\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  040</td><td>Cystospy</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-041\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  041</td><td>Disclosure of Protected Health Information to Family/Friends</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-042\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  042</td><td>D &amp; C and Conization</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-043\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  043</td><td>Dacryocystogram</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-044\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  044</td><td>Diagnostic Isotope</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-045\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  045</td><td>Drainage of an Abscess</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-046\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  046</td><td>Drug Screening</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-047\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  047</td><td>Electronic Monitoring of Labor - Refusal</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-048\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  048</td><td>Endometrial Biopsy</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-049\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  049</td><td>Endoscopy/Sclerosis of Esophageal Varices</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-050\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  050</td><td>ERCP</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-051\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  051</td><td>Exposure to reportable Communicable Disease</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-052\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  052</td><td>External Version</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-053\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  053</td><td>Fluorescein Angioscopy</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-054\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  054</td><td>Hepatitis B - Consent/Declination</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-055\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  055</td><td>Herniogram</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-056\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  056</td><td>HIV Test - Consent Refusal</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-057\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  057</td><td>HIV Test - Disclosure</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-058\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  058</td><td>HIV Test - Prenatal</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-059\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  059</td><td>Home IV Treatment Program</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-060\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  060</td><td>Home Parenteral Treatment Program</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-061\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  061</td><td>Hysterectomy</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-062\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  062</td><td>Hysterosalpingogram</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-063\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  063</td><td>Injection Slip/ Consent</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-064\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  064</td><td>Intrauterine Device</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-065\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  065</td><td>Intrauterine Device/Sterilization</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-066\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  066</td><td>Intravascular Infusion of Streptokinase/Urokinase</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-067\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  067</td><td>Intravenous Cholangiogram</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-068\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  068</td><td>Intravenous Digital Angiography</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-069\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  069</td><td>Iodine Administration</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-070\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  070</td><td>ISG</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-071\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  071</td><td>IVP</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-072\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  072</td><td>Laser Photocoagulation</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-073\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  073</td><td>Laser treatment</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-074\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  074</td><td>Lithium Carbonate</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-075\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  075</td><td>Liver Biopsy</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-076\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  076</td><td>Lumbar Puncture</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-077\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  077</td><td>Lymphangiogram</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-078\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  078</td><td>MAO Inhibitors</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-079\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  079</td><td>Med, Psych, and/or Drug/Alcohol</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-080\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  080</td><td>Medical Treatment - Refusal</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-081\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  081</td><td>Morning-after Pill</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-082\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  082</td><td>MRI - Adult</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-083\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  083</td><td>MRI - Pediatric</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-084\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  084</td><td>Myelogram</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-085\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  085</td><td>Needle Biopsy</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-086\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  086</td><td>Needle Biopsy of Lung</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-087\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  087</td><td>Newborn Treatment and Release</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-088\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  088</td><td>Norplant Subdermal Birth Control Implant</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-089\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  089</td><td>Operations, Anesthesia, Transfusions</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-090\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  090</td><td>Oral Contraceptives</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-091\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  091</td><td>Organ Donation</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-092\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  092</td><td>Patient Permits, Consents</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-093\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  093</td><td>Patient Treatment Permit, Release &amp; Admission</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-094\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  094</td><td>Penile Injections</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-095\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  095</td><td>Percutaneous Nephrostomy</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-096\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  096</td><td>Percutaneous Transhepatic Cholangiogram</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-097\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  097</td><td>Photographs</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-098\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  098</td><td>Photographs - Employee</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-099\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  099</td><td>Photographs - Medical Research</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-100\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  100</td><td>Photographs - news Media</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-101\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  101</td><td>Psychiatric Admission - Next of Kin</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-102\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  102</td><td>Psychiatric Information During Hospital Stay</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-103\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  103</td><td>Public Release of Information</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-104\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  104</td><td>Radiologic Procedure</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-105\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  105</td><td>Refusal of Treatment</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-106\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  106</td><td>Release of Body</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-107\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  107</td><td>Release of Limb</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-108\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  108</td><td>Rh Immune Globulin</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-109\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  109</td><td>Rights of Medical Research Participants</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-110\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  110</td><td>Request to Restrict Access/Disclosure to Medical Record/Protected Health Information</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-111\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  111</td><td>Request for Remain Anonymous</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-112\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  112</td><td>Seat Belt Exemption</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-113\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  113</td><td>Sialogram</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-1137\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1137</td><td>Voiding Cystogram</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-114\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  114</td><td>Sigmoidoscopy</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-115\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  115</td><td>Sterilization - Anesthesia &amp; Medical Services</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-116\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  116</td><td>Sterilization -Federally Funded</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-117\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  117</td><td>Sterilization - Female</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-118\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  118</td><td>Sterilization - Laparoscopy/Pomeroy</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-119\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  119</td><td>Sterilization - Non-Federally Funded</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-120\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  120</td><td>Sterilization - Secondary</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-121\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  121</td><td>Tranquilizers</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-122\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  122</td><td>Transfer - Acknowledgement</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-123\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  123</td><td>Transfer - Authorization</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-124\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  124</td><td>Transfer Certification - Physician</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-125\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  125</td><td>Transfer/Discharge Request</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-126\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  126</td><td>Transfer for Non-Medical Reasons</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-127\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  127</td><td>Transfer - Interfaculty Neonatal</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-128\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  128</td><td>Transfer Refusal</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-129\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  129</td><td>Transfer Refusal of Further Treatment</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-130\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  130</td><td>Treadmill &amp; EKG</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-131\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  131</td><td>Treadmill, Thallium-201</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-132\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  132</td><td>Typhoid</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-133\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  133</td><td>Use of Investigational Device</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-134\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  134</td><td>Use of Investigational Drug</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-135\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  135</td><td>Venogram</td></tr><tr><td><a name=\"R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-136\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0496</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  136</td><td>Videotape</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-v2-0496-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-v2-0496-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5V20496ForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.Hl7VSConsentType for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v2-0496|2.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/v2-0496|2.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* \r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://terminology.hl7.org/ValueSet/v2-0496|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "001" ] ;
+         fhir:display [ fhir:v "Release of Information/MR / Authorization to Disclosure Protected Health Information" ]
+       ] [
+         fhir:code [ fhir:v "002" ] ;
+         fhir:display [ fhir:v "Medical Procedure (invasive)" ]
+       ] [
+         fhir:code [ fhir:v "003" ] ;
+         fhir:display [ fhir:v "Acknowledge Receipt of Privacy Notice" ]
+       ] [
+         fhir:code [ fhir:v "004" ] ;
+         fhir:display [ fhir:v "Abortion" ]
+       ] [
+         fhir:code [ fhir:v "005" ] ;
+         fhir:display [ fhir:v "Abortion/Laminaria" ]
+       ] [
+         fhir:code [ fhir:v "006" ] ;
+         fhir:display [ fhir:v "Accutane - Information" ]
+       ] [
+         fhir:code [ fhir:v "007" ] ;
+         fhir:display [ fhir:v "Accutane - Woman" ]
+       ] [
+         fhir:code [ fhir:v "008" ] ;
+         fhir:display [ fhir:v "Advanced Beneficiary Notice" ]
+       ] [
+         fhir:code [ fhir:v "009" ] ;
+         fhir:display [ fhir:v "AFP (Alpha Fetoprotein) Screening" ]
+       ] [
+         fhir:code [ fhir:v "010" ] ;
+         fhir:display [ fhir:v "Amniocentesis (consent & refusal)" ]
+       ] [
+         fhir:code [ fhir:v "011" ] ;
+         fhir:display [ fhir:v "Anatomical Gift (organ donation)" ]
+       ] [
+         fhir:code [ fhir:v "012" ] ;
+         fhir:display [ fhir:v "Anesthesia - Complications" ]
+       ] [
+         fhir:code [ fhir:v "013" ] ;
+         fhir:display [ fhir:v "Anesthesia - Questionnaire" ]
+       ] [
+         fhir:code [ fhir:v "014" ] ;
+         fhir:display [ fhir:v "Angiogram" ]
+       ] [
+         fhir:code [ fhir:v "015" ] ;
+         fhir:display [ fhir:v "Angioplasty" ]
+       ] [
+         fhir:code [ fhir:v "016" ] ;
+         fhir:display [ fhir:v "Anticancer Drugs" ]
+       ] [
+         fhir:code [ fhir:v "017" ] ;
+         fhir:display [ fhir:v "Antipsychotic Medications" ]
+       ] [
+         fhir:code [ fhir:v "018" ] ;
+         fhir:display [ fhir:v "Arthrogram" ]
+       ] [
+         fhir:code [ fhir:v "019" ] ;
+         fhir:display [ fhir:v "Autopsy" ]
+       ] [
+         fhir:code [ fhir:v "020" ] ;
+         fhir:display [ fhir:v "AZT Therapy" ]
+       ] [
+         fhir:code [ fhir:v "021" ] ;
+         fhir:display [ fhir:v "Biliary Drainage" ]
+       ] [
+         fhir:code [ fhir:v "022" ] ;
+         fhir:display [ fhir:v "Biliary Stone Extraction" ]
+       ] [
+         fhir:code [ fhir:v "023" ] ;
+         fhir:display [ fhir:v "Biopsy" ]
+       ] [
+         fhir:code [ fhir:v "024" ] ;
+         fhir:display [ fhir:v "Bleeding Time Test" ]
+       ] [
+         fhir:code [ fhir:v "025" ] ;
+         fhir:display [ fhir:v "Bronchogram" ]
+       ] [
+         fhir:code [ fhir:v "026" ] ;
+         fhir:display [ fhir:v "Cardiac Catheterization" ]
+       ] [
+         fhir:code [ fhir:v "027" ] ;
+         fhir:display [ fhir:v "Coronary Angiography" ]
+       ] [
+         fhir:code [ fhir:v "028" ] ;
+         fhir:display [ fhir:v "Coronary Angiography w/o Surgery Capability" ]
+       ] [
+         fhir:code [ fhir:v "029" ] ;
+         fhir:display [ fhir:v "Cataract Op/Implant of FDA Aprvd Lens" ]
+       ] [
+         fhir:code [ fhir:v "030" ] ;
+         fhir:display [ fhir:v "Cataract Op/Implant of Investigational Lens" ]
+       ] [
+         fhir:code [ fhir:v "031" ] ;
+         fhir:display [ fhir:v "Cataract Surgery" ]
+       ] [
+         fhir:code [ fhir:v "032" ] ;
+         fhir:display [ fhir:v "Cholera Immunization" ]
+       ] [
+         fhir:code [ fhir:v "033" ] ;
+         fhir:display [ fhir:v "Cholesterol Screening" ]
+       ] [
+         fhir:code [ fhir:v "034" ] ;
+         fhir:display [ fhir:v "Circumcision - Newborn" ]
+       ] [
+         fhir:code [ fhir:v "035" ] ;
+         fhir:display [ fhir:v "Colonoscopy" ]
+       ] [
+         fhir:code [ fhir:v "036" ] ;
+         fhir:display [ fhir:v "Contact Lenses" ]
+       ] [
+         fhir:code [ fhir:v "037" ] ;
+         fhir:display [ fhir:v "CT Scan - Cervical & Lumbar" ]
+       ] [
+         fhir:code [ fhir:v "038" ] ;
+         fhir:display [ fhir:v "CT Scan w/ IV Contrast Media into Vein" ]
+       ] [
+         fhir:code [ fhir:v "039" ] ;
+         fhir:display [ fhir:v "CVS (Chorionic Villus) Sampling" ]
+       ] [
+         fhir:code [ fhir:v "040" ] ;
+         fhir:display [ fhir:v "Cystospy" ]
+       ] [
+         fhir:code [ fhir:v "041" ] ;
+         fhir:display [ fhir:v "Disclosure of Protected Health Information to Family/Friends" ]
+       ] [
+         fhir:code [ fhir:v "042" ] ;
+         fhir:display [ fhir:v "D & C and Conization" ]
+       ] [
+         fhir:code [ fhir:v "043" ] ;
+         fhir:display [ fhir:v "Dacryocystogram" ]
+       ] [
+         fhir:code [ fhir:v "044" ] ;
+         fhir:display [ fhir:v "Diagnostic Isotope" ]
+       ] [
+         fhir:code [ fhir:v "045" ] ;
+         fhir:display [ fhir:v "Drainage of an Abscess" ]
+       ] [
+         fhir:code [ fhir:v "046" ] ;
+         fhir:display [ fhir:v "Drug Screening" ]
+       ] [
+         fhir:code [ fhir:v "047" ] ;
+         fhir:display [ fhir:v "Electronic Monitoring of Labor - Refusal" ]
+       ] [
+         fhir:code [ fhir:v "048" ] ;
+         fhir:display [ fhir:v "Endometrial Biopsy" ]
+       ] [
+         fhir:code [ fhir:v "049" ] ;
+         fhir:display [ fhir:v "Endoscopy/Sclerosis of Esophageal Varices" ]
+       ] [
+         fhir:code [ fhir:v "050" ] ;
+         fhir:display [ fhir:v "ERCP" ]
+       ] [
+         fhir:code [ fhir:v "051" ] ;
+         fhir:display [ fhir:v "Exposure to reportable Communicable Disease" ]
+       ] [
+         fhir:code [ fhir:v "052" ] ;
+         fhir:display [ fhir:v "External Version" ]
+       ] [
+         fhir:code [ fhir:v "053" ] ;
+         fhir:display [ fhir:v "Fluorescein Angioscopy" ]
+       ] [
+         fhir:code [ fhir:v "054" ] ;
+         fhir:display [ fhir:v "Hepatitis B - Consent/Declination" ]
+       ] [
+         fhir:code [ fhir:v "055" ] ;
+         fhir:display [ fhir:v "Herniogram" ]
+       ] [
+         fhir:code [ fhir:v "056" ] ;
+         fhir:display [ fhir:v "HIV Test - Consent Refusal" ]
+       ] [
+         fhir:code [ fhir:v "057" ] ;
+         fhir:display [ fhir:v "HIV Test - Disclosure" ]
+       ] [
+         fhir:code [ fhir:v "058" ] ;
+         fhir:display [ fhir:v "HIV Test - Prenatal" ]
+       ] [
+         fhir:code [ fhir:v "059" ] ;
+         fhir:display [ fhir:v "Home IV Treatment Program" ]
+       ] [
+         fhir:code [ fhir:v "060" ] ;
+         fhir:display [ fhir:v "Home Parenteral Treatment Program" ]
+       ] [
+         fhir:code [ fhir:v "061" ] ;
+         fhir:display [ fhir:v "Hysterectomy" ]
+       ] [
+         fhir:code [ fhir:v "062" ] ;
+         fhir:display [ fhir:v "Hysterosalpingogram" ]
+       ] [
+         fhir:code [ fhir:v "063" ] ;
+         fhir:display [ fhir:v "Injection Slip/ Consent" ]
+       ] [
+         fhir:code [ fhir:v "064" ] ;
+         fhir:display [ fhir:v "Intrauterine Device" ]
+       ] [
+         fhir:code [ fhir:v "065" ] ;
+         fhir:display [ fhir:v "Intrauterine Device/Sterilization" ]
+       ] [
+         fhir:code [ fhir:v "066" ] ;
+         fhir:display [ fhir:v "Intravascular Infusion of Streptokinase/Urokinase" ]
+       ] [
+         fhir:code [ fhir:v "067" ] ;
+         fhir:display [ fhir:v "Intravenous Cholangiogram" ]
+       ] [
+         fhir:code [ fhir:v "068" ] ;
+         fhir:display [ fhir:v "Intravenous Digital Angiography" ]
+       ] [
+         fhir:code [ fhir:v "069" ] ;
+         fhir:display [ fhir:v "Iodine Administration" ]
+       ] [
+         fhir:code [ fhir:v "070" ] ;
+         fhir:display [ fhir:v "ISG" ]
+       ] [
+         fhir:code [ fhir:v "071" ] ;
+         fhir:display [ fhir:v "IVP" ]
+       ] [
+         fhir:code [ fhir:v "072" ] ;
+         fhir:display [ fhir:v "Laser Photocoagulation" ]
+       ] [
+         fhir:code [ fhir:v "073" ] ;
+         fhir:display [ fhir:v "Laser treatment" ]
+       ] [
+         fhir:code [ fhir:v "074" ] ;
+         fhir:display [ fhir:v "Lithium Carbonate" ]
+       ] [
+         fhir:code [ fhir:v "075" ] ;
+         fhir:display [ fhir:v "Liver Biopsy" ]
+       ] [
+         fhir:code [ fhir:v "076" ] ;
+         fhir:display [ fhir:v "Lumbar Puncture" ]
+       ] [
+         fhir:code [ fhir:v "077" ] ;
+         fhir:display [ fhir:v "Lymphangiogram" ]
+       ] [
+         fhir:code [ fhir:v "078" ] ;
+         fhir:display [ fhir:v "MAO Inhibitors" ]
+       ] [
+         fhir:code [ fhir:v "079" ] ;
+         fhir:display [ fhir:v "Med, Psych, and/or Drug/Alcohol" ]
+       ] [
+         fhir:code [ fhir:v "080" ] ;
+         fhir:display [ fhir:v "Medical Treatment - Refusal" ]
+       ] [
+         fhir:code [ fhir:v "081" ] ;
+         fhir:display [ fhir:v "Morning-after Pill" ]
+       ] [
+         fhir:code [ fhir:v "082" ] ;
+         fhir:display [ fhir:v "MRI - Adult" ]
+       ] [
+         fhir:code [ fhir:v "083" ] ;
+         fhir:display [ fhir:v "MRI - Pediatric" ]
+       ] [
+         fhir:code [ fhir:v "084" ] ;
+         fhir:display [ fhir:v "Myelogram" ]
+       ] [
+         fhir:code [ fhir:v "085" ] ;
+         fhir:display [ fhir:v "Needle Biopsy" ]
+       ] [
+         fhir:code [ fhir:v "086" ] ;
+         fhir:display [ fhir:v "Needle Biopsy of Lung" ]
+       ] [
+         fhir:code [ fhir:v "087" ] ;
+         fhir:display [ fhir:v "Newborn Treatment and Release" ]
+       ] [
+         fhir:code [ fhir:v "088" ] ;
+         fhir:display [ fhir:v "Norplant Subdermal Birth Control Implant" ]
+       ] [
+         fhir:code [ fhir:v "089" ] ;
+         fhir:display [ fhir:v "Operations, Anesthesia, Transfusions" ]
+       ] [
+         fhir:code [ fhir:v "090" ] ;
+         fhir:display [ fhir:v "Oral Contraceptives" ]
+       ] [
+         fhir:code [ fhir:v "091" ] ;
+         fhir:display [ fhir:v "Organ Donation" ]
+       ] [
+         fhir:code [ fhir:v "092" ] ;
+         fhir:display [ fhir:v "Patient Permits, Consents" ]
+       ] [
+         fhir:code [ fhir:v "093" ] ;
+         fhir:display [ fhir:v "Patient Treatment Permit, Release & Admission" ]
+       ] [
+         fhir:code [ fhir:v "094" ] ;
+         fhir:display [ fhir:v "Penile Injections" ]
+       ] [
+         fhir:code [ fhir:v "095" ] ;
+         fhir:display [ fhir:v "Percutaneous Nephrostomy" ]
+       ] [
+         fhir:code [ fhir:v "096" ] ;
+         fhir:display [ fhir:v "Percutaneous Transhepatic Cholangiogram" ]
+       ] [
+         fhir:code [ fhir:v "097" ] ;
+         fhir:display [ fhir:v "Photographs" ]
+       ] [
+         fhir:code [ fhir:v "098" ] ;
+         fhir:display [ fhir:v "Photographs - Employee" ]
+       ] [
+         fhir:code [ fhir:v "099" ] ;
+         fhir:display [ fhir:v "Photographs - Medical Research" ]
+       ] [
+         fhir:code [ fhir:v "100" ] ;
+         fhir:display [ fhir:v "Photographs - news Media" ]
+       ] [
+         fhir:code [ fhir:v "101" ] ;
+         fhir:display [ fhir:v "Psychiatric Admission - Next of Kin" ]
+       ] [
+         fhir:code [ fhir:v "102" ] ;
+         fhir:display [ fhir:v "Psychiatric Information During Hospital Stay" ]
+       ] [
+         fhir:code [ fhir:v "103" ] ;
+         fhir:display [ fhir:v "Public Release of Information" ]
+       ] [
+         fhir:code [ fhir:v "104" ] ;
+         fhir:display [ fhir:v "Radiologic Procedure" ]
+       ] [
+         fhir:code [ fhir:v "105" ] ;
+         fhir:display [ fhir:v "Refusal of Treatment" ]
+       ] [
+         fhir:code [ fhir:v "106" ] ;
+         fhir:display [ fhir:v "Release of Body" ]
+       ] [
+         fhir:code [ fhir:v "107" ] ;
+         fhir:display [ fhir:v "Release of Limb" ]
+       ] [
+         fhir:code [ fhir:v "108" ] ;
+         fhir:display [ fhir:v "Rh Immune Globulin" ]
+       ] [
+         fhir:code [ fhir:v "109" ] ;
+         fhir:display [ fhir:v "Rights of Medical Research Participants" ]
+       ] [
+         fhir:code [ fhir:v "110" ] ;
+         fhir:display [ fhir:v "Request to Restrict Access/Disclosure to Medical Record/Protected Health Information" ]
+       ] [
+         fhir:code [ fhir:v "111" ] ;
+         fhir:display [ fhir:v "Request for Remain Anonymous" ]
+       ] [
+         fhir:code [ fhir:v "112" ] ;
+         fhir:display [ fhir:v "Seat Belt Exemption" ]
+       ] [
+         fhir:code [ fhir:v "113" ] ;
+         fhir:display [ fhir:v "Sialogram" ]
+       ] [
+         fhir:code [ fhir:v "1137" ] ;
+         fhir:display [ fhir:v "Voiding Cystogram" ]
+       ] [
+         fhir:code [ fhir:v "114" ] ;
+         fhir:display [ fhir:v "Sigmoidoscopy" ]
+       ] [
+         fhir:code [ fhir:v "115" ] ;
+         fhir:display [ fhir:v "Sterilization - Anesthesia & Medical Services" ]
+       ] [
+         fhir:code [ fhir:v "116" ] ;
+         fhir:display [ fhir:v "Sterilization -Federally Funded" ]
+       ] [
+         fhir:code [ fhir:v "117" ] ;
+         fhir:display [ fhir:v "Sterilization - Female" ]
+       ] [
+         fhir:code [ fhir:v "118" ] ;
+         fhir:display [ fhir:v "Sterilization - Laparoscopy/Pomeroy" ]
+       ] [
+         fhir:code [ fhir:v "119" ] ;
+         fhir:display [ fhir:v "Sterilization - Non-Federally Funded" ]
+       ] [
+         fhir:code [ fhir:v "120" ] ;
+         fhir:display [ fhir:v "Sterilization - Secondary" ]
+       ] [
+         fhir:code [ fhir:v "121" ] ;
+         fhir:display [ fhir:v "Tranquilizers" ]
+       ] [
+         fhir:code [ fhir:v "122" ] ;
+         fhir:display [ fhir:v "Transfer - Acknowledgement" ]
+       ] [
+         fhir:code [ fhir:v "123" ] ;
+         fhir:display [ fhir:v "Transfer - Authorization" ]
+       ] [
+         fhir:code [ fhir:v "124" ] ;
+         fhir:display [ fhir:v "Transfer Certification - Physician" ]
+       ] [
+         fhir:code [ fhir:v "125" ] ;
+         fhir:display [ fhir:v "Transfer/Discharge Request" ]
+       ] [
+         fhir:code [ fhir:v "126" ] ;
+         fhir:display [ fhir:v "Transfer for Non-Medical Reasons" ]
+       ] [
+         fhir:code [ fhir:v "127" ] ;
+         fhir:display [ fhir:v "Transfer - Interfaculty Neonatal" ]
+       ] [
+         fhir:code [ fhir:v "128" ] ;
+         fhir:display [ fhir:v "Transfer Refusal" ]
+       ] [
+         fhir:code [ fhir:v "129" ] ;
+         fhir:display [ fhir:v "Transfer Refusal of Further Treatment" ]
+       ] [
+         fhir:code [ fhir:v "130" ] ;
+         fhir:display [ fhir:v "Treadmill & EKG" ]
+       ] [
+         fhir:code [ fhir:v "131" ] ;
+         fhir:display [ fhir:v "Treadmill, Thallium-201" ]
+       ] [
+         fhir:code [ fhir:v "132" ] ;
+         fhir:display [ fhir:v "Typhoid" ]
+       ] [
+         fhir:code [ fhir:v "133" ] ;
+         fhir:display [ fhir:v "Use of Investigational Device" ]
+       ] [
+         fhir:code [ fhir:v "134" ] ;
+         fhir:display [ fhir:v "Use of Investigational Drug" ]
+       ] [
+         fhir:code [ fhir:v "135" ] ;
+         fhir:display [ fhir:v "Venogram" ]
+       ] [
+         fhir:code [ fhir:v "136" ] ;
+         fhir:display [ fhir:v "Videotape" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "Release of Information/MR / Authorization to Disclosure Protected Health Information" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "002" ] ;
+       fhir:display [ fhir:v "Medical Procedure (invasive)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "003" ] ;
+       fhir:display [ fhir:v "Acknowledge Receipt of Privacy Notice" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "004" ] ;
+       fhir:display [ fhir:v "Abortion" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "005" ] ;
+       fhir:display [ fhir:v "Abortion/Laminaria" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "006" ] ;
+       fhir:display [ fhir:v "Accutane - Information" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "007" ] ;
+       fhir:display [ fhir:v "Accutane - Woman" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "008" ] ;
+       fhir:display [ fhir:v "Advanced Beneficiary Notice" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "009" ] ;
+       fhir:display [ fhir:v "AFP (Alpha Fetoprotein) Screening" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "010" ] ;
+       fhir:display [ fhir:v "Amniocentesis (consent & refusal)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "011" ] ;
+       fhir:display [ fhir:v "Anatomical Gift (organ donation)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "012" ] ;
+       fhir:display [ fhir:v "Anesthesia - Complications" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "013" ] ;
+       fhir:display [ fhir:v "Anesthesia - Questionnaire" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "014" ] ;
+       fhir:display [ fhir:v "Angiogram" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "015" ] ;
+       fhir:display [ fhir:v "Angioplasty" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "016" ] ;
+       fhir:display [ fhir:v "Anticancer Drugs" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "017" ] ;
+       fhir:display [ fhir:v "Antipsychotic Medications" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "018" ] ;
+       fhir:display [ fhir:v "Arthrogram" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "019" ] ;
+       fhir:display [ fhir:v "Autopsy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "020" ] ;
+       fhir:display [ fhir:v "AZT Therapy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "021" ] ;
+       fhir:display [ fhir:v "Biliary Drainage" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "022" ] ;
+       fhir:display [ fhir:v "Biliary Stone Extraction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "023" ] ;
+       fhir:display [ fhir:v "Biopsy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "024" ] ;
+       fhir:display [ fhir:v "Bleeding Time Test" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "025" ] ;
+       fhir:display [ fhir:v "Bronchogram" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "026" ] ;
+       fhir:display [ fhir:v "Cardiac Catheterization" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "027" ] ;
+       fhir:display [ fhir:v "Coronary Angiography" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "028" ] ;
+       fhir:display [ fhir:v "Coronary Angiography w/o Surgery Capability" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "029" ] ;
+       fhir:display [ fhir:v "Cataract Op/Implant of FDA Aprvd Lens" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "030" ] ;
+       fhir:display [ fhir:v "Cataract Op/Implant of Investigational Lens" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "031" ] ;
+       fhir:display [ fhir:v "Cataract Surgery" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "032" ] ;
+       fhir:display [ fhir:v "Cholera Immunization" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "033" ] ;
+       fhir:display [ fhir:v "Cholesterol Screening" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "034" ] ;
+       fhir:display [ fhir:v "Circumcision - Newborn" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "035" ] ;
+       fhir:display [ fhir:v "Colonoscopy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "036" ] ;
+       fhir:display [ fhir:v "Contact Lenses" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "037" ] ;
+       fhir:display [ fhir:v "CT Scan - Cervical & Lumbar" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "038" ] ;
+       fhir:display [ fhir:v "CT Scan w/ IV Contrast Media into Vein" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "039" ] ;
+       fhir:display [ fhir:v "CVS (Chorionic Villus) Sampling" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "040" ] ;
+       fhir:display [ fhir:v "Cystospy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "041" ] ;
+       fhir:display [ fhir:v "Disclosure of Protected Health Information to Family/Friends" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "042" ] ;
+       fhir:display [ fhir:v "D & C and Conization" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "043" ] ;
+       fhir:display [ fhir:v "Dacryocystogram" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "044" ] ;
+       fhir:display [ fhir:v "Diagnostic Isotope" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "045" ] ;
+       fhir:display [ fhir:v "Drainage of an Abscess" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "046" ] ;
+       fhir:display [ fhir:v "Drug Screening" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "047" ] ;
+       fhir:display [ fhir:v "Electronic Monitoring of Labor - Refusal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "048" ] ;
+       fhir:display [ fhir:v "Endometrial Biopsy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "049" ] ;
+       fhir:display [ fhir:v "Endoscopy/Sclerosis of Esophageal Varices" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "050" ] ;
+       fhir:display [ fhir:v "ERCP" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "051" ] ;
+       fhir:display [ fhir:v "Exposure to reportable Communicable Disease" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "052" ] ;
+       fhir:display [ fhir:v "External Version" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "053" ] ;
+       fhir:display [ fhir:v "Fluorescein Angioscopy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "054" ] ;
+       fhir:display [ fhir:v "Hepatitis B - Consent/Declination" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "055" ] ;
+       fhir:display [ fhir:v "Herniogram" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "056" ] ;
+       fhir:display [ fhir:v "HIV Test - Consent Refusal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "057" ] ;
+       fhir:display [ fhir:v "HIV Test - Disclosure" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "058" ] ;
+       fhir:display [ fhir:v "HIV Test - Prenatal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "059" ] ;
+       fhir:display [ fhir:v "Home IV Treatment Program" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "060" ] ;
+       fhir:display [ fhir:v "Home Parenteral Treatment Program" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "061" ] ;
+       fhir:display [ fhir:v "Hysterectomy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "062" ] ;
+       fhir:display [ fhir:v "Hysterosalpingogram" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "063" ] ;
+       fhir:display [ fhir:v "Injection Slip/ Consent" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "064" ] ;
+       fhir:display [ fhir:v "Intrauterine Device" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "065" ] ;
+       fhir:display [ fhir:v "Intrauterine Device/Sterilization" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "066" ] ;
+       fhir:display [ fhir:v "Intravascular Infusion of Streptokinase/Urokinase" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "067" ] ;
+       fhir:display [ fhir:v "Intravenous Cholangiogram" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "068" ] ;
+       fhir:display [ fhir:v "Intravenous Digital Angiography" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "069" ] ;
+       fhir:display [ fhir:v "Iodine Administration" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "070" ] ;
+       fhir:display [ fhir:v "ISG" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "071" ] ;
+       fhir:display [ fhir:v "IVP" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "072" ] ;
+       fhir:display [ fhir:v "Laser Photocoagulation" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "073" ] ;
+       fhir:display [ fhir:v "Laser treatment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "074" ] ;
+       fhir:display [ fhir:v "Lithium Carbonate" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "075" ] ;
+       fhir:display [ fhir:v "Liver Biopsy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "076" ] ;
+       fhir:display [ fhir:v "Lumbar Puncture" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "077" ] ;
+       fhir:display [ fhir:v "Lymphangiogram" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "078" ] ;
+       fhir:display [ fhir:v "MAO Inhibitors" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "079" ] ;
+       fhir:display [ fhir:v "Med, Psych, and/or Drug/Alcohol" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "080" ] ;
+       fhir:display [ fhir:v "Medical Treatment - Refusal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "081" ] ;
+       fhir:display [ fhir:v "Morning-after Pill" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "082" ] ;
+       fhir:display [ fhir:v "MRI - Adult" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "083" ] ;
+       fhir:display [ fhir:v "MRI - Pediatric" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "084" ] ;
+       fhir:display [ fhir:v "Myelogram" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "085" ] ;
+       fhir:display [ fhir:v "Needle Biopsy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "086" ] ;
+       fhir:display [ fhir:v "Needle Biopsy of Lung" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "087" ] ;
+       fhir:display [ fhir:v "Newborn Treatment and Release" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "088" ] ;
+       fhir:display [ fhir:v "Norplant Subdermal Birth Control Implant" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "089" ] ;
+       fhir:display [ fhir:v "Operations, Anesthesia, Transfusions" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "090" ] ;
+       fhir:display [ fhir:v "Oral Contraceptives" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "091" ] ;
+       fhir:display [ fhir:v "Organ Donation" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "092" ] ;
+       fhir:display [ fhir:v "Patient Permits, Consents" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "093" ] ;
+       fhir:display [ fhir:v "Patient Treatment Permit, Release & Admission" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "094" ] ;
+       fhir:display [ fhir:v "Penile Injections" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "095" ] ;
+       fhir:display [ fhir:v "Percutaneous Nephrostomy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "096" ] ;
+       fhir:display [ fhir:v "Percutaneous Transhepatic Cholangiogram" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "097" ] ;
+       fhir:display [ fhir:v "Photographs" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "098" ] ;
+       fhir:display [ fhir:v "Photographs - Employee" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "099" ] ;
+       fhir:display [ fhir:v "Photographs - Medical Research" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "100" ] ;
+       fhir:display [ fhir:v "Photographs - news Media" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "101" ] ;
+       fhir:display [ fhir:v "Psychiatric Admission - Next of Kin" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "102" ] ;
+       fhir:display [ fhir:v "Psychiatric Information During Hospital Stay" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "103" ] ;
+       fhir:display [ fhir:v "Public Release of Information" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "104" ] ;
+       fhir:display [ fhir:v "Radiologic Procedure" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "105" ] ;
+       fhir:display [ fhir:v "Refusal of Treatment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "106" ] ;
+       fhir:display [ fhir:v "Release of Body" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "107" ] ;
+       fhir:display [ fhir:v "Release of Limb" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "108" ] ;
+       fhir:display [ fhir:v "Rh Immune Globulin" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "109" ] ;
+       fhir:display [ fhir:v "Rights of Medical Research Participants" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "110" ] ;
+       fhir:display [ fhir:v "Request to Restrict Access/Disclosure to Medical Record/Protected Health Information" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "111" ] ;
+       fhir:display [ fhir:v "Request for Remain Anonymous" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "112" ] ;
+       fhir:display [ fhir:v "Seat Belt Exemption" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "113" ] ;
+       fhir:display [ fhir:v "Sialogram" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1137" ] ;
+       fhir:display [ fhir:v "Voiding Cystogram" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "114" ] ;
+       fhir:display [ fhir:v "Sigmoidoscopy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "115" ] ;
+       fhir:display [ fhir:v "Sterilization - Anesthesia & Medical Services" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "116" ] ;
+       fhir:display [ fhir:v "Sterilization -Federally Funded" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "117" ] ;
+       fhir:display [ fhir:v "Sterilization - Female" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "118" ] ;
+       fhir:display [ fhir:v "Sterilization - Laparoscopy/Pomeroy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "119" ] ;
+       fhir:display [ fhir:v "Sterilization - Non-Federally Funded" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "120" ] ;
+       fhir:display [ fhir:v "Sterilization - Secondary" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "121" ] ;
+       fhir:display [ fhir:v "Tranquilizers" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "122" ] ;
+       fhir:display [ fhir:v "Transfer - Acknowledgement" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "123" ] ;
+       fhir:display [ fhir:v "Transfer - Authorization" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "124" ] ;
+       fhir:display [ fhir:v "Transfer Certification - Physician" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "125" ] ;
+       fhir:display [ fhir:v "Transfer/Discharge Request" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "126" ] ;
+       fhir:display [ fhir:v "Transfer for Non-Medical Reasons" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "127" ] ;
+       fhir:display [ fhir:v "Transfer - Interfaculty Neonatal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "128" ] ;
+       fhir:display [ fhir:v "Transfer Refusal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "129" ] ;
+       fhir:display [ fhir:v "Transfer Refusal of Further Treatment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "130" ] ;
+       fhir:display [ fhir:v "Treadmill & EKG" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "131" ] ;
+       fhir:display [ fhir:v "Treadmill, Thallium-201" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "132" ] ;
+       fhir:display [ fhir:v "Typhoid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "133" ] ;
+       fhir:display [ fhir:v "Use of Investigational Device" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "134" ] ;
+       fhir:display [ fhir:v "Use of Investigational Drug" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "135" ] ;
+       fhir:display [ fhir:v "Venogram" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0496"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0496>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "136" ] ;
+       fhir:display [ fhir:v "Videotape" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

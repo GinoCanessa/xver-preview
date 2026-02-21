@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="subscription-error"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://terminology.hl7.org/CodeSystem/subscription-error</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">dns-resolution-error<a name="subscription-error-dns-resolution-error"> </a></td><td>DNS resolution error</td><td>DNS resolution error for client rest-hook endpoint.</td></tr><tr><td style="white-space:nowrap">no-response<a name="subscription-error-no-response"> </a></td><td>No response</td><td>No response for client rest-hook endpoint.</td></tr><tr><td style="white-space:nowrap">error-response<a name="subscription-error-error-response"> </a></td><td>Error response</td><td>Error response from client rest-hook endpoint. Recommended practice: convey the actual HTTP error in an adjacent Coding or in text</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/subscription-error"/>
+  <version value="0.1.0"/>
+  <name value="SubscriptionErrorCodes"/>
+  <title value="Subscription Error Codes"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2023-02-25T12:07:30-06:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/fhir"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="fhir@lists.hl7.org"/>
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/fhir"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="fhir@lists.hl7.org"/>
+    </telecom>
+  </contact>
+  <description value="Codes to represent subscription error details"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/subscription-error|1.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="dns-resolution-error"/>
+    <display value="DNS resolution error"/>
+    <definition value="DNS resolution error for client rest-hook endpoint."/>
+  </concept>
+  <concept>
+    <code value="no-response"/>
+    <display value="No response"/>
+    <definition value="No response for client rest-hook endpoint."/>
+  </concept>
+  <concept>
+    <code value="error-response"/>
+    <display value="Error response"/>
+    <definition value="Error response from client rest-hook endpoint. Recommended practice: convey the actual HTTP error in an adjacent Coding or in text"/>
+  </concept>
+</CodeSystem>

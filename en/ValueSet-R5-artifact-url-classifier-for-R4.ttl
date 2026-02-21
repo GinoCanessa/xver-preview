@@ -1,0 +1,301 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-artifact-url-classifier-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-artifact-url-classifier-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-artifact-url-classifier-for-R4</b></p><a name=\"R5-artifact-url-classifier-for-R4\"> </a><a name=\"hcR5-artifact-url-classifier-for-R4\"> </a><p>This value set expansion contains 15 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"R5-artifact-url-classifier-for-R4-http://hl7.org/fhir/artifact-url-classifier-abstract\"> </a><code>http://hl7.org/fhir/artifact-url-classifier</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-artifact-url-classifier.html#artifact-url-classifier-abstract\">abstract</a></td><td>Abstract</td><td>The URL will reach a brief summary for the article.</td></tr><tr><td><a name=\"R5-artifact-url-classifier-for-R4-http://hl7.org/fhir/artifact-url-classifier-code-repository\"> </a><code>http://hl7.org/fhir/artifact-url-classifier</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-artifact-url-classifier.html#artifact-url-classifier-code-repository\">code-repository</a></td><td>Code repository</td><td>File archive and web hosting facility for source code of software, documentation, web pages, and other works.</td></tr><tr><td><a name=\"R5-artifact-url-classifier-for-R4-http://hl7.org/fhir/artifact-url-classifier-compressed-file\"> </a><code>http://hl7.org/fhir/artifact-url-classifier</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-artifact-url-classifier.html#artifact-url-classifier-compressed-file\">compressed-file</a></td><td>Compressed file</td><td>Compressed archive file (e.g. a zip file) that contains multiple files</td></tr><tr><td><a name=\"R5-artifact-url-classifier-for-R4-http://hl7.org/fhir/artifact-url-classifier-computable-resource\"> </a><code>http://hl7.org/fhir/artifact-url-classifier</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-artifact-url-classifier.html#artifact-url-classifier-computable-resource\">computable-resource</a></td><td>Computable resource</td><td>The URL will reach content that is machine-interpretable.</td></tr><tr><td><a name=\"R5-artifact-url-classifier-for-R4-http://hl7.org/fhir/artifact-url-classifier-doi-based\"> </a><code>http://hl7.org/fhir/artifact-url-classifier</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-artifact-url-classifier.html#artifact-url-classifier-doi-based\">doi-based</a></td><td>DOI Based</td><td>The URL is derived from the Digital Object Identifier (DOI).</td></tr><tr><td><a name=\"R5-artifact-url-classifier-for-R4-http://hl7.org/fhir/artifact-url-classifier-file-directory\"> </a><code>http://hl7.org/fhir/artifact-url-classifier</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-artifact-url-classifier.html#artifact-url-classifier-file-directory\">file-directory</a></td><td>File directory</td><td>The URL will reach a file directory.</td></tr><tr><td><a name=\"R5-artifact-url-classifier-for-R4-http://hl7.org/fhir/artifact-url-classifier-full-text\"> </a><code>http://hl7.org/fhir/artifact-url-classifier</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-artifact-url-classifier.html#artifact-url-classifier-full-text\">full-text</a></td><td>Full-Text</td><td>The URL will reach the full-text of the article.</td></tr><tr><td><a name=\"R5-artifact-url-classifier-for-R4-http://hl7.org/fhir/artifact-url-classifier-json\"> </a><code>http://hl7.org/fhir/artifact-url-classifier</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-artifact-url-classifier.html#artifact-url-classifier-json\">json</a></td><td>JSON</td><td>The URL will reach content in JSON format.</td></tr><tr><td><a name=\"R5-artifact-url-classifier-for-R4-http://hl7.org/fhir/artifact-url-classifier-not-specified\"> </a><code>http://hl7.org/fhir/artifact-url-classifier</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-artifact-url-classifier.html#artifact-url-classifier-not-specified\">not-specified</a></td><td>Not Specified</td><td>Used when URL classifier is not specified but expected in a system.</td></tr><tr><td><a name=\"R5-artifact-url-classifier-for-R4-http://hl7.org/fhir/artifact-url-classifier-pdf\"> </a><code>http://hl7.org/fhir/artifact-url-classifier</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-artifact-url-classifier.html#artifact-url-classifier-pdf\">pdf</a></td><td>PDF</td><td>The URL will reach content in PDF form.</td></tr><tr><td><a name=\"R5-artifact-url-classifier-for-R4-http://hl7.org/fhir/artifact-url-classifier-restricted\"> </a><code>http://hl7.org/fhir/artifact-url-classifier</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-artifact-url-classifier.html#artifact-url-classifier-restricted\">restricted</a></td><td>Restricted</td><td>The URL content has restricted access (e.g. subcription required).</td></tr><tr><td><a name=\"R5-artifact-url-classifier-for-R4-http://hl7.org/fhir/artifact-url-classifier-supplement\"> </a><code>http://hl7.org/fhir/artifact-url-classifier</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-artifact-url-classifier.html#artifact-url-classifier-supplement\">supplement</a></td><td>Supplement</td><td>The URL will reach a supplement, appendix, or additional supporting information for the article.</td></tr><tr><td><a name=\"R5-artifact-url-classifier-for-R4-http://hl7.org/fhir/artifact-url-classifier-version-specific\"> </a><code>http://hl7.org/fhir/artifact-url-classifier</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-artifact-url-classifier.html#artifact-url-classifier-version-specific\">version-specific</a></td><td>Version Specific</td><td>The URL will reach content that is a specific version of the article.</td></tr><tr><td><a name=\"R5-artifact-url-classifier-for-R4-http://hl7.org/fhir/artifact-url-classifier-webpage\"> </a><code>http://hl7.org/fhir/artifact-url-classifier</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-artifact-url-classifier.html#artifact-url-classifier-webpage\">webpage</a></td><td>Webpage</td><td>The URL will reach a webpage related to the article, where the content is not easily classified as abstract, full-text or supplement.</td></tr><tr><td><a name=\"R5-artifact-url-classifier-for-R4-http://hl7.org/fhir/artifact-url-classifier-xml\"> </a><code>http://hl7.org/fhir/artifact-url-classifier</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-artifact-url-classifier.html#artifact-url-classifier-xml\">xml</a></td><td>XML</td><td>The URL will reach content in XML format.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "cds"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-artifact-url-classifier-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-artifact-url-classifier-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5ArtifactUrlClassifierForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.ArtifactUrlClassifier for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Clinical Decision Support"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Clinical Decision Support" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/dss" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/artifact-url-classifier|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/artifact-url-classifier|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `Citation.citedArtifact.webLocation.classifier`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://hl7.org/fhir/ValueSet/artifact-url-classifier|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/artifact-url-classifier"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/artifact-url-classifier>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "abstract" ] ;
+         fhir:display [ fhir:v "Abstract" ]
+       ] [
+         fhir:code [ fhir:v "code-repository" ] ;
+         fhir:display [ fhir:v "Code repository" ]
+       ] [
+         fhir:code [ fhir:v "compressed-file" ] ;
+         fhir:display [ fhir:v "Compressed file" ]
+       ] [
+         fhir:code [ fhir:v "computable-resource" ] ;
+         fhir:display [ fhir:v "Computable resource" ]
+       ] [
+         fhir:code [ fhir:v "doi-based" ] ;
+         fhir:display [ fhir:v "DOI Based" ]
+       ] [
+         fhir:code [ fhir:v "file-directory" ] ;
+         fhir:display [ fhir:v "File directory" ]
+       ] [
+         fhir:code [ fhir:v "full-text" ] ;
+         fhir:display [ fhir:v "Full-Text" ]
+       ] [
+         fhir:code [ fhir:v "json" ] ;
+         fhir:display [ fhir:v "JSON" ]
+       ] [
+         fhir:code [ fhir:v "not-specified" ] ;
+         fhir:display [ fhir:v "Not Specified" ]
+       ] [
+         fhir:code [ fhir:v "pdf" ] ;
+         fhir:display [ fhir:v "PDF" ]
+       ] [
+         fhir:code [ fhir:v "restricted" ] ;
+         fhir:display [ fhir:v "Restricted" ]
+       ] [
+         fhir:code [ fhir:v "supplement" ] ;
+         fhir:display [ fhir:v "Supplement" ]
+       ] [
+         fhir:code [ fhir:v "version-specific" ] ;
+         fhir:display [ fhir:v "Version Specific" ]
+       ] [
+         fhir:code [ fhir:v "webpage" ] ;
+         fhir:display [ fhir:v "Webpage" ]
+       ] [
+         fhir:code [ fhir:v "xml" ] ;
+         fhir:display [ fhir:v "XML" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/artifact-url-classifier"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/artifact-url-classifier>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "abstract" ] ;
+       fhir:display [ fhir:v "Abstract" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/artifact-url-classifier"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/artifact-url-classifier>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "code-repository" ] ;
+       fhir:display [ fhir:v "Code repository" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/artifact-url-classifier"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/artifact-url-classifier>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "compressed-file" ] ;
+       fhir:display [ fhir:v "Compressed file" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/artifact-url-classifier"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/artifact-url-classifier>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "computable-resource" ] ;
+       fhir:display [ fhir:v "Computable resource" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/artifact-url-classifier"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/artifact-url-classifier>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "doi-based" ] ;
+       fhir:display [ fhir:v "DOI Based" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/artifact-url-classifier"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/artifact-url-classifier>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "file-directory" ] ;
+       fhir:display [ fhir:v "File directory" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/artifact-url-classifier"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/artifact-url-classifier>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "full-text" ] ;
+       fhir:display [ fhir:v "Full-Text" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/artifact-url-classifier"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/artifact-url-classifier>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "json" ] ;
+       fhir:display [ fhir:v "JSON" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/artifact-url-classifier"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/artifact-url-classifier>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "not-specified" ] ;
+       fhir:display [ fhir:v "Not Specified" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/artifact-url-classifier"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/artifact-url-classifier>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "pdf" ] ;
+       fhir:display [ fhir:v "PDF" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/artifact-url-classifier"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/artifact-url-classifier>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "restricted" ] ;
+       fhir:display [ fhir:v "Restricted" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/artifact-url-classifier"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/artifact-url-classifier>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "supplement" ] ;
+       fhir:display [ fhir:v "Supplement" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/artifact-url-classifier"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/artifact-url-classifier>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "version-specific" ] ;
+       fhir:display [ fhir:v "Version Specific" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/artifact-url-classifier"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/artifact-url-classifier>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "webpage" ] ;
+       fhir:display [ fhir:v "Webpage" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/artifact-url-classifier"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/artifact-url-classifier>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "xml" ] ;
+       fhir:display [ fhir:v "XML" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-account-balance-term-for-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-account-balance-term-for-R4</b></p><a name="R5-account-balance-term-for-R4"> </a><a name="hcR5-account-balance-term-for-R4"> </a><p>This value set expansion contains 5 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="R5-account-balance-term-for-R4-http://hl7.org/fhir/account-balance-term-120"> </a><code>http://hl7.org/fhir/account-balance-term</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-account-balance-term.html#account-balance-term-120">120</a></td><td>120 day</td><td>This balance is outstanding over 120 days</td></tr><tr><td><a name="R5-account-balance-term-for-R4-http://hl7.org/fhir/account-balance-term-30"> </a><code>http://hl7.org/fhir/account-balance-term</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-account-balance-term.html#account-balance-term-30">30</a></td><td>30 day</td><td>This balance is outstanding over 30 days</td></tr><tr><td><a name="R5-account-balance-term-for-R4-http://hl7.org/fhir/account-balance-term-60"> </a><code>http://hl7.org/fhir/account-balance-term</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-account-balance-term.html#account-balance-term-60">60</a></td><td>60 day</td><td>This balance is outstanding over 60 days</td></tr><tr><td><a name="R5-account-balance-term-for-R4-http://hl7.org/fhir/account-balance-term-90"> </a><code>http://hl7.org/fhir/account-balance-term</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-account-balance-term.html#account-balance-term-90">90</a></td><td>90 day</td><td>This balance is outstanding over 90 days</td></tr><tr><td><a name="R5-account-balance-term-for-R4-http://hl7.org/fhir/account-balance-term-current"> </a><code>http://hl7.org/fhir/account-balance-term</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-account-balance-term.html#account-balance-term-current">current</a></td><td>Current</td><td>This balance is the current balance</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pa"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-account-balance-term-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5AccountBalanceTermForR4"/>
+  <title value="Cross-version ValueSet R5.AccountBalanceTerm for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="Patient Administration"/>
+  <contact>
+    <name value="Patient Administration"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pafm"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/account-balance-term|5.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/account-balance-term|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `Account.balance.term`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;&#xA;FHIR ValueSet `http://hl7.org/fhir/ValueSet/account-balance-term|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/account-balance-term"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="120"/>
+        <display value="120 day"/>
+      </concept>
+      <concept>
+        <code value="30"/>
+        <display value="30 day"/>
+      </concept>
+      <concept>
+        <code value="60"/>
+        <display value="60 day"/>
+      </concept>
+      <concept>
+        <code value="90"/>
+        <display value="90 day"/>
+      </concept>
+      <concept>
+        <code value="current"/>
+        <display value="Current"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/account-balance-term"/>
+      <version value="5.0.0"/>
+      <code value="120"/>
+      <display value="120 day"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/account-balance-term"/>
+      <version value="5.0.0"/>
+      <code value="30"/>
+      <display value="30 day"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/account-balance-term"/>
+      <version value="5.0.0"/>
+      <code value="60"/>
+      <display value="60 day"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/account-balance-term"/>
+      <version value="5.0.0"/>
+      <code value="90"/>
+      <display value="90 day"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/account-balance-term"/>
+      <version value="5.0.0"/>
+      <code value="current"/>
+      <display value="Current"/>
+    </contains>
+  </expansion>
+</ValueSet>

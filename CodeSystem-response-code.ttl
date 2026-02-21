@@ -72,25 +72,25 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "fhir"
+       fhir:v "inm"
      ]
   ] ) ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/response-code"^^xsd:anyURI ;
      fhir:l <http://hl7.org/fhir/response-code>
   ] ; # 
-  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:version [ fhir:v "5.0.0"] ; # 
   fhir:name [ fhir:v "ResponseType"] ; # 
   fhir:title [ fhir:v "Response Type"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2021-01-04T17:01:24-06:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:publisher [ fhir:v "Infrastructure And Messaging"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:name [ fhir:v "Infrastructure And Messaging" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/inm" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "The kind of response to a message."] ; # 
@@ -106,8 +106,8 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://hl7.org/fhir/ValueSet/response-code"^^xsd:anyURI ;
-     fhir:l <http://hl7.org/fhir/ValueSet/response-code>
+     fhir:v "http://hl7.org/fhir/ValueSet/response-code|4.0.1"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/response-code?version=4.0.1>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

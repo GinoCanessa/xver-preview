@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-testscript-scope-phase-codes-for-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-testscript-scope-phase-codes-for-R4</b></p><a name="R5-testscript-scope-phase-codes-for-R4"> </a><a name="hcR5-testscript-scope-phase-codes-for-R4"> </a><p>This value set expansion contains 3 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="R5-testscript-scope-phase-codes-for-R4-http://hl7.org/fhir/testscript-scope-phase-codes-integration"> </a><code>http://hl7.org/fhir/testscript-scope-phase-codes</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-testscript-scope-phase-codes.html#testscript-scope-phase-codes-integration">integration</a></td><td>Integration</td><td>The internal system to system phase.</td></tr><tr><td><a name="R5-testscript-scope-phase-codes-for-R4-http://hl7.org/fhir/testscript-scope-phase-codes-production"> </a><code>http://hl7.org/fhir/testscript-scope-phase-codes</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-testscript-scope-phase-codes.html#testscript-scope-phase-codes-production">production</a></td><td>Production</td><td>The live system to system phase (Note, this may involve pii/phi data).</td></tr><tr><td><a name="R5-testscript-scope-phase-codes-for-R4-http://hl7.org/fhir/testscript-scope-phase-codes-unit"> </a><code>http://hl7.org/fhir/testscript-scope-phase-codes</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-testscript-scope-phase-codes.html#testscript-scope-phase-codes-unit">unit</a></td><td>Unit</td><td>The development or implementation phase.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="4"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-testscript-scope-phase-codes-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5TestscriptScopePhaseCodesForR4"/>
+  <title value="Cross-version ValueSet R5.TestScriptScopePhaseType for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/testscript-scope-phase-codes|5.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/testscript-scope-phase-codes|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `TestPlan.category`&#xA;* `TestScript.scope.phase`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;&#xA;FHIR ValueSet `http://hl7.org/fhir/ValueSet/testscript-scope-phase-codes|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/testscript-scope-phase-codes"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="integration"/>
+        <display value="Integration"/>
+      </concept>
+      <concept>
+        <code value="production"/>
+        <display value="Production"/>
+      </concept>
+      <concept>
+        <code value="unit"/>
+        <display value="Unit"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/testscript-scope-phase-codes"/>
+      <version value="5.0.0"/>
+      <code value="integration"/>
+      <display value="Integration"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/testscript-scope-phase-codes"/>
+      <version value="5.0.0"/>
+      <code value="production"/>
+      <display value="Production"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/testscript-scope-phase-codes"/>
+      <version value="5.0.0"/>
+      <code value="unit"/>
+      <display value="Unit"/>
+    </contains>
+  </expansion>
+</ValueSet>

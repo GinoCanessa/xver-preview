@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="communication-topic"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://terminology.hl7.org/CodeSystem/communication-topic</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">prescription-refill-request<a name="communication-topic-prescription-refill-request"> </a></td><td>Prescription Refill Request</td><td>The purpose or content of the communication is a prescription refill request.</td></tr><tr><td style="white-space:nowrap">progress-update<a name="communication-topic-progress-update"> </a></td><td>Progress Update</td><td>The purpose or content of the communication is a progress update.</td></tr><tr><td style="white-space:nowrap">report-labs<a name="communication-topic-report-labs"> </a></td><td>Report Labs</td><td>The purpose or content of the communication is to report labs.</td></tr><tr><td style="white-space:nowrap">appointment-reminder<a name="communication-topic-appointment-reminder"> </a></td><td>Appointment Reminder</td><td>The purpose or content of the communication is an appointment reminder.</td></tr><tr><td style="white-space:nowrap">phone-consult<a name="communication-topic-phone-consult"> </a></td><td>Phone Consult</td><td>The purpose or content of the communication is a phone consult.</td></tr><tr><td style="white-space:nowrap">summary-report<a name="communication-topic-summary-report"> </a></td><td>Summary Report</td><td>The purpose or content of the communication is a summary report.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pc"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/communication-topic"/>
+  <version value="0.1.0"/>
+  <name value="CommunicationTopic"/>
+  <title value="CommunicationTopic"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-04-09T16:10:28-05:00"/>
+  <publisher value="Patient Care"/>
+  <contact>
+    <name value="Patient Care"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="Codes describing the purpose or content of the communication."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/communication-topic|1.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="prescription-refill-request"/>
+    <display value="Prescription Refill Request"/>
+    <definition value="The purpose or content of the communication is a prescription refill request."/>
+  </concept>
+  <concept>
+    <code value="progress-update"/>
+    <display value="Progress Update"/>
+    <definition value="The purpose or content of the communication is a progress update."/>
+  </concept>
+  <concept>
+    <code value="report-labs"/>
+    <display value="Report Labs"/>
+    <definition value="The purpose or content of the communication is to report labs."/>
+  </concept>
+  <concept>
+    <code value="appointment-reminder"/>
+    <display value="Appointment Reminder"/>
+    <definition value="The purpose or content of the communication is an appointment reminder."/>
+  </concept>
+  <concept>
+    <code value="phone-consult"/>
+    <display value="Phone Consult"/>
+    <definition value="The purpose or content of the communication is a phone consult."/>
+  </concept>
+  <concept>
+    <code value="summary-report"/>
+    <display value="Summary Report"/>
+    <definition value="The purpose or content of the communication is a summary report."/>
+  </concept>
+</CodeSystem>

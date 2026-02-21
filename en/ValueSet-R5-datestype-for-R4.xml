@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-datestype-for-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-datestype-for-R4</b></p><a name="R5-datestype-for-R4"> </a><a name="hcR5-datestype-for-R4"> </a><p>This value set expansion contains 3 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="R5-datestype-for-R4-http://hl7.org/fhir/datestype-card-issued"> </a><code>http://hl7.org/fhir/datestype</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-datestype.html#datestype-card-issued">card-issued</a></td><td>Card Issued</td><td>The date when an insurance card was issued.</td></tr><tr><td><a name="R5-datestype-for-R4-http://hl7.org/fhir/datestype-claim-received"> </a><code>http://hl7.org/fhir/datestype</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-datestype.html#datestype-claim-received">claim-received</a></td><td>Claim Received</td><td>The date when an insurer nreceived a claim, pre-authorization or predetermination.</td></tr><tr><td><a name="R5-datestype-for-R4-http://hl7.org/fhir/datestype-service-expected"> </a><code>http://hl7.org/fhir/datestype</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-datestype.html#datestype-service-expected">service-expected</a></td><td>Service Expected</td><td>The date or period on or during which the services are expected to be performed.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fm"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-datestype-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5DatestypeForR4"/>
+  <title value="Cross-version ValueSet R5.DatesTypeCodes for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="Financial Management"/>
+  <contact>
+    <name value="Financial Management"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fm"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/datestype|5.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/datestype|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `Claim.event.type`&#xA;* `ClaimResponse.event.type`&#xA;* `CoverageEligibilityRequest.event.type`&#xA;* `CoverageEligibilityResponse.event.type`&#xA;* `ExplanationOfBenefit.event.type`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;&#xA;FHIR ValueSet `http://hl7.org/fhir/ValueSet/datestype|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/datestype"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="card-issued"/>
+        <display value="Card Issued"/>
+      </concept>
+      <concept>
+        <code value="claim-received"/>
+        <display value="Claim Received"/>
+      </concept>
+      <concept>
+        <code value="service-expected"/>
+        <display value="Service Expected"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/datestype"/>
+      <version value="5.0.0"/>
+      <code value="card-issued"/>
+      <display value="Card Issued"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/datestype"/>
+      <version value="5.0.0"/>
+      <code value="claim-received"/>
+      <display value="Claim Received"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/datestype"/>
+      <version value="5.0.0"/>
+      <code value="service-expected"/>
+      <display value="Service Expected"/>
+    </contains>
+  </expansion>
+</ValueSet>

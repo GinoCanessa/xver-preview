@@ -63,25 +63,25 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "fhir"
+       fhir:v "fm"
      ]
   ] ) ; # 
   fhir:url [
      fhir:v "http://terminology.hl7.org/CodeSystem/ex-claimsubtype"^^xsd:anyURI ;
      fhir:l <http://terminology.hl7.org/CodeSystem/ex-claimsubtype>
   ] ; # 
-  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "ExampleClaimSubTypeCodes"] ; # 
   fhir:title [ fhir:v "Example Claim SubType Codes"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2023-02-25T12:07:30-06:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:publisher [ fhir:v "Financial Management"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:name [ fhir:v "Financial Management" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fm" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "This value set includes sample Claim SubType codes which are used to distinguish the claim types for example within type institutional there may be subtypes for emergency services, bed stay and transportation."] ; # 
@@ -98,8 +98,8 @@
   fhir:copyright [ fhir:v "This is an example set."] ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://terminology.hl7.org/ValueSet/claim-subtype"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/ValueSet/claim-subtype>
+     fhir:v "http://terminology.hl7.org/ValueSet/claim-subtype|1.0.1"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/claim-subtype?version=1.0.1>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

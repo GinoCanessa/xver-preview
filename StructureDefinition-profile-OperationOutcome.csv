@@ -35,14 +35,10 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","AcknowledgementDetail or Observation[classCode=""ALRT"" and moodCode=""EVN""]","ERR"
 "OperationOutcome.issue.id","OperationOutcome.issue.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"OperationOutcome.issue.extension","OperationOutcome.issue.extension","","","",1,*,"","","","Extension {[]} {[]}
-","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
-","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"OperationOutcome.issue.extension:issue","OperationOutcome.issue.extension","issue","","",1,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationOutcome.issue]]} {[]}
-","Cross-version extension for OperationOutcome.issue from R5 for use in FHIR R4","An error, warning, or information message that results from a system action.","Element `OperationOutcome.issue` has is mapped to FHIR R4 element `OperationOutcome.issue`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"OperationOutcome.issue.extension","OperationOutcome.issue.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
 "OperationOutcome.issue.modifierExtension","OperationOutcome.issue.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 ","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -52,11 +48,35 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "OperationOutcome.issue.severity","OperationOutcome.issue.severity","","","",1,1,"","","Y","code {[]} {[]}
 ","fatal | error | warning | information","Indicates whether the issue indicates a variation from successful processing.","This is labeled as ""Is Modifier"" because applications should not confuse hints and warnings with errors.","Indicates how relevant the issue is to the overall success of the action.","","","","","","","",,"required","How the issue affects the success of the action.","http://hl7.org/fhir/ValueSet/issue-severity|4.0.1","",,,,"OperationOutcome.issue.severity",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./typeCode[parent::AcknowledgmentDetail] or unique(./inboundRelationship[parent::Observation and typeCode='SUBJ' and isNormalActRelationship()]/source[classCode=""OBS"" and moodCode=""EVN"" and implies(code, ActCode#SEV and isNormalAct())/value[xsi:type=""CD""]","ERR-4"
+"OperationOutcome.issue.severity.id","OperationOutcome.issue.severity.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references)","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
+"OperationOutcome.issue.severity.extension","OperationOutcome.issue.severity.extension","","","",1,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"OperationOutcome.issue.severity.extension:severity","OperationOutcome.issue.severity.extension","severity","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationOutcome.issue.severity|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for OperationOutcome.issue.severity from R5 for use in FHIR R4","Indicates whether the issue indicates a variation from successful processing.","Element `OperationOutcome.issue.severity` is mapped to FHIR R4 element `OperationOutcome.issue.severity` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"OperationOutcome.issue.severity.value","OperationOutcome.issue.severity.value","","","",0,1,"","","","string {[]} {[]}
+","Primitive value for code","Primitive value for code","","","","","","","","","",,,,,"",,,,"string.value",0,1,"",""
 "OperationOutcome.issue.code","OperationOutcome.issue.code","","","",1,1,"","","Y","code {[]} {[]}
 ","Error or warning code","Describes the type of the issue. The system that creates an OperationOutcome SHALL choose the most applicable code from the IssueType value set, and may additional provide its own code for the error in the details element.","","Expresses the issue in a human and computer-friendly way, allowing the requesting system to behave differently based on the type of issue.
 
 The required element provides a base level of computable interoperability across all systems for processing an outcome, allowing systems to respond appropriately regardless of the internal system error codes returned.","","","","","","","",,"required","A code that describes the type of issue.","http://hl7.org/fhir/ValueSet/issue-type|4.0.1","",,,,"OperationOutcome.issue.code",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./code","ERR-3"
+"OperationOutcome.issue.code.id","OperationOutcome.issue.code.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references)","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
+"OperationOutcome.issue.code.extension","OperationOutcome.issue.code.extension","","","",1,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"OperationOutcome.issue.code.extension:code","OperationOutcome.issue.code.extension","code","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationOutcome.issue.code|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for OperationOutcome.issue.code from R5 for use in FHIR R4","Describes the type of the issue. The system that creates an OperationOutcome SHALL choose the most applicable code from the IssueType value set, and may additional provide its own code for the error in the details element.","Element `OperationOutcome.issue.code` is mapped to FHIR R4 element `OperationOutcome.issue.code` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"OperationOutcome.issue.code.value","OperationOutcome.issue.code.value","","","",0,1,"","","","string {[]} {[]}
+","Primitive value for code","Primitive value for code","","","","","","","","","",,,,,"",,,,"string.value",0,1,"",""
 "OperationOutcome.issue.details","OperationOutcome.issue.details","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
 ","Additional details about the error","Additional details about the error. This may be a text description of the error or a system code that identifies the error.","A human readable description of the error issue SHOULD be placed in details.text.","","","","","","","","",,"example","A code that provides details as the exact issue.","http://hl7.org/fhir/ValueSet/operation-outcome|4.0.1","",,,,"OperationOutcome.issue.details",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","./code","ERR-5"

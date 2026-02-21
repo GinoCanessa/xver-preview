@@ -1,0 +1,223 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-biologicallyderivedproductdispense-status-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-biologicallyderivedproductdispense-status-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-biologicallyderivedproductdispense-status-for-R4</b></p><a name=\"R5-biologicallyderivedproductdispense-status-for-R4\"> </a><a name=\"hcR5-biologicallyderivedproductdispense-status-for-R4\"> </a><p>This value set expansion contains 8 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"R5-biologicallyderivedproductdispense-status-for-R4-http://hl7.org/fhir/biologicallyderivedproductdispense-status-allocated\"> </a><code>http://hl7.org/fhir/biologicallyderivedproductdispense-status</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-biologicallyderivedproductdispense-status.html#biologicallyderivedproductdispense-status-allocated\">allocated</a></td><td>Allocated</td><td>The requested product has been allocated and is ready for transport.</td></tr><tr><td><a name=\"R5-biologicallyderivedproductdispense-status-for-R4-http://hl7.org/fhir/biologicallyderivedproductdispense-status-entered-in-error\"> </a><code>http://hl7.org/fhir/biologicallyderivedproductdispense-status</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-biologicallyderivedproductdispense-status.html#biologicallyderivedproductdispense-status-entered-in-error\">entered-in-error</a></td><td>Entered in Error</td><td>The dispense was entered in error and therefore nullified.</td></tr><tr><td><a name=\"R5-biologicallyderivedproductdispense-status-for-R4-http://hl7.org/fhir/biologicallyderivedproductdispense-status-in-progress\"> </a><code>http://hl7.org/fhir/biologicallyderivedproductdispense-status</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-biologicallyderivedproductdispense-status.html#biologicallyderivedproductdispense-status-in-progress\">in-progress</a></td><td>In Progress</td><td>The dispense process is in progress.</td></tr><tr><td><a name=\"R5-biologicallyderivedproductdispense-status-for-R4-http://hl7.org/fhir/biologicallyderivedproductdispense-status-issued\"> </a><code>http://hl7.org/fhir/biologicallyderivedproductdispense-status</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-biologicallyderivedproductdispense-status.html#biologicallyderivedproductdispense-status-issued\">issued</a></td><td>Issued</td><td>The dispensed product has been picked up.</td></tr><tr><td><a name=\"R5-biologicallyderivedproductdispense-status-for-R4-http://hl7.org/fhir/biologicallyderivedproductdispense-status-preparation\"> </a><code>http://hl7.org/fhir/biologicallyderivedproductdispense-status</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-biologicallyderivedproductdispense-status.html#biologicallyderivedproductdispense-status-preparation\">preparation</a></td><td>Preparation</td><td>The dispense process has started but not yet completed.</td></tr><tr><td><a name=\"R5-biologicallyderivedproductdispense-status-for-R4-http://hl7.org/fhir/biologicallyderivedproductdispense-status-returned\"> </a><code>http://hl7.org/fhir/biologicallyderivedproductdispense-status</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-biologicallyderivedproductdispense-status.html#biologicallyderivedproductdispense-status-returned\">returned</a></td><td>Returned</td><td>The dispensed product was returned.</td></tr><tr><td><a name=\"R5-biologicallyderivedproductdispense-status-for-R4-http://hl7.org/fhir/biologicallyderivedproductdispense-status-unfulfilled\"> </a><code>http://hl7.org/fhir/biologicallyderivedproductdispense-status</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-biologicallyderivedproductdispense-status.html#biologicallyderivedproductdispense-status-unfulfilled\">unfulfilled</a></td><td>Unfulfilled</td><td>The dispense could not be completed.</td></tr><tr><td><a name=\"R5-biologicallyderivedproductdispense-status-for-R4-http://hl7.org/fhir/biologicallyderivedproductdispense-status-unknown\"> </a><code>http://hl7.org/fhir/biologicallyderivedproductdispense-status</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-biologicallyderivedproductdispense-status.html#biologicallyderivedproductdispense-status-unknown\">unknown</a></td><td>Unknown</td><td>The authoring system does not know which of the status values applies for this dispense. Note: this concept is not to be used for other - one of the listed statuses is presumed to apply, it's just not known which one.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "oo"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-biologicallyderivedproductdispense-status-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-biologicallyderivedproductdispense-status-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5BiologicallyderivedproductdispenseStatusForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.BiologicallyDerivedProductDispenseCodes for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Orders and Observations"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Orders and Observations" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/orders" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/biologicallyderivedproductdispense-status|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/biologicallyderivedproductdispense-status|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `BiologicallyDerivedProductDispense.status`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://hl7.org/fhir/ValueSet/biologicallyderivedproductdispense-status|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/biologicallyderivedproductdispense-status"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/biologicallyderivedproductdispense-status>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "allocated" ] ;
+         fhir:display [ fhir:v "Allocated" ]
+       ] [
+         fhir:code [ fhir:v "entered-in-error" ] ;
+         fhir:display [ fhir:v "Entered in Error" ]
+       ] [
+         fhir:code [ fhir:v "in-progress" ] ;
+         fhir:display [ fhir:v "In Progress" ]
+       ] [
+         fhir:code [ fhir:v "issued" ] ;
+         fhir:display [ fhir:v "Issued" ]
+       ] [
+         fhir:code [ fhir:v "preparation" ] ;
+         fhir:display [ fhir:v "Preparation" ]
+       ] [
+         fhir:code [ fhir:v "returned" ] ;
+         fhir:display [ fhir:v "Returned" ]
+       ] [
+         fhir:code [ fhir:v "unfulfilled" ] ;
+         fhir:display [ fhir:v "Unfulfilled" ]
+       ] [
+         fhir:code [ fhir:v "unknown" ] ;
+         fhir:display [ fhir:v "Unknown" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/biologicallyderivedproductdispense-status"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/biologicallyderivedproductdispense-status>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "allocated" ] ;
+       fhir:display [ fhir:v "Allocated" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/biologicallyderivedproductdispense-status"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/biologicallyderivedproductdispense-status>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "entered-in-error" ] ;
+       fhir:display [ fhir:v "Entered in Error" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/biologicallyderivedproductdispense-status"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/biologicallyderivedproductdispense-status>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "in-progress" ] ;
+       fhir:display [ fhir:v "In Progress" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/biologicallyderivedproductdispense-status"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/biologicallyderivedproductdispense-status>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "issued" ] ;
+       fhir:display [ fhir:v "Issued" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/biologicallyderivedproductdispense-status"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/biologicallyderivedproductdispense-status>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "preparation" ] ;
+       fhir:display [ fhir:v "Preparation" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/biologicallyderivedproductdispense-status"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/biologicallyderivedproductdispense-status>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "returned" ] ;
+       fhir:display [ fhir:v "Returned" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/biologicallyderivedproductdispense-status"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/biologicallyderivedproductdispense-status>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "unfulfilled" ] ;
+       fhir:display [ fhir:v "Unfulfilled" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/biologicallyderivedproductdispense-status"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/biologicallyderivedproductdispense-status>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "unknown" ] ;
+       fhir:display [ fhir:v "Unknown" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,131 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/list-order> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "list-order"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://terminology.hl7.org/CodeSystem/list-order</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">user<a name=\"list-order-user\"> </a></td><td>Sorted by User</td><td>The list was sorted by a user. The criteria the user used are not specified.</td></tr><tr><td style=\"white-space:nowrap\">system<a name=\"list-order-system\"> </a></td><td>Sorted by System</td><td>The list was sorted by the system. The criteria the user used are not specified; define additional codes to specify a particular order (or use other defined codes).</td></tr><tr><td style=\"white-space:nowrap\">event-date<a name=\"list-order-event-date\"> </a></td><td>Sorted by Event Date</td><td>The list is sorted by the data of the event. This can be used when the list has items which are dates with past or future events.</td></tr><tr><td style=\"white-space:nowrap\">entry-date<a name=\"list-order-entry-date\"> </a></td><td>Sorted by Item Date</td><td>The list is sorted by the date the item was added to the list. Note that the date added to the list is not explicit in the list itself.</td></tr><tr><td style=\"white-space:nowrap\">priority<a name=\"list-order-priority\"> </a></td><td>Sorted by Priority</td><td>The list is sorted by priority. The exact method in which priority has been determined is not specified.</td></tr><tr><td style=\"white-space:nowrap\">alphabetic<a name=\"list-order-alphabetic\"> </a></td><td>Sorted Alphabetically</td><td>The list is sorted alphabetically by an unspecified property of the items in the list.</td></tr><tr><td style=\"white-space:nowrap\">category<a name=\"list-order-category\"> </a></td><td>Sorted by Category</td><td>The list is sorted categorically by an unspecified property of the items in the list.</td></tr><tr><td style=\"white-space:nowrap\">patient<a name=\"list-order-patient\"> </a></td><td>Sorted by Patient</td><td>The list is sorted by patient, with items for each patient grouped together.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "sd"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/list-order"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/list-order>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "ListOrderCodes"] ; # 
+  fhir:title [ fhir:v "List Order Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2023-02-25T12:07:30-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Structured Documents"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Structured Documents" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/structure" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Base values for the order of the items in a list resource."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/list-order|2.0.0"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/list-order?version=2.0.0>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "user" ] ;
+     fhir:display [ fhir:v "Sorted by User" ] ;
+     fhir:definition [ fhir:v "The list was sorted by a user. The criteria the user used are not specified." ]
+  ] [
+     fhir:code [ fhir:v "system" ] ;
+     fhir:display [ fhir:v "Sorted by System" ] ;
+     fhir:definition [ fhir:v "The list was sorted by the system. The criteria the user used are not specified; define additional codes to specify a particular order (or use other defined codes)." ]
+  ] [
+     fhir:code [ fhir:v "event-date" ] ;
+     fhir:display [ fhir:v "Sorted by Event Date" ] ;
+     fhir:definition [ fhir:v "The list is sorted by the data of the event. This can be used when the list has items which are dates with past or future events." ]
+  ] [
+     fhir:code [ fhir:v "entry-date" ] ;
+     fhir:display [ fhir:v "Sorted by Item Date" ] ;
+     fhir:definition [ fhir:v "The list is sorted by the date the item was added to the list. Note that the date added to the list is not explicit in the list itself." ]
+  ] [
+     fhir:code [ fhir:v "priority" ] ;
+     fhir:display [ fhir:v "Sorted by Priority" ] ;
+     fhir:definition [ fhir:v "The list is sorted by priority. The exact method in which priority has been determined is not specified." ]
+  ] [
+     fhir:code [ fhir:v "alphabetic" ] ;
+     fhir:display [ fhir:v "Sorted Alphabetically" ] ;
+     fhir:definition [ fhir:v "The list is sorted alphabetically by an unspecified property of the items in the list." ]
+  ] [
+     fhir:code [ fhir:v "category" ] ;
+     fhir:display [ fhir:v "Sorted by Category" ] ;
+     fhir:definition [ fhir:v "The list is sorted categorically by an unspecified property of the items in the list." ]
+  ] [
+     fhir:code [ fhir:v "patient" ] ;
+     fhir:display [ fhir:v "Sorted by Patient" ] ;
+     fhir:definition [ fhir:v "The list is sorted by patient, with items for each patient grouped together." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

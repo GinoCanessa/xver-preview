@@ -1,0 +1,289 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-ActTaskPatientDocumentationCode-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-v3-ActTaskPatientDocumentationCode-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-v3-ActTaskPatientDocumentationCode-for-R4</b></p><a name=\"R5-v3-ActTaskPatientDocumentationCode-for-R4\"> </a><a name=\"hcR5-v3-ActTaskPatientDocumentationCode-for-R4\"> </a><p>This value set expansion contains 13 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"R5-v3-ActTaskPatientDocumentationCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-ALLERLREV\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-ALLERLREV\">ALLERLREV</a></td><td>allergy list review</td><td><div><p><strong>Description:</strong> A person reviews a list of known allergies of a given patient.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActTaskPatientDocumentationCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-CLINNOTEE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-CLINNOTEE\">CLINNOTEE</a></td><td>clinical note entry task</td><td><div><p>A clinician enters a clinical note about a given patient</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActTaskPatientDocumentationCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DIAGLISTE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-DIAGLISTE\">DIAGLISTE</a></td><td>diagnosis list entry task</td><td><div><p>A clinician enters a diagnosis for a given patient.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActTaskPatientDocumentationCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DISCHINSTE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-DISCHINSTE\">DISCHINSTE</a></td><td>discharge instruction entry</td><td><div><p>A person provides a discharge instruction to a patient.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActTaskPatientDocumentationCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DISCHSUME\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-DISCHSUME\">DISCHSUME</a></td><td>discharge summary entry task</td><td><div><p>A clinician enters a discharge summary for a given patient.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActTaskPatientDocumentationCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-IMMLREV\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-IMMLREV\">IMMLREV</a></td><td>immunization list review</td><td><div><p><strong>Description:</strong> A person reviews a list of immunizations due or received for a given patient.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActTaskPatientDocumentationCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-PATDOC\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-PATDOC\">PATDOC</a></td><td>patient documentation task</td><td><div><p>A person enters documentation about a given patient.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActTaskPatientDocumentationCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-PATEDUE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-PATEDUE\">PATEDUE</a></td><td>patient education entry</td><td><div><p>A person provides a patient-specific education handout to a patient.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActTaskPatientDocumentationCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-PATREPE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-PATREPE\">PATREPE</a></td><td>pathology report entry task</td><td><div><p>A pathologist enters a report for a given patient.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActTaskPatientDocumentationCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-PROBLISTE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-PROBLISTE\">PROBLISTE</a></td><td>problem list entry task</td><td><div><p>A clinician enters a problem for a given patient.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActTaskPatientDocumentationCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-RADREPE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-RADREPE\">RADREPE</a></td><td>radiology report entry task</td><td><div><p>A radiologist enters a report for a given patient.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActTaskPatientDocumentationCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-REMLREV\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-REMLREV\">REMLREV</a></td><td>reminder list review</td><td><div><p><strong>Description:</strong> A person reviews a list of health care reminders for a given patient.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActTaskPatientDocumentationCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-WELLREMLREV\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-WELLREMLREV\">WELLREMLREV</a></td><td>wellness reminder list review</td><td><div><p><strong>Description:</strong> A person reviews a list of wellness or preventive care reminders for a given patient.</p>\n</div></td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-ActTaskPatientDocumentationCode-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-ActTaskPatientDocumentationCode-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5V3ActTaskPatientDocumentationCodeForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.ActTaskPatientDocumentationCode for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v3-ActTaskPatientDocumentationCode|2.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/v3-ActTaskPatientDocumentationCode|2.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* \r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://terminology.hl7.org/ValueSet/v3-ActTaskPatientDocumentationCode|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "ALLERLREV" ] ;
+         fhir:display [ fhir:v "allergy list review" ]
+       ] [
+         fhir:code [ fhir:v "CLINNOTEE" ] ;
+         fhir:display [ fhir:v "clinical note entry task" ]
+       ] [
+         fhir:code [ fhir:v "DIAGLISTE" ] ;
+         fhir:display [ fhir:v "diagnosis list entry task" ]
+       ] [
+         fhir:code [ fhir:v "DISCHINSTE" ] ;
+         fhir:display [ fhir:v "discharge instruction entry" ]
+       ] [
+         fhir:code [ fhir:v "DISCHSUME" ] ;
+         fhir:display [ fhir:v "discharge summary entry task" ]
+       ] [
+         fhir:code [ fhir:v "IMMLREV" ] ;
+         fhir:display [ fhir:v "immunization list review" ]
+       ] [
+         fhir:code [ fhir:v "PATDOC" ] ;
+         fhir:display [ fhir:v "patient documentation task" ]
+       ] [
+         fhir:code [ fhir:v "PATEDUE" ] ;
+         fhir:display [ fhir:v "patient education entry" ]
+       ] [
+         fhir:code [ fhir:v "PATREPE" ] ;
+         fhir:display [ fhir:v "pathology report entry task" ]
+       ] [
+         fhir:code [ fhir:v "PROBLISTE" ] ;
+         fhir:display [ fhir:v "problem list entry task" ]
+       ] [
+         fhir:code [ fhir:v "RADREPE" ] ;
+         fhir:display [ fhir:v "radiology report entry task" ]
+       ] [
+         fhir:code [ fhir:v "REMLREV" ] ;
+         fhir:display [ fhir:v "reminder list review" ]
+       ] [
+         fhir:code [ fhir:v "WELLREMLREV" ] ;
+         fhir:display [ fhir:v "wellness reminder list review" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "ALLERLREV" ] ;
+       fhir:display [ fhir:v "allergy list review" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "CLINNOTEE" ] ;
+       fhir:display [ fhir:v "clinical note entry task" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "DIAGLISTE" ] ;
+       fhir:display [ fhir:v "diagnosis list entry task" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "DISCHINSTE" ] ;
+       fhir:display [ fhir:v "discharge instruction entry" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "DISCHSUME" ] ;
+       fhir:display [ fhir:v "discharge summary entry task" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "IMMLREV" ] ;
+       fhir:display [ fhir:v "immunization list review" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "PATDOC" ] ;
+       fhir:display [ fhir:v "patient documentation task" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "PATEDUE" ] ;
+       fhir:display [ fhir:v "patient education entry" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "PATREPE" ] ;
+       fhir:display [ fhir:v "pathology report entry task" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "PROBLISTE" ] ;
+       fhir:display [ fhir:v "problem list entry task" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "RADREPE" ] ;
+       fhir:display [ fhir:v "radiology report entry task" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "REMLREV" ] ;
+       fhir:display [ fhir:v "reminder list review" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "WELLREMLREV" ] ;
+       fhir:display [ fhir:v "wellness reminder list review" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

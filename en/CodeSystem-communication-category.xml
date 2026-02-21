@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="communication-category"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://terminology.hl7.org/CodeSystem/communication-category</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">alert<a name="communication-category-alert"> </a></td><td>Alert</td><td>The communication conveys an alert.</td></tr><tr><td style="white-space:nowrap">notification<a name="communication-category-notification"> </a></td><td>Notification</td><td>The communication conveys a notification.</td></tr><tr><td style="white-space:nowrap">reminder<a name="communication-category-reminder"> </a></td><td>Reminder</td><td>The communication conveys a reminder.</td></tr><tr><td style="white-space:nowrap">instruction<a name="communication-category-instruction"> </a></td><td>Instruction</td><td>The communication conveys an instruction.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pc"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/communication-category"/>
+  <version value="0.1.0"/>
+  <name value="CommunicationCategory"/>
+  <title value="CommunicationCategory"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-04-09T16:10:28-05:00"/>
+  <publisher value="Patient Care"/>
+  <contact>
+    <name value="Patient Care"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="Codes for general categories of communications such as alerts, instructions, etc."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/communication-category|1.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="alert"/>
+    <display value="Alert"/>
+    <definition value="The communication conveys an alert."/>
+  </concept>
+  <concept>
+    <code value="notification"/>
+    <display value="Notification"/>
+    <definition value="The communication conveys a notification."/>
+  </concept>
+  <concept>
+    <code value="reminder"/>
+    <display value="Reminder"/>
+    <definition value="The communication conveys a reminder."/>
+  </concept>
+  <concept>
+    <code value="instruction"/>
+    <display value="Instruction"/>
+    <definition value="The communication conveys an instruction."/>
+  </concept>
+</CodeSystem>

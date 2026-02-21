@@ -1,0 +1,678 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-ImplementationGuide-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-ImplementationGuide-element-map-to-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-ImplementationGuide-element-map-to-R4</b></p><a name=\"R5-ImplementationGuide-element-map-to-R4\"> </a><a name=\"hcR5-ImplementationGuide-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ImplementationGuide|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/implementationguide.html\">ImplementationGuideversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ImplementationGuide.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.meta` is mapped to FHIR R4 element `ImplementationGuide.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.implicitRules` is mapped to FHIR R4 element `ImplementationGuide.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.language` is mapped to FHIR R4 element `ImplementationGuide.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.text` is mapped to FHIR R4 element `ImplementationGuide.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.contained` is mapped to FHIR R4 element `ImplementationGuide.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.url (url)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.url` is mapped to FHIR R4 element `ImplementationGuide.url` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.version (version)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.version` is mapped to FHIR R4 element `ImplementationGuide.version` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.name` is mapped to FHIR R4 element `ImplementationGuide.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.title (title)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.title` is mapped to FHIR R4 element `ImplementationGuide.title` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.status` is mapped to FHIR R4 element `ImplementationGuide.status` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.experimental (experimental)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.experimental` is mapped to FHIR R4 element `ImplementationGuide.experimental` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.date (date)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.date` is mapped to FHIR R4 element `ImplementationGuide.date` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.publisher (publisher)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.publisher` is mapped to FHIR R4 element `ImplementationGuide.publisher` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.contact (contact)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.contact` is mapped to FHIR R4 element `ImplementationGuide.contact` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.description` is mapped to FHIR R4 element `ImplementationGuide.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.useContext (useContext)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.useContext` is mapped to FHIR R4 element `ImplementationGuide.useContext` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.jurisdiction (jurisdiction)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.jurisdiction` is mapped to FHIR R4 element `ImplementationGuide.jurisdiction` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.copyright (copyright)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.copyright` is mapped to FHIR R4 element `ImplementationGuide.copyright` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.packageId (packageId)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.packageId` is mapped to FHIR R4 element `ImplementationGuide.packageId` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.license (license)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.license` is mapped to FHIR R4 element `ImplementationGuide.license` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.fhirVersion (fhirVersion)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `ImplementationGuide.fhirVersion` is mapped to FHIR R4 element `ImplementationGuide.fhirVersion` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.dependsOn (dependsOn)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `ImplementationGuide.dependsOn` is mapped to FHIR R4 element `ImplementationGuide.dependsOn` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.dependsOn.uri (uri)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.dependsOn.uri` is mapped to FHIR R4 element `ImplementationGuide.dependsOn.uri` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.dependsOn.packageId (packageId)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.dependsOn.packageId` is mapped to FHIR R4 element `ImplementationGuide.dependsOn.packageId` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.dependsOn.version (version)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.dependsOn.version` is mapped to FHIR R4 element `ImplementationGuide.dependsOn.version` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.global (global)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `ImplementationGuide.global` is mapped to FHIR R4 element `ImplementationGuide.global` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.global.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `ImplementationGuide.global.type` is mapped to FHIR R4 element `ImplementationGuide.global.type` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.global.profile (profile)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.global.profile` is mapped to FHIR R4 element `ImplementationGuide.global.profile` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.definition (definition)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `ImplementationGuide.definition` is mapped to FHIR R4 element `ImplementationGuide.definition` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.definition.grouping (grouping)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `ImplementationGuide.definition.grouping` is mapped to FHIR R4 element `ImplementationGuide.definition.grouping` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.definition.grouping.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.definition.grouping.name` is mapped to FHIR R4 element `ImplementationGuide.definition.grouping.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.definition.grouping.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.definition.grouping.description` is mapped to FHIR R4 element `ImplementationGuide.definition.grouping.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.definition.resource (resource)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `ImplementationGuide.definition.resource` is mapped to FHIR R4 element `ImplementationGuide.definition.resource` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.definition.resource.reference (reference)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.definition.resource.reference` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.reference` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.definition.resource.fhirVersion (fhirVersion)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `ImplementationGuide.definition.resource.fhirVersion` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.fhirVersion` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.definition.resource.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.definition.resource.name` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.definition.resource.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.definition.resource.description` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.definition.resource.isExample (isExample)</td><td><a href=\"CodeSystem-concept-map-relationship.html#narrower\" title=\"narrower\">narrower</a></td><td/><td>Note that the target element context `ImplementationGuide.definition.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.resource`.\nElement `ImplementationGuide.definition.resource.isExample` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.example[x]` as `SourceIsNarrowerThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `ImplementationGuide.definition.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.resource`.</td></tr><tr><td>ImplementationGuide.definition.resource.profile (profile)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Note that the target element context `ImplementationGuide.definition.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.resource`.\nElement `ImplementationGuide.definition.resource.profile` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.example[x]` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `ImplementationGuide.definition.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.resource`.</td></tr><tr><td>ImplementationGuide.definition.resource.groupingId (groupingId)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.definition.resource.groupingId` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.groupingId` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.definition.page (page)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `ImplementationGuide.definition.page` is mapped to FHIR R4 element `ImplementationGuide.definition.page` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `ImplementationGuide.definition.page.page` because `ImplementationGuide.definition.page.page` is defined as a content reference to `ImplementationGuide.definition.page`.</td></tr><tr><td>ImplementationGuide.definition.page.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Note that the target element context `ImplementationGuide.definition.page.name[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.page`.\nElement `ImplementationGuide.definition.page.name` is mapped to FHIR R4 element `ImplementationGuide.definition.page.name[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `ImplementationGuide.definition.page.name[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.page`.\nNote available implied context: `ImplementationGuide.definition.page.page` because `ImplementationGuide.definition.page.page` is defined via a content reference to `ImplementationGuide.definition.page`.</td></tr><tr><td>ImplementationGuide.definition.page.title (title)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.definition.page.title` is mapped to FHIR R4 element `ImplementationGuide.definition.page.title` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `ImplementationGuide.definition.page.page.title` because `ImplementationGuide.definition.page.page` is defined via a content reference to `ImplementationGuide.definition.page`.</td></tr><tr><td>ImplementationGuide.definition.page.generation (generation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.definition.page.generation` is mapped to FHIR R4 element `ImplementationGuide.definition.page.generation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `ImplementationGuide.definition.page.page.generation` because `ImplementationGuide.definition.page.page` is defined via a content reference to `ImplementationGuide.definition.page`.</td></tr><tr><td>ImplementationGuide.definition.page.page (page)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.definition.page.page` is mapped to FHIR R4 element `ImplementationGuide.definition.page.page` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `ImplementationGuide.definition.page.page.page` because `ImplementationGuide.definition.page.page` is defined via a content reference to `ImplementationGuide.definition.page`.</td></tr><tr><td>ImplementationGuide.definition.parameter (parameter)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `ImplementationGuide.definition.parameter` is mapped to FHIR R4 element `ImplementationGuide.definition.parameter` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.definition.parameter.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `ImplementationGuide.definition.parameter.code` is mapped to FHIR R4 element `ImplementationGuide.definition.parameter.code` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.definition.parameter.value (value)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.definition.parameter.value` is mapped to FHIR R4 element `ImplementationGuide.definition.parameter.value` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.definition.template (template)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `ImplementationGuide.definition.template` is mapped to FHIR R4 element `ImplementationGuide.definition.template` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.definition.template.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.definition.template.code` is mapped to FHIR R4 element `ImplementationGuide.definition.template.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.definition.template.source (source)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.definition.template.source` is mapped to FHIR R4 element `ImplementationGuide.definition.template.source` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.definition.template.scope (scope)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.definition.template.scope` is mapped to FHIR R4 element `ImplementationGuide.definition.template.scope` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.manifest (manifest)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `ImplementationGuide.manifest` is mapped to FHIR R4 element `ImplementationGuide.manifest` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.manifest.rendering (rendering)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.manifest.rendering` is mapped to FHIR R4 element `ImplementationGuide.manifest.rendering` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.manifest.resource (resource)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `ImplementationGuide.manifest.resource` is mapped to FHIR R4 element `ImplementationGuide.manifest.resource` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.manifest.resource.reference (reference)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.manifest.resource.reference` is mapped to FHIR R4 element `ImplementationGuide.manifest.resource.reference` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.manifest.resource.isExample (isExample)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Note that the target element context `ImplementationGuide.manifest.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.manifest.resource`.\nElement `ImplementationGuide.manifest.resource.isExample` is mapped to FHIR R4 element `ImplementationGuide.manifest.resource.example[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `ImplementationGuide.manifest.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.manifest.resource`.</td></tr><tr><td>ImplementationGuide.manifest.resource.profile (profile)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Note that the target element context `ImplementationGuide.manifest.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.manifest.resource`.\nElement `ImplementationGuide.manifest.resource.profile` is mapped to FHIR R4 element `ImplementationGuide.manifest.resource.example[x]` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `ImplementationGuide.manifest.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.manifest.resource`.</td></tr><tr><td>ImplementationGuide.manifest.resource.relativePath (relativePath)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.manifest.resource.relativePath` is mapped to FHIR R4 element `ImplementationGuide.manifest.resource.relativePath` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.manifest.page (page)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `ImplementationGuide.manifest.page` is mapped to FHIR R4 element `ImplementationGuide.manifest.page` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.manifest.page.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.manifest.page.name` is mapped to FHIR R4 element `ImplementationGuide.manifest.page.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.manifest.page.title (title)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.manifest.page.title` is mapped to FHIR R4 element `ImplementationGuide.manifest.page.title` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.manifest.page.anchor (anchor)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.manifest.page.anchor` is mapped to FHIR R4 element `ImplementationGuide.manifest.page.anchor` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.manifest.image (image)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.manifest.image` is mapped to FHIR R4 element `ImplementationGuide.manifest.image` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.manifest.other (other)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `ImplementationGuide.manifest.other` is mapped to FHIR R4 element `ImplementationGuide.manifest.other` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ImplementationGuide|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Packversion: 5.2.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ImplementationGuide.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-identifier</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ImplementationGuide.identifier`: `http://hl7.org/fhir/StructureDefinition/artifact-identifier`.\nElement `ImplementationGuide.identifier` has a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`.</td></tr><tr><td>ImplementationGuide.versionAlgorithm[x] (versionAlgorithm[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ImplementationGuide.versionAlgorithm[x]`: `http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm`.\nElement `ImplementationGuide.versionAlgorithm[x]` has a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`.</td></tr><tr><td>ImplementationGuide.purpose (purpose)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-purpose</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ImplementationGuide.purpose`: `http://hl7.org/fhir/StructureDefinition/artifact-purpose`.\nElement `ImplementationGuide.purpose` has a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`.</td></tr><tr><td>ImplementationGuide.copyrightLabel (copyrightLabel)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ImplementationGuide.copyrightLabel`: `http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel`.\nElement `ImplementationGuide.copyrightLabel` has a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ImplementationGuide|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ImplementationGuide.fhirVersion (fhirVersion)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.fhirVersion</td><td>Element `ImplementationGuide.fhirVersion` is mapped to FHIR R4 element `ImplementationGuide.fhirVersion` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.dependsOn.reason (reason)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.dependsOn.reason</td><td>Element `ImplementationGuide.dependsOn.reason` has a context of ImplementationGuide.dependsOn based on following the parent source element upwards and mapping to `ImplementationGuide`.</td></tr><tr><td>ImplementationGuide.global.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.global.type</td><td>Element `ImplementationGuide.global.type` is mapped to FHIR R4 element `ImplementationGuide.global.type` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.definition.resource.fhirVersion (fhirVersion)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.definition.resource.fhirVersion</td><td>Element `ImplementationGuide.definition.resource.fhirVersion` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.fhirVersion` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ImplementationGuide.definition.page.source[x] (source[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.definition.page.source</td><td>Element `ImplementationGuide.definition.page.source[x]` has a context of ImplementationGuide.definition.page based on following the parent source element upwards and mapping to `ImplementationGuide`.\nNote available implied context: `ImplementationGuide.definition.page.page` because `ImplementationGuide.definition.page.page` is defined via a content reference to `ImplementationGuide.definition.page`.</td></tr><tr><td>ImplementationGuide.definition.parameter.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.definition.parameter.code</td><td>Element `ImplementationGuide.definition.parameter.code` is mapped to FHIR R4 element `ImplementationGuide.definition.parameter.code` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-ImplementationGuide-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-ImplementationGuide-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5ImplementationGuideElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 ImplementationGuide to FHIR R4 ImplementationGuide"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T13:36:56.9507467-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 ImplementationGuide to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/ImplementationGuide"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/ImplementationGuide>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/ImplementationGuide"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/ImplementationGuide>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "ImplementationGuide.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.meta` is mapped to FHIR R4 element `ImplementationGuide.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.implicitRules` is mapped to FHIR R4 element `ImplementationGuide.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.language` is mapped to FHIR R4 element `ImplementationGuide.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.text` is mapped to FHIR R4 element `ImplementationGuide.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.contained` is mapped to FHIR R4 element `ImplementationGuide.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.url` is mapped to FHIR R4 element `ImplementationGuide.url` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.version` is mapped to FHIR R4 element `ImplementationGuide.version` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.name` is mapped to FHIR R4 element `ImplementationGuide.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.title` is mapped to FHIR R4 element `ImplementationGuide.title` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.status` is mapped to FHIR R4 element `ImplementationGuide.status` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.experimental" ] ;
+       fhir:display [ fhir:v "experimental" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.experimental` is mapped to FHIR R4 element `ImplementationGuide.experimental` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.date` is mapped to FHIR R4 element `ImplementationGuide.date` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.publisher" ] ;
+       fhir:display [ fhir:v "publisher" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.publisher` is mapped to FHIR R4 element `ImplementationGuide.publisher` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.contact` is mapped to FHIR R4 element `ImplementationGuide.contact` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.description` is mapped to FHIR R4 element `ImplementationGuide.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.useContext" ] ;
+       fhir:display [ fhir:v "useContext" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.useContext` is mapped to FHIR R4 element `ImplementationGuide.useContext` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.jurisdiction` is mapped to FHIR R4 element `ImplementationGuide.jurisdiction` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.copyright" ] ;
+       fhir:display [ fhir:v "copyright" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.copyright` is mapped to FHIR R4 element `ImplementationGuide.copyright` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.packageId" ] ;
+       fhir:display [ fhir:v "packageId" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.packageId` is mapped to FHIR R4 element `ImplementationGuide.packageId` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.license" ] ;
+       fhir:display [ fhir:v "license" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.license` is mapped to FHIR R4 element `ImplementationGuide.license` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.fhirVersion" ] ;
+       fhir:display [ fhir:v "fhirVersion" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.fhirVersion` is mapped to FHIR R4 element `ImplementationGuide.fhirVersion` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.dependsOn" ] ;
+       fhir:display [ fhir:v "dependsOn" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.dependsOn` is mapped to FHIR R4 element `ImplementationGuide.dependsOn` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.dependsOn.uri" ] ;
+       fhir:display [ fhir:v "uri" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.dependsOn.uri` is mapped to FHIR R4 element `ImplementationGuide.dependsOn.uri` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.dependsOn.packageId" ] ;
+       fhir:display [ fhir:v "packageId" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.dependsOn.packageId` is mapped to FHIR R4 element `ImplementationGuide.dependsOn.packageId` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.dependsOn.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.dependsOn.version` is mapped to FHIR R4 element `ImplementationGuide.dependsOn.version` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.global" ] ;
+       fhir:display [ fhir:v "global" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.global` is mapped to FHIR R4 element `ImplementationGuide.global` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.global.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.global.type` is mapped to FHIR R4 element `ImplementationGuide.global.type` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.global.profile" ] ;
+       fhir:display [ fhir:v "profile" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.global.profile` is mapped to FHIR R4 element `ImplementationGuide.global.profile` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition" ] ;
+       fhir:display [ fhir:v "definition" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.definition` is mapped to FHIR R4 element `ImplementationGuide.definition` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition.grouping" ] ;
+       fhir:display [ fhir:v "grouping" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.definition.grouping` is mapped to FHIR R4 element `ImplementationGuide.definition.grouping` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition.grouping.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.definition.grouping.name` is mapped to FHIR R4 element `ImplementationGuide.definition.grouping.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition.grouping.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.definition.grouping.description` is mapped to FHIR R4 element `ImplementationGuide.definition.grouping.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition.resource" ] ;
+       fhir:display [ fhir:v "resource" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.definition.resource` is mapped to FHIR R4 element `ImplementationGuide.definition.resource` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition.resource.reference" ] ;
+       fhir:display [ fhir:v "reference" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.definition.resource.reference` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.reference` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition.resource.fhirVersion" ] ;
+       fhir:display [ fhir:v "fhirVersion" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.definition.resource.fhirVersion` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.fhirVersion` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition.resource.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.definition.resource.name` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition.resource.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.definition.resource.description` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition.resource.isExample" ] ;
+       fhir:display [ fhir:v "isExample" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "narrower" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `ImplementationGuide.definition.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.resource`.\nElement `ImplementationGuide.definition.resource.isExample` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.example[x]` as `SourceIsNarrowerThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `ImplementationGuide.definition.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.resource`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition.resource.profile" ] ;
+       fhir:display [ fhir:v "profile" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `ImplementationGuide.definition.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.resource`.\nElement `ImplementationGuide.definition.resource.profile` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.example[x]` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `ImplementationGuide.definition.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.resource`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition.resource.groupingId" ] ;
+       fhir:display [ fhir:v "groupingId" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.definition.resource.groupingId` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.groupingId` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition.page" ] ;
+       fhir:display [ fhir:v "page" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.definition.page` is mapped to FHIR R4 element `ImplementationGuide.definition.page` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `ImplementationGuide.definition.page.page` because `ImplementationGuide.definition.page.page` is defined as a content reference to `ImplementationGuide.definition.page`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition.page.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `ImplementationGuide.definition.page.name[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.page`.\nElement `ImplementationGuide.definition.page.name` is mapped to FHIR R4 element `ImplementationGuide.definition.page.name[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `ImplementationGuide.definition.page.name[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.page`.\nNote available implied context: `ImplementationGuide.definition.page.page` because `ImplementationGuide.definition.page.page` is defined via a content reference to `ImplementationGuide.definition.page`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition.page.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.definition.page.title` is mapped to FHIR R4 element `ImplementationGuide.definition.page.title` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `ImplementationGuide.definition.page.page.title` because `ImplementationGuide.definition.page.page` is defined via a content reference to `ImplementationGuide.definition.page`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition.page.generation" ] ;
+       fhir:display [ fhir:v "generation" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.definition.page.generation` is mapped to FHIR R4 element `ImplementationGuide.definition.page.generation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `ImplementationGuide.definition.page.page.generation` because `ImplementationGuide.definition.page.page` is defined via a content reference to `ImplementationGuide.definition.page`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition.page.page" ] ;
+       fhir:display [ fhir:v "page" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.definition.page.page` is mapped to FHIR R4 element `ImplementationGuide.definition.page.page` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `ImplementationGuide.definition.page.page.page` because `ImplementationGuide.definition.page.page` is defined via a content reference to `ImplementationGuide.definition.page`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition.parameter" ] ;
+       fhir:display [ fhir:v "parameter" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.definition.parameter` is mapped to FHIR R4 element `ImplementationGuide.definition.parameter` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition.parameter.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.definition.parameter.code` is mapped to FHIR R4 element `ImplementationGuide.definition.parameter.code` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition.parameter.value" ] ;
+       fhir:display [ fhir:v "value" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.definition.parameter.value` is mapped to FHIR R4 element `ImplementationGuide.definition.parameter.value` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition.template" ] ;
+       fhir:display [ fhir:v "template" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.definition.template` is mapped to FHIR R4 element `ImplementationGuide.definition.template` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition.template.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.definition.template.code` is mapped to FHIR R4 element `ImplementationGuide.definition.template.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition.template.source" ] ;
+       fhir:display [ fhir:v "source" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.definition.template.source` is mapped to FHIR R4 element `ImplementationGuide.definition.template.source` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition.template.scope" ] ;
+       fhir:display [ fhir:v "scope" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.definition.template.scope` is mapped to FHIR R4 element `ImplementationGuide.definition.template.scope` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.manifest" ] ;
+       fhir:display [ fhir:v "manifest" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.manifest` is mapped to FHIR R4 element `ImplementationGuide.manifest` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.manifest.rendering" ] ;
+       fhir:display [ fhir:v "rendering" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.manifest.rendering` is mapped to FHIR R4 element `ImplementationGuide.manifest.rendering` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.manifest.resource" ] ;
+       fhir:display [ fhir:v "resource" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.manifest.resource` is mapped to FHIR R4 element `ImplementationGuide.manifest.resource` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.manifest.resource.reference" ] ;
+       fhir:display [ fhir:v "reference" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.manifest.resource.reference` is mapped to FHIR R4 element `ImplementationGuide.manifest.resource.reference` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.manifest.resource.isExample" ] ;
+       fhir:display [ fhir:v "isExample" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `ImplementationGuide.manifest.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.manifest.resource`.\nElement `ImplementationGuide.manifest.resource.isExample` is mapped to FHIR R4 element `ImplementationGuide.manifest.resource.example[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `ImplementationGuide.manifest.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.manifest.resource`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.manifest.resource.profile" ] ;
+       fhir:display [ fhir:v "profile" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `ImplementationGuide.manifest.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.manifest.resource`.\nElement `ImplementationGuide.manifest.resource.profile` is mapped to FHIR R4 element `ImplementationGuide.manifest.resource.example[x]` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `ImplementationGuide.manifest.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.manifest.resource`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.manifest.resource.relativePath" ] ;
+       fhir:display [ fhir:v "relativePath" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.manifest.resource.relativePath` is mapped to FHIR R4 element `ImplementationGuide.manifest.resource.relativePath` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.manifest.page" ] ;
+       fhir:display [ fhir:v "page" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.manifest.page` is mapped to FHIR R4 element `ImplementationGuide.manifest.page` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.manifest.page.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.manifest.page.name` is mapped to FHIR R4 element `ImplementationGuide.manifest.page.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.manifest.page.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.manifest.page.title` is mapped to FHIR R4 element `ImplementationGuide.manifest.page.title` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.manifest.page.anchor" ] ;
+       fhir:display [ fhir:v "anchor" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.manifest.page.anchor` is mapped to FHIR R4 element `ImplementationGuide.manifest.page.anchor` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.manifest.image" ] ;
+       fhir:display [ fhir:v "image" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.manifest.image` is mapped to FHIR R4 element `ImplementationGuide.manifest.image` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.manifest.other" ] ;
+       fhir:display [ fhir:v "other" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.manifest.other` is mapped to FHIR R4 element `ImplementationGuide.manifest.other` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/ImplementationGuide"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/ImplementationGuide>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.2.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "ImplementationGuide.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-identifier" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ImplementationGuide.identifier`: `http://hl7.org/fhir/StructureDefinition/artifact-identifier`.\nElement `ImplementationGuide.identifier` has a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.versionAlgorithm[x]" ] ;
+       fhir:display [ fhir:v "versionAlgorithm[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ImplementationGuide.versionAlgorithm[x]`: `http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm`.\nElement `ImplementationGuide.versionAlgorithm[x]` has a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.purpose" ] ;
+       fhir:display [ fhir:v "purpose" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-purpose" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ImplementationGuide.purpose`: `http://hl7.org/fhir/StructureDefinition/artifact-purpose`.\nElement `ImplementationGuide.purpose` has a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.copyrightLabel" ] ;
+       fhir:display [ fhir:v "copyrightLabel" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ImplementationGuide.copyrightLabel`: `http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel`.\nElement `ImplementationGuide.copyrightLabel` has a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/ImplementationGuide"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/ImplementationGuide>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "ImplementationGuide.fhirVersion" ] ;
+       fhir:display [ fhir:v "fhirVersion" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.fhirVersion" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.fhirVersion` is mapped to FHIR R4 element `ImplementationGuide.fhirVersion` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.dependsOn.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.dependsOn.reason" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.dependsOn.reason` has a context of ImplementationGuide.dependsOn based on following the parent source element upwards and mapping to `ImplementationGuide`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.global.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.global.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.global.type` is mapped to FHIR R4 element `ImplementationGuide.global.type` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition.resource.fhirVersion" ] ;
+       fhir:display [ fhir:v "fhirVersion" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.definition.resource.fhirVersion" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.definition.resource.fhirVersion` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.fhirVersion` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition.page.source[x]" ] ;
+       fhir:display [ fhir:v "source[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.definition.page.source" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.definition.page.source[x]` has a context of ImplementationGuide.definition.page based on following the parent source element upwards and mapping to `ImplementationGuide`.\nNote available implied context: `ImplementationGuide.definition.page.page` because `ImplementationGuide.definition.page.page` is defined via a content reference to `ImplementationGuide.definition.page`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImplementationGuide.definition.parameter.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.definition.parameter.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ImplementationGuide.definition.parameter.code` is mapped to FHIR R4 element `ImplementationGuide.definition.parameter.code` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

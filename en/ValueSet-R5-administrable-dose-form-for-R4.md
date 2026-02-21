@@ -1,0 +1,917 @@
+# R5AdministrableDoseFormForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## ValueSet: Cross-version ValueSet R5.AdministrableDoseForm for use in FHIR R4 
+
+ 
+This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/administrable-dose-form|5.0.0` for use in FHIR R4. 
+
+ **References** 
+
+* [Cross-version Extension `R5.AdministrableProductDefinition` for use in FHIR R4](StructureDefinition-ext-R5-AdministrableProductDefinition.md)
+
+### Logical Definition (CLD)
+
+ 
+
+### Expansion
+
+-------
+
+ [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ValueSet",
+  "id" : "R5-administrable-dose-form-for-R4",
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger" : 1
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "brr"
+    },
+    {
+      "extension" : [
+        {
+          "url" : "packageId",
+          "valueId" : "hl7.fhir.uv.xver-r5.r4"
+        },
+        {
+          "url" : "version",
+          "valueString" : "0.0.1-snapshot-3"
+        },
+        {
+          "url" : "uri",
+          "valueUri" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+        }
+      ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/package-source"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode" : "trial-use",
+      "_valueCode" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    }
+  ],
+  "url" : "http://hl7.org/fhir/uv/xver/ValueSet/R5-administrable-dose-form-for-R4",
+  "version" : "0.0.1-snapshot-3",
+  "name" : "R5AdministrableDoseFormForR4",
+  "title" : "Cross-version ValueSet R5.AdministrableDoseForm for use in FHIR R4",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-02-21T19:36:42.9229177+00:00",
+  "publisher" : "Biomedical Research and Regulation",
+  "contact" : [
+    {
+      "name" : "Biomedical Research and Regulation",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/rcrim"
+        }
+      ]
+    }
+  ],
+  "description" : "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/administrable-dose-form|5.0.0` for use in FHIR R4.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }
+      ]
+    }
+  ],
+  "purpose" : "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/administrable-dose-form|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `AdministrableProductDefinition.administrableDoseForm` as Example\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/administrable-dose-form|5.0.0`\n* `http://hl7.org/fhir/ValueSet/administrable-dose-form|4.3.0`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\nAll concepts in the comparison are listed as identical.\nThe source and target value sets have the same number of active concepts (201).\nFHIR ValueSet `http://hl7.org/fhir/ValueSet/administrable-dose-form|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://hl7.org/fhir/administrable-dose-form",
+        "version" : "5.0.0",
+        "concept" : [
+          {
+            "code" : "100000073362",
+            "display" : "Oral suspension"
+          },
+          {
+            "code" : "100000073363",
+            "display" : "Oral gel"
+          },
+          {
+            "code" : "100000073364",
+            "display" : "Powder for oral solution"
+          },
+          {
+            "code" : "100000073365",
+            "display" : "Granules for oral solution"
+          },
+          {
+            "code" : "100000073367",
+            "display" : "Lyophilisate for suspension"
+          },
+          {
+            "code" : "100000073368",
+            "display" : "Powder for syrup"
+          },
+          {
+            "code" : "100000073369",
+            "display" : "Soluble tablet"
+          },
+          {
+            "code" : "100000073370",
+            "display" : "Herbal tea"
+          },
+          {
+            "code" : "100000073371",
+            "display" : "Instant herbal tea"
+          },
+          {
+            "code" : "100000073372",
+            "display" : "Granules"
+          },
+          {
+            "code" : "100000073373",
+            "display" : "Gastro-resistant granules"
+          },
+          {
+            "code" : "100000073374",
+            "display" : "Modified-release granules"
+          },
+          {
+            "code" : "100000073375",
+            "display" : "Capsule, hard"
+          },
+          {
+            "code" : "100000073376",
+            "display" : "Gastro-resistant capsule, hard"
+          },
+          {
+            "code" : "100000073377",
+            "display" : "Chewable capsule, soft"
+          },
+          {
+            "code" : "100000073378",
+            "display" : "Prolonged-release capsule, soft"
+          },
+          {
+            "code" : "100000073379",
+            "display" : "Modified-release capsule, soft"
+          },
+          {
+            "code" : "100000073380",
+            "display" : "Coated tablet"
+          },
+          {
+            "code" : "100000073642",
+            "display" : "Oral drops, solution"
+          },
+          {
+            "code" : "100000073643",
+            "display" : "Oral drops, suspension"
+          },
+          {
+            "code" : "100000073644",
+            "display" : "Oral drops, emulsion"
+          },
+          {
+            "code" : "100000073645",
+            "display" : "Oral liquid"
+          },
+          {
+            "code" : "100000073646",
+            "display" : "Oral solution"
+          },
+          {
+            "code" : "100000073647",
+            "display" : "Oral emulsion"
+          },
+          {
+            "code" : "100000073648",
+            "display" : "Oral paste"
+          },
+          {
+            "code" : "100000073649",
+            "display" : "Powder for oral suspension"
+          },
+          {
+            "code" : "100000073650",
+            "display" : "Granules for oral suspension"
+          },
+          {
+            "code" : "100000073652",
+            "display" : "Syrup"
+          },
+          {
+            "code" : "100000073653",
+            "display" : "Granules for syrup"
+          },
+          {
+            "code" : "100000073654",
+            "display" : "Dispersible tablet"
+          },
+          {
+            "code" : "100000073655",
+            "display" : "Oral powder"
+          },
+          {
+            "code" : "100000073656",
+            "display" : "Effervescent powder"
+          },
+          {
+            "code" : "100000073657",
+            "display" : "Effervescent granules"
+          },
+          {
+            "code" : "100000073658",
+            "display" : "Prolonged-release granules"
+          },
+          {
+            "code" : "100000073659",
+            "display" : "Cachet"
+          },
+          {
+            "code" : "100000073660",
+            "display" : "Capsule, soft"
+          },
+          {
+            "code" : "100000073661",
+            "display" : "Gastro-resistant capsule, soft"
+          },
+          {
+            "code" : "100000073662",
+            "display" : "Prolonged-release capsule, hard"
+          },
+          {
+            "code" : "100000073663",
+            "display" : "Modified-release capsule, hard"
+          },
+          {
+            "code" : "100000073664",
+            "display" : "Tablet"
+          },
+          {
+            "code" : "100000073665",
+            "display" : "Film-coated tablet"
+          },
+          {
+            "code" : "100000073666",
+            "display" : "Orodispersible tablet"
+          },
+          {
+            "code" : "100000073667",
+            "display" : "Gastro-resistant tablet"
+          },
+          {
+            "code" : "100000073668",
+            "display" : "Modified-release tablet"
+          },
+          {
+            "code" : "100000073669",
+            "display" : "Medicated chewing-gum"
+          },
+          {
+            "code" : "100000073670",
+            "display" : "Pillules"
+          },
+          {
+            "code" : "100000073671",
+            "display" : "Pulsatile-release intraruminal device"
+          },
+          {
+            "code" : "100000073672",
+            "display" : "Premix for medicated feeding stuff"
+          },
+          {
+            "code" : "100000073673",
+            "display" : "Gargle"
+          },
+          {
+            "code" : "100000073674",
+            "display" : "Gargle, powder for solution"
+          },
+          {
+            "code" : "100000073675",
+            "display" : "Oromucosal suspension"
+          },
+          {
+            "code" : "100000073676",
+            "display" : "Oromucosal spray"
+          },
+          {
+            "code" : "100000073677",
+            "display" : "Mouthwash"
+          },
+          {
+            "code" : "100000073678",
+            "display" : "Gingival solution"
+          },
+          {
+            "code" : "100000073679",
+            "display" : "Oromucosal paste"
+          },
+          {
+            "code" : "100000073680",
+            "display" : "Gingival gel"
+          },
+          {
+            "code" : "100000073681",
+            "display" : "Effervescent tablet"
+          },
+          {
+            "code" : "100000073682",
+            "display" : "Oral lyophilisate"
+          },
+          {
+            "code" : "100000073683",
+            "display" : "Prolonged-release tablet"
+          },
+          {
+            "code" : "100000073684",
+            "display" : "Chewable tablet"
+          },
+          {
+            "code" : "100000073685",
+            "display" : "Oral gum"
+          },
+          {
+            "code" : "100000073686",
+            "display" : "Continuous-release intraruminal device"
+          },
+          {
+            "code" : "100000073687",
+            "display" : "Lick block"
+          },
+          {
+            "code" : "100000073688",
+            "display" : "Medicated pellets"
+          },
+          {
+            "code" : "100000073689",
+            "display" : "Concentrate for gargle"
+          },
+          {
+            "code" : "100000073690",
+            "display" : "Gargle, tablet for solution"
+          },
+          {
+            "code" : "100000073691",
+            "display" : "Oromucosal solution"
+          },
+          {
+            "code" : "100000073692",
+            "display" : "Oromucosal drops"
+          },
+          {
+            "code" : "100000073693",
+            "display" : "Sublingual spray"
+          },
+          {
+            "code" : "100000073694",
+            "display" : "Mouthwash, tablet for solution"
+          },
+          {
+            "code" : "100000073695",
+            "display" : "Oromucosal gel"
+          },
+          {
+            "code" : "100000073696",
+            "display" : "Oromucosal cream"
+          },
+          {
+            "code" : "100000073697",
+            "display" : "Gingival paste"
+          },
+          {
+            "code" : "100000073698",
+            "display" : "Sublingual tablet"
+          },
+          {
+            "code" : "100000073699",
+            "display" : "Buccal tablet"
+          },
+          {
+            "code" : "100000073700",
+            "display" : "Compressed lozenge"
+          },
+          {
+            "code" : "100000073701",
+            "display" : "Oromucosal capsule"
+          },
+          {
+            "code" : "100000073702",
+            "display" : "Muco-adhesive buccal tablet"
+          },
+          {
+            "code" : "100000073703",
+            "display" : "Lozenge"
+          },
+          {
+            "code" : "100000073704",
+            "display" : "Pastille"
+          },
+          {
+            "code" : "100000073705",
+            "display" : "Dental gel"
+          },
+          {
+            "code" : "100000073706",
+            "display" : "Dental insert"
+          },
+          {
+            "code" : "100000073707",
+            "display" : "Dental powder"
+          },
+          {
+            "code" : "100000073708",
+            "display" : "Dental suspension"
+          },
+          {
+            "code" : "100000073709",
+            "display" : "Toothpaste"
+          },
+          {
+            "code" : "100000073710",
+            "display" : "Periodontal gel"
+          },
+          {
+            "code" : "100000073711",
+            "display" : "Bath additive"
+          },
+          {
+            "code" : "100000073712",
+            "display" : "Cream"
+          },
+          {
+            "code" : "100000073713",
+            "display" : "Ointment"
+          },
+          {
+            "code" : "100000073714",
+            "display" : "Medicated plaster"
+          },
+          {
+            "code" : "100000073715",
+            "display" : "Shampoo"
+          },
+          {
+            "code" : "100000073716",
+            "display" : "Cutaneous spray, suspension"
+          },
+          {
+            "code" : "100000073717",
+            "display" : "Cutaneous liquid"
+          },
+          {
+            "code" : "100000073718",
+            "display" : "Concentrate for cutaneous solution"
+          },
+          {
+            "code" : "100000073719",
+            "display" : "Cutaneous emulsion"
+          },
+          {
+            "code" : "100000073720",
+            "display" : "Cutaneous patch"
+          },
+          {
+            "code" : "100000073721",
+            "display" : "Periodontal powder"
+          },
+          {
+            "code" : "100000073722",
+            "display" : "Dental stick"
+          },
+          {
+            "code" : "100000073723",
+            "display" : "Dental solution"
+          },
+          {
+            "code" : "100000073724",
+            "display" : "Dental emulsion"
+          },
+          {
+            "code" : "100000073725",
+            "display" : "Periodontal insert"
+          },
+          {
+            "code" : "100000073726",
+            "display" : "Gel"
+          },
+          {
+            "code" : "100000073727",
+            "display" : "Cutaneous paste"
+          },
+          {
+            "code" : "100000073728",
+            "display" : "Cutaneous foam"
+          },
+          {
+            "code" : "100000073729",
+            "display" : "Cutaneous spray, solution"
+          },
+          {
+            "code" : "100000073730",
+            "display" : "Cutaneous spray, powder"
+          },
+          {
+            "code" : "100000073731",
+            "display" : "Cutaneous solution"
+          },
+          {
+            "code" : "100000073732",
+            "display" : "Cutaneous suspension"
+          },
+          {
+            "code" : "100000073733",
+            "display" : "Cutaneous powder"
+          },
+          {
+            "code" : "100000073734",
+            "display" : "Solution for iontophoresis"
+          },
+          {
+            "code" : "100000073735",
+            "display" : "Collodion"
+          },
+          {
+            "code" : "100000073736",
+            "display" : "Poultice"
+          },
+          {
+            "code" : "100000073737",
+            "display" : "Cutaneous sponge"
+          },
+          {
+            "code" : "100000073738",
+            "display" : "Collar"
+          },
+          {
+            "code" : "100000073739",
+            "display" : "Ear tag"
+          },
+          {
+            "code" : "100000073740",
+            "display" : "Dip suspension"
+          },
+          {
+            "code" : "100000073741",
+            "display" : "Transdermal patch"
+          },
+          {
+            "code" : "100000073742",
+            "display" : "Medicated nail lacquer"
+          },
+          {
+            "code" : "100000073743",
+            "display" : "Cutaneous stick"
+          },
+          {
+            "code" : "100000073744",
+            "display" : "Impregnated dressing"
+          },
+          {
+            "code" : "100000073745",
+            "display" : "Medicated pendant"
+          },
+          {
+            "code" : "100000073746",
+            "display" : "Dip solution"
+          },
+          {
+            "code" : "100000073747",
+            "display" : "Dip emulsion"
+          },
+          {
+            "code" : "100000073748",
+            "display" : "Concentrate for dip suspension"
+          },
+          {
+            "code" : "100000073749",
+            "display" : "Powder for dip solution"
+          },
+          {
+            "code" : "100000073750",
+            "display" : "Powder for suspension for fish treatment"
+          },
+          {
+            "code" : "100000073751",
+            "display" : "Pour-on suspension"
+          },
+          {
+            "code" : "100000073752",
+            "display" : "Spot-on solution"
+          },
+          {
+            "code" : "100000073753",
+            "display" : "Spot-on emulsion"
+          },
+          {
+            "code" : "100000073754",
+            "display" : "Teat dip suspension"
+          },
+          {
+            "code" : "100000073755",
+            "display" : "Teat spray solution"
+          },
+          {
+            "code" : "100000073756",
+            "display" : "Solution for skin-prick test"
+          },
+          {
+            "code" : "100000073757",
+            "display" : "Plaster for provocation test"
+          },
+          {
+            "code" : "100000073758",
+            "display" : "Eye gel"
+          },
+          {
+            "code" : "100000073759",
+            "display" : "Eye drops, solution"
+          },
+          {
+            "code" : "100000073760",
+            "display" : "Eye drops, suspension"
+          },
+          {
+            "code" : "100000073761",
+            "display" : "Concentrate for dip solution"
+          },
+          {
+            "code" : "100000073762",
+            "display" : "Concentrate for dip emulsion"
+          },
+          {
+            "code" : "100000073763",
+            "display" : "Concentrate for solution for fish treatment"
+          },
+          {
+            "code" : "100000073764",
+            "display" : "Pour-on solution"
+          },
+          {
+            "code" : "100000073765",
+            "display" : "Pour-on emulsion"
+          },
+          {
+            "code" : "100000073766",
+            "display" : "Spot-on suspension"
+          },
+          {
+            "code" : "100000073767",
+            "display" : "Teat dip solution"
+          },
+          {
+            "code" : "100000073768",
+            "display" : "Teat dip emulsion"
+          },
+          {
+            "code" : "100000073769",
+            "display" : "Transdermal system"
+          },
+          {
+            "code" : "100000073770",
+            "display" : "Solution for skin-scratch test"
+          },
+          {
+            "code" : "100000073771",
+            "display" : "Eye cream"
+          },
+          {
+            "code" : "100000073772",
+            "display" : "Eye ointment"
+          },
+          {
+            "code" : "100000073773",
+            "display" : "Eye drops, emulsion"
+          },
+          {
+            "code" : "100000073775",
+            "display" : "Eye drops, solvent for reconstitution"
+          },
+          {
+            "code" : "100000073776",
+            "display" : "Eye lotion"
+          },
+          {
+            "code" : "100000073777",
+            "display" : "Ophthalmic insert"
+          },
+          {
+            "code" : "100000073778",
+            "display" : "Ear cream"
+          },
+          {
+            "code" : "100000073779",
+            "display" : "Ear ointment"
+          },
+          {
+            "code" : "100000073780",
+            "display" : "Ear drops, suspension"
+          },
+          {
+            "code" : "100000073782",
+            "display" : "Eye drops, prolonged-release"
+          },
+          {
+            "code" : "100000073783",
+            "display" : "Eye lotion, solvent for reconstitution"
+          },
+          {
+            "code" : "100000073784",
+            "display" : "Ophthalmic strip"
+          },
+          {
+            "code" : "100000073785",
+            "display" : "Ear gel"
+          },
+          {
+            "code" : "100000073786",
+            "display" : "Ear drops, solution"
+          },
+          {
+            "code" : "100000073787",
+            "display" : "Ear drops, emulsion"
+          },
+          {
+            "code" : "100000073788",
+            "display" : "Ear powder"
+          },
+          {
+            "code" : "100000073789",
+            "display" : "Ear spray, suspension"
+          },
+          {
+            "code" : "100000073790",
+            "display" : "Ear wash, solution"
+          },
+          {
+            "code" : "100000073791",
+            "display" : "Ear tampon"
+          },
+          {
+            "code" : "100000073792",
+            "display" : "Nasal cream"
+          },
+          {
+            "code" : "100000073793",
+            "display" : "Nasal gel"
+          },
+          {
+            "code" : "100000073794",
+            "display" : "Nasal drops, solution"
+          },
+          {
+            "code" : "100000073795",
+            "display" : "Nasal drops, emulsion"
+          },
+          {
+            "code" : "100000073796",
+            "display" : "Nasal spray, solution"
+          },
+          {
+            "code" : "100000073797",
+            "display" : "Nasal spray, emulsion"
+          },
+          {
+            "code" : "100000073798",
+            "display" : "Nasal stick"
+          },
+          {
+            "code" : "100000073799",
+            "display" : "Vaginal gel"
+          },
+          {
+            "code" : "100000073800",
+            "display" : "Vaginal foam"
+          },
+          {
+            "code" : "100000073802",
+            "display" : "Ear spray, solution"
+          },
+          {
+            "code" : "100000073803",
+            "display" : "Ear spray, emulsion"
+          },
+          {
+            "code" : "100000073804",
+            "display" : "Ear wash, emulsion"
+          },
+          {
+            "code" : "100000073805",
+            "display" : "Ear stick"
+          },
+          {
+            "code" : "100000073806",
+            "display" : "Nasal ointment"
+          },
+          {
+            "code" : "100000073807",
+            "display" : "Nasal drops, suspension"
+          },
+          {
+            "code" : "100000073808",
+            "display" : "Nasal powder"
+          },
+          {
+            "code" : "100000073809",
+            "display" : "Nasal spray, suspension"
+          },
+          {
+            "code" : "100000073810",
+            "display" : "Nasal wash"
+          },
+          {
+            "code" : "100000073811",
+            "display" : "Vaginal cream"
+          },
+          {
+            "code" : "100000073812",
+            "display" : "Vaginal ointment"
+          },
+          {
+            "code" : "100000073813",
+            "display" : "Vaginal solution"
+          },
+          {
+            "code" : "100000073814",
+            "display" : "Vaginal emulsion"
+          },
+          {
+            "code" : "100000073815",
+            "display" : "Pessary"
+          },
+          {
+            "code" : "100000073816",
+            "display" : "Vaginal capsule, soft"
+          },
+          {
+            "code" : "100000073817",
+            "display" : "Effervescent vaginal tablet"
+          },
+          {
+            "code" : "100000073818",
+            "display" : "Vaginal delivery system"
+          },
+          {
+            "code" : "100000073819",
+            "display" : "Rectal cream"
+          },
+          {
+            "code" : "100000073820",
+            "display" : "Rectal foam"
+          },
+          {
+            "code" : "100000073821",
+            "display" : "Vaginal suspension"
+          },
+          {
+            "code" : "100000073822",
+            "display" : "Tablet for vaginal solution"
+          },
+          {
+            "code" : "100000073823",
+            "display" : "Vaginal capsule, hard"
+          },
+          {
+            "code" : "100000073824",
+            "display" : "Vaginal tablet"
+          },
+          {
+            "code" : "100000073825",
+            "display" : "Medicated vaginal tampon"
+          },
+          {
+            "code" : "100000073826",
+            "display" : "Vaginal sponge"
+          },
+          {
+            "code" : "100000073827",
+            "display" : "Rectal gel"
+          },
+          {
+            "code" : "100000073863",
+            "display" : "Solution for injection"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+```

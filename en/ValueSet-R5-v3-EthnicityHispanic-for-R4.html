@@ -1,0 +1,414 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>R5V3EthnicityHispanicForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"7.2282"}
+    h3,h4,h5,h6{--heading-prefix:"7.2282"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" data-no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img alt="International flag" src="../assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>R5V3EthnicityHispanicForR4</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="ValueSet-R5-v3-Ethnicity-for-R4.ttl.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="ValueSet-R5-v3-EthnicityHispanic-for-R4-testing.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<!-- layouts\layout-valueset -->
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ValueSet-R5-v3-EthnicityHispanic-for-R4.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-R5-v3-EthnicityHispanic-for-R4.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-R5-v3-EthnicityHispanic-for-R4.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">ValueSet: Cross-version ValueSet R5.EthnicityHispanic for use in FHIR R4
+
+  </h2>
+  <table class="colsd" data-fhir="generated">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-EthnicityHispanic-for-R4<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-EthnicityHispanic-for-R4"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.0.1-snapshot-3<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-EthnicityHispanic-for-R4|0.0.1-snapshot-3"/></span>
+      </td>
+      <td style="text-align: right;border-left-style: hidden" title="Enable this to see changes since the last official release">
+        <span id="toggle-change-display"><label style="margin:0;font-weight:normal" for="showChanges">Highlight text changes?</label>
+  
+        <input style="margin:0" type="checkbox" id="showChanges" onchange="toggleChanges()"/>
+  
+      </span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          <i>
+            
+            Standards status:
+          </i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standards Status">Trial-use</a>
+          
+          
+          Active
+          
+
+            as of 
+2026-02-21
+
+          
+        
+      </td>
+
+      <td>
+        <a href="http://hl7.org/fhir/versions.html#maturity">Maturity Level</a>: 0
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">R5V3EthnicityHispanicForR4</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>This cross-version ValueSet represents content from <code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/ValueSet/v3-EthnicityHispanic|2.0.0</code> for use in FHIR R4.</p>
+
+</p>
+
+<p>
+
+
+</p>
+
+
+  <p>
+    <b>References</b>
+  </p>
+  
+<p>This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)</p>
+
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <a name="definition"> </a>
+
+<!-- Content Logical Definition heading in the fragment -->
+  <h3>Logical Definition (CLD)</h3>
+<div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated"><p class="res-header-id"></p><a name="R5-v3-EthnicityHispanic-for-R4"> </a><a name="hcR5-v3-EthnicityHispanic-for-R4"> </a>
+<ul><li>Include these codes as defined in <code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code><span title="Version is explicitly stated to be 3.0.0"> version &#x1F4CD;</span><table class="none" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>2135-2</td><td>Hispanic or Latino</td></tr><tr><td>2137-8</td><td>Spaniard</td></tr><tr><td>2138-6</td><td>Andalusian</td></tr><tr><td>2139-4</td><td>Asturian</td></tr><tr><td>2140-2</td><td>Castillian</td></tr><tr><td>2141-0</td><td>Catalonian</td></tr><tr><td>2142-8</td><td>Belearic Islander</td></tr><tr><td>2143-6</td><td>Gallego</td></tr><tr><td>2144-4</td><td>Valencian</td></tr><tr><td>2145-1</td><td>Canarian</td></tr><tr><td>2146-9</td><td>Spanish Basque</td></tr><tr><td>2148-5</td><td>Mexican</td></tr><tr><td>2149-3</td><td>Mexican American</td></tr><tr><td>2150-1</td><td>Mexicano</td></tr><tr><td>2151-9</td><td>Chicano</td></tr><tr><td>2152-7</td><td>La Raza</td></tr><tr><td>2153-5</td><td>Mexican American Indian</td></tr><tr><td>2155-0</td><td>Central American</td></tr><tr><td>2156-8</td><td>Costa Rican</td></tr><tr><td>2157-6</td><td>Guatemalan</td></tr><tr><td>2158-4</td><td>Honduran</td></tr><tr><td>2159-2</td><td>Nicaraguan</td></tr><tr><td>2160-0</td><td>Panamanian</td></tr><tr><td>2161-8</td><td>Salvadoran</td></tr><tr><td>2162-6</td><td>Central American Indian</td></tr><tr><td>2163-4</td><td>Canal Zone</td></tr><tr><td>2165-9</td><td>South American</td></tr><tr><td>2166-7</td><td>Argentinean</td></tr><tr><td>2167-5</td><td>Bolivian</td></tr><tr><td>2168-3</td><td>Chilean</td></tr><tr><td>2169-1</td><td>Colombian</td></tr><tr><td>2170-9</td><td>Ecuadorian</td></tr><tr><td>2171-7</td><td>Paraguayan</td></tr><tr><td>2172-5</td><td>Peruvian</td></tr><tr><td>2173-3</td><td>Uruguayan</td></tr><tr><td>2174-1</td><td>Venezuelan</td></tr><tr><td>2175-8</td><td>South American Indian</td></tr><tr><td>2176-6</td><td>Criollo</td></tr><tr><td>2178-2</td><td>Latin American</td></tr><tr><td>2180-8</td><td>Puerto Rican</td></tr><tr><td>2182-4</td><td>Cuban</td></tr><tr><td>2184-0</td><td>Dominican</td></tr></table></li></ul></div>
+
+  <p>&#160;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">Expansion</h3>
+
+  <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated"><p class="res-header-id"/><p>This value set expansion contains 42 concepts.</p><table class="codes" data-fhir="generated"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2135-2"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2135-2</td><td>Hispanic or Latino</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2135-2&quot;, &quot;display&quot;: &quot;Hispanic or Latino&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2135-2&quot;&gt;&lt;display value=&quot;Hispanic or Latino&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2137-8"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2137-8</td><td>Spaniard</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2137-8&quot;, &quot;display&quot;: &quot;Spaniard&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2137-8&quot;&gt;&lt;display value=&quot;Spaniard&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2138-6"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2138-6</td><td>Andalusian</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2138-6&quot;, &quot;display&quot;: &quot;Andalusian&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2138-6&quot;&gt;&lt;display value=&quot;Andalusian&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2139-4"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2139-4</td><td>Asturian</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2139-4&quot;, &quot;display&quot;: &quot;Asturian&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2139-4&quot;&gt;&lt;display value=&quot;Asturian&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2140-2"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2140-2</td><td>Castillian</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2140-2&quot;, &quot;display&quot;: &quot;Castillian&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2140-2&quot;&gt;&lt;display value=&quot;Castillian&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2141-0"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2141-0</td><td>Catalonian</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2141-0&quot;, &quot;display&quot;: &quot;Catalonian&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2141-0&quot;&gt;&lt;display value=&quot;Catalonian&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2142-8"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2142-8</td><td>Belearic Islander</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2142-8&quot;, &quot;display&quot;: &quot;Belearic Islander&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2142-8&quot;&gt;&lt;display value=&quot;Belearic Islander&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2143-6"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2143-6</td><td>Gallego</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2143-6&quot;, &quot;display&quot;: &quot;Gallego&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2143-6&quot;&gt;&lt;display value=&quot;Gallego&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2144-4"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2144-4</td><td>Valencian</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2144-4&quot;, &quot;display&quot;: &quot;Valencian&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2144-4&quot;&gt;&lt;display value=&quot;Valencian&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2145-1"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2145-1</td><td>Canarian</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2145-1&quot;, &quot;display&quot;: &quot;Canarian&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2145-1&quot;&gt;&lt;display value=&quot;Canarian&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2146-9"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2146-9</td><td>Spanish Basque</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2146-9&quot;, &quot;display&quot;: &quot;Spanish Basque&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2146-9&quot;&gt;&lt;display value=&quot;Spanish Basque&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2148-5"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2148-5</td><td>Mexican</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2148-5&quot;, &quot;display&quot;: &quot;Mexican&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2148-5&quot;&gt;&lt;display value=&quot;Mexican&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2149-3"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2149-3</td><td>Mexican American</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2149-3&quot;, &quot;display&quot;: &quot;Mexican American&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2149-3&quot;&gt;&lt;display value=&quot;Mexican American&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2150-1"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2150-1</td><td>Mexicano</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2150-1&quot;, &quot;display&quot;: &quot;Mexicano&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2150-1&quot;&gt;&lt;display value=&quot;Mexicano&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2151-9"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2151-9</td><td>Chicano</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2151-9&quot;, &quot;display&quot;: &quot;Chicano&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2151-9&quot;&gt;&lt;display value=&quot;Chicano&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2152-7"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2152-7</td><td>La Raza</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2152-7&quot;, &quot;display&quot;: &quot;La Raza&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2152-7&quot;&gt;&lt;display value=&quot;La Raza&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2153-5"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2153-5</td><td>Mexican American Indian</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2153-5&quot;, &quot;display&quot;: &quot;Mexican American Indian&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2153-5&quot;&gt;&lt;display value=&quot;Mexican American Indian&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2155-0"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2155-0</td><td>Central American</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2155-0&quot;, &quot;display&quot;: &quot;Central American&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2155-0&quot;&gt;&lt;display value=&quot;Central American&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2156-8"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2156-8</td><td>Costa Rican</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2156-8&quot;, &quot;display&quot;: &quot;Costa Rican&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2156-8&quot;&gt;&lt;display value=&quot;Costa Rican&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2157-6"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2157-6</td><td>Guatemalan</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2157-6&quot;, &quot;display&quot;: &quot;Guatemalan&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2157-6&quot;&gt;&lt;display value=&quot;Guatemalan&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2158-4"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2158-4</td><td>Honduran</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2158-4&quot;, &quot;display&quot;: &quot;Honduran&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2158-4&quot;&gt;&lt;display value=&quot;Honduran&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2159-2"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2159-2</td><td>Nicaraguan</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2159-2&quot;, &quot;display&quot;: &quot;Nicaraguan&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2159-2&quot;&gt;&lt;display value=&quot;Nicaraguan&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2160-0"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2160-0</td><td>Panamanian</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2160-0&quot;, &quot;display&quot;: &quot;Panamanian&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2160-0&quot;&gt;&lt;display value=&quot;Panamanian&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2161-8"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2161-8</td><td>Salvadoran</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2161-8&quot;, &quot;display&quot;: &quot;Salvadoran&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2161-8&quot;&gt;&lt;display value=&quot;Salvadoran&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2162-6"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2162-6</td><td>Central American Indian</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2162-6&quot;, &quot;display&quot;: &quot;Central American Indian&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2162-6&quot;&gt;&lt;display value=&quot;Central American Indian&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2163-4"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2163-4</td><td>Canal Zone</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2163-4&quot;, &quot;display&quot;: &quot;Canal Zone&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2163-4&quot;&gt;&lt;display value=&quot;Canal Zone&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2165-9"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2165-9</td><td>South American</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2165-9&quot;, &quot;display&quot;: &quot;South American&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2165-9&quot;&gt;&lt;display value=&quot;South American&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2166-7"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2166-7</td><td>Argentinean</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2166-7&quot;, &quot;display&quot;: &quot;Argentinean&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2166-7&quot;&gt;&lt;display value=&quot;Argentinean&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2167-5"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2167-5</td><td>Bolivian</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2167-5&quot;, &quot;display&quot;: &quot;Bolivian&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2167-5&quot;&gt;&lt;display value=&quot;Bolivian&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2168-3"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2168-3</td><td>Chilean</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2168-3&quot;, &quot;display&quot;: &quot;Chilean&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2168-3&quot;&gt;&lt;display value=&quot;Chilean&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2169-1"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2169-1</td><td>Colombian</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2169-1&quot;, &quot;display&quot;: &quot;Colombian&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2169-1&quot;&gt;&lt;display value=&quot;Colombian&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2170-9"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2170-9</td><td>Ecuadorian</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2170-9&quot;, &quot;display&quot;: &quot;Ecuadorian&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2170-9&quot;&gt;&lt;display value=&quot;Ecuadorian&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2171-7"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2171-7</td><td>Paraguayan</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2171-7&quot;, &quot;display&quot;: &quot;Paraguayan&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2171-7&quot;&gt;&lt;display value=&quot;Paraguayan&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2172-5"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2172-5</td><td>Peruvian</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2172-5&quot;, &quot;display&quot;: &quot;Peruvian&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2172-5&quot;&gt;&lt;display value=&quot;Peruvian&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2173-3"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2173-3</td><td>Uruguayan</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2173-3&quot;, &quot;display&quot;: &quot;Uruguayan&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2173-3&quot;&gt;&lt;display value=&quot;Uruguayan&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2174-1"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2174-1</td><td>Venezuelan</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2174-1&quot;, &quot;display&quot;: &quot;Venezuelan&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2174-1&quot;&gt;&lt;display value=&quot;Venezuelan&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2175-8"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2175-8</td><td>South American Indian</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2175-8&quot;, &quot;display&quot;: &quot;South American Indian&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2175-8&quot;&gt;&lt;display value=&quot;South American Indian&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2176-6"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2176-6</td><td>Criollo</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2176-6&quot;, &quot;display&quot;: &quot;Criollo&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2176-6&quot;&gt;&lt;display value=&quot;Criollo&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2178-2"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2178-2</td><td>Latin American</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2178-2&quot;, &quot;display&quot;: &quot;Latin American&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2178-2&quot;&gt;&lt;display value=&quot;Latin American&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2180-8"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2180-8</td><td>Puerto Rican</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2180-8&quot;, &quot;display&quot;: &quot;Puerto Rican&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2180-8&quot;&gt;&lt;display value=&quot;Puerto Rican&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2182-4"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2182-4</td><td>Cuban</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2182-4&quot;, &quot;display&quot;: &quot;Cuban&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2182-4&quot;&gt;&lt;display value=&quot;Cuban&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-EthnicityHispanic-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2184-0"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style="white-space:nowrap">  2184-0</td><td>Dominican</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;2184-0&quot;, &quot;display&quot;: &quot;Dominican&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Ethnicity&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;2184-0&quot;&gt;&lt;display value=&quot;Dominican&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr></table></div>
+
+  <hr/>
+  <p>
+    <a href="http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology">Description of the above table(s)</a>.
+  </p>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="ValueSet-R5-v3-Ethnicity-for-R4.ttl.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="ValueSet-R5-v3-EthnicityHispanic-for-R4-testing.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-21 13:39:00 -0600">
+    2026-02-21
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir/uv/xver/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

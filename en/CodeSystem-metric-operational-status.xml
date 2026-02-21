@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="metric-operational-status"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/metric-operational-status</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">on
+                  <a name="metric-operational-status-on"> </a>
+                </td>
+                <td>On</td>
+                <td>The DeviceMetric is operating and will generate Observations.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">off
+                  <a name="metric-operational-status-off"> </a>
+                </td>
+                <td>Off</td>
+                <td>The DeviceMetric is not operating.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">standby
+                  <a name="metric-operational-status-standby"> </a>
+                </td>
+                <td>Standby</td>
+                <td>The DeviceMetric is operating, but will not generate any Observations.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">entered-in-error
+                  <a name="metric-operational-status-entered-in-error"> </a>
+                </td>
+                <td>Entered In Error</td>
+                <td>The DeviceMetric was entered in error.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="dev"/>
+  </extension>
+  <url value="http://hl7.org/fhir/metric-operational-status"/>
+  <version value="5.0.0"/>
+  <name value="DeviceMetricOperationalStatus"/>
+  <title value="Device Metric Operational Status"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Health Care Devices"/>
+  <contact>
+    <name value="Health Care Devices"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/healthcaredevices"/>
+    </telecom>
+  </contact>
+  <description value="Describes the operational status of the DeviceMetric."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/metric-operational-status|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="on"/>
+    <display value="On"/>
+    <definition value="The DeviceMetric is operating and will generate Observations."/>
+  </concept>
+  <concept>
+    <code value="off"/>
+    <display value="Off"/>
+    <definition value="The DeviceMetric is not operating."/>
+  </concept>
+  <concept>
+    <code value="standby"/>
+    <display value="Standby"/>
+    <definition value="The DeviceMetric is operating, but will not generate any Observations."/>
+  </concept>
+  <concept>
+    <code value="entered-in-error"/>
+    <display value="Entered In Error"/>
+    <definition value="The DeviceMetric was entered in error."/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-measure-aggregate-method-for-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-measure-aggregate-method-for-R4</b></p><a name="R5-measure-aggregate-method-for-R4"> </a><a name="hcR5-measure-aggregate-method-for-R4"> </a><p>This value set expansion contains 6 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="R5-measure-aggregate-method-for-R4-http://hl7.org/fhir/CodeSystem/measure-aggregate-method-average"> </a><code>http://hl7.org/fhir/CodeSystem/measure-aggregate-method</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-measure-aggregate-method.html#measure-aggregate-method-average">average</a></td><td>Average</td><td>The measure score is determined by taking the average of the observations derived from the measure population.</td></tr><tr><td><a name="R5-measure-aggregate-method-for-R4-http://hl7.org/fhir/CodeSystem/measure-aggregate-method-count"> </a><code>http://hl7.org/fhir/CodeSystem/measure-aggregate-method</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-measure-aggregate-method.html#measure-aggregate-method-count">count</a></td><td>Count</td><td>The measure score is determined as the number of observations derived from the measure population.</td></tr><tr><td><a name="R5-measure-aggregate-method-for-R4-http://hl7.org/fhir/CodeSystem/measure-aggregate-method-maximum"> </a><code>http://hl7.org/fhir/CodeSystem/measure-aggregate-method</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-measure-aggregate-method.html#measure-aggregate-method-maximum">maximum</a></td><td>Maximum</td><td>The measure score is determined by taking the maximum of the observations derived from the measure population.</td></tr><tr><td><a name="R5-measure-aggregate-method-for-R4-http://hl7.org/fhir/CodeSystem/measure-aggregate-method-median"> </a><code>http://hl7.org/fhir/CodeSystem/measure-aggregate-method</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-measure-aggregate-method.html#measure-aggregate-method-median">median</a></td><td>Median</td><td>The measure score is determined by taking the median of the observations derived from the measure population.</td></tr><tr><td><a name="R5-measure-aggregate-method-for-R4-http://hl7.org/fhir/CodeSystem/measure-aggregate-method-minimum"> </a><code>http://hl7.org/fhir/CodeSystem/measure-aggregate-method</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-measure-aggregate-method.html#measure-aggregate-method-minimum">minimum</a></td><td>Minimum</td><td>The measure score is determined by taking the minimum of the observations derived from the measure population.</td></tr><tr><td><a name="R5-measure-aggregate-method-for-R4-http://hl7.org/fhir/CodeSystem/measure-aggregate-method-sum"> </a><code>http://hl7.org/fhir/CodeSystem/measure-aggregate-method</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-measure-aggregate-method.html#measure-aggregate-method-sum">sum</a></td><td>Sum</td><td>The measure score is determined by adding together the observations derived from the measure population.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="4"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="cqi"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-measure-aggregate-method-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5MeasureAggregateMethodForR4"/>
+  <title value="Cross-version ValueSet R5.MeasureAggregateMethod for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="Clinical Quality Information"/>
+  <contact>
+    <name value="Clinical Quality Information"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/cqi"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/measure-aggregate-method|5.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/measure-aggregate-method|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `Measure.group.population.aggregateMethod`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;&#xA;FHIR ValueSet `http://hl7.org/fhir/ValueSet/measure-aggregate-method|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/measure-aggregate-method"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="average"/>
+        <display value="Average"/>
+      </concept>
+      <concept>
+        <code value="count"/>
+        <display value="Count"/>
+      </concept>
+      <concept>
+        <code value="maximum"/>
+        <display value="Maximum"/>
+      </concept>
+      <concept>
+        <code value="median"/>
+        <display value="Median"/>
+      </concept>
+      <concept>
+        <code value="minimum"/>
+        <display value="Minimum"/>
+      </concept>
+      <concept>
+        <code value="sum"/>
+        <display value="Sum"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/measure-aggregate-method"/>
+      <version value="5.0.0"/>
+      <code value="average"/>
+      <display value="Average"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/measure-aggregate-method"/>
+      <version value="5.0.0"/>
+      <code value="count"/>
+      <display value="Count"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/measure-aggregate-method"/>
+      <version value="5.0.0"/>
+      <code value="maximum"/>
+      <display value="Maximum"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/measure-aggregate-method"/>
+      <version value="5.0.0"/>
+      <code value="median"/>
+      <display value="Median"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/measure-aggregate-method"/>
+      <version value="5.0.0"/>
+      <code value="minimum"/>
+      <display value="Minimum"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/measure-aggregate-method"/>
+      <version value="5.0.0"/>
+      <code value="sum"/>
+      <display value="Sum"/>
+    </contains>
+  </expansion>
+</ValueSet>

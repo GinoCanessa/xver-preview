@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-genomicstudy-status-for-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-genomicstudy-status-for-R4</b></p><a name="R5-genomicstudy-status-for-R4"> </a><a name="hcR5-genomicstudy-status-for-R4"> </a><p>This value set expansion contains 5 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="R5-genomicstudy-status-for-R4-http://hl7.org/fhir/genomicstudy-status-available"> </a><code>http://hl7.org/fhir/genomicstudy-status</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-genomicstudy-status.html#genomicstudy-status-available">available</a></td><td>Available</td><td>At least one instance has been associated with this genomic study.</td></tr><tr><td><a name="R5-genomicstudy-status-for-R4-http://hl7.org/fhir/genomicstudy-status-cancelled"> </a><code>http://hl7.org/fhir/genomicstudy-status</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-genomicstudy-status.html#genomicstudy-status-cancelled">cancelled</a></td><td>Cancelled</td><td>The genomic study is unavailable because the genomic study was not started or not completed (also sometimes called &quot;aborted&quot;).</td></tr><tr><td><a name="R5-genomicstudy-status-for-R4-http://hl7.org/fhir/genomicstudy-status-entered-in-error"> </a><code>http://hl7.org/fhir/genomicstudy-status</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-genomicstudy-status.html#genomicstudy-status-entered-in-error">entered-in-error</a></td><td>Entered in Error</td><td>The genomic study has been withdrawn following a previous final release.  This electronic record should never have existed, though it is possible that real-world decisions were based on it. (If real-world activity has occurred, the status should be &quot;cancelled&quot; rather than &quot;entered-in-error&quot;.).</td></tr><tr><td><a name="R5-genomicstudy-status-for-R4-http://hl7.org/fhir/genomicstudy-status-registered"> </a><code>http://hl7.org/fhir/genomicstudy-status</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-genomicstudy-status.html#genomicstudy-status-registered">registered</a></td><td>Registered</td><td>The existence of the genomic study is registered, but there is nothing yet available.</td></tr><tr><td><a name="R5-genomicstudy-status-for-R4-http://hl7.org/fhir/genomicstudy-status-unknown"> </a><code>http://hl7.org/fhir/genomicstudy-status</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-genomicstudy-status.html#genomicstudy-status-unknown">unknown</a></td><td>Unknown</td><td>The system does not know which of the status values currently applies for this request. Note: This concept is not to be used for &quot;other&quot; - one of the listed statuses is presumed to apply, it's just not known which one.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="cg"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-genomicstudy-status-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5GenomicstudyStatusForR4"/>
+  <title value="Cross-version ValueSet R5.GenomicStudyStatus for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="Clinical Genomics"/>
+  <contact>
+    <name value="Clinical Genomics"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/clingenomics"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/genomicstudy-status|5.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/genomicstudy-status|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `GenomicStudy.status`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;&#xA;FHIR ValueSet `http://hl7.org/fhir/ValueSet/genomicstudy-status|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/genomicstudy-status"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="available"/>
+        <display value="Available"/>
+      </concept>
+      <concept>
+        <code value="cancelled"/>
+        <display value="Cancelled"/>
+      </concept>
+      <concept>
+        <code value="entered-in-error"/>
+        <display value="Entered in Error"/>
+      </concept>
+      <concept>
+        <code value="registered"/>
+        <display value="Registered"/>
+      </concept>
+      <concept>
+        <code value="unknown"/>
+        <display value="Unknown"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/genomicstudy-status"/>
+      <version value="5.0.0"/>
+      <code value="available"/>
+      <display value="Available"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/genomicstudy-status"/>
+      <version value="5.0.0"/>
+      <code value="cancelled"/>
+      <display value="Cancelled"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/genomicstudy-status"/>
+      <version value="5.0.0"/>
+      <code value="entered-in-error"/>
+      <display value="Entered in Error"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/genomicstudy-status"/>
+      <version value="5.0.0"/>
+      <code value="registered"/>
+      <display value="Registered"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/genomicstudy-status"/>
+      <version value="5.0.0"/>
+      <code value="unknown"/>
+      <display value="Unknown"/>
+    </contains>
+  </expansion>
+</ValueSet>

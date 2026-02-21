@@ -10,13 +10,6 @@
     single schematron that validates contained resources (if you have any) 
   -->
   <sch:pattern>
-    <sch:title>f:Provenance</sch:title>
-    <sch:rule context="f:Provenance">
-      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/alternate-reference']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/alternate-reference': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/alternate-reference']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/alternate-reference': maximum cardinality of 'extension' is 1</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
     <sch:title>f:Provenance/f:reason</sch:title>
     <sch:rule context="f:Provenance/f:reason">
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
@@ -24,9 +17,12 @@
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>f:Provenance/f:agent</sch:title>
-    <sch:rule context="f:Provenance/f:agent">
-      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.agent']) &gt;= 1">extension with URL = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.agent': minimum cardinality of 'extension' is 1</sch:assert>
+    <sch:title>f:Provenance/f:entity/f:role</sch:title>
+    <sch:rule context="f:Provenance/f:entity/f:role">
+      <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.entity.role|0.0.1-snapshot-3']) &gt;= 1">extension with URL = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.entity.role|0.0.1-snapshot-3': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.entity.role|0.0.1-snapshot-3']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.entity.role|0.0.1-snapshot-3': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:value) &lt;= 1">value: maximum cardinality of 'value' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
 </sch:schema>

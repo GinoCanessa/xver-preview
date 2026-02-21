@@ -1,0 +1,1352 @@
+# R5TestScriptElementMapToR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## ConceptMap: R5TestScriptElementMapToR4 
+
+ 
+This ConceptMap represents cross-version mappings for elements from a FHIR R5 TestScript to FHIR R4. 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ConceptMap",
+  "id" : "R5-TestScript-element-map-to-R4",
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "fhir"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger" : 0,
+      "_valueInteger" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode" : "trial-use",
+      "_valueCode" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    }
+  ],
+  "url" : "http://hl7.org/fhir/uv/xver/ConceptMap/R5-TestScript-element-map-to-R4",
+  "version" : "0.0.1-snapshot-3",
+  "name" : "R5TestScriptElementMapToR4",
+  "title" : "Cross-version mapping for FHIR R5 TestScript to FHIR R4 TestScript",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-02-21T13:37:00.4675393-06:00",
+  "contact" : [
+    {
+      "name" : "FHIR Infrastructure",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/fiwg"
+        }
+      ]
+    }
+  ],
+  "description" : "This ConceptMap represents cross-version mappings for elements from a FHIR R5 TestScript to FHIR R4.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }
+      ]
+    }
+  ],
+  "sourceCanonical" : "http://hl7.org/fhir/5.0",
+  "targetUri" : "http://hl7.org/fhir/4.0",
+  "group" : [
+    {
+      "source" : "http://hl7.org/fhir/StructureDefinition/TestScript",
+      "sourceVersion" : "5.0.0",
+      "target" : "http://hl7.org/fhir/StructureDefinition/TestScript",
+      "targetVersion" : "4.0.1",
+      "element" : [
+        {
+          "code" : "TestScript.meta",
+          "display" : "meta",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.meta` is mapped to FHIR R4 element `TestScript.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.implicitRules",
+          "display" : "implicitRules",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.implicitRules` is mapped to FHIR R4 element `TestScript.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.language",
+          "display" : "language",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.language` is mapped to FHIR R4 element `TestScript.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.text",
+          "display" : "text",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.text` is mapped to FHIR R4 element `TestScript.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.contained",
+          "display" : "contained",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.contained` is mapped to FHIR R4 element `TestScript.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.url",
+          "display" : "url",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.url` is mapped to FHIR R4 element `TestScript.url` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.identifier",
+          "display" : "identifier",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.identifier` is mapped to FHIR R4 element `TestScript.identifier` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.version",
+          "display" : "version",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.version` is mapped to FHIR R4 element `TestScript.version` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.name",
+          "display" : "name",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.name` is mapped to FHIR R4 element `TestScript.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.title",
+          "display" : "title",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.title` is mapped to FHIR R4 element `TestScript.title` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.status",
+          "display" : "status",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.status` is mapped to FHIR R4 element `TestScript.status` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.experimental",
+          "display" : "experimental",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.experimental` is mapped to FHIR R4 element `TestScript.experimental` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.date",
+          "display" : "date",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.date` is mapped to FHIR R4 element `TestScript.date` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.publisher",
+          "display" : "publisher",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.publisher` is mapped to FHIR R4 element `TestScript.publisher` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.contact",
+          "display" : "contact",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.contact` is mapped to FHIR R4 element `TestScript.contact` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.description",
+          "display" : "description",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.description` is mapped to FHIR R4 element `TestScript.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.useContext",
+          "display" : "useContext",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.useContext` is mapped to FHIR R4 element `TestScript.useContext` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.jurisdiction",
+          "display" : "jurisdiction",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.jurisdiction` is mapped to FHIR R4 element `TestScript.jurisdiction` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.purpose",
+          "display" : "purpose",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.purpose` is mapped to FHIR R4 element `TestScript.purpose` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.copyright",
+          "display" : "copyright",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.copyright` is mapped to FHIR R4 element `TestScript.copyright` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.origin",
+          "display" : "origin",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.origin` is mapped to FHIR R4 element `TestScript.origin` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.origin.index",
+          "display" : "index",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.origin.index` is mapped to FHIR R4 element `TestScript.origin.index` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.origin.profile",
+          "display" : "profile",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.origin.profile` is mapped to FHIR R4 element `TestScript.origin.profile` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.destination",
+          "display" : "destination",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.destination` is mapped to FHIR R4 element `TestScript.destination` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.destination.index",
+          "display" : "index",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.destination.index` is mapped to FHIR R4 element `TestScript.destination.index` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.destination.profile",
+          "display" : "profile",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.destination.profile` is mapped to FHIR R4 element `TestScript.destination.profile` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.metadata",
+          "display" : "metadata",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.metadata` is mapped to FHIR R4 element `TestScript.metadata` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.metadata.link",
+          "display" : "link",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.metadata.link` is mapped to FHIR R4 element `TestScript.metadata.link` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.metadata.link.url",
+          "display" : "url",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.metadata.link.url` is mapped to FHIR R4 element `TestScript.metadata.link.url` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.metadata.link.description",
+          "display" : "description",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.metadata.link.description` is mapped to FHIR R4 element `TestScript.metadata.link.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.metadata.capability",
+          "display" : "capability",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.metadata.capability` is mapped to FHIR R4 element `TestScript.metadata.capability` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.metadata.capability.required",
+          "display" : "required",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.metadata.capability.required` is mapped to FHIR R4 element `TestScript.metadata.capability.required` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.metadata.capability.validated",
+          "display" : "validated",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.metadata.capability.validated` is mapped to FHIR R4 element `TestScript.metadata.capability.validated` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.metadata.capability.description",
+          "display" : "description",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.metadata.capability.description` is mapped to FHIR R4 element `TestScript.metadata.capability.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.metadata.capability.origin",
+          "display" : "origin",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.metadata.capability.origin` is mapped to FHIR R4 element `TestScript.metadata.capability.origin` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.metadata.capability.destination",
+          "display" : "destination",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.metadata.capability.destination` is mapped to FHIR R4 element `TestScript.metadata.capability.destination` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.metadata.capability.link",
+          "display" : "link",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.metadata.capability.link` is mapped to FHIR R4 element `TestScript.metadata.capability.link` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.metadata.capability.capabilities",
+          "display" : "capabilities",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.metadata.capability.capabilities` is mapped to FHIR R4 element `TestScript.metadata.capability.capabilities` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.fixture",
+          "display" : "fixture",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.fixture` is mapped to FHIR R4 element `TestScript.fixture` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.fixture.autocreate",
+          "display" : "autocreate",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.fixture.autocreate` is mapped to FHIR R4 element `TestScript.fixture.autocreate` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.fixture.autodelete",
+          "display" : "autodelete",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.fixture.autodelete` is mapped to FHIR R4 element `TestScript.fixture.autodelete` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.fixture.resource",
+          "display" : "resource",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.fixture.resource` is mapped to FHIR R4 element `TestScript.fixture.resource` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.profile",
+          "display" : "profile",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `TestScript.profile` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `TestScript.profile` is mapped to FHIR R4 element `TestScript.profile` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.variable",
+          "display" : "variable",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.variable` is mapped to FHIR R4 element `TestScript.variable` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.variable.name",
+          "display" : "name",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.variable.name` is mapped to FHIR R4 element `TestScript.variable.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.variable.defaultValue",
+          "display" : "defaultValue",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.variable.defaultValue` is mapped to FHIR R4 element `TestScript.variable.defaultValue` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.variable.description",
+          "display" : "description",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.variable.description` is mapped to FHIR R4 element `TestScript.variable.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.variable.expression",
+          "display" : "expression",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.variable.expression` is mapped to FHIR R4 element `TestScript.variable.expression` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.variable.headerField",
+          "display" : "headerField",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.variable.headerField` is mapped to FHIR R4 element `TestScript.variable.headerField` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.variable.hint",
+          "display" : "hint",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.variable.hint` is mapped to FHIR R4 element `TestScript.variable.hint` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.variable.path",
+          "display" : "path",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.variable.path` is mapped to FHIR R4 element `TestScript.variable.path` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.variable.sourceId",
+          "display" : "sourceId",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.variable.sourceId` is mapped to FHIR R4 element `TestScript.variable.sourceId` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup",
+          "display" : "setup",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.setup` is mapped to FHIR R4 element `TestScript.setup` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action",
+          "display" : "action",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.setup.action` is mapped to FHIR R4 element `TestScript.setup.action` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.operation",
+          "display" : "operation",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.setup.action.operation` is mapped to FHIR R4 element `TestScript.setup.action.operation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.teardown.action.operation` because `TestScript.teardown.action.operation` is defined as a content reference to `TestScript.setup.action.operation`.\nNote available implied context: `TestScript.test.action.operation` because `TestScript.test.action.operation` is defined as a content reference to `TestScript.setup.action.operation`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.operation.type",
+          "display" : "type",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.operation.type` is mapped to FHIR R4 element `TestScript.setup.action.operation.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.teardown.action.operation.type` because `TestScript.teardown.action.operation` is defined via a content reference to `TestScript.setup.action.operation`.\nNote available implied context: `TestScript.test.action.operation.type` because `TestScript.test.action.operation` is defined via a content reference to `TestScript.setup.action.operation`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.operation.resource",
+          "display" : "resource",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.operation.resource` is mapped to FHIR R4 element `TestScript.setup.action.operation.resource` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.teardown.action.operation.resource` because `TestScript.teardown.action.operation` is defined via a content reference to `TestScript.setup.action.operation`.\nNote available implied context: `TestScript.test.action.operation.resource` because `TestScript.test.action.operation` is defined via a content reference to `TestScript.setup.action.operation`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.operation.label",
+          "display" : "label",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.operation.label` is mapped to FHIR R4 element `TestScript.setup.action.operation.label` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.teardown.action.operation.label` because `TestScript.teardown.action.operation` is defined via a content reference to `TestScript.setup.action.operation`.\nNote available implied context: `TestScript.test.action.operation.label` because `TestScript.test.action.operation` is defined via a content reference to `TestScript.setup.action.operation`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.operation.description",
+          "display" : "description",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.operation.description` is mapped to FHIR R4 element `TestScript.setup.action.operation.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.teardown.action.operation.description` because `TestScript.teardown.action.operation` is defined via a content reference to `TestScript.setup.action.operation`.\nNote available implied context: `TestScript.test.action.operation.description` because `TestScript.test.action.operation` is defined via a content reference to `TestScript.setup.action.operation`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.operation.accept",
+          "display" : "accept",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.operation.accept` is mapped to FHIR R4 element `TestScript.setup.action.operation.accept` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.teardown.action.operation.accept` because `TestScript.teardown.action.operation` is defined via a content reference to `TestScript.setup.action.operation`.\nNote available implied context: `TestScript.test.action.operation.accept` because `TestScript.test.action.operation` is defined via a content reference to `TestScript.setup.action.operation`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.operation.contentType",
+          "display" : "contentType",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.operation.contentType` is mapped to FHIR R4 element `TestScript.setup.action.operation.contentType` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.teardown.action.operation.contentType` because `TestScript.teardown.action.operation` is defined via a content reference to `TestScript.setup.action.operation`.\nNote available implied context: `TestScript.test.action.operation.contentType` because `TestScript.test.action.operation` is defined via a content reference to `TestScript.setup.action.operation`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.operation.destination",
+          "display" : "destination",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.operation.destination` is mapped to FHIR R4 element `TestScript.setup.action.operation.destination` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.teardown.action.operation.destination` because `TestScript.teardown.action.operation` is defined via a content reference to `TestScript.setup.action.operation`.\nNote available implied context: `TestScript.test.action.operation.destination` because `TestScript.test.action.operation` is defined via a content reference to `TestScript.setup.action.operation`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.operation.encodeRequestUrl",
+          "display" : "encodeRequestUrl",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.operation.encodeRequestUrl` is mapped to FHIR R4 element `TestScript.setup.action.operation.encodeRequestUrl` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.teardown.action.operation.encodeRequestUrl` because `TestScript.teardown.action.operation` is defined via a content reference to `TestScript.setup.action.operation`.\nNote available implied context: `TestScript.test.action.operation.encodeRequestUrl` because `TestScript.test.action.operation` is defined via a content reference to `TestScript.setup.action.operation`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.operation.method",
+          "display" : "method",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.operation.method` is mapped to FHIR R4 element `TestScript.setup.action.operation.method` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.teardown.action.operation.method` because `TestScript.teardown.action.operation` is defined via a content reference to `TestScript.setup.action.operation`.\nNote available implied context: `TestScript.test.action.operation.method` because `TestScript.test.action.operation` is defined via a content reference to `TestScript.setup.action.operation`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.operation.origin",
+          "display" : "origin",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.operation.origin` is mapped to FHIR R4 element `TestScript.setup.action.operation.origin` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.teardown.action.operation.origin` because `TestScript.teardown.action.operation` is defined via a content reference to `TestScript.setup.action.operation`.\nNote available implied context: `TestScript.test.action.operation.origin` because `TestScript.test.action.operation` is defined via a content reference to `TestScript.setup.action.operation`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.operation.params",
+          "display" : "params",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.operation.params` is mapped to FHIR R4 element `TestScript.setup.action.operation.params` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.teardown.action.operation.params` because `TestScript.teardown.action.operation` is defined via a content reference to `TestScript.setup.action.operation`.\nNote available implied context: `TestScript.test.action.operation.params` because `TestScript.test.action.operation` is defined via a content reference to `TestScript.setup.action.operation`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.operation.requestHeader",
+          "display" : "requestHeader",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.setup.action.operation.requestHeader` is mapped to FHIR R4 element `TestScript.setup.action.operation.requestHeader` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.teardown.action.operation.requestHeader` because `TestScript.teardown.action.operation` is defined via a content reference to `TestScript.setup.action.operation`.\nNote available implied context: `TestScript.test.action.operation.requestHeader` because `TestScript.test.action.operation` is defined via a content reference to `TestScript.setup.action.operation`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.operation.requestHeader.field",
+          "display" : "field",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.operation.requestHeader.field` is mapped to FHIR R4 element `TestScript.setup.action.operation.requestHeader.field` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.teardown.action.operation.requestHeader.field` because `TestScript.teardown.action.operation` is defined via a content reference to `TestScript.setup.action.operation`.\nNote available implied context: `TestScript.test.action.operation.requestHeader.field` because `TestScript.test.action.operation` is defined via a content reference to `TestScript.setup.action.operation`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.operation.requestHeader.value",
+          "display" : "value",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.operation.requestHeader.value` is mapped to FHIR R4 element `TestScript.setup.action.operation.requestHeader.value` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.teardown.action.operation.requestHeader.value` because `TestScript.teardown.action.operation` is defined via a content reference to `TestScript.setup.action.operation`.\nNote available implied context: `TestScript.test.action.operation.requestHeader.value` because `TestScript.test.action.operation` is defined via a content reference to `TestScript.setup.action.operation`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.operation.requestId",
+          "display" : "requestId",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.operation.requestId` is mapped to FHIR R4 element `TestScript.setup.action.operation.requestId` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.teardown.action.operation.requestId` because `TestScript.teardown.action.operation` is defined via a content reference to `TestScript.setup.action.operation`.\nNote available implied context: `TestScript.test.action.operation.requestId` because `TestScript.test.action.operation` is defined via a content reference to `TestScript.setup.action.operation`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.operation.responseId",
+          "display" : "responseId",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.operation.responseId` is mapped to FHIR R4 element `TestScript.setup.action.operation.responseId` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.teardown.action.operation.responseId` because `TestScript.teardown.action.operation` is defined via a content reference to `TestScript.setup.action.operation`.\nNote available implied context: `TestScript.test.action.operation.responseId` because `TestScript.test.action.operation` is defined via a content reference to `TestScript.setup.action.operation`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.operation.sourceId",
+          "display" : "sourceId",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.operation.sourceId` is mapped to FHIR R4 element `TestScript.setup.action.operation.sourceId` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.teardown.action.operation.sourceId` because `TestScript.teardown.action.operation` is defined via a content reference to `TestScript.setup.action.operation`.\nNote available implied context: `TestScript.test.action.operation.sourceId` because `TestScript.test.action.operation` is defined via a content reference to `TestScript.setup.action.operation`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.operation.targetId",
+          "display" : "targetId",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.operation.targetId` is mapped to FHIR R4 element `TestScript.setup.action.operation.targetId` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.teardown.action.operation.targetId` because `TestScript.teardown.action.operation` is defined via a content reference to `TestScript.setup.action.operation`.\nNote available implied context: `TestScript.test.action.operation.targetId` because `TestScript.test.action.operation` is defined via a content reference to `TestScript.setup.action.operation`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.operation.url",
+          "display" : "url",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.operation.url` is mapped to FHIR R4 element `TestScript.setup.action.operation.url` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.teardown.action.operation.url` because `TestScript.teardown.action.operation` is defined via a content reference to `TestScript.setup.action.operation`.\nNote available implied context: `TestScript.test.action.operation.url` because `TestScript.test.action.operation` is defined via a content reference to `TestScript.setup.action.operation`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert",
+          "display" : "assert",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.setup.action.assert` is mapped to FHIR R4 element `TestScript.setup.action.assert` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.test.action.assert` because `TestScript.test.action.assert` is defined as a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.label",
+          "display" : "label",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.assert.label` is mapped to FHIR R4 element `TestScript.setup.action.assert.label` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.test.action.assert.label` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.description",
+          "display" : "description",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.assert.description` is mapped to FHIR R4 element `TestScript.setup.action.assert.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.test.action.assert.description` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.direction",
+          "display" : "direction",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.assert.direction` is mapped to FHIR R4 element `TestScript.setup.action.assert.direction` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.test.action.assert.direction` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.compareToSourceId",
+          "display" : "compareToSourceId",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.assert.compareToSourceId` is mapped to FHIR R4 element `TestScript.setup.action.assert.compareToSourceId` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.test.action.assert.compareToSourceId` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.compareToSourceExpression",
+          "display" : "compareToSourceExpression",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.assert.compareToSourceExpression` is mapped to FHIR R4 element `TestScript.setup.action.assert.compareToSourceExpression` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.test.action.assert.compareToSourceExpression` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.compareToSourcePath",
+          "display" : "compareToSourcePath",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.assert.compareToSourcePath` is mapped to FHIR R4 element `TestScript.setup.action.assert.compareToSourcePath` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.test.action.assert.compareToSourcePath` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.contentType",
+          "display" : "contentType",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.assert.contentType` is mapped to FHIR R4 element `TestScript.setup.action.assert.contentType` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.test.action.assert.contentType` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.expression",
+          "display" : "expression",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.assert.expression` is mapped to FHIR R4 element `TestScript.setup.action.assert.expression` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.test.action.assert.expression` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.headerField",
+          "display" : "headerField",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.assert.headerField` is mapped to FHIR R4 element `TestScript.setup.action.assert.headerField` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.test.action.assert.headerField` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.minimumId",
+          "display" : "minimumId",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.assert.minimumId` is mapped to FHIR R4 element `TestScript.setup.action.assert.minimumId` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.test.action.assert.minimumId` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.navigationLinks",
+          "display" : "navigationLinks",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.assert.navigationLinks` is mapped to FHIR R4 element `TestScript.setup.action.assert.navigationLinks` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.test.action.assert.navigationLinks` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.operator",
+          "display" : "operator",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.setup.action.assert.operator` is mapped to FHIR R4 element `TestScript.setup.action.assert.operator` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.test.action.assert.operator` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.path",
+          "display" : "path",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.assert.path` is mapped to FHIR R4 element `TestScript.setup.action.assert.path` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.test.action.assert.path` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.requestMethod",
+          "display" : "requestMethod",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.assert.requestMethod` is mapped to FHIR R4 element `TestScript.setup.action.assert.requestMethod` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.test.action.assert.requestMethod` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.requestURL",
+          "display" : "requestURL",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.assert.requestURL` is mapped to FHIR R4 element `TestScript.setup.action.assert.requestURL` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.test.action.assert.requestURL` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.resource",
+          "display" : "resource",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.assert.resource` is mapped to FHIR R4 element `TestScript.setup.action.assert.resource` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.test.action.assert.resource` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.response",
+          "display" : "response",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.setup.action.assert.response` is mapped to FHIR R4 element `TestScript.setup.action.assert.response` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.test.action.assert.response` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.responseCode",
+          "display" : "responseCode",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.assert.responseCode` is mapped to FHIR R4 element `TestScript.setup.action.assert.responseCode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.test.action.assert.responseCode` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.sourceId",
+          "display" : "sourceId",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.assert.sourceId` is mapped to FHIR R4 element `TestScript.setup.action.assert.sourceId` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.test.action.assert.sourceId` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.validateProfileId",
+          "display" : "validateProfileId",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.assert.validateProfileId` is mapped to FHIR R4 element `TestScript.setup.action.assert.validateProfileId` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.test.action.assert.validateProfileId` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.value",
+          "display" : "value",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.assert.value` is mapped to FHIR R4 element `TestScript.setup.action.assert.value` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.test.action.assert.value` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.warningOnly",
+          "display" : "warningOnly",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.assert.warningOnly` is mapped to FHIR R4 element `TestScript.setup.action.assert.warningOnly` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.test.action.assert.warningOnly` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.test",
+          "display" : "test",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.test` is mapped to FHIR R4 element `TestScript.test` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.test.name",
+          "display" : "name",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.test.name` is mapped to FHIR R4 element `TestScript.test.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.test.description",
+          "display" : "description",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.test.description` is mapped to FHIR R4 element `TestScript.test.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.test.action",
+          "display" : "action",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.test.action` is mapped to FHIR R4 element `TestScript.test.action` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.test.action.operation",
+          "display" : "operation",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.test.action.operation` is mapped to FHIR R4 element `TestScript.test.action.operation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.test.action.assert",
+          "display" : "assert",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.test.action.assert` is mapped to FHIR R4 element `TestScript.test.action.assert` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.teardown",
+          "display" : "teardown",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.teardown` is mapped to FHIR R4 element `TestScript.teardown` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.teardown.action",
+          "display" : "action",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.teardown.action` is mapped to FHIR R4 element `TestScript.teardown.action` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.teardown.action.operation",
+          "display" : "operation",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.teardown.action.operation` is mapped to FHIR R4 element `TestScript.teardown.action.operation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source" : "http://hl7.org/fhir/StructureDefinition/TestScript",
+      "sourceVersion" : "5.0.0",
+      "target" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4",
+      "element" : [
+        {
+          "code" : "TestScript.versionAlgorithm[x]",
+          "display" : "versionAlgorithm[x]",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.versionAlgorithm",
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.versionAlgorithm[x]` has a context of TestScript based on following the parent source element upwards and mapping to `TestScript`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.copyrightLabel",
+          "display" : "copyrightLabel",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.copyrightLabel",
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.copyrightLabel` has a context of TestScript based on following the parent source element upwards and mapping to `TestScript`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.origin.url",
+          "display" : "url",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.origin.url",
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.origin.url` has a context of TestScript.origin based on following the parent source element upwards and mapping to `TestScript`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.destination.url",
+          "display" : "url",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.destination.url",
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.destination.url` has a context of TestScript.destination based on following the parent source element upwards and mapping to `TestScript`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.scope",
+          "display" : "scope",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.scope",
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.scope` has a context of TestScript based on following the parent source element upwards and mapping to `TestScript`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.defaultManualCompletion",
+          "display" : "defaultManualCompletion",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.defaultManualCompletion",
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.setup.action.assert.defaultManualCompletion` has a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`.\nNote available implied context: `TestScript.test.action.assert` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.operator",
+          "display" : "operator",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.operator",
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.assert.operator` is mapped to FHIR R4 element `TestScript.setup.action.assert.operator` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.test.action.assert.operator` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.response",
+          "display" : "response",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.response",
+              "equivalence" : "equivalent",
+              "comment" : "Element `TestScript.setup.action.assert.response` is mapped to FHIR R4 element `TestScript.setup.action.assert.response` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `TestScript.test.action.assert.response` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.stopTestOnFail",
+          "display" : "stopTestOnFail",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.stopTestOnFail",
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.setup.action.assert.stopTestOnFail` has a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`.\nNote available implied context: `TestScript.test.action.assert` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.requirement",
+          "display" : "requirement",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.requirement",
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.setup.action.assert.requirement` has a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`.\nNote available implied context: `TestScript.test.action.assert` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source" : "http://hl7.org/fhir/StructureDefinition/TestScript",
+      "sourceVersion" : "5.0.0",
+      "target" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+      "targetVersion" : "5.2.0",
+      "element" : [
+        {
+          "code" : "TestScript.scope.artifact",
+          "display" : "artifact",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-canonical",
+              "equivalence" : "wider",
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `TestScript.scope.artifact` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `TestScript.scope.artifact` has a context of TestScript based on following the parent source element upwards and mapping to `TestScript`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.profile",
+          "display" : "profile",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-canonical",
+              "equivalence" : "equivalent",
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `TestScript.profile` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `TestScript.profile` is mapped to FHIR R4 element `TestScript.profile` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.requirement.link[x]",
+          "display" : "link[x]",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-canonical",
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.setup.action.assert.requirement.link[x]` has a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`.\nNote available implied context: `TestScript.test.action.assert` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.setup.action.assert.requirement.link[x]` has a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`.\nNote available implied context: `TestScript.test.action.assert` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source" : "http://hl7.org/fhir/StructureDefinition/TestScript",
+      "sourceVersion" : "5.0.0",
+      "element" : [
+        {
+          "code" : "TestScript.scope.conformance",
+          "display" : "conformance",
+          "target" : [
+            {
+              "code" : "conformance",
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.scope.conformance` has a context of TestScript based on following the parent source element upwards and mapping to `TestScript`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.scope.phase",
+          "display" : "phase",
+          "target" : [
+            {
+              "code" : "phase",
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.scope.phase` has a context of TestScript based on following the parent source element upwards and mapping to `TestScript`."
+            }
+          ]
+        },
+        {
+          "code" : "TestScript.setup.action.assert.requirement.link[x]",
+          "display" : "link[x]",
+          "target" : [
+            {
+              "code" : "link",
+              "equivalence" : "wider",
+              "comment" : "Element `TestScript.setup.action.assert.requirement.link[x]` has a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`.\nNote available implied context: `TestScript.test.action.assert` because `TestScript.test.action.assert` is defined via a content reference to `TestScript.setup.action.assert`."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+```

@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "R5-substance-representation-type-for-R4"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-substance-representation-type-for-R4</b></p><a name=\"R5-substance-representation-type-for-R4\"> </a><a name=\"hcR5-substance-representation-type-for-R4\"> </a><p>This value set expansion contains 3 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-substance-representation-type-for-R4-http://hl7.org/fhir/substance-representation-type-Brand\"> </a><code>http://hl7.org/fhir/substance-representation-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  Brand</td><td>brand</td></tr><tr><td><a name=\"R5-substance-representation-type-for-R4-http://hl7.org/fhir/substance-representation-type-Scientific\"> </a><code>http://hl7.org/fhir/substance-representation-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  Scientific</td><td>scientific</td></tr><tr><td><a name=\"R5-substance-representation-type-for-R4-http://hl7.org/fhir/substance-representation-type-Systematic\"> </a><code>http://hl7.org/fhir/substance-representation-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  Systematic</td><td>systematic</td></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-substance-representation-type-for-R4</b></p><a name=\"R5-substance-representation-type-for-R4\"> </a><a name=\"hcR5-substance-representation-type-for-R4\"> </a><p>This value set expansion contains 3 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-substance-representation-type-for-R4-http://hl7.org/fhir/substance-representation-type-Brand\"> </a><code>http://hl7.org/fhir/substance-representation-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-substance-representation-type.html#substance-representation-type-Brand\">Brand</a></td><td>brand</td></tr><tr><td><a name=\"R5-substance-representation-type-for-R4-http://hl7.org/fhir/substance-representation-type-Scientific\"> </a><code>http://hl7.org/fhir/substance-representation-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-substance-representation-type.html#substance-representation-type-Scientific\">Scientific</a></td><td>scientific</td></tr><tr><td><a name=\"R5-substance-representation-type-for-R4-http://hl7.org/fhir/substance-representation-type-Systematic\"> </a><code>http://hl7.org/fhir/substance-representation-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-substance-representation-type.html#substance-representation-type-Systematic\">Systematic</a></td><td>systematic</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:url [
@@ -29,7 +29,7 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "fhir"
+       fhir:v "brr"
      ]
   ] [
      fhir:extension ( [
@@ -95,13 +95,13 @@
   fhir:title [ fhir:v "Cross-version ValueSet R5.SubstanceRepresentationType for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-20T17:59:09.1776521+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Biomedical Research and Regulation"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:name [ fhir:v "Biomedical Research and Regulation" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/rcrim" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/substance-representation-type|5.0.0` for use in FHIR R4."] ; # 
@@ -115,7 +115,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/substance-representation-type|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `SubstanceDefinition.structure.representation.type` as Example\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/substance-representation-type|5.0.0`\n* `http://hl7.org/fhir/ValueSet/substance-representation-type|4.3.0`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\nAll concepts in the comparison are listed as identical.\nThe source and target value sets have the same number of active concepts (3)."] ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/substance-representation-type|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `SubstanceDefinition.structure.representation.type` as Example\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/substance-representation-type|5.0.0`\n* `http://hl7.org/fhir/ValueSet/substance-representation-type|4.3.0`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\nAll concepts in the comparison are listed as identical.\nThe source and target value sets have the same number of active concepts (3).\nFHIR ValueSet `http://hl7.org/fhir/ValueSet/substance-representation-type|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
   fhir:compose [
      fhir:include ( [
        fhir:system [
@@ -136,7 +136,7 @@
      ] )
   ] ; # 
   fhir:expansion [
-     fhir:timestamp [ fhir:v "2026-02-20T17:59:09.1776521+00:00"^^xsd:dateTime ] ;
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
      fhir:contains ( [
        fhir:system [
          fhir:v "http://hl7.org/fhir/substance-representation-type"^^xsd:anyURI ;

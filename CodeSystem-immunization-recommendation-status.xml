@@ -20,21 +20,21 @@
     </extension>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
-    <valueCode value="fhir"/>
+    <valueCode value="pher"/>
   </extension>
   <url value="http://terminology.hl7.org/CodeSystem/immunization-recommendation-status"/>
-  <version value="0.0.1-snapshot-3"/>
+  <version value="0.1.0"/>
   <name value="ImmunizationRecommendationStatusCodes"/>
   <title value="Immunization Recommendation Status Codes"/>
   <status value="draft"/>
   <experimental value="false"/>
   <date value="2023-02-25T12:07:30-06:00"/>
-  <publisher value="FHIR Infrastructure"/>
+  <publisher value="Public Health"/>
   <contact>
-    <name value="FHIR Infrastructure"/>
+    <name value="Public Health"/>
     <telecom>
       <system value="url"/>
-      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+      <value value="http://www.hl7.org/Special/committees/pher"/>
     </telecom>
   </contact>
   <description value="The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the status of the patient towards perceived immunity against a vaccine preventable disease. This value set is provided as a suggestive example."/>
@@ -46,7 +46,7 @@
     </coding>
   </jurisdiction>
   <caseSensitive value="true"/>
-  <valueSet value="http://terminology.hl7.org/ValueSet/immunization-recommendation-status"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/immunization-recommendation-status|1.0.1"/>
   <content value="complete"/>
   <concept>
     <code value="due"/>

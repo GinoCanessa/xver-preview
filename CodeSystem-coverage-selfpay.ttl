@@ -61,7 +61,7 @@
      fhir:v "http://terminology.hl7.org/CodeSystem/coverage-selfpay"^^xsd:anyURI ;
      fhir:l <http://terminology.hl7.org/CodeSystem/coverage-selfpay>
   ] ; # 
-  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "CoverageSelfPayCodes"] ; # 
   fhir:title [ fhir:v "Coverage SelfPay Codes"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
@@ -69,10 +69,14 @@
   fhir:date [ fhir:v "2023-02-25T12:07:30-06:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+       fhir:value [ fhir:v "http://hl7.org/fhir" ]
+     ] )
+  ] [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7.org/fhir" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "This value set includes Coverage SelfPay codes."] ; # 
@@ -89,8 +93,8 @@
   fhir:copyright [ fhir:v "HL7 International."] ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://terminology.hl7.org/ValueSet/coverage-selfpay"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/ValueSet/coverage-selfpay>
+     fhir:v "http://terminology.hl7.org/ValueSet/coverage-selfpay|1.0.1"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/coverage-selfpay?version=1.0.1>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

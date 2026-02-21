@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-version-algorithm-for-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-version-algorithm-for-R4</b></p><a name="R5-version-algorithm-for-R4"> </a><a name="hcR5-version-algorithm-for-R4"> </a><p>This value set expansion contains 5 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="R5-version-algorithm-for-R4-http://hl7.org/fhir/version-algorithm-alpha"> </a><code>http://hl7.org/fhir/version-algorithm</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-version-algorithm.html#version-algorithm-alpha">alpha</a></td><td>Alphabetical</td><td><div><p>Simple alphabetic sort on a case-insensitive and accent-insensitive basis.  (Sorting of different cases or accented versions of a character is indeterminate)</p>
+</div></td></tr><tr><td><a name="R5-version-algorithm-for-R4-http://hl7.org/fhir/version-algorithm-date"> </a><code>http://hl7.org/fhir/version-algorithm</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-version-algorithm.html#version-algorithm-date">date</a></td><td>Date</td><td><div><p>Versions are expressed as an ISO date/time syntax (including syntaxes with only portions of a date)</p>
+</div></td></tr><tr><td><a name="R5-version-algorithm-for-R4-http://hl7.org/fhir/version-algorithm-integer"> </a><code>http://hl7.org/fhir/version-algorithm</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-version-algorithm.html#version-algorithm-integer">integer</a></td><td>Integer</td><td><div><p>Versions are integers and ordered numerically</p>
+</div></td></tr><tr><td><a name="R5-version-algorithm-for-R4-http://hl7.org/fhir/version-algorithm-natural"> </a><code>http://hl7.org/fhir/version-algorithm</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-version-algorithm.html#version-algorithm-natural">natural</a></td><td>Natural</td><td><div><p>Sorted according to the algorithm defined here: <a href="http://www.naturalordersort.org/">naturalordersort.org</a></p>
+</div></td></tr><tr><td><a name="R5-version-algorithm-for-R4-http://hl7.org/fhir/version-algorithm-semver"> </a><code>http://hl7.org/fhir/version-algorithm</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-version-algorithm.html#version-algorithm-semver">semver</a></td><td>SemVer</td><td><div><p>Uses the semantic versioning scheme as defined in <a href="http://semver.org">semver.org</a>.</p>
+</div></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="5"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-version-algorithm-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5VersionAlgorithmForR4"/>
+  <title value="Cross-version ValueSet R5.VersionAlgorithm for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/version-algorithm|5.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/version-algorithm|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `ActivityDefinition.versionAlgorithm[x]`&#xA;* `ActorDefinition.versionAlgorithm[x]`&#xA;* `CapabilityStatement.versionAlgorithm[x]`&#xA;* `ChargeItemDefinition.versionAlgorithm[x]`&#xA;* `Citation.versionAlgorithm[x]`&#xA;* `CodeSystem.versionAlgorithm[x]`&#xA;* `CompartmentDefinition.versionAlgorithm[x]`&#xA;* `ConceptMap.versionAlgorithm[x]`&#xA;* `ConditionDefinition.versionAlgorithm[x]`&#xA;* `EventDefinition.versionAlgorithm[x]`&#xA;* `Evidence.versionAlgorithm[x]`&#xA;* `EvidenceVariable.versionAlgorithm[x]`&#xA;* `ExampleScenario.versionAlgorithm[x]`&#xA;* `GraphDefinition.versionAlgorithm[x]`&#xA;* `ImplementationGuide.versionAlgorithm[x]`&#xA;* `Library.versionAlgorithm[x]`&#xA;* `Measure.versionAlgorithm[x]`&#xA;* `MessageDefinition.versionAlgorithm[x]`&#xA;* `NamingSystem.versionAlgorithm[x]`&#xA;* `ObservationDefinition.versionAlgorithm[x]`&#xA;* `OperationDefinition.versionAlgorithm[x]`&#xA;* `PlanDefinition.versionAlgorithm[x]`&#xA;* `Questionnaire.versionAlgorithm[x]`&#xA;* `Requirements.versionAlgorithm[x]`&#xA;* `SearchParameter.versionAlgorithm[x]`&#xA;* `SpecimenDefinition.versionAlgorithm[x]`&#xA;* `StructureDefinition.versionAlgorithm[x]`&#xA;* `StructureMap.versionAlgorithm[x]`&#xA;* `SubscriptionTopic.versionAlgorithm[x]`&#xA;* `TerminologyCapabilities.versionAlgorithm[x]`&#xA;* `TestPlan.versionAlgorithm[x]`&#xA;* `TestScript.versionAlgorithm[x]`&#xA;* `ValueSet.versionAlgorithm[x]`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;&#xA;FHIR ValueSet `http://hl7.org/fhir/ValueSet/version-algorithm|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/version-algorithm"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="alpha"/>
+        <display value="Alphabetical"/>
+      </concept>
+      <concept>
+        <code value="date"/>
+        <display value="Date"/>
+      </concept>
+      <concept>
+        <code value="integer"/>
+        <display value="Integer"/>
+      </concept>
+      <concept>
+        <code value="natural"/>
+        <display value="Natural"/>
+      </concept>
+      <concept>
+        <code value="semver"/>
+        <display value="SemVer"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/version-algorithm"/>
+      <version value="5.0.0"/>
+      <code value="alpha"/>
+      <display value="Alphabetical"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/version-algorithm"/>
+      <version value="5.0.0"/>
+      <code value="date"/>
+      <display value="Date"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/version-algorithm"/>
+      <version value="5.0.0"/>
+      <code value="integer"/>
+      <display value="Integer"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/version-algorithm"/>
+      <version value="5.0.0"/>
+      <code value="natural"/>
+      <display value="Natural"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/version-algorithm"/>
+      <version value="5.0.0"/>
+      <code value="semver"/>
+      <display value="SemVer"/>
+    </contains>
+  </expansion>
+</ValueSet>

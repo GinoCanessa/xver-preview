@@ -1,0 +1,391 @@
+# R5DetectedIssueElementMapToR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## ConceptMap: R5DetectedIssueElementMapToR4 
+
+ 
+This ConceptMap represents cross-version mappings for elements from a FHIR R5 DetectedIssue to FHIR R4. 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ConceptMap",
+  "id" : "R5-DetectedIssue-element-map-to-R4",
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "fhir"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger" : 0,
+      "_valueInteger" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode" : "trial-use",
+      "_valueCode" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    }
+  ],
+  "url" : "http://hl7.org/fhir/uv/xver/ConceptMap/R5-DetectedIssue-element-map-to-R4",
+  "version" : "0.0.1-snapshot-3",
+  "name" : "R5DetectedIssueElementMapToR4",
+  "title" : "Cross-version mapping for FHIR R5 DetectedIssue to FHIR R4 DetectedIssue",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-02-21T13:36:55.9164193-06:00",
+  "contact" : [
+    {
+      "name" : "FHIR Infrastructure",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/fiwg"
+        }
+      ]
+    }
+  ],
+  "description" : "This ConceptMap represents cross-version mappings for elements from a FHIR R5 DetectedIssue to FHIR R4.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }
+      ]
+    }
+  ],
+  "sourceCanonical" : "http://hl7.org/fhir/5.0",
+  "targetUri" : "http://hl7.org/fhir/4.0",
+  "group" : [
+    {
+      "source" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue",
+      "sourceVersion" : "5.0.0",
+      "target" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue",
+      "targetVersion" : "4.0.1",
+      "element" : [
+        {
+          "code" : "DetectedIssue.meta",
+          "display" : "meta",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `DetectedIssue.meta` is mapped to FHIR R4 element `DetectedIssue.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "DetectedIssue.implicitRules",
+          "display" : "implicitRules",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `DetectedIssue.implicitRules` is mapped to FHIR R4 element `DetectedIssue.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "DetectedIssue.language",
+          "display" : "language",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `DetectedIssue.language` is mapped to FHIR R4 element `DetectedIssue.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "DetectedIssue.text",
+          "display" : "text",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `DetectedIssue.text` is mapped to FHIR R4 element `DetectedIssue.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "DetectedIssue.contained",
+          "display" : "contained",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `DetectedIssue.contained` is mapped to FHIR R4 element `DetectedIssue.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "DetectedIssue.identifier",
+          "display" : "identifier",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `DetectedIssue.identifier` is mapped to FHIR R4 element `DetectedIssue.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "DetectedIssue.status",
+          "display" : "status",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Note that the target element context `DetectedIssue.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `DetectedIssue.status` is mapped to FHIR R4 element `DetectedIssue.status` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "DetectedIssue.code",
+          "display" : "code",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `DetectedIssue.code` is mapped to FHIR R4 element `DetectedIssue.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "DetectedIssue.severity",
+          "display" : "severity",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `DetectedIssue.severity` is mapped to FHIR R4 element `DetectedIssue.severity` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "DetectedIssue.subject",
+          "display" : "subject",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DetectedIssue.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DetectedIssue.subject` is mapped to FHIR R4 element `DetectedIssue.patient` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "DetectedIssue.identified[x]",
+          "display" : "identified[x]",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Note that the target element context `DetectedIssue.identified[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DetectedIssue`.\nElement `DetectedIssue.identified[x]` is mapped to FHIR R4 element `DetectedIssue.identified[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `DetectedIssue.identified[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DetectedIssue`."
+            }
+          ]
+        },
+        {
+          "code" : "DetectedIssue.author",
+          "display" : "author",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DetectedIssue.author` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DetectedIssue.author` is mapped to FHIR R4 element `DetectedIssue.author` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "DetectedIssue.implicated",
+          "display" : "implicated",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `DetectedIssue.implicated` is mapped to FHIR R4 element `DetectedIssue.implicated` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "DetectedIssue.evidence",
+          "display" : "evidence",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `DetectedIssue.evidence` is mapped to FHIR R4 element `DetectedIssue.evidence` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "DetectedIssue.evidence.code",
+          "display" : "code",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `DetectedIssue.evidence.code` is mapped to FHIR R4 element `DetectedIssue.evidence.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "DetectedIssue.evidence.detail",
+          "display" : "detail",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `DetectedIssue.evidence.detail` is mapped to FHIR R4 element `DetectedIssue.evidence.detail` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "DetectedIssue.detail",
+          "display" : "detail",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `DetectedIssue.detail` is mapped to FHIR R4 element `DetectedIssue.detail` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "DetectedIssue.reference",
+          "display" : "reference",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `DetectedIssue.reference` is mapped to FHIR R4 element `DetectedIssue.reference` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "DetectedIssue.mitigation",
+          "display" : "mitigation",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `DetectedIssue.mitigation` is mapped to FHIR R4 element `DetectedIssue.mitigation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "DetectedIssue.mitigation.action",
+          "display" : "action",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `DetectedIssue.mitigation.action` is mapped to FHIR R4 element `DetectedIssue.mitigation.action` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "DetectedIssue.mitigation.date",
+          "display" : "date",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `DetectedIssue.mitigation.date` is mapped to FHIR R4 element `DetectedIssue.mitigation.date` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "DetectedIssue.mitigation.author",
+          "display" : "author",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `DetectedIssue.mitigation.author` is mapped to FHIR R4 element `DetectedIssue.mitigation.author` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue",
+      "sourceVersion" : "5.0.0",
+      "target" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4",
+      "element" : [
+        {
+          "code" : "DetectedIssue.status",
+          "display" : "status",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.status",
+              "equivalence" : "equivalent",
+              "comment" : "Note that the target element context `DetectedIssue.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `DetectedIssue.status` is mapped to FHIR R4 element `DetectedIssue.status` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "DetectedIssue.category",
+          "display" : "category",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.category",
+              "equivalence" : "wider",
+              "comment" : "Element `DetectedIssue.category` has a context of DetectedIssue based on following the parent source element upwards and mapping to `DetectedIssue`."
+            }
+          ]
+        },
+        {
+          "code" : "DetectedIssue.mitigation.note",
+          "display" : "note",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.mitigation.note",
+              "equivalence" : "wider",
+              "comment" : "Element `DetectedIssue.mitigation.note` has a context of DetectedIssue.mitigation based on following the parent source element upwards and mapping to `DetectedIssue`."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source" : "http://hl7.org/fhir/StructureDefinition/DetectedIssue",
+      "sourceVersion" : "5.0.0",
+      "target" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+      "targetVersion" : "5.2.0",
+      "element" : [
+        {
+          "code" : "DetectedIssue.subject",
+          "display" : "subject",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
+              "equivalence" : "wider",
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DetectedIssue.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DetectedIssue.subject` is mapped to FHIR R4 element `DetectedIssue.patient` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "DetectedIssue.encounter",
+          "display" : "encounter",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
+              "equivalence" : "wider",
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DetectedIssue.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DetectedIssue.encounter` has a context of DetectedIssue based on following the parent source element upwards and mapping to `DetectedIssue`."
+            }
+          ]
+        },
+        {
+          "code" : "DetectedIssue.author",
+          "display" : "author",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
+              "equivalence" : "equivalent",
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DetectedIssue.author` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DetectedIssue.author` is mapped to FHIR R4 element `DetectedIssue.author` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+```

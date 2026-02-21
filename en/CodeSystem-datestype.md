@@ -1,0 +1,100 @@
+# DatesEventTypeCodes - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## CodeSystem: DatesEventTypeCodes 
+
+ 
+This value set includes sample Dates Event Type codes. 
+
+This Code system is referenced in the definition of the following value sets:
+
+* [R5DatestypeForR4](ValueSet-R5-datestype-for-R4.md)
+
+-------
+
+ [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "CodeSystem",
+  "id" : "datestype",
+  "extension" : [
+    {
+      "extension" : [
+        {
+          "url" : "packageId",
+          "valueId" : "hl7.fhir.uv.xver-r5.r4"
+        },
+        {
+          "url" : "version",
+          "valueString" : "0.0.1-snapshot-3"
+        },
+        {
+          "url" : "uri",
+          "valueUri" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+        }
+      ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/package-source"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "fm"
+    }
+  ],
+  "url" : "http://hl7.org/fhir/datestype",
+  "version" : "5.0.0",
+  "name" : "DatesEventTypeCodes",
+  "title" : "Dates Event Type Codes",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-02-21T13:39:05-06:00",
+  "publisher" : "Financial Management",
+  "contact" : [
+    {
+      "name" : "Financial Management",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/fm"
+        }
+      ]
+    }
+  ],
+  "description" : "This value set includes sample Dates Event Type codes.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }
+      ]
+    }
+  ],
+  "copyright" : "This is an example set.",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "concept" : [
+    {
+      "code" : "card-issued",
+      "display" : "Card Issued",
+      "definition" : "The date when an insurance card was issued."
+    },
+    {
+      "code" : "claim-received",
+      "display" : "Claim Received",
+      "definition" : "The date when an insurer nreceived a claim, pre-authorization or predetermination."
+    },
+    {
+      "code" : "service-expected",
+      "display" : "Service Expected",
+      "definition" : "The date or period on or during which the services are expected to be performed."
+    }
+  ]
+}
+
+```

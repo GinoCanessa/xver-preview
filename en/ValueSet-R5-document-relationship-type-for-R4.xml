@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-document-relationship-type-for-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-document-relationship-type-for-R4</b></p><a name="R5-document-relationship-type-for-R4"> </a><a name="hcR5-document-relationship-type-for-R4"> </a><p>This value set expansion contains 2 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="R5-document-relationship-type-for-R4-http://hl7.org/fhir/document-relationship-type-incorporates"> </a><code>http://hl7.org/fhir/document-relationship-type</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-document-relationship-type.html#document-relationship-type-incorporates">incorporates</a></td><td>Incorporates</td><td>This document embeds the content from the (source) target document.</td></tr><tr><td><a name="R5-document-relationship-type-for-R4-http://hl7.org/fhir/document-relationship-type-summarizes"> </a><code>http://hl7.org/fhir/document-relationship-type</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-document-relationship-type.html#document-relationship-type-summarizes">summarizes</a></td><td>Summarizes</td><td>This document summarizes the content from the (source) target document.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="4"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-document-relationship-type-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5DocumentRelationshipTypeForR4"/>
+  <title value="Cross-version ValueSet R5.DocumentRelationshipType for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="Orders and Observations"/>
+  <contact>
+    <name value="Orders and Observations"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/orders"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from http://hl7.org/fhir/ValueSet/document-relationship-type|5.0.0 for use in FHIR R4 that is appropriate for use but unavailable in `http://hl7.org/fhir/ValueSet/document-relationship-type|4.0.1`."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/document-relationship-type|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `DocumentReference.relatesTo.code` as Extensible&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the value set has been mapped as:&#xD;&#xA;* `http://hl7.org/fhir/ValueSet/document-relationship-type|5.0.0`&#xA;* `http://hl7.org/fhir/ValueSet/document-relationship-type|4.3.0`&#xA;* `http://hl7.org/fhir/ValueSet/document-relationship-type|4.0.1`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* `http://hl7.org/fhir/document-relationship-type#appends`&#xA;* `http://hl7.org/fhir/document-relationship-type#replaces`&#xA;* `http://hl7.org/fhir/document-relationship-type#signs`&#xA;* `http://hl7.org/fhir/document-relationship-type#transforms`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;One or more source concepts are either not mapped or broader than their targets, so the value set relationship is broadened.&#xA;The source value set has more active concepts (6) than the target (4), so the source is broader than the target.&#xA;All concepts in the comparison are listed as identical.&#xA;The source and target value sets have the same number of active concepts (4).&#xA;Using explicit mapping from `http://hl7.org/fhir/ValueSet/document-relationship-type|5.0.0` to `http://hl7.org/fhir/ValueSet/document-relationship-type|4.0.1` in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-DocumentRelationshipType-R4-DocumentRelationshipType` (`ConceptMap-R5-DocumentRelationshipType-R4-DocumentRelationshipType.json`)"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/document-relationship-type"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="incorporates"/>
+        <display value="Incorporates"/>
+      </concept>
+      <concept>
+        <code value="summarizes"/>
+        <display value="Summarizes"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/document-relationship-type"/>
+      <version value="5.0.0"/>
+      <code value="incorporates"/>
+      <display value="Incorporates"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/document-relationship-type"/>
+      <version value="5.0.0"/>
+      <code value="summarizes"/>
+      <display value="Summarizes"/>
+    </contains>
+  </expansion>
+</ValueSet>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-account-billing-status-for-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-account-billing-status-for-R4</b></p><a name="R5-account-billing-status-for-R4"> </a><a name="hcR5-account-billing-status-for-R4"> </a><p>This value set expansion contains 7 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="R5-account-billing-status-for-R4-http://hl7.org/fhir/account-billing-status-billing"> </a><code>http://hl7.org/fhir/account-billing-status</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-account-billing-status.html#account-billing-status-billing">billing</a></td><td>Billing</td><td>Indicates that all transactions are recorded and the finance system can perform the billing process, including preparing insurance claims, scrubbing charges, invoicing etc. During this time any new charges will not be included in the current billing run/cycle. (account.status is active)</td></tr><tr><td><a name="R5-account-billing-status-for-R4-http://hl7.org/fhir/account-billing-status-carecomplete-notbilled"> </a><code>http://hl7.org/fhir/account-billing-status</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-account-billing-status.html#account-billing-status-carecomplete-notbilled">carecomplete-notbilled</a></td><td>CareComplete/Not Billed</td><td>The account.status is still active and may have charges recorded against it (only for events in the servicePeriod), however the encounters associated are completed. (Also known as Discharged not billed) This BillingStatus is often not used in ongoing accounts. (account.status is active)</td></tr><tr><td><a name="R5-account-billing-status-for-R4-http://hl7.org/fhir/account-billing-status-closed-baddebt"> </a><code>http://hl7.org/fhir/account-billing-status</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-account-billing-status.html#account-billing-status-closed-baddebt">closed-baddebt</a></td><td>Closed-Bad Debt</td><td>The balance of this debt has not been able to be recovered, and the organization has decided not to persue debt recovery. (account.status is in-active)</td></tr><tr><td><a name="R5-account-billing-status-for-R4-http://hl7.org/fhir/account-billing-status-closed-combined"> </a><code>http://hl7.org/fhir/account-billing-status</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-account-billing-status.html#account-billing-status-closed-combined">closed-combined</a></td><td>Closed-Combined</td><td>This account has been merged into another account, all charged have been migrated. This account should no longer be used, and will not be billed. (account.status is i n-active)</td></tr><tr><td><a name="R5-account-billing-status-for-R4-http://hl7.org/fhir/account-billing-status-closed-completed"> </a><code>http://hl7.org/fhir/account-billing-status</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-account-billing-status.html#account-billing-status-closed-completed">closed-completed</a></td><td>Closed-Completed</td><td>The account is closed and all charges are processed and accounted for. (account.status is i n-active)</td></tr><tr><td><a name="R5-account-billing-status-for-R4-http://hl7.org/fhir/account-billing-status-closed-voided"> </a><code>http://hl7.org/fhir/account-billing-status</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-account-billing-status.html#account-billing-status-closed-voided">closed-voided</a></td><td>Closed-Voided</td><td>The account was not created in error, however the organization has decided that it will not be charging any transactions associated. (account.status is i n-active)</td></tr><tr><td><a name="R5-account-billing-status-for-R4-http://hl7.org/fhir/account-billing-status-open"> </a><code>http://hl7.org/fhir/account-billing-status</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-account-billing-status.html#account-billing-status-open">open</a></td><td>Open</td><td>The account is open for charging transactions (account.status is active)</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pa"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-account-billing-status-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5AccountBillingStatusForR4"/>
+  <title value="Cross-version ValueSet R5.AccountBillingStatus for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="Patient Administration"/>
+  <contact>
+    <name value="Patient Administration"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pafm"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/account-billing-status|5.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/account-billing-status|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `Account.billingStatus`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;&#xA;FHIR ValueSet `http://hl7.org/fhir/ValueSet/account-billing-status|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/account-billing-status"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="billing"/>
+        <display value="Billing"/>
+      </concept>
+      <concept>
+        <code value="carecomplete-notbilled"/>
+        <display value="CareComplete/Not Billed"/>
+      </concept>
+      <concept>
+        <code value="closed-baddebt"/>
+        <display value="Closed-Bad Debt"/>
+      </concept>
+      <concept>
+        <code value="closed-combined"/>
+        <display value="Closed-Combined"/>
+      </concept>
+      <concept>
+        <code value="closed-completed"/>
+        <display value="Closed-Completed"/>
+      </concept>
+      <concept>
+        <code value="closed-voided"/>
+        <display value="Closed-Voided"/>
+      </concept>
+      <concept>
+        <code value="open"/>
+        <display value="Open"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/account-billing-status"/>
+      <version value="5.0.0"/>
+      <code value="billing"/>
+      <display value="Billing"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/account-billing-status"/>
+      <version value="5.0.0"/>
+      <code value="carecomplete-notbilled"/>
+      <display value="CareComplete/Not Billed"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/account-billing-status"/>
+      <version value="5.0.0"/>
+      <code value="closed-baddebt"/>
+      <display value="Closed-Bad Debt"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/account-billing-status"/>
+      <version value="5.0.0"/>
+      <code value="closed-combined"/>
+      <display value="Closed-Combined"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/account-billing-status"/>
+      <version value="5.0.0"/>
+      <code value="closed-completed"/>
+      <display value="Closed-Completed"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/account-billing-status"/>
+      <version value="5.0.0"/>
+      <code value="closed-voided"/>
+      <display value="Closed-Voided"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/account-billing-status"/>
+      <version value="5.0.0"/>
+      <code value="open"/>
+      <display value="Open"/>
+    </contains>
+  </expansion>
+</ValueSet>

@@ -1,0 +1,1044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Lookup for R5V3ReligiousAffiliationForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"4.2396"}
+    h3,h4,h5,h6{--heading-prefix:"4.2396"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" data-no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img alt="International flag" src="../assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='lookup-vs.html'><b>ValueSet Lookup</b></a></li><li><b>Lookup for R5V3ReligiousAffiliationForR4</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="lookup-vs-R5-v3-RelationshipConjunction-for-R4.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="lookup-vs-R5-v3-RepetitionsOutOfRange-for-R4.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Lookup for R5V3ReligiousAffiliationForR4</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+</div>
+<h3 id="lookup-for-fhir-r5-valueset-religiousaffiliationhttpterminologyhl7orgvaluesetv3-religiousaffiliation-for-use-in-fhir-r4">Lookup for <a href="https://hl7.org/fhir/R5/">FHIR R5</a> ValueSet ReligiousAffiliation:<a href="https://hl7.org/fhir/R5/valueset-v3-ReligiousAffiliation.html"><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/ValueSet/v3-ReligiousAffiliation</code></a> for use in <a href="https://hl7.org/fhir/R4/">FHIR R4</a></h3>
+
+<p>The FHIR R5 ValueSet ReligiousAffiliation has no mapping  to FHIR R4.</p>
+
+<table class="grid">
+  <thead>
+    <tr>
+      <th>Source System</th>
+      <th>Code</th>
+      <th>Display</th>
+      <th>Has XVer</th>
+      <th>Target System</th>
+      <th>Code</th>
+      <th>Display</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1001</code></td>
+      <td>Adventist</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1002</code></td>
+      <td>African Religions</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1003</code></td>
+      <td>Afro-Caribbean Religions</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1004</code></td>
+      <td>Agnosticism</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1005</code></td>
+      <td>Anglican</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1006</code></td>
+      <td>Animism</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1007</code></td>
+      <td>Atheism</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1008</code></td>
+      <td>Babi &amp; Baha'I faiths</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1009</code></td>
+      <td>Baptist</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1010</code></td>
+      <td>Bon</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1011</code></td>
+      <td>Cao Dai</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1012</code></td>
+      <td>Celticism</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1013</code></td>
+      <td>Christian (non-Catholic, non-specific)</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1014</code></td>
+      <td>Confucianism</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1015</code></td>
+      <td>Cyberculture Religions</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1016</code></td>
+      <td>Divination</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1017</code></td>
+      <td>Fourth Way</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1018</code></td>
+      <td>Free Daism</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1019</code></td>
+      <td>Gnosis</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1020</code></td>
+      <td>Hinduism</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1021</code></td>
+      <td>Humanism</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1022</code></td>
+      <td>Independent</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1023</code></td>
+      <td>Islam</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1024</code></td>
+      <td>Jainism</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1025</code></td>
+      <td>Jehovah's Witnesses</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1026</code></td>
+      <td>Judaism</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1027</code></td>
+      <td>Latter Day Saints</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1028</code></td>
+      <td>Lutheran</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1029</code></td>
+      <td>Mahayana</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1030</code></td>
+      <td>Meditation</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1031</code></td>
+      <td>Messianic Judaism</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1032</code></td>
+      <td>Mitraism</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1033</code></td>
+      <td>New Age</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1034</code></td>
+      <td>non-Roman Catholic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1035</code></td>
+      <td>Occult</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1036</code></td>
+      <td>Orthodox</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1037</code></td>
+      <td>Paganism</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1038</code></td>
+      <td>Pentecostal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1039</code></td>
+      <td>Process, The</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1040</code></td>
+      <td>Reformed/Presbyterian</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1041</code></td>
+      <td>Roman Catholic Church</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1042</code></td>
+      <td>Satanism</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1043</code></td>
+      <td>Scientology</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1044</code></td>
+      <td>Shamanism</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1045</code></td>
+      <td>Shiite (Islam)</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1046</code></td>
+      <td>Shinto</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1047</code></td>
+      <td>Sikism</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1048</code></td>
+      <td>Spiritualism</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1049</code></td>
+      <td>Sunni (Islam)</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1050</code></td>
+      <td>Taoism</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1051</code></td>
+      <td>Theravada</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1052</code></td>
+      <td>Unitarian-Universalism</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1053</code></td>
+      <td>Universal Life Church</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1054</code></td>
+      <td>Vajrayana (Tibetan)</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1055</code></td>
+      <td>Veda</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1056</code></td>
+      <td>Voodoo</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1057</code></td>
+      <td>Wicca</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1058</code></td>
+      <td>Yaohushua</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1059</code></td>
+      <td>Zen Buddhism</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1060</code></td>
+      <td>Zoroastrianism</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1061</code></td>
+      <td>Assembly of God</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1062</code></td>
+      <td>Brethren</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1063</code></td>
+      <td>Christian Scientist</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1064</code></td>
+      <td>Church of Christ</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1065</code></td>
+      <td>Church of God</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1066</code></td>
+      <td>Congregational</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1067</code></td>
+      <td>Disciples of Christ</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1068</code></td>
+      <td>Eastern Orthodox</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1069</code></td>
+      <td>Episcopalian</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1070</code></td>
+      <td>Evangelical Covenant</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1071</code></td>
+      <td>Friends</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1072</code></td>
+      <td>Full Gospel</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1073</code></td>
+      <td>Methodist</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1074</code></td>
+      <td>Native American</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1075</code></td>
+      <td>Nazarene</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1076</code></td>
+      <td>Presbyterian</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1077</code></td>
+      <td>Protestant</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1078</code></td>
+      <td>Protestant, No Denomination</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1079</code></td>
+      <td>Reformed</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1080</code></td>
+      <td>Salvation Army</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1081</code></td>
+      <td>Unitarian Universalist</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1082</code></td>
+      <td>United Church of Christ</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="lookup-vs-R5-v3-RelationshipConjunction-for-R4.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="lookup-vs-R5-v3-RepetitionsOutOfRange-for-R4.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-21 13:39:00 -0600">
+    2026-02-21
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir/uv/xver/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

@@ -1,0 +1,927 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-study-design-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-study-design-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-study-design-for-R4</b></p><a name=\"R5-study-design-for-R4\"> </a><a name=\"hcR5-study-design-for-R4\"> </a><p>This value set expansion contains 72 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01001\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801001\">SEVCO:01001</a></td><td>Interventional research</td><td>A study design in which an independent variable (an exposure or intervention) is prospectively assigned or modified by the investigator to evaluate a response in the dependent variable (an effect or outcome).</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01002\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801002\">SEVCO:01002</a></td><td>Observational research</td><td>A study design in which the independent variables (exposures or interventions) are not prospectively assigned or modified by the investigator.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01003\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801003\">SEVCO:01003</a></td><td>randomized assignment</td><td>An interventional study design in which an independent variable (an exposure or intervention) is prospectively assigned or modified by random chance to separate groups.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01004\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801004\">SEVCO:01004</a></td><td>Quasi-Randomized assignment</td><td>An interventional study design with a method of allocation that is not limited to random chance but is intended to produce similar baseline groups for experimentation.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01005\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801005\">SEVCO:01005</a></td><td>Non-randomized assignment</td><td>An interventional study design in which an independent variable (an exposure or intervention) is prospectively assigned or modified by methods other than random chance to separate groups.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01006\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801006\">SEVCO:01006</a></td><td>simple randomization</td><td>A randomized assignment in which each participant has the same prespecified likelihood of being assigned to a group as all other participants, independent of the assignment of any other participant.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01007\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801007\">SEVCO:01007</a></td><td>stratified randomization</td><td>A randomized assignment in which participants are stratified into groups based on prognostic variables and then randomized into balanced treatment groups</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01008\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801008\">SEVCO:01008</a></td><td>block randomization</td><td>A randomized assignment in which a pre-specified number of subjects is assigned to a block containing the same pre-specified ratio of group assignments in random order.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01009\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801009\">SEVCO:01009</a></td><td>adaptive randomization</td><td>A randomized assignment in which a participant’s group assignment probability is adjusted based on any factor such that the likelihood of assignment is not the same for all participants.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01010\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801010\">SEVCO:01010</a></td><td>Comparative study design</td><td>A study design in which two or more groups are compared.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01011\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801011\">SEVCO:01011</a></td><td>Parallel cohort design</td><td>A comparative study design in which the groups are compared concurrently and participants are expected to remain in the groups being compared for the entire duration of participation in the study.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01012\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801012\">SEVCO:01012</a></td><td>Crossover cohort design</td><td>A comparative study design in which participants receive two or more alternative exposures during separate periods of time.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01013\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801013\">SEVCO:01013</a></td><td>Case control design</td><td>A comparative study design in which the groups being compared are defined by outcome presence (case) or absence (control).</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01014\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801014\">SEVCO:01014</a></td><td>Matching for comparison</td><td>A comparative study design in which individual participants in different groups being compared are paired or matched into sets based on selected attributes for within-set analysis.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01015\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801015\">SEVCO:01015</a></td><td>Cluster as unit of allocation</td><td>A comparative study design in which participants are allocated to exposures (interventions) by their membership in groups (called clusters) rather than by individualized assignments.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01016\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801016\">SEVCO:01016</a></td><td>Uncontrolled cohort design</td><td>A non-comparative study design in which two or more participants are evaluated in a single group (or cohort).</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01017\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801017\">SEVCO:01017</a></td><td>Case report</td><td>A non-comparative study design in which a single participant is evaluated.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01018\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801018\">SEVCO:01018</a></td><td>Time series design</td><td>A longitudinal data collection which includes a set of time-ordered observations.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01019\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801019\">SEVCO:01019</a></td><td>Before and after comparison</td><td>A time series design which includes comparisons of observations before and after an event or exposure.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01020\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801020\">SEVCO:01020</a></td><td>Family study design</td><td>A matched study design in which related or non-related family members are compared.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01021\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801021\">SEVCO:01021</a></td><td>Twin study design</td><td>A family study design in which twin siblings are compared.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01022\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801022\">SEVCO:01022</a></td><td>Population-based design</td><td>A study design in which the unit of observation is a population or community.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01023\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801023\">SEVCO:01023</a></td><td>Non-comparative study design</td><td>A study design with no comparisons between groups with different exposures and no comparisons between groups with different outcomes.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01024\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801024\">SEVCO:01024</a></td><td>Controlled crossover cohort design</td><td>A crossover cohort design in which two or more cohorts have different orders of exposures.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01025\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801025\">SEVCO:01025</a></td><td>Single-arm crossover design</td><td>A crossover cohort design in which all participants are in a single cohort with the same order of exposures.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01026\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801026\">SEVCO:01026</a></td><td>Real world data collection</td><td>A study design process in which the study data are obtained from a source of data collected during a routine process in the natural environment rather than using a process designed or controlled by the researcher.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01027\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801027\">SEVCO:01027</a></td><td>Cross sectional data collection</td><td>A study design process in which data is collected at a single point in time.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01028\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801028\">SEVCO:01028</a></td><td>Longitudinal data collection</td><td>A study design process in which data is collected at two or more points in time.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01029\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801029\">SEVCO:01029</a></td><td>Clinical trial</td><td>Interventional research in which one or more healthcare-related actions (i.e., a diagnostic, prognostic, therapeutic, preventive or screening method or intervention) is evaluated for effects on health-related biomedical or behavioral processes and/or outcomes.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01030\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801030\">SEVCO:01030</a></td><td>Phase 1 trial</td><td>A clinical trial to gather initial evidence in humans to support further investigation of an intervention.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01031\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801031\">SEVCO:01031</a></td><td>Exploratory investigational new drug study</td><td>A clinical trial that is conducted early in phase 1, involves very limited human exposure, and has no therapeutic or diagnostic intent (e.g., screening studies, microdose studies).</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01032\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801032\">SEVCO:01032</a></td><td>Phase 1/Phase 2 trial</td><td>A clinical trial with a component meeting the definition of phase 1 trial and a component meeting the definition of phase 2 trial.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01033\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801033\">SEVCO:01033</a></td><td>Phase 2 trial</td><td>A clinical trial to gather evidence of effectiveness and safety for an intervention in patients with the disease or condition under study, but not intended to provide an adequate basis for regulatory approval for clinical use.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01034\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801034\">SEVCO:01034</a></td><td>Phase 2/Phase 3 trial</td><td>A clinical trial with a component meeting the definition of phase 2 trial and a component meeting the definition of phase 3 trial.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01035\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801035\">SEVCO:01035</a></td><td>Phase 3 Trial</td><td>A clinical trial to gather the evidence of effectiveness and safety of an intervention, intended to provide an adequate basis for regulatory approval for clinical use.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01036\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801036\">SEVCO:01036</a></td><td>Post-marketing study</td><td>A clinical trial to gather additional evidence of effectiveness and safety of an intervention for an already approved clinical use.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01037\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801037\">SEVCO:01037</a></td><td>Post-Marketing Surveillance study</td><td>An observational study to identify adverse events related to the use of an approved clinical intervention.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01038\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801038\">SEVCO:01038</a></td><td>Expanded Access study</td><td>A clinical trial that provides a means for obtaining an experimental drug or device for patients who are not adequately treated by existing therapy, who do not meet the eligibility criteria for enrollment, or who are otherwise unable to participate in another clinical study.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01039\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801039\">SEVCO:01039</a></td><td>Real world data collection from healthcare records</td><td>Real world data collection from data obtained routinely for a purpose of recording healthcare delivery in a record controlled by a healthcare professional.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01040\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801040\">SEVCO:01040</a></td><td>Real world data collection from healthcare financing records</td><td>Real world data collection from data obtained routinely for a purpose of recording healthcare financing.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01041\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801041\">SEVCO:01041</a></td><td>Pragmatic clinical trial</td><td>A clinical trial conducted under conditions of routine clinical practice.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01042\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801042\">SEVCO:01042</a></td><td>Secondary data collection from a registry</td><td>A study design process in which the data are collected from a system organized to obtain and maintain uniform data for discovery and analysis, and this system is organized prior to the current study.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01043\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801043\">SEVCO:01043</a></td><td>Multicentric</td><td>A study design feature in which two or more institutions are responsible for the conduct of the study.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01044\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801044\">SEVCO:01044</a></td><td>Ecological design</td><td>A study design in which the unit of observation is a population or community defined by social relationships or physical surroundings.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01045\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801045\">SEVCO:01045</a></td><td>Primary data collection</td><td>A study design process in which the data are recorded and collected during the study for the purpose of the same study.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01046\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801046\">SEVCO:01046</a></td><td>Real world data collection from monitoring procedures</td><td>Real world data collection from data obtained routinely for a purpose of repeated testing.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01048\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801048\">SEVCO:01048</a></td><td>Real world data collection from testing procedures</td><td>Real world data collection from data obtained routinely for a purpose of testing, such as diagnostic testing or screening examination.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01049\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801049\">SEVCO:01049</a></td><td>Secondary data collection from prior research</td><td>A study design process in which the data are collected from data obtained during a different study than the current study.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01050\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801050\">SEVCO:01050</a></td><td>Real world data collection from personal health records</td><td>Real world data collection from data obtained routinely for a purpose of recording data related to personal health in a record controlled by the person, guardian, or caretaker.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01051\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801051\">SEVCO:01051</a></td><td>Multisite data collection</td><td>A study design process in which data are collected from two or more geographic locations.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01052\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801052\">SEVCO:01052</a></td><td>Includes patient-reported outcome</td><td>A study design feature in which one or more outcomes are reported directly from the patient without interpretation by a clinician or researcher.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01053\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801053\">SEVCO:01053</a></td><td>Includes patient-centered outcome</td><td>A study design feature in which one or more measures are outcomes that patients directly care about, i.e. outcomes that are directly related to patients' experience of their life.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01054\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801054\">SEVCO:01054</a></td><td>Includes disease-oriented outcome</td><td>A study design feature in which one or more measures are outcomes that relate to a health or illness condition but are not outcomes which patients directly care about.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01060\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801060\">SEVCO:01060</a></td><td>Blinding of study participants</td><td>A study design process in which study participants are not informed of their intervention assignment.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01061\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801061\">SEVCO:01061</a></td><td>Blinding of intervention providers</td><td>A study design process in which the people administering the intervention are not informed of the intervention assignment.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01062\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801062\">SEVCO:01062</a></td><td>Blinding of outcome assessors</td><td>A study design process in which the people determining the outcome are not informed of the intervention assignment.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01063\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801063\">SEVCO:01063</a></td><td>Blinding of data analysts</td><td>A study design process in which the people managing or processing the data and statistical analysis are not informed of the intervention assignment.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01064\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801064\">SEVCO:01064</a></td><td>Allocation concealment</td><td>A study design process in which all parties influencing study enrollment and allocation to study groups are unaware of the group assignment for the study participant at the time of enrollment and allocation.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01085\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801085\">SEVCO:01085</a></td><td>Includes process measure</td><td>A study design feature in which one or more outcomes are actions or behaviors of a healthcare professional or care team.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01086\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801086\">SEVCO:01086</a></td><td>Quantitative analysis</td><td>A study design process in which data are analyzed with mathematical or statistical methods and formulas.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01087\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801087\">SEVCO:01087</a></td><td>Qualitative analysis</td><td>A study design process in which data are analyzed, without primary reliance on mathematical or statistical techniques, by coding and organizing data to provide interpretation or understanding of experiences or hypotheses.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01088\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801088\">SEVCO:01088</a></td><td>Comparison Goal</td><td>A study design feature in which the study intent is to compare two or more interventions or exposures.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01089\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801089\">SEVCO:01089</a></td><td>Study Goal</td><td>A study design feature specifying the intent of the study.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01090\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801090\">SEVCO:01090</a></td><td>Comparative Efficacy Goal</td><td>A study design feature in which the study intent is to compare two or more interventions with respect to effectiveness in ideal conditions.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01091\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801091\">SEVCO:01091</a></td><td>Comparative Effectiveness Goal</td><td>A study design feature in which the study intent is to compare two or more interventions with respect to benefits and/or harms.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01092\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801092\">SEVCO:01092</a></td><td>Comparative Safety Goal</td><td>A study design feature in which the study intent is to compare two or more interventions with respect to harms.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01093\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801093\">SEVCO:01093</a></td><td>Equivalence Goal</td><td>A study goal with the intent to compare two or more interventions or exposures and determine that any difference in effects is within a prespecified range representing absence of a meaningful difference.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01094\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801094\">SEVCO:01094</a></td><td>Non-inferiority Goal</td><td>A study goal with the intent to compare two or more interventions or exposures and determine that any difference in effects is below a prespecified value representing a threshold between a meaningful difference and absence of a meaningful difference.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01095\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801095\">SEVCO:01095</a></td><td>Superiority Goal</td><td>A study goal with the intent to compare two or more interventions or exposures and detect a difference in effects.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01096\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801096\">SEVCO:01096</a></td><td>Evaluation Goal</td><td>A study goal to assess the efficiency, effectiveness, and impact of a given program, process, person or piece of equipment.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01097\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801097\">SEVCO:01097</a></td><td>Derivation Goal</td><td>A study goal with the intent to generate a predictive algorithm.</td></tr><tr><td><a name=\"R5-study-design-for-R4-http://hl7.org/fhir/study-design-SEVCO:01098\"> </a><code>http://hl7.org/fhir/study-design</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-study-design.html#study-design-SEVCO.5801098\">SEVCO:01098</a></td><td>Validation Goal</td><td>A study goal with the intent to determine the reliability and/or performance of a procedure for a specific predictive, classification, measurement, or communication purpose.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "cds"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-study-design-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-study-design-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5StudyDesignForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.StudyDesign for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Clinical Decision Support"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Clinical Decision Support" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/dss" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/study-design|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/study-design|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `Evidence.studyDesign`\n* `ResearchStudy.studyDesign`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://hl7.org/fhir/ValueSet/study-design|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "SEVCO:01001" ] ;
+         fhir:display [ fhir:v "Interventional research" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01002" ] ;
+         fhir:display [ fhir:v "Observational research" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01003" ] ;
+         fhir:display [ fhir:v "randomized assignment" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01004" ] ;
+         fhir:display [ fhir:v "Quasi-Randomized assignment" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01005" ] ;
+         fhir:display [ fhir:v "Non-randomized assignment" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01006" ] ;
+         fhir:display [ fhir:v "simple randomization" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01007" ] ;
+         fhir:display [ fhir:v "stratified randomization" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01008" ] ;
+         fhir:display [ fhir:v "block randomization" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01009" ] ;
+         fhir:display [ fhir:v "adaptive randomization" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01010" ] ;
+         fhir:display [ fhir:v "Comparative study design" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01011" ] ;
+         fhir:display [ fhir:v "Parallel cohort design" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01012" ] ;
+         fhir:display [ fhir:v "Crossover cohort design" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01013" ] ;
+         fhir:display [ fhir:v "Case control design" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01014" ] ;
+         fhir:display [ fhir:v "Matching for comparison" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01015" ] ;
+         fhir:display [ fhir:v "Cluster as unit of allocation" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01016" ] ;
+         fhir:display [ fhir:v "Uncontrolled cohort design" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01017" ] ;
+         fhir:display [ fhir:v "Case report" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01018" ] ;
+         fhir:display [ fhir:v "Time series design" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01019" ] ;
+         fhir:display [ fhir:v "Before and after comparison" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01020" ] ;
+         fhir:display [ fhir:v "Family study design" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01021" ] ;
+         fhir:display [ fhir:v "Twin study design" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01022" ] ;
+         fhir:display [ fhir:v "Population-based design" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01023" ] ;
+         fhir:display [ fhir:v "Non-comparative study design" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01024" ] ;
+         fhir:display [ fhir:v "Controlled crossover cohort design" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01025" ] ;
+         fhir:display [ fhir:v "Single-arm crossover design" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01026" ] ;
+         fhir:display [ fhir:v "Real world data collection" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01027" ] ;
+         fhir:display [ fhir:v "Cross sectional data collection" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01028" ] ;
+         fhir:display [ fhir:v "Longitudinal data collection" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01029" ] ;
+         fhir:display [ fhir:v "Clinical trial" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01030" ] ;
+         fhir:display [ fhir:v "Phase 1 trial" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01031" ] ;
+         fhir:display [ fhir:v "Exploratory investigational new drug study" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01032" ] ;
+         fhir:display [ fhir:v "Phase 1/Phase 2 trial" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01033" ] ;
+         fhir:display [ fhir:v "Phase 2 trial" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01034" ] ;
+         fhir:display [ fhir:v "Phase 2/Phase 3 trial" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01035" ] ;
+         fhir:display [ fhir:v "Phase 3 Trial" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01036" ] ;
+         fhir:display [ fhir:v "Post-marketing study" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01037" ] ;
+         fhir:display [ fhir:v "Post-Marketing Surveillance study" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01038" ] ;
+         fhir:display [ fhir:v "Expanded Access study" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01039" ] ;
+         fhir:display [ fhir:v "Real world data collection from healthcare records" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01040" ] ;
+         fhir:display [ fhir:v "Real world data collection from healthcare financing records" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01041" ] ;
+         fhir:display [ fhir:v "Pragmatic clinical trial" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01042" ] ;
+         fhir:display [ fhir:v "Secondary data collection from a registry" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01043" ] ;
+         fhir:display [ fhir:v "Multicentric" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01044" ] ;
+         fhir:display [ fhir:v "Ecological design" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01045" ] ;
+         fhir:display [ fhir:v "Primary data collection" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01046" ] ;
+         fhir:display [ fhir:v "Real world data collection from monitoring procedures" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01048" ] ;
+         fhir:display [ fhir:v "Real world data collection from testing procedures" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01049" ] ;
+         fhir:display [ fhir:v "Secondary data collection from prior research" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01050" ] ;
+         fhir:display [ fhir:v "Real world data collection from personal health records" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01051" ] ;
+         fhir:display [ fhir:v "Multisite data collection" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01052" ] ;
+         fhir:display [ fhir:v "Includes patient-reported outcome" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01053" ] ;
+         fhir:display [ fhir:v "Includes patient-centered outcome" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01054" ] ;
+         fhir:display [ fhir:v "Includes disease-oriented outcome" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01060" ] ;
+         fhir:display [ fhir:v "Blinding of study participants" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01061" ] ;
+         fhir:display [ fhir:v "Blinding of intervention providers" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01062" ] ;
+         fhir:display [ fhir:v "Blinding of outcome assessors" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01063" ] ;
+         fhir:display [ fhir:v "Blinding of data analysts" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01064" ] ;
+         fhir:display [ fhir:v "Allocation concealment" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01085" ] ;
+         fhir:display [ fhir:v "Includes process measure" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01086" ] ;
+         fhir:display [ fhir:v "Quantitative analysis" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01087" ] ;
+         fhir:display [ fhir:v "Qualitative analysis" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01088" ] ;
+         fhir:display [ fhir:v "Comparison Goal" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01089" ] ;
+         fhir:display [ fhir:v "Study Goal" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01090" ] ;
+         fhir:display [ fhir:v "Comparative Efficacy Goal" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01091" ] ;
+         fhir:display [ fhir:v "Comparative Effectiveness Goal" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01092" ] ;
+         fhir:display [ fhir:v "Comparative Safety Goal" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01093" ] ;
+         fhir:display [ fhir:v "Equivalence Goal" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01094" ] ;
+         fhir:display [ fhir:v "Non-inferiority Goal" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01095" ] ;
+         fhir:display [ fhir:v "Superiority Goal" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01096" ] ;
+         fhir:display [ fhir:v "Evaluation Goal" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01097" ] ;
+         fhir:display [ fhir:v "Derivation Goal" ]
+       ] [
+         fhir:code [ fhir:v "SEVCO:01098" ] ;
+         fhir:display [ fhir:v "Validation Goal" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01001" ] ;
+       fhir:display [ fhir:v "Interventional research" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01002" ] ;
+       fhir:display [ fhir:v "Observational research" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01003" ] ;
+       fhir:display [ fhir:v "randomized assignment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01004" ] ;
+       fhir:display [ fhir:v "Quasi-Randomized assignment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01005" ] ;
+       fhir:display [ fhir:v "Non-randomized assignment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01006" ] ;
+       fhir:display [ fhir:v "simple randomization" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01007" ] ;
+       fhir:display [ fhir:v "stratified randomization" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01008" ] ;
+       fhir:display [ fhir:v "block randomization" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01009" ] ;
+       fhir:display [ fhir:v "adaptive randomization" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01010" ] ;
+       fhir:display [ fhir:v "Comparative study design" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01011" ] ;
+       fhir:display [ fhir:v "Parallel cohort design" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01012" ] ;
+       fhir:display [ fhir:v "Crossover cohort design" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01013" ] ;
+       fhir:display [ fhir:v "Case control design" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01014" ] ;
+       fhir:display [ fhir:v "Matching for comparison" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01015" ] ;
+       fhir:display [ fhir:v "Cluster as unit of allocation" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01016" ] ;
+       fhir:display [ fhir:v "Uncontrolled cohort design" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01017" ] ;
+       fhir:display [ fhir:v "Case report" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01018" ] ;
+       fhir:display [ fhir:v "Time series design" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01019" ] ;
+       fhir:display [ fhir:v "Before and after comparison" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01020" ] ;
+       fhir:display [ fhir:v "Family study design" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01021" ] ;
+       fhir:display [ fhir:v "Twin study design" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01022" ] ;
+       fhir:display [ fhir:v "Population-based design" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01023" ] ;
+       fhir:display [ fhir:v "Non-comparative study design" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01024" ] ;
+       fhir:display [ fhir:v "Controlled crossover cohort design" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01025" ] ;
+       fhir:display [ fhir:v "Single-arm crossover design" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01026" ] ;
+       fhir:display [ fhir:v "Real world data collection" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01027" ] ;
+       fhir:display [ fhir:v "Cross sectional data collection" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01028" ] ;
+       fhir:display [ fhir:v "Longitudinal data collection" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01029" ] ;
+       fhir:display [ fhir:v "Clinical trial" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01030" ] ;
+       fhir:display [ fhir:v "Phase 1 trial" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01031" ] ;
+       fhir:display [ fhir:v "Exploratory investigational new drug study" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01032" ] ;
+       fhir:display [ fhir:v "Phase 1/Phase 2 trial" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01033" ] ;
+       fhir:display [ fhir:v "Phase 2 trial" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01034" ] ;
+       fhir:display [ fhir:v "Phase 2/Phase 3 trial" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01035" ] ;
+       fhir:display [ fhir:v "Phase 3 Trial" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01036" ] ;
+       fhir:display [ fhir:v "Post-marketing study" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01037" ] ;
+       fhir:display [ fhir:v "Post-Marketing Surveillance study" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01038" ] ;
+       fhir:display [ fhir:v "Expanded Access study" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01039" ] ;
+       fhir:display [ fhir:v "Real world data collection from healthcare records" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01040" ] ;
+       fhir:display [ fhir:v "Real world data collection from healthcare financing records" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01041" ] ;
+       fhir:display [ fhir:v "Pragmatic clinical trial" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01042" ] ;
+       fhir:display [ fhir:v "Secondary data collection from a registry" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01043" ] ;
+       fhir:display [ fhir:v "Multicentric" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01044" ] ;
+       fhir:display [ fhir:v "Ecological design" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01045" ] ;
+       fhir:display [ fhir:v "Primary data collection" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01046" ] ;
+       fhir:display [ fhir:v "Real world data collection from monitoring procedures" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01048" ] ;
+       fhir:display [ fhir:v "Real world data collection from testing procedures" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01049" ] ;
+       fhir:display [ fhir:v "Secondary data collection from prior research" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01050" ] ;
+       fhir:display [ fhir:v "Real world data collection from personal health records" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01051" ] ;
+       fhir:display [ fhir:v "Multisite data collection" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01052" ] ;
+       fhir:display [ fhir:v "Includes patient-reported outcome" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01053" ] ;
+       fhir:display [ fhir:v "Includes patient-centered outcome" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01054" ] ;
+       fhir:display [ fhir:v "Includes disease-oriented outcome" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01060" ] ;
+       fhir:display [ fhir:v "Blinding of study participants" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01061" ] ;
+       fhir:display [ fhir:v "Blinding of intervention providers" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01062" ] ;
+       fhir:display [ fhir:v "Blinding of outcome assessors" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01063" ] ;
+       fhir:display [ fhir:v "Blinding of data analysts" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01064" ] ;
+       fhir:display [ fhir:v "Allocation concealment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01085" ] ;
+       fhir:display [ fhir:v "Includes process measure" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01086" ] ;
+       fhir:display [ fhir:v "Quantitative analysis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01087" ] ;
+       fhir:display [ fhir:v "Qualitative analysis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01088" ] ;
+       fhir:display [ fhir:v "Comparison Goal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01089" ] ;
+       fhir:display [ fhir:v "Study Goal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01090" ] ;
+       fhir:display [ fhir:v "Comparative Efficacy Goal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01091" ] ;
+       fhir:display [ fhir:v "Comparative Effectiveness Goal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01092" ] ;
+       fhir:display [ fhir:v "Comparative Safety Goal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01093" ] ;
+       fhir:display [ fhir:v "Equivalence Goal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01094" ] ;
+       fhir:display [ fhir:v "Non-inferiority Goal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01095" ] ;
+       fhir:display [ fhir:v "Superiority Goal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01096" ] ;
+       fhir:display [ fhir:v "Evaluation Goal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01097" ] ;
+       fhir:display [ fhir:v "Derivation Goal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/study-design"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/study-design>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SEVCO:01098" ] ;
+       fhir:display [ fhir:v "Validation Goal" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

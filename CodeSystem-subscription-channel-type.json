@@ -29,7 +29,7 @@
     "valueCode" : "fhir"
   }],
   "url" : "http://terminology.hl7.org/CodeSystem/subscription-channel-type",
-  "version" : "0.0.1-snapshot-3",
+  "version" : "0.1.0",
   "name" : "SubscriptionChannelTypeCodes",
   "title" : "SubscriptionChannel Type Codes",
   "status" : "draft",
@@ -37,10 +37,23 @@
   "date" : "2023-02-25T12:07:30-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [{
-    "name" : "FHIR Infrastructure",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://www.hl7.org/Special/committees/fiwg"
+      "value" : "http://hl7.org/fhir"
+    },
+    {
+      "system" : "email",
+      "value" : "fhir@lists.hl7.org"
+    }]
+  },
+  {
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7.org/fhir"
+    },
+    {
+      "system" : "email",
+      "value" : "fhir@lists.hl7.org"
     }]
   }],
   "description" : "The type of method used to execute a subscription",
@@ -52,7 +65,7 @@
     }]
   }],
   "caseSensitive" : true,
-  "valueSet" : "http://terminology.hl7.org/ValueSet/subscription-channel-type",
+  "valueSet" : "http://terminology.hl7.org/ValueSet/subscription-channel-type|1.0.1",
   "content" : "complete",
   "concept" : [{
     "code" : "rest-hook",

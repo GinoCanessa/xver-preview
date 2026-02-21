@@ -1,0 +1,124 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/history-absent-reason> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "history-absent-reason"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://terminology.hl7.org/CodeSystem/history-absent-reason</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">subject-unknown<a name=\"history-absent-reason-subject-unknown\"> </a></td><td>Subject Unknown</td><td>Patient does not know the subject, e.g. the biological parent of an adopted patient.</td></tr><tr><td style=\"white-space:nowrap\">withheld<a name=\"history-absent-reason-withheld\"> </a></td><td>Information Withheld</td><td>The patient withheld or refused to share the information.</td></tr><tr><td style=\"white-space:nowrap\">unable-to-obtain<a name=\"history-absent-reason-unable-to-obtain\"> </a></td><td>Unable To Obtain</td><td>Information cannot be obtained; e.g. unconscious patient.</td></tr><tr><td style=\"white-space:nowrap\">deferred<a name=\"history-absent-reason-deferred\"> </a></td><td>Deferred</td><td>Patient does not have the information now, but can provide the information at a later date.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "pc"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/history-absent-reason"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/history-absent-reason>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "FamilyHistoryAbsentReason"] ; # 
+  fhir:title [ fhir:v "FamilyHistoryAbsentReason"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2020-04-09T16:10:28-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Patient Care"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Patient Care" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/patientcare" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codes describing the reason why a family member's history is not available."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/history-absent-reason|1.0.1"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/history-absent-reason?version=1.0.1>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "subject-unknown" ] ;
+     fhir:display [ fhir:v "Subject Unknown" ] ;
+     fhir:definition [ fhir:v "Patient does not know the subject, e.g. the biological parent of an adopted patient." ]
+  ] [
+     fhir:code [ fhir:v "withheld" ] ;
+     fhir:display [ fhir:v "Information Withheld" ] ;
+     fhir:definition [ fhir:v "The patient withheld or refused to share the information." ]
+  ] [
+     fhir:code [ fhir:v "unable-to-obtain" ] ;
+     fhir:display [ fhir:v "Unable To Obtain" ] ;
+     fhir:definition [ fhir:v "Information cannot be obtained; e.g. unconscious patient." ]
+  ] [
+     fhir:code [ fhir:v "deferred" ] ;
+     fhir:display [ fhir:v "Deferred" ] ;
+     fhir:definition [ fhir:v "Patient does not have the information now, but can provide the information at a later date." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

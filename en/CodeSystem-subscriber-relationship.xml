@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="subscriber-relationship"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://terminology.hl7.org/CodeSystem/subscriber-relationship</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">child<a name="subscriber-relationship-child"> </a></td><td>Child</td><td>The Beneficiary is a child of the Subscriber</td></tr><tr><td style="white-space:nowrap">parent<a name="subscriber-relationship-parent"> </a></td><td>Parent</td><td>The Beneficiary is a parent of the Subscriber</td></tr><tr><td style="white-space:nowrap">spouse<a name="subscriber-relationship-spouse"> </a></td><td>Spouse</td><td>The Beneficiary is a spouse or equivalent of the Subscriber</td></tr><tr><td style="white-space:nowrap">common<a name="subscriber-relationship-common"> </a></td><td>Common Law Spouse</td><td>The Beneficiary is a common law spouse or equivalent of the Subscriber</td></tr><tr><td style="white-space:nowrap">other<a name="subscriber-relationship-other"> </a></td><td>Other</td><td>The Beneficiary has some other relationship the Subscriber</td></tr><tr><td style="white-space:nowrap">self<a name="subscriber-relationship-self"> </a></td><td>Self</td><td>The Beneficiary is the Subscriber</td></tr><tr><td style="white-space:nowrap">injured<a name="subscriber-relationship-injured"> </a></td><td>Injured Party</td><td>The Beneficiary is covered under insurance of the subscriber due to an injury.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fm"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/subscriber-relationship"/>
+  <version value="0.1.0"/>
+  <name value="SubscriberRelationshipCodes"/>
+  <title value="SubscriberPolicyholder Relationship Codes"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2023-02-25T12:07:30-06:00"/>
+  <publisher value="Financial Management"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/fhir"/>
+    </telecom>
+  </contact>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/fhir"/>
+    </telecom>
+  </contact>
+  <description value="This value set includes codes for the relationship between the Subscriber and the Beneficiary (insured/covered party/patient)."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This is an extensible set."/>
+  <caseSensitive value="true"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/subscriber-relationship|1.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="child"/>
+    <display value="Child"/>
+    <definition value="The Beneficiary is a child of the Subscriber"/>
+  </concept>
+  <concept>
+    <code value="parent"/>
+    <display value="Parent"/>
+    <definition value="The Beneficiary is a parent of the Subscriber"/>
+  </concept>
+  <concept>
+    <code value="spouse"/>
+    <display value="Spouse"/>
+    <definition value="The Beneficiary is a spouse or equivalent of the Subscriber"/>
+  </concept>
+  <concept>
+    <code value="common"/>
+    <display value="Common Law Spouse"/>
+    <definition value="The Beneficiary is a common law spouse or equivalent of the Subscriber"/>
+  </concept>
+  <concept>
+    <code value="other"/>
+    <display value="Other"/>
+    <definition value="The Beneficiary has some other relationship the Subscriber"/>
+  </concept>
+  <concept>
+    <code value="self"/>
+    <display value="Self"/>
+    <definition value="The Beneficiary is the Subscriber"/>
+  </concept>
+  <concept>
+    <code value="injured"/>
+    <display value="Injured Party"/>
+    <definition value="The Beneficiary is covered under insurance of the subscriber due to an injury."/>
+  </concept>
+</CodeSystem>

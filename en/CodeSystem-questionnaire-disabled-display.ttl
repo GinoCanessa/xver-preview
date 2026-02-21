@@ -1,0 +1,103 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/questionnaire-disabled-display> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "questionnaire-disabled-display"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <p>This code system \n              <code>http://hl7.org/fhir/questionnaire-disabled-display</code> defines the following codes:\n            </p>\n            <table class=\"codes\">\n              <tr>\n                <td style=\"white-space:nowrap\">\n                  <b>Code</b>\n                </td>\n                <td>\n                  <b>Display</b>\n                </td>\n                <td>\n                  <b>Definition</b>\n                </td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">hidden\n                  <a name=\"questionnaire-disabled-display-hidden\"> </a>\n                </td>\n                <td>Hidden</td>\n                <td>The item (and its children) should not be visible to the user at all.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">protected\n                  <a name=\"questionnaire-disabled-display-protected\"> </a>\n                </td>\n                <td>Protected</td>\n                <td>The item (and possibly its children) should not be selectable or editable but should still be visible - to allow the user to see what questions *could* have been completed had other answers caused the item to be enabled.</td>\n              </tr>\n            </table>\n          </div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/questionnaire-disabled-display"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/questionnaire-disabled-display>
+  ] ; # 
+  fhir:version [ fhir:v "5.0.0"] ; # 
+  fhir:name [ fhir:v "QuestionnaireItemDisabledDisplay"] ; # 
+  fhir:title [ fhir:v "Questionnaire Item Disabled Display"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2026-02-21T13:39:05-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "QuestionnaireItemDisabledDisplay"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "hidden" ] ;
+     fhir:display [ fhir:v "Hidden" ] ;
+     fhir:definition [ fhir:v "The item (and its children) should not be visible to the user at all." ]
+  ] [
+     fhir:code [ fhir:v "protected" ] ;
+     fhir:display [ fhir:v "Protected" ] ;
+     fhir:definition [ fhir:v "The item (and possibly its children) should not be selectable or editable but should still be visible - to allow the user to see what questions *could* have been completed had other answers caused the item to be enabled." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

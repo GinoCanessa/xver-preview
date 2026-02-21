@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="conformance-expectation"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/conformance-expectation</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">SHALL
+                  <a name="conformance-expectation-SHALL"> </a>
+                </td>
+                <td>Support for the specified capability is required to be considered conformant.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">SHOULD
+                  <a name="conformance-expectation-SHOULD"> </a>
+                </td>
+                <td>Support for the specified capability is strongly encouraged, and failure to support it should only occur after careful consideration.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">MAY
+                  <a name="conformance-expectation-MAY"> </a>
+                </td>
+                <td>Support for the specified capability is not necessary to be considered conformant, and the requirement should be considered strictly optional.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">SHOULD-NOT
+                  <a name="conformance-expectation-SHOULD-NOT"> </a>
+                </td>
+                <td>Support for the specified capability is strongly discouraged and should occur only after careful consideration.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <url value="http://hl7.org/fhir/conformance-expectation"/>
+  <version value="5.0.0"/>
+  <name value="ConformanceExpectation"/>
+  <title value="Conformance Expectation"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2026-02-21T13:39:05-06:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="ConformanceExpectation"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/conformance-expectation|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="SHALL"/>
+    <display value="SHALL"/>
+    <definition value="Support for the specified capability is required to be considered conformant."/>
+  </concept>
+  <concept>
+    <code value="SHOULD"/>
+    <display value="SHOULD"/>
+    <definition value="Support for the specified capability is strongly encouraged, and failure to support it should only occur after careful consideration."/>
+  </concept>
+  <concept>
+    <code value="MAY"/>
+    <display value="MAY"/>
+    <definition value="Support for the specified capability is not necessary to be considered conformant, and the requirement should be considered strictly optional."/>
+  </concept>
+  <concept>
+    <code value="SHOULD-NOT"/>
+    <display value="SHOULD-NOT"/>
+    <definition value="Support for the specified capability is strongly discouraged and should occur only after careful consideration."/>
+  </concept>
+</CodeSystem>

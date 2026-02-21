@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="medication-dose-aid"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/CodeSystem/medication-dose-aid</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">blisterpack
+                  <a name="medication-dose-aid-blisterpack"> </a>
+                </td>
+                <td>Blister Pack</td>
+                <td>A type of packaging in which a medication is sealed in plastic, often with a cardboard backing.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">dosette
+                  <a name="medication-dose-aid-dosette"> </a>
+                </td>
+                <td>Dosette</td>
+                <td>A box or tray that organizes mediations into separate compartments</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">sachets
+                  <a name="medication-dose-aid-sachets"> </a>
+                </td>
+                <td>Sachets</td>
+                <td>A small packet that contains medication for individual use.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="phx"/>
+  </extension>
+  <url value="http://hl7.org/fhir/CodeSystem/medication-dose-aid"/>
+  <version value="5.0.0"/>
+  <name value="MedicationDoseAid"/>
+  <title value="Medication dose aid"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T13:39:05-06:00"/>
+  <publisher value="Pharmacy"/>
+  <contact>
+    <name value="Pharmacy"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/medication"/>
+    </telecom>
+  </contact>
+  <description value="Medication dose aid"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/medication-dose-aid"/>
+  <content value="complete"/>
+  <concept>
+    <code value="blisterpack"/>
+    <display value="Blister Pack"/>
+    <definition value="A type of packaging in which a medication is sealed in plastic, often with a cardboard backing."/>
+  </concept>
+  <concept>
+    <code value="dosette"/>
+    <display value="Dosette"/>
+    <definition value="A box or tray that organizes mediations into separate compartments"/>
+  </concept>
+  <concept>
+    <code value="sachets"/>
+    <display value="Sachets"/>
+    <definition value="A small packet that contains medication for individual use."/>
+  </concept>
+</CodeSystem>

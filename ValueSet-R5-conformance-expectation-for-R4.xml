@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-conformance-expectation-for-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-conformance-expectation-for-R4</b></p><a name="R5-conformance-expectation-for-R4"> </a><a name="hcR5-conformance-expectation-for-R4"> </a><p>This value set expansion contains 4 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="R5-conformance-expectation-for-R4-http://hl7.org/fhir/conformance-expectation-MAY"> </a><code>http://hl7.org/fhir/conformance-expectation</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-conformance-expectation.html#conformance-expectation-MAY">MAY</a></td><td>MAY</td><td>Support for the specified capability is not necessary to be considered conformant, and the requirement should be considered strictly optional.</td></tr><tr><td><a name="R5-conformance-expectation-for-R4-http://hl7.org/fhir/conformance-expectation-SHALL"> </a><code>http://hl7.org/fhir/conformance-expectation</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-conformance-expectation.html#conformance-expectation-SHALL">SHALL</a></td><td>SHALL</td><td>Support for the specified capability is required to be considered conformant.</td></tr><tr><td><a name="R5-conformance-expectation-for-R4-http://hl7.org/fhir/conformance-expectation-SHOULD"> </a><code>http://hl7.org/fhir/conformance-expectation</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-conformance-expectation.html#conformance-expectation-SHOULD">SHOULD</a></td><td>SHOULD</td><td>Support for the specified capability is strongly encouraged, and failure to support it should only occur after careful consideration.</td></tr><tr><td><a name="R5-conformance-expectation-for-R4-http://hl7.org/fhir/conformance-expectation-SHOULD-NOT"> </a><code>http://hl7.org/fhir/conformance-expectation</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-conformance-expectation.html#conformance-expectation-SHOULD-NOT">SHOULD-NOT</a></td><td>SHOULD-NOT</td><td>Support for the specified capability is strongly discouraged and should occur only after careful consideration.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-conformance-expectation-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5ConformanceExpectationForR4"/>
+  <title value="Cross-version ValueSet R5.ConformanceExpectation for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/conformance-expectation|5.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/conformance-expectation|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `Requirements.statement.conformance`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;&#xA;FHIR ValueSet `http://hl7.org/fhir/ValueSet/conformance-expectation|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/conformance-expectation"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="MAY"/>
+        <display value="MAY"/>
+      </concept>
+      <concept>
+        <code value="SHALL"/>
+        <display value="SHALL"/>
+      </concept>
+      <concept>
+        <code value="SHOULD"/>
+        <display value="SHOULD"/>
+      </concept>
+      <concept>
+        <code value="SHOULD-NOT"/>
+        <display value="SHOULD-NOT"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/conformance-expectation"/>
+      <version value="5.0.0"/>
+      <code value="MAY"/>
+      <display value="MAY"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/conformance-expectation"/>
+      <version value="5.0.0"/>
+      <code value="SHALL"/>
+      <display value="SHALL"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/conformance-expectation"/>
+      <version value="5.0.0"/>
+      <code value="SHOULD"/>
+      <display value="SHOULD"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/conformance-expectation"/>
+      <version value="5.0.0"/>
+      <code value="SHOULD-NOT"/>
+      <display value="SHOULD-NOT"/>
+    </contains>
+  </expansion>
+</ValueSet>

@@ -81,25 +81,25 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "fhir"
+       fhir:v "vocab"
      ]
   ] ) ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
      fhir:l <http://hl7.org/fhir/FHIR-version>
   ] ; # 
-  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:version [ fhir:v "5.0.0"] ; # 
   fhir:name [ fhir:v "FHIRVersion"] ; # 
   fhir:title [ fhir:v "FHIRVersion"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2023-03-25T23:21:02-05:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:publisher [ fhir:v "HL7 International / Terminology Infrastructure"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:name [ fhir:v "HL7 International / Terminology Infrastructure" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/Vocab" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "All published FHIR Versions."] ; # 
@@ -115,8 +115,8 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://hl7.org/fhir/ValueSet/FHIR-version"^^xsd:anyURI ;
-     fhir:l <http://hl7.org/fhir/ValueSet/FHIR-version>
+     fhir:v "http://hl7.org/fhir/ValueSet/FHIR-version|4.0.1"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/FHIR-version?version=4.0.1>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

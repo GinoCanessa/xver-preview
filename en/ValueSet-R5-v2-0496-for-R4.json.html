@@ -1,0 +1,1818 @@
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>R5V20496ForR4 - JSON Representation - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"7.1479"}
+    h3,h4,h5,h6{--heading-prefix:"7.1479"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" data-no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img alt="International flag" src="../assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>R5V20496ForR4</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="ValueSet-R5-v2-0496-for-R4.xml.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="ValueSet-R5-v2-0496-for-R4.ttl.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<!-- layouts\layout-instance-format -->
+<div style="counter-reset: section 8" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="ValueSet-R5-v2-0496-for-R4.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ValueSet-R5-v2-0496-for-R4.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-R5-v2-0496-for-R4.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+
+<h2 id="root">: R5V20496ForR4</h2>
+
+  <table class="colsd" data-fhir="generated">
+    <tr>
+
+      <td colspan="1">
+        
+          <i>Page standards status:</i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standards Status">Trial-use</a>
+          
+        
+      </td>
+
+      <td>
+        <a href="http://hl7.org/fhir/versions.html#maturity">Maturity Level</a>: 0
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p><a href="ValueSet-R5-v2-0496-for-R4.json" no-download="true">Raw json</a> | <a href="ValueSet-R5-v2-0496-for-R4.json" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="json" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code style="white-space: pre; text-wrap: nowrap;">{
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet">resourceType</a>" : "ValueSet",
+  "<a href="http://hl7.org/fhir/R4/resource.html#ValueSet.id">id</a>" : "R5-v2-0496-for-R4",
+  "<a href="http://hl7.org/fhir/R4/resource.html#ValueSet.language">language</a>" : "en",
+  "<a href="http://hl7.org/fhir/R4/domainresource.html#ValueSet.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: ValueSet R5-v2-0496-for-R4&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;R5-v2-0496-for-R4\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcR5-v2-0496-for-R4\&quot;&gt; &lt;/a&gt;&lt;p&gt;This value set expansion contains 137 concepts.&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;System&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Version&lt;/b&gt;&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-001\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0001&lt;/td&gt;&lt;td&gt;Release of Information/MR / Authorization to Disclosure Protected Health Information&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-002\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0002&lt;/td&gt;&lt;td&gt;Medical Procedure (invasive)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-003\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0003&lt;/td&gt;&lt;td&gt;Acknowledge Receipt of Privacy Notice&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-004\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0004&lt;/td&gt;&lt;td&gt;Abortion&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-005\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0005&lt;/td&gt;&lt;td&gt;Abortion/Laminaria&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-006\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0006&lt;/td&gt;&lt;td&gt;Accutane - Information&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-007\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0007&lt;/td&gt;&lt;td&gt;Accutane - Woman&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-008\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0008&lt;/td&gt;&lt;td&gt;Advanced Beneficiary Notice&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-009\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0009&lt;/td&gt;&lt;td&gt;AFP (Alpha Fetoprotein) Screening&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-010\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0010&lt;/td&gt;&lt;td&gt;Amniocentesis (consent &amp;amp; refusal)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-011\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0011&lt;/td&gt;&lt;td&gt;Anatomical Gift (organ donation)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-012\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0012&lt;/td&gt;&lt;td&gt;Anesthesia - Complications&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-013\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0013&lt;/td&gt;&lt;td&gt;Anesthesia - Questionnaire&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-014\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0014&lt;/td&gt;&lt;td&gt;Angiogram&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-015\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0015&lt;/td&gt;&lt;td&gt;Angioplasty&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-016\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0016&lt;/td&gt;&lt;td&gt;Anticancer Drugs&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-017\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0017&lt;/td&gt;&lt;td&gt;Antipsychotic Medications&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-018\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0018&lt;/td&gt;&lt;td&gt;Arthrogram&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-019\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0019&lt;/td&gt;&lt;td&gt;Autopsy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-020\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0020&lt;/td&gt;&lt;td&gt;AZT Therapy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-021\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0021&lt;/td&gt;&lt;td&gt;Biliary Drainage&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-022\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0022&lt;/td&gt;&lt;td&gt;Biliary Stone Extraction&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-023\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0023&lt;/td&gt;&lt;td&gt;Biopsy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-024\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0024&lt;/td&gt;&lt;td&gt;Bleeding Time Test&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-025\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0025&lt;/td&gt;&lt;td&gt;Bronchogram&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-026\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0026&lt;/td&gt;&lt;td&gt;Cardiac Catheterization&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-027\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0027&lt;/td&gt;&lt;td&gt;Coronary Angiography&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-028\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0028&lt;/td&gt;&lt;td&gt;Coronary Angiography w/o Surgery Capability&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-029\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0029&lt;/td&gt;&lt;td&gt;Cataract Op/Implant of FDA Aprvd Lens&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-030\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0030&lt;/td&gt;&lt;td&gt;Cataract Op/Implant of Investigational Lens&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-031\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0031&lt;/td&gt;&lt;td&gt;Cataract Surgery&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-032\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0032&lt;/td&gt;&lt;td&gt;Cholera Immunization&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-033\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0033&lt;/td&gt;&lt;td&gt;Cholesterol Screening&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-034\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0034&lt;/td&gt;&lt;td&gt;Circumcision - Newborn&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-035\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0035&lt;/td&gt;&lt;td&gt;Colonoscopy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-036\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0036&lt;/td&gt;&lt;td&gt;Contact Lenses&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-037\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0037&lt;/td&gt;&lt;td&gt;CT Scan - Cervical &amp;amp; Lumbar&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-038\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0038&lt;/td&gt;&lt;td&gt;CT Scan w/ IV Contrast Media into Vein&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-039\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0039&lt;/td&gt;&lt;td&gt;CVS (Chorionic Villus) Sampling&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-040\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0040&lt;/td&gt;&lt;td&gt;Cystospy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-041\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0041&lt;/td&gt;&lt;td&gt;Disclosure of Protected Health Information to Family/Friends&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-042\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0042&lt;/td&gt;&lt;td&gt;D &amp;amp; C and Conization&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-043\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0043&lt;/td&gt;&lt;td&gt;Dacryocystogram&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-044\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0044&lt;/td&gt;&lt;td&gt;Diagnostic Isotope&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-045\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0045&lt;/td&gt;&lt;td&gt;Drainage of an Abscess&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-046\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0046&lt;/td&gt;&lt;td&gt;Drug Screening&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-047\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0047&lt;/td&gt;&lt;td&gt;Electronic Monitoring of Labor - Refusal&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-048\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0048&lt;/td&gt;&lt;td&gt;Endometrial Biopsy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-049\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0049&lt;/td&gt;&lt;td&gt;Endoscopy/Sclerosis of Esophageal Varices&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-050\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0050&lt;/td&gt;&lt;td&gt;ERCP&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-051\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0051&lt;/td&gt;&lt;td&gt;Exposure to reportable Communicable Disease&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-052\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0052&lt;/td&gt;&lt;td&gt;External Version&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-053\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0053&lt;/td&gt;&lt;td&gt;Fluorescein Angioscopy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-054\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0054&lt;/td&gt;&lt;td&gt;Hepatitis B - Consent/Declination&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-055\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0055&lt;/td&gt;&lt;td&gt;Herniogram&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-056\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0056&lt;/td&gt;&lt;td&gt;HIV Test - Consent Refusal&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-057\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0057&lt;/td&gt;&lt;td&gt;HIV Test - Disclosure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-058\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0058&lt;/td&gt;&lt;td&gt;HIV Test - Prenatal&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-059\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0059&lt;/td&gt;&lt;td&gt;Home IV Treatment Program&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-060\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0060&lt;/td&gt;&lt;td&gt;Home Parenteral Treatment Program&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-061\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0061&lt;/td&gt;&lt;td&gt;Hysterectomy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-062\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0062&lt;/td&gt;&lt;td&gt;Hysterosalpingogram&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-063\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0063&lt;/td&gt;&lt;td&gt;Injection Slip/ Consent&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-064\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0064&lt;/td&gt;&lt;td&gt;Intrauterine Device&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-065\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0065&lt;/td&gt;&lt;td&gt;Intrauterine Device/Sterilization&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-066\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0066&lt;/td&gt;&lt;td&gt;Intravascular Infusion of Streptokinase/Urokinase&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-067\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0067&lt;/td&gt;&lt;td&gt;Intravenous Cholangiogram&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-068\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0068&lt;/td&gt;&lt;td&gt;Intravenous Digital Angiography&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-069\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0069&lt;/td&gt;&lt;td&gt;Iodine Administration&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-070\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0070&lt;/td&gt;&lt;td&gt;ISG&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-071\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0071&lt;/td&gt;&lt;td&gt;IVP&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-072\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0072&lt;/td&gt;&lt;td&gt;Laser Photocoagulation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-073\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0073&lt;/td&gt;&lt;td&gt;Laser treatment&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-074\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0074&lt;/td&gt;&lt;td&gt;Lithium Carbonate&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-075\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0075&lt;/td&gt;&lt;td&gt;Liver Biopsy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-076\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0076&lt;/td&gt;&lt;td&gt;Lumbar Puncture&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-077\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0077&lt;/td&gt;&lt;td&gt;Lymphangiogram&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-078\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0078&lt;/td&gt;&lt;td&gt;MAO Inhibitors&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-079\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0079&lt;/td&gt;&lt;td&gt;Med, Psych, and/or Drug/Alcohol&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-080\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0080&lt;/td&gt;&lt;td&gt;Medical Treatment - Refusal&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-081\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0081&lt;/td&gt;&lt;td&gt;Morning-after Pill&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-082\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0082&lt;/td&gt;&lt;td&gt;MRI - Adult&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-083\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0083&lt;/td&gt;&lt;td&gt;MRI - Pediatric&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-084\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0084&lt;/td&gt;&lt;td&gt;Myelogram&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-085\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0085&lt;/td&gt;&lt;td&gt;Needle Biopsy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-086\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0086&lt;/td&gt;&lt;td&gt;Needle Biopsy of Lung&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-087\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0087&lt;/td&gt;&lt;td&gt;Newborn Treatment and Release&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-088\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0088&lt;/td&gt;&lt;td&gt;Norplant Subdermal Birth Control Implant&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-089\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0089&lt;/td&gt;&lt;td&gt;Operations, Anesthesia, Transfusions&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-090\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0090&lt;/td&gt;&lt;td&gt;Oral Contraceptives&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-091\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0091&lt;/td&gt;&lt;td&gt;Organ Donation&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-092\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0092&lt;/td&gt;&lt;td&gt;Patient Permits, Consents&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-093\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0093&lt;/td&gt;&lt;td&gt;Patient Treatment Permit, Release &amp;amp; Admission&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-094\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0094&lt;/td&gt;&lt;td&gt;Penile Injections&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-095\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0095&lt;/td&gt;&lt;td&gt;Percutaneous Nephrostomy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-096\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0096&lt;/td&gt;&lt;td&gt;Percutaneous Transhepatic Cholangiogram&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-097\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0097&lt;/td&gt;&lt;td&gt;Photographs&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-098\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0098&lt;/td&gt;&lt;td&gt;Photographs - Employee&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-099\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0099&lt;/td&gt;&lt;td&gt;Photographs - Medical Research&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-100\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0100&lt;/td&gt;&lt;td&gt;Photographs - news Media&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-101\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0101&lt;/td&gt;&lt;td&gt;Psychiatric Admission - Next of Kin&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-102\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0102&lt;/td&gt;&lt;td&gt;Psychiatric Information During Hospital Stay&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-103\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0103&lt;/td&gt;&lt;td&gt;Public Release of Information&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-104\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0104&lt;/td&gt;&lt;td&gt;Radiologic Procedure&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-105\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0105&lt;/td&gt;&lt;td&gt;Refusal of Treatment&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-106\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0106&lt;/td&gt;&lt;td&gt;Release of Body&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-107\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0107&lt;/td&gt;&lt;td&gt;Release of Limb&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-108\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0108&lt;/td&gt;&lt;td&gt;Rh Immune Globulin&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-109\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0109&lt;/td&gt;&lt;td&gt;Rights of Medical Research Participants&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-110\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0110&lt;/td&gt;&lt;td&gt;Request to Restrict Access/Disclosure to Medical Record/Protected Health Information&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-111\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0111&lt;/td&gt;&lt;td&gt;Request for Remain Anonymous&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-112\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0112&lt;/td&gt;&lt;td&gt;Seat Belt Exemption&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-113\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0113&lt;/td&gt;&lt;td&gt;Sialogram&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-1137\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a01137&lt;/td&gt;&lt;td&gt;Voiding Cystogram&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-114\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0114&lt;/td&gt;&lt;td&gt;Sigmoidoscopy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-115\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0115&lt;/td&gt;&lt;td&gt;Sterilization - Anesthesia &amp;amp; Medical Services&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-116\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0116&lt;/td&gt;&lt;td&gt;Sterilization -Federally Funded&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-117\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0117&lt;/td&gt;&lt;td&gt;Sterilization - Female&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-118\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0118&lt;/td&gt;&lt;td&gt;Sterilization - Laparoscopy/Pomeroy&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-119\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0119&lt;/td&gt;&lt;td&gt;Sterilization - Non-Federally Funded&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-120\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0120&lt;/td&gt;&lt;td&gt;Sterilization - Secondary&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-121\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0121&lt;/td&gt;&lt;td&gt;Tranquilizers&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-122\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0122&lt;/td&gt;&lt;td&gt;Transfer - Acknowledgement&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-123\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0123&lt;/td&gt;&lt;td&gt;Transfer - Authorization&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-124\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0124&lt;/td&gt;&lt;td&gt;Transfer Certification - Physician&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-125\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0125&lt;/td&gt;&lt;td&gt;Transfer/Discharge Request&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-126\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0126&lt;/td&gt;&lt;td&gt;Transfer for Non-Medical Reasons&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-127\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0127&lt;/td&gt;&lt;td&gt;Transfer - Interfaculty Neonatal&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-128\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0128&lt;/td&gt;&lt;td&gt;Transfer Refusal&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-129\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0129&lt;/td&gt;&lt;td&gt;Transfer Refusal of Further Treatment&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-130\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0130&lt;/td&gt;&lt;td&gt;Treadmill &amp;amp; EKG&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-131\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0131&lt;/td&gt;&lt;td&gt;Treadmill, Thallium-201&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-132\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0132&lt;/td&gt;&lt;td&gt;Typhoid&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-133\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0133&lt;/td&gt;&lt;td&gt;Use of Investigational Device&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-134\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0134&lt;/td&gt;&lt;td&gt;Use of Investigational Drug&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-135\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0135&lt;/td&gt;&lt;td&gt;Venogram&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=\&quot;R5-v2-0496-for-R4-http://terminology.hl7.org/CodeSystem/v2-0496-136\&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0496&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;\u00a0\u00a0136&lt;/td&gt;&lt;td&gt;Videotape&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+  },
+  "<a href="http://hl7.org/fhir/R4/domainresource.html#ValueSet.extension">extension</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a>" : "fhir"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "packageId",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueId</a>" : "hl7.fhir.uv.xver-r5.r4"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "version",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a>" : "0.0.1-snapshot-3"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "uri",
+          "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueUri</a>" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+        }
+      ],
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/package-source"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 0,
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">_valueInteger</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#integer.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCanonical</a>" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a>" : "trial-use",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">_valueCode</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#code.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCanonical</a>" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">url</a>" : "http://hl7.org/fhir/uv/xver/ValueSet/R5-v2-0496-for-R4",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">version</a>" : "0.0.1-snapshot-3",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">name</a>" : "R5V20496ForR4",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">title</a>" : "Cross-version ValueSet R5.Hl7VSConsentType for use in FHIR R4",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">status</a>" : "active",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.experimental">experimental</a>" : false,
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">date</a>" : "2026-02-21T19:36:42.9229177+00:00",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">publisher</a>" : "FHIR Infrastructure",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">contact</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "FHIR Infrastructure",
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "http://www.hl7.org/Special/committees/fiwg"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.description">description</a>" : "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v2-0496|2.0.0` for use in FHIR R4.",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.jurisdiction">jurisdiction</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "001",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "World"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.purpose">purpose</a>" : "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/v2-0496|2.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* \r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://terminology.hl7.org/ValueSet/v2-0496|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose">compose</a>" : {
+    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include">include</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "001",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Release of Information/MR / Authorization to Disclosure Protected Health Information"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "002",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Medical Procedure (invasive)"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "003",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Acknowledge Receipt of Privacy Notice"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "004",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Abortion"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "005",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Abortion/Laminaria"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "006",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Accutane - Information"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "007",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Accutane - Woman"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "008",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Advanced Beneficiary Notice"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "009",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "AFP (Alpha Fetoprotein) Screening"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "010",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Amniocentesis (consent &amp; refusal)"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "011",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Anatomical Gift (organ donation)"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "012",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Anesthesia - Complications"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "013",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Anesthesia - Questionnaire"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "014",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Angiogram"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "015",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Angioplasty"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "016",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Anticancer Drugs"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "017",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Antipsychotic Medications"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "018",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Arthrogram"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "019",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Autopsy"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "020",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "AZT Therapy"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "021",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Biliary Drainage"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "022",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Biliary Stone Extraction"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "023",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Biopsy"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "024",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Bleeding Time Test"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "025",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Bronchogram"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "026",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Cardiac Catheterization"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "027",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Coronary Angiography"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "028",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Coronary Angiography w/o Surgery Capability"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "029",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Cataract Op/Implant of FDA Aprvd Lens"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "030",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Cataract Op/Implant of Investigational Lens"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "031",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Cataract Surgery"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "032",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Cholera Immunization"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "033",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Cholesterol Screening"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "034",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Circumcision - Newborn"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "035",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Colonoscopy"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "036",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Contact Lenses"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "037",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "CT Scan - Cervical &amp; Lumbar"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "038",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "CT Scan w/ IV Contrast Media into Vein"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "039",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "CVS (Chorionic Villus) Sampling"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "040",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Cystospy"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "041",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Disclosure of Protected Health Information to Family/Friends"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "042",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "D &amp; C and Conization"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "043",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Dacryocystogram"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "044",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Diagnostic Isotope"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "045",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Drainage of an Abscess"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "046",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Drug Screening"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "047",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Electronic Monitoring of Labor - Refusal"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "048",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Endometrial Biopsy"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "049",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Endoscopy/Sclerosis of Esophageal Varices"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "050",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "ERCP"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "051",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Exposure to reportable Communicable Disease"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "052",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "External Version"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "053",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Fluorescein Angioscopy"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "054",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Hepatitis B - Consent/Declination"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "055",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Herniogram"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "056",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "HIV Test - Consent Refusal"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "057",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "HIV Test - Disclosure"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "058",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "HIV Test - Prenatal"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "059",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Home IV Treatment Program"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "060",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Home Parenteral Treatment Program"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "061",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Hysterectomy"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "062",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Hysterosalpingogram"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "063",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Injection Slip/ Consent"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "064",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Intrauterine Device"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "065",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Intrauterine Device/Sterilization"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "066",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Intravascular Infusion of Streptokinase/Urokinase"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "067",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Intravenous Cholangiogram"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "068",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Intravenous Digital Angiography"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "069",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Iodine Administration"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "070",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "ISG"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "071",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "IVP"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "072",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Laser Photocoagulation"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "073",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Laser treatment"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "074",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Lithium Carbonate"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "075",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Liver Biopsy"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "076",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Lumbar Puncture"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "077",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Lymphangiogram"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "078",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "MAO Inhibitors"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "079",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Med, Psych, and/or Drug/Alcohol"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "080",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Medical Treatment - Refusal"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "081",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Morning-after Pill"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "082",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "MRI - Adult"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "083",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "MRI - Pediatric"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "084",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Myelogram"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "085",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Needle Biopsy"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "086",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Needle Biopsy of Lung"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "087",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Newborn Treatment and Release"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "088",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Norplant Subdermal Birth Control Implant"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "089",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Operations, Anesthesia, Transfusions"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "090",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Oral Contraceptives"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "091",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Organ Donation"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "092",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Patient Permits, Consents"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "093",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Patient Treatment Permit, Release &amp; Admission"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "094",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Penile Injections"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "095",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Percutaneous Nephrostomy"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "096",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Percutaneous Transhepatic Cholangiogram"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "097",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Photographs"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "098",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Photographs - Employee"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "099",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Photographs - Medical Research"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "100",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Photographs - news Media"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "101",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Psychiatric Admission - Next of Kin"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "102",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Psychiatric Information During Hospital Stay"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "103",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Public Release of Information"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "104",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Radiologic Procedure"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "105",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Refusal of Treatment"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "106",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Release of Body"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "107",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Release of Limb"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "108",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Rh Immune Globulin"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "109",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Rights of Medical Research Participants"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "110",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Request to Restrict Access/Disclosure to Medical Record/Protected Health Information"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "111",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Request for Remain Anonymous"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "112",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Seat Belt Exemption"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "113",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Sialogram"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "1137",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Voiding Cystogram"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "114",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Sigmoidoscopy"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "115",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Sterilization - Anesthesia &amp; Medical Services"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "116",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Sterilization -Federally Funded"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "117",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Sterilization - Female"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "118",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Sterilization - Laparoscopy/Pomeroy"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "119",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Sterilization - Non-Federally Funded"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "120",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Sterilization - Secondary"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "121",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Tranquilizers"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "122",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Transfer - Acknowledgement"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "123",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Transfer - Authorization"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "124",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Transfer Certification - Physician"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "125",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Transfer/Discharge Request"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "126",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Transfer for Non-Medical Reasons"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "127",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Transfer - Interfaculty Neonatal"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "128",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Transfer Refusal"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "129",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Transfer Refusal of Further Treatment"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "130",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Treadmill &amp; EKG"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "131",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Treadmill, Thallium-201"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "132",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Typhoid"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "133",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Use of Investigational Device"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "134",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Use of Investigational Drug"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "135",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Venogram"
+          },
+          {
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a>" : "136",
+            "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>" : "Videotape"
+          }
+        ]
+      }
+    ]
+  },
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion">expansion</a>" : {
+    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.timestamp">timestamp</a>" : "2026-02-21T19:36:42.9229177+00:00",
+    "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>" : [
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "001",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Release of Information/MR / Authorization to Disclosure Protected Health Information"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "002",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Medical Procedure (invasive)"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "003",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Acknowledge Receipt of Privacy Notice"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "004",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Abortion"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "005",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Abortion/Laminaria"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "006",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Accutane - Information"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "007",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Accutane - Woman"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "008",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Advanced Beneficiary Notice"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "009",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "AFP (Alpha Fetoprotein) Screening"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "010",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Amniocentesis (consent &amp; refusal)"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "011",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Anatomical Gift (organ donation)"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "012",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Anesthesia - Complications"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "013",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Anesthesia - Questionnaire"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "014",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Angiogram"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "015",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Angioplasty"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "016",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Anticancer Drugs"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "017",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Antipsychotic Medications"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "018",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Arthrogram"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "019",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Autopsy"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "020",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "AZT Therapy"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "021",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Biliary Drainage"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "022",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Biliary Stone Extraction"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "023",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Biopsy"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "024",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Bleeding Time Test"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "025",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Bronchogram"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "026",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Cardiac Catheterization"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "027",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Coronary Angiography"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "028",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Coronary Angiography w/o Surgery Capability"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "029",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Cataract Op/Implant of FDA Aprvd Lens"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "030",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Cataract Op/Implant of Investigational Lens"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "031",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Cataract Surgery"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "032",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Cholera Immunization"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "033",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Cholesterol Screening"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "034",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Circumcision - Newborn"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "035",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Colonoscopy"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "036",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Contact Lenses"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "037",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "CT Scan - Cervical &amp; Lumbar"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "038",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "CT Scan w/ IV Contrast Media into Vein"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "039",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "CVS (Chorionic Villus) Sampling"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "040",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Cystospy"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "041",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Disclosure of Protected Health Information to Family/Friends"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "042",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "D &amp; C and Conization"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "043",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Dacryocystogram"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "044",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Diagnostic Isotope"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "045",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Drainage of an Abscess"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "046",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Drug Screening"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "047",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Electronic Monitoring of Labor - Refusal"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "048",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Endometrial Biopsy"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "049",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Endoscopy/Sclerosis of Esophageal Varices"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "050",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "ERCP"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "051",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Exposure to reportable Communicable Disease"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "052",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "External Version"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "053",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Fluorescein Angioscopy"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "054",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Hepatitis B - Consent/Declination"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "055",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Herniogram"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "056",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "HIV Test - Consent Refusal"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "057",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "HIV Test - Disclosure"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "058",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "HIV Test - Prenatal"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "059",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Home IV Treatment Program"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "060",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Home Parenteral Treatment Program"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "061",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Hysterectomy"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "062",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Hysterosalpingogram"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "063",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Injection Slip/ Consent"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "064",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intrauterine Device"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "065",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intrauterine Device/Sterilization"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "066",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intravascular Infusion of Streptokinase/Urokinase"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "067",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intravenous Cholangiogram"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "068",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Intravenous Digital Angiography"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "069",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Iodine Administration"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "070",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "ISG"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "071",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "IVP"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "072",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Laser Photocoagulation"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "073",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Laser treatment"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "074",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Lithium Carbonate"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "075",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Liver Biopsy"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "076",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Lumbar Puncture"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "077",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Lymphangiogram"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "078",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "MAO Inhibitors"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "079",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Med, Psych, and/or Drug/Alcohol"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "080",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Medical Treatment - Refusal"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "081",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Morning-after Pill"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "082",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "MRI - Adult"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "083",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "MRI - Pediatric"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "084",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Myelogram"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "085",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Needle Biopsy"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "086",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Needle Biopsy of Lung"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "087",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Newborn Treatment and Release"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "088",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Norplant Subdermal Birth Control Implant"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "089",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Operations, Anesthesia, Transfusions"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "090",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Oral Contraceptives"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "091",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Organ Donation"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "092",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Patient Permits, Consents"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "093",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Patient Treatment Permit, Release &amp; Admission"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "094",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Penile Injections"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "095",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Percutaneous Nephrostomy"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "096",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Percutaneous Transhepatic Cholangiogram"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "097",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Photographs"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "098",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Photographs - Employee"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "099",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Photographs - Medical Research"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "100",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Photographs - news Media"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "101",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Psychiatric Admission - Next of Kin"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "102",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Psychiatric Information During Hospital Stay"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "103",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Public Release of Information"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "104",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Radiologic Procedure"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "105",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Refusal of Treatment"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "106",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Release of Body"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "107",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Release of Limb"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "108",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Rh Immune Globulin"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "109",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Rights of Medical Research Participants"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "110",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Request to Restrict Access/Disclosure to Medical Record/Protected Health Information"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "111",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Request for Remain Anonymous"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "112",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Seat Belt Exemption"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "113",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Sialogram"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "1137",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Voiding Cystogram"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "114",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Sigmoidoscopy"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "115",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Sterilization - Anesthesia &amp; Medical Services"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "116",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Sterilization -Federally Funded"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "117",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Sterilization - Female"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "118",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Sterilization - Laparoscopy/Pomeroy"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "119",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Sterilization - Non-Federally Funded"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "120",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Sterilization - Secondary"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "121",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Tranquilizers"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "122",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Transfer - Acknowledgement"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "123",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Transfer - Authorization"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "124",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Transfer Certification - Physician"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "125",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Transfer/Discharge Request"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "126",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Transfer for Non-Medical Reasons"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "127",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Transfer - Interfaculty Neonatal"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "128",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Transfer Refusal"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "129",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Transfer Refusal of Further Treatment"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "130",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Treadmill &amp; EKG"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "131",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Treadmill, Thallium-201"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "132",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Typhoid"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "133",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Use of Investigational Device"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "134",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Use of Investigational Drug"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "135",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Venogram"
+      },
+      {
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v2-0496",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a>" : "2.1.0",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a>" : "136",
+        "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>" : "Videotape"
+      }
+    ]
+  }
+}</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="ValueSet-R5-v2-0496-for-R4.xml.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="ValueSet-R5-v2-0496-for-R4.ttl.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-21 13:39:00 -0600">
+    2026-02-21
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir/uv/xver/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

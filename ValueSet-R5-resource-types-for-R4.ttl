@@ -1,0 +1,377 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-resource-types-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-resource-types-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-resource-types-for-R4</b></p><a name=\"R5-resource-types-for-R4\"> </a><a name=\"hcR5-resource-types-for-R4\"> </a><p>This value set expansion contains 22 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"R5-resource-types-for-R4-http://hl7.org/fhir/fhir-types-ActorDefinition\"> </a><code>http://hl7.org/fhir/fhir-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-fhir-types.html#fhir-types-ActorDefinition\">ActorDefinition</a></td><td>ActorDefinition</td><td><div><p>The ActorDefinition resource is used to describe an actor - a human or an application that plays a role in data exchange, and that may have obligations associated with the role the actor plays.</p>\n</div></td></tr><tr><td><a name=\"R5-resource-types-for-R4-http://hl7.org/fhir/fhir-types-ArtifactAssessment\"> </a><code>http://hl7.org/fhir/fhir-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-fhir-types.html#fhir-types-ArtifactAssessment\">ArtifactAssessment</a></td><td>ArtifactAssessment</td><td><div><p>This Resource provides one or more comments, classifiers or ratings about a Resource and supports attribution and rights management metadata for the added content.</p>\n</div></td></tr><tr><td><a name=\"R5-resource-types-for-R4-http://hl7.org/fhir/fhir-types-BiologicallyDerivedProductDispense\"> </a><code>http://hl7.org/fhir/fhir-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-fhir-types.html#fhir-types-BiologicallyDerivedProductDispense\">BiologicallyDerivedProductDispense</a></td><td>BiologicallyDerivedProductDispense</td><td><div><p>A record of dispensation of a biologically derived product.</p>\n</div></td></tr><tr><td><a name=\"R5-resource-types-for-R4-http://hl7.org/fhir/fhir-types-ConditionDefinition\"> </a><code>http://hl7.org/fhir/fhir-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-fhir-types.html#fhir-types-ConditionDefinition\">ConditionDefinition</a></td><td>ConditionDefinition</td><td><div><p>A definition of a condition and information relevant to managing it.</p>\n</div></td></tr><tr><td><a name=\"R5-resource-types-for-R4-http://hl7.org/fhir/fhir-types-DeviceAssociation\"> </a><code>http://hl7.org/fhir/fhir-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-fhir-types.html#fhir-types-DeviceAssociation\">DeviceAssociation</a></td><td>DeviceAssociation</td><td><div><p>A record of association of a device.</p>\n</div></td></tr><tr><td><a name=\"R5-resource-types-for-R4-http://hl7.org/fhir/fhir-types-DeviceDispense\"> </a><code>http://hl7.org/fhir/fhir-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-fhir-types.html#fhir-types-DeviceDispense\">DeviceDispense</a></td><td>DeviceDispense</td><td><div><p>Indicates that a device is to be or has been dispensed for a named person/patient.  This includes a description of the product (supply) provided and the instructions for using the device.</p>\n</div></td></tr><tr><td><a name=\"R5-resource-types-for-R4-http://hl7.org/fhir/fhir-types-EncounterHistory\"> </a><code>http://hl7.org/fhir/fhir-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-fhir-types.html#fhir-types-EncounterHistory\">EncounterHistory</a></td><td>EncounterHistory</td><td><div><p>A record of significant events/milestones key data throughout the history of an Encounter</p>\n</div></td></tr><tr><td><a name=\"R5-resource-types-for-R4-http://hl7.org/fhir/fhir-types-FormularyItem\"> </a><code>http://hl7.org/fhir/fhir-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-fhir-types.html#fhir-types-FormularyItem\">FormularyItem</a></td><td>FormularyItem</td><td><div><p>This resource describes a product or service that is available through a program and includes the conditions and constraints of availability.  All of the information in this resource is specific to the inclusion of the item in the formulary and is not inherent to the item itself.</p>\n</div></td></tr><tr><td><a name=\"R5-resource-types-for-R4-http://hl7.org/fhir/fhir-types-GenomicStudy\"> </a><code>http://hl7.org/fhir/fhir-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-fhir-types.html#fhir-types-GenomicStudy\">GenomicStudy</a></td><td>GenomicStudy</td><td><div><p>A set of analyses performed to analyze and generate genomic data.</p>\n</div></td></tr><tr><td><a name=\"R5-resource-types-for-R4-http://hl7.org/fhir/fhir-types-ImagingSelection\"> </a><code>http://hl7.org/fhir/fhir-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-fhir-types.html#fhir-types-ImagingSelection\">ImagingSelection</a></td><td>ImagingSelection</td><td><div><p>A selection of DICOM SOP instances and/or frames within a single Study and Series. This might include additional specifics such as an image region, an Observation UID or a Segmentation Number, allowing linkage to an Observation Resource or transferring this information along with the ImagingStudy Resource.</p>\n</div></td></tr><tr><td><a name=\"R5-resource-types-for-R4-http://hl7.org/fhir/fhir-types-InventoryItem\"> </a><code>http://hl7.org/fhir/fhir-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-fhir-types.html#fhir-types-InventoryItem\">InventoryItem</a></td><td>InventoryItem</td><td><div><p>functional description of an inventory item used in inventory and supply-related workflows.</p>\n</div></td></tr><tr><td><a name=\"R5-resource-types-for-R4-http://hl7.org/fhir/fhir-types-InventoryReport\"> </a><code>http://hl7.org/fhir/fhir-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-fhir-types.html#fhir-types-InventoryReport\">InventoryReport</a></td><td>InventoryReport</td><td><div><p>A report of inventory or stock items.</p>\n</div></td></tr><tr><td><a name=\"R5-resource-types-for-R4-http://hl7.org/fhir/fhir-types-NutritionIntake\"> </a><code>http://hl7.org/fhir/fhir-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-fhir-types.html#fhir-types-NutritionIntake\">NutritionIntake</a></td><td>NutritionIntake</td><td><div><p>A record of food or fluid that is being consumed by a patient.  A NutritionIntake may indicate that the patient may be consuming the food or fluid now or has consumed the food or fluid in the past.  The source of this information can be the patient, significant other (such as a family member or spouse), or a clinician.  A common scenario where this information is captured is during the history taking process during a patient visit or stay or through an app that tracks food or fluids consumed.   The consumption information may come from sources such as the patient's memory, from a nutrition label,  or from a clinician documenting observed intake.</p>\n</div></td></tr><tr><td><a name=\"R5-resource-types-for-R4-http://hl7.org/fhir/fhir-types-Permission\"> </a><code>http://hl7.org/fhir/fhir-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-fhir-types.html#fhir-types-Permission\">Permission</a></td><td>Permission</td><td><div><p>Permission resource holds access rules for a given data and context.</p>\n</div></td></tr><tr><td><a name=\"R5-resource-types-for-R4-http://hl7.org/fhir/fhir-types-Requirements\"> </a><code>http://hl7.org/fhir/fhir-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-fhir-types.html#fhir-types-Requirements\">Requirements</a></td><td>Requirements</td><td><div><p>The Requirements resource is used to describe an actor - a human or an application that plays a role in data exchange, and that may have obligations associated with the role the actor plays.</p>\n</div></td></tr><tr><td><a name=\"R5-resource-types-for-R4-http://hl7.org/fhir/fhir-types-SubstanceNucleicAcid\"> </a><code>http://hl7.org/fhir/fhir-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-fhir-types.html#fhir-types-SubstanceNucleicAcid\">SubstanceNucleicAcid</a></td><td>SubstanceNucleicAcid</td><td><div><p>Nucleic acids are defined by three distinct elements: the base, sugar and linkage. Individual substance/moiety IDs will be created for each of these elements. The nucleotide sequence will be always entered in the 5’-3’ direction.</p>\n</div></td></tr><tr><td><a name=\"R5-resource-types-for-R4-http://hl7.org/fhir/fhir-types-SubstancePolymer\"> </a><code>http://hl7.org/fhir/fhir-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-fhir-types.html#fhir-types-SubstancePolymer\">SubstancePolymer</a></td><td>SubstancePolymer</td><td><div><p>Properties of a substance specific to it being a polymer.</p>\n</div></td></tr><tr><td><a name=\"R5-resource-types-for-R4-http://hl7.org/fhir/fhir-types-SubstanceProtein\"> </a><code>http://hl7.org/fhir/fhir-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-fhir-types.html#fhir-types-SubstanceProtein\">SubstanceProtein</a></td><td>SubstanceProtein</td><td><div><p>A SubstanceProtein is defined as a single unit of a linear amino acid sequence, or a combination of subunits that are either covalently linked or have a defined invariant stoichiometric relationship. This includes all synthetic, recombinant and purified SubstanceProteins of defined sequence, whether the use is therapeutic or prophylactic. This set of elements will be used to describe albumins, coagulation factors, cytokines, growth factors, peptide/SubstanceProtein hormones, enzymes, toxins, toxoids, recombinant vaccines, and immunomodulators.</p>\n</div></td></tr><tr><td><a name=\"R5-resource-types-for-R4-http://hl7.org/fhir/fhir-types-SubstanceReferenceInformation\"> </a><code>http://hl7.org/fhir/fhir-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-fhir-types.html#fhir-types-SubstanceReferenceInformation\">SubstanceReferenceInformation</a></td><td>SubstanceReferenceInformation</td><td><div><p>Todo.</p>\n</div></td></tr><tr><td><a name=\"R5-resource-types-for-R4-http://hl7.org/fhir/fhir-types-SubstanceSourceMaterial\"> </a><code>http://hl7.org/fhir/fhir-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-fhir-types.html#fhir-types-SubstanceSourceMaterial\">SubstanceSourceMaterial</a></td><td>SubstanceSourceMaterial</td><td><div><p>Source material shall capture information on the taxonomic and anatomical origins as well as the fraction of a material that can result in or can be modified to form a substance. This set of data elements shall be used to define polymer substances isolated from biological matrices. Taxonomic and anatomical origins shall be described using a controlled vocabulary as required. This information is captured for naturally derived polymers ( . starch) and structurally diverse substances. For Organisms belonging to the Kingdom Plantae the Substance level defines the fresh material of a single species or infraspecies, the Herbal Drug and the Herbal preparation. For Herbal preparations, the fraction information will be captured at the Substance information level and additional information for herbal extracts will be captured at the Specified Substance Group 1 information level. See for further explanation the Substance Class: Structurally Diverse and the herbal annex.</p>\n</div></td></tr><tr><td><a name=\"R5-resource-types-for-R4-http://hl7.org/fhir/fhir-types-TestPlan\"> </a><code>http://hl7.org/fhir/fhir-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-fhir-types.html#fhir-types-TestPlan\">TestPlan</a></td><td>TestPlan</td><td><div><p>A plan for executing testing on an artifact or specifications</p>\n</div></td></tr><tr><td><a name=\"R5-resource-types-for-R4-http://hl7.org/fhir/fhir-types-Transport\"> </a><code>http://hl7.org/fhir/fhir-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-fhir-types.html#fhir-types-Transport\">Transport</a></td><td>Transport</td><td><div><p>Record of transport.</p>\n</div></td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 5
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-resource-types-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-resource-types-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5ResourceTypesForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.ResourceType for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from http://hl7.org/fhir/ValueSet/resource-types|5.0.0 for use in FHIR R4 that is appropriate for use but unavailable in `http://hl7.org/fhir/ValueSet/resource-types|4.0.1`."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/resource-types|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `CapabilityStatement.rest.resource.type` as Required\n* `CompartmentDefinition.resource.code` as Required\n* `Consent.provision.resourceType` as Extensible\n* `ImplementationGuide.global.type` as Required\n* `MessageDefinition.focus.code` as Required\n* `Questionnaire.subjectType` as Required\n* `Reference.type` as Extensible\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/resource-types|5.0.0`\n* `http://hl7.org/fhir/ValueSet/resource-types|4.3.0`\n* `http://hl7.org/fhir/ValueSet/resource-types|4.0.1`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* `http://hl7.org/fhir/fhir-types#Account`\n* `http://hl7.org/fhir/fhir-types#ActivityDefinition`\n* `http://hl7.org/fhir/fhir-types#AdministrableProductDefinition`\n* `http://hl7.org/fhir/fhir-types#AdverseEvent`\n* `http://hl7.org/fhir/fhir-types#AllergyIntolerance`\n* `http://hl7.org/fhir/fhir-types#Appointment`\n* `http://hl7.org/fhir/fhir-types#AppointmentResponse`\n* `http://hl7.org/fhir/fhir-types#AuditEvent`\n* `http://hl7.org/fhir/fhir-types#Basic`\n* `http://hl7.org/fhir/fhir-types#Binary`\n* `http://hl7.org/fhir/fhir-types#BiologicallyDerivedProduct`\n* `http://hl7.org/fhir/fhir-types#BodyStructure`\n* `http://hl7.org/fhir/fhir-types#Bundle`\n* `http://hl7.org/fhir/fhir-types#CapabilityStatement`\n* `http://hl7.org/fhir/fhir-types#CarePlan`\n* `http://hl7.org/fhir/fhir-types#CareTeam`\n* `http://hl7.org/fhir/fhir-types#ChargeItem`\n* `http://hl7.org/fhir/fhir-types#ChargeItemDefinition`\n* `http://hl7.org/fhir/fhir-types#Citation`\n* `http://hl7.org/fhir/fhir-types#Claim`\n* `http://hl7.org/fhir/fhir-types#ClaimResponse`\n* `http://hl7.org/fhir/fhir-types#ClinicalImpression`\n* `http://hl7.org/fhir/fhir-types#ClinicalUseDefinition`\n* `http://hl7.org/fhir/fhir-types#CodeSystem`\n* `http://hl7.org/fhir/fhir-types#Communication`\n* `http://hl7.org/fhir/fhir-types#CommunicationRequest`\n* `http://hl7.org/fhir/fhir-types#CompartmentDefinition`\n* `http://hl7.org/fhir/fhir-types#Composition`\n* `http://hl7.org/fhir/fhir-types#ConceptMap`\n* `http://hl7.org/fhir/fhir-types#Condition`\n* `http://hl7.org/fhir/fhir-types#Consent`\n* `http://hl7.org/fhir/fhir-types#Contract`\n* `http://hl7.org/fhir/fhir-types#Coverage`\n* `http://hl7.org/fhir/fhir-types#CoverageEligibilityRequest`\n* `http://hl7.org/fhir/fhir-types#CoverageEligibilityResponse`\n* `http://hl7.org/fhir/fhir-types#DetectedIssue`\n* `http://hl7.org/fhir/fhir-types#Device`\n* `http://hl7.org/fhir/fhir-types#DeviceDefinition`\n* `http://hl7.org/fhir/fhir-types#DeviceMetric`\n* `http://hl7.org/fhir/fhir-types#DeviceRequest`\n* `http://hl7.org/fhir/fhir-types#DeviceUsage`\n* `http://hl7.org/fhir/fhir-types#DiagnosticReport`\n* `http://hl7.org/fhir/fhir-types#DocumentReference`\n* `http://hl7.org/fhir/fhir-types#DocumentReference`\n* `http://hl7.org/fhir/fhir-types#Encounter`\n* `http://hl7.org/fhir/fhir-types#Endpoint`\n* `http://hl7.org/fhir/fhir-types#EnrollmentRequest`\n* `http://hl7.org/fhir/fhir-types#EnrollmentResponse`\n* `http://hl7.org/fhir/fhir-types#EpisodeOfCare`\n* `http://hl7.org/fhir/fhir-types#EventDefinition`\n* `http://hl7.org/fhir/fhir-types#Evidence`\n* `http://hl7.org/fhir/fhir-types#EvidenceReport`\n* `http://hl7.org/fhir/fhir-types#EvidenceVariable`\n* `http://hl7.org/fhir/fhir-types#ExampleScenario`\n* `http://hl7.org/fhir/fhir-types#ExplanationOfBenefit`\n* `http://hl7.org/fhir/fhir-types#FamilyMemberHistory`\n* `http://hl7.org/fhir/fhir-types#Flag`\n* `http://hl7.org/fhir/fhir-types#Goal`\n* `http://hl7.org/fhir/fhir-types#GraphDefinition`\n* `http://hl7.org/fhir/fhir-types#Group`\n* `http://hl7.org/fhir/fhir-types#GuidanceResponse`\n* `http://hl7.org/fhir/fhir-types#HealthcareService`\n* `http://hl7.org/fhir/fhir-types#ImagingStudy`\n* `http://hl7.org/fhir/fhir-types#Immunization`\n* `http://hl7.org/fhir/fhir-types#ImmunizationEvaluation`\n* `http://hl7.org/fhir/fhir-types#ImmunizationRecommendation`\n* `http://hl7.org/fhir/fhir-types#ImplementationGuide`\n* `http://hl7.org/fhir/fhir-types#Ingredient`\n* `http://hl7.org/fhir/fhir-types#InsurancePlan`\n* `http://hl7.org/fhir/fhir-types#Invoice`\n* `http://hl7.org/fhir/fhir-types#Library`\n* `http://hl7.org/fhir/fhir-types#Linkage`\n* `http://hl7.org/fhir/fhir-types#List`\n* `http://hl7.org/fhir/fhir-types#Location`\n* `http://hl7.org/fhir/fhir-types#ManufacturedItemDefinition`\n* `http://hl7.org/fhir/fhir-types#Measure`\n* `http://hl7.org/fhir/fhir-types#MeasureReport`\n* `http://hl7.org/fhir/fhir-types#Medication`\n* `http://hl7.org/fhir/fhir-types#MedicationAdministration`\n* `http://hl7.org/fhir/fhir-types#MedicationDispense`\n* `http://hl7.org/fhir/fhir-types#MedicationKnowledge`\n* `http://hl7.org/fhir/fhir-types#MedicationRequest`\n* `http://hl7.org/fhir/fhir-types#MedicationStatement`\n* `http://hl7.org/fhir/fhir-types#MedicinalProductDefinition`\n* `http://hl7.org/fhir/fhir-types#MessageDefinition`\n* `http://hl7.org/fhir/fhir-types#MessageHeader`\n* `http://hl7.org/fhir/fhir-types#MolecularSequence`\n* `http://hl7.org/fhir/fhir-types#NamingSystem`\n* `http://hl7.org/fhir/fhir-types#NutritionOrder`\n* `http://hl7.org/fhir/fhir-types#NutritionProduct`\n* `http://hl7.org/fhir/fhir-types#Observation`\n* `http://hl7.org/fhir/fhir-types#ObservationDefinition`\n* `http://hl7.org/fhir/fhir-types#OperationDefinition`\n* `http://hl7.org/fhir/fhir-types#OperationOutcome`\n* `http://hl7.org/fhir/fhir-types#Organization`\n* `http://hl7.org/fhir/fhir-types#OrganizationAffiliation`\n* `http://hl7.org/fhir/fhir-types#PackagedProductDefinition`\n* `http://hl7.org/fhir/fhir-types#Parameters`\n* `http://hl7.org/fhir/fhir-types#Patient`\n* `http://hl7.org/fhir/fhir-types#PaymentNotice`\n* `http://hl7.org/fhir/fhir-types#PaymentReconciliation`\n* `http://hl7.org/fhir/fhir-types#Person`\n* `http://hl7.org/fhir/fhir-types#PlanDefinition`\n* `http://hl7.org/fhir/fhir-types#Practitioner`\n* `http://hl7.org/fhir/fhir-types#PractitionerRole`\n* `http://hl7.org/fhir/fhir-types#Procedure`\n* `http://hl7.org/fhir/fhir-types#Provenance`\n* `http://hl7.org/fhir/fhir-types#Questionnaire`\n* `http://hl7.org/fhir/fhir-types#QuestionnaireResponse`\n* `http://hl7.org/fhir/fhir-types#RegulatedAuthorization`\n* `http://hl7.org/fhir/fhir-types#RelatedPerson`\n* `http://hl7.org/fhir/fhir-types#RequestOrchestration`\n* `http://hl7.org/fhir/fhir-types#ResearchStudy`\n* `http://hl7.org/fhir/fhir-types#ResearchSubject`\n* `http://hl7.org/fhir/fhir-types#RiskAssessment`\n* `http://hl7.org/fhir/fhir-types#Schedule`\n* `http://hl7.org/fhir/fhir-types#SearchParameter`\n* `http://hl7.org/fhir/fhir-types#ServiceRequest`\n* `http://hl7.org/fhir/fhir-types#Slot`\n* `http://hl7.org/fhir/fhir-types#Specimen`\n* `http://hl7.org/fhir/fhir-types#SpecimenDefinition`\n* `http://hl7.org/fhir/fhir-types#StructureDefinition`\n* `http://hl7.org/fhir/fhir-types#StructureMap`\n* `http://hl7.org/fhir/fhir-types#Subscription`\n* `http://hl7.org/fhir/fhir-types#SubscriptionStatus`\n* `http://hl7.org/fhir/fhir-types#SubscriptionTopic`\n* `http://hl7.org/fhir/fhir-types#Substance`\n* `http://hl7.org/fhir/fhir-types#SubstanceDefinition`\n* `http://hl7.org/fhir/fhir-types#SupplyDelivery`\n* `http://hl7.org/fhir/fhir-types#SupplyRequest`\n* `http://hl7.org/fhir/fhir-types#Task`\n* `http://hl7.org/fhir/fhir-types#TerminologyCapabilities`\n* `http://hl7.org/fhir/fhir-types#TestReport`\n* `http://hl7.org/fhir/fhir-types#TestScript`\n* `http://hl7.org/fhir/fhir-types#ValueSet`\n* `http://hl7.org/fhir/fhir-types#VerificationResult`\n* `http://hl7.org/fhir/fhir-types#VisionPrescription`\r\n\r\nFollowing are the generation technical comments:\r\nOne or more source concepts are either not mapped or broader than their targets, so the value set relationship is broadened.\nThe source value set has more active concepts (158) than the target (143), so the source is broader than the target.\nThe source value set has fewer active concepts (143) than the target (148), so the source is narrower than the target."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/fhir-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "ActorDefinition" ] ;
+         fhir:display [ fhir:v "ActorDefinition" ]
+       ] [
+         fhir:code [ fhir:v "ArtifactAssessment" ] ;
+         fhir:display [ fhir:v "ArtifactAssessment" ]
+       ] [
+         fhir:code [ fhir:v "BiologicallyDerivedProductDispense" ] ;
+         fhir:display [ fhir:v "BiologicallyDerivedProductDispense" ]
+       ] [
+         fhir:code [ fhir:v "ConditionDefinition" ] ;
+         fhir:display [ fhir:v "ConditionDefinition" ]
+       ] [
+         fhir:code [ fhir:v "DeviceAssociation" ] ;
+         fhir:display [ fhir:v "DeviceAssociation" ]
+       ] [
+         fhir:code [ fhir:v "DeviceDispense" ] ;
+         fhir:display [ fhir:v "DeviceDispense" ]
+       ] [
+         fhir:code [ fhir:v "EncounterHistory" ] ;
+         fhir:display [ fhir:v "EncounterHistory" ]
+       ] [
+         fhir:code [ fhir:v "FormularyItem" ] ;
+         fhir:display [ fhir:v "FormularyItem" ]
+       ] [
+         fhir:code [ fhir:v "GenomicStudy" ] ;
+         fhir:display [ fhir:v "GenomicStudy" ]
+       ] [
+         fhir:code [ fhir:v "ImagingSelection" ] ;
+         fhir:display [ fhir:v "ImagingSelection" ]
+       ] [
+         fhir:code [ fhir:v "InventoryItem" ] ;
+         fhir:display [ fhir:v "InventoryItem" ]
+       ] [
+         fhir:code [ fhir:v "InventoryReport" ] ;
+         fhir:display [ fhir:v "InventoryReport" ]
+       ] [
+         fhir:code [ fhir:v "NutritionIntake" ] ;
+         fhir:display [ fhir:v "NutritionIntake" ]
+       ] [
+         fhir:code [ fhir:v "Permission" ] ;
+         fhir:display [ fhir:v "Permission" ]
+       ] [
+         fhir:code [ fhir:v "Requirements" ] ;
+         fhir:display [ fhir:v "Requirements" ]
+       ] [
+         fhir:code [ fhir:v "SubstanceNucleicAcid" ] ;
+         fhir:display [ fhir:v "SubstanceNucleicAcid" ]
+       ] [
+         fhir:code [ fhir:v "SubstancePolymer" ] ;
+         fhir:display [ fhir:v "SubstancePolymer" ]
+       ] [
+         fhir:code [ fhir:v "SubstanceProtein" ] ;
+         fhir:display [ fhir:v "SubstanceProtein" ]
+       ] [
+         fhir:code [ fhir:v "SubstanceReferenceInformation" ] ;
+         fhir:display [ fhir:v "SubstanceReferenceInformation" ]
+       ] [
+         fhir:code [ fhir:v "SubstanceSourceMaterial" ] ;
+         fhir:display [ fhir:v "SubstanceSourceMaterial" ]
+       ] [
+         fhir:code [ fhir:v "TestPlan" ] ;
+         fhir:display [ fhir:v "TestPlan" ]
+       ] [
+         fhir:code [ fhir:v "Transport" ] ;
+         fhir:display [ fhir:v "Transport" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/fhir-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "ActorDefinition" ] ;
+       fhir:display [ fhir:v "ActorDefinition" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/fhir-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "ArtifactAssessment" ] ;
+       fhir:display [ fhir:v "ArtifactAssessment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/fhir-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "BiologicallyDerivedProductDispense" ] ;
+       fhir:display [ fhir:v "BiologicallyDerivedProductDispense" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/fhir-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "ConditionDefinition" ] ;
+       fhir:display [ fhir:v "ConditionDefinition" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/fhir-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "DeviceAssociation" ] ;
+       fhir:display [ fhir:v "DeviceAssociation" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/fhir-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "DeviceDispense" ] ;
+       fhir:display [ fhir:v "DeviceDispense" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/fhir-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "EncounterHistory" ] ;
+       fhir:display [ fhir:v "EncounterHistory" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/fhir-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "FormularyItem" ] ;
+       fhir:display [ fhir:v "FormularyItem" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/fhir-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "GenomicStudy" ] ;
+       fhir:display [ fhir:v "GenomicStudy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/fhir-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "ImagingSelection" ] ;
+       fhir:display [ fhir:v "ImagingSelection" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/fhir-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "InventoryItem" ] ;
+       fhir:display [ fhir:v "InventoryItem" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/fhir-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "InventoryReport" ] ;
+       fhir:display [ fhir:v "InventoryReport" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/fhir-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "NutritionIntake" ] ;
+       fhir:display [ fhir:v "NutritionIntake" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/fhir-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Permission" ] ;
+       fhir:display [ fhir:v "Permission" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/fhir-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Requirements" ] ;
+       fhir:display [ fhir:v "Requirements" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/fhir-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SubstanceNucleicAcid" ] ;
+       fhir:display [ fhir:v "SubstanceNucleicAcid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/fhir-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SubstancePolymer" ] ;
+       fhir:display [ fhir:v "SubstancePolymer" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/fhir-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SubstanceProtein" ] ;
+       fhir:display [ fhir:v "SubstanceProtein" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/fhir-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SubstanceReferenceInformation" ] ;
+       fhir:display [ fhir:v "SubstanceReferenceInformation" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/fhir-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SubstanceSourceMaterial" ] ;
+       fhir:display [ fhir:v "SubstanceSourceMaterial" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/fhir-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "TestPlan" ] ;
+       fhir:display [ fhir:v "TestPlan" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/fhir-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/fhir-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Transport" ] ;
+       fhir:display [ fhir:v "Transport" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

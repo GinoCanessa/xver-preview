@@ -1,0 +1,242 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-transport-intent-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-transport-intent-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-transport-intent-for-R4</b></p><a name=\"R5-transport-intent-for-R4\"> </a><a name=\"hcR5-transport-intent-for-R4\"> </a><p>This value set expansion contains 9 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"R5-transport-intent-for-R4-http://hl7.org/fhir/request-intent-filler-order\"> </a><code>http://hl7.org/fhir/request-intent</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-request-intent.html#request-intent-filler-order\">filler-order</a></td><td>Filler Order</td><td><div><p>The request represents the view of an authorization instantiated by a fulfilling system representing the details of the fulfiller's intention to act upon a submitted order.</p>\n</div></td></tr><tr><td><a name=\"R5-transport-intent-for-R4-http://hl7.org/fhir/request-intent-instance-order\"> </a><code>http://hl7.org/fhir/request-intent</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-request-intent.html#request-intent-instance-order\">instance-order</a></td><td>Instance Order</td><td><div><p>An order created in fulfillment of a broader order that represents the authorization for a single activity occurrence.  E.g. The administration of a single dose of a drug.</p>\n</div></td></tr><tr><td><a name=\"R5-transport-intent-for-R4-http://hl7.org/fhir/request-intent-option\"> </a><code>http://hl7.org/fhir/request-intent</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-request-intent.html#request-intent-option\">option</a></td><td>Option</td><td><div><p>The request represents a component or option for a RequestOrchestration that establishes timing, conditionality and/or other constraints among a set of requests.  Refer to <a href=\"https://hl7.org/fhir/R5/RequestOrchestration.html\">RequestOrchestration</a> for additional information on how this status is used.</p>\n</div></td></tr><tr><td><a name=\"R5-transport-intent-for-R4-http://hl7.org/fhir/request-intent-order\"> </a><code>http://hl7.org/fhir/request-intent</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-request-intent.html#request-intent-order\">order</a></td><td>Order</td><td><div><p>The request represents a request/demand and authorization for action by the requestor.</p>\n</div></td></tr><tr><td><a name=\"R5-transport-intent-for-R4-http://hl7.org/fhir/request-intent-original-order\"> </a><code>http://hl7.org/fhir/request-intent</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-request-intent.html#request-intent-original-order\">original-order</a></td><td>Original Order</td><td><div><p>The request represents an original authorization for action.</p>\n</div></td></tr><tr><td><a name=\"R5-transport-intent-for-R4-http://hl7.org/fhir/request-intent-plan\"> </a><code>http://hl7.org/fhir/request-intent</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-request-intent.html#request-intent-plan\">plan</a></td><td>Plan</td><td><div><p>The request represents an intention to ensure something occurs without providing an authorization for others to act.</p>\n</div></td></tr><tr><td><a name=\"R5-transport-intent-for-R4-http://hl7.org/fhir/request-intent-proposal\"> </a><code>http://hl7.org/fhir/request-intent</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-request-intent.html#request-intent-proposal\">proposal</a></td><td>Proposal</td><td><div><p>The request is a suggestion made by someone/something that does not have an intention to ensure it occurs and without providing an authorization to act.</p>\n</div></td></tr><tr><td><a name=\"R5-transport-intent-for-R4-http://hl7.org/fhir/request-intent-reflex-order\"> </a><code>http://hl7.org/fhir/request-intent</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-request-intent.html#request-intent-reflex-order\">reflex-order</a></td><td>Reflex Order</td><td><div><p>The request represents an automatically generated supplemental authorization for action based on a parent authorization together with initial results of the action taken against that parent authorization.</p>\n</div></td></tr><tr><td><a name=\"R5-transport-intent-for-R4-http://hl7.org/fhir/transport-intent-unknown\"> </a><code>http://hl7.org/fhir/transport-intent</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-transport-intent.html#transport-intent-unknown\">unknown</a></td><td>Unknown</td><td>The intent is not known.  When dealing with Transport, it's not always known (or relevant) how the transport was initiated - i.e. whether it was proposed, planned, ordered or just done spontaneously.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 2
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "oo"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-transport-intent-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-transport-intent-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5TransportIntentForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.TransportIntent for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Orders and Observations"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Orders and Observations" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/orders" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/transport-intent|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/transport-intent|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `Transport.intent`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://hl7.org/fhir/ValueSet/transport-intent|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/request-intent"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/request-intent>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "filler-order" ] ;
+         fhir:display [ fhir:v "Filler Order" ]
+       ] [
+         fhir:code [ fhir:v "instance-order" ] ;
+         fhir:display [ fhir:v "Instance Order" ]
+       ] [
+         fhir:code [ fhir:v "option" ] ;
+         fhir:display [ fhir:v "Option" ]
+       ] [
+         fhir:code [ fhir:v "order" ] ;
+         fhir:display [ fhir:v "Order" ]
+       ] [
+         fhir:code [ fhir:v "original-order" ] ;
+         fhir:display [ fhir:v "Original Order" ]
+       ] [
+         fhir:code [ fhir:v "plan" ] ;
+         fhir:display [ fhir:v "Plan" ]
+       ] [
+         fhir:code [ fhir:v "proposal" ] ;
+         fhir:display [ fhir:v "Proposal" ]
+       ] [
+         fhir:code [ fhir:v "reflex-order" ] ;
+         fhir:display [ fhir:v "Reflex Order" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/transport-intent"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/transport-intent>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "unknown" ] ;
+         fhir:display [ fhir:v "Unknown" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/request-intent"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/request-intent>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "filler-order" ] ;
+       fhir:display [ fhir:v "Filler Order" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/request-intent"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/request-intent>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "instance-order" ] ;
+       fhir:display [ fhir:v "Instance Order" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/request-intent"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/request-intent>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "option" ] ;
+       fhir:display [ fhir:v "Option" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/request-intent"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/request-intent>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "order" ] ;
+       fhir:display [ fhir:v "Order" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/request-intent"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/request-intent>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "original-order" ] ;
+       fhir:display [ fhir:v "Original Order" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/request-intent"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/request-intent>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "plan" ] ;
+       fhir:display [ fhir:v "Plan" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/request-intent"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/request-intent>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "proposal" ] ;
+       fhir:display [ fhir:v "Proposal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/request-intent"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/request-intent>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "reflex-order" ] ;
+       fhir:display [ fhir:v "Reflex Order" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/transport-intent"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/transport-intent>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "unknown" ] ;
+       fhir:display [ fhir:v "Unknown" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

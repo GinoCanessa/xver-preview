@@ -1,0 +1,172 @@
+# DataAbsentReason - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## CodeSystem: DataAbsentReason 
+
+ 
+Used to specify why the normally expected content of the data element is missing. 
+
+This Code system is referenced in the definition of the following value sets:
+
+* This CodeSystem is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
+
+-------
+
+ [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "CodeSystem",
+  "id" : "data-absent-reason",
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
+      "valueCode" : "4.0.0"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger" : 5
+    },
+    {
+      "extension" : [
+        {
+          "url" : "packageId",
+          "valueId" : "hl7.fhir.uv.xver-r5.r4"
+        },
+        {
+          "url" : "version",
+          "valueString" : "0.0.1-snapshot-3"
+        },
+        {
+          "url" : "uri",
+          "valueUri" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+        }
+      ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/package-source"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "oo"
+    }
+  ],
+  "url" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+  "version" : "0.1.0",
+  "name" : "DataAbsentReason",
+  "title" : "DataAbsentReason",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2019-10-31T17:29:23-05:00",
+  "publisher" : "Orders and Observations",
+  "contact" : [
+    {
+      "name" : "Orders and Observations",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/orders"
+        }
+      ]
+    }
+  ],
+  "description" : "Used to specify why the normally expected content of the data element is missing.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }
+      ]
+    }
+  ],
+  "caseSensitive" : true,
+  "valueSet" : "http://hl7.org/fhir/ValueSet/data-absent-reason|4.0.1",
+  "content" : "complete",
+  "concept" : [
+    {
+      "code" : "unknown",
+      "display" : "Unknown",
+      "definition" : "The value is expected to exist but is not known.",
+      "concept" : [
+        {
+          "code" : "asked-unknown",
+          "display" : "Asked But Unknown",
+          "definition" : "The source was asked but does not know the value."
+        },
+        {
+          "code" : "temp-unknown",
+          "display" : "Temporarily Unknown",
+          "definition" : "There is reason to expect (from the workflow) that the value may become known."
+        },
+        {
+          "code" : "not-asked",
+          "display" : "Not Asked",
+          "definition" : "The workflow didn't lead to this value being known."
+        },
+        {
+          "code" : "asked-declined",
+          "display" : "Asked But Declined",
+          "definition" : "The source was asked but declined to answer."
+        }
+      ]
+    },
+    {
+      "code" : "masked",
+      "display" : "Masked",
+      "definition" : "The information is not available due to security, privacy or related reasons."
+    },
+    {
+      "code" : "not-applicable",
+      "display" : "Not Applicable",
+      "definition" : "There is no proper value for this element (e.g. last menstrual period for a male)."
+    },
+    {
+      "code" : "unsupported",
+      "display" : "Unsupported",
+      "definition" : "The source system wasn't capable of supporting this element."
+    },
+    {
+      "code" : "as-text",
+      "display" : "As Text",
+      "definition" : "The content of the data is represented in the resource narrative."
+    },
+    {
+      "code" : "error",
+      "display" : "Error",
+      "definition" : "Some system or workflow process error means that the information is not available.",
+      "concept" : [
+        {
+          "code" : "not-a-number",
+          "display" : "Not a Number (NaN)",
+          "definition" : "The numeric value is undefined or unrepresentable due to a floating point processing error."
+        },
+        {
+          "code" : "negative-infinity",
+          "display" : "Negative Infinity (NINF)",
+          "definition" : "The numeric value is excessively low and unrepresentable due to a floating point processing        error."
+        },
+        {
+          "code" : "positive-infinity",
+          "display" : "Positive Infinity (PINF)",
+          "definition" : "The numeric value is excessively high and unrepresentable due to a floating point processing        error."
+        }
+      ]
+    },
+    {
+      "code" : "not-performed",
+      "display" : "Not Performed",
+      "definition" : "The value is not available because the observation procedure (test, etc.) was not performed."
+    },
+    {
+      "code" : "not-permitted",
+      "display" : "Not Permitted",
+      "definition" : "The value is not permitted in this context (e.g. due to profiles, or the base data types)."
+    }
+  ]
+}
+
+```

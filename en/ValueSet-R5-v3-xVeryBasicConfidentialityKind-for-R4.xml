@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-v3-xVeryBasicConfidentialityKind-for-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-v3-xVeryBasicConfidentialityKind-for-R4</b></p><a name="R5-v3-xVeryBasicConfidentialityKind-for-R4"> </a><a name="hcR5-v3-xVeryBasicConfidentialityKind-for-R4"> </a><p>This value set expansion contains 2 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="R5-v3-xVeryBasicConfidentialityKind-for-R4-http://terminology.hl7.org/CodeSystem/v3-Confidentiality-N"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Confidentiality</code></td><td>2.2.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-Confidentiality.html#v3-Confidentiality-N">N</a></td><td>normal</td><td><div><p>Privacy metadata indicating the level of protection required to safeguard personal and healthcare information, which if disclosed without authorization, would present a considerable risk of harm to an individual's reputation and sense of privacy.</p>
+<p><em>Usage Note:</em> The level of protection afforded normatively confidential information is dictated by the prevailing normative privacy policies, which are intended to engender patient trust in their healthcare providers.</p>
+<p>Privacy policies mandating normative levels of protection, which preempt less protective privacy policies when the information is used in the delivery and management of healthcare. May be pre-empted by jurisdictional law (e.g., for public health reporting or emergency treatment).</p>
+<p>Confidentiality code total order hierarchy: Normal (N) is less protective than <em>V</em> and <em>R</em>, and subsumes all other protection levels (i.e., <em>M, L, and U</em>).</p>
+<p>**Map:**Partial Map to ISO 13606-4 Sensitivity Level (3) Clinical Care when purpose of use is treatment: Default for normal clinical care access (i.e., most clinical staff directly caring for the patient should be able to access nearly all of the EHR). Maps to normal confidentiality for treatment information but not to ancillary care, payment and operations.</p>
+<p><strong>Examples:</strong></p>
+<p>n the US, this includes what HIPAA identifies as protected health information (PHI) under 45 CFR Section 160.103.</p>
+</div></td></tr><tr><td><a name="R5-v3-xVeryBasicConfidentialityKind-for-R4-http://terminology.hl7.org/CodeSystem/v3-Confidentiality-R"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Confidentiality</code></td><td>2.2.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-Confidentiality.html#v3-Confidentiality-R">R</a></td><td>restricted</td><td><div><p>Privacy metadata indicating the level of protection required to safeguard potentially stigmatizing information, which if disclosed without authorization, would present a high risk of harm to an individual's reputation and sense of privacy.</p>
+<p><em>Usage Note:</em> The level of protection afforded restricted confidential information is dictated by specially protective organizational or jurisdictional privacy policies, including at an authorized individualâ€™s request, intended to engender patient trust in providers of sensitive services.</p>
+<p>Privacy policies mandating additional levels of protection by restricting information access preempt less protective privacy policies when the information is used in the delivery and management of healthcare. May be pre-empted by jurisdictional law (e.g., for public health reporting or emergency treatment).</p>
+<p>Confidentiality code total order hierarchy: Restricted (R) is less protective than <em>V</em>, and subsumes all other protection levels (i.e., <em>N, M, L, and U</em>).</p>
+<p><strong>Examples:</strong></p>
+<p>Includes information that is additionally protected such as sensitive conditions mental health, HIV, substance abuse, domestic violence, child abuse, genetic disease, and reproductive health; or sensitive demographic information such as a patientâ€™s standing as an employee or a celebrity. May be used to indicate proprietary or classified information that is not related to an individual (e.g., secret ingredients in a therapeutic substance; or the name of a manufacturer).</p>
+</div></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-xVeryBasicConfidentialityKind-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5V3XVeryBasicConfidentialityKindForR4"/>
+  <title value="Cross-version ValueSet R5.XVeryBasicConfidentialityKind for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v3-xVeryBasicConfidentialityKind|2.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://terminology.hl7.org/ValueSet/v3-xVeryBasicConfidentialityKind|2.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* &#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;&#xA;FHIR ValueSet `http://terminology.hl7.org/ValueSet/v3-xVeryBasicConfidentialityKind|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"/>
+      <version value="2.2.0"/>
+      <concept>
+        <code value="N"/>
+        <display value="normal"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="restricted"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"/>
+      <version value="2.2.0"/>
+      <code value="N"/>
+      <display value="normal"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"/>
+      <version value="2.2.0"/>
+      <code value="R"/>
+      <display value="restricted"/>
+    </contains>
+  </expansion>
+</ValueSet>

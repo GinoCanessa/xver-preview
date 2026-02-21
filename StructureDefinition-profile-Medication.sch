@@ -10,24 +10,21 @@
     single schematron that validates contained resources (if you have any) 
   -->
   <sch:pattern>
-    <sch:title>f:Medication</sch:title>
-    <sch:rule context="f:Medication">
-      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/alternate-reference']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/alternate-reference': maximum cardinality of 'extension' is 1</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
     <sch:title>f:Medication/f:amount</sch:title>
     <sch:rule context="f:Medication/f:amount">
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.totalVolume']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.totalVolume': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.totalVolume|0.0.1-snapshot-3']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.totalVolume|0.0.1-snapshot-3': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:numerator) &lt;= 1">numerator: maximum cardinality of 'numerator' is 1</sch:assert>
       <sch:assert test="count(f:denominator) &lt;= 1">denominator: maximum cardinality of 'denominator' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>f:Medication/f:batch</sch:title>
-    <sch:rule context="f:Medication/f:batch">
-      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.batch']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.batch': maximum cardinality of 'extension' is 1</sch:assert>
+    <sch:title>f:Medication/f:ingredient/f:strength</sch:title>
+    <sch:rule context="f:Medication/f:ingredient/f:strength">
+      <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.ingredient.strength|0.0.1-snapshot-3']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.ingredient.strength|0.0.1-snapshot-3': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:numerator) &lt;= 1">numerator: maximum cardinality of 'numerator' is 1</sch:assert>
+      <sch:assert test="count(f:denominator) &lt;= 1">denominator: maximum cardinality of 'denominator' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
 </sch:schema>

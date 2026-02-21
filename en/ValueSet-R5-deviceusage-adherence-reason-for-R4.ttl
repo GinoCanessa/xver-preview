@@ -1,0 +1,202 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-deviceusage-adherence-reason-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-deviceusage-adherence-reason-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-deviceusage-adherence-reason-for-R4</b></p><a name=\"R5-deviceusage-adherence-reason-for-R4\"> </a><a name=\"hcR5-deviceusage-adherence-reason-for-R4\"> </a><p>This value set expansion contains 6 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"R5-deviceusage-adherence-reason-for-R4-http://hl7.org/fhir/deviceusage-adherence-reason-broken\"> </a><code>http://hl7.org/fhir/deviceusage-adherence-reason</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-deviceusage-adherence-reason.html#deviceusage-adherence-reason-broken\">broken</a></td><td>Broken</td><td>The device is broken.</td></tr><tr><td><a name=\"R5-deviceusage-adherence-reason-for-R4-http://hl7.org/fhir/deviceusage-adherence-reason-burned\"> </a><code>http://hl7.org/fhir/deviceusage-adherence-reason</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-deviceusage-adherence-reason.html#deviceusage-adherence-reason-burned\">burned</a></td><td>Burned</td><td>The device is burned.</td></tr><tr><td><a name=\"R5-deviceusage-adherence-reason-for-R4-http://hl7.org/fhir/deviceusage-adherence-reason-forgot\"> </a><code>http://hl7.org/fhir/deviceusage-adherence-reason</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-deviceusage-adherence-reason.html#deviceusage-adherence-reason-forgot\">forgot</a></td><td>Forgot</td><td>The device is forgotten.</td></tr><tr><td><a name=\"R5-deviceusage-adherence-reason-for-R4-http://hl7.org/fhir/deviceusage-adherence-reason-lost\"> </a><code>http://hl7.org/fhir/deviceusage-adherence-reason</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-deviceusage-adherence-reason.html#deviceusage-adherence-reason-lost\">lost</a></td><td>Lost</td><td>The device is lost.</td></tr><tr><td><a name=\"R5-deviceusage-adherence-reason-for-R4-http://hl7.org/fhir/deviceusage-adherence-reason-prescribed\"> </a><code>http://hl7.org/fhir/deviceusage-adherence-reason</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-deviceusage-adherence-reason.html#deviceusage-adherence-reason-prescribed\">prescribed</a></td><td>Prescribed</td><td>The device is prescribed.</td></tr><tr><td><a name=\"R5-deviceusage-adherence-reason-for-R4-http://hl7.org/fhir/deviceusage-adherence-reason-stolen\"> </a><code>http://hl7.org/fhir/deviceusage-adherence-reason</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-deviceusage-adherence-reason.html#deviceusage-adherence-reason-stolen\">stolen</a></td><td>Stolen</td><td>The device is stolen.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "oo"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-deviceusage-adherence-reason-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-deviceusage-adherence-reason-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5DeviceusageAdherenceReasonForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.DeviceUsageAdherenceReason for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Orders and Observations"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Orders and Observations" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/orders" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/deviceusage-adherence-reason|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/deviceusage-adherence-reason|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `DeviceUsage.adherence.reason`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://hl7.org/fhir/ValueSet/deviceusage-adherence-reason|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/deviceusage-adherence-reason"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/deviceusage-adherence-reason>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "broken" ] ;
+         fhir:display [ fhir:v "Broken" ]
+       ] [
+         fhir:code [ fhir:v "burned" ] ;
+         fhir:display [ fhir:v "Burned" ]
+       ] [
+         fhir:code [ fhir:v "forgot" ] ;
+         fhir:display [ fhir:v "Forgot" ]
+       ] [
+         fhir:code [ fhir:v "lost" ] ;
+         fhir:display [ fhir:v "Lost" ]
+       ] [
+         fhir:code [ fhir:v "prescribed" ] ;
+         fhir:display [ fhir:v "Prescribed" ]
+       ] [
+         fhir:code [ fhir:v "stolen" ] ;
+         fhir:display [ fhir:v "Stolen" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/deviceusage-adherence-reason"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/deviceusage-adherence-reason>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "broken" ] ;
+       fhir:display [ fhir:v "Broken" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/deviceusage-adherence-reason"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/deviceusage-adherence-reason>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "burned" ] ;
+       fhir:display [ fhir:v "Burned" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/deviceusage-adherence-reason"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/deviceusage-adherence-reason>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "forgot" ] ;
+       fhir:display [ fhir:v "Forgot" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/deviceusage-adherence-reason"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/deviceusage-adherence-reason>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "lost" ] ;
+       fhir:display [ fhir:v "Lost" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/deviceusage-adherence-reason"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/deviceusage-adherence-reason>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "prescribed" ] ;
+       fhir:display [ fhir:v "Prescribed" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/deviceusage-adherence-reason"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/deviceusage-adherence-reason>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "stolen" ] ;
+       fhir:display [ fhir:v "Stolen" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

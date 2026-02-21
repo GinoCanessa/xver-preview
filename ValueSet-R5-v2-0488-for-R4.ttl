@@ -1,0 +1,608 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-v2-0488-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-v2-0488-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-v2-0488-for-R4</b></p><a name=\"R5-v2-0488-for-R4\"> </a><a name=\"hcR5-v2-0488-for-R4\"> </a><p>This value set expansion contains 42 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-ANP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ANP</td><td>Plates, Anaerobic</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-BAP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BAP</td><td>Plates, Blood Agar</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-BCAE\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BCAE</td><td>Blood Culture, Aerobic Bottle</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-BCAN\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BCAN</td><td>Blood Culture, Anaerobic Bottle</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-BCPD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BCPD</td><td>Blood Culture, Pediatric Bottle</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-BIO\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BIO</td><td>Biopsy</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-CAP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CAP</td><td>Capillary Specimen</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-CATH\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CATH</td><td>Catheterized</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-CVP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CVP</td><td>Line, CVP</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-EPLA\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  EPLA</td><td>Environmental, Plate</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-ESWA\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ESWA</td><td>Environmental, Swab</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-FNA\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  FNA</td><td>Aspiration, Fine Needle</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-KOFFP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  KOFFP</td><td>Plate, Cough</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-LNA\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  LNA</td><td>Line, Arterial</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-LNV\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  LNV</td><td>Line, Venous</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-MARTL\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  MARTL</td><td>Martin-Lewis Agar</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-ML11\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ML11</td><td>Mod. Martin-Lewis Agar</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-MLP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  MLP</td><td>Plate, Martin-Lewis</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-NYP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  NYP</td><td>Plate, New York City</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-PACE\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  PACE</td><td>Pace, Gen-Probe</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-PIN\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  PIN</td><td>Pinworm Prep</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-PNA\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  PNA</td><td>Arterial puncture</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-PRIME\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  PRIME</td><td>Pump Prime</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-PUMP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  PUMP</td><td>Pump Specimen</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-QC5\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  QC5</td><td>Quality Control For Micro</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-SCLP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SCLP</td><td>Scalp, Fetal Vein</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-SCRAPS\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SCRAPS</td><td>Scrapings</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-SHA\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SHA</td><td>Shaving</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-SWA\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SWA</td><td>Swab</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-SWD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SWD</td><td>Swab, Dacron tipped</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-TMAN\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TMAN</td><td>Transport Media, Anaerobic</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-TMCH\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TMCH</td><td>Transport Media, Chalamydia</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-TMM4\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TMM4</td><td>Transport Media, M4</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-TMMY\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TMMY</td><td>Transport Media, Mycoplasma</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-TMOT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TMOT</td><td>Transport Media,</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-TMP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TMP</td><td>Plate, Thayer-Martin</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-TMPV\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TMPV</td><td>Transport Media, PVA</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-TMSC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TMSC</td><td>Transport Media, Stool Culture</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-TMUP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TMUP</td><td>Transport Media, Ureaplasma</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-TMVI\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TMVI</td><td>Transport Media, Viral</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-VENIP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  VENIP</td><td>Venipuncture</td></tr><tr><td><a name=\"R5-v2-0488-for-R4-http://terminology.hl7.org/CodeSystem/v2-0488-WOOD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0488</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  WOOD</td><td>Swab, Wooden Shaft</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-v2-0488-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-v2-0488-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5V20488ForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.Hl7VSSpecimenCollectionMethod for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v2-0488|2.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/v2-0488|2.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* \r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://terminology.hl7.org/ValueSet/v2-0488|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "ANP" ] ;
+         fhir:display [ fhir:v "Plates, Anaerobic" ]
+       ] [
+         fhir:code [ fhir:v "BAP" ] ;
+         fhir:display [ fhir:v "Plates, Blood Agar" ]
+       ] [
+         fhir:code [ fhir:v "BCAE" ] ;
+         fhir:display [ fhir:v "Blood Culture, Aerobic Bottle" ]
+       ] [
+         fhir:code [ fhir:v "BCAN" ] ;
+         fhir:display [ fhir:v "Blood Culture, Anaerobic Bottle" ]
+       ] [
+         fhir:code [ fhir:v "BCPD" ] ;
+         fhir:display [ fhir:v "Blood Culture, Pediatric Bottle" ]
+       ] [
+         fhir:code [ fhir:v "BIO" ] ;
+         fhir:display [ fhir:v "Biopsy" ]
+       ] [
+         fhir:code [ fhir:v "CAP" ] ;
+         fhir:display [ fhir:v "Capillary Specimen" ]
+       ] [
+         fhir:code [ fhir:v "CATH" ] ;
+         fhir:display [ fhir:v "Catheterized" ]
+       ] [
+         fhir:code [ fhir:v "CVP" ] ;
+         fhir:display [ fhir:v "Line, CVP" ]
+       ] [
+         fhir:code [ fhir:v "EPLA" ] ;
+         fhir:display [ fhir:v "Environmental, Plate" ]
+       ] [
+         fhir:code [ fhir:v "ESWA" ] ;
+         fhir:display [ fhir:v "Environmental, Swab" ]
+       ] [
+         fhir:code [ fhir:v "FNA" ] ;
+         fhir:display [ fhir:v "Aspiration, Fine Needle" ]
+       ] [
+         fhir:code [ fhir:v "KOFFP" ] ;
+         fhir:display [ fhir:v "Plate, Cough" ]
+       ] [
+         fhir:code [ fhir:v "LNA" ] ;
+         fhir:display [ fhir:v "Line, Arterial" ]
+       ] [
+         fhir:code [ fhir:v "LNV" ] ;
+         fhir:display [ fhir:v "Line, Venous" ]
+       ] [
+         fhir:code [ fhir:v "MARTL" ] ;
+         fhir:display [ fhir:v "Martin-Lewis Agar" ]
+       ] [
+         fhir:code [ fhir:v "ML11" ] ;
+         fhir:display [ fhir:v "Mod. Martin-Lewis Agar" ]
+       ] [
+         fhir:code [ fhir:v "MLP" ] ;
+         fhir:display [ fhir:v "Plate, Martin-Lewis" ]
+       ] [
+         fhir:code [ fhir:v "NYP" ] ;
+         fhir:display [ fhir:v "Plate, New York City" ]
+       ] [
+         fhir:code [ fhir:v "PACE" ] ;
+         fhir:display [ fhir:v "Pace, Gen-Probe" ]
+       ] [
+         fhir:code [ fhir:v "PIN" ] ;
+         fhir:display [ fhir:v "Pinworm Prep" ]
+       ] [
+         fhir:code [ fhir:v "PNA" ] ;
+         fhir:display [ fhir:v "Arterial puncture" ]
+       ] [
+         fhir:code [ fhir:v "PRIME" ] ;
+         fhir:display [ fhir:v "Pump Prime" ]
+       ] [
+         fhir:code [ fhir:v "PUMP" ] ;
+         fhir:display [ fhir:v "Pump Specimen" ]
+       ] [
+         fhir:code [ fhir:v "QC5" ] ;
+         fhir:display [ fhir:v "Quality Control For Micro" ]
+       ] [
+         fhir:code [ fhir:v "SCLP" ] ;
+         fhir:display [ fhir:v "Scalp, Fetal Vein" ]
+       ] [
+         fhir:code [ fhir:v "SCRAPS" ] ;
+         fhir:display [ fhir:v "Scrapings" ]
+       ] [
+         fhir:code [ fhir:v "SHA" ] ;
+         fhir:display [ fhir:v "Shaving" ]
+       ] [
+         fhir:code [ fhir:v "SWA" ] ;
+         fhir:display [ fhir:v "Swab" ]
+       ] [
+         fhir:code [ fhir:v "SWD" ] ;
+         fhir:display [ fhir:v "Swab, Dacron tipped" ]
+       ] [
+         fhir:code [ fhir:v "TMAN" ] ;
+         fhir:display [ fhir:v "Transport Media, Anaerobic" ]
+       ] [
+         fhir:code [ fhir:v "TMCH" ] ;
+         fhir:display [ fhir:v "Transport Media, Chalamydia" ]
+       ] [
+         fhir:code [ fhir:v "TMM4" ] ;
+         fhir:display [ fhir:v "Transport Media, M4" ]
+       ] [
+         fhir:code [ fhir:v "TMMY" ] ;
+         fhir:display [ fhir:v "Transport Media, Mycoplasma" ]
+       ] [
+         fhir:code [ fhir:v "TMOT" ] ;
+         fhir:display [ fhir:v "Transport Media," ]
+       ] [
+         fhir:code [ fhir:v "TMP" ] ;
+         fhir:display [ fhir:v "Plate, Thayer-Martin" ]
+       ] [
+         fhir:code [ fhir:v "TMPV" ] ;
+         fhir:display [ fhir:v "Transport Media, PVA" ]
+       ] [
+         fhir:code [ fhir:v "TMSC" ] ;
+         fhir:display [ fhir:v "Transport Media, Stool Culture" ]
+       ] [
+         fhir:code [ fhir:v "TMUP" ] ;
+         fhir:display [ fhir:v "Transport Media, Ureaplasma" ]
+       ] [
+         fhir:code [ fhir:v "TMVI" ] ;
+         fhir:display [ fhir:v "Transport Media, Viral" ]
+       ] [
+         fhir:code [ fhir:v "VENIP" ] ;
+         fhir:display [ fhir:v "Venipuncture" ]
+       ] [
+         fhir:code [ fhir:v "WOOD" ] ;
+         fhir:display [ fhir:v "Swab, Wooden Shaft" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ANP" ] ;
+       fhir:display [ fhir:v "Plates, Anaerobic" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BAP" ] ;
+       fhir:display [ fhir:v "Plates, Blood Agar" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BCAE" ] ;
+       fhir:display [ fhir:v "Blood Culture, Aerobic Bottle" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BCAN" ] ;
+       fhir:display [ fhir:v "Blood Culture, Anaerobic Bottle" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BCPD" ] ;
+       fhir:display [ fhir:v "Blood Culture, Pediatric Bottle" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BIO" ] ;
+       fhir:display [ fhir:v "Biopsy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CAP" ] ;
+       fhir:display [ fhir:v "Capillary Specimen" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CATH" ] ;
+       fhir:display [ fhir:v "Catheterized" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CVP" ] ;
+       fhir:display [ fhir:v "Line, CVP" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "EPLA" ] ;
+       fhir:display [ fhir:v "Environmental, Plate" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ESWA" ] ;
+       fhir:display [ fhir:v "Environmental, Swab" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "FNA" ] ;
+       fhir:display [ fhir:v "Aspiration, Fine Needle" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "KOFFP" ] ;
+       fhir:display [ fhir:v "Plate, Cough" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "LNA" ] ;
+       fhir:display [ fhir:v "Line, Arterial" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "LNV" ] ;
+       fhir:display [ fhir:v "Line, Venous" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "MARTL" ] ;
+       fhir:display [ fhir:v "Martin-Lewis Agar" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ML11" ] ;
+       fhir:display [ fhir:v "Mod. Martin-Lewis Agar" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "MLP" ] ;
+       fhir:display [ fhir:v "Plate, Martin-Lewis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "NYP" ] ;
+       fhir:display [ fhir:v "Plate, New York City" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PACE" ] ;
+       fhir:display [ fhir:v "Pace, Gen-Probe" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PIN" ] ;
+       fhir:display [ fhir:v "Pinworm Prep" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PNA" ] ;
+       fhir:display [ fhir:v "Arterial puncture" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PRIME" ] ;
+       fhir:display [ fhir:v "Pump Prime" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PUMP" ] ;
+       fhir:display [ fhir:v "Pump Specimen" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "QC5" ] ;
+       fhir:display [ fhir:v "Quality Control For Micro" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SCLP" ] ;
+       fhir:display [ fhir:v "Scalp, Fetal Vein" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SCRAPS" ] ;
+       fhir:display [ fhir:v "Scrapings" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SHA" ] ;
+       fhir:display [ fhir:v "Shaving" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SWA" ] ;
+       fhir:display [ fhir:v "Swab" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SWD" ] ;
+       fhir:display [ fhir:v "Swab, Dacron tipped" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TMAN" ] ;
+       fhir:display [ fhir:v "Transport Media, Anaerobic" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TMCH" ] ;
+       fhir:display [ fhir:v "Transport Media, Chalamydia" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TMM4" ] ;
+       fhir:display [ fhir:v "Transport Media, M4" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TMMY" ] ;
+       fhir:display [ fhir:v "Transport Media, Mycoplasma" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TMOT" ] ;
+       fhir:display [ fhir:v "Transport Media," ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TMP" ] ;
+       fhir:display [ fhir:v "Plate, Thayer-Martin" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TMPV" ] ;
+       fhir:display [ fhir:v "Transport Media, PVA" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TMSC" ] ;
+       fhir:display [ fhir:v "Transport Media, Stool Culture" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TMUP" ] ;
+       fhir:display [ fhir:v "Transport Media, Ureaplasma" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TMVI" ] ;
+       fhir:display [ fhir:v "Transport Media, Viral" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "VENIP" ] ;
+       fhir:display [ fhir:v "Venipuncture" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0488"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0488>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "WOOD" ] ;
+       fhir:display [ fhir:v "Swab, Wooden Shaft" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

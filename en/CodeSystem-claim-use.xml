@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="claim-use"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/claim-use</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">claim
+                  <a name="claim-use-claim"> </a>
+                </td>
+                <td>Claim</td>
+                <td>The treatment is complete and this represents a Claim for the services.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">preauthorization
+                  <a name="claim-use-preauthorization"> </a>
+                </td>
+                <td>Preauthorization</td>
+                <td>The treatment is proposed and this represents a Pre-authorization for the services.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">predetermination
+                  <a name="claim-use-predetermination"> </a>
+                </td>
+                <td>Predetermination</td>
+                <td>The treatment is proposed and this represents a Pre-determination for the services.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fm"/>
+  </extension>
+  <url value="http://hl7.org/fhir/claim-use"/>
+  <version value="5.0.0"/>
+  <name value="Use"/>
+  <title value="Use"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Financial Management"/>
+  <contact>
+    <name value="Financial Management"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fm"/>
+    </telecom>
+  </contact>
+  <description value="The purpose of the Claim: predetermination, preauthorization, claim."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/claim-use|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="claim"/>
+    <display value="Claim"/>
+    <definition value="The treatment is complete and this represents a Claim for the services."/>
+  </concept>
+  <concept>
+    <code value="preauthorization"/>
+    <display value="Preauthorization"/>
+    <definition value="The treatment is proposed and this represents a Pre-authorization for the services."/>
+  </concept>
+  <concept>
+    <code value="predetermination"/>
+    <display value="Predetermination"/>
+    <definition value="The treatment is proposed and this represents a Pre-determination for the services."/>
+  </concept>
+</CodeSystem>

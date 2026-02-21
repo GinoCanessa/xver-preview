@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-subscription-status-at-event-for-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-subscription-status-at-event-for-R4</b></p><a name="R5-subscription-status-at-event-for-R4"> </a><a name="hcR5-subscription-status-at-event-for-R4"> </a><p>This value set expansion contains 4 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name="R5-subscription-status-at-event-for-R4-http://terminology.hl7.org/CodeSystem/subscription-status-at-event-active"> </a><code>http://terminology.hl7.org/CodeSystem/subscription-status-at-event</code></td><td>0.1.0</td><td style="white-space:nowrap">  active</td><td>Active</td></tr><tr><td><a name="R5-subscription-status-at-event-for-R4-http://terminology.hl7.org/CodeSystem/subscription-status-at-event-error"> </a><code>http://terminology.hl7.org/CodeSystem/subscription-status-at-event</code></td><td>0.1.0</td><td style="white-space:nowrap">  error</td><td>Error</td></tr><tr><td><a name="R5-subscription-status-at-event-for-R4-http://terminology.hl7.org/CodeSystem/subscription-status-at-event-off"> </a><code>http://terminology.hl7.org/CodeSystem/subscription-status-at-event</code></td><td>0.1.0</td><td style="white-space:nowrap">  off</td><td>Off</td></tr><tr><td><a name="R5-subscription-status-at-event-for-R4-http://terminology.hl7.org/CodeSystem/subscription-status-at-event-requested"> </a><code>http://terminology.hl7.org/CodeSystem/subscription-status-at-event</code></td><td>0.1.0</td><td style="white-space:nowrap">  requested</td><td>Requested</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-subscription-status-at-event-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5SubscriptionStatusAtEventForR4"/>
+  <title value="Cross-version ValueSet R5.SubscriptionStatusAtEvent for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/subscription-status-at-event|0.1.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://terminology.hl7.org/ValueSet/subscription-status-at-event|0.1.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* &#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;&#xA;FHIR ValueSet `http://terminology.hl7.org/ValueSet/subscription-status-at-event|0.1.0`, defined in FHIR R5 does not have any mapping to FHIR R4"/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/subscription-status-at-event"/>
+      <version value="0.1.0"/>
+      <concept>
+        <code value="active"/>
+        <display value="Active"/>
+      </concept>
+      <concept>
+        <code value="error"/>
+        <display value="Error"/>
+      </concept>
+      <concept>
+        <code value="off"/>
+        <display value="Off"/>
+      </concept>
+      <concept>
+        <code value="requested"/>
+        <display value="Requested"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/subscription-status-at-event"/>
+      <version value="0.1.0"/>
+      <code value="active"/>
+      <display value="Active"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/subscription-status-at-event"/>
+      <version value="0.1.0"/>
+      <code value="error"/>
+      <display value="Error"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/subscription-status-at-event"/>
+      <version value="0.1.0"/>
+      <code value="off"/>
+      <display value="Off"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/subscription-status-at-event"/>
+      <version value="0.1.0"/>
+      <code value="requested"/>
+      <display value="Requested"/>
+    </contains>
+  </expansion>
+</ValueSet>

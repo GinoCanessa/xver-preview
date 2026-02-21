@@ -1,0 +1,422 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-languages-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-languages-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-languages-for-R4</b></p><a name=\"R5-languages-for-R4\"> </a><a name=\"hcR5-languages-for-R4\"> </a><p>This value set expansion contains 26 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-languages-for-R4-urn:ietf:bcp:47-bg\"> </a><code>urn:ietf:bcp:47</code></td><td>2.0.1</td><td style=\"white-space:nowrap\">  bg</td><td>Bulgarian</td></tr><tr><td><a name=\"R5-languages-for-R4-urn:ietf:bcp:47-bg-BG\"> </a><code>urn:ietf:bcp:47</code></td><td>2.0.1</td><td style=\"white-space:nowrap\">  bg-BG</td><td>Bulgarian (Bulgaria)</td></tr><tr><td><a name=\"R5-languages-for-R4-urn:ietf:bcp:47-bs\"> </a><code>urn:ietf:bcp:47</code></td><td>2.0.1</td><td style=\"white-space:nowrap\">  bs</td><td>Bosnian</td></tr><tr><td><a name=\"R5-languages-for-R4-urn:ietf:bcp:47-bs-BA\"> </a><code>urn:ietf:bcp:47</code></td><td>2.0.1</td><td style=\"white-space:nowrap\">  bs-BA</td><td>Bosnian (Bosnia and Herzegovina))</td></tr><tr><td><a name=\"R5-languages-for-R4-urn:ietf:bcp:47-cs-CZ\"> </a><code>urn:ietf:bcp:47</code></td><td>2.0.1</td><td style=\"white-space:nowrap\">  cs-CZ</td><td>Czech (Czechia)</td></tr><tr><td><a name=\"R5-languages-for-R4-urn:ietf:bcp:47-da-DK\"> </a><code>urn:ietf:bcp:47</code></td><td>2.0.1</td><td style=\"white-space:nowrap\">  da-DK</td><td>Danish (Denmark)</td></tr><tr><td><a name=\"R5-languages-for-R4-urn:ietf:bcp:47-el-GR\"> </a><code>urn:ietf:bcp:47</code></td><td>2.0.1</td><td style=\"white-space:nowrap\">  el-GR</td><td>Greek (Greece)</td></tr><tr><td><a name=\"R5-languages-for-R4-urn:ietf:bcp:47-et\"> </a><code>urn:ietf:bcp:47</code></td><td>2.0.1</td><td style=\"white-space:nowrap\">  et</td><td>Estonian</td></tr><tr><td><a name=\"R5-languages-for-R4-urn:ietf:bcp:47-et-EE\"> </a><code>urn:ietf:bcp:47</code></td><td>2.0.1</td><td style=\"white-space:nowrap\">  et-EE</td><td>Estonian (Estonia)</td></tr><tr><td><a name=\"R5-languages-for-R4-urn:ietf:bcp:47-fi-FI\"> </a><code>urn:ietf:bcp:47</code></td><td>2.0.1</td><td style=\"white-space:nowrap\">  fi-FI</td><td>Finnish (Finland)</td></tr><tr><td><a name=\"R5-languages-for-R4-urn:ietf:bcp:47-fr-CA\"> </a><code>urn:ietf:bcp:47</code></td><td>2.0.1</td><td style=\"white-space:nowrap\">  fr-CA</td><td>French (Canada)</td></tr><tr><td><a name=\"R5-languages-for-R4-urn:ietf:bcp:47-hr-HR\"> </a><code>urn:ietf:bcp:47</code></td><td>2.0.1</td><td style=\"white-space:nowrap\">  hr-HR</td><td>Croatian (Croatia)</td></tr><tr><td><a name=\"R5-languages-for-R4-urn:ietf:bcp:47-is\"> </a><code>urn:ietf:bcp:47</code></td><td>2.0.1</td><td style=\"white-space:nowrap\">  is</td><td>Icelandic</td></tr><tr><td><a name=\"R5-languages-for-R4-urn:ietf:bcp:47-is-IS\"> </a><code>urn:ietf:bcp:47</code></td><td>2.0.1</td><td style=\"white-space:nowrap\">  is-IS</td><td>Icelandic (Iceland)</td></tr><tr><td><a name=\"R5-languages-for-R4-urn:ietf:bcp:47-lt\"> </a><code>urn:ietf:bcp:47</code></td><td>2.0.1</td><td style=\"white-space:nowrap\">  lt</td><td>Lithuanian</td></tr><tr><td><a name=\"R5-languages-for-R4-urn:ietf:bcp:47-lt-LT\"> </a><code>urn:ietf:bcp:47</code></td><td>2.0.1</td><td style=\"white-space:nowrap\">  lt-LT</td><td>Lithuanian (Lithuania)</td></tr><tr><td><a name=\"R5-languages-for-R4-urn:ietf:bcp:47-lv\"> </a><code>urn:ietf:bcp:47</code></td><td>2.0.1</td><td style=\"white-space:nowrap\">  lv</td><td>Latvian</td></tr><tr><td><a name=\"R5-languages-for-R4-urn:ietf:bcp:47-lv-LV\"> </a><code>urn:ietf:bcp:47</code></td><td>2.0.1</td><td style=\"white-space:nowrap\">  lv-LV</td><td>Latvian (Latvia)</td></tr><tr><td><a name=\"R5-languages-for-R4-urn:ietf:bcp:47-pl-PL\"> </a><code>urn:ietf:bcp:47</code></td><td>2.0.1</td><td style=\"white-space:nowrap\">  pl-PL</td><td>Polish (Poland)</td></tr><tr><td><a name=\"R5-languages-for-R4-urn:ietf:bcp:47-pt-PT\"> </a><code>urn:ietf:bcp:47</code></td><td>2.0.1</td><td style=\"white-space:nowrap\">  pt-PT</td><td>Portuguese (Portugal)</td></tr><tr><td><a name=\"R5-languages-for-R4-urn:ietf:bcp:47-ro\"> </a><code>urn:ietf:bcp:47</code></td><td>2.0.1</td><td style=\"white-space:nowrap\">  ro</td><td>Romanian</td></tr><tr><td><a name=\"R5-languages-for-R4-urn:ietf:bcp:47-ro-RO\"> </a><code>urn:ietf:bcp:47</code></td><td>2.0.1</td><td style=\"white-space:nowrap\">  ro-RO</td><td>Romanian (Romania)</td></tr><tr><td><a name=\"R5-languages-for-R4-urn:ietf:bcp:47-sk\"> </a><code>urn:ietf:bcp:47</code></td><td>2.0.1</td><td style=\"white-space:nowrap\">  sk</td><td>Slovakian</td></tr><tr><td><a name=\"R5-languages-for-R4-urn:ietf:bcp:47-sk-SK\"> </a><code>urn:ietf:bcp:47</code></td><td>2.0.1</td><td style=\"white-space:nowrap\">  sk-SK</td><td>Slovakian (Slovakia)</td></tr><tr><td><a name=\"R5-languages-for-R4-urn:ietf:bcp:47-sl\"> </a><code>urn:ietf:bcp:47</code></td><td>2.0.1</td><td style=\"white-space:nowrap\">  sl</td><td>Slovenian</td></tr><tr><td><a name=\"R5-languages-for-R4-urn:ietf:bcp:47-sl-SI\"> </a><code>urn:ietf:bcp:47</code></td><td>2.0.1</td><td style=\"white-space:nowrap\">  sl-SI</td><td>Slovenian (Slovenia)</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 5
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-languages-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-languages-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5LanguagesForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.CommonLanguages for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from http://hl7.org/fhir/ValueSet/languages|5.0.0 for use in FHIR R4 that is appropriate for use but unavailable in `http://hl7.org/fhir/ValueSet/languages|4.0.1`."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/languages|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `Citation.citedArtifact.abstract.language` as Preferred\n* `Citation.citedArtifact.publicationForm.language` as Preferred\n* `Citation.citedArtifact.title.language` as Preferred\n* `InventoryItem.description.language` as Required\n* `InventoryItem.name.language` as Required\n* `TerminologyCapabilities.codeSystem.version.language` as Required\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/languages|5.0.0`\n* `http://hl7.org/fhir/ValueSet/languages|4.3.0`\n* `http://hl7.org/fhir/ValueSet/languages|4.0.1`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* `urn:ietf:bcp:47#ar`\n* `urn:ietf:bcp:47#bn`\n* `urn:ietf:bcp:47#cs`\n* `urn:ietf:bcp:47#da`\n* `urn:ietf:bcp:47#de`\n* `urn:ietf:bcp:47#de-AT`\n* `urn:ietf:bcp:47#de-CH`\n* `urn:ietf:bcp:47#de-DE`\n* `urn:ietf:bcp:47#el`\n* `urn:ietf:bcp:47#en`\n* `urn:ietf:bcp:47#en-AU`\n* `urn:ietf:bcp:47#en-CA`\n* `urn:ietf:bcp:47#en-GB`\n* `urn:ietf:bcp:47#en-IN`\n* `urn:ietf:bcp:47#en-NZ`\n* `urn:ietf:bcp:47#en-SG`\n* `urn:ietf:bcp:47#en-US`\n* `urn:ietf:bcp:47#es`\n* `urn:ietf:bcp:47#es-AR`\n* `urn:ietf:bcp:47#es-ES`\n* `urn:ietf:bcp:47#es-UY`\n* `urn:ietf:bcp:47#fi`\n* `urn:ietf:bcp:47#fr`\n* `urn:ietf:bcp:47#fr-BE`\n* `urn:ietf:bcp:47#fr-CH`\n* `urn:ietf:bcp:47#fr-FR`\n* `urn:ietf:bcp:47#fy`\n* `urn:ietf:bcp:47#fy-NL`\n* `urn:ietf:bcp:47#hi`\n* `urn:ietf:bcp:47#hr`\n* `urn:ietf:bcp:47#it`\n* `urn:ietf:bcp:47#it-CH`\n* `urn:ietf:bcp:47#it-IT`\n* `urn:ietf:bcp:47#ja`\n* `urn:ietf:bcp:47#ko`\n* `urn:ietf:bcp:47#nl`\n* `urn:ietf:bcp:47#nl-BE`\n* `urn:ietf:bcp:47#nl-NL`\n* `urn:ietf:bcp:47#no`\n* `urn:ietf:bcp:47#no-NO`\n* `urn:ietf:bcp:47#pa`\n* `urn:ietf:bcp:47#pl`\n* `urn:ietf:bcp:47#pt`\n* `urn:ietf:bcp:47#pt-BR`\n* `urn:ietf:bcp:47#ru`\n* `urn:ietf:bcp:47#ru-RU`\n* `urn:ietf:bcp:47#sr`\n* `urn:ietf:bcp:47#sr-RS`\n* `urn:ietf:bcp:47#sv`\n* `urn:ietf:bcp:47#sv-SE`\n* `urn:ietf:bcp:47#te`\n* `urn:ietf:bcp:47#zh`\n* `urn:ietf:bcp:47#zh-CN`\n* `urn:ietf:bcp:47#zh-HK`\n* `urn:ietf:bcp:47#zh-SG`\n* `urn:ietf:bcp:47#zh-TW`\r\n\r\nFollowing are the generation technical comments:\r\nAll concepts in the comparison are have code literals listed as identical.\nThe source value set has more active concepts (82) than the target (56), so the source is broader than the target.\nAll concepts in the comparison are have code literals listed as identical.\nThe source and target value sets have the same number of active concepts (56)."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "bg" ] ;
+         fhir:display [ fhir:v "Bulgarian" ]
+       ] [
+         fhir:code [ fhir:v "bg-BG" ] ;
+         fhir:display [ fhir:v "Bulgarian (Bulgaria)" ]
+       ] [
+         fhir:code [ fhir:v "bs" ] ;
+         fhir:display [ fhir:v "Bosnian" ]
+       ] [
+         fhir:code [ fhir:v "bs-BA" ] ;
+         fhir:display [ fhir:v "Bosnian (Bosnia and Herzegovina))" ]
+       ] [
+         fhir:code [ fhir:v "cs-CZ" ] ;
+         fhir:display [ fhir:v "Czech (Czechia)" ]
+       ] [
+         fhir:code [ fhir:v "da-DK" ] ;
+         fhir:display [ fhir:v "Danish (Denmark)" ]
+       ] [
+         fhir:code [ fhir:v "el-GR" ] ;
+         fhir:display [ fhir:v "Greek (Greece)" ]
+       ] [
+         fhir:code [ fhir:v "et" ] ;
+         fhir:display [ fhir:v "Estonian" ]
+       ] [
+         fhir:code [ fhir:v "et-EE" ] ;
+         fhir:display [ fhir:v "Estonian (Estonia)" ]
+       ] [
+         fhir:code [ fhir:v "fi-FI" ] ;
+         fhir:display [ fhir:v "Finnish (Finland)" ]
+       ] [
+         fhir:code [ fhir:v "fr-CA" ] ;
+         fhir:display [ fhir:v "French (Canada)" ]
+       ] [
+         fhir:code [ fhir:v "hr-HR" ] ;
+         fhir:display [ fhir:v "Croatian (Croatia)" ]
+       ] [
+         fhir:code [ fhir:v "is" ] ;
+         fhir:display [ fhir:v "Icelandic" ]
+       ] [
+         fhir:code [ fhir:v "is-IS" ] ;
+         fhir:display [ fhir:v "Icelandic (Iceland)" ]
+       ] [
+         fhir:code [ fhir:v "lt" ] ;
+         fhir:display [ fhir:v "Lithuanian" ]
+       ] [
+         fhir:code [ fhir:v "lt-LT" ] ;
+         fhir:display [ fhir:v "Lithuanian (Lithuania)" ]
+       ] [
+         fhir:code [ fhir:v "lv" ] ;
+         fhir:display [ fhir:v "Latvian" ]
+       ] [
+         fhir:code [ fhir:v "lv-LV" ] ;
+         fhir:display [ fhir:v "Latvian (Latvia)" ]
+       ] [
+         fhir:code [ fhir:v "pl-PL" ] ;
+         fhir:display [ fhir:v "Polish (Poland)" ]
+       ] [
+         fhir:code [ fhir:v "pt-PT" ] ;
+         fhir:display [ fhir:v "Portuguese (Portugal)" ]
+       ] [
+         fhir:code [ fhir:v "ro" ] ;
+         fhir:display [ fhir:v "Romanian" ]
+       ] [
+         fhir:code [ fhir:v "ro-RO" ] ;
+         fhir:display [ fhir:v "Romanian (Romania)" ]
+       ] [
+         fhir:code [ fhir:v "sk" ] ;
+         fhir:display [ fhir:v "Slovakian" ]
+       ] [
+         fhir:code [ fhir:v "sk-SK" ] ;
+         fhir:display [ fhir:v "Slovakian (Slovakia)" ]
+       ] [
+         fhir:code [ fhir:v "sl" ] ;
+         fhir:display [ fhir:v "Slovenian" ]
+       ] [
+         fhir:code [ fhir:v "sl-SI" ] ;
+         fhir:display [ fhir:v "Slovenian (Slovenia)" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:code [ fhir:v "bg" ] ;
+       fhir:display [ fhir:v "Bulgarian" ]
+     ] [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:code [ fhir:v "bg-BG" ] ;
+       fhir:display [ fhir:v "Bulgarian (Bulgaria)" ]
+     ] [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:code [ fhir:v "bs" ] ;
+       fhir:display [ fhir:v "Bosnian" ]
+     ] [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:code [ fhir:v "bs-BA" ] ;
+       fhir:display [ fhir:v "Bosnian (Bosnia and Herzegovina))" ]
+     ] [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:code [ fhir:v "cs-CZ" ] ;
+       fhir:display [ fhir:v "Czech (Czechia)" ]
+     ] [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:code [ fhir:v "da-DK" ] ;
+       fhir:display [ fhir:v "Danish (Denmark)" ]
+     ] [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:code [ fhir:v "el-GR" ] ;
+       fhir:display [ fhir:v "Greek (Greece)" ]
+     ] [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:code [ fhir:v "et" ] ;
+       fhir:display [ fhir:v "Estonian" ]
+     ] [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:code [ fhir:v "et-EE" ] ;
+       fhir:display [ fhir:v "Estonian (Estonia)" ]
+     ] [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:code [ fhir:v "fi-FI" ] ;
+       fhir:display [ fhir:v "Finnish (Finland)" ]
+     ] [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:code [ fhir:v "fr-CA" ] ;
+       fhir:display [ fhir:v "French (Canada)" ]
+     ] [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:code [ fhir:v "hr-HR" ] ;
+       fhir:display [ fhir:v "Croatian (Croatia)" ]
+     ] [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:code [ fhir:v "is" ] ;
+       fhir:display [ fhir:v "Icelandic" ]
+     ] [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:code [ fhir:v "is-IS" ] ;
+       fhir:display [ fhir:v "Icelandic (Iceland)" ]
+     ] [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:code [ fhir:v "lt" ] ;
+       fhir:display [ fhir:v "Lithuanian" ]
+     ] [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:code [ fhir:v "lt-LT" ] ;
+       fhir:display [ fhir:v "Lithuanian (Lithuania)" ]
+     ] [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:code [ fhir:v "lv" ] ;
+       fhir:display [ fhir:v "Latvian" ]
+     ] [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:code [ fhir:v "lv-LV" ] ;
+       fhir:display [ fhir:v "Latvian (Latvia)" ]
+     ] [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:code [ fhir:v "pl-PL" ] ;
+       fhir:display [ fhir:v "Polish (Poland)" ]
+     ] [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:code [ fhir:v "pt-PT" ] ;
+       fhir:display [ fhir:v "Portuguese (Portugal)" ]
+     ] [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:code [ fhir:v "ro" ] ;
+       fhir:display [ fhir:v "Romanian" ]
+     ] [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:code [ fhir:v "ro-RO" ] ;
+       fhir:display [ fhir:v "Romanian (Romania)" ]
+     ] [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:code [ fhir:v "sk" ] ;
+       fhir:display [ fhir:v "Slovakian" ]
+     ] [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:code [ fhir:v "sk-SK" ] ;
+       fhir:display [ fhir:v "Slovakian (Slovakia)" ]
+     ] [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:code [ fhir:v "sl" ] ;
+       fhir:display [ fhir:v "Slovenian" ]
+     ] [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:version [ fhir:v "2.0.1" ] ;
+       fhir:code [ fhir:v "sl-SI" ] ;
+       fhir:display [ fhir:v "Slovenian (Slovenia)" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

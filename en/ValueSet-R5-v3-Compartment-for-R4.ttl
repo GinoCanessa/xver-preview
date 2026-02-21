@@ -1,0 +1,257 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-Compartment-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-v3-Compartment-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-v3-Compartment-for-R4</b></p><a name=\"R5-v3-Compartment-for-R4\"> </a><a name=\"hcR5-v3-Compartment-for-R4\"> </a><p>This value set expansion contains 10 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"R5-v3-Compartment-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-ACOCOMPT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-ACOCOMPT\">ACOCOMPT</a></td><td>accountable care organization compartment</td><td><div><p>A group of health care entities, which may include health care providers, care givers, hospitals, facilities, health plans, and other health care constituents who coordinate care for reimbursement based on quality metrics for improving outcomes and lowering costs, and may be authorized to access the consumer's health information because of membership in that group.</p>\n<p>Security Compartment Labels assigned to a consumer's information use in accountable care workflows should be met or exceeded by the Security Compartment attribute claimed by a participant in a an accountable care workflow who is requesting access to that information</p>\n</div></td></tr><tr><td><a name=\"R5-v3-Compartment-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-CDSSCOMPT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-CDSSCOMPT\">CDSSCOMPT</a></td><td>CDS system compartment</td><td><div><p>This compartment code may be used as a field value in an initiator's clearance to indicate permission for its Clinical Decision Support system (CDSS) to access and use an IT Resource with a security label having the same compartment value in the security category label field.</p>\n<p>This code permits a CDS system to algorithmically process information with this compartment tag for the purpose of alerting an unauthorized end user that masked information is needed to address an emergency or a patient safety issue, such as a contraindicated medication. The alert would advise the end user to \"break the glass\", to access the masked information in an accountable manner, or to ask the patient about possibly masked information.</p>\n<p>For example, releasing a list of sensitive medications with this compartment tag means that while the CDS system is permitted to use this list in its contraindication analysis, this sensitive information should not be shared directly with unauthorized end-users or end-user-facing Apps. Based on the results of the CDS system analysis (e.g., warnings about prescriptions) the end-user (e.g., a clinician) may still have the ability to access to the sensitive information by invoking \"break-the-glass protocol\".</p>\n<p><em>Usage Note:</em> A security label with the CDS system compartment may be used in conjunction with other security labels, e.g., a label authorizing an end user with adequate clearance to access the same CDS system compartment tagged information. For example, a patient may restrict sharing sensitive information with most care team members except in an emergency or to prevent an adverse event, and may consent to sharing with their sensitive service care team providers, e.g., for mental health or substance abuse.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-Compartment-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-COMPT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-COMPT\">COMPT</a></td><td>compartment</td><td><div><p>This is the healthcare analog to the US Intelligence Community's concept of a Special Access Program. Compartment codes may be used in as a field value in an initiator's clearance to indicate permission to access and use an IT Resource with a security label having the same compartment value in security category label field.</p>\n<p>Map: Aligns with ISO 2382-8 definition of Compartment - \"A division of data into isolated blocks with separate security controls for the purpose of reducing risk.\"</p>\n</div></td></tr><tr><td><a name=\"R5-v3-Compartment-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-CTCOMPT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-CTCOMPT\">CTCOMPT</a></td><td>care team compartment</td><td><div><p>Care coordination across participants in a care plan requires sharing of a healthcare consumer's information specific to that workflow. A care team member should only have access to that information while participating in that workflow or for other authorized uses.</p>\n<p>Security Compartment Labels assigned to a consumer's information use in care coordination workflows should be met or exceeded by the Security Compartment attribute claimed by a participant in a care team member workflow who is requesting access to that information</p>\n</div></td></tr><tr><td><a name=\"R5-v3-Compartment-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-FMCOMPT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-FMCOMPT\">FMCOMPT</a></td><td>financial management compartment</td><td><div><p>Financial management department members who have access to healthcare consumer information as part of a patient account, billing and claims workflows.</p>\n<p>Security Compartment Labels assigned to consumer information used in these workflows should be met or exceeded by the Security Compartment attribute claimed by a participant in a financial management workflow who is requesting access to that information.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-Compartment-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-HRCOMPT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-HRCOMPT\">HRCOMPT</a></td><td>human resource compartment</td><td><div><p>A security category label field value, which indicates that access and use of an IT resource is restricted to members of human resources department or workflow.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-Compartment-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-LRCOMPT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-LRCOMPT\">LRCOMPT</a></td><td>legitimate relationship compartment</td><td><div><p>Providers and care givers who have an established relationship per criteria determined by policy are considered to have an established care provision relations with a healthcare consumer, and may be authorized to access the consumer's health information because of that relationship. Providers and care givers should only have access to that information while participating in legitimate relationship workflows or for other authorized uses.</p>\n<p>Security Compartment Labels assigned to a consumer's information use in legitimate relationship workflows should be met or exceeded by the Security Compartment attribute claimed by a participant in a legitimate relationship workflow who is requesting access to that information.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-Compartment-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-PACOMPT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-PACOMPT\">PACOMPT</a></td><td>patient administration compartment</td><td><div><p>Patient administration members who have access to healthcare consumer information as part of a patient administration workflows.</p>\n<p>Security Compartment Labels assigned to consumer information used in these workflows should be met or exceeded by the Security Compartment attribute claimed by a participant in a patient administration workflow who is requesting access to that information.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-Compartment-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-RESCOMPT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-RESCOMPT\">RESCOMPT</a></td><td>research project compartment</td><td><div><p>A security category label field value, which indicates that access and use of an IT resource is restricted to members of a research project.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-Compartment-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-RMGTCOMPT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-RMGTCOMPT\">RMGTCOMPT</a></td><td>records management compartment</td><td><div><p>A security category label field value, which indicates that access and use of an IT resource is restricted to members of records management department or workflow.</p>\n</div></td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-Compartment-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-Compartment-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5V3CompartmentForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.Compartment for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v3-Compartment|2.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/v3-Compartment|2.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* \r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://terminology.hl7.org/ValueSet/v3-Compartment|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "ACOCOMPT" ] ;
+         fhir:display [ fhir:v "accountable care organization compartment" ]
+       ] [
+         fhir:code [ fhir:v "CDSSCOMPT" ] ;
+         fhir:display [ fhir:v "CDS system compartment" ]
+       ] [
+         fhir:code [ fhir:v "COMPT" ] ;
+         fhir:display [ fhir:v "compartment" ]
+       ] [
+         fhir:code [ fhir:v "CTCOMPT" ] ;
+         fhir:display [ fhir:v "care team compartment" ]
+       ] [
+         fhir:code [ fhir:v "FMCOMPT" ] ;
+         fhir:display [ fhir:v "financial management compartment" ]
+       ] [
+         fhir:code [ fhir:v "HRCOMPT" ] ;
+         fhir:display [ fhir:v "human resource compartment" ]
+       ] [
+         fhir:code [ fhir:v "LRCOMPT" ] ;
+         fhir:display [ fhir:v "legitimate relationship compartment" ]
+       ] [
+         fhir:code [ fhir:v "PACOMPT" ] ;
+         fhir:display [ fhir:v "patient administration compartment" ]
+       ] [
+         fhir:code [ fhir:v "RESCOMPT" ] ;
+         fhir:display [ fhir:v "research project compartment" ]
+       ] [
+         fhir:code [ fhir:v "RMGTCOMPT" ] ;
+         fhir:display [ fhir:v "records management compartment" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "ACOCOMPT" ] ;
+       fhir:display [ fhir:v "accountable care organization compartment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "CDSSCOMPT" ] ;
+       fhir:display [ fhir:v "CDS system compartment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "COMPT" ] ;
+       fhir:display [ fhir:v "compartment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "CTCOMPT" ] ;
+       fhir:display [ fhir:v "care team compartment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "FMCOMPT" ] ;
+       fhir:display [ fhir:v "financial management compartment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "HRCOMPT" ] ;
+       fhir:display [ fhir:v "human resource compartment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "LRCOMPT" ] ;
+       fhir:display [ fhir:v "legitimate relationship compartment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "PACOMPT" ] ;
+       fhir:display [ fhir:v "patient administration compartment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "RESCOMPT" ] ;
+       fhir:display [ fhir:v "research project compartment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "RMGTCOMPT" ] ;
+       fhir:display [ fhir:v "records management compartment" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

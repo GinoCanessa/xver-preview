@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-encounter-diagnosis-use-for-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-encounter-diagnosis-use-for-R4</b></p><a name="R5-encounter-diagnosis-use-for-R4"> </a><a name="hcR5-encounter-diagnosis-use-for-R4"> </a><p>This value set expansion contains 2 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name="R5-encounter-diagnosis-use-for-R4-http://hl7.org/fhir/encounter-diagnosis-use-final"> </a><code>http://hl7.org/fhir/encounter-diagnosis-use</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-encounter-diagnosis-use.html#encounter-diagnosis-use-final">final</a></td><td>Final</td></tr><tr><td><a name="R5-encounter-diagnosis-use-for-R4-http://hl7.org/fhir/encounter-diagnosis-use-working"> </a><code>http://hl7.org/fhir/encounter-diagnosis-use</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-encounter-diagnosis-use.html#encounter-diagnosis-use-working">working</a></td><td>Working</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pa"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-encounter-diagnosis-use-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5EncounterDiagnosisUseForR4"/>
+  <title value="Cross-version ValueSet R5.EncounterDiagnosisUse for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="Patient Administration"/>
+  <contact>
+    <name value="Patient Administration"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pafm"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/encounter-diagnosis-use|5.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/encounter-diagnosis-use|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `Account.diagnosis.type`&#xA;* `Encounter.diagnosis.use`&#xA;* `EpisodeOfCare.diagnosis.use`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;&#xA;FHIR ValueSet `http://hl7.org/fhir/ValueSet/encounter-diagnosis-use|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/encounter-diagnosis-use"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="final"/>
+        <display value="Final"/>
+      </concept>
+      <concept>
+        <code value="working"/>
+        <display value="Working"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/encounter-diagnosis-use"/>
+      <version value="5.0.0"/>
+      <code value="final"/>
+      <display value="Final"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/encounter-diagnosis-use"/>
+      <version value="5.0.0"/>
+      <code value="working"/>
+      <display value="Working"/>
+    </contains>
+  </expansion>
+</ValueSet>

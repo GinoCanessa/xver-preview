@@ -1,0 +1,597 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-CodeSystem-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-CodeSystem-element-map-to-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-CodeSystem-element-map-to-R4</b></p><a name=\"R5-CodeSystem-element-map-to-R4\"> </a><a name=\"hcR5-CodeSystem-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/CodeSystem|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/codesystem.html\">CodeSystemversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>CodeSystem.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.meta` is mapped to FHIR R4 element `CodeSystem.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.implicitRules` is mapped to FHIR R4 element `CodeSystem.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.language` is mapped to FHIR R4 element `CodeSystem.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.text` is mapped to FHIR R4 element `CodeSystem.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.contained` is mapped to FHIR R4 element `CodeSystem.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.url (url)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.url` is mapped to FHIR R4 element `CodeSystem.url` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.identifier` is mapped to FHIR R4 element `CodeSystem.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.version (version)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.version` is mapped to FHIR R4 element `CodeSystem.version` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.name` is mapped to FHIR R4 element `CodeSystem.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.title (title)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.title` is mapped to FHIR R4 element `CodeSystem.title` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.status` is mapped to FHIR R4 element `CodeSystem.status` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.experimental (experimental)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.experimental` is mapped to FHIR R4 element `CodeSystem.experimental` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.date (date)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.date` is mapped to FHIR R4 element `CodeSystem.date` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.publisher (publisher)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.publisher` is mapped to FHIR R4 element `CodeSystem.publisher` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.contact (contact)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.contact` is mapped to FHIR R4 element `CodeSystem.contact` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.description` is mapped to FHIR R4 element `CodeSystem.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.useContext (useContext)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.useContext` is mapped to FHIR R4 element `CodeSystem.useContext` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.jurisdiction (jurisdiction)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.jurisdiction` is mapped to FHIR R4 element `CodeSystem.jurisdiction` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.purpose (purpose)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.purpose` is mapped to FHIR R4 element `CodeSystem.purpose` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.copyright (copyright)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.copyright` is mapped to FHIR R4 element `CodeSystem.copyright` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.caseSensitive (caseSensitive)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.caseSensitive` is mapped to FHIR R4 element `CodeSystem.caseSensitive` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.valueSet (valueSet)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.valueSet` is mapped to FHIR R4 element `CodeSystem.valueSet` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.hierarchyMeaning (hierarchyMeaning)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.hierarchyMeaning` is mapped to FHIR R4 element `CodeSystem.hierarchyMeaning` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.compositional (compositional)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.compositional` is mapped to FHIR R4 element `CodeSystem.compositional` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.versionNeeded (versionNeeded)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.versionNeeded` is mapped to FHIR R4 element `CodeSystem.versionNeeded` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.content (content)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.content` is mapped to FHIR R4 element `CodeSystem.content` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.supplements (supplements)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.supplements` is mapped to FHIR R4 element `CodeSystem.supplements` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.count (count)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.count` is mapped to FHIR R4 element `CodeSystem.count` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.filter (filter)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CodeSystem.filter` is mapped to FHIR R4 element `CodeSystem.filter` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.filter.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.filter.code` is mapped to FHIR R4 element `CodeSystem.filter.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.filter.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.filter.description` is mapped to FHIR R4 element `CodeSystem.filter.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.filter.operator (operator)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CodeSystem.filter.operator` is mapped to FHIR R4 element `CodeSystem.filter.operator` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.filter.value (value)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.filter.value` is mapped to FHIR R4 element `CodeSystem.filter.value` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.property (property)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CodeSystem.property` is mapped to FHIR R4 element `CodeSystem.property` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.property.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.property.code` is mapped to FHIR R4 element `CodeSystem.property.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.property.uri (uri)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.property.uri` is mapped to FHIR R4 element `CodeSystem.property.uri` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.property.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.property.description` is mapped to FHIR R4 element `CodeSystem.property.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.property.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.property.type` is mapped to FHIR R4 element `CodeSystem.property.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.concept (concept)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CodeSystem.concept` is mapped to FHIR R4 element `CodeSystem.concept` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CodeSystem.concept.concept` because `CodeSystem.concept.concept` is defined as a content reference to `CodeSystem.concept`.</td></tr><tr><td>CodeSystem.concept.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.concept.code` is mapped to FHIR R4 element `CodeSystem.concept.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CodeSystem.concept.concept.code` because `CodeSystem.concept.concept` is defined via a content reference to `CodeSystem.concept`.</td></tr><tr><td>CodeSystem.concept.display (display)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.concept.display` is mapped to FHIR R4 element `CodeSystem.concept.display` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CodeSystem.concept.concept.display` because `CodeSystem.concept.concept` is defined via a content reference to `CodeSystem.concept`.</td></tr><tr><td>CodeSystem.concept.definition (definition)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.concept.definition` is mapped to FHIR R4 element `CodeSystem.concept.definition` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CodeSystem.concept.concept.definition` because `CodeSystem.concept.concept` is defined via a content reference to `CodeSystem.concept`.</td></tr><tr><td>CodeSystem.concept.designation (designation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CodeSystem.concept.designation` is mapped to FHIR R4 element `CodeSystem.concept.designation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CodeSystem.concept.concept.designation` because `CodeSystem.concept.concept` is defined via a content reference to `CodeSystem.concept`.</td></tr><tr><td>CodeSystem.concept.designation.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.concept.designation.language` is mapped to FHIR R4 element `CodeSystem.concept.designation.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CodeSystem.concept.concept.designation.language` because `CodeSystem.concept.concept` is defined via a content reference to `CodeSystem.concept`.</td></tr><tr><td>CodeSystem.concept.designation.use (use)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.concept.designation.use` is mapped to FHIR R4 element `CodeSystem.concept.designation.use` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CodeSystem.concept.concept.designation.use` because `CodeSystem.concept.concept` is defined via a content reference to `CodeSystem.concept`.</td></tr><tr><td>CodeSystem.concept.designation.value (value)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.concept.designation.value` is mapped to FHIR R4 element `CodeSystem.concept.designation.value` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CodeSystem.concept.concept.designation.value` because `CodeSystem.concept.concept` is defined via a content reference to `CodeSystem.concept`.</td></tr><tr><td>CodeSystem.concept.property (property)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CodeSystem.concept.property` is mapped to FHIR R4 element `CodeSystem.concept.property` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CodeSystem.concept.concept.property` because `CodeSystem.concept.concept` is defined via a content reference to `CodeSystem.concept`.</td></tr><tr><td>CodeSystem.concept.property.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.concept.property.code` is mapped to FHIR R4 element `CodeSystem.concept.property.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CodeSystem.concept.concept.property.code` because `CodeSystem.concept.concept` is defined via a content reference to `CodeSystem.concept`.</td></tr><tr><td>CodeSystem.concept.property.value[x] (value[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Note that the target element context `CodeSystem.concept.property.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CodeSystem.concept.property`.\nElement `CodeSystem.concept.property.value[x]` is mapped to FHIR R4 element `CodeSystem.concept.property.value[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `CodeSystem.concept.property.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CodeSystem.concept.property`.\nNote available implied context: `CodeSystem.concept.concept.property` because `CodeSystem.concept.concept` is defined via a content reference to `CodeSystem.concept`.</td></tr><tr><td>CodeSystem.concept.concept (concept)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CodeSystem.concept.concept` is mapped to FHIR R4 element `CodeSystem.concept.concept` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CodeSystem.concept.concept.concept` because `CodeSystem.concept.concept` is defined via a content reference to `CodeSystem.concept`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/CodeSystem|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Packversion: 5.2.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>CodeSystem.versionAlgorithm[x] (versionAlgorithm[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CodeSystem.versionAlgorithm[x]`: `http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm`.\nElement `CodeSystem.versionAlgorithm[x]` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.</td></tr><tr><td>CodeSystem.copyrightLabel (copyrightLabel)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CodeSystem.copyrightLabel`: `http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel`.\nElement `CodeSystem.copyrightLabel` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.</td></tr><tr><td>CodeSystem.approvalDate (approvalDate)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-approvalDate</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CodeSystem.approvalDate`: `http://hl7.org/fhir/StructureDefinition/artifact-approvalDate`.\nElement `CodeSystem.approvalDate` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.</td></tr><tr><td>CodeSystem.lastReviewDate (lastReviewDate)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-lastReviewDate</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CodeSystem.lastReviewDate`: `http://hl7.org/fhir/StructureDefinition/artifact-lastReviewDate`.\nElement `CodeSystem.lastReviewDate` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.</td></tr><tr><td>CodeSystem.effectivePeriod (effectivePeriod)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-effectivePeriod</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CodeSystem.effectivePeriod`: `http://hl7.org/fhir/StructureDefinition/artifact-effectivePeriod`.\nElement `CodeSystem.effectivePeriod` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.</td></tr><tr><td>CodeSystem.topic (topic)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-topic</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CodeSystem.topic`: `http://hl7.org/fhir/StructureDefinition/artifact-topic`.\nElement `CodeSystem.topic` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.</td></tr><tr><td>CodeSystem.author (author)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-author</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CodeSystem.author`: `http://hl7.org/fhir/StructureDefinition/artifact-author`.\nElement `CodeSystem.author` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.</td></tr><tr><td>CodeSystem.editor (editor)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-editor</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CodeSystem.editor`: `http://hl7.org/fhir/StructureDefinition/artifact-editor`.\nElement `CodeSystem.editor` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.</td></tr><tr><td>CodeSystem.reviewer (reviewer)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-reviewer</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CodeSystem.reviewer`: `http://hl7.org/fhir/StructureDefinition/artifact-reviewer`.\nElement `CodeSystem.reviewer` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.</td></tr><tr><td>CodeSystem.endorser (endorser)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-endorser</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CodeSystem.endorser`: `http://hl7.org/fhir/StructureDefinition/artifact-endorser`.\nElement `CodeSystem.endorser` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.</td></tr><tr><td>CodeSystem.relatedArtifact (relatedArtifact)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-relatedArtifact</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CodeSystem.relatedArtifact`: `http://hl7.org/fhir/StructureDefinition/artifact-relatedArtifact`.\nElement `CodeSystem.relatedArtifact` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/CodeSystem|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>CodeSystem.filter.operator (operator)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.filter.operator</td><td>Element `CodeSystem.filter.operator` is mapped to FHIR R4 element `CodeSystem.filter.operator` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CodeSystem.concept.designation.additionalUse (additionalUse)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept.designation.additionalUse</td><td>Element `CodeSystem.concept.designation.additionalUse` has a context of CodeSystem.concept.designation based on following the parent source element upwards and mapping to `CodeSystem`.\nNote available implied context: `CodeSystem.concept.concept.designation` because `CodeSystem.concept.concept` is defined via a content reference to `CodeSystem.concept`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-CodeSystem-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-CodeSystem-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5CodeSystemElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 CodeSystem to FHIR R4 CodeSystem"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T13:36:55.6784733-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 CodeSystem to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/CodeSystem"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/CodeSystem>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/CodeSystem"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/CodeSystem>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "CodeSystem.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.meta` is mapped to FHIR R4 element `CodeSystem.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.implicitRules` is mapped to FHIR R4 element `CodeSystem.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.language` is mapped to FHIR R4 element `CodeSystem.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.text` is mapped to FHIR R4 element `CodeSystem.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.contained` is mapped to FHIR R4 element `CodeSystem.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.url` is mapped to FHIR R4 element `CodeSystem.url` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.identifier` is mapped to FHIR R4 element `CodeSystem.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.version` is mapped to FHIR R4 element `CodeSystem.version` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.name` is mapped to FHIR R4 element `CodeSystem.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.title` is mapped to FHIR R4 element `CodeSystem.title` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.status` is mapped to FHIR R4 element `CodeSystem.status` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.experimental" ] ;
+       fhir:display [ fhir:v "experimental" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.experimental` is mapped to FHIR R4 element `CodeSystem.experimental` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.date` is mapped to FHIR R4 element `CodeSystem.date` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.publisher" ] ;
+       fhir:display [ fhir:v "publisher" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.publisher` is mapped to FHIR R4 element `CodeSystem.publisher` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.contact` is mapped to FHIR R4 element `CodeSystem.contact` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.description` is mapped to FHIR R4 element `CodeSystem.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.useContext" ] ;
+       fhir:display [ fhir:v "useContext" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.useContext` is mapped to FHIR R4 element `CodeSystem.useContext` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.jurisdiction` is mapped to FHIR R4 element `CodeSystem.jurisdiction` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.purpose" ] ;
+       fhir:display [ fhir:v "purpose" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.purpose` is mapped to FHIR R4 element `CodeSystem.purpose` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.copyright" ] ;
+       fhir:display [ fhir:v "copyright" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.copyright` is mapped to FHIR R4 element `CodeSystem.copyright` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.caseSensitive" ] ;
+       fhir:display [ fhir:v "caseSensitive" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.caseSensitive` is mapped to FHIR R4 element `CodeSystem.caseSensitive` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.valueSet" ] ;
+       fhir:display [ fhir:v "valueSet" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.valueSet` is mapped to FHIR R4 element `CodeSystem.valueSet` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.hierarchyMeaning" ] ;
+       fhir:display [ fhir:v "hierarchyMeaning" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.hierarchyMeaning` is mapped to FHIR R4 element `CodeSystem.hierarchyMeaning` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.compositional" ] ;
+       fhir:display [ fhir:v "compositional" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.compositional` is mapped to FHIR R4 element `CodeSystem.compositional` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.versionNeeded" ] ;
+       fhir:display [ fhir:v "versionNeeded" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.versionNeeded` is mapped to FHIR R4 element `CodeSystem.versionNeeded` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.content" ] ;
+       fhir:display [ fhir:v "content" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.content` is mapped to FHIR R4 element `CodeSystem.content` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.supplements" ] ;
+       fhir:display [ fhir:v "supplements" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.supplements` is mapped to FHIR R4 element `CodeSystem.supplements` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.count" ] ;
+       fhir:display [ fhir:v "count" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.count` is mapped to FHIR R4 element `CodeSystem.count` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.filter" ] ;
+       fhir:display [ fhir:v "filter" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.filter` is mapped to FHIR R4 element `CodeSystem.filter` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.filter.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.filter.code` is mapped to FHIR R4 element `CodeSystem.filter.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.filter.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.filter.description` is mapped to FHIR R4 element `CodeSystem.filter.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.filter.operator" ] ;
+       fhir:display [ fhir:v "operator" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.filter.operator` is mapped to FHIR R4 element `CodeSystem.filter.operator` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.filter.value" ] ;
+       fhir:display [ fhir:v "value" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.filter.value` is mapped to FHIR R4 element `CodeSystem.filter.value` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.property" ] ;
+       fhir:display [ fhir:v "property" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.property` is mapped to FHIR R4 element `CodeSystem.property` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.property.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.property.code` is mapped to FHIR R4 element `CodeSystem.property.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.property.uri" ] ;
+       fhir:display [ fhir:v "uri" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.property.uri` is mapped to FHIR R4 element `CodeSystem.property.uri` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.property.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.property.description` is mapped to FHIR R4 element `CodeSystem.property.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.property.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.property.type` is mapped to FHIR R4 element `CodeSystem.property.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.concept" ] ;
+       fhir:display [ fhir:v "concept" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.concept` is mapped to FHIR R4 element `CodeSystem.concept` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CodeSystem.concept.concept` because `CodeSystem.concept.concept` is defined as a content reference to `CodeSystem.concept`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.concept.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.concept.code` is mapped to FHIR R4 element `CodeSystem.concept.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CodeSystem.concept.concept.code` because `CodeSystem.concept.concept` is defined via a content reference to `CodeSystem.concept`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.concept.display" ] ;
+       fhir:display [ fhir:v "display" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.concept.display` is mapped to FHIR R4 element `CodeSystem.concept.display` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CodeSystem.concept.concept.display` because `CodeSystem.concept.concept` is defined via a content reference to `CodeSystem.concept`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.concept.definition" ] ;
+       fhir:display [ fhir:v "definition" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.concept.definition` is mapped to FHIR R4 element `CodeSystem.concept.definition` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CodeSystem.concept.concept.definition` because `CodeSystem.concept.concept` is defined via a content reference to `CodeSystem.concept`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.concept.designation" ] ;
+       fhir:display [ fhir:v "designation" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.concept.designation` is mapped to FHIR R4 element `CodeSystem.concept.designation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CodeSystem.concept.concept.designation` because `CodeSystem.concept.concept` is defined via a content reference to `CodeSystem.concept`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.concept.designation.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.concept.designation.language` is mapped to FHIR R4 element `CodeSystem.concept.designation.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CodeSystem.concept.concept.designation.language` because `CodeSystem.concept.concept` is defined via a content reference to `CodeSystem.concept`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.concept.designation.use" ] ;
+       fhir:display [ fhir:v "use" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.concept.designation.use` is mapped to FHIR R4 element `CodeSystem.concept.designation.use` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CodeSystem.concept.concept.designation.use` because `CodeSystem.concept.concept` is defined via a content reference to `CodeSystem.concept`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.concept.designation.value" ] ;
+       fhir:display [ fhir:v "value" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.concept.designation.value` is mapped to FHIR R4 element `CodeSystem.concept.designation.value` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CodeSystem.concept.concept.designation.value` because `CodeSystem.concept.concept` is defined via a content reference to `CodeSystem.concept`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.concept.property" ] ;
+       fhir:display [ fhir:v "property" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.concept.property` is mapped to FHIR R4 element `CodeSystem.concept.property` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CodeSystem.concept.concept.property` because `CodeSystem.concept.concept` is defined via a content reference to `CodeSystem.concept`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.concept.property.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.concept.property.code` is mapped to FHIR R4 element `CodeSystem.concept.property.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CodeSystem.concept.concept.property.code` because `CodeSystem.concept.concept` is defined via a content reference to `CodeSystem.concept`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.concept.property.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `CodeSystem.concept.property.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CodeSystem.concept.property`.\nElement `CodeSystem.concept.property.value[x]` is mapped to FHIR R4 element `CodeSystem.concept.property.value[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `CodeSystem.concept.property.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CodeSystem.concept.property`.\nNote available implied context: `CodeSystem.concept.concept.property` because `CodeSystem.concept.concept` is defined via a content reference to `CodeSystem.concept`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.concept.concept" ] ;
+       fhir:display [ fhir:v "concept" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.concept.concept` is mapped to FHIR R4 element `CodeSystem.concept.concept` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CodeSystem.concept.concept.concept` because `CodeSystem.concept.concept` is defined via a content reference to `CodeSystem.concept`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/CodeSystem"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/CodeSystem>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.2.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "CodeSystem.versionAlgorithm[x]" ] ;
+       fhir:display [ fhir:v "versionAlgorithm[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CodeSystem.versionAlgorithm[x]`: `http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm`.\nElement `CodeSystem.versionAlgorithm[x]` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.copyrightLabel" ] ;
+       fhir:display [ fhir:v "copyrightLabel" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CodeSystem.copyrightLabel`: `http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel`.\nElement `CodeSystem.copyrightLabel` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.approvalDate" ] ;
+       fhir:display [ fhir:v "approvalDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-approvalDate" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CodeSystem.approvalDate`: `http://hl7.org/fhir/StructureDefinition/artifact-approvalDate`.\nElement `CodeSystem.approvalDate` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.lastReviewDate" ] ;
+       fhir:display [ fhir:v "lastReviewDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-lastReviewDate" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CodeSystem.lastReviewDate`: `http://hl7.org/fhir/StructureDefinition/artifact-lastReviewDate`.\nElement `CodeSystem.lastReviewDate` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.effectivePeriod" ] ;
+       fhir:display [ fhir:v "effectivePeriod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-effectivePeriod" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CodeSystem.effectivePeriod`: `http://hl7.org/fhir/StructureDefinition/artifact-effectivePeriod`.\nElement `CodeSystem.effectivePeriod` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.topic" ] ;
+       fhir:display [ fhir:v "topic" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-topic" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CodeSystem.topic`: `http://hl7.org/fhir/StructureDefinition/artifact-topic`.\nElement `CodeSystem.topic` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.author" ] ;
+       fhir:display [ fhir:v "author" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-author" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CodeSystem.author`: `http://hl7.org/fhir/StructureDefinition/artifact-author`.\nElement `CodeSystem.author` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.editor" ] ;
+       fhir:display [ fhir:v "editor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-editor" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CodeSystem.editor`: `http://hl7.org/fhir/StructureDefinition/artifact-editor`.\nElement `CodeSystem.editor` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.reviewer" ] ;
+       fhir:display [ fhir:v "reviewer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-reviewer" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CodeSystem.reviewer`: `http://hl7.org/fhir/StructureDefinition/artifact-reviewer`.\nElement `CodeSystem.reviewer` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.endorser" ] ;
+       fhir:display [ fhir:v "endorser" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-endorser" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CodeSystem.endorser`: `http://hl7.org/fhir/StructureDefinition/artifact-endorser`.\nElement `CodeSystem.endorser` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.relatedArtifact" ] ;
+       fhir:display [ fhir:v "relatedArtifact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-relatedArtifact" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CodeSystem.relatedArtifact`: `http://hl7.org/fhir/StructureDefinition/artifact-relatedArtifact`.\nElement `CodeSystem.relatedArtifact` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/CodeSystem"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/CodeSystem>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "CodeSystem.filter.operator" ] ;
+       fhir:display [ fhir:v "operator" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.filter.operator" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.filter.operator` is mapped to FHIR R4 element `CodeSystem.filter.operator` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CodeSystem.concept.designation.additionalUse" ] ;
+       fhir:display [ fhir:v "additionalUse" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept.designation.additionalUse" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CodeSystem.concept.designation.additionalUse` has a context of CodeSystem.concept.designation based on following the parent source element upwards and mapping to `CodeSystem`.\nNote available implied context: `CodeSystem.concept.concept.designation` because `CodeSystem.concept.concept` is defined via a content reference to `CodeSystem.concept`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

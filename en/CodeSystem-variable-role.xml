@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="variable-role"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://terminology.hl7.org/CodeSystem/variable-role</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">population<a name="variable-role-population"> </a></td><td>population</td><td>variable represents a population.</td></tr><tr><td style="white-space:nowrap">subpopulation<a name="variable-role-subpopulation"> </a></td><td>subpopulation</td><td>variable represents a subpopulation.</td></tr><tr><td style="white-space:nowrap">exposure<a name="variable-role-exposure"> </a></td><td>exposure</td><td>variable represents an exposure.</td></tr><tr><td style="white-space:nowrap">referenceExposure<a name="variable-role-referenceExposure"> </a></td><td>reference exposure</td><td>variable represents a reference exposure.</td></tr><tr><td style="white-space:nowrap">measuredVariable<a name="variable-role-measuredVariable"> </a></td><td>measured variable</td><td>variable represents a measured variable.</td></tr><tr><td style="white-space:nowrap">confounder<a name="variable-role-confounder"> </a></td><td>confounder</td><td>variable represents a confounder.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="cds"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/variable-role"/>
+  <version value="0.1.0"/>
+  <name value="EvidenceVariableRole"/>
+  <title value="EvidenceVariableRole"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-04-09T16:10:28-05:00"/>
+  <publisher value="Clinical Decision Support"/>
+  <contact>
+    <name value="Clinical Decision Support"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/dss"/>
+    </telecom>
+  </contact>
+  <description value="The role that the assertion variable plays."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/variable-role|1.0.2"/>
+  <content value="complete"/>
+  <concept>
+    <code value="population"/>
+    <display value="population"/>
+    <definition value="variable represents a population."/>
+  </concept>
+  <concept>
+    <code value="subpopulation"/>
+    <display value="subpopulation"/>
+    <definition value="variable represents a subpopulation."/>
+  </concept>
+  <concept>
+    <code value="exposure"/>
+    <display value="exposure"/>
+    <definition value="variable represents an exposure."/>
+  </concept>
+  <concept>
+    <code value="referenceExposure"/>
+    <display value="reference exposure"/>
+    <definition value="variable represents a reference exposure."/>
+  </concept>
+  <concept>
+    <code value="measuredVariable"/>
+    <display value="measured variable"/>
+    <definition value="variable represents a measured variable."/>
+  </concept>
+  <concept>
+    <code value="confounder"/>
+    <display value="confounder"/>
+    <definition value="variable represents a confounder."/>
+  </concept>
+</CodeSystem>

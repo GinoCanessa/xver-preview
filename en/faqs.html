@@ -1,0 +1,686 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>FAQs - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+    <link rel="stylesheet" href="assets/css/project.css"/>
+  	<link rel="stylesheet" href="assets/css/cqf.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/hl7.css"/>
+    <link rel="stylesheet" href="assets/css/fhir-ig.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+    <script src="assets/js/direction-management.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script src="assets/js/mermaid.js" type="text/javascript"></script>
+    <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
+    <style type="text/css">h2{--heading-prefix:"2"}
+    h3,h4,h5,h6{--heading-prefix:"2"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+
+          <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" href="http://hl7.org" data-no-external="true">
+            <img src="assets/images/hl7-logo-header.png" alt="Visit the HL7 website" height="50"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" href="http://hl7.org/fhir" data-no-external="true"><img src="assets/images/fhir-logo-www.png" alt="Visit the FHIR website" height="50"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" href="searchform.html" data-no-external="true"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img src="../assets/images/001.svg" alt="International flag" title="International" height="16"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+
+              
+
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>FAQs</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="index.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="lookup-sd.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://hl7.org/fhir/uv/xver/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <h2>FAQs</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <p>  <!-- white space is critical inside of capture --></p>
+<div>
+  <!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown. -->
+</div>
+<h3 id="frequently-asked-questions">Frequently Asked Questions</h3>
+
+<p>Index:</p>
+<ul>
+  <li>2026.01.29: <a href="#faq20260129-01">What are in the Cross-Version packages?</a></li>
+  <li>2026.02.03: <a href="#faq20260203-01">How do I handle required elements with required bindings?</a></li>
+  <li>2026.02.06: <a href="#faq20260206-02">How do I handle resources that do not exist in my FHIR version?</a></li>
+  <li>2026.02.06: <a href="#faq20260206-01">How do I handle type-mapping across FHIR versions?</a></li>
+  <li><a name="l347">​</a>2026.02.09: <a href="#faq20260209-01">How do I handle required reference elements?</a></li>
+  <li><a name="l352">​</a>2026.02.09: <a href="#faq20260209-02">What are the CodeSystems used in the element concept maps?</a></li>
+  <li><a name="l357">​</a>2026.02.12: <a href="#faq20260212-01">I was expecting a cross-version extension, but found a different extension</a></li>
+  <li><a name="l362">​</a>2026.02.18: <a href="#faq20260217-01">The element I am looking for does not exist in the lookup or profile</a></li>
+</ul>
+
+<h4 id="what-are-in-the-cross-version-packages">What are in the Cross-Version packages?</h4>
+<p><a name="faq20260129-01"></a></p>
+
+<p>There are two types of cross-version packages: ones that contain content for a specific FHIR version pairing (e.g., R5 content for use in R4) and validation packages that include all of the content available for that version (e.g., the R4 definitions that include DSTU2, STU3, R4B, and R5). The packages are differentiable based on their names.</p>
+
+<p>Note that the cross-version packages depend on definitions from other common packages in the HL7 FHIR ecosystem, such as the Extensions Pack and Tooling IG.</p>
+
+<h5 id="cross-version-content-packages">Cross-Version Content Packages</h5>
+
+<p>The cross-version content packages are named in the pattern of <code class="language-plaintext highlighter-rouge">hl7.fhir.uv.xver-[source FHIR version].[target FHIR version]</code>, for example: <code class="language-plaintext highlighter-rouge">hl7.fhir.uv.xver-r5.r4</code> is the package that allows use of FHIR R5 definitions <em>in</em> FHIR R4. Note that the trailing segment is target FHIR version by convention in HL7 publications (e.g., <code class="language-plaintext highlighter-rouge">hl7.terminology.r4</code>, etc.).</p>
+
+<p>The cross-version content packages include various FHIR artifacts:</p>
+<ul>
+  <li>Relevant core-defined and terminology.hl7.org-defined CodeSystems, converted to the correct version.</li>
+  <li>ValueSet resources that contain allowed values to use in cross-version extensions</li>
+  <li>Extension definitions (StructureDefinition resources)</li>
+  <li>Profile definitions (StructureDefinition resources)</li>
+  <li>A Resource-lookup ConceptMap resource that contains computable relationship definitions between resources in the versions</li>
+  <li>Resource-element ConceptMap resources that contain computable relationships between elements of the source and target resources and extensions</li>
+  <li>Bound ValueSet ConceptMap resources that contain the ValueSet mappings between source and target ValueSets, when both sides exist</li>
+</ul>
+
+<p>The cross-version content packages also include various lookup pages to aid in human consumption:</p>
+<ul>
+  <li>A Structure Lookup page that lists the source and target resource pairs</li>
+  <li>Structure-element lookup pages that list the source elements paired with any target elements and/or extensions for them</li>
+  <li>A ValueSet Lookup page that lists the source and target ValueSet pairs</li>
+  <li>ValueSet-concept lookup pages that list the source concepts and relationships to any target concepts</li>
+</ul>
+
+<p>Finally, the cross-version packages all include general pages, such as this FAQ.</p>
+
+<h5 id="cross-version-validation-packages">Cross-Version Validation Packages</h5>
+
+<p>The cross-version validation packages are named in the pattern of <code class="language-plaintext highlighter-rouge">hl7.fhir.uv.xver.[target FHIR version]</code>, for example: <code class="language-plaintext highlighter-rouge">hl7.fhir.uv.xver.r4</code> is the validation package that includes dependencies on each of the content packages that target FHIR R4. Note that this naming convention is very similar to the content packages and simply excludes a source FHIR version.</p>
+
+<p>The cross-version validation packages are much simpler in definition, as they are simply placeholder packages with dependencies on the relevant content packages. Their content is limited to the general-purpose page content, such as this FAQ.</p>
+
+<h4 id="how-do-i-handle-resources-that-do-not-exist-in-my-fhir-version">How do I handle resources that do not exist in my FHIR version?</h4>
+<p><a name="faq20260206-02"></a></p>
+
+<p>There are a few types of cases where the resource someone is looking at in one version of FHIR does not exist in another version:</p>
+<ol>
+  <li>the resource was added or removed</li>
+  <li>the resource was renamed, split into multiple resources, or merged into another resource</li>
+</ol>
+
+<p>In order to track the relationships of resource between versions, a set of <code class="language-plaintext highlighter-rouge">ConceptMaps</code> are used. The content below is from the current version at the time of writing, but is not authoritative. The ultimate source-of-truth are the maps that are maintained at: in the <a href="https://github.com/HL7/fhir-cross-version/">HL7 FHIR-Cross-Version GitHub Repository</a>, specifically in the <a href="https://github.com/HL7/fhir-cross-version/tree/main/input/resources"><code class="language-plaintext highlighter-rouge">input/resources</code> directory</a>.</p>
+
+<p>In the first case, a resource definition exists in one version of FHIR and there is <em>no equivalent</em> resource in another. For example, the <a href="https://hl7.org/fhir/R5/actordefinition.html">R5 <code class="language-plaintext highlighter-rouge">ActorDefinition</code> resource</a> does not exist in R4, and has no analog. In this case, the contents can be represented by using a <code class="language-plaintext highlighter-rouge">Basic</code> resource in the target version (e.g., FHIR R4) that contains an extension with the actual contents and a <code class="language-plaintext highlighter-rouge">Basic.code</code> indicating the source content representation. For convenience, these packages define profiles on <code class="language-plaintext highlighter-rouge">Basic</code> that specify which extension to use, the required <code class="language-plaintext highlighter-rouge">code</code> value, etc.. Note that some elements are mapped into equivalent elements on <code class="language-plaintext highlighter-rouge">Basic</code> instead of being contained in the extensions.  E.g., <code class="language-plaintext highlighter-rouge">ActorDefinition.meta</code> is not defined, because <code class="language-plaintext highlighter-rouge">Basic.meta</code> must be used.</p>
+
+<p>In the second case, the proper target(s) can be found using the lookup pages defined in these packages. Extensions are defined with contexts appropriate to use.  Note that when a resource is split, not every source element is available in each target. For example, if resource <code class="language-plaintext highlighter-rouge">A</code> is split into <code class="language-plaintext highlighter-rouge">B</code> and <code class="language-plaintext highlighter-rouge">C</code>, elements that are mapped into <code class="language-plaintext highlighter-rouge">B</code> directly are not available as extensions in <code class="language-plaintext highlighter-rouge">C</code>, since they <em>should</em> be conceptually incompatible.</p>
+
+<h4 id="how-do-i-handle-type-mapping-across-fhir-versions">How do I handle type-mapping across FHIR versions?</h4>
+<p><a name="faq20260206-01"></a></p>
+
+<p>FHIR versions both add and remove types from the lists of definitions and from the set that are allowed in the <code class="language-plaintext highlighter-rouge">Extension.value[x]</code> element. The process for representing this data varies depending on whether the source is a primitive type (e.g., <code class="language-plaintext highlighter-rouge">canonical</code>, <code class="language-plaintext highlighter-rouge">integer64</code>) or a complex type (e.g., <code class="language-plaintext highlighter-rouge">Attachment</code>, <code class="language-plaintext highlighter-rouge">CodeableReference</code>).</p>
+
+<p>In order to manage the type mappings, a set of <code class="language-plaintext highlighter-rouge">ConceptMaps</code> are used. The content below is from the current version at the time of writing, but is not authoritative. The ultimate source-of-truth are the maps that are maintained at: in the <a href="https://github.com/HL7/fhir-cross-version/">HL7 FHIR-Cross-Version GitHub Repository</a>, specifically in the <a href="https://github.com/HL7/fhir-cross-version/tree/main/input/types"><code class="language-plaintext highlighter-rouge">input/types</code> directory</a>.</p>
+
+<h5 id="primitive-types">Primitive Types</h5>
+
+<p>Primitive types are <em>necessarily</em> mapped into other primitive types that can contain their values. This is necessary because there needs to be a single element that can contain a value equivalent to the source value.</p>
+
+<p>The types themselves are mapped in up-to two stages. The first stage is the 'preferred' source -&gt; target mapping, and is based on the specific versions in question (because it takes into account the specific types available). One set of primitive types are the most straightforward, as they have existed in all releases of FHIR and thus require no alternative representation:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">base64Binary</code></li>
+  <li><code class="language-plaintext highlighter-rouge">boolean</code></li>
+  <li><code class="language-plaintext highlighter-rouge">code</code></li>
+  <li><code class="language-plaintext highlighter-rouge">date</code></li>
+  <li><code class="language-plaintext highlighter-rouge">dateTime</code></li>
+  <li><code class="language-plaintext highlighter-rouge">decimal</code></li>
+  <li><code class="language-plaintext highlighter-rouge">id</code></li>
+  <li><code class="language-plaintext highlighter-rouge">instant</code></li>
+  <li><code class="language-plaintext highlighter-rouge">integer</code></li>
+  <li><code class="language-plaintext highlighter-rouge">markdown</code></li>
+  <li><code class="language-plaintext highlighter-rouge">oid</code></li>
+  <li><code class="language-plaintext highlighter-rouge">positiveInt</code></li>
+  <li><code class="language-plaintext highlighter-rouge">string</code></li>
+  <li><code class="language-plaintext highlighter-rouge">unsignedInt</code></li>
+  <li><code class="language-plaintext highlighter-rouge">uri</code></li>
+</ul>
+
+<p>The remaining (current) primitive types are represented based on a primitive type that can contain the required data:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">canonical</code>, added in R4, maps to <code class="language-plaintext highlighter-rouge">uri</code> in earlier versions</li>
+  <li><code class="language-plaintext highlighter-rouge">integer64</code>, added in R5, maps to <code class="language-plaintext highlighter-rouge">string</code> in earlier versions</li>
+  <li><code class="language-plaintext highlighter-rouge">time</code>, added in STU3, maps to <code class="language-plaintext highlighter-rouge">string</code> in earlier versions</li>
+  <li><code class="language-plaintext highlighter-rouge">url</code>, added in R4, maps to <code class="language-plaintext highlighter-rouge">uri</code> in earlier versions</li>
+  <li><code class="language-plaintext highlighter-rouge">uuid</code>, added in STU3, maps to <code class="language-plaintext highlighter-rouge">uri</code> in earlier versions</li>
+</ul>
+
+<p>In total, that provides a <em>base</em> mapping table that looks like:</p>
+
+<table class="grid">
+  <thead>
+    <tr>
+      <th>Source Type</th>
+      <th>Preferred Target</th>
+      <th>Target when not available</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">base64Binary</code></td>
+      <td><code class="language-plaintext highlighter-rouge">base64Binary</code></td>
+      <td>n/a (always available)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">boolean</code></td>
+      <td><code class="language-plaintext highlighter-rouge">boolean</code></td>
+      <td>n/a (always available)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">canonical</code></td>
+      <td><code class="language-plaintext highlighter-rouge">canonical</code></td>
+      <td><code class="language-plaintext highlighter-rouge">uri</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">code</code></td>
+      <td><code class="language-plaintext highlighter-rouge">code</code></td>
+      <td>n/a (always available)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">date</code></td>
+      <td><code class="language-plaintext highlighter-rouge">date</code></td>
+      <td>n/a (always available)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">dateTime</code></td>
+      <td><code class="language-plaintext highlighter-rouge">dateTime</code></td>
+      <td>n/a (always available)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">decimal</code></td>
+      <td><code class="language-plaintext highlighter-rouge">decimal</code></td>
+      <td>n/a (always available)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">id</code></td>
+      <td><code class="language-plaintext highlighter-rouge">id</code></td>
+      <td>n/a (always available)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">instant</code></td>
+      <td><code class="language-plaintext highlighter-rouge">instant</code></td>
+      <td>n/a (always available)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">integer</code></td>
+      <td><code class="language-plaintext highlighter-rouge">integer</code></td>
+      <td>n/a (always available)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">integer64</code></td>
+      <td><code class="language-plaintext highlighter-rouge">integer64</code></td>
+      <td><code class="language-plaintext highlighter-rouge">string</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">markdown</code></td>
+      <td><code class="language-plaintext highlighter-rouge">markdown</code></td>
+      <td>n/a (always available)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">oid</code></td>
+      <td><code class="language-plaintext highlighter-rouge">oid</code></td>
+      <td>n/a (always available)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">positiveInt</code></td>
+      <td><code class="language-plaintext highlighter-rouge">positiveInt</code></td>
+      <td>n/a (always available)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td><code class="language-plaintext highlighter-rouge">string</code></td>
+      <td>n/a (always available)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">time</code></td>
+      <td><code class="language-plaintext highlighter-rouge">time</code></td>
+      <td><code class="language-plaintext highlighter-rouge">string</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">unsignedInt</code></td>
+      <td><code class="language-plaintext highlighter-rouge">unsignedInt</code></td>
+      <td>n/a (always available)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">uri</code></td>
+      <td><code class="language-plaintext highlighter-rouge">uri</code></td>
+      <td>n/a (always available)</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">url</code></td>
+      <td><code class="language-plaintext highlighter-rouge">url</code></td>
+      <td><code class="language-plaintext highlighter-rouge">uri</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">uuid</code></td>
+      <td><code class="language-plaintext highlighter-rouge">uuid</code></td>
+      <td><code class="language-plaintext highlighter-rouge">uri</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The second part of type-mapping primitives are a set of mappings that indicate what is <em>allowed</em> to map, based on element context. For example, an element might move between <code class="language-plaintext highlighter-rouge">string</code>, <code class="language-plaintext highlighter-rouge">code</code>, and <code class="language-plaintext highlighter-rouge">id</code> over the course of development. Understanding how primitives related to each-other is purely based on their "value domain" (the set of values that can be represented by the type). Primitive types do not hold the context required to evaluate a "concept domain" (what the contained value <em>means</em>) - that context must be provided by the element that uses a type. The source-of-truth for the primitive mappings are defined in the <a href="https://github.com/HL7/fhir-cross-version/tree/main/input/types/ConceptMap-types-fallback.json"><code class="language-plaintext highlighter-rouge">input/types/ConceptMap-types-fallback.json</code></a> ConceptMap, which applies across all versions.</p>
+
+<p>For example, the <code class="language-plaintext highlighter-rouge">string</code> type entry from that file looks like:</p>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w"> </span><span class="nl">"code"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="p">,</span><span class="w"> </span><span class="nl">"target"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w"> </span><span class="nl">"code"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"string"</span><span class="p">,</span><span class="w"> </span><span class="nl">"relationship"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"equivalent"</span><span class="w"> </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w"> </span><span class="nl">"code"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"canonical"</span><span class="p">,</span><span class="w"> </span><span class="nl">"relationship"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"source-is-broader-than-target"</span><span class="w"> </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w"> </span><span class="nl">"code"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"code"</span><span class="p">,</span><span class="w"> </span><span class="nl">"relationship"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"equivalent"</span><span class="w"> </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w"> </span><span class="nl">"code"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"id"</span><span class="p">,</span><span class="w"> </span><span class="nl">"relationship"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"source-is-broader-than-target"</span><span class="w"> </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w"> </span><span class="nl">"code"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"integer64"</span><span class="p">,</span><span class="w"> </span><span class="nl">"relationship"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"source-is-broader-than-target"</span><span class="w"> </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w"> </span><span class="nl">"code"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"markdown"</span><span class="p">,</span><span class="w"> </span><span class="nl">"relationship"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"equivalent"</span><span class="w"> </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w"> </span><span class="nl">"code"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"oid"</span><span class="p">,</span><span class="w"> </span><span class="nl">"relationship"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"source-is-broader-than-target"</span><span class="w"> </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w"> </span><span class="nl">"code"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"uri"</span><span class="p">,</span><span class="w"> </span><span class="nl">"relationship"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"source-is-broader-than-target"</span><span class="w"> </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w"> </span><span class="nl">"code"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"url"</span><span class="p">,</span><span class="w"> </span><span class="nl">"relationship"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"source-is-broader-than-target"</span><span class="w"> </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w"> </span><span class="nl">"code"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid"</span><span class="p">,</span><span class="w"> </span><span class="nl">"relationship"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"source-is-broader-than-target"</span><span class="w"> </span><span class="p">}]}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>This indicates that an element defined as <code class="language-plaintext highlighter-rouge">string</code> in a version of FHIR <em>is allowed</em> to map to an element defined as any of: <code class="language-plaintext highlighter-rouge">string</code>, <code class="language-plaintext highlighter-rouge">canonical</code>, <code class="language-plaintext highlighter-rouge">code</code>, <code class="language-plaintext highlighter-rouge">id</code>, <code class="language-plaintext highlighter-rouge">integer64</code>, <code class="language-plaintext highlighter-rouge">markdown</code>, <code class="language-plaintext highlighter-rouge">oid</code>, <code class="language-plaintext highlighter-rouge">uri</code>, <code class="language-plaintext highlighter-rouge">url</code>, or <code class="language-plaintext highlighter-rouge">uuid</code>. The relationship describes the difference in values that can be contained by the related types.</p>
+
+<h5 id="complex-types">Complex Types</h5>
+
+<p>Mapping of complex types fall into three general scenarios:</p>
+<ol>
+  <li>mapping an element that has the same type in both versions</li>
+  <li>mapping an element that does not exist, but the type does exist and is a valid <code class="language-plaintext highlighter-rouge">Extension.value[x]</code> type</li>
+  <li>everything else</li>
+</ol>
+
+<p>The first case, mapping an element that has the same type in both versions, is the simplest. In this scenario, any elements that need extensions for the type are applied as extensions within the type itself.  For example, consider representing the <a href="https://hl7.org/fhir/R5/allergyintolerance-definitions.html#AllergyIntolerance.note"><code class="language-plaintext highlighter-rouge">R5 AllergyIntolerance.note</code></a> element in the <a href="https://hl7.org/fhir/R4/allergyintolerance-definitions.html#AllergyIntolerance.note"><code class="language-plaintext highlighter-rouge">R4 AllergyIntolerance.note</code></a> element. The element exists in both versions and has the same <code class="language-plaintext highlighter-rouge">Annotation</code> data type.  However, the <a href="https://hl7.org/fhir/R5/datatypes-definitions.html#Annotation.author_x_">R5 <code class="language-plaintext highlighter-rouge">Annotation.author[x]</code></a> element allows for a reference to <code class="language-plaintext highlighter-rouge">PractitionerRole</code> resources, whereas the <a href="https://hl7.org/fhir/R4/datatypes-definitions.html#Annotation.author_x_">R4 <code class="language-plaintext highlighter-rouge">Annotation.author[x]</code></a> element does not. In this case, there will be an extension available for <code class="language-plaintext highlighter-rouge">R4 Annotation.author[x]</code> that allows the additional reference.</p>
+
+<p>The second case, mapping an element that does not exist but has a type that can map into an <code class="language-plaintext highlighter-rouge">Extension.value[x]</code> type, is still fairly straightforward. In this scenario, an extension is defined that uses the target-version datatype, noting that elements may still contain further extensions. For example, consider representing <a href="https://hl7.org/fhir/R5/appointment.html">R5 <code class="language-plaintext highlighter-rouge">Appointment</code></a> content via an <a href="https://hl7.org/fhir/R4/appointment.html">R4 <code class="language-plaintext highlighter-rouge">Appointment</code></a>. Specifically, FHIR R5 added the element <a href="https://hl7.org/fhir/R5/appointment-definitions.html#Appointment.note"><code class="language-plaintext highlighter-rouge">Appointment.note</code></a>, which is of type <code class="language-plaintext highlighter-rouge">Annotation</code>. There will be an extension defined for the R4 <code class="language-plaintext highlighter-rouge">Appointment</code> resource that <em>uses</em> the R4 <code class="language-plaintext highlighter-rouge">Annotation</code> type. If the R5 content also uses an <code class="language-plaintext highlighter-rouge">author</code> represented by a <code class="language-plaintext highlighter-rouge">PractitionerRole</code>, the extension defined in the above scenario (1) will be used there.</p>
+
+<p>In the third case, anything not handled by the other scenarios, there is a complex extension defined that represents the type. For example, when trying to represent data from an <a href="https://hl7.org/fhir/R5/references.html#CodeableReference">R5 <code class="language-plaintext highlighter-rouge">CodeableReference</code></a> in FHIR R4 - where the type does not exist. In this case, a complex extension is defined that represents the entire contents of the complex type (each element becomes a slice in the extension). The extension <em>also</em> defines a slice using the standard <a href="https://hl7.org/fhir/extensions/StructureDefinition-datatype.html"><code class="language-plaintext highlighter-rouge">_datatype</code> extension</a> to indicate that the content was <em>originally</em> a <code class="language-plaintext highlighter-rouge">CodeableReference</code>.</p>
+
+<p>Note that the relationships between types across versions are also managed as version-to-version ConceptMap resources in the files at <a href="https://github.com/HL7/fhir-cross-version/tree/main/input/types"><code class="language-plaintext highlighter-rouge">input/types</code></a>. This tracks (for example) when a type is renamed, so that it can be usefully used across versions.</p>
+
+<h4 id="how-do-i-handle-required-elements-with-required-bindings">How do I handle required elements with required bindings?</h4>
+<p><a name="faq20260203-01"></a></p>
+
+<p>When an element is <strong>required</strong> (minimum cardinality of 1) and has a <strong>required</strong> terminology binding, it <strong>must</strong> be present in the instance and its value <strong>must</strong> come from the element's bound value set. Extensions can add additional information, but they <strong>do not relax</strong> the base rule: the base element still needs a valid value.</p>
+
+<p>When you need to represent a concept that cannot be expressed using the required binding's value set (for example, when carrying semantics from a different FHIR release), follow this approach:</p>
+
+<ol>
+  <li>
+    <p><strong>Populate the required element with the best available base code.</strong><br/>
+Choose the code from the bound value set that most accurately describes the data you have. If no perfect match exists, choose the closest truthful approximation.</p>
+  </li>
+  <li>
+    <p><strong>Use an extension to represent values that the base code cannot express.</strong><br/>
+If an extension exists specifically to represent the additional concept (e.g., a cross-version extension), populate it according to the extension definition, including any required binding on the extension. Cross-version packages commonly provide both the extension definitions and the associated value sets for the extension content.</p>
+  </li>
+  <li>
+    <p><strong>Avoid duplicating the same meaning in both places unless needed for semantic clarity.</strong><br/>
+If the base element's value fully conveys the intended meaning, the extension is typically unnecessary. If two versions use the "same" code token but with different semantics, an extension may be appropriate to carry the version-specific intent.</p>
+  </li>
+</ol>
+
+<h5 id="example-medicationrequeststatus">Example: <code class="language-plaintext highlighter-rouge">MedicationRequest.status</code></h5>
+<p>In FHIR R4, <code class="language-plaintext highlighter-rouge">MedicationRequest.status</code> is required and has a required binding. Therefore an R4 <code class="language-plaintext highlighter-rouge">MedicationRequest</code> instance must include <code class="language-plaintext highlighter-rouge">status</code> with a code allowed by the R4 binding. If you need to convey an R5-specific status not available (or not equivalent) in R4, you still populate the R4 <code class="language-plaintext highlighter-rouge">status</code> with the best available R4 code, and then add the relevant cross-version extension to express the more specific R5 meaning. The extension value must conform to the extension's own binding rules.</p>
+
+<p>If you are describing a generic use (e.g., authoring an implementation guide), it is recommended to <em>specifically</em> list which codes are appropriate when doing this mapping.</p>
+
+<h5 id="summary">Summary</h5>
+
+<ul>
+  <li>Is the element required? If yes, <strong>always populate it</strong>.</li>
+  <li>Is the binding required? If yes, <strong>choose a code from the bound value set</strong>.</li>
+  <li>Need a concept outside the value set?
+    <ul>
+      <li>Pick the <strong>closest truthful base code</strong>, then</li>
+      <li>Add an extension designed for the missing semantics, and <strong>validate against the extension's value set</strong>.</li>
+    </ul>
+  </li>
+  <li>Document mapping choices (especially cross-version mappings) in your IG.</li>
+</ul>
+
+<h4 id="how-do-i-handle-required-reference-elements">How do I handle required reference elements?</h4>
+<p><a name="#faq20260209-01"></a></p>
+
+<p>When an element is <strong>required</strong> (minimum cardinality of 1) and is a <code class="language-plaintext highlighter-rouge">reference</code> type, it <strong>must</strong> be present in the instance. This can be problematic when the desired reference <em>target</em> is a type that is not available in the version of FHIR being used. Extensions can add additional information, but they <strong>do not relax</strong> the base rule: the base element still needs a valid value.</p>
+
+<p>When you need to represent a reference that cannot be expressed using the required element's allowed targets (for example, when using a type added in a later FHIR release), follow this approach:</p>
+
+<ol>
+  <li>
+    <p><strong>Populate the required element with the best available information.</strong><br/>
+The <code class="language-plaintext highlighter-rouge">reference</code> datatype includes elements such as <code class="language-plaintext highlighter-rouge">display</code> and <code class="language-plaintext highlighter-rouge">identifier</code>, which can be useful without being resolvable.</p>
+  </li>
+  <li>
+    <p><strong>Use an extension to represent values that the base code cannot express.</strong><br/>
+If an extension exists specifically to represent the additional reference (e.g., a cross-version extension), populate it according to the extension definition, including any target constraints on the extension. Cross-version packages provide the extension definitions with allowed targets, both in terms of the target resource type and the cross-version profile.</p>
+  </li>
+  <li>
+    <p><strong>Avoid duplicating the same meaning in both places unless needed for semantic clarity.</strong><br/>
+If the base element's value fully conveys the intended meaning, the extension is typically unnecessary. If the reference can be represented by something native to the FHIR version that is being used, that is the preferred mechanism to use.</p>
+  </li>
+</ol>
+
+<h5 id="example-diagnosticreportmedialink">Example: <code class="language-plaintext highlighter-rouge">DiagnosticReport.media.link</code></h5>
+<p>In FHIR R4, <code class="language-plaintext highlighter-rouge">DiagnosticReport.media.link</code> is required and has a constrained reference to only allow references to <code class="language-plaintext highlighter-rouge">Media</code>. Therefore an R4 <code class="language-plaintext highlighter-rouge">DiagnosticReport</code> instance that wants to include the <code class="language-plaintext highlighter-rouge">DiagnosticReport.media</code> element must include a valid <code class="language-plaintext highlighter-rouge">link</code> element. In FHIR R5, the <code class="language-plaintext highlighter-rouge">Media</code> resource type was merged into the <code class="language-plaintext highlighter-rouge">DocumentReference</code> resource, which means that the equivalent R5 element (<code class="language-plaintext highlighter-rouge">DiagnosticReport.media.link</code>) has only a valid reference target of <code class="language-plaintext highlighter-rouge">DocumentReference</code>.</p>
+
+<p>In this case, the R4 <code class="language-plaintext highlighter-rouge">DiagnosticReport.media.link</code> would have something useful (e.g., a <code class="language-plaintext highlighter-rouge">display</code> element describing the content and possibly detailing <em>why</em> it is a <code class="language-plaintext highlighter-rouge">DocumentReference</code> instead of a <code class="language-plaintext highlighter-rouge">Media</code>) and use the appropriate extension to add the actual reference.</p>
+
+<h5 id="summary-1">Summary</h5>
+
+<ul>
+  <li>Is the element required? If yes, <strong>always populate it</strong>.</li>
+  <li>Is the reference target possible to represent via an expected target? If yes, use the expected representation.</li>
+  <li>Need a reference target outside the allowed targets?
+    <ul>
+      <li>Complete the base reference with <strong>reference values as possible, even if unresolvable</strong>, then</li>
+      <li>Add an extension designed for the missing target.</li>
+    </ul>
+  </li>
+  <li>Document expectations around use (especially different targets) in your IG.</li>
+</ul>
+
+<h4 id="what-are-the-codesystems-used-in-the-element-concept-maps">What are the CodeSystems used in the element concept maps?</h4>
+<p><a name="#faq20260209-02"></a></p>
+
+<p>In the ConceptMaps that reference elements, the maps make use of "Implicit Code Systems" as defined by the FHIR specification. Note that the definitions of implicit Code Systems for StructureDefinition resources has been added and removed from the FHIR core specification across versions.</p>
+
+<p>The definition that the cross-version guides use is based on the <em>current</em> guidance, which (at the time of writing) is reproduced below.</p>
+
+<hr/>
+
+<p>Some other parts of the FHIR infrastructure define set of concepts that may also be treated as code systems. This is most useful when mapping between systems using Concept Maps, but might also be useful for other code system related functionality (e.g. subsetting using Value Sets). The table below summarizes how to treat these items as a code system:</p>
+
+<table class="grid">
+  <thead>
+    <tr>
+      <th>CodeSystem Element Value</th>
+      <th>Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>URL (<code class="language-plaintext highlighter-rouge">CodeSystem.url</code>)</td>
+      <td><code class="language-plaintext highlighter-rouge">StructureDefinition.url</code></td>
+    </tr>
+    <tr>
+      <td>Concept (<code class="language-plaintext highlighter-rouge">CodeSystem.concept</code>)</td>
+      <td>Each <code class="language-plaintext highlighter-rouge">StructureDefinition.snapshot.element</code> element corresponds to a code system concept.</td>
+    </tr>
+    <tr>
+      <td>Code (<code class="language-plaintext highlighter-rouge">CodeSystem.concept.code</code>)</td>
+      <td><code class="language-plaintext highlighter-rouge">StructureDefinition.snapshot.element.id</code></td>
+    </tr>
+    <tr>
+      <td>Display (<code class="language-plaintext highlighter-rouge">CodeSystem.concept.display</code>)</td>
+      <td><code class="language-plaintext highlighter-rouge">StructureDefinition.snapshot.element.label</code> if one exists, otherwise <code class="language-plaintext highlighter-rouge">StructureDefinition.snapshot.element.short</code></td>
+    </tr>
+    <tr>
+      <td>Definition (<code class="language-plaintext highlighter-rouge">CodeSystem.concept.definition</code>)</td>
+      <td><code class="language-plaintext highlighter-rouge">StructureDefinition.snapshot.element.definition</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr/>
+
+<h4 id="i-was-expecting-a-cross-version-extension-but-found-a-different-extension">I was expecting a cross-version extension, but found a different extension</h4>
+<p><a name="#faq20260212-01"></a></p>
+
+<p>Cross-version definitions exist to simplify and standardize representations of data when crossing FHIR versions. Due to how FHIR core development works, there is often a need for data to be represented <em>prior to</em> the FHIR publication where something becomes standard. Alternatively, there is sometimes a common extension defined to simplify consumption of data. The cross-version packages use existing extension definitions wherever possible.</p>
+
+<p>For example, there is a standard extension defined in the FHIR extensions pack for an <a href="http://hl7.org/fhir/StructureDefinition/alternate-reference"><code class="language-plaintext highlighter-rouge">alternate-reference</code></a>. This extension was defined in advance of the cross-version extensions and was already in use. Therefore, any data that <em>would</em> require a cross-version extension to represent a <code class="language-plaintext highlighter-rouge">Reference</code>, instead uses the <code class="language-plaintext highlighter-rouge">alternate-reference</code> extension. In order to facilitate discovery and use, the lookup pages, profiles, and concept maps also reference such extensions when used.</p>
+
+<h4 id="the-element-i-am-looking-for-does-not-exist-in-the-lookup-or-profile">The element I am looking for does not exist in the lookup or profile</h4>
+<p><a name="#faq20260217-01"></a></p>
+
+<p>The content on the lookup pages and in the profiles are based on the <code class="language-plaintext highlighter-rouge">StructureDefinition</code> resources published in each package. Element paths in instances are often based on following those definitions across boundaries that do not exist in the definitions themselves - such as elements within data types and elements defined as content references.</p>
+
+<h5 id="elements-within-data-types">Elements within data types</h5>
+
+<p>Generally, the cross-version packages stop at the data-type level. Complex types can include elements themselves, such as <code class="language-plaintext highlighter-rouge">HumanName.given</code> that are joined together when serializing instances. For example, the <code class="language-plaintext highlighter-rouge">Patient</code> resource defines the <code class="language-plaintext highlighter-rouge">Patient.name</code> element with the <code class="language-plaintext highlighter-rouge">HumanName</code> data type and thus creates paths such as <code class="language-plaintext highlighter-rouge">Patient.name.given</code>. When generating extensions, there can be ambiguity whether such an extension should exist rooted in the <code class="language-plaintext highlighter-rouge">Patient</code> resource or the <code class="language-plaintext highlighter-rouge">HumanName</code> data type. While efforts have been made to resolve all such instances correctly, if you believe there is an error please file a Jira ticket.</p>
+
+<h5 id="content-references">Content References</h5>
+
+<p>Some elements in FHIR are defined as 'content references' to other elements. For example, the element <code class="language-plaintext highlighter-rouge">Questionnaire.item.item</code> is defined as a reference to the element <code class="language-plaintext highlighter-rouge">Questionnaire.item</code>, allowing for a recursive type that nests into itself. When using <code class="language-plaintext highlighter-rouge">StructureDefinition</code> resources (e.g., for profiling), the content references are not followed when generating snapshots, which means that the downstream elements do not exist. Extensions that define a context of the <em>source</em> of the content reference (e.g., <code class="language-plaintext highlighter-rouge">Questionnaire.item</code>) are automatically valid in any elements that <em>use</em> that content reference (e.g., <code class="language-plaintext highlighter-rouge">Questionnaire.item.item</code>). Note that this is true even when the content references are not nested - so extensions defined with a context of <code class="language-plaintext highlighter-rouge">ValueSet.compose.include.concept.designation</code> are automatically valid to use on <code class="language-plaintext highlighter-rouge">ValueSet.expansion.contains.designation</code>.</p>
+
+
+
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+  <script src="assets/js/flags.js" type="text/javascript"> </script>
+
+  <script src="assets/js/window-hash.js" type="text/javascript"> </script>
+
+  <script src="assets/js/requirements-table.js" type="text/javascript"> </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container" data-fhir="generated">    <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&nbsp;
+
+                <a href="index.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&nbsp;
+
+                <a href="lookup-sd.html">next &gt;</a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-21 13:39:00 -0600">
+    2026-02-21
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/uv/xver/history.html" target="_blank">Version History</a> |
+                 <a rel="license" style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/license.html"><img src="cc0.png" alt="CC0" style="border-style: none;"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir-issues" target="_blank">Propose a change</a>
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

@@ -1,0 +1,140 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/medicationknowledge-characteristic> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "medicationknowledge-characteristic"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://terminology.hl7.org/CodeSystem/medicationknowledge-characteristic</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">imprintcd<a name=\"medicationknowledge-characteristic-imprintcd\"> </a></td><td>Imprint Code</td><td>Identyifying marks on product</td></tr><tr><td style=\"white-space:nowrap\">size<a name=\"medicationknowledge-characteristic-size\"> </a></td><td>Size</td><td>Description of size of the product</td></tr><tr><td style=\"white-space:nowrap\">shape<a name=\"medicationknowledge-characteristic-shape\"> </a></td><td>Shape</td><td>Description of the shape of the product</td></tr><tr><td style=\"white-space:nowrap\">color<a name=\"medicationknowledge-characteristic-color\"> </a></td><td>Color</td><td>Description of the color of the product</td></tr><tr><td style=\"white-space:nowrap\">coating<a name=\"medicationknowledge-characteristic-coating\"> </a></td><td>Coating</td><td>Description of the coating of the product</td></tr><tr><td style=\"white-space:nowrap\">scoring<a name=\"medicationknowledge-characteristic-scoring\"> </a></td><td>Scoring</td><td>Description of the scoring of the product</td></tr><tr><td style=\"white-space:nowrap\">logo<a name=\"medicationknowledge-characteristic-logo\"> </a></td><td>Logo</td><td>Description of the Logo of the product</td></tr><tr><td style=\"white-space:nowrap\">image<a name=\"medicationknowledge-characteristic-image\"> </a></td><td>Image</td><td>Description of the Image of the product</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "phx"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/medicationknowledge-characteristic"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/medicationknowledge-characteristic>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "MedicationKnowledgeCharacteristicCodes"] ; # 
+  fhir:title [ fhir:v "MedicationKnowledge Characteristic Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2023-02-25T12:07:30-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Pharmacy"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Pharmacy" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/medication" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "MedicationKnowledge Characteristic Codes"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/medicationknowledge-characteristic|1.0.1"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/medicationknowledge-characteristic?version=1.0.1>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "imprintcd" ] ;
+     fhir:display [ fhir:v "Imprint Code" ] ;
+     fhir:definition [ fhir:v "Identyifying marks on product" ]
+  ] [
+     fhir:code [ fhir:v "size" ] ;
+     fhir:display [ fhir:v "Size" ] ;
+     fhir:definition [ fhir:v "Description of size of the product" ]
+  ] [
+     fhir:code [ fhir:v "shape" ] ;
+     fhir:display [ fhir:v "Shape" ] ;
+     fhir:definition [ fhir:v "Description of the shape of the product" ]
+  ] [
+     fhir:code [ fhir:v "color" ] ;
+     fhir:display [ fhir:v "Color" ] ;
+     fhir:definition [ fhir:v "Description of the color of the product" ]
+  ] [
+     fhir:code [ fhir:v "coating" ] ;
+     fhir:display [ fhir:v "Coating" ] ;
+     fhir:definition [ fhir:v "Description of the coating of the product" ]
+  ] [
+     fhir:code [ fhir:v "scoring" ] ;
+     fhir:display [ fhir:v "Scoring" ] ;
+     fhir:definition [ fhir:v "Description of the scoring of the product" ]
+  ] [
+     fhir:code [ fhir:v "logo" ] ;
+     fhir:display [ fhir:v "Logo" ] ;
+     fhir:definition [ fhir:v "Description of the Logo of the product" ]
+  ] [
+     fhir:code [ fhir:v "image" ] ;
+     fhir:display [ fhir:v "Image" ] ;
+     fhir:definition [ fhir:v "Description of the Image of the product" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

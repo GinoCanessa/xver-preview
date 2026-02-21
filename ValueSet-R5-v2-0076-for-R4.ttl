@@ -1,0 +1,1895 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-v2-0076-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-v2-0076-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-v2-0076-for-R4</b></p><a name=\"R5-v2-0076-for-R4\"> </a><a name=\"hcR5-v2-0076-for-R4\"> </a><p>This value set expansion contains 159 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-ACK\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  ACK</td><td>General acknowledgment message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-ADR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  ADR</td><td>ADT response</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-ADT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  ADT</td><td>ADT message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-ARD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  ARD</td><td>Ancillary RPT (display) (for backward compatibility only)</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-BAR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  BAR</td><td>Add/change billing account</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-BPS\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  BPS</td><td>Blood product dispense status message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-BRP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  BRP</td><td>Blood product dispense status acknowledgement message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-BRT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  BRT</td><td>Blood product transfusion/disposition acknowledgement message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-BTS\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  BTS</td><td>Blood product transfusion/disposition message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-CCF\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  CCF</td><td>Collaborative Care Fetch</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-CCI\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  CCI</td><td>Collaborative Care Information</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-CCM\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  CCM</td><td>Collaborative Care Message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-CCQ\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  CCQ</td><td>Collaborative Care Referral</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-CCU\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  CCU</td><td>Collaborative Care Referral</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-CNQ\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  CNQ</td><td>Cancel query</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-CQU\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  CQU</td><td>Collaborative Care Referral</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-CRM\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  CRM</td><td>Clinical study registration message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-CSU\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  CSU</td><td>Unsolicited study data message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-DBC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  DBC</td><td>Create Donor Record</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-DBU\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  DBU</td><td>Update Donor Record</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-DEL\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  DEL</td><td>Donor Eligibility</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-DEO\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  DEO</td><td>Donor Eligibility Observation</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-DER\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  DER</td><td>Donor Eligibility Request</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-DFT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  DFT</td><td>Detail financial transactions</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-DOC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  DOC</td><td>Document response</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-DPR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  DPR</td><td>Donation Procedure</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-DRC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  DRC</td><td>Donor Request to Collect</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-DSR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  DSR</td><td>Display response</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-EAC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  EAC</td><td>Automated equipment command message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-EAN\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  EAN</td><td>Automated equipment notification message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-EAR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  EAR</td><td>Automated equipment response message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-EDR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  EDR</td><td>Enhanced display response</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-EHC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  EHC</td><td>Health Care Invoice</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-EQQ\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  EQQ</td><td>Embedded query language query</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-ERP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  ERP</td><td>Event replay response</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-ERQ\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  ERQ</td><td>Event replay query</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-ESR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  ESR</td><td>Automated equipment status update acknowledgment message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-ESU\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  ESU</td><td>Automated equipment status update message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-INR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  INR</td><td>Automated equipment inventory request message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-INU\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  INU</td><td>Automated equipment inventory update message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-LSR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  LSR</td><td>Automated equipment log/service request message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-LSU\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  LSU</td><td>Automated equipment log/service update message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-MCF\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  MCF</td><td>Delayed Acknowledgment (Retained for backward compatibility only)</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-MDM\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  MDM</td><td>Medical document management</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-MFD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  MFD</td><td>Master files delayed application acknowledgment</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-MFK\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  MFK</td><td>Master files application acknowledgment</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-MFN\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  MFN</td><td>Master files notification</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-MFQ\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  MFQ</td><td>Master files query</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-MFR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  MFR</td><td>Master files response</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-NMD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  NMD</td><td>Application management data message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-NMQ\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  NMQ</td><td>Application management query message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-NMR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  NMR</td><td>Application management response message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-OMB\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  OMB</td><td>Blood product order message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-OMD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  OMD</td><td>Dietary order</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-OMG\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  OMG</td><td>General clinical order message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-OMI\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  OMI</td><td>Imaging order</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-OML\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  OML</td><td>Laboratory order message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-OMN\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  OMN</td><td>Non-stock requisition order message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-OMP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  OMP</td><td>Pharmacy/treatment order message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-OMQ\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  OMQ</td><td>General order message with document payload</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-OMS\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  OMS</td><td>Stock requisition order message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-OPL\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  OPL</td><td>Population/Location-Based Laboratory Order Message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-OPR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  OPR</td><td>Population/Location-Based Laboratory Order Acknowledgment Message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-OPU\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  OPU</td><td>Unsolicited Population/Location-Based Laboratory Observation Message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-ORA\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  ORA</td><td>Observation Report Acknowledgment</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-ORB\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  ORB</td><td>Blood product order acknowledgement message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-ORD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  ORD</td><td>Dietary order acknowledgment message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-ORF\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  ORF</td><td>Query for results of observation</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-ORG\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  ORG</td><td>General clinical order acknowledgment message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-ORI\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  ORI</td><td>Imaging order acknowledgement message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-ORL\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  ORL</td><td>Laboratory acknowledgment message (unsolicited)</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-ORM\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  ORM</td><td>Pharmacy/treatment order message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-ORN\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  ORN</td><td>Non-stock requisition - General order acknowledgment message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-ORP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  ORP</td><td>Pharmacy/treatment order acknowledgment message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-ORR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  ORR</td><td>General order response message response to any ORM</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-ORS\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  ORS</td><td>Stock requisition - Order acknowledgment message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-ORU\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  ORU</td><td>Unsolicited transmission of an observation message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-ORX\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  ORX</td><td>General Order Message with Document Payload Acknowledgement</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-OSM\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  OSM</td><td>Specimen Shipment Message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-OSQ\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  OSQ</td><td>Query response for order status</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-OSR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  OSR</td><td>Query response for order status</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-OSU\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  OSU</td><td>Order status update</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-OUL\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  OUL</td><td>Unsolicited laboratory observation message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-PEX\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  PEX</td><td>Product experience message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-PGL\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  PGL</td><td>Patient goal message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-PIN\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  PIN</td><td>Patient insurance information</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-PMU\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  PMU</td><td>Add personnel record</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-PPG\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  PPG</td><td>Patient pathway message (goal-oriented)</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-PPP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  PPP</td><td>Patient pathway message (problem-oriented)</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-PPR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  PPR</td><td>Patient problem message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-PPT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  PPT</td><td>Patient pathway goal-oriented response</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-PPV\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  PPV</td><td>Patient goal response</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-PRR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  PRR</td><td>Patient problem response</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-PTR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  PTR</td><td>Patient pathway problem-oriented response</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-QBP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  QBP</td><td>Query by parameter</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-QCK\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  QCK</td><td>Query general acknowledgment</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-QCN\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  QCN</td><td>Cancel query</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-QRY\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  QRY</td><td>Query, original mode</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-QSB\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  QSB</td><td>Create subscription</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-QSX\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  QSX</td><td>Cancel subscription/acknowledge message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-QVR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  QVR</td><td>Query for previous events</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RAR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RAR</td><td>Pharmacy/treatment administration information</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RAS\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RAS</td><td>Pharmacy/treatment administration message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RCI\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RCI</td><td>Return clinical information</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RCL\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RCL</td><td>Return clinical list</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RDE\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RDE</td><td>Pharmacy/treatment encoded order message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RDR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RDR</td><td>Pharmacy/treatment dispense information</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RDS\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RDS</td><td>Pharmacy/treatment dispense message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RDY\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RDY</td><td>Display based response</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-REF\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  REF</td><td>Patient referral</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RER\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RER</td><td>Pharmacy/treatment encoded order information</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RGR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RGR</td><td>Pharmacy/treatment dose information</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RGV\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RGV</td><td>Pharmacy/treatment give message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-ROC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  ROC</td><td>Request clinical information</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-ROD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  ROD</td><td>Request pateint demographics</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-ROR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  ROR</td><td>Pharmacy/treatment order response</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RPA\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RPA</td><td>Return patient authorization</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RPI\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RPI</td><td>Return patient information</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RPL\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RPL</td><td>Return patient display list</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RPR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RPR</td><td>Return patient list</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RQA\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RQA</td><td>Request patient authorization</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RQC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RQC</td><td>Request clinical information</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RQI\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RQI</td><td>Request patient information</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RQP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RQP</td><td>Request patient demographics</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RQQ\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RQQ</td><td>Event replay query</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RRA\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RRA</td><td>Pharmacy/treatment administration acknowledgment message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RRD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RRD</td><td>Pharmacy/treatment dispense acknowledgment message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RRE\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RRE</td><td>Pharmacy/treatment encoded order acknowledgment message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RRG\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RRG</td><td>Pharmacy/treatment give acknowledgment message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RRI\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RRI</td><td>Return referral information</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RSP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RSP</td><td>Segment pattern response</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-RTB\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  RTB</td><td>Tabular response</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-SCN\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  SCN</td><td>Notification of Anti-Microbial Device Cycle Data</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-SDN\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  SDN</td><td>Notification of Anti-Microbial Device Data</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-SDR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  SDR</td><td>Sterilization anti-microbial device data request</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-SET\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  SET</td><td>Specimen Event Tracking</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-SIU\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  SIU</td><td>Schedule information unsolicited</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-SLN\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  SLN</td><td>Notification of New Sterilization Lot</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-SLR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  SLR</td><td>Sterilization lot request</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-SMD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  SMD</td><td>Sterilization anti-microbial device cycle data request</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-SPQ\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  SPQ</td><td>Stored procedure request</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-SQM\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  SQM</td><td>Schedule query message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-SQR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  SQR</td><td>Schedule query response</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-SRM\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  SRM</td><td>Schedule request message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-SRR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  SRR</td><td>Scheduled request response</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-SSR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  SSR</td><td>Specimen status request message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-SSU\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  SSU</td><td>Specimen status update message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-STC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  STC</td><td>Notification of Sterilization Configuration</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-STI\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  STI</td><td>Sterilization item request</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-SUR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  SUR</td><td>Summary product experience report</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-TBR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  TBR</td><td>Tabular data response</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-TCR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  TCR</td><td>Automated equipment test code settings request message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-TCU\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  TCU</td><td>Automated equipment test code settings update message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-UDM\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  UDM</td><td>Unsolicited display update message</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-VQQ\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  VQQ</td><td>Virtual table query</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-VXQ\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  VXQ</td><td>Query for vaccination record</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-VXR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  VXR</td><td>Vaccination record response</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-VXU\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  VXU</td><td>Unsolicited vaccination record update</td></tr><tr><td><a name=\"R5-v2-0076-for-R4-http://terminology.hl7.org/CodeSystem/v2-0076-VXX\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0076</code></td><td>2.12.0</td><td style=\"white-space:nowrap\">  VXX</td><td>Response for vaccination query with multiple PID matches</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-v2-0076-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-v2-0076-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5V20076ForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.Hl7VSMessageType for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v2-0076|2.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/v2-0076|2.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* \r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://terminology.hl7.org/ValueSet/v2-0076|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "ACK" ] ;
+         fhir:display [ fhir:v "General acknowledgment message" ]
+       ] [
+         fhir:code [ fhir:v "ADR" ] ;
+         fhir:display [ fhir:v "ADT response" ]
+       ] [
+         fhir:code [ fhir:v "ADT" ] ;
+         fhir:display [ fhir:v "ADT message" ]
+       ] [
+         fhir:code [ fhir:v "ARD" ] ;
+         fhir:display [ fhir:v "Ancillary RPT (display) (for backward compatibility only)" ]
+       ] [
+         fhir:code [ fhir:v "BAR" ] ;
+         fhir:display [ fhir:v "Add/change billing account" ]
+       ] [
+         fhir:code [ fhir:v "BPS" ] ;
+         fhir:display [ fhir:v "Blood product dispense status message" ]
+       ] [
+         fhir:code [ fhir:v "BRP" ] ;
+         fhir:display [ fhir:v "Blood product dispense status acknowledgement message" ]
+       ] [
+         fhir:code [ fhir:v "BRT" ] ;
+         fhir:display [ fhir:v "Blood product transfusion/disposition acknowledgement message" ]
+       ] [
+         fhir:code [ fhir:v "BTS" ] ;
+         fhir:display [ fhir:v "Blood product transfusion/disposition message" ]
+       ] [
+         fhir:code [ fhir:v "CCF" ] ;
+         fhir:display [ fhir:v "Collaborative Care Fetch" ]
+       ] [
+         fhir:code [ fhir:v "CCI" ] ;
+         fhir:display [ fhir:v "Collaborative Care Information" ]
+       ] [
+         fhir:code [ fhir:v "CCM" ] ;
+         fhir:display [ fhir:v "Collaborative Care Message" ]
+       ] [
+         fhir:code [ fhir:v "CCQ" ] ;
+         fhir:display [ fhir:v "Collaborative Care Referral" ]
+       ] [
+         fhir:code [ fhir:v "CCU" ] ;
+         fhir:display [ fhir:v "Collaborative Care Referral" ]
+       ] [
+         fhir:code [ fhir:v "CNQ" ] ;
+         fhir:display [ fhir:v "Cancel query" ]
+       ] [
+         fhir:code [ fhir:v "CQU" ] ;
+         fhir:display [ fhir:v "Collaborative Care Referral" ]
+       ] [
+         fhir:code [ fhir:v "CRM" ] ;
+         fhir:display [ fhir:v "Clinical study registration message" ]
+       ] [
+         fhir:code [ fhir:v "CSU" ] ;
+         fhir:display [ fhir:v "Unsolicited study data message" ]
+       ] [
+         fhir:code [ fhir:v "DBC" ] ;
+         fhir:display [ fhir:v "Create Donor Record" ]
+       ] [
+         fhir:code [ fhir:v "DBU" ] ;
+         fhir:display [ fhir:v "Update Donor Record" ]
+       ] [
+         fhir:code [ fhir:v "DEL" ] ;
+         fhir:display [ fhir:v "Donor Eligibility" ]
+       ] [
+         fhir:code [ fhir:v "DEO" ] ;
+         fhir:display [ fhir:v "Donor Eligibility Observation" ]
+       ] [
+         fhir:code [ fhir:v "DER" ] ;
+         fhir:display [ fhir:v "Donor Eligibility Request" ]
+       ] [
+         fhir:code [ fhir:v "DFT" ] ;
+         fhir:display [ fhir:v "Detail financial transactions" ]
+       ] [
+         fhir:code [ fhir:v "DOC" ] ;
+         fhir:display [ fhir:v "Document response" ]
+       ] [
+         fhir:code [ fhir:v "DPR" ] ;
+         fhir:display [ fhir:v "Donation Procedure" ]
+       ] [
+         fhir:code [ fhir:v "DRC" ] ;
+         fhir:display [ fhir:v "Donor Request to Collect" ]
+       ] [
+         fhir:code [ fhir:v "DSR" ] ;
+         fhir:display [ fhir:v "Display response" ]
+       ] [
+         fhir:code [ fhir:v "EAC" ] ;
+         fhir:display [ fhir:v "Automated equipment command message" ]
+       ] [
+         fhir:code [ fhir:v "EAN" ] ;
+         fhir:display [ fhir:v "Automated equipment notification message" ]
+       ] [
+         fhir:code [ fhir:v "EAR" ] ;
+         fhir:display [ fhir:v "Automated equipment response message" ]
+       ] [
+         fhir:code [ fhir:v "EDR" ] ;
+         fhir:display [ fhir:v "Enhanced display response" ]
+       ] [
+         fhir:code [ fhir:v "EHC" ] ;
+         fhir:display [ fhir:v "Health Care Invoice" ]
+       ] [
+         fhir:code [ fhir:v "EQQ" ] ;
+         fhir:display [ fhir:v "Embedded query language query" ]
+       ] [
+         fhir:code [ fhir:v "ERP" ] ;
+         fhir:display [ fhir:v "Event replay response" ]
+       ] [
+         fhir:code [ fhir:v "ERQ" ] ;
+         fhir:display [ fhir:v "Event replay query" ]
+       ] [
+         fhir:code [ fhir:v "ESR" ] ;
+         fhir:display [ fhir:v "Automated equipment status update acknowledgment message" ]
+       ] [
+         fhir:code [ fhir:v "ESU" ] ;
+         fhir:display [ fhir:v "Automated equipment status update message" ]
+       ] [
+         fhir:code [ fhir:v "INR" ] ;
+         fhir:display [ fhir:v "Automated equipment inventory request message" ]
+       ] [
+         fhir:code [ fhir:v "INU" ] ;
+         fhir:display [ fhir:v "Automated equipment inventory update message" ]
+       ] [
+         fhir:code [ fhir:v "LSR" ] ;
+         fhir:display [ fhir:v "Automated equipment log/service request message" ]
+       ] [
+         fhir:code [ fhir:v "LSU" ] ;
+         fhir:display [ fhir:v "Automated equipment log/service update message" ]
+       ] [
+         fhir:code [ fhir:v "MCF" ] ;
+         fhir:display [ fhir:v "Delayed Acknowledgment (Retained for backward compatibility only)" ]
+       ] [
+         fhir:code [ fhir:v "MDM" ] ;
+         fhir:display [ fhir:v "Medical document management" ]
+       ] [
+         fhir:code [ fhir:v "MFD" ] ;
+         fhir:display [ fhir:v "Master files delayed application acknowledgment" ]
+       ] [
+         fhir:code [ fhir:v "MFK" ] ;
+         fhir:display [ fhir:v "Master files application acknowledgment" ]
+       ] [
+         fhir:code [ fhir:v "MFN" ] ;
+         fhir:display [ fhir:v "Master files notification" ]
+       ] [
+         fhir:code [ fhir:v "MFQ" ] ;
+         fhir:display [ fhir:v "Master files query" ]
+       ] [
+         fhir:code [ fhir:v "MFR" ] ;
+         fhir:display [ fhir:v "Master files response" ]
+       ] [
+         fhir:code [ fhir:v "NMD" ] ;
+         fhir:display [ fhir:v "Application management data message" ]
+       ] [
+         fhir:code [ fhir:v "NMQ" ] ;
+         fhir:display [ fhir:v "Application management query message" ]
+       ] [
+         fhir:code [ fhir:v "NMR" ] ;
+         fhir:display [ fhir:v "Application management response message" ]
+       ] [
+         fhir:code [ fhir:v "OMB" ] ;
+         fhir:display [ fhir:v "Blood product order message" ]
+       ] [
+         fhir:code [ fhir:v "OMD" ] ;
+         fhir:display [ fhir:v "Dietary order" ]
+       ] [
+         fhir:code [ fhir:v "OMG" ] ;
+         fhir:display [ fhir:v "General clinical order message" ]
+       ] [
+         fhir:code [ fhir:v "OMI" ] ;
+         fhir:display [ fhir:v "Imaging order" ]
+       ] [
+         fhir:code [ fhir:v "OML" ] ;
+         fhir:display [ fhir:v "Laboratory order message" ]
+       ] [
+         fhir:code [ fhir:v "OMN" ] ;
+         fhir:display [ fhir:v "Non-stock requisition order message" ]
+       ] [
+         fhir:code [ fhir:v "OMP" ] ;
+         fhir:display [ fhir:v "Pharmacy/treatment order message" ]
+       ] [
+         fhir:code [ fhir:v "OMQ" ] ;
+         fhir:display [ fhir:v "General order message with document payload" ]
+       ] [
+         fhir:code [ fhir:v "OMS" ] ;
+         fhir:display [ fhir:v "Stock requisition order message" ]
+       ] [
+         fhir:code [ fhir:v "OPL" ] ;
+         fhir:display [ fhir:v "Population/Location-Based Laboratory Order Message" ]
+       ] [
+         fhir:code [ fhir:v "OPR" ] ;
+         fhir:display [ fhir:v "Population/Location-Based Laboratory Order Acknowledgment Message" ]
+       ] [
+         fhir:code [ fhir:v "OPU" ] ;
+         fhir:display [ fhir:v "Unsolicited Population/Location-Based Laboratory Observation Message" ]
+       ] [
+         fhir:code [ fhir:v "ORA" ] ;
+         fhir:display [ fhir:v "Observation Report Acknowledgment" ]
+       ] [
+         fhir:code [ fhir:v "ORB" ] ;
+         fhir:display [ fhir:v "Blood product order acknowledgement message" ]
+       ] [
+         fhir:code [ fhir:v "ORD" ] ;
+         fhir:display [ fhir:v "Dietary order acknowledgment message" ]
+       ] [
+         fhir:code [ fhir:v "ORF" ] ;
+         fhir:display [ fhir:v "Query for results of observation" ]
+       ] [
+         fhir:code [ fhir:v "ORG" ] ;
+         fhir:display [ fhir:v "General clinical order acknowledgment message" ]
+       ] [
+         fhir:code [ fhir:v "ORI" ] ;
+         fhir:display [ fhir:v "Imaging order acknowledgement message" ]
+       ] [
+         fhir:code [ fhir:v "ORL" ] ;
+         fhir:display [ fhir:v "Laboratory acknowledgment message (unsolicited)" ]
+       ] [
+         fhir:code [ fhir:v "ORM" ] ;
+         fhir:display [ fhir:v "Pharmacy/treatment order message" ]
+       ] [
+         fhir:code [ fhir:v "ORN" ] ;
+         fhir:display [ fhir:v "Non-stock requisition - General order acknowledgment message" ]
+       ] [
+         fhir:code [ fhir:v "ORP" ] ;
+         fhir:display [ fhir:v "Pharmacy/treatment order acknowledgment message" ]
+       ] [
+         fhir:code [ fhir:v "ORR" ] ;
+         fhir:display [ fhir:v "General order response message response to any ORM" ]
+       ] [
+         fhir:code [ fhir:v "ORS" ] ;
+         fhir:display [ fhir:v "Stock requisition - Order acknowledgment message" ]
+       ] [
+         fhir:code [ fhir:v "ORU" ] ;
+         fhir:display [ fhir:v "Unsolicited transmission of an observation message" ]
+       ] [
+         fhir:code [ fhir:v "ORX" ] ;
+         fhir:display [ fhir:v "General Order Message with Document Payload Acknowledgement" ]
+       ] [
+         fhir:code [ fhir:v "OSM" ] ;
+         fhir:display [ fhir:v "Specimen Shipment Message" ]
+       ] [
+         fhir:code [ fhir:v "OSQ" ] ;
+         fhir:display [ fhir:v "Query response for order status" ]
+       ] [
+         fhir:code [ fhir:v "OSR" ] ;
+         fhir:display [ fhir:v "Query response for order status" ]
+       ] [
+         fhir:code [ fhir:v "OSU" ] ;
+         fhir:display [ fhir:v "Order status update" ]
+       ] [
+         fhir:code [ fhir:v "OUL" ] ;
+         fhir:display [ fhir:v "Unsolicited laboratory observation message" ]
+       ] [
+         fhir:code [ fhir:v "PEX" ] ;
+         fhir:display [ fhir:v "Product experience message" ]
+       ] [
+         fhir:code [ fhir:v "PGL" ] ;
+         fhir:display [ fhir:v "Patient goal message" ]
+       ] [
+         fhir:code [ fhir:v "PIN" ] ;
+         fhir:display [ fhir:v "Patient insurance information" ]
+       ] [
+         fhir:code [ fhir:v "PMU" ] ;
+         fhir:display [ fhir:v "Add personnel record" ]
+       ] [
+         fhir:code [ fhir:v "PPG" ] ;
+         fhir:display [ fhir:v "Patient pathway message (goal-oriented)" ]
+       ] [
+         fhir:code [ fhir:v "PPP" ] ;
+         fhir:display [ fhir:v "Patient pathway message (problem-oriented)" ]
+       ] [
+         fhir:code [ fhir:v "PPR" ] ;
+         fhir:display [ fhir:v "Patient problem message" ]
+       ] [
+         fhir:code [ fhir:v "PPT" ] ;
+         fhir:display [ fhir:v "Patient pathway goal-oriented response" ]
+       ] [
+         fhir:code [ fhir:v "PPV" ] ;
+         fhir:display [ fhir:v "Patient goal response" ]
+       ] [
+         fhir:code [ fhir:v "PRR" ] ;
+         fhir:display [ fhir:v "Patient problem response" ]
+       ] [
+         fhir:code [ fhir:v "PTR" ] ;
+         fhir:display [ fhir:v "Patient pathway problem-oriented response" ]
+       ] [
+         fhir:code [ fhir:v "QBP" ] ;
+         fhir:display [ fhir:v "Query by parameter" ]
+       ] [
+         fhir:code [ fhir:v "QCK" ] ;
+         fhir:display [ fhir:v "Query general acknowledgment" ]
+       ] [
+         fhir:code [ fhir:v "QCN" ] ;
+         fhir:display [ fhir:v "Cancel query" ]
+       ] [
+         fhir:code [ fhir:v "QRY" ] ;
+         fhir:display [ fhir:v "Query, original mode" ]
+       ] [
+         fhir:code [ fhir:v "QSB" ] ;
+         fhir:display [ fhir:v "Create subscription" ]
+       ] [
+         fhir:code [ fhir:v "QSX" ] ;
+         fhir:display [ fhir:v "Cancel subscription/acknowledge message" ]
+       ] [
+         fhir:code [ fhir:v "QVR" ] ;
+         fhir:display [ fhir:v "Query for previous events" ]
+       ] [
+         fhir:code [ fhir:v "RAR" ] ;
+         fhir:display [ fhir:v "Pharmacy/treatment administration information" ]
+       ] [
+         fhir:code [ fhir:v "RAS" ] ;
+         fhir:display [ fhir:v "Pharmacy/treatment administration message" ]
+       ] [
+         fhir:code [ fhir:v "RCI" ] ;
+         fhir:display [ fhir:v "Return clinical information" ]
+       ] [
+         fhir:code [ fhir:v "RCL" ] ;
+         fhir:display [ fhir:v "Return clinical list" ]
+       ] [
+         fhir:code [ fhir:v "RDE" ] ;
+         fhir:display [ fhir:v "Pharmacy/treatment encoded order message" ]
+       ] [
+         fhir:code [ fhir:v "RDR" ] ;
+         fhir:display [ fhir:v "Pharmacy/treatment dispense information" ]
+       ] [
+         fhir:code [ fhir:v "RDS" ] ;
+         fhir:display [ fhir:v "Pharmacy/treatment dispense message" ]
+       ] [
+         fhir:code [ fhir:v "RDY" ] ;
+         fhir:display [ fhir:v "Display based response" ]
+       ] [
+         fhir:code [ fhir:v "REF" ] ;
+         fhir:display [ fhir:v "Patient referral" ]
+       ] [
+         fhir:code [ fhir:v "RER" ] ;
+         fhir:display [ fhir:v "Pharmacy/treatment encoded order information" ]
+       ] [
+         fhir:code [ fhir:v "RGR" ] ;
+         fhir:display [ fhir:v "Pharmacy/treatment dose information" ]
+       ] [
+         fhir:code [ fhir:v "RGV" ] ;
+         fhir:display [ fhir:v "Pharmacy/treatment give message" ]
+       ] [
+         fhir:code [ fhir:v "ROC" ] ;
+         fhir:display [ fhir:v "Request clinical information" ]
+       ] [
+         fhir:code [ fhir:v "ROD" ] ;
+         fhir:display [ fhir:v "Request pateint demographics" ]
+       ] [
+         fhir:code [ fhir:v "ROR" ] ;
+         fhir:display [ fhir:v "Pharmacy/treatment order response" ]
+       ] [
+         fhir:code [ fhir:v "RPA" ] ;
+         fhir:display [ fhir:v "Return patient authorization" ]
+       ] [
+         fhir:code [ fhir:v "RPI" ] ;
+         fhir:display [ fhir:v "Return patient information" ]
+       ] [
+         fhir:code [ fhir:v "RPL" ] ;
+         fhir:display [ fhir:v "Return patient display list" ]
+       ] [
+         fhir:code [ fhir:v "RPR" ] ;
+         fhir:display [ fhir:v "Return patient list" ]
+       ] [
+         fhir:code [ fhir:v "RQA" ] ;
+         fhir:display [ fhir:v "Request patient authorization" ]
+       ] [
+         fhir:code [ fhir:v "RQC" ] ;
+         fhir:display [ fhir:v "Request clinical information" ]
+       ] [
+         fhir:code [ fhir:v "RQI" ] ;
+         fhir:display [ fhir:v "Request patient information" ]
+       ] [
+         fhir:code [ fhir:v "RQP" ] ;
+         fhir:display [ fhir:v "Request patient demographics" ]
+       ] [
+         fhir:code [ fhir:v "RQQ" ] ;
+         fhir:display [ fhir:v "Event replay query" ]
+       ] [
+         fhir:code [ fhir:v "RRA" ] ;
+         fhir:display [ fhir:v "Pharmacy/treatment administration acknowledgment message" ]
+       ] [
+         fhir:code [ fhir:v "RRD" ] ;
+         fhir:display [ fhir:v "Pharmacy/treatment dispense acknowledgment message" ]
+       ] [
+         fhir:code [ fhir:v "RRE" ] ;
+         fhir:display [ fhir:v "Pharmacy/treatment encoded order acknowledgment message" ]
+       ] [
+         fhir:code [ fhir:v "RRG" ] ;
+         fhir:display [ fhir:v "Pharmacy/treatment give acknowledgment message" ]
+       ] [
+         fhir:code [ fhir:v "RRI" ] ;
+         fhir:display [ fhir:v "Return referral information" ]
+       ] [
+         fhir:code [ fhir:v "RSP" ] ;
+         fhir:display [ fhir:v "Segment pattern response" ]
+       ] [
+         fhir:code [ fhir:v "RTB" ] ;
+         fhir:display [ fhir:v "Tabular response" ]
+       ] [
+         fhir:code [ fhir:v "SCN" ] ;
+         fhir:display [ fhir:v "Notification of Anti-Microbial Device Cycle Data" ]
+       ] [
+         fhir:code [ fhir:v "SDN" ] ;
+         fhir:display [ fhir:v "Notification of Anti-Microbial Device Data" ]
+       ] [
+         fhir:code [ fhir:v "SDR" ] ;
+         fhir:display [ fhir:v "Sterilization anti-microbial device data request" ]
+       ] [
+         fhir:code [ fhir:v "SET" ] ;
+         fhir:display [ fhir:v "Specimen Event Tracking" ]
+       ] [
+         fhir:code [ fhir:v "SIU" ] ;
+         fhir:display [ fhir:v "Schedule information unsolicited" ]
+       ] [
+         fhir:code [ fhir:v "SLN" ] ;
+         fhir:display [ fhir:v "Notification of New Sterilization Lot" ]
+       ] [
+         fhir:code [ fhir:v "SLR" ] ;
+         fhir:display [ fhir:v "Sterilization lot request" ]
+       ] [
+         fhir:code [ fhir:v "SMD" ] ;
+         fhir:display [ fhir:v "Sterilization anti-microbial device cycle data request" ]
+       ] [
+         fhir:code [ fhir:v "SPQ" ] ;
+         fhir:display [ fhir:v "Stored procedure request" ]
+       ] [
+         fhir:code [ fhir:v "SQM" ] ;
+         fhir:display [ fhir:v "Schedule query message" ]
+       ] [
+         fhir:code [ fhir:v "SQR" ] ;
+         fhir:display [ fhir:v "Schedule query response" ]
+       ] [
+         fhir:code [ fhir:v "SRM" ] ;
+         fhir:display [ fhir:v "Schedule request message" ]
+       ] [
+         fhir:code [ fhir:v "SRR" ] ;
+         fhir:display [ fhir:v "Scheduled request response" ]
+       ] [
+         fhir:code [ fhir:v "SSR" ] ;
+         fhir:display [ fhir:v "Specimen status request message" ]
+       ] [
+         fhir:code [ fhir:v "SSU" ] ;
+         fhir:display [ fhir:v "Specimen status update message" ]
+       ] [
+         fhir:code [ fhir:v "STC" ] ;
+         fhir:display [ fhir:v "Notification of Sterilization Configuration" ]
+       ] [
+         fhir:code [ fhir:v "STI" ] ;
+         fhir:display [ fhir:v "Sterilization item request" ]
+       ] [
+         fhir:code [ fhir:v "SUR" ] ;
+         fhir:display [ fhir:v "Summary product experience report" ]
+       ] [
+         fhir:code [ fhir:v "TBR" ] ;
+         fhir:display [ fhir:v "Tabular data response" ]
+       ] [
+         fhir:code [ fhir:v "TCR" ] ;
+         fhir:display [ fhir:v "Automated equipment test code settings request message" ]
+       ] [
+         fhir:code [ fhir:v "TCU" ] ;
+         fhir:display [ fhir:v "Automated equipment test code settings update message" ]
+       ] [
+         fhir:code [ fhir:v "UDM" ] ;
+         fhir:display [ fhir:v "Unsolicited display update message" ]
+       ] [
+         fhir:code [ fhir:v "VQQ" ] ;
+         fhir:display [ fhir:v "Virtual table query" ]
+       ] [
+         fhir:code [ fhir:v "VXQ" ] ;
+         fhir:display [ fhir:v "Query for vaccination record" ]
+       ] [
+         fhir:code [ fhir:v "VXR" ] ;
+         fhir:display [ fhir:v "Vaccination record response" ]
+       ] [
+         fhir:code [ fhir:v "VXU" ] ;
+         fhir:display [ fhir:v "Unsolicited vaccination record update" ]
+       ] [
+         fhir:code [ fhir:v "VXX" ] ;
+         fhir:display [ fhir:v "Response for vaccination query with multiple PID matches" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "ACK" ] ;
+       fhir:display [ fhir:v "General acknowledgment message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "ADR" ] ;
+       fhir:display [ fhir:v "ADT response" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "ADT" ] ;
+       fhir:display [ fhir:v "ADT message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "ARD" ] ;
+       fhir:display [ fhir:v "Ancillary RPT (display) (for backward compatibility only)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "BAR" ] ;
+       fhir:display [ fhir:v "Add/change billing account" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "BPS" ] ;
+       fhir:display [ fhir:v "Blood product dispense status message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "BRP" ] ;
+       fhir:display [ fhir:v "Blood product dispense status acknowledgement message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "BRT" ] ;
+       fhir:display [ fhir:v "Blood product transfusion/disposition acknowledgement message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "BTS" ] ;
+       fhir:display [ fhir:v "Blood product transfusion/disposition message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "CCF" ] ;
+       fhir:display [ fhir:v "Collaborative Care Fetch" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "CCI" ] ;
+       fhir:display [ fhir:v "Collaborative Care Information" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "CCM" ] ;
+       fhir:display [ fhir:v "Collaborative Care Message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "CCQ" ] ;
+       fhir:display [ fhir:v "Collaborative Care Referral" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "CCU" ] ;
+       fhir:display [ fhir:v "Collaborative Care Referral" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "CNQ" ] ;
+       fhir:display [ fhir:v "Cancel query" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "CQU" ] ;
+       fhir:display [ fhir:v "Collaborative Care Referral" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "CRM" ] ;
+       fhir:display [ fhir:v "Clinical study registration message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "CSU" ] ;
+       fhir:display [ fhir:v "Unsolicited study data message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "DBC" ] ;
+       fhir:display [ fhir:v "Create Donor Record" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "DBU" ] ;
+       fhir:display [ fhir:v "Update Donor Record" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "DEL" ] ;
+       fhir:display [ fhir:v "Donor Eligibility" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "DEO" ] ;
+       fhir:display [ fhir:v "Donor Eligibility Observation" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "DER" ] ;
+       fhir:display [ fhir:v "Donor Eligibility Request" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "DFT" ] ;
+       fhir:display [ fhir:v "Detail financial transactions" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "DOC" ] ;
+       fhir:display [ fhir:v "Document response" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "DPR" ] ;
+       fhir:display [ fhir:v "Donation Procedure" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "DRC" ] ;
+       fhir:display [ fhir:v "Donor Request to Collect" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "DSR" ] ;
+       fhir:display [ fhir:v "Display response" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "EAC" ] ;
+       fhir:display [ fhir:v "Automated equipment command message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "EAN" ] ;
+       fhir:display [ fhir:v "Automated equipment notification message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "EAR" ] ;
+       fhir:display [ fhir:v "Automated equipment response message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "EDR" ] ;
+       fhir:display [ fhir:v "Enhanced display response" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "EHC" ] ;
+       fhir:display [ fhir:v "Health Care Invoice" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "EQQ" ] ;
+       fhir:display [ fhir:v "Embedded query language query" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "ERP" ] ;
+       fhir:display [ fhir:v "Event replay response" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "ERQ" ] ;
+       fhir:display [ fhir:v "Event replay query" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "ESR" ] ;
+       fhir:display [ fhir:v "Automated equipment status update acknowledgment message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "ESU" ] ;
+       fhir:display [ fhir:v "Automated equipment status update message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "INR" ] ;
+       fhir:display [ fhir:v "Automated equipment inventory request message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "INU" ] ;
+       fhir:display [ fhir:v "Automated equipment inventory update message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "LSR" ] ;
+       fhir:display [ fhir:v "Automated equipment log/service request message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "LSU" ] ;
+       fhir:display [ fhir:v "Automated equipment log/service update message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "MCF" ] ;
+       fhir:display [ fhir:v "Delayed Acknowledgment (Retained for backward compatibility only)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "MDM" ] ;
+       fhir:display [ fhir:v "Medical document management" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "MFD" ] ;
+       fhir:display [ fhir:v "Master files delayed application acknowledgment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "MFK" ] ;
+       fhir:display [ fhir:v "Master files application acknowledgment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "MFN" ] ;
+       fhir:display [ fhir:v "Master files notification" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "MFQ" ] ;
+       fhir:display [ fhir:v "Master files query" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "MFR" ] ;
+       fhir:display [ fhir:v "Master files response" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "NMD" ] ;
+       fhir:display [ fhir:v "Application management data message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "NMQ" ] ;
+       fhir:display [ fhir:v "Application management query message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "NMR" ] ;
+       fhir:display [ fhir:v "Application management response message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "OMB" ] ;
+       fhir:display [ fhir:v "Blood product order message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "OMD" ] ;
+       fhir:display [ fhir:v "Dietary order" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "OMG" ] ;
+       fhir:display [ fhir:v "General clinical order message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "OMI" ] ;
+       fhir:display [ fhir:v "Imaging order" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "OML" ] ;
+       fhir:display [ fhir:v "Laboratory order message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "OMN" ] ;
+       fhir:display [ fhir:v "Non-stock requisition order message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "OMP" ] ;
+       fhir:display [ fhir:v "Pharmacy/treatment order message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "OMQ" ] ;
+       fhir:display [ fhir:v "General order message with document payload" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "OMS" ] ;
+       fhir:display [ fhir:v "Stock requisition order message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "OPL" ] ;
+       fhir:display [ fhir:v "Population/Location-Based Laboratory Order Message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "OPR" ] ;
+       fhir:display [ fhir:v "Population/Location-Based Laboratory Order Acknowledgment Message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "OPU" ] ;
+       fhir:display [ fhir:v "Unsolicited Population/Location-Based Laboratory Observation Message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "ORA" ] ;
+       fhir:display [ fhir:v "Observation Report Acknowledgment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "ORB" ] ;
+       fhir:display [ fhir:v "Blood product order acknowledgement message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "ORD" ] ;
+       fhir:display [ fhir:v "Dietary order acknowledgment message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "ORF" ] ;
+       fhir:display [ fhir:v "Query for results of observation" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "ORG" ] ;
+       fhir:display [ fhir:v "General clinical order acknowledgment message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "ORI" ] ;
+       fhir:display [ fhir:v "Imaging order acknowledgement message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "ORL" ] ;
+       fhir:display [ fhir:v "Laboratory acknowledgment message (unsolicited)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "ORM" ] ;
+       fhir:display [ fhir:v "Pharmacy/treatment order message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "ORN" ] ;
+       fhir:display [ fhir:v "Non-stock requisition - General order acknowledgment message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "ORP" ] ;
+       fhir:display [ fhir:v "Pharmacy/treatment order acknowledgment message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "ORR" ] ;
+       fhir:display [ fhir:v "General order response message response to any ORM" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "ORS" ] ;
+       fhir:display [ fhir:v "Stock requisition - Order acknowledgment message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "ORU" ] ;
+       fhir:display [ fhir:v "Unsolicited transmission of an observation message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "ORX" ] ;
+       fhir:display [ fhir:v "General Order Message with Document Payload Acknowledgement" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "OSM" ] ;
+       fhir:display [ fhir:v "Specimen Shipment Message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "OSQ" ] ;
+       fhir:display [ fhir:v "Query response for order status" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "OSR" ] ;
+       fhir:display [ fhir:v "Query response for order status" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "OSU" ] ;
+       fhir:display [ fhir:v "Order status update" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "OUL" ] ;
+       fhir:display [ fhir:v "Unsolicited laboratory observation message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "PEX" ] ;
+       fhir:display [ fhir:v "Product experience message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "PGL" ] ;
+       fhir:display [ fhir:v "Patient goal message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "PIN" ] ;
+       fhir:display [ fhir:v "Patient insurance information" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "PMU" ] ;
+       fhir:display [ fhir:v "Add personnel record" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "PPG" ] ;
+       fhir:display [ fhir:v "Patient pathway message (goal-oriented)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "PPP" ] ;
+       fhir:display [ fhir:v "Patient pathway message (problem-oriented)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "PPR" ] ;
+       fhir:display [ fhir:v "Patient problem message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "PPT" ] ;
+       fhir:display [ fhir:v "Patient pathway goal-oriented response" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "PPV" ] ;
+       fhir:display [ fhir:v "Patient goal response" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "PRR" ] ;
+       fhir:display [ fhir:v "Patient problem response" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "PTR" ] ;
+       fhir:display [ fhir:v "Patient pathway problem-oriented response" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "QBP" ] ;
+       fhir:display [ fhir:v "Query by parameter" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "QCK" ] ;
+       fhir:display [ fhir:v "Query general acknowledgment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "QCN" ] ;
+       fhir:display [ fhir:v "Cancel query" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "QRY" ] ;
+       fhir:display [ fhir:v "Query, original mode" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "QSB" ] ;
+       fhir:display [ fhir:v "Create subscription" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "QSX" ] ;
+       fhir:display [ fhir:v "Cancel subscription/acknowledge message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "QVR" ] ;
+       fhir:display [ fhir:v "Query for previous events" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RAR" ] ;
+       fhir:display [ fhir:v "Pharmacy/treatment administration information" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RAS" ] ;
+       fhir:display [ fhir:v "Pharmacy/treatment administration message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RCI" ] ;
+       fhir:display [ fhir:v "Return clinical information" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RCL" ] ;
+       fhir:display [ fhir:v "Return clinical list" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RDE" ] ;
+       fhir:display [ fhir:v "Pharmacy/treatment encoded order message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RDR" ] ;
+       fhir:display [ fhir:v "Pharmacy/treatment dispense information" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RDS" ] ;
+       fhir:display [ fhir:v "Pharmacy/treatment dispense message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RDY" ] ;
+       fhir:display [ fhir:v "Display based response" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "REF" ] ;
+       fhir:display [ fhir:v "Patient referral" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RER" ] ;
+       fhir:display [ fhir:v "Pharmacy/treatment encoded order information" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RGR" ] ;
+       fhir:display [ fhir:v "Pharmacy/treatment dose information" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RGV" ] ;
+       fhir:display [ fhir:v "Pharmacy/treatment give message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "ROC" ] ;
+       fhir:display [ fhir:v "Request clinical information" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "ROD" ] ;
+       fhir:display [ fhir:v "Request pateint demographics" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "ROR" ] ;
+       fhir:display [ fhir:v "Pharmacy/treatment order response" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RPA" ] ;
+       fhir:display [ fhir:v "Return patient authorization" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RPI" ] ;
+       fhir:display [ fhir:v "Return patient information" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RPL" ] ;
+       fhir:display [ fhir:v "Return patient display list" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RPR" ] ;
+       fhir:display [ fhir:v "Return patient list" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RQA" ] ;
+       fhir:display [ fhir:v "Request patient authorization" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RQC" ] ;
+       fhir:display [ fhir:v "Request clinical information" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RQI" ] ;
+       fhir:display [ fhir:v "Request patient information" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RQP" ] ;
+       fhir:display [ fhir:v "Request patient demographics" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RQQ" ] ;
+       fhir:display [ fhir:v "Event replay query" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RRA" ] ;
+       fhir:display [ fhir:v "Pharmacy/treatment administration acknowledgment message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RRD" ] ;
+       fhir:display [ fhir:v "Pharmacy/treatment dispense acknowledgment message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RRE" ] ;
+       fhir:display [ fhir:v "Pharmacy/treatment encoded order acknowledgment message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RRG" ] ;
+       fhir:display [ fhir:v "Pharmacy/treatment give acknowledgment message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RRI" ] ;
+       fhir:display [ fhir:v "Return referral information" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RSP" ] ;
+       fhir:display [ fhir:v "Segment pattern response" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "RTB" ] ;
+       fhir:display [ fhir:v "Tabular response" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "SCN" ] ;
+       fhir:display [ fhir:v "Notification of Anti-Microbial Device Cycle Data" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "SDN" ] ;
+       fhir:display [ fhir:v "Notification of Anti-Microbial Device Data" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "SDR" ] ;
+       fhir:display [ fhir:v "Sterilization anti-microbial device data request" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "SET" ] ;
+       fhir:display [ fhir:v "Specimen Event Tracking" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "SIU" ] ;
+       fhir:display [ fhir:v "Schedule information unsolicited" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "SLN" ] ;
+       fhir:display [ fhir:v "Notification of New Sterilization Lot" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "SLR" ] ;
+       fhir:display [ fhir:v "Sterilization lot request" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "SMD" ] ;
+       fhir:display [ fhir:v "Sterilization anti-microbial device cycle data request" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "SPQ" ] ;
+       fhir:display [ fhir:v "Stored procedure request" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "SQM" ] ;
+       fhir:display [ fhir:v "Schedule query message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "SQR" ] ;
+       fhir:display [ fhir:v "Schedule query response" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "SRM" ] ;
+       fhir:display [ fhir:v "Schedule request message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "SRR" ] ;
+       fhir:display [ fhir:v "Scheduled request response" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "SSR" ] ;
+       fhir:display [ fhir:v "Specimen status request message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "SSU" ] ;
+       fhir:display [ fhir:v "Specimen status update message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "STC" ] ;
+       fhir:display [ fhir:v "Notification of Sterilization Configuration" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "STI" ] ;
+       fhir:display [ fhir:v "Sterilization item request" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "SUR" ] ;
+       fhir:display [ fhir:v "Summary product experience report" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "TBR" ] ;
+       fhir:display [ fhir:v "Tabular data response" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "TCR" ] ;
+       fhir:display [ fhir:v "Automated equipment test code settings request message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "TCU" ] ;
+       fhir:display [ fhir:v "Automated equipment test code settings update message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "UDM" ] ;
+       fhir:display [ fhir:v "Unsolicited display update message" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "VQQ" ] ;
+       fhir:display [ fhir:v "Virtual table query" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "VXQ" ] ;
+       fhir:display [ fhir:v "Query for vaccination record" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "VXR" ] ;
+       fhir:display [ fhir:v "Vaccination record response" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "VXU" ] ;
+       fhir:display [ fhir:v "Unsolicited vaccination record update" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0076"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0076>
+       ] ;
+       fhir:version [ fhir:v "2.12.0" ] ;
+       fhir:code [ fhir:v "VXX" ] ;
+       fhir:display [ fhir:v "Response for vaccination query with multiple PID matches" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

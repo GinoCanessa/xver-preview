@@ -1,0 +1,103 @@
+# ConditionPreconditionType - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## CodeSystem: ConditionPreconditionType 
+
+ 
+Kind of precondition for the condition. 
+
+This Code system is referenced in the definition of the following value sets:
+
+* [R5ConditionPreconditionTypeForR4](ValueSet-R5-condition-precondition-type-for-R4.md)
+
+-------
+
+ [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "CodeSystem",
+  "id" : "condition-precondition-type",
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode" : "trial-use"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger" : 0
+    },
+    {
+      "extension" : [
+        {
+          "url" : "packageId",
+          "valueId" : "hl7.fhir.uv.xver-r5.r4"
+        },
+        {
+          "url" : "version",
+          "valueString" : "0.0.1-snapshot-3"
+        },
+        {
+          "url" : "uri",
+          "valueUri" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+        }
+      ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/package-source"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "pc"
+    }
+  ],
+  "url" : "http://hl7.org/fhir/condition-precondition-type",
+  "version" : "5.0.0",
+  "name" : "ConditionPreconditionType",
+  "title" : "Condition Precondition Type",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2021-01-04T17:01:24-06:00",
+  "publisher" : "Patient Care",
+  "contact" : [
+    {
+      "name" : "Patient Care",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/patientcare"
+        }
+      ]
+    }
+  ],
+  "description" : "Kind of precondition for the condition.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }
+      ]
+    }
+  ],
+  "caseSensitive" : true,
+  "valueSet" : "http://hl7.org/fhir/ValueSet/condition-precondition-type",
+  "content" : "complete",
+  "concept" : [
+    {
+      "code" : "sensitive",
+      "display" : "Sensitive",
+      "definition" : "The observation is very sensitive for the condition, but may also indicate other conditions."
+    },
+    {
+      "code" : "specific",
+      "display" : "Specific",
+      "definition" : "The observation is very specific for this condition, but not particularly sensitive."
+    }
+  ]
+}
+
+```

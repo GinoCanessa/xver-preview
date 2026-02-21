@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-Provenance-element-map-to-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-Provenance-element-map-to-R4</b></p><a name="R5-Provenance-element-map-to-R4"> </a><a name="hcR5-Provenance-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Provenance|5.0.0</code> to <a href="http://hl7.org/fhir/R4/provenance.html">Provenanceversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Provenance.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Provenance.meta` is mapped to FHIR R4 element `Provenance.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Provenance.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Provenance.implicitRules` is mapped to FHIR R4 element `Provenance.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Provenance.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Provenance.language` is mapped to FHIR R4 element `Provenance.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Provenance.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Provenance.text` is mapped to FHIR R4 element `Provenance.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Provenance.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Provenance.contained` is mapped to FHIR R4 element `Provenance.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Provenance.target (target)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Provenance.target` is mapped to FHIR R4 element `Provenance.target` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Provenance.occurred[x] (occurred[x])</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Note that the target element context `Provenance.occurred[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Provenance`.
+Element `Provenance.occurred[x]` is mapped to FHIR R4 element `Provenance.occurred[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note that the target element context `Provenance.occurred[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Provenance`.</td></tr><tr><td>Provenance.recorded (recorded)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Provenance.recorded` is mapped to FHIR R4 element `Provenance.recorded` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Provenance.policy (policy)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Provenance.policy` is mapped to FHIR R4 element `Provenance.policy` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Provenance.location (location)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Provenance.location` is mapped to FHIR R4 element `Provenance.location` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Provenance.authorization (authorization)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `Provenance.authorization` is mapped to FHIR R4 element `Provenance.reason` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Provenance.activity (activity)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Provenance.activity` is mapped to FHIR R4 element `Provenance.activity` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Provenance.agent (agent)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `Provenance.agent` is mapped to FHIR R4 element `Provenance.agent` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Provenance.entity.agent` because `Provenance.entity.agent` is defined as a content reference to `Provenance.agent`.</td></tr><tr><td>Provenance.agent.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Provenance.agent.type` is mapped to FHIR R4 element `Provenance.agent.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Provenance.entity.agent.type` because `Provenance.entity.agent` is defined via a content reference to `Provenance.agent`.</td></tr><tr><td>Provenance.agent.role (role)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Provenance.agent.role` is mapped to FHIR R4 element `Provenance.agent.role` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Provenance.entity.agent.role` because `Provenance.entity.agent` is defined via a content reference to `Provenance.agent`.</td></tr><tr><td>Provenance.agent.who (who)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.agent.who` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Provenance.agent.who` is mapped to FHIR R4 element `Provenance.agent.who` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Provenance.entity.agent.who` because `Provenance.entity.agent` is defined via a content reference to `Provenance.agent`.</td></tr><tr><td>Provenance.agent.onBehalfOf (onBehalfOf)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.agent.onBehalfOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Provenance.agent.onBehalfOf` is mapped to FHIR R4 element `Provenance.agent.onBehalfOf` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Provenance.entity.agent.onBehalfOf` because `Provenance.entity.agent` is defined via a content reference to `Provenance.agent`.</td></tr><tr><td>Provenance.entity (entity)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `Provenance.entity` is mapped to FHIR R4 element `Provenance.entity` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Provenance.entity.role (role)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `Provenance.entity.role` is mapped to FHIR R4 element `Provenance.entity.role` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Provenance.entity.what (what)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Provenance.entity.what` is mapped to FHIR R4 element `Provenance.entity.what` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Provenance.entity.agent (agent)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Provenance.entity.agent` is mapped to FHIR R4 element `Provenance.entity.agent` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Provenance.signature (signature)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Provenance.signature` is mapped to FHIR R4 element `Provenance.signature` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Provenance|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Provenance.authorization (authorization)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.authorization</td><td>Element `Provenance.authorization` is mapped to FHIR R4 element `Provenance.reason` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Provenance.entity.role (role)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.entity.role</td><td>Element `Provenance.entity.role` is mapped to FHIR R4 element `Provenance.entity.role` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Provenance|5.0.0</code> to <a href="http://hl7.org/fhir/extensions/5.2.0/index.html">FHIR Extensions Packversion: 5.2.0)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Provenance.basedOn (basedOn)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Provenance.basedOn` has a context of Provenance based on following the parent source element upwards and mapping to `Provenance`.</td></tr><tr><td>Provenance.patient (patient)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.patient` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Provenance.patient` has a context of Provenance based on following the parent source element upwards and mapping to `Provenance`.</td></tr><tr><td>Provenance.encounter (encounter)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Provenance.encounter` has a context of Provenance based on following the parent source element upwards and mapping to `Provenance`.</td></tr><tr><td>Provenance.agent.who (who)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.agent.who` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Provenance.agent.who` is mapped to FHIR R4 element `Provenance.agent.who` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Provenance.entity.agent.who` because `Provenance.entity.agent` is defined via a content reference to `Provenance.agent`.</td></tr><tr><td>Provenance.agent.onBehalfOf (onBehalfOf)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.agent.onBehalfOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Provenance.agent.onBehalfOf` is mapped to FHIR R4 element `Provenance.agent.onBehalfOf` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Provenance.entity.agent.onBehalfOf` because `Provenance.entity.agent` is defined via a content reference to `Provenance.agent`.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-Provenance-element-map-to-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5ProvenanceElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 Provenance to FHIR R4 Provenance"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T13:36:58.53116-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 Provenance to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Provenance"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/Provenance"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="Provenance.meta"/>
+      <display value="meta"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Provenance.meta` is mapped to FHIR R4 element `Provenance.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Provenance.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Provenance.implicitRules` is mapped to FHIR R4 element `Provenance.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Provenance.language"/>
+      <display value="language"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Provenance.language` is mapped to FHIR R4 element `Provenance.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Provenance.text"/>
+      <display value="text"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Provenance.text` is mapped to FHIR R4 element `Provenance.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Provenance.contained"/>
+      <display value="contained"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Provenance.contained` is mapped to FHIR R4 element `Provenance.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Provenance.target"/>
+      <display value="target"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Provenance.target` is mapped to FHIR R4 element `Provenance.target` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Provenance.occurred[x]"/>
+      <display value="occurred[x]"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Note that the target element context `Provenance.occurred[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Provenance`.&#xA;Element `Provenance.occurred[x]` is mapped to FHIR R4 element `Provenance.occurred[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note that the target element context `Provenance.occurred[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Provenance`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Provenance.recorded"/>
+      <display value="recorded"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Provenance.recorded` is mapped to FHIR R4 element `Provenance.recorded` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Provenance.policy"/>
+      <display value="policy"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Provenance.policy` is mapped to FHIR R4 element `Provenance.policy` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Provenance.location"/>
+      <display value="location"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Provenance.location` is mapped to FHIR R4 element `Provenance.location` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Provenance.authorization"/>
+      <display value="authorization"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `Provenance.authorization` is mapped to FHIR R4 element `Provenance.reason` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Provenance.activity"/>
+      <display value="activity"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Provenance.activity` is mapped to FHIR R4 element `Provenance.activity` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Provenance.agent"/>
+      <display value="agent"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `Provenance.agent` is mapped to FHIR R4 element `Provenance.agent` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Provenance.entity.agent` because `Provenance.entity.agent` is defined as a content reference to `Provenance.agent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Provenance.agent.type"/>
+      <display value="type"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Provenance.agent.type` is mapped to FHIR R4 element `Provenance.agent.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Provenance.entity.agent.type` because `Provenance.entity.agent` is defined via a content reference to `Provenance.agent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Provenance.agent.role"/>
+      <display value="role"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Provenance.agent.role` is mapped to FHIR R4 element `Provenance.agent.role` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Provenance.entity.agent.role` because `Provenance.entity.agent` is defined via a content reference to `Provenance.agent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Provenance.agent.who"/>
+      <display value="who"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.agent.who` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Provenance.agent.who` is mapped to FHIR R4 element `Provenance.agent.who` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Provenance.entity.agent.who` because `Provenance.entity.agent` is defined via a content reference to `Provenance.agent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Provenance.agent.onBehalfOf"/>
+      <display value="onBehalfOf"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.agent.onBehalfOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Provenance.agent.onBehalfOf` is mapped to FHIR R4 element `Provenance.agent.onBehalfOf` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Provenance.entity.agent.onBehalfOf` because `Provenance.entity.agent` is defined via a content reference to `Provenance.agent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Provenance.entity"/>
+      <display value="entity"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `Provenance.entity` is mapped to FHIR R4 element `Provenance.entity` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Provenance.entity.role"/>
+      <display value="role"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `Provenance.entity.role` is mapped to FHIR R4 element `Provenance.entity.role` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Provenance.entity.what"/>
+      <display value="what"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Provenance.entity.what` is mapped to FHIR R4 element `Provenance.entity.what` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Provenance.entity.agent"/>
+      <display value="agent"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Provenance.entity.agent` is mapped to FHIR R4 element `Provenance.entity.agent` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Provenance.signature"/>
+      <display value="signature"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Provenance.signature` is mapped to FHIR R4 element `Provenance.signature` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Provenance"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="Provenance.authorization"/>
+      <display value="authorization"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.authorization"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Provenance.authorization` is mapped to FHIR R4 element `Provenance.reason` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Provenance.entity.role"/>
+      <display value="role"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.entity.role"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Provenance.entity.role` is mapped to FHIR R4 element `Provenance.entity.role` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Provenance"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <targetVersion value="5.2.0"/>
+    <element>
+      <code value="Provenance.basedOn"/>
+      <display value="basedOn"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="wider"/>
+        <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Provenance.basedOn` has a context of Provenance based on following the parent source element upwards and mapping to `Provenance`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Provenance.patient"/>
+      <display value="patient"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="wider"/>
+        <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.patient` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Provenance.patient` has a context of Provenance based on following the parent source element upwards and mapping to `Provenance`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Provenance.encounter"/>
+      <display value="encounter"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="wider"/>
+        <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Provenance.encounter` has a context of Provenance based on following the parent source element upwards and mapping to `Provenance`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Provenance.agent.who"/>
+      <display value="who"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.agent.who` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Provenance.agent.who` is mapped to FHIR R4 element `Provenance.agent.who` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Provenance.entity.agent.who` because `Provenance.entity.agent` is defined via a content reference to `Provenance.agent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Provenance.agent.onBehalfOf"/>
+      <display value="onBehalfOf"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.agent.onBehalfOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Provenance.agent.onBehalfOf` is mapped to FHIR R4 element `Provenance.agent.onBehalfOf` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Provenance.entity.agent.onBehalfOf` because `Provenance.entity.agent` is defined via a content reference to `Provenance.agent`."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

@@ -1,0 +1,981 @@
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>R5V3SpecimenAdditiveEntityForR4 - XML Representation - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"7.3099"}
+    h3,h4,h5,h6{--heading-prefix:"7.3099"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" data-no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img alt="International flag" src="../assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>R5V3SpecimenAdditiveEntityForR4</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="ValueSet-R5-v3-SpecimenAdditiveEntity-for-R4-testing.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="ValueSet-R5-v3-SpecimenAdditiveEntity-for-R4.json.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<!-- layouts\layout-instance-format -->
+<div style="counter-reset: section 7" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="ValueSet-R5-v3-SpecimenAdditiveEntity-for-R4.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li class="active">
+      <a href="#">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-R5-v3-SpecimenAdditiveEntity-for-R4.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-R5-v3-SpecimenAdditiveEntity-for-R4.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+
+<h2 id="root">: R5V3SpecimenAdditiveEntityForR4</h2>
+
+  <table class="colsd" data-fhir="generated">
+    <tr>
+
+      <td colspan="1">
+        
+          <i>Page standards status:</i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standards Status">Trial-use</a>
+          
+        
+      </td>
+
+      <td>
+        <a href="http://hl7.org/fhir/versions.html#maturity">Maturity Level</a>: 0
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p><a href="ValueSet-R5-v3-SpecimenAdditiveEntity-for-R4.xml" no-download="true">Raw xml</a> | <a href="ValueSet-R5-v3-SpecimenAdditiveEntity-for-R4.xml" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="xml" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code style="white-space: pre; text-wrap: nowrap;">
+&lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet">ValueSet</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/resource.html#ValueSet.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;R5-v3-SpecimenAdditiveEntity-for-R4&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/resource.html#ValueSet.language">language</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;en&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#ValueSet.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: ValueSet R5-v3-SpecimenAdditiveEntity-for-R4&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcR5-v3-SpecimenAdditiveEntity-for-R4&quot;&gt; &lt;/a&gt;&lt;p&gt;This value set expansion contains 54 concepts.&lt;/p&gt;&lt;table class=&quot;codes&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;System&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Version&lt;/b&gt;&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-ACDA&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  ACDA&lt;/td&gt;&lt;td&gt;ACD Solution A&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-ACDB&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  ACDB&lt;/td&gt;&lt;td&gt;ACD Solution B&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-ACET&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  ACET&lt;/td&gt;&lt;td&gt;Acetic Acid&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-AMIES&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  AMIES&lt;/td&gt;&lt;td&gt;Amies transport medium&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BACTM&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  BACTM&lt;/td&gt;&lt;td&gt;Bacterial Transport medium&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BF10&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  BF10&lt;/td&gt;&lt;td&gt;Buffered 10% formalin&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BOR&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  BOR&lt;/td&gt;&lt;td&gt;Boric Acid&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BOUIN&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  BOUIN&lt;/td&gt;&lt;td&gt;Bouin's solution&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BSKM&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  BSKM&lt;/td&gt;&lt;td&gt;Buffered skim milk&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-C32&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  C32&lt;/td&gt;&lt;td&gt;3.2% Citrate&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-C38&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  C38&lt;/td&gt;&lt;td&gt;3.8% Citrate&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-CARS&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  CARS&lt;/td&gt;&lt;td&gt;Carson's Modified 10% formalin&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-CARY&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  CARY&lt;/td&gt;&lt;td&gt;Cary Blair Medium&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-CHLTM&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  CHLTM&lt;/td&gt;&lt;td&gt;Chlamydia transport medium&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-CTAD&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  CTAD&lt;/td&gt;&lt;td&gt;CTAD&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-EDTK15&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  EDTK15&lt;/td&gt;&lt;td&gt;Potassium/K EDTA 15%&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-EDTK75&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  EDTK75&lt;/td&gt;&lt;td&gt;Potassium/K EDTA 7.5%&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-EDTN&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  EDTN&lt;/td&gt;&lt;td&gt;Sodium/Na EDTA&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-ENT&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  ENT&lt;/td&gt;&lt;td&gt;Enteric bacteria transport medium&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-F10&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  F10&lt;/td&gt;&lt;td&gt;10% Formalin&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-FDP&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  FDP&lt;/td&gt;&lt;td&gt;Thrombin NIH; soybean trypsin inhibitor&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-FL10&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  FL10&lt;/td&gt;&lt;td&gt;Sodium Fluoride, 10mg&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-FL100&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  FL100&lt;/td&gt;&lt;td&gt;Sodium Fluoride, 100mg&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-HCL6&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  HCL6&lt;/td&gt;&lt;td&gt;6N HCL&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-HEPA&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  HEPA&lt;/td&gt;&lt;td&gt;Ammonium heparin&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-HEPL&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  HEPL&lt;/td&gt;&lt;td&gt;Lithium/Li Heparin&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-HEPN&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  HEPN&lt;/td&gt;&lt;td&gt;Sodium/Na Heparin&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-HNO3&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  HNO3&lt;/td&gt;&lt;td&gt;Nitric Acid&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-JKM&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  JKM&lt;/td&gt;&lt;td&gt;Jones Kendrick Medium&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-KARN&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  KARN&lt;/td&gt;&lt;td&gt;Karnovsky's fixative&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-KOX&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  KOX&lt;/td&gt;&lt;td&gt;Potassium Oxalate&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-LIA&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  LIA&lt;/td&gt;&lt;td&gt;Lithium iodoacetate&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-M4&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  M4&lt;/td&gt;&lt;td&gt;M4&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-M4RT&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  M4RT&lt;/td&gt;&lt;td&gt;M4-RT&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-M5&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  M5&lt;/td&gt;&lt;td&gt;M5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-MICHTM&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  MICHTM&lt;/td&gt;&lt;td&gt;Michel's transport medium&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-MMDTM&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  MMDTM&lt;/td&gt;&lt;td&gt;MMD transport medium&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-NAF&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  NAF&lt;/td&gt;&lt;td&gt;Sodium Fluoride&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-NONE&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  NONE&lt;/td&gt;&lt;td&gt;None&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-PAGE&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  PAGE&lt;/td&gt;&lt;td&gt;Page's Saline&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-PHENOL&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  PHENOL&lt;/td&gt;&lt;td&gt;Phenol&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-PVA&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  PVA&lt;/td&gt;&lt;td&gt;Polyvinylalcohol&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-RLM&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  RLM&lt;/td&gt;&lt;td&gt;Reagan Lowe Medium&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-SILICA&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  SILICA&lt;/td&gt;&lt;td&gt;Siliceous earth&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-SPS&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  SPS&lt;/td&gt;&lt;td&gt;Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-SST&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  SST&lt;/td&gt;&lt;td&gt;Serum Separator Tube&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-STUTM&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  STUTM&lt;/td&gt;&lt;td&gt;Stuart transport medium&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-THROM&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  THROM&lt;/td&gt;&lt;td&gt;Thrombin&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-THYMOL&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  THYMOL&lt;/td&gt;&lt;td&gt;Thymol&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-THYO&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  THYO&lt;/td&gt;&lt;td&gt;Thyoglycolate broth&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-TOLU&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  TOLU&lt;/td&gt;&lt;td&gt;Toluene&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-URETM&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  URETM&lt;/td&gt;&lt;td&gt;Ureaplasma transport medium&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-VIRTM&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  VIRTM&lt;/td&gt;&lt;td&gt;Viral Transport medium&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;a name=&quot;R5-v3-SpecimenAdditiveEntity-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-WEST&quot;&gt; &lt;/a&gt;&lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-EntityCode&lt;/code&gt;&lt;/td&gt;&lt;td&gt;2.1.0&lt;/td&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;  WEST&lt;/td&gt;&lt;td&gt;Buffered Citrate&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+  &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#ValueSet.text">text</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#ValueSet.extension">extension</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-wg&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;fhir&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#ValueSet.extension">extension</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#ValueSet.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/package-source&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;packageId&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueId</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;hl7.fhir.uv.xver-r5.r4&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;version&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;0.0.1-snapshot-3&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;uri&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueUri</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#ValueSet.extension">extension</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#ValueSet.extension">extension</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;0&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#integer.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCanonical</a>
+                        <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#integer.extension">extension</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#ValueSet.extension">extension</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#ValueSet.extension">extension</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;trial-use&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#code.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCanonical</a>
+                        <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#code.extension">extension</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#ValueSet.extension">extension</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">url</a>
+       <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-SpecimenAdditiveEntity-for-R4&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;0.0.1-snapshot-3&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;R5V3SpecimenAdditiveEntityForR4&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">title</a>
+         <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Cross-version ValueSet R5.SpecimenAdditiveEntity for use in FHIR R4&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.experimental">experimental</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2026-02-21T19:36:42.9229177+00:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.publisher">publisher</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FHIR Infrastructure&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">contact</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FHIR Infrastructure&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;url&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;http://www.hl7.org/Special/committees/fiwg&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.contact">contact</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.description">description</a>
+               <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v3-SpecimenAdditiveEntity|2.0.0` for use in FHIR R4.&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.jurisdiction">jurisdiction</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://unstats.un.org/unsd/methods/m49/m49.htm&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;001&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;World&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.jurisdiction">jurisdiction</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.purpose">purpose</a>
+           <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;This value set is part of the cross-version definitions generated to enable use of the
+value set `http://terminology.hl7.org/ValueSet/v3-SpecimenAdditiveEntity|2.0.0` as defined in FHIR R5
+in FHIR R4.
+
+The source value set is bound to the following FHIR R5 elements:
+* 
+
+The following concepts are not included in this cross-version definition because they have valid representations
+* _no concepts_
+
+Following are the generation technical comments:
+
+FHIR ValueSet `http://terminology.hl7.org/ValueSet/v3-SpecimenAdditiveEntity|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose">compose</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include">include</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ACDA&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ACD Solution A&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ACDB&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ACD Solution B&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ACET&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Acetic Acid&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;AMIES&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Amies transport medium&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;BACTM&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Bacterial Transport medium&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;BF10&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Buffered 10% formalin&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;BOR&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Boric Acid&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;BOUIN&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Bouin's solution&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;BSKM&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Buffered skim milk&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;C32&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;3.2% Citrate&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;C38&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;3.8% Citrate&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;CARS&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Carson's Modified 10% formalin&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;CARY&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Cary Blair Medium&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;CHLTM&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Chlamydia transport medium&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;CTAD&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;CTAD&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;EDTK15&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Potassium/K EDTA 15%&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;EDTK75&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Potassium/K EDTA 7.5%&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;EDTN&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Sodium/Na EDTA&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ENT&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Enteric bacteria transport medium&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;F10&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;10% Formalin&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;FDP&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Thrombin NIH; soybean trypsin inhibitor&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;FL10&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Sodium Fluoride, 10mg&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;FL100&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Sodium Fluoride, 100mg&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;HCL6&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;6N HCL&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;HEPA&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Ammonium heparin&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;HEPL&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Lithium/Li Heparin&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;HEPN&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Sodium/Na Heparin&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;HNO3&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Nitric Acid&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;JKM&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Jones Kendrick Medium&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;KARN&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Karnovsky's fixative&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;KOX&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Potassium Oxalate&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;LIA&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Lithium iodoacetate&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;M4&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;M4&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;M4RT&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;M4-RT&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;M5&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;M5&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;MICHTM&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Michel's transport medium&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;MMDTM&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;MMD transport medium&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;NAF&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Sodium Fluoride&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;NONE&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;None&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;PAGE&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Page's Saline&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;PHENOL&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Phenol&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;PVA&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Polyvinylalcohol&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;RLM&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Reagan Lowe Medium&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;SILICA&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Siliceous earth&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;SPS&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;SST&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Serum Separator Tube&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;STUTM&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Stuart transport medium&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;THROM&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Thrombin&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;THYMOL&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Thymol&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;THYO&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Thyoglycolate broth&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;TOLU&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Toluene&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;URETM&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Ureaplasma transport medium&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;VIRTM&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Viral Transport medium&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;WEST&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Buffered Citrate&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose.include">include</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.compose">compose</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion">expansion</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.timestamp">timestamp</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2026-02-21T19:36:42.9229177+00:00&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ACDA&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ACD Solution A&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ACDB&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ACD Solution B&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ACET&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Acetic Acid&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;AMIES&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Amies transport medium&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;BACTM&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Bacterial Transport medium&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;BF10&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Buffered 10% formalin&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;BOR&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Boric Acid&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;BOUIN&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Bouin's solution&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;BSKM&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Buffered skim milk&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;C32&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;3.2% Citrate&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;C38&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;3.8% Citrate&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;CARS&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Carson's Modified 10% formalin&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;CARY&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Cary Blair Medium&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;CHLTM&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Chlamydia transport medium&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;CTAD&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;CTAD&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;EDTK15&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Potassium/K EDTA 15%&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;EDTK75&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Potassium/K EDTA 7.5%&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;EDTN&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Sodium/Na EDTA&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ENT&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Enteric bacteria transport medium&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;F10&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;10% Formalin&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;FDP&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Thrombin NIH; soybean trypsin inhibitor&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;FL10&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Sodium Fluoride, 10mg&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;FL100&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Sodium Fluoride, 100mg&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;HCL6&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;6N HCL&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;HEPA&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Ammonium heparin&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;HEPL&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Lithium/Li Heparin&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;HEPN&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Sodium/Na Heparin&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;HNO3&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Nitric Acid&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;JKM&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Jones Kendrick Medium&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;KARN&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Karnovsky's fixative&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;KOX&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Potassium Oxalate&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;LIA&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Lithium iodoacetate&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;M4&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;M4&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;M4RT&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;M4-RT&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;M5&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;M5&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;MICHTM&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Michel's transport medium&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;MMDTM&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;MMD transport medium&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;NAF&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Sodium Fluoride&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;NONE&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;None&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;PAGE&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Page's Saline&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;PHENOL&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Phenol&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;PVA&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Polyvinylalcohol&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;RLM&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Reagan Lowe Medium&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;SILICA&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Siliceous earth&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;SPS&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a>
+               <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;SST&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Serum Separator Tube&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;STUTM&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Stuart transport medium&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;THROM&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Thrombin&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;THYMOL&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Thymol&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;THYO&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Thyoglycolate broth&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;TOLU&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Toluene&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;URETM&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Ureaplasma transport medium&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;VIRTM&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Viral Transport medium&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-EntityCode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2.1.0&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;WEST&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Buffered Citrate&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion.contains">contains</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.expansion">expansion</a>&gt;
+&lt;/<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet">ValueSet</a>&gt;</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="ValueSet-R5-v3-SpecimenAdditiveEntity-for-R4-testing.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="ValueSet-R5-v3-SpecimenAdditiveEntity-for-R4.json.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-21 13:39:00 -0600">
+    2026-02-21
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir/uv/xver/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

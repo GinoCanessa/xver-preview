@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-transport-status-reason-for-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-transport-status-reason-for-R4</b></p><a name="R5-transport-status-reason-for-R4"> </a><a name="hcR5-transport-status-reason-for-R4"> </a><p>This value set expansion contains 7 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="R5-transport-status-reason-for-R4-http://hl7.org/fhir/transport-status-reason-declined-by-patient"> </a><code>http://hl7.org/fhir/transport-status-reason</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-transport-status-reason.html#transport-status-reason-declined-by-patient">declined-by-patient</a></td><td>Declined by patient</td><td>Patient declined transport.</td></tr><tr><td><a name="R5-transport-status-reason-for-R4-http://hl7.org/fhir/transport-status-reason-in-route-accident"> </a><code>http://hl7.org/fhir/transport-status-reason</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-transport-status-reason.html#transport-status-reason-in-route-accident">in-route-accident</a></td><td>In route accident</td><td>An accident has occurred in route.</td></tr><tr><td><a name="R5-transport-status-reason-for-R4-http://hl7.org/fhir/transport-status-reason-patient-not-available"> </a><code>http://hl7.org/fhir/transport-status-reason</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-transport-status-reason.html#transport-status-reason-patient-not-available">patient-not-available</a></td><td>Patient not available</td><td>The patient was not available for transport.</td></tr><tr><td><a name="R5-transport-status-reason-for-R4-http://hl7.org/fhir/transport-status-reason-refused-by-recipient"> </a><code>http://hl7.org/fhir/transport-status-reason</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-transport-status-reason.html#transport-status-reason-refused-by-recipient">refused-by-recipient</a></td><td>Refused by recipient</td><td>Transport was refused by recipient.</td></tr><tr><td><a name="R5-transport-status-reason-for-R4-http://hl7.org/fhir/transport-status-reason-request-not-acknowledged"> </a><code>http://hl7.org/fhir/transport-status-reason</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-transport-status-reason.html#transport-status-reason-request-not-acknowledged">request-not-acknowledged</a></td><td>Request not acknowledged</td><td>The transport request was not acknowledged.</td></tr><tr><td><a name="R5-transport-status-reason-for-R4-http://hl7.org/fhir/transport-status-reason-specimen-not-available"> </a><code>http://hl7.org/fhir/transport-status-reason</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-transport-status-reason.html#transport-status-reason-specimen-not-available">specimen-not-available</a></td><td>Specimen not available</td><td>The specimen was not available for transport.</td></tr><tr><td><a name="R5-transport-status-reason-for-R4-http://hl7.org/fhir/transport-status-reason-wrong-request-data"> </a><code>http://hl7.org/fhir/transport-status-reason</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-transport-status-reason.html#transport-status-reason-wrong-request-data">wrong-request-data</a></td><td>Wrong request data</td><td>Wrong data in the transport request.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-transport-status-reason-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5TransportStatusReasonForR4"/>
+  <title value="Cross-version ValueSet R5.TransportStatusReason for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="Orders and Observations"/>
+  <contact>
+    <name value="Orders and Observations"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/orders"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/transport-status-reason|5.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/transport-status-reason|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `Transport.statusReason`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;&#xA;FHIR ValueSet `http://hl7.org/fhir/ValueSet/transport-status-reason|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/transport-status-reason"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="declined-by-patient"/>
+        <display value="Declined by patient"/>
+      </concept>
+      <concept>
+        <code value="in-route-accident"/>
+        <display value="In route accident"/>
+      </concept>
+      <concept>
+        <code value="patient-not-available"/>
+        <display value="Patient not available"/>
+      </concept>
+      <concept>
+        <code value="refused-by-recipient"/>
+        <display value="Refused by recipient"/>
+      </concept>
+      <concept>
+        <code value="request-not-acknowledged"/>
+        <display value="Request not acknowledged"/>
+      </concept>
+      <concept>
+        <code value="specimen-not-available"/>
+        <display value="Specimen not available"/>
+      </concept>
+      <concept>
+        <code value="wrong-request-data"/>
+        <display value="Wrong request data"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/transport-status-reason"/>
+      <version value="5.0.0"/>
+      <code value="declined-by-patient"/>
+      <display value="Declined by patient"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/transport-status-reason"/>
+      <version value="5.0.0"/>
+      <code value="in-route-accident"/>
+      <display value="In route accident"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/transport-status-reason"/>
+      <version value="5.0.0"/>
+      <code value="patient-not-available"/>
+      <display value="Patient not available"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/transport-status-reason"/>
+      <version value="5.0.0"/>
+      <code value="refused-by-recipient"/>
+      <display value="Refused by recipient"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/transport-status-reason"/>
+      <version value="5.0.0"/>
+      <code value="request-not-acknowledged"/>
+      <display value="Request not acknowledged"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/transport-status-reason"/>
+      <version value="5.0.0"/>
+      <code value="specimen-not-available"/>
+      <display value="Specimen not available"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/transport-status-reason"/>
+      <version value="5.0.0"/>
+      <code value="wrong-request-data"/>
+      <display value="Wrong request data"/>
+    </contains>
+  </expansion>
+</ValueSet>

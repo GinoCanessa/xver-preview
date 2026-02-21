@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="supplydelivery-supplyitemtype"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/supplydelivery-supplyitemtype</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">medication
+                  <a name="supplydelivery-supplyitemtype-medication"> </a>
+                </td>
+                <td>Medication</td>
+                <td>Supply is a kind of medication.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">device
+                  <a name="supplydelivery-supplyitemtype-device"> </a>
+                </td>
+                <td>Device</td>
+                <td>What is supplied (or requested) is a device.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">biologicallyderivedproduct
+                  <a name="supplydelivery-supplyitemtype-biologicallyderivedproduct"> </a>
+                </td>
+                <td>Biologically Derived Product</td>
+                <td>Supply is a kind of biologically derived product.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo"/>
+  </extension>
+  <url value="http://hl7.org/fhir/supplydelivery-supplyitemtype"/>
+  <version value="5.0.0"/>
+  <name value="SupplyDeliverySupplyItemType"/>
+  <title value="Supply Delivery Supply Item Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Orders and Observations"/>
+  <contact>
+    <name value="Orders and Observations"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/orders"/>
+    </telecom>
+  </contact>
+  <description value="Status of the supply delivery."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/supplydelivery-supplyitemtype"/>
+  <content value="complete"/>
+  <concept>
+    <code value="medication"/>
+    <display value="Medication"/>
+    <definition value="Supply is a kind of medication."/>
+  </concept>
+  <concept>
+    <code value="device"/>
+    <display value="Device"/>
+    <definition value="What is supplied (or requested) is a device."/>
+  </concept>
+  <concept>
+    <code value="biologicallyderivedproduct"/>
+    <display value="Biologically Derived Product"/>
+    <definition value="Supply is a kind of biologically derived product."/>
+  </concept>
+</CodeSystem>

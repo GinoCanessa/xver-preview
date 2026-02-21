@@ -63,25 +63,25 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "fhir"
+       fhir:v "cbcc"
      ]
   ] ) ; # 
   fhir:url [
      fhir:v "http://terminology.hl7.org/CodeSystem/consentpolicycodes"^^xsd:anyURI ;
      fhir:l <http://terminology.hl7.org/CodeSystem/consentpolicycodes>
   ] ; # 
-  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:version [ fhir:v "2.0.0"] ; # 
   fhir:name [ fhir:v "ConsentPolicyRuleCodes"] ; # 
   fhir:title [ fhir:v "Consent PolicyRule Codes"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2023-02-25T12:07:30-06:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:publisher [ fhir:v "Community Based Collaborative Care"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:name [ fhir:v "Community Based Collaborative Care" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/cbcc" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "This value set includes sample Regulatory consent policy types from the US and other regions."] ; # 
@@ -97,8 +97,8 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://terminology.hl7.org/ValueSet/consent-policy"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/ValueSet/consent-policy>
+     fhir:v "http://terminology.hl7.org/ValueSet/consent-policy|1.0.1"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/consent-policy?version=1.0.1>
   ] ; # 
   fhir:hierarchyMeaning [ fhir:v "is-a"] ; # 
   fhir:content [ fhir:v "complete"] ; # 

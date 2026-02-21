@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-evidence-report-type-for-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-evidence-report-type-for-R4</b></p><a name="R5-evidence-report-type-for-R4"> </a><a name="hcR5-evidence-report-type-for-R4"> </a><p>This value set expansion contains 4 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="R5-evidence-report-type-for-R4-http://hl7.org/fhir/evidence-report-type-classification"> </a><code>http://hl7.org/fhir/evidence-report-type</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-evidence-report-type.html#evidence-report-type-classification">classification</a></td><td>Classification</td><td>The report is primarily a listing of classifiers about the report subject.</td></tr><tr><td><a name="R5-evidence-report-type-for-R4-http://hl7.org/fhir/evidence-report-type-resources-compiled"> </a><code>http://hl7.org/fhir/evidence-report-type</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-evidence-report-type.html#evidence-report-type-resources-compiled">resources-compiled</a></td><td>Resource Compilation</td><td>The report is a composition containing one or more FHIR resources in the content.</td></tr><tr><td><a name="R5-evidence-report-type-for-R4-http://hl7.org/fhir/evidence-report-type-search-results"> </a><code>http://hl7.org/fhir/evidence-report-type</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-evidence-report-type.html#evidence-report-type-search-results">search-results</a></td><td>Search Results</td><td>The report is a composition of results generated in response to a search query.</td></tr><tr><td><a name="R5-evidence-report-type-for-R4-http://hl7.org/fhir/evidence-report-type-text-structured"> </a><code>http://hl7.org/fhir/evidence-report-type</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-evidence-report-type.html#evidence-report-type-text-structured">text-structured</a></td><td>Structured Text</td><td>The report is a structured representation of text.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="cds"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-evidence-report-type-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5EvidenceReportTypeForR4"/>
+  <title value="Cross-version ValueSet R5.EvidenceReportType for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="Clinical Decision Support"/>
+  <contact>
+    <name value="Clinical Decision Support"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/dss"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/evidence-report-type|5.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/evidence-report-type|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `EvidenceReport.type` as Example&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the value set has been mapped as:&#xD;&#xA;* `http://hl7.org/fhir/ValueSet/evidence-report-type|5.0.0`&#xA;* `http://hl7.org/fhir/ValueSet/evidence-report-type|4.3.0`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;All concepts in the comparison are listed as identical.&#xA;The source and target value sets have the same number of active concepts (4).&#xA;FHIR ValueSet `http://hl7.org/fhir/ValueSet/evidence-report-type|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/evidence-report-type"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="classification"/>
+        <display value="Classification"/>
+      </concept>
+      <concept>
+        <code value="resources-compiled"/>
+        <display value="Resource Compilation"/>
+      </concept>
+      <concept>
+        <code value="search-results"/>
+        <display value="Search Results"/>
+      </concept>
+      <concept>
+        <code value="text-structured"/>
+        <display value="Structured Text"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/evidence-report-type"/>
+      <version value="5.0.0"/>
+      <code value="classification"/>
+      <display value="Classification"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/evidence-report-type"/>
+      <version value="5.0.0"/>
+      <code value="resources-compiled"/>
+      <display value="Resource Compilation"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/evidence-report-type"/>
+      <version value="5.0.0"/>
+      <code value="search-results"/>
+      <display value="Search Results"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/evidence-report-type"/>
+      <version value="5.0.0"/>
+      <code value="text-structured"/>
+      <display value="Structured Text"/>
+    </contains>
+  </expansion>
+</ValueSet>

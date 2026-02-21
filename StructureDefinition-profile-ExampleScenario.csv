@@ -20,26 +20,10 @@ htmlxhtmldisplay","",0,1,"","","","Narrative {[]} {[]}
 "ExampleScenario.contained","ExampleScenario.contained","","inline resources
 anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Contained, inline Resources","These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope.","This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags In their meta elements, but SHALL NOT have security labels.","","","","","","","","",,,,,"",,,,"DomainResource.contained",0,*,"","","N/A"
-"ExampleScenario.extension","ExampleScenario.extension","","","",0,*,"","","","Extension {[]} {[]}
-","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
-","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ExampleScenario.extension:copyrightLabel","ExampleScenario.extension","copyrightLabel","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel]]} {[]}
-","Cross-version extension for ExampleScenario.copyrightLabel from R5 for use in FHIR R4","A short string (<50 characters), suitable for inclusion in a page footer that identifies the copyright holder, effective period, and optionally whether rights are resctricted. (e.g. 'All rights reserved', 'Some rights reserved').","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ExampleScenario.copyrightLabel`: `http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel`.
-Element `ExampleScenario.copyrightLabel` has a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ExampleScenario.extension:description","ExampleScenario.extension","description","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/artifact-description]]} {[]}
-","Cross-version extension for ExampleScenario.description from R5 for use in FHIR R4","A free text natural language description of the artifact from a consumer's perspective.","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ExampleScenario.description`: `http://hl7.org/fhir/StructureDefinition/artifact-description`.
-Element `ExampleScenario.description` has a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ExampleScenario.extension:title","ExampleScenario.extension","title","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/artifact-title]]} {[]}
-","Cross-version extension for ExampleScenario.title from R5 for use in FHIR R4","A short, descriptive, user-friendly title for the artifact.","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ExampleScenario.title`: `http://hl7.org/fhir/StructureDefinition/artifact-title`.
-Element `ExampleScenario.title` has a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ExampleScenario.extension:versionAlgorithm","ExampleScenario.extension","versionAlgorithm","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm]]} {[]}
-","Cross-version extension for ExampleScenario.versionAlgorithm[x] from R5 for use in FHIR R4","Indicates the mechanism used to compare versions to determine which is more current.","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ExampleScenario.versionAlgorithm[x]`: `http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm`.
-Element `ExampleScenario.versionAlgorithm[x]` has a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ExampleScenario.extension","ExampleScenario.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the resource. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A"
 "ExampleScenario.modifierExtension","ExampleScenario.modifierExtension","","extensions
 user content","",0,*,"","Y","","Extension {[]} {[]}
 ","Extensions that cannot be ignored","May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -97,14 +81,10 @@ Restrictions","",0,1,"","","","markdown {[]} {[]}
 "
 "ExampleScenario.actor.id","ExampleScenario.actor.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"ExampleScenario.actor.extension","ExampleScenario.actor.extension","","","",0,*,"","","","Extension {[]} {[]}
-","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
-","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ExampleScenario.actor.extension:actor","ExampleScenario.actor.extension","actor","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.actor]]} {[]}
-","Cross-version extension for ExampleScenario.actor from R5 for use in FHIR R4","A system or person who shares or receives an instance within the scenario.","Element `ExampleScenario.actor` has is mapped to FHIR R4 element `ExampleScenario.actor`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ExampleScenario.actor.extension","ExampleScenario.actor.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
 "ExampleScenario.actor.modifierExtension","ExampleScenario.actor.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 ","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -132,8 +112,12 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ExampleScenario.instance.extension:instance","ExampleScenario.instance.extension","instance","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance]]} {[]}
-","Cross-version extension for ExampleScenario.instance from R5 for use in FHIR R4","A single data collection that is shared as part of the scenario.","Element `ExampleScenario.instance` has is mapped to FHIR R4 element `ExampleScenario.instance`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"ExampleScenario.instance.extension:structureVersion","ExampleScenario.instance.extension","structureVersion","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance.structureVersion|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ExampleScenario.instance.structureVersion from R5 for use in FHIR R4","Conveys the version of the data structure instantiated.  I.e. what release of FHIR, X12, OpenEHR, etc. is instance compliant with.","Element `ExampleScenario.instance.structureVersion` has a context of ExampleScenario.instance based on following the parent source element upwards and mapping to `ExampleScenario`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ExampleScenario.instance.extension:structureProfile","ExampleScenario.instance.extension","structureProfile","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance.structureProfile|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ExampleScenario.instance.structureProfile[x] from R5 for use in FHIR R4","Refers to a profile, template or other ruleset the instance adheres to.","Element `ExampleScenario.instance.structureProfile[x]` has a context of ExampleScenario.instance based on following the parent source element upwards and mapping to `ExampleScenario`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ExampleScenario.instance.modifierExtension","ExampleScenario.instance.modifierExtension","","extensions
@@ -148,6 +132,18 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "ExampleScenario.instance.resourceType","ExampleScenario.instance.resourceType","","","",1,1,"","","","code {[]} {[]}
 ","The type of the resource","The type of the resource.","","","","","","","","","",,"required","The type of resource.","http://hl7.org/fhir/ValueSet/resource-types|4.0.1","",,,,"ExampleScenario.instance.resourceType",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
+"ExampleScenario.instance.resourceType.id","ExampleScenario.instance.resourceType.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references)","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
+"ExampleScenario.instance.resourceType.extension","ExampleScenario.instance.resourceType.extension","","","",1,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ExampleScenario.instance.resourceType.extension:structureType","ExampleScenario.instance.resourceType.extension","structureType","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance.structureType|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ExampleScenario.instance.structureType from R5 for use in FHIR R4","A code indicating the kind of data structure (FHIR resource or some other standard) this is an instance of.","Element `ExampleScenario.instance.structureType` is mapped to FHIR R4 element `ExampleScenario.instance.resourceType` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ExampleScenario.instance.resourceType.value","ExampleScenario.instance.resourceType.value","","","",0,1,"","","","string {[]} {[]}
+","Primitive value for code","Primitive value for code","","","","","","","","","",,,,,"",,,,"string.value",0,1,"",""
 "ExampleScenario.instance.name","ExampleScenario.instance.name","","","",0,1,"","","","string {[]} {[]}
 ","A short name for the resource instance","A short name for the resource instance.","","","","","","","","","",,,,,"",,,,"ExampleScenario.instance.name",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
@@ -159,10 +155,14 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "ExampleScenario.instance.version.id","ExampleScenario.instance.version.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"ExampleScenario.instance.version.extension","ExampleScenario.instance.version.extension","","extensions
-user content","",0,*,"","","","Extension {[]} {[]}
-","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"ExampleScenario.instance.version.extension","ExampleScenario.instance.version.extension","","","",1,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ExampleScenario.instance.version.extension:title","ExampleScenario.instance.version.extension","title","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance.version.title|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ExampleScenario.instance.version.title from R5 for use in FHIR R4","A short descriptive label the version to be used in tables or diagrams.","Element `ExampleScenario.instance.version.title` has a context of ExampleScenario.instance.version based on following the parent source element upwards and mapping to `ExampleScenario`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ExampleScenario.instance.version.modifierExtension","ExampleScenario.instance.version.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 ","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -201,15 +201,10 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "ExampleScenario.process.id","ExampleScenario.process.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"ExampleScenario.process.extension","ExampleScenario.process.extension","","","",0,*,"","","","Extension {[]} {[]}
-","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
-","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ExampleScenario.process.extension:process","ExampleScenario.process.extension","process","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.process]]} {[]}
-","Cross-version extension for ExampleScenario.process from R5 for use in FHIR R4","A group of operations that represents a significant step within a scenario.","Element `ExampleScenario.process` has is mapped to FHIR R4 element `ExampleScenario.process`, but has no comparisons.
-Note available implied context: `ExampleScenario.process.step.process` because `ExampleScenario.process.step.process` is defined as a content reference to `ExampleScenario.process`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ExampleScenario.process.extension","ExampleScenario.process.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
 "ExampleScenario.process.modifierExtension","ExampleScenario.process.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 ","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -233,10 +228,15 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "ExampleScenario.process.step.id","ExampleScenario.process.step.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"ExampleScenario.process.step.extension","ExampleScenario.process.step.extension","","extensions
-user content","",0,*,"","","","Extension {[]} {[]}
-","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"ExampleScenario.process.step.extension","ExampleScenario.process.step.extension","","","",0,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ExampleScenario.process.step.extension:number","ExampleScenario.process.step.extension","number","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.process.step.number|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ExampleScenario.process.step.number from R5 for use in FHIR R4","The sequential number of the step, e.g. 1.2.5.","Element `ExampleScenario.process.step.number` has a context of ExampleScenario.process.step based on following the parent source element upwards and mapping to `ExampleScenario`.
+Note available implied context: `ExampleScenario.process.step.alternative.step` because `ExampleScenario.process.step.alternative.step` is defined via a content reference to `ExampleScenario.process.step`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ExampleScenario.process.step.modifierExtension","ExampleScenario.process.step.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 ","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -270,6 +270,19 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "ExampleScenario.process.step.operation.type","ExampleScenario.process.step.operation.type","","","",0,1,"","","","string {[]} {[]}
 ","The type of operation - CRUD","The type of operation - CRUD.","","","","","","","","","",,,,,"",,,,"ExampleScenario.process.step.operation.type",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
+"ExampleScenario.process.step.operation.type.id","ExampleScenario.process.step.operation.type.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references)","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
+"ExampleScenario.process.step.operation.type.extension","ExampleScenario.process.step.operation.type.extension","","","",0,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ExampleScenario.process.step.operation.type.extension:type","ExampleScenario.process.step.operation.type.extension","type","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.process.step.operation.type|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for ExampleScenario.process.step.operation.type from R5 for use in FHIR R4","The standardized type of action (FHIR or otherwise).","Element `ExampleScenario.process.step.operation.type` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.type` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `ExampleScenario.process.step.alternative.step.operation.type` because `ExampleScenario.process.step.alternative.step` is defined via a content reference to `ExampleScenario.process.step`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"ExampleScenario.process.step.operation.type.value","ExampleScenario.process.step.operation.type.value","","","",0,1,"","","","string {[]} {[]}
+","Primitive value for string","The actual value","","","","","","","","","",1048576,,,,"",,,,"string.value",0,1,"",""
 "ExampleScenario.process.step.operation.name","ExampleScenario.process.step.operation.name","","","",0,1,"","","","string {[]} {[]}
 ","The human-friendly name of the interaction","The human-friendly name of the interaction.","","","","","","","","","",,,,,"",,,,"ExampleScenario.process.step.operation.name",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "

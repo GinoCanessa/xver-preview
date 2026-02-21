@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-namingsystem-identifier-type-for-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-namingsystem-identifier-type-for-R4</b></p><a name="R5-namingsystem-identifier-type-for-R4"> </a><a name="hcR5-namingsystem-identifier-type-for-R4"> </a><p>This value set expansion contains 3 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="R5-namingsystem-identifier-type-for-R4-http://hl7.org/fhir/namingsystem-identifier-type-iri-stem"> </a><code>http://hl7.org/fhir/namingsystem-identifier-type</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-namingsystem-identifier-type.html#namingsystem-identifier-type-iri-stem">iri-stem</a></td><td>IRI stem</td><td>An IRI string that can be prepended to the code to obtain a concept IRI for RDF applications. This should be a valid, absolute IRI as defined in RFC 3987. See rdf.html#iri-stem for details on how this value may be used.</td></tr><tr><td><a name="R5-namingsystem-identifier-type-for-R4-http://hl7.org/fhir/namingsystem-identifier-type-other"> </a><code>http://hl7.org/fhir/namingsystem-identifier-type</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-namingsystem-identifier-type.html#namingsystem-identifier-type-other">other</a></td><td>Other</td><td>Some other type of unique identifier; e.g. HL7-assigned reserved string such as LN for LOINC.</td></tr><tr><td><a name="R5-namingsystem-identifier-type-for-R4-http://hl7.org/fhir/namingsystem-identifier-type-v2csmnemonic"> </a><code>http://hl7.org/fhir/namingsystem-identifier-type</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-namingsystem-identifier-type.html#namingsystem-identifier-type-v2csmnemonic">v2csmnemonic</a></td><td>V2CSMNemonic</td><td>A short string published by HL7 for use in the V2 family of standsrds to idenfify a code system in the V12 coded data types CWE, CNE, and CF. The code values are also published by HL7 at http://www.hl7.org/Special/committees/vocab/table_0396/index.cfm</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="4"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="vocab"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-namingsystem-identifier-type-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5NamingsystemIdentifierTypeForR4"/>
+  <title value="Cross-version ValueSet R5.NamingSystemIdentifierType for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="HL7 International / Terminology Infrastructure"/>
+  <contact>
+    <name value="HL7 International / Terminology Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/Vocab"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0 for use in FHIR R4 that is appropriate for use but unavailable in `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.0.1`."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `NamingSystem.uniqueId.type` as Required&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the value set has been mapped as:&#xD;&#xA;* `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0`&#xA;* `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.3.0`&#xA;* `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.0.1`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* `http://hl7.org/fhir/namingsystem-identifier-type#oid`&#xA;* `http://hl7.org/fhir/namingsystem-identifier-type#uri`&#xA;* `http://hl7.org/fhir/namingsystem-identifier-type#uuid`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;One or more source concepts are either not mapped or broader than their targets, so the value set relationship is broadened.&#xA;One or more source concepts are narrower than their targets, so the value set relationship is narrowed.&#xA;The source value set has more active concepts (6) than the target (4), so the source is broader than the target.&#xA;All concepts in the comparison are listed as identical.&#xA;The source and target value sets have the same number of active concepts (4).&#xA;Using explicit mapping from `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0` to `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.0.1` in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-NamingsystemIdentifierType-R4-NamingsystemIdentifierType` (`ConceptMap-R5-NamingsystemIdentifierType-R4-NamingsystemIdentifierType.json`)"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/namingsystem-identifier-type"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="iri-stem"/>
+        <display value="IRI stem"/>
+      </concept>
+      <concept>
+        <code value="other"/>
+        <display value="Other"/>
+      </concept>
+      <concept>
+        <code value="v2csmnemonic"/>
+        <display value="V2CSMNemonic"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/namingsystem-identifier-type"/>
+      <version value="5.0.0"/>
+      <code value="iri-stem"/>
+      <display value="IRI stem"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/namingsystem-identifier-type"/>
+      <version value="5.0.0"/>
+      <code value="other"/>
+      <display value="Other"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/namingsystem-identifier-type"/>
+      <version value="5.0.0"/>
+      <code value="v2csmnemonic"/>
+      <display value="V2CSMNemonic"/>
+    </contains>
+  </expansion>
+</ValueSet>

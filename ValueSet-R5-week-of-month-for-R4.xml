@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-week-of-month-for-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-week-of-month-for-R4</b></p><a name="R5-week-of-month-for-R4"> </a><a name="hcR5-week-of-month-for-R4"> </a><p>This value set expansion contains 5 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="R5-week-of-month-for-R4-http://hl7.org/fhir/week-of-month-first"> </a><code>http://hl7.org/fhir/week-of-month</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-week-of-month.html#week-of-month-first">first</a></td><td>First</td><td>First week of the month.</td></tr><tr><td><a name="R5-week-of-month-for-R4-http://hl7.org/fhir/week-of-month-fourth"> </a><code>http://hl7.org/fhir/week-of-month</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-week-of-month.html#week-of-month-fourth">fourth</a></td><td>Fourth</td><td>Fourth week of the month.</td></tr><tr><td><a name="R5-week-of-month-for-R4-http://hl7.org/fhir/week-of-month-last"> </a><code>http://hl7.org/fhir/week-of-month</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-week-of-month.html#week-of-month-last">last</a></td><td>Last</td><td>Last week of the month.</td></tr><tr><td><a name="R5-week-of-month-for-R4-http://hl7.org/fhir/week-of-month-second"> </a><code>http://hl7.org/fhir/week-of-month</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-week-of-month.html#week-of-month-second">second</a></td><td>Second</td><td>Second week of the month.</td></tr><tr><td><a name="R5-week-of-month-for-R4-http://hl7.org/fhir/week-of-month-third"> </a><code>http://hl7.org/fhir/week-of-month</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-week-of-month.html#week-of-month-third">third</a></td><td>Third</td><td>Third week of the month.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="3"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pa"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-week-of-month-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5WeekOfMonthForR4"/>
+  <title value="Cross-version ValueSet R5.WeekOfMonth for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="Patient Administration"/>
+  <contact>
+    <name value="Patient Administration"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pafm"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/week-of-month|5.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/week-of-month|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;&#xA;FHIR ValueSet `http://hl7.org/fhir/ValueSet/week-of-month|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/week-of-month"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="first"/>
+        <display value="First"/>
+      </concept>
+      <concept>
+        <code value="fourth"/>
+        <display value="Fourth"/>
+      </concept>
+      <concept>
+        <code value="last"/>
+        <display value="Last"/>
+      </concept>
+      <concept>
+        <code value="second"/>
+        <display value="Second"/>
+      </concept>
+      <concept>
+        <code value="third"/>
+        <display value="Third"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/week-of-month"/>
+      <version value="5.0.0"/>
+      <code value="first"/>
+      <display value="First"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/week-of-month"/>
+      <version value="5.0.0"/>
+      <code value="fourth"/>
+      <display value="Fourth"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/week-of-month"/>
+      <version value="5.0.0"/>
+      <code value="last"/>
+      <display value="Last"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/week-of-month"/>
+      <version value="5.0.0"/>
+      <code value="second"/>
+      <display value="Second"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/week-of-month"/>
+      <version value="5.0.0"/>
+      <code value="third"/>
+      <display value="Third"/>
+    </contains>
+  </expansion>
+</ValueSet>

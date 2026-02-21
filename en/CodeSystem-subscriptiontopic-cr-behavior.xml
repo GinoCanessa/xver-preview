@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="subscriptiontopic-cr-behavior"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/subscriptiontopic-cr-behavior</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">test-passes
+                  <a name="subscriptiontopic-cr-behavior-test-passes"> </a>
+                </td>
+                <td>Test passes</td>
+                <td>The requested conditional statement will pass if a matching state does not exist (e.g., previous state during create).</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">test-fails
+                  <a name="subscriptiontopic-cr-behavior-test-fails"> </a>
+                </td>
+                <td>Test fails</td>
+                <td>The requested conditional statement will fail if a matching state does not exist (e.g., previous state during create).</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <url value="http://hl7.org/fhir/subscriptiontopic-cr-behavior"/>
+  <version value="5.0.0"/>
+  <name value="CriteriaNotExistsBehavior"/>
+  <title value="Criteria Not Exists Behavior"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="Behavior a server can exhibit when a criteria state does not exist (e.g., state prior to a create or after a delete)."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/subscriptiontopic-cr-behavior"/>
+  <content value="complete"/>
+  <concept>
+    <code value="test-passes"/>
+    <display value="Test passes"/>
+    <definition value="The requested conditional statement will pass if a matching state does not exist (e.g., previous state during create)."/>
+  </concept>
+  <concept>
+    <code value="test-fails"/>
+    <display value="Test fails"/>
+    <definition value="The requested conditional statement will fail if a matching state does not exist (e.g., previous state during create)."/>
+  </concept>
+</CodeSystem>

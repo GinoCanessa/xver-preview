@@ -1,0 +1,514 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>R5V3SecurityObservationTypeForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"7.3046"}
+    h3,h4,h5,h6{--heading-prefix:"7.3046"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" data-no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img alt="International flag" src="../assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>R5V3SecurityObservationTypeForR4</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="ValueSet-R5-v3-SecurityLabelMarkLabel-for-R4.ttl.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="ValueSet-R5-v3-SecurityObservationType-for-R4-testing.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<!-- layouts\layout-valueset -->
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ValueSet-R5-v3-SecurityObservationType-for-R4.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-R5-v3-SecurityObservationType-for-R4.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-R5-v3-SecurityObservationType-for-R4.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">ValueSet: Cross-version ValueSet R5.SecurityObservationType for use in FHIR R4
+
+  </h2>
+  <table class="colsd" data-fhir="generated">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-SecurityObservationType-for-R4<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-SecurityObservationType-for-R4"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.0.1-snapshot-3<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-SecurityObservationType-for-R4|0.0.1-snapshot-3"/></span>
+      </td>
+      <td style="text-align: right;border-left-style: hidden" title="Enable this to see changes since the last official release">
+        <span id="toggle-change-display"><label style="margin:0;font-weight:normal" for="showChanges">Highlight text changes?</label>
+  
+        <input style="margin:0" type="checkbox" id="showChanges" onchange="toggleChanges()"/>
+  
+      </span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          <i>
+            
+            Standards status:
+          </i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standards Status">Trial-use</a>
+          
+          
+          Active
+          
+
+            as of 
+2026-02-21
+
+          
+        
+      </td>
+
+      <td>
+        <a href="http://hl7.org/fhir/versions.html#maturity">Maturity Level</a>: 0
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">R5V3SecurityObservationTypeForR4</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>This cross-version ValueSet represents content from <code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/ValueSet/v3-SecurityObservationType|2.0.0</code> for use in FHIR R4.</p>
+
+</p>
+
+<p>
+
+
+</p>
+
+
+  <p>
+    <b>References</b>
+  </p>
+  
+<p>This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)</p>
+
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <a name="definition"> </a>
+
+<!-- Content Logical Definition heading in the fragment -->
+  <h3>Logical Definition (CLD)</h3>
+<div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated"><p class="res-header-id"></p><a name="R5-v3-SecurityObservationType-for-R4"> </a><a name="hcR5-v3-SecurityObservationType-for-R4"> </a>
+<ul><li>Include these codes as defined in <a href="CodeSystem-v3-ActCode.html"><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></a><span title="Version is explicitly stated to be 8.0.0"> version &#x1F4CD;8.0.0</span><table class="none" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="CodeSystem-v3-ActCode.html#v3-ActCode-SECALTINTOBS">SECALTINTOBS</a></td><td>security alteration integrity observation</td><td>Type of security metadata observation made about the alteration integrity of an IT resource (data, information object, service, or system capability), which indicates the mechanism used for authorized transformations of the resource.<br/><br/>**Examples:** Types of security alteration integrity observation metadata, which may value the observation with a code used to indicate the mechanism used for authorized transformation of an IT resource, including:<br/><br/> *  translation<br/> *  syntactic transformation<br/> *  semantic mapping<br/> *  redaction<br/> *  masking<br/> *  pseudonymization<br/> *  anonymization</td></tr><tr><td><a href="CodeSystem-v3-ActCode.html#v3-ActCode-SECCATOBS">SECCATOBS</a></td><td>security category observation</td><td>Type of security metadata observation made about the category of an IT resource (data, information object, service, or system capability), which may be used to make access control decisions. Security category metadata is defined by ISO/IEC 2382-8:1998(E/F)/ T-REC-X.812-1995 as: "A nonhierarchical grouping of sensitive information used to control access to data more finely than with hierarchical security classification alone."<br/><br/>*Rationale:* A security category observation supports requirement to specify the type of IT resource to facilitate application of appropriate levels of information security according to a range of levels of impact or consequences that might result from the unauthorized disclosure, modification, or use of the information or information system. A resource is assigned to a specific category of information (e.g., privacy, medical, proprietary, financial, investigative, contractor sensitive, security management) defined by an organization or in some instances, by a specific law, Executive Order, directive, policy, or regulation. \[FIPS 199\]<br/><br/>**Examples:** Types of security categories include:<br/><br/> *  Compartment: A division of data into isolated blocks with separate security controls for the purpose of reducing risk. (ISO 2382-8). A security label tag that "segments" an IT resource by indicating that access and use is restricted to members of a defined community or project. (HL7 Healthcare Classification System)<br/> *  Sensitivity: The characteristic of an IT resource which implies its value or importance and may include its vulnerability. (ISO 7492-2) Privacy metadata for information perceived as undesirable to share. (HL7 Healthcare Classification System)</td></tr><tr><td><a href="CodeSystem-v3-ActCode.html#v3-ActCode-SECCLASSOBS">SECCLASSOBS</a></td><td>security classification observation</td><td>Type of security metadata observation made about the classification of an IT resource (data, information object, service, or system capability), which may be used to make access control decisions. Security classification is defined by ISO/IEC 2382-8:1998(E/F)/ T-REC-X.812-1995 as: "The determination of which specific degree of protection against access the data or information requires, together with a designation of that degree of protection." Security classification metadata is based on an analysis of applicable policies and the risk of financial, reputational, or other harm that could result from unauthorized disclosure.<br/><br/>*Rationale:* A security classification observation may indicate that the confidentiality level indicated by an Act or Role confidentiality attribute has been overridden by the entity responsible for ascribing the SecurityClassificationObservationValue. This supports the business requirement for increasing or decreasing the level of confidentiality (classification or declassification) based on parameters beyond the original assignment of an Act or Role confidentiality.<br/><br/>**Examples:** Types of security classification include: HL7 Confidentiality Codes such as very restricted, unrestricted, and normal. Intelligence community examples include top secret, secret, and confidential.<br/><br/>*Usage Note:* Security classification observation type codes designate security label field types, which are valued with an applicable SecurityClassificationObservationValue code as the "security label tag".</td></tr><tr><td><a href="CodeSystem-v3-ActCode.html#v3-ActCode-SECCONOBS">SECCONOBS</a></td><td>security control observation</td><td>Type of security metadata observation made about the control of an IT resource (data, information object, service, or system capability), which may be used to make access control decisions. Security control metadata convey instructions to users and receivers for secure distribution, transmission, and storage; dictate obligations or mandated actions; specify any action prohibited by refrain policy such as dissemination controls; and stipulate the permissible purpose of use of an IT resource.<br/><br/>*Rationale:* A security control observation supports requirement to specify applicable management, operational, and technical controls (i.e., safeguards or countermeasures) prescribed for an information system to protect the confidentiality, integrity, and availability of the system and its information. \[FIPS 199\]<br/><br/>**Examples:** Types of security control metadata include:<br/><br/> *  handling caveats<br/> *  dissemination controls<br/> *  obligations<br/> *  refrain policies<br/> *  purpose of use constraints</td></tr><tr><td><a href="CodeSystem-v3-ActCode.html#v3-ActCode-SECDATINTOBS">SECDATINTOBS</a></td><td>security data integrity observation</td><td>Type of security metadata observation made about the data integrity of an IT resource (data, information object, service, or system capability), which indicates the security mechanism used to preserve resource accuracy and consistency. Data integrity is defined by ISO 22600-23.3.21 as: "The property that data has not been altered or destroyed in an unauthorized manner", and by ISO/IEC 2382-8: The property of data whose accuracy and consistency are preserved regardless of changes made."<br/><br/>**Examples:** Types of security data integrity observation metadata, which may value the observation, include cryptographic hash function and digital signature.</td></tr><tr><td><a href="CodeSystem-v3-ActCode.html#v3-ActCode-SECINTCONOBS">SECINTCONOBS</a></td><td>security integrity confidence observation</td><td>Type of security metadata observation made about the integrity confidence of an IT resource (data, information object, service, or system capability), which may be used to make access control decisions.<br/><br/>**Examples:** Types of security integrity confidence observation metadata, which may value the observation, include highly reliable, uncertain reliability, and not reliable.<br/><br/>*Usage Note:* A security integrity confidence observation on an Act may indicate that a valued Act.uncertaintycode attribute has been overridden by the entity responsible for ascribing the SecurityIntegrityConfidenceObservationValue. This supports the business requirements for increasing or decreasing the assessment of the reliability or trustworthiness of an IT resource based on parameters beyond the original assignment of an Act statement level of uncertainty.</td></tr><tr><td><a href="CodeSystem-v3-ActCode.html#v3-ActCode-SECINTOBS">SECINTOBS</a></td><td>security integrity observation</td><td>Type of security metadata observation made about the integrity of an IT resource (data, information object, service, or system capability), which may be used to make access control decisions.<br/><br/>*Rationale:* A security integrity observation supports the requirement to guard against improper information modification or destruction, and includes ensuring information non-repudiation and authenticity. (44 U.S.C., SEC. 3542)<br/><br/>**Examples:** Types of security integrity metadata include:<br/><br/> *  Integrity status, which indicates the completeness or workflow status of an IT resource (data, information object, service, or system capability)<br/> *  Integrity confidence, which indicates the reliability and trustworthiness of an IT resource<br/> *  Integrity control, which indicates pertinent handling caveats, obligations, refrain policies, and purpose of use for the resource<br/> *  Data integrity, which indicate the security mechanisms used to ensure that the accuracy and consistency are preserved regardless of changes made (ISO/IEC DIS 2382-8)<br/> *  Alteration integrity, which indicate the security mechanisms used for authorized transformations of the resource<br/> *  Integrity provenance, which indicates the entity responsible for a report or assertion relayed "second-hand" about an IT resource</td></tr><tr><td><a href="CodeSystem-v3-ActCode.html#v3-ActCode-SECINTPRVABOBS">SECINTPRVABOBS</a></td><td>security integrity provenance asserted by observation</td><td>Type of security metadata observation made about the integrity provenance of an IT resource (data, information object, service, or system capability), which indicates the entity that made assertions about the resource. The asserting entity may not be the original informant about the resource.<br/><br/>**Examples:** Types of security integrity provenance asserted by observation metadata, which may value the observation, including:<br/><br/> *  assertions about an IT resource by a patient<br/> *  assertions about an IT resource by a clinician<br/> *  assertions about an IT resource by a device</td></tr><tr><td><a href="CodeSystem-v3-ActCode.html#v3-ActCode-SECINTPRVOBS">SECINTPRVOBS</a></td><td>security integrity provenance observation</td><td>Type of security metadata observation made about the provenance integrity of an IT resource (data, information object, service, or system capability), which indicates the lifecycle completeness of an IT resource in terms of workflow status such as its creation, modification, suspension, and deletion; locations in which the resource has been collected or archived, from which it may be retrieved, and the history of its distribution and disclosure. Integrity provenance metadata about an IT resource may be used to assess its veracity, reliability, and trustworthiness.<br/><br/>**Examples:** Types of security integrity provenance observation metadata, which may value the observation about an IT resource, include:<br/><br/> *  completeness or workflow status, such as authentication<br/> *  the entity responsible for original authoring or informing about an IT resource<br/> *  the entity responsible for a report or assertion about an IT resource relayed â€œsecond-handâ€?<br/> *  the entity responsible for excerpting, transforming, or compiling an IT resource</td></tr><tr><td><a href="CodeSystem-v3-ActCode.html#v3-ActCode-SECINTPRVRBOBS">SECINTPRVRBOBS</a></td><td>security integrity provenance reported by observation</td><td>Type of security metadata observation made about the integrity provenance of an IT resource (data, information object, service, or system capability), which indicates the entity that reported the existence of the resource. The reporting entity may not be the original author of the resource.<br/><br/>**Examples:** Types of security integrity provenance reported by observation metadata, which may value the observation, include:<br/><br/> *  reports about an IT resource by a patient<br/> *  reports about an IT resource by a clinician<br/> *  reports about an IT resource by a device</td></tr><tr><td><a href="CodeSystem-v3-ActCode.html#v3-ActCode-SECINTSTOBS">SECINTSTOBS</a></td><td>security integrity status observation</td><td>Type of security metadata observation made about the integrity status of an IT resource (data, information object, service, or system capability), which may be used to make access control decisions. Indicates the completeness of an IT resource in terms of workflow status, which may impact users that are authorized to access and use the resource.<br/><br/>**Examples:** Types of security integrity status observation metadata, which may value the observation, include codes from the HL7 DocumentCompletion code system such as legally authenticated, in progress, and incomplete.</td></tr><tr><td><a href="CodeSystem-v3-ActCode.html#v3-ActCode-SECOBS">SECOBS</a></td><td>SecurityObservationType</td><td>An observation identifying security metadata about an IT resource (data, information object, service, or system capability), which may be used to make access control decisions. Security metadata are used to name security labels.<br/><br/>*Rationale:* According to ISO/TS 22600-3:2009(E) A.9.1.7 SECURITY LABEL MATCHING, Security label matching compares the initiator's clearance to the target's security label. All of the following must be true for authorization to be granted:<br/><br/> *  The security policy identifiers shall be identical<br/> *  The classification level of the initiator shall be greater than or equal to that of the target (that is, there shall be at least one value in the classification list of the clearance greater than or equal to the classification of the target), and<br/> *  For each security category in the target label, there shall be a security category of the same type in the initiator's clearance and the initiator's classification level shall dominate that of the target.<br/><br/>**Examples:** SecurityObservationType security label fields include:<br/><br/> *  Confidentiality classification<br/> *  Compartment category<br/> *  Sensitivity category<br/> *  Security mechanisms used to ensure data integrity or to perform authorized data transformation<br/> *  Indicators of an IT resource completeness, veracity, reliability, trustworthiness, or provenance.<br/><br/>*Usage Note:* SecurityObservationType codes designate security label field types, which are valued with an applicable SecurityObservationValue code as the "security label tag".</td></tr><tr><td><a href="CodeSystem-v3-ActCode.html#v3-ActCode-SECTRSTOBS">SECTRSTOBS</a></td><td>SECTRSTOBS</td><td>An observation identifying trust metadata about an IT resource (data, information object, service, or system capability), which may be used as a trust attribute to populate a computable trust policy, trust credential, trust assertion, or trust label field in a security label or trust policy, which are principally used for authentication, authorization, and access control decisions.</td></tr><tr><td><a href="CodeSystem-v3-ActCode.html#v3-ActCode-TRSTACCRDOBS">TRSTACCRDOBS</a></td><td>trust accreditation observation</td><td>Type of security metadata observation made about the formal declaration by an authority or neutral third party that validates the technical, security, trust, and business practice conformance of Trust Agents to facilitate security, interoperability, and trust among participants within a security domain or trust framework.</td></tr><tr><td><a href="CodeSystem-v3-ActCode.html#v3-ActCode-TRSTAGREOBS">TRSTAGREOBS</a></td><td>trust agreement observation</td><td>Type of security metadata observation made about privacy and security requirements with which a security domain must comply. \[ISO IEC 10181-1\]</td></tr><tr><td><a href="CodeSystem-v3-ActCode.html#v3-ActCode-TRSTCERTOBS">TRSTCERTOBS</a></td><td>trust certificate observation</td><td>Type of security metadata observation made about a set of security-relevant data issued by a security authority or trusted third party, together with security information which is used to provide the integrity and data origin authentication services for an IT resource (data, information object, service, or system capability). \[Based on ISO IEC 10181-1\]<br/><br/>**For example,**<br/><br/> *  A Certificate Policy (CP), which is a named set of rules that indicates the applicability of a certificate to a particular community and/or class of application with common security requirements. For example, a particular Certificate Policy might indicate the applicability of a type of certificate to the authentication of electronic data interchange transactions for the trading of goods within a given price range. \[Trust Service Principles and Criteria for Certification Authorities Version 2.0 March 2011 Copyright 2011 by Canadian Institute of Chartered Accountants.<br/> *  A Certificate Practice Statement (CSP), which is a statement of the practices which an Authority employs in issuing and managing certificates. \[Trust Service Principles and Criteria for Certification Authorities Version 2.0 March 2011 Copyright 2011 by Canadian Institute of Chartered Accountants.\]</td></tr><tr><td><a href="CodeSystem-v3-ActCode.html#v3-ActCode-TRSTFWKOBS">TRSTFWKOBS</a></td><td>trust framework observation</td><td>Type of security metadata observation made about a complete set of contracts, regulations or commitments that enable participating actors to rely on certain assertions by other actors to fulfill their information security requirements. \[Kantara Initiative\]</td></tr><tr><td><a href="CodeSystem-v3-ActCode.html#v3-ActCode-TRSTLOAOBS">TRSTLOAOBS</a></td><td>trust assurance observation</td><td>Type of security metadata observation made about the digital quality or reliability of a trust assertion, activity, capability, information exchange, mechanism, process, or protocol.</td></tr><tr><td><a href="CodeSystem-v3-ActCode.html#v3-ActCode-TRSTMECOBS">TRSTMECOBS</a></td><td>trust mechanism observation</td><td>Type of security metadata observation made about a security architecture system component that supports enforcement of security policies.</td></tr></table></li></ul></div>
+
+  <p>&#160;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">Expansion</h3>
+
+  <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated"><p class="res-header-id"/><p>This value set expansion contains 19 concepts.</p><table class="codes" data-fhir="generated"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name="x-R5-v3-SecurityObservationType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-SECALTINTOBS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ActCode.html#v3-ActCode-SECALTINTOBS">SECALTINTOBS</a></td><td>security alteration integrity observation</td><td><div><p>Type of security metadata observation made about the alteration integrity of an IT resource (data, information object, service, or system capability), which indicates the mechanism used for authorized transformations of the resource.</p>
+<p><strong>Examples:</strong> Types of security alteration integrity observation metadata, which may value the observation with a code used to indicate the mechanism used for authorized transformation of an IT resource, including:</p>
+<ul>
+<li>translation</li>
+<li>syntactic transformation</li>
+<li>semantic mapping</li>
+<li>redaction</li>
+<li>masking</li>
+<li>pseudonymization</li>
+<li>anonymization</li>
+</ul>
+</div></td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;, &quot;version&quot;: &quot;8.0.0&quot;, &quot;code&quot;: &quot;SECALTINTOBS&quot;, &quot;display&quot;: &quot;security alteration integrity observation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;&gt;&lt;version value=&quot;8.0.0&quot;&gt;&lt;code value=&quot;SECALTINTOBS&quot;&gt;&lt;display value=&quot;security alteration integrity observation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SecurityObservationType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-SECCATOBS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ActCode.html#v3-ActCode-SECCATOBS">SECCATOBS</a></td><td>security category observation</td><td><div><p>Type of security metadata observation made about the category of an IT resource (data, information object, service, or system capability), which may be used to make access control decisions. Security category metadata is defined by ISO/IEC 2382-8:1998(E/F)/ T-REC-X.812-1995 as: &quot;A nonhierarchical grouping of sensitive information used to control access to data more finely than with hierarchical security classification alone.&quot;</p>
+<p><em>Rationale:</em> A security category observation supports requirement to specify the type of IT resource to facilitate application of appropriate levels of information security according to a range of levels of impact or consequences that might result from the unauthorized disclosure, modification, or use of the information or information system. A resource is assigned to a specific category of information (e.g., privacy, medical, proprietary, financial, investigative, contractor sensitive, security management) defined by an organization or in some instances, by a specific law, Executive Order, directive, policy, or regulation. [FIPS 199]</p>
+<p><strong>Examples:</strong> Types of security categories include:</p>
+<ul>
+<li>Compartment: A division of data into isolated blocks with separate security controls for the purpose of reducing risk. (ISO 2382-8). A security label tag that &quot;segments&quot; an IT resource by indicating that access and use is restricted to members of a defined community or project. (HL7 Healthcare Classification System)</li>
+<li>Sensitivity: The characteristic of an IT resource which implies its value or importance and may include its vulnerability. (ISO 7492-2) Privacy metadata for information perceived as undesirable to share. (HL7 Healthcare Classification System)</li>
+</ul>
+</div></td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;, &quot;version&quot;: &quot;8.0.0&quot;, &quot;code&quot;: &quot;SECCATOBS&quot;, &quot;display&quot;: &quot;security category observation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;&gt;&lt;version value=&quot;8.0.0&quot;&gt;&lt;code value=&quot;SECCATOBS&quot;&gt;&lt;display value=&quot;security category observation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SecurityObservationType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-SECCLASSOBS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ActCode.html#v3-ActCode-SECCLASSOBS">SECCLASSOBS</a></td><td>security classification observation</td><td><div><p>Type of security metadata observation made about the classification of an IT resource (data, information object, service, or system capability), which may be used to make access control decisions. Security classification is defined by ISO/IEC 2382-8:1998(E/F)/ T-REC-X.812-1995 as: &quot;The determination of which specific degree of protection against access the data or information requires, together with a designation of that degree of protection.&quot; Security classification metadata is based on an analysis of applicable policies and the risk of financial, reputational, or other harm that could result from unauthorized disclosure.</p>
+<p><em>Rationale:</em> A security classification observation may indicate that the confidentiality level indicated by an Act or Role confidentiality attribute has been overridden by the entity responsible for ascribing the SecurityClassificationObservationValue. This supports the business requirement for increasing or decreasing the level of confidentiality (classification or declassification) based on parameters beyond the original assignment of an Act or Role confidentiality.</p>
+<p><strong>Examples:</strong> Types of security classification include: HL7 Confidentiality Codes such as very restricted, unrestricted, and normal. Intelligence community examples include top secret, secret, and confidential.</p>
+<p><em>Usage Note:</em> Security classification observation type codes designate security label field types, which are valued with an applicable SecurityClassificationObservationValue code as the &quot;security label tag&quot;.</p>
+</div></td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;, &quot;version&quot;: &quot;8.0.0&quot;, &quot;code&quot;: &quot;SECCLASSOBS&quot;, &quot;display&quot;: &quot;security classification observation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;&gt;&lt;version value=&quot;8.0.0&quot;&gt;&lt;code value=&quot;SECCLASSOBS&quot;&gt;&lt;display value=&quot;security classification observation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SecurityObservationType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-SECCONOBS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ActCode.html#v3-ActCode-SECCONOBS">SECCONOBS</a></td><td>security control observation</td><td><div><p>Type of security metadata observation made about the control of an IT resource (data, information object, service, or system capability), which may be used to make access control decisions. Security control metadata convey instructions to users and receivers for secure distribution, transmission, and storage; dictate obligations or mandated actions; specify any action prohibited by refrain policy such as dissemination controls; and stipulate the permissible purpose of use of an IT resource.</p>
+<p><em>Rationale:</em> A security control observation supports requirement to specify applicable management, operational, and technical controls (i.e., safeguards or countermeasures) prescribed for an information system to protect the confidentiality, integrity, and availability of the system and its information. [FIPS 199]</p>
+<p><strong>Examples:</strong> Types of security control metadata include:</p>
+<ul>
+<li>handling caveats</li>
+<li>dissemination controls</li>
+<li>obligations</li>
+<li>refrain policies</li>
+<li>purpose of use constraints</li>
+</ul>
+</div></td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;, &quot;version&quot;: &quot;8.0.0&quot;, &quot;code&quot;: &quot;SECCONOBS&quot;, &quot;display&quot;: &quot;security control observation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;&gt;&lt;version value=&quot;8.0.0&quot;&gt;&lt;code value=&quot;SECCONOBS&quot;&gt;&lt;display value=&quot;security control observation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SecurityObservationType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-SECDATINTOBS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ActCode.html#v3-ActCode-SECDATINTOBS">SECDATINTOBS</a></td><td>security data integrity observation</td><td><div><p>Type of security metadata observation made about the data integrity of an IT resource (data, information object, service, or system capability), which indicates the security mechanism used to preserve resource accuracy and consistency. Data integrity is defined by ISO 22600-23.3.21 as: &quot;The property that data has not been altered or destroyed in an unauthorized manner&quot;, and by ISO/IEC 2382-8: The property of data whose accuracy and consistency are preserved regardless of changes made.&quot;</p>
+<p><strong>Examples:</strong> Types of security data integrity observation metadata, which may value the observation, include cryptographic hash function and digital signature.</p>
+</div></td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;, &quot;version&quot;: &quot;8.0.0&quot;, &quot;code&quot;: &quot;SECDATINTOBS&quot;, &quot;display&quot;: &quot;security data integrity observation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;&gt;&lt;version value=&quot;8.0.0&quot;&gt;&lt;code value=&quot;SECDATINTOBS&quot;&gt;&lt;display value=&quot;security data integrity observation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SecurityObservationType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-SECINTCONOBS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ActCode.html#v3-ActCode-SECINTCONOBS">SECINTCONOBS</a></td><td>security integrity confidence observation</td><td><div><p>Type of security metadata observation made about the integrity confidence of an IT resource (data, information object, service, or system capability), which may be used to make access control decisions.</p>
+<p><strong>Examples:</strong> Types of security integrity confidence observation metadata, which may value the observation, include highly reliable, uncertain reliability, and not reliable.</p>
+<p><em>Usage Note:</em> A security integrity confidence observation on an Act may indicate that a valued Act.uncertaintycode attribute has been overridden by the entity responsible for ascribing the SecurityIntegrityConfidenceObservationValue. This supports the business requirements for increasing or decreasing the assessment of the reliability or trustworthiness of an IT resource based on parameters beyond the original assignment of an Act statement level of uncertainty.</p>
+</div></td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;, &quot;version&quot;: &quot;8.0.0&quot;, &quot;code&quot;: &quot;SECINTCONOBS&quot;, &quot;display&quot;: &quot;security integrity confidence observation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;&gt;&lt;version value=&quot;8.0.0&quot;&gt;&lt;code value=&quot;SECINTCONOBS&quot;&gt;&lt;display value=&quot;security integrity confidence observation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SecurityObservationType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-SECINTOBS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ActCode.html#v3-ActCode-SECINTOBS">SECINTOBS</a></td><td>security integrity observation</td><td><div><p>Type of security metadata observation made about the integrity of an IT resource (data, information object, service, or system capability), which may be used to make access control decisions.</p>
+<p><em>Rationale:</em> A security integrity observation supports the requirement to guard against improper information modification or destruction, and includes ensuring information non-repudiation and authenticity. (44 U.S.C., SEC. 3542)</p>
+<p><strong>Examples:</strong> Types of security integrity metadata include:</p>
+<ul>
+<li>Integrity status, which indicates the completeness or workflow status of an IT resource (data, information object, service, or system capability)</li>
+<li>Integrity confidence, which indicates the reliability and trustworthiness of an IT resource</li>
+<li>Integrity control, which indicates pertinent handling caveats, obligations, refrain policies, and purpose of use for the resource</li>
+<li>Data integrity, which indicate the security mechanisms used to ensure that the accuracy and consistency are preserved regardless of changes made (ISO/IEC DIS 2382-8)</li>
+<li>Alteration integrity, which indicate the security mechanisms used for authorized transformations of the resource</li>
+<li>Integrity provenance, which indicates the entity responsible for a report or assertion relayed &quot;second-hand&quot; about an IT resource</li>
+</ul>
+</div></td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;, &quot;version&quot;: &quot;8.0.0&quot;, &quot;code&quot;: &quot;SECINTOBS&quot;, &quot;display&quot;: &quot;security integrity observation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;&gt;&lt;version value=&quot;8.0.0&quot;&gt;&lt;code value=&quot;SECINTOBS&quot;&gt;&lt;display value=&quot;security integrity observation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SecurityObservationType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-SECINTPRVABOBS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ActCode.html#v3-ActCode-SECINTPRVABOBS">SECINTPRVABOBS</a></td><td>security integrity provenance asserted by observation</td><td><div><p>Type of security metadata observation made about the integrity provenance of an IT resource (data, information object, service, or system capability), which indicates the entity that made assertions about the resource. The asserting entity may not be the original informant about the resource.</p>
+<p><strong>Examples:</strong> Types of security integrity provenance asserted by observation metadata, which may value the observation, including:</p>
+<ul>
+<li>assertions about an IT resource by a patient</li>
+<li>assertions about an IT resource by a clinician</li>
+<li>assertions about an IT resource by a device</li>
+</ul>
+</div></td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;, &quot;version&quot;: &quot;8.0.0&quot;, &quot;code&quot;: &quot;SECINTPRVABOBS&quot;, &quot;display&quot;: &quot;security integrity provenance asserted by observation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;&gt;&lt;version value=&quot;8.0.0&quot;&gt;&lt;code value=&quot;SECINTPRVABOBS&quot;&gt;&lt;display value=&quot;security integrity provenance asserted by observation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SecurityObservationType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-SECINTPRVOBS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ActCode.html#v3-ActCode-SECINTPRVOBS">SECINTPRVOBS</a></td><td>security integrity provenance observation</td><td><div><p>Type of security metadata observation made about the provenance integrity of an IT resource (data, information object, service, or system capability), which indicates the lifecycle completeness of an IT resource in terms of workflow status such as its creation, modification, suspension, and deletion; locations in which the resource has been collected or archived, from which it may be retrieved, and the history of its distribution and disclosure. Integrity provenance metadata about an IT resource may be used to assess its veracity, reliability, and trustworthiness.</p>
+<p><strong>Examples:</strong> Types of security integrity provenance observation metadata, which may value the observation about an IT resource, include:</p>
+<ul>
+<li>completeness or workflow status, such as authentication</li>
+<li>the entity responsible for original authoring or informing about an IT resource</li>
+<li>the entity responsible for a report or assertion about an IT resource relayed â€œsecond-handâ€?</li>
+<li>the entity responsible for excerpting, transforming, or compiling an IT resource</li>
+</ul>
+</div></td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;, &quot;version&quot;: &quot;8.0.0&quot;, &quot;code&quot;: &quot;SECINTPRVOBS&quot;, &quot;display&quot;: &quot;security integrity provenance observation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;&gt;&lt;version value=&quot;8.0.0&quot;&gt;&lt;code value=&quot;SECINTPRVOBS&quot;&gt;&lt;display value=&quot;security integrity provenance observation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SecurityObservationType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-SECINTPRVRBOBS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ActCode.html#v3-ActCode-SECINTPRVRBOBS">SECINTPRVRBOBS</a></td><td>security integrity provenance reported by observation</td><td><div><p>Type of security metadata observation made about the integrity provenance of an IT resource (data, information object, service, or system capability), which indicates the entity that reported the existence of the resource. The reporting entity may not be the original author of the resource.</p>
+<p><strong>Examples:</strong> Types of security integrity provenance reported by observation metadata, which may value the observation, include:</p>
+<ul>
+<li>reports about an IT resource by a patient</li>
+<li>reports about an IT resource by a clinician</li>
+<li>reports about an IT resource by a device</li>
+</ul>
+</div></td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;, &quot;version&quot;: &quot;8.0.0&quot;, &quot;code&quot;: &quot;SECINTPRVRBOBS&quot;, &quot;display&quot;: &quot;security integrity provenance reported by observation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;&gt;&lt;version value=&quot;8.0.0&quot;&gt;&lt;code value=&quot;SECINTPRVRBOBS&quot;&gt;&lt;display value=&quot;security integrity provenance reported by observation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SecurityObservationType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-SECINTSTOBS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ActCode.html#v3-ActCode-SECINTSTOBS">SECINTSTOBS</a></td><td>security integrity status observation</td><td><div><p>Type of security metadata observation made about the integrity status of an IT resource (data, information object, service, or system capability), which may be used to make access control decisions. Indicates the completeness of an IT resource in terms of workflow status, which may impact users that are authorized to access and use the resource.</p>
+<p><strong>Examples:</strong> Types of security integrity status observation metadata, which may value the observation, include codes from the HL7 DocumentCompletion code system such as legally authenticated, in progress, and incomplete.</p>
+</div></td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;, &quot;version&quot;: &quot;8.0.0&quot;, &quot;code&quot;: &quot;SECINTSTOBS&quot;, &quot;display&quot;: &quot;security integrity status observation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;&gt;&lt;version value=&quot;8.0.0&quot;&gt;&lt;code value=&quot;SECINTSTOBS&quot;&gt;&lt;display value=&quot;security integrity status observation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SecurityObservationType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-SECOBS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ActCode.html#v3-ActCode-SECOBS">SECOBS</a></td><td>SecurityObservationType</td><td><div><p>An observation identifying security metadata about an IT resource (data, information object, service, or system capability), which may be used to make access control decisions. Security metadata are used to name security labels.</p>
+<p><em>Rationale:</em> According to ISO/TS 22600-3:2009(E) A.9.1.7 SECURITY LABEL MATCHING, Security label matching compares the initiator's clearance to the target's security label. All of the following must be true for authorization to be granted:</p>
+<ul>
+<li>The security policy identifiers shall be identical</li>
+<li>The classification level of the initiator shall be greater than or equal to that of the target (that is, there shall be at least one value in the classification list of the clearance greater than or equal to the classification of the target), and</li>
+<li>For each security category in the target label, there shall be a security category of the same type in the initiator's clearance and the initiator's classification level shall dominate that of the target.</li>
+</ul>
+<p><strong>Examples:</strong> SecurityObservationType security label fields include:</p>
+<ul>
+<li>Confidentiality classification</li>
+<li>Compartment category</li>
+<li>Sensitivity category</li>
+<li>Security mechanisms used to ensure data integrity or to perform authorized data transformation</li>
+<li>Indicators of an IT resource completeness, veracity, reliability, trustworthiness, or provenance.</li>
+</ul>
+<p><em>Usage Note:</em> SecurityObservationType codes designate security label field types, which are valued with an applicable SecurityObservationValue code as the &quot;security label tag&quot;.</p>
+</div></td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;, &quot;version&quot;: &quot;8.0.0&quot;, &quot;code&quot;: &quot;SECOBS&quot;, &quot;display&quot;: &quot;SecurityObservationType&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;&gt;&lt;version value=&quot;8.0.0&quot;&gt;&lt;code value=&quot;SECOBS&quot;&gt;&lt;display value=&quot;SecurityObservationType&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SecurityObservationType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-SECTRSTOBS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ActCode.html#v3-ActCode-SECTRSTOBS">SECTRSTOBS</a></td><td>SECTRSTOBS</td><td><div><p>An observation identifying trust metadata about an IT resource (data, information object, service, or system capability), which may be used as a trust attribute to populate a computable trust policy, trust credential, trust assertion, or trust label field in a security label or trust policy, which are principally used for authentication, authorization, and access control decisions.</p>
+</div></td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;, &quot;version&quot;: &quot;8.0.0&quot;, &quot;code&quot;: &quot;SECTRSTOBS&quot;, &quot;display&quot;: &quot;SECTRSTOBS&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;&gt;&lt;version value=&quot;8.0.0&quot;&gt;&lt;code value=&quot;SECTRSTOBS&quot;&gt;&lt;display value=&quot;SECTRSTOBS&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SecurityObservationType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-TRSTACCRDOBS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ActCode.html#v3-ActCode-TRSTACCRDOBS">TRSTACCRDOBS</a></td><td>trust accreditation observation</td><td><div><p>Type of security metadata observation made about the formal declaration by an authority or neutral third party that validates the technical, security, trust, and business practice conformance of Trust Agents to facilitate security, interoperability, and trust among participants within a security domain or trust framework.</p>
+</div></td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;, &quot;version&quot;: &quot;8.0.0&quot;, &quot;code&quot;: &quot;TRSTACCRDOBS&quot;, &quot;display&quot;: &quot;trust accreditation observation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;&gt;&lt;version value=&quot;8.0.0&quot;&gt;&lt;code value=&quot;TRSTACCRDOBS&quot;&gt;&lt;display value=&quot;trust accreditation observation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SecurityObservationType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-TRSTAGREOBS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ActCode.html#v3-ActCode-TRSTAGREOBS">TRSTAGREOBS</a></td><td>trust agreement observation</td><td><div><p>Type of security metadata observation made about privacy and security requirements with which a security domain must comply. [ISO IEC 10181-1]</p>
+</div></td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;, &quot;version&quot;: &quot;8.0.0&quot;, &quot;code&quot;: &quot;TRSTAGREOBS&quot;, &quot;display&quot;: &quot;trust agreement observation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;&gt;&lt;version value=&quot;8.0.0&quot;&gt;&lt;code value=&quot;TRSTAGREOBS&quot;&gt;&lt;display value=&quot;trust agreement observation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SecurityObservationType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-TRSTCERTOBS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ActCode.html#v3-ActCode-TRSTCERTOBS">TRSTCERTOBS</a></td><td>trust certificate observation</td><td><div><p>Type of security metadata observation made about a set of security-relevant data issued by a security authority or trusted third party, together with security information which is used to provide the integrity and data origin authentication services for an IT resource (data, information object, service, or system capability). [Based on ISO IEC 10181-1]</p>
+<p><strong>For example,</strong></p>
+<ul>
+<li>A Certificate Policy (CP), which is a named set of rules that indicates the applicability of a certificate to a particular community and/or class of application with common security requirements. For example, a particular Certificate Policy might indicate the applicability of a type of certificate to the authentication of electronic data interchange transactions for the trading of goods within a given price range. [Trust Service Principles and Criteria for Certification Authorities Version 2.0 March 2011 Copyright 2011 by Canadian Institute of Chartered Accountants.</li>
+<li>A Certificate Practice Statement (CSP), which is a statement of the practices which an Authority employs in issuing and managing certificates. [Trust Service Principles and Criteria for Certification Authorities Version 2.0 March 2011 Copyright 2011 by Canadian Institute of Chartered Accountants.]</li>
+</ul>
+</div></td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;, &quot;version&quot;: &quot;8.0.0&quot;, &quot;code&quot;: &quot;TRSTCERTOBS&quot;, &quot;display&quot;: &quot;trust certificate observation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;&gt;&lt;version value=&quot;8.0.0&quot;&gt;&lt;code value=&quot;TRSTCERTOBS&quot;&gt;&lt;display value=&quot;trust certificate observation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SecurityObservationType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-TRSTFWKOBS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ActCode.html#v3-ActCode-TRSTFWKOBS">TRSTFWKOBS</a></td><td>trust framework observation</td><td><div><p>Type of security metadata observation made about a complete set of contracts, regulations or commitments that enable participating actors to rely on certain assertions by other actors to fulfill their information security requirements. [Kantara Initiative]</p>
+</div></td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;, &quot;version&quot;: &quot;8.0.0&quot;, &quot;code&quot;: &quot;TRSTFWKOBS&quot;, &quot;display&quot;: &quot;trust framework observation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;&gt;&lt;version value=&quot;8.0.0&quot;&gt;&lt;code value=&quot;TRSTFWKOBS&quot;&gt;&lt;display value=&quot;trust framework observation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SecurityObservationType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-TRSTLOAOBS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ActCode.html#v3-ActCode-TRSTLOAOBS">TRSTLOAOBS</a></td><td>trust assurance observation</td><td><div><p>Type of security metadata observation made about the digital quality or reliability of a trust assertion, activity, capability, information exchange, mechanism, process, or protocol.</p>
+</div></td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;, &quot;version&quot;: &quot;8.0.0&quot;, &quot;code&quot;: &quot;TRSTLOAOBS&quot;, &quot;display&quot;: &quot;trust assurance observation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;&gt;&lt;version value=&quot;8.0.0&quot;&gt;&lt;code value=&quot;TRSTLOAOBS&quot;&gt;&lt;display value=&quot;trust assurance observation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-SecurityObservationType-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-TRSTMECOBS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ActCode.html#v3-ActCode-TRSTMECOBS">TRSTMECOBS</a></td><td>trust mechanism observation</td><td><div><p>Type of security metadata observation made about a security architecture system component that supports enforcement of security policies.</p>
+</div></td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;, &quot;version&quot;: &quot;8.0.0&quot;, &quot;code&quot;: &quot;TRSTMECOBS&quot;, &quot;display&quot;: &quot;trust mechanism observation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-ActCode&quot;&gt;&lt;version value=&quot;8.0.0&quot;&gt;&lt;code value=&quot;TRSTMECOBS&quot;&gt;&lt;display value=&quot;trust mechanism observation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr></table></div>
+
+  <hr/>
+  <p>
+    <a href="http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology">Description of the above table(s)</a>.
+  </p>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="ValueSet-R5-v3-SecurityLabelMarkLabel-for-R4.ttl.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="ValueSet-R5-v3-SecurityObservationType-for-R4-testing.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-21 13:39:00 -0600">
+    2026-02-21
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir/uv/xver/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

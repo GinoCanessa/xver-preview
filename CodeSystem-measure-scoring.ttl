@@ -63,25 +63,25 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "fhir"
+       fhir:v "cqi"
      ]
   ] ) ; # 
   fhir:url [
      fhir:v "http://terminology.hl7.org/CodeSystem/measure-scoring"^^xsd:anyURI ;
      fhir:l <http://terminology.hl7.org/CodeSystem/measure-scoring>
   ] ; # 
-  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:version [ fhir:v "2.0.0"] ; # 
   fhir:name [ fhir:v "MeasureScoring"] ; # 
   fhir:title [ fhir:v "MeasureScoring"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2021-03-26T06:10:28-05:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:publisher [ fhir:v "Clinical Quality Information"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:name [ fhir:v "Clinical Quality Information" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/cqi" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "The scoring type of the measure."] ; # 
@@ -97,8 +97,8 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://terminology.hl7.org/ValueSet/measure-scoring"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/ValueSet/measure-scoring>
+     fhir:v "http://terminology.hl7.org/ValueSet/measure-scoring|2.0.0"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/measure-scoring?version=2.0.0>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

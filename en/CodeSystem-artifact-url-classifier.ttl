@@ -1,0 +1,177 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/artifact-url-classifier> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "artifact-url-classifier"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <p>This code system \n              <code>http://hl7.org/fhir/artifact-url-classifier</code> defines the following codes:\n            </p>\n            <table class=\"codes\">\n              <tr>\n                <td style=\"white-space:nowrap\">\n                  <b>Code</b>\n                </td>\n                <td>\n                  <b>Display</b>\n                </td>\n                <td>\n                  <b>Definition</b>\n                </td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">abstract\n                  <a name=\"artifact-url-classifier-abstract\"> </a>\n                </td>\n                <td>Abstract</td>\n                <td>The URL will reach a brief summary for the article.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">full-text\n                  <a name=\"artifact-url-classifier-full-text\"> </a>\n                </td>\n                <td>Full-Text</td>\n                <td>The URL will reach the full-text of the article.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">supplement\n                  <a name=\"artifact-url-classifier-supplement\"> </a>\n                </td>\n                <td>Supplement</td>\n                <td>The URL will reach a supplement, appendix, or additional supporting information for the article.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">webpage\n                  <a name=\"artifact-url-classifier-webpage\"> </a>\n                </td>\n                <td>Webpage</td>\n                <td>The URL will reach a webpage related to the article, where the content is not easily classified as abstract, full-text or supplement.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">file-directory\n                  <a name=\"artifact-url-classifier-file-directory\"> </a>\n                </td>\n                <td>File directory</td>\n                <td>The URL will reach a file directory.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">code-repository\n                  <a name=\"artifact-url-classifier-code-repository\"> </a>\n                </td>\n                <td>Code repository</td>\n                <td>File archive and web hosting facility for source code of software, documentation, web pages, and other works.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">restricted\n                  <a name=\"artifact-url-classifier-restricted\"> </a>\n                </td>\n                <td>Restricted</td>\n                <td>The URL content has restricted access (e.g. subcription required).</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">compressed-file\n                  <a name=\"artifact-url-classifier-compressed-file\"> </a>\n                </td>\n                <td>Compressed file</td>\n                <td>Compressed archive file (e.g. a zip file) that contains multiple files</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">doi-based\n                  <a name=\"artifact-url-classifier-doi-based\"> </a>\n                </td>\n                <td>DOI Based</td>\n                <td>The URL is derived from the Digital Object Identifier (DOI).</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">pdf\n                  <a name=\"artifact-url-classifier-pdf\"> </a>\n                </td>\n                <td>PDF</td>\n                <td>The URL will reach content in PDF form.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">json\n                  <a name=\"artifact-url-classifier-json\"> </a>\n                </td>\n                <td>JSON</td>\n                <td>The URL will reach content in JSON format.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">xml\n                  <a name=\"artifact-url-classifier-xml\"> </a>\n                </td>\n                <td>XML</td>\n                <td>The URL will reach content in XML format.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">version-specific\n                  <a name=\"artifact-url-classifier-version-specific\"> </a>\n                </td>\n                <td>Version Specific</td>\n                <td>The URL will reach content that is a specific version of the article.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">computable-resource\n                  <a name=\"artifact-url-classifier-computable-resource\"> </a>\n                </td>\n                <td>Computable resource</td>\n                <td>The URL will reach content that is machine-interpretable.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">not-specified\n                  <a name=\"artifact-url-classifier-not-specified\"> </a>\n                </td>\n                <td>Not Specified</td>\n                <td>Used when URL classifier is not specified but expected in a system.</td>\n              </tr>\n            </table>\n          </div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "cds"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/artifact-url-classifier"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/artifact-url-classifier>
+  ] ; # 
+  fhir:version [ fhir:v "5.0.0"] ; # 
+  fhir:name [ fhir:v "ArtifactUrlClassifier"] ; # 
+  fhir:title [ fhir:v "Artifact Url Classifier"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2020-12-27T23:55:11-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Clinical Decision Support"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Clinical Decision Support" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/dss" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Code the reason for different URLs, eg abstract and full-text."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://hl7.org/fhir/ValueSet/artifact-url-classifier"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/artifact-url-classifier>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "abstract" ] ;
+     fhir:display [ fhir:v "Abstract" ] ;
+     fhir:definition [ fhir:v "The URL will reach a brief summary for the article." ]
+  ] [
+     fhir:code [ fhir:v "full-text" ] ;
+     fhir:display [ fhir:v "Full-Text" ] ;
+     fhir:definition [ fhir:v "The URL will reach the full-text of the article." ]
+  ] [
+     fhir:code [ fhir:v "supplement" ] ;
+     fhir:display [ fhir:v "Supplement" ] ;
+     fhir:definition [ fhir:v "The URL will reach a supplement, appendix, or additional supporting information for the article." ]
+  ] [
+     fhir:code [ fhir:v "webpage" ] ;
+     fhir:display [ fhir:v "Webpage" ] ;
+     fhir:definition [ fhir:v "The URL will reach a webpage related to the article, where the content is not easily classified as abstract, full-text or supplement." ]
+  ] [
+     fhir:code [ fhir:v "file-directory" ] ;
+     fhir:display [ fhir:v "File directory" ] ;
+     fhir:definition [ fhir:v "The URL will reach a file directory." ]
+  ] [
+     fhir:code [ fhir:v "code-repository" ] ;
+     fhir:display [ fhir:v "Code repository" ] ;
+     fhir:definition [ fhir:v "File archive and web hosting facility for source code of software, documentation, web pages, and other works." ]
+  ] [
+     fhir:code [ fhir:v "restricted" ] ;
+     fhir:display [ fhir:v "Restricted" ] ;
+     fhir:definition [ fhir:v "The URL content has restricted access (e.g. subcription required)." ]
+  ] [
+     fhir:code [ fhir:v "compressed-file" ] ;
+     fhir:display [ fhir:v "Compressed file" ] ;
+     fhir:definition [ fhir:v "Compressed archive file (e.g. a zip file) that contains multiple files" ]
+  ] [
+     fhir:code [ fhir:v "doi-based" ] ;
+     fhir:display [ fhir:v "DOI Based" ] ;
+     fhir:definition [ fhir:v "The URL is derived from the Digital Object Identifier (DOI)." ]
+  ] [
+     fhir:code [ fhir:v "pdf" ] ;
+     fhir:display [ fhir:v "PDF" ] ;
+     fhir:definition [ fhir:v "The URL will reach content in PDF form." ]
+  ] [
+     fhir:code [ fhir:v "json" ] ;
+     fhir:display [ fhir:v "JSON" ] ;
+     fhir:definition [ fhir:v "The URL will reach content in JSON format." ]
+  ] [
+     fhir:code [ fhir:v "xml" ] ;
+     fhir:display [ fhir:v "XML" ] ;
+     fhir:definition [ fhir:v "The URL will reach content in XML format." ]
+  ] [
+     fhir:code [ fhir:v "version-specific" ] ;
+     fhir:display [ fhir:v "Version Specific" ] ;
+     fhir:definition [ fhir:v "The URL will reach content that is a specific version of the article." ]
+  ] [
+     fhir:code [ fhir:v "computable-resource" ] ;
+     fhir:display [ fhir:v "Computable resource" ] ;
+     fhir:definition [ fhir:v "The URL will reach content that is machine-interpretable." ]
+  ] [
+     fhir:code [ fhir:v "not-specified" ] ;
+     fhir:display [ fhir:v "Not Specified" ] ;
+     fhir:definition [ fhir:v "Used when URL classifier is not specified but expected in a system." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

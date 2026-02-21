@@ -1,0 +1,14 @@
+# Lookup for R5V20568ForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## Lookup for R5V20568ForR4
+
+### Lookup for FHIR R5 ValueSet Hl7VSVolumeUnits:http://terminology.hl7.org/ValueSet/v2-0568 for use in FHIR R4
+
+The FHIR R5 ValueSet Hl7VSVolumeUnits has no mapping to FHIR R4.
+
+| | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `http://unitsofmeasure.org` | `[pt_us]` |   | Yes |   |   |   |
+| `http://unitsofmeasure.org` | `l` |   | Yes |   |   |   |
+| `http://unitsofmeasure.org` | `ml` |   | Yes |   |   |   |
+

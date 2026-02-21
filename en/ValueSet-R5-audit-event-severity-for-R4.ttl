@@ -1,0 +1,224 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-audit-event-severity-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-audit-event-severity-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-audit-event-severity-for-R4</b></p><a name=\"R5-audit-event-severity-for-R4\"> </a><a name=\"hcR5-audit-event-severity-for-R4\"> </a><p>This value set expansion contains 8 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"R5-audit-event-severity-for-R4-http://hl7.org/fhir/audit-event-severity-alert\"> </a><code>http://hl7.org/fhir/audit-event-severity</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-audit-event-severity.html#audit-event-severity-alert\">alert</a></td><td>Alert</td><td>Notification should be sent to trigger action be taken. e.g., Loss of the primary network connection needing attention.</td></tr><tr><td><a name=\"R5-audit-event-severity-for-R4-http://hl7.org/fhir/audit-event-severity-critical\"> </a><code>http://hl7.org/fhir/audit-event-severity</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-audit-event-severity.html#audit-event-severity-critical\">critical</a></td><td>Critical</td><td>Critical conditions. e.g., A failure in the system's primary application that will reset automatically.</td></tr><tr><td><a name=\"R5-audit-event-severity-for-R4-http://hl7.org/fhir/audit-event-severity-debug\"> </a><code>http://hl7.org/fhir/audit-event-severity</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-audit-event-severity.html#audit-event-severity-debug\">debug</a></td><td>Debug</td><td>Debug-level messages. Information useful to developers for debugging the application.</td></tr><tr><td><a name=\"R5-audit-event-severity-for-R4-http://hl7.org/fhir/audit-event-severity-emergency\"> </a><code>http://hl7.org/fhir/audit-event-severity</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-audit-event-severity.html#audit-event-severity-emergency\">emergency</a></td><td>Emergency</td><td>System is unusable. e.g., This level should only be reported by infrastructure and should not be used by applications.</td></tr><tr><td><a name=\"R5-audit-event-severity-for-R4-http://hl7.org/fhir/audit-event-severity-error\"> </a><code>http://hl7.org/fhir/audit-event-severity</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-audit-event-severity.html#audit-event-severity-error\">error</a></td><td>Error</td><td>Error conditions. e.g., An application has exceeded its file storage limit and attempts to write are failing.</td></tr><tr><td><a name=\"R5-audit-event-severity-for-R4-http://hl7.org/fhir/audit-event-severity-informational\"> </a><code>http://hl7.org/fhir/audit-event-severity</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-audit-event-severity.html#audit-event-severity-informational\">informational</a></td><td>Informational</td><td>Normal operational messages that require no action. e.g., An application has started, paused, or ended successfully.</td></tr><tr><td><a name=\"R5-audit-event-severity-for-R4-http://hl7.org/fhir/audit-event-severity-notice\"> </a><code>http://hl7.org/fhir/audit-event-severity</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-audit-event-severity.html#audit-event-severity-notice\">notice</a></td><td>Notice</td><td>Notice messages. Normal but significant condition. Events that are unusual, but not error conditions.</td></tr><tr><td><a name=\"R5-audit-event-severity-for-R4-http://hl7.org/fhir/audit-event-severity-warning\"> </a><code>http://hl7.org/fhir/audit-event-severity</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-audit-event-severity.html#audit-event-severity-warning\">warning</a></td><td>Warning</td><td>Warning conditions. May indicate that an error will occur if action is not taken. e.g., A non-root file system has only 2GB remaining.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 4
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "sec"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-audit-event-severity-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-audit-event-severity-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5AuditEventSeverityForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.AuditEventSeverity for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Security"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Security" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/secure" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/audit-event-severity|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/audit-event-severity|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `AuditEvent.severity`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://hl7.org/fhir/ValueSet/audit-event-severity|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/audit-event-severity"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/audit-event-severity>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "alert" ] ;
+         fhir:display [ fhir:v "Alert" ]
+       ] [
+         fhir:code [ fhir:v "critical" ] ;
+         fhir:display [ fhir:v "Critical" ]
+       ] [
+         fhir:code [ fhir:v "debug" ] ;
+         fhir:display [ fhir:v "Debug" ]
+       ] [
+         fhir:code [ fhir:v "emergency" ] ;
+         fhir:display [ fhir:v "Emergency" ]
+       ] [
+         fhir:code [ fhir:v "error" ] ;
+         fhir:display [ fhir:v "Error" ]
+       ] [
+         fhir:code [ fhir:v "informational" ] ;
+         fhir:display [ fhir:v "Informational" ]
+       ] [
+         fhir:code [ fhir:v "notice" ] ;
+         fhir:display [ fhir:v "Notice" ]
+       ] [
+         fhir:code [ fhir:v "warning" ] ;
+         fhir:display [ fhir:v "Warning" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/audit-event-severity"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/audit-event-severity>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "alert" ] ;
+       fhir:display [ fhir:v "Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/audit-event-severity"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/audit-event-severity>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "critical" ] ;
+       fhir:display [ fhir:v "Critical" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/audit-event-severity"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/audit-event-severity>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "debug" ] ;
+       fhir:display [ fhir:v "Debug" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/audit-event-severity"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/audit-event-severity>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "emergency" ] ;
+       fhir:display [ fhir:v "Emergency" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/audit-event-severity"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/audit-event-severity>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "error" ] ;
+       fhir:display [ fhir:v "Error" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/audit-event-severity"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/audit-event-severity>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "informational" ] ;
+       fhir:display [ fhir:v "Informational" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/audit-event-severity"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/audit-event-severity>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "notice" ] ;
+       fhir:display [ fhir:v "Notice" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/audit-event-severity"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/audit-event-severity>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "warning" ] ;
+       fhir:display [ fhir:v "Warning" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

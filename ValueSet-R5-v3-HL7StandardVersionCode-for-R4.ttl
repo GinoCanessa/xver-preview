@@ -1,0 +1,421 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-HL7StandardVersionCode-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-v3-HL7StandardVersionCode-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-v3-HL7StandardVersionCode-for-R4</b></p><a name=\"R5-v3-HL7StandardVersionCode-for-R4\"> </a><a name=\"hcR5-v3-HL7StandardVersionCode-for-R4\"> </a><p>This value set expansion contains 25 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-v3-HL7StandardVersionCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode-Ballot2008Jan\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  Ballot2008Jan</td><td>Ballot 2008 January</td></tr><tr><td><a name=\"R5-v3-HL7StandardVersionCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode-Ballot2008May\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  Ballot2008May</td><td>Ballot 2008 May</td></tr><tr><td><a name=\"R5-v3-HL7StandardVersionCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode-Ballot2008Sep\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  Ballot2008Sep</td><td>Ballot 2008 September</td></tr><tr><td><a name=\"R5-v3-HL7StandardVersionCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode-Ballot2009Jan\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  Ballot2009Jan</td><td>Ballot 2009 January</td></tr><tr><td><a name=\"R5-v3-HL7StandardVersionCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode-Ballot2009May\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  Ballot2009May</td><td>Ballot 2009 May</td></tr><tr><td><a name=\"R5-v3-HL7StandardVersionCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode-Ballot2009Sep\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  Ballot2009Sep</td><td>Ballot 2009 September</td></tr><tr><td><a name=\"R5-v3-HL7StandardVersionCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode-Ballot2010Jan\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  Ballot2010Jan</td><td>Ballot 2010 Jan</td></tr><tr><td><a name=\"R5-v3-HL7StandardVersionCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode-Ballot2010May\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  Ballot2010May</td><td>Ballot 2010 May</td></tr><tr><td><a name=\"R5-v3-HL7StandardVersionCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode-Ballot2010Sep\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  Ballot2010Sep</td><td>Ballot 2010 Sep</td></tr><tr><td><a name=\"R5-v3-HL7StandardVersionCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode-Ballot2011Jan\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  Ballot2011Jan</td><td>Ballot 2011 Jan</td></tr><tr><td><a name=\"R5-v3-HL7StandardVersionCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode-Ballot2011May\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  Ballot2011May</td><td>Ballot 2011 May</td></tr><tr><td><a name=\"R5-v3-HL7StandardVersionCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode-Ballot2011Sep\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  Ballot2011Sep</td><td>Ballot 2011 Sep</td></tr><tr><td><a name=\"R5-v3-HL7StandardVersionCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode-Ballot2012Jan\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  Ballot2012Jan</td><td>Ballot 2012 Jan</td></tr><tr><td><a name=\"R5-v3-HL7StandardVersionCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode-Ballot2012May\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  Ballot2012May</td><td>Ballot 2012 May</td></tr><tr><td><a name=\"R5-v3-HL7StandardVersionCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode-Ballot2012Sep\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  Ballot2012Sep</td><td>Ballot 2012 Sep</td></tr><tr><td><a name=\"R5-v3-HL7StandardVersionCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode-V3-2003-12\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  V3-2003-12</td><td>HL7 Version V3-2003-12</td></tr><tr><td><a name=\"R5-v3-HL7StandardVersionCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode-V3-2005N\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  V3-2005N</td><td>2005 Normative Edition</td></tr><tr><td><a name=\"R5-v3-HL7StandardVersionCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode-V3-2006N\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  V3-2006N</td><td>2006 Normative Edition</td></tr><tr><td><a name=\"R5-v3-HL7StandardVersionCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode-V3-2007N\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  V3-2007N</td><td>2007 Normative Edition</td></tr><tr><td><a name=\"R5-v3-HL7StandardVersionCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode-V3-2008N\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  V3-2008N</td><td>2008 Normative Edition</td></tr><tr><td><a name=\"R5-v3-HL7StandardVersionCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode-V3-2009N\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  V3-2009N</td><td>2009 Normative Edition</td></tr><tr><td><a name=\"R5-v3-HL7StandardVersionCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode-V3-2010N\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  V3-2010N</td><td>2010 Normative Edition</td></tr><tr><td><a name=\"R5-v3-HL7StandardVersionCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode-V3-2011N\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  V3-2011N</td><td>2011 Normative Edition</td></tr><tr><td><a name=\"R5-v3-HL7StandardVersionCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode-V3-2012N\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  V3-2012N</td><td>2012 Normative Edition</td></tr><tr><td><a name=\"R5-v3-HL7StandardVersionCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode-V3PR1\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  V3PR1</td><td>Version3 Pre-release #1</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-HL7StandardVersionCode-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-HL7StandardVersionCode-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5V3HL7StandardVersionCodeForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.HL7StandardVersionCode for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v3-HL7StandardVersionCode|2.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/v3-HL7StandardVersionCode|2.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* \r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://terminology.hl7.org/ValueSet/v3-HL7StandardVersionCode|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "Ballot2008Jan" ] ;
+         fhir:display [ fhir:v "Ballot 2008 January" ]
+       ] [
+         fhir:code [ fhir:v "Ballot2008May" ] ;
+         fhir:display [ fhir:v "Ballot 2008 May" ]
+       ] [
+         fhir:code [ fhir:v "Ballot2008Sep" ] ;
+         fhir:display [ fhir:v "Ballot 2008 September" ]
+       ] [
+         fhir:code [ fhir:v "Ballot2009Jan" ] ;
+         fhir:display [ fhir:v "Ballot 2009 January" ]
+       ] [
+         fhir:code [ fhir:v "Ballot2009May" ] ;
+         fhir:display [ fhir:v "Ballot 2009 May" ]
+       ] [
+         fhir:code [ fhir:v "Ballot2009Sep" ] ;
+         fhir:display [ fhir:v "Ballot 2009 September" ]
+       ] [
+         fhir:code [ fhir:v "Ballot2010Jan" ] ;
+         fhir:display [ fhir:v "Ballot 2010 Jan" ]
+       ] [
+         fhir:code [ fhir:v "Ballot2010May" ] ;
+         fhir:display [ fhir:v "Ballot 2010 May" ]
+       ] [
+         fhir:code [ fhir:v "Ballot2010Sep" ] ;
+         fhir:display [ fhir:v "Ballot 2010 Sep" ]
+       ] [
+         fhir:code [ fhir:v "Ballot2011Jan" ] ;
+         fhir:display [ fhir:v "Ballot 2011 Jan" ]
+       ] [
+         fhir:code [ fhir:v "Ballot2011May" ] ;
+         fhir:display [ fhir:v "Ballot 2011 May" ]
+       ] [
+         fhir:code [ fhir:v "Ballot2011Sep" ] ;
+         fhir:display [ fhir:v "Ballot 2011 Sep" ]
+       ] [
+         fhir:code [ fhir:v "Ballot2012Jan" ] ;
+         fhir:display [ fhir:v "Ballot 2012 Jan" ]
+       ] [
+         fhir:code [ fhir:v "Ballot2012May" ] ;
+         fhir:display [ fhir:v "Ballot 2012 May" ]
+       ] [
+         fhir:code [ fhir:v "Ballot2012Sep" ] ;
+         fhir:display [ fhir:v "Ballot 2012 Sep" ]
+       ] [
+         fhir:code [ fhir:v "V3-2003-12" ] ;
+         fhir:display [ fhir:v "HL7 Version V3-2003-12" ]
+       ] [
+         fhir:code [ fhir:v "V3-2005N" ] ;
+         fhir:display [ fhir:v "2005 Normative Edition" ]
+       ] [
+         fhir:code [ fhir:v "V3-2006N" ] ;
+         fhir:display [ fhir:v "2006 Normative Edition" ]
+       ] [
+         fhir:code [ fhir:v "V3-2007N" ] ;
+         fhir:display [ fhir:v "2007 Normative Edition" ]
+       ] [
+         fhir:code [ fhir:v "V3-2008N" ] ;
+         fhir:display [ fhir:v "2008 Normative Edition" ]
+       ] [
+         fhir:code [ fhir:v "V3-2009N" ] ;
+         fhir:display [ fhir:v "2009 Normative Edition" ]
+       ] [
+         fhir:code [ fhir:v "V3-2010N" ] ;
+         fhir:display [ fhir:v "2010 Normative Edition" ]
+       ] [
+         fhir:code [ fhir:v "V3-2011N" ] ;
+         fhir:display [ fhir:v "2011 Normative Edition" ]
+       ] [
+         fhir:code [ fhir:v "V3-2012N" ] ;
+         fhir:display [ fhir:v "2012 Normative Edition" ]
+       ] [
+         fhir:code [ fhir:v "V3PR1" ] ;
+         fhir:display [ fhir:v "Version3 Pre-release #1" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "Ballot2008Jan" ] ;
+       fhir:display [ fhir:v "Ballot 2008 January" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "Ballot2008May" ] ;
+       fhir:display [ fhir:v "Ballot 2008 May" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "Ballot2008Sep" ] ;
+       fhir:display [ fhir:v "Ballot 2008 September" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "Ballot2009Jan" ] ;
+       fhir:display [ fhir:v "Ballot 2009 January" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "Ballot2009May" ] ;
+       fhir:display [ fhir:v "Ballot 2009 May" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "Ballot2009Sep" ] ;
+       fhir:display [ fhir:v "Ballot 2009 September" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "Ballot2010Jan" ] ;
+       fhir:display [ fhir:v "Ballot 2010 Jan" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "Ballot2010May" ] ;
+       fhir:display [ fhir:v "Ballot 2010 May" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "Ballot2010Sep" ] ;
+       fhir:display [ fhir:v "Ballot 2010 Sep" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "Ballot2011Jan" ] ;
+       fhir:display [ fhir:v "Ballot 2011 Jan" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "Ballot2011May" ] ;
+       fhir:display [ fhir:v "Ballot 2011 May" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "Ballot2011Sep" ] ;
+       fhir:display [ fhir:v "Ballot 2011 Sep" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "Ballot2012Jan" ] ;
+       fhir:display [ fhir:v "Ballot 2012 Jan" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "Ballot2012May" ] ;
+       fhir:display [ fhir:v "Ballot 2012 May" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "Ballot2012Sep" ] ;
+       fhir:display [ fhir:v "Ballot 2012 Sep" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "V3-2003-12" ] ;
+       fhir:display [ fhir:v "HL7 Version V3-2003-12" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "V3-2005N" ] ;
+       fhir:display [ fhir:v "2005 Normative Edition" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "V3-2006N" ] ;
+       fhir:display [ fhir:v "2006 Normative Edition" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "V3-2007N" ] ;
+       fhir:display [ fhir:v "2007 Normative Edition" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "V3-2008N" ] ;
+       fhir:display [ fhir:v "2008 Normative Edition" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "V3-2009N" ] ;
+       fhir:display [ fhir:v "2009 Normative Edition" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "V3-2010N" ] ;
+       fhir:display [ fhir:v "2010 Normative Edition" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "V3-2011N" ] ;
+       fhir:display [ fhir:v "2011 Normative Edition" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "V3-2012N" ] ;
+       fhir:display [ fhir:v "2012 Normative Edition" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7StandardVersionCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "V3PR1" ] ;
+       fhir:display [ fhir:v "Version3 Pre-release #1" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

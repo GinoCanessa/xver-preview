@@ -1,0 +1,561 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-SubscriptionTopic-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-SubscriptionTopic-element-map-to-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-SubscriptionTopic-element-map-to-R4</b></p><a name=\"R5-SubscriptionTopic-element-map-to-R4\"> </a><a name=\"hcR5-SubscriptionTopic-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <a href=\"http://hl7.org/fhir/R5/subscriptiontopic.html\">SubscriptionTopicversion: 5.0.0)</a> to <a href=\"http://hl7.org/fhir/R4/basic.html\">Basicversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>SubscriptionTopic.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Resource.meta</td><td>Element matches Basic element path `Resource.meta`, use that element instead.\nElement `SubscriptionTopic.meta` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Resource.implicitRules</td><td>Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `SubscriptionTopic.implicitRules` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Resource.language</td><td>Element matches Basic element path `Resource.language`, use that element instead.\nElement `SubscriptionTopic.language` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>DomainResource.text</td><td>Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `SubscriptionTopic.text` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>DomainResource.contained</td><td>Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `SubscriptionTopic.contained` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Basic.identifier</td><td>Element matches Basic element path `Basic.identifier`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.identifier`: `http://hl7.org/fhir/StructureDefinition/artifact-identifier`.\nElement `SubscriptionTopic.identifier` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <a href=\"http://hl7.org/fhir/R5/subscriptiontopic.html\">SubscriptionTopicversion: 5.0.0)</a> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Packversion: 5.2.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>SubscriptionTopic.url (url)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-url</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.url`: `http://hl7.org/fhir/StructureDefinition/artifact-url`.\nElement `SubscriptionTopic.url` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.version (version)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-version</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.version`: `http://hl7.org/fhir/StructureDefinition/artifact-version`.\nElement `SubscriptionTopic.version` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.versionAlgorithm[x] (versionAlgorithm[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.versionAlgorithm[x]`: `http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm`.\nElement `SubscriptionTopic.versionAlgorithm[x]` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-name</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.name`: `http://hl7.org/fhir/StructureDefinition/artifact-name`.\nElement `SubscriptionTopic.name` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.title (title)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-title</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.title`: `http://hl7.org/fhir/StructureDefinition/artifact-title`.\nElement `SubscriptionTopic.title` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.derivedFrom (derivedFrom)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-canonical</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.derivedFrom` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `SubscriptionTopic.derivedFrom` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-status</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.status`: `http://hl7.org/fhir/StructureDefinition/artifact-status`.\nElement `SubscriptionTopic.status` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.experimental (experimental)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-experimental</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.experimental`: `http://hl7.org/fhir/StructureDefinition/artifact-experimental`.\nElement `SubscriptionTopic.experimental` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.date (date)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-date</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.date`: `http://hl7.org/fhir/StructureDefinition/artifact-date`.\nElement `SubscriptionTopic.date` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.publisher (publisher)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-publisher</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.publisher`: `http://hl7.org/fhir/StructureDefinition/artifact-publisher`.\nElement `SubscriptionTopic.publisher` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.contact (contact)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-contact</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.contact`: `http://hl7.org/fhir/StructureDefinition/artifact-contact`.\nElement `SubscriptionTopic.contact` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-description</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.description`: `http://hl7.org/fhir/StructureDefinition/artifact-description`.\nElement `SubscriptionTopic.description` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.useContext (useContext)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-useContext</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.useContext`: `http://hl7.org/fhir/StructureDefinition/artifact-useContext`.\nElement `SubscriptionTopic.useContext` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.purpose (purpose)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-purpose</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.purpose`: `http://hl7.org/fhir/StructureDefinition/artifact-purpose`.\nElement `SubscriptionTopic.purpose` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.copyright (copyright)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-copyright</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.copyright`: `http://hl7.org/fhir/StructureDefinition/artifact-copyright`.\nElement `SubscriptionTopic.copyright` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.copyrightLabel (copyrightLabel)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.copyrightLabel`: `http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel`.\nElement `SubscriptionTopic.copyrightLabel` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.approvalDate (approvalDate)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-approvalDate</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.approvalDate`: `http://hl7.org/fhir/StructureDefinition/artifact-approvalDate`.\nElement `SubscriptionTopic.approvalDate` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.lastReviewDate (lastReviewDate)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-lastReviewDate</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.lastReviewDate`: `http://hl7.org/fhir/StructureDefinition/artifact-lastReviewDate`.\nElement `SubscriptionTopic.lastReviewDate` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.effectivePeriod (effectivePeriod)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-effectivePeriod</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.effectivePeriod`: `http://hl7.org/fhir/StructureDefinition/artifact-effectivePeriod`.\nElement `SubscriptionTopic.effectivePeriod` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <a href=\"http://hl7.org/fhir/R5/subscriptiontopic.html\">SubscriptionTopicversion: 5.0.0)</a> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>SubscriptionTopic.jurisdiction (jurisdiction)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>jurisdiction</td><td>Element `SubscriptionTopic.jurisdiction` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.resourceTrigger (resourceTrigger)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>resourceTrigger</td><td>Element `SubscriptionTopic.resourceTrigger` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.resourceTrigger.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>description</td><td>Element `SubscriptionTopic.resourceTrigger.description` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.resourceTrigger.resource (resource)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>resource</td><td>Element `SubscriptionTopic.resourceTrigger.resource` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.resourceTrigger.supportedInteraction (supportedInteraction)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>supportedInteraction</td><td>Element `SubscriptionTopic.resourceTrigger.supportedInteraction` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.resourceTrigger.queryCriteria (queryCriteria)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>queryCriteria</td><td>Element `SubscriptionTopic.resourceTrigger.queryCriteria` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.resourceTrigger.queryCriteria.previous (previous)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>previous</td><td>Element `SubscriptionTopic.resourceTrigger.queryCriteria.previous` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.resourceTrigger.queryCriteria.resultForCreate (resultForCreate)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>resultForCreate</td><td>Element `SubscriptionTopic.resourceTrigger.queryCriteria.resultForCreate` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.resourceTrigger.queryCriteria.current (current)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>current</td><td>Element `SubscriptionTopic.resourceTrigger.queryCriteria.current` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.resourceTrigger.queryCriteria.resultForDelete (resultForDelete)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>resultForDelete</td><td>Element `SubscriptionTopic.resourceTrigger.queryCriteria.resultForDelete` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.resourceTrigger.queryCriteria.requireBoth (requireBoth)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>requireBoth</td><td>Element `SubscriptionTopic.resourceTrigger.queryCriteria.requireBoth` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.resourceTrigger.fhirPathCriteria (fhirPathCriteria)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>fhirPathCriteria</td><td>Element `SubscriptionTopic.resourceTrigger.fhirPathCriteria` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.eventTrigger (eventTrigger)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>eventTrigger</td><td>Element `SubscriptionTopic.eventTrigger` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.eventTrigger.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>description</td><td>Element `SubscriptionTopic.eventTrigger.description` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.eventTrigger.event (event)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>event</td><td>Element `SubscriptionTopic.eventTrigger.event` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.eventTrigger.resource (resource)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>resource</td><td>Element `SubscriptionTopic.eventTrigger.resource` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.canFilterBy (canFilterBy)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>canFilterBy</td><td>Element `SubscriptionTopic.canFilterBy` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.canFilterBy.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>description</td><td>Element `SubscriptionTopic.canFilterBy.description` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.canFilterBy.resource (resource)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>resource</td><td>Element `SubscriptionTopic.canFilterBy.resource` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.canFilterBy.filterParameter (filterParameter)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>filterParameter</td><td>Element `SubscriptionTopic.canFilterBy.filterParameter` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.canFilterBy.filterDefinition (filterDefinition)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>filterDefinition</td><td>Element `SubscriptionTopic.canFilterBy.filterDefinition` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.canFilterBy.comparator (comparator)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>comparator</td><td>Element `SubscriptionTopic.canFilterBy.comparator` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.canFilterBy.modifier (modifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>modifier</td><td>Element `SubscriptionTopic.canFilterBy.modifier` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.notificationShape (notificationShape)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>notificationShape</td><td>Element `SubscriptionTopic.notificationShape` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.notificationShape.resource (resource)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>resource</td><td>Element `SubscriptionTopic.notificationShape.resource` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.notificationShape.include (include)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>include</td><td>Element `SubscriptionTopic.notificationShape.include` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr><tr><td>SubscriptionTopic.notificationShape.revInclude (revInclude)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>revInclude</td><td>Element `SubscriptionTopic.notificationShape.revInclude` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-SubscriptionTopic-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-SubscriptionTopic-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5SubscriptionTopicElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 SubscriptionTopic to FHIR R4 Basic"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T13:36:59.162009-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 SubscriptionTopic to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/SubscriptionTopic"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/SubscriptionTopic>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Basic"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Basic>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "SubscriptionTopic.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Resource.meta" ] ;
+         fhir:display [ fhir:v "Resource.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `SubscriptionTopic.meta` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Resource.implicitRules" ] ;
+         fhir:display [ fhir:v "Resource.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `SubscriptionTopic.implicitRules` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Resource.language" ] ;
+         fhir:display [ fhir:v "Resource.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.language`, use that element instead.\nElement `SubscriptionTopic.language` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DomainResource.text" ] ;
+         fhir:display [ fhir:v "DomainResource.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `SubscriptionTopic.text` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DomainResource.contained" ] ;
+         fhir:display [ fhir:v "DomainResource.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `SubscriptionTopic.contained` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.identifier" ] ;
+         fhir:display [ fhir:v "Basic.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.identifier`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.identifier`: `http://hl7.org/fhir/StructureDefinition/artifact-identifier`.\nElement `SubscriptionTopic.identifier` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/SubscriptionTopic"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/SubscriptionTopic>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.2.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "SubscriptionTopic.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-url" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.url`: `http://hl7.org/fhir/StructureDefinition/artifact-url`.\nElement `SubscriptionTopic.url` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-version" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.version`: `http://hl7.org/fhir/StructureDefinition/artifact-version`.\nElement `SubscriptionTopic.version` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.versionAlgorithm[x]" ] ;
+       fhir:display [ fhir:v "versionAlgorithm[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.versionAlgorithm[x]`: `http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm`.\nElement `SubscriptionTopic.versionAlgorithm[x]` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-name" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.name`: `http://hl7.org/fhir/StructureDefinition/artifact-name`.\nElement `SubscriptionTopic.name` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-title" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.title`: `http://hl7.org/fhir/StructureDefinition/artifact-title`.\nElement `SubscriptionTopic.title` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.derivedFrom" ] ;
+       fhir:display [ fhir:v "derivedFrom" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-canonical" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.derivedFrom` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `SubscriptionTopic.derivedFrom` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-status" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.status`: `http://hl7.org/fhir/StructureDefinition/artifact-status`.\nElement `SubscriptionTopic.status` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.experimental" ] ;
+       fhir:display [ fhir:v "experimental" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-experimental" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.experimental`: `http://hl7.org/fhir/StructureDefinition/artifact-experimental`.\nElement `SubscriptionTopic.experimental` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-date" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.date`: `http://hl7.org/fhir/StructureDefinition/artifact-date`.\nElement `SubscriptionTopic.date` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.publisher" ] ;
+       fhir:display [ fhir:v "publisher" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-publisher" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.publisher`: `http://hl7.org/fhir/StructureDefinition/artifact-publisher`.\nElement `SubscriptionTopic.publisher` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-contact" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.contact`: `http://hl7.org/fhir/StructureDefinition/artifact-contact`.\nElement `SubscriptionTopic.contact` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-description" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.description`: `http://hl7.org/fhir/StructureDefinition/artifact-description`.\nElement `SubscriptionTopic.description` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.useContext" ] ;
+       fhir:display [ fhir:v "useContext" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-useContext" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.useContext`: `http://hl7.org/fhir/StructureDefinition/artifact-useContext`.\nElement `SubscriptionTopic.useContext` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.purpose" ] ;
+       fhir:display [ fhir:v "purpose" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-purpose" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.purpose`: `http://hl7.org/fhir/StructureDefinition/artifact-purpose`.\nElement `SubscriptionTopic.purpose` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.copyright" ] ;
+       fhir:display [ fhir:v "copyright" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-copyright" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.copyright`: `http://hl7.org/fhir/StructureDefinition/artifact-copyright`.\nElement `SubscriptionTopic.copyright` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.copyrightLabel" ] ;
+       fhir:display [ fhir:v "copyrightLabel" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.copyrightLabel`: `http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel`.\nElement `SubscriptionTopic.copyrightLabel` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.approvalDate" ] ;
+       fhir:display [ fhir:v "approvalDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-approvalDate" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.approvalDate`: `http://hl7.org/fhir/StructureDefinition/artifact-approvalDate`.\nElement `SubscriptionTopic.approvalDate` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.lastReviewDate" ] ;
+       fhir:display [ fhir:v "lastReviewDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-lastReviewDate" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.lastReviewDate`: `http://hl7.org/fhir/StructureDefinition/artifact-lastReviewDate`.\nElement `SubscriptionTopic.lastReviewDate` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.effectivePeriod" ] ;
+       fhir:display [ fhir:v "effectivePeriod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-effectivePeriod" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubscriptionTopic.effectivePeriod`: `http://hl7.org/fhir/StructureDefinition/artifact-effectivePeriod`.\nElement `SubscriptionTopic.effectivePeriod` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/SubscriptionTopic"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/SubscriptionTopic>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "SubscriptionTopic.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.jurisdiction` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.resourceTrigger" ] ;
+       fhir:display [ fhir:v "resourceTrigger" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "resourceTrigger" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.resourceTrigger` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.resourceTrigger.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "description" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.resourceTrigger.description` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.resourceTrigger.resource" ] ;
+       fhir:display [ fhir:v "resource" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "resource" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.resourceTrigger.resource` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.resourceTrigger.supportedInteraction" ] ;
+       fhir:display [ fhir:v "supportedInteraction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "supportedInteraction" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.resourceTrigger.supportedInteraction` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.resourceTrigger.queryCriteria" ] ;
+       fhir:display [ fhir:v "queryCriteria" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "queryCriteria" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.resourceTrigger.queryCriteria` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.resourceTrigger.queryCriteria.previous" ] ;
+       fhir:display [ fhir:v "previous" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "previous" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.resourceTrigger.queryCriteria.previous` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.resourceTrigger.queryCriteria.resultForCreate" ] ;
+       fhir:display [ fhir:v "resultForCreate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "resultForCreate" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.resourceTrigger.queryCriteria.resultForCreate` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.resourceTrigger.queryCriteria.current" ] ;
+       fhir:display [ fhir:v "current" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "current" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.resourceTrigger.queryCriteria.current` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.resourceTrigger.queryCriteria.resultForDelete" ] ;
+       fhir:display [ fhir:v "resultForDelete" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "resultForDelete" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.resourceTrigger.queryCriteria.resultForDelete` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.resourceTrigger.queryCriteria.requireBoth" ] ;
+       fhir:display [ fhir:v "requireBoth" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "requireBoth" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.resourceTrigger.queryCriteria.requireBoth` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.resourceTrigger.fhirPathCriteria" ] ;
+       fhir:display [ fhir:v "fhirPathCriteria" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "fhirPathCriteria" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.resourceTrigger.fhirPathCriteria` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.eventTrigger" ] ;
+       fhir:display [ fhir:v "eventTrigger" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "eventTrigger" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.eventTrigger` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.eventTrigger.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "description" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.eventTrigger.description` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.eventTrigger.event" ] ;
+       fhir:display [ fhir:v "event" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "event" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.eventTrigger.event` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.eventTrigger.resource" ] ;
+       fhir:display [ fhir:v "resource" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "resource" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.eventTrigger.resource` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.canFilterBy" ] ;
+       fhir:display [ fhir:v "canFilterBy" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "canFilterBy" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.canFilterBy` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.canFilterBy.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "description" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.canFilterBy.description` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.canFilterBy.resource" ] ;
+       fhir:display [ fhir:v "resource" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "resource" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.canFilterBy.resource` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.canFilterBy.filterParameter" ] ;
+       fhir:display [ fhir:v "filterParameter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "filterParameter" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.canFilterBy.filterParameter` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.canFilterBy.filterDefinition" ] ;
+       fhir:display [ fhir:v "filterDefinition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "filterDefinition" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.canFilterBy.filterDefinition` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.canFilterBy.comparator" ] ;
+       fhir:display [ fhir:v "comparator" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "comparator" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.canFilterBy.comparator` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.canFilterBy.modifier" ] ;
+       fhir:display [ fhir:v "modifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "modifier" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.canFilterBy.modifier` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.notificationShape" ] ;
+       fhir:display [ fhir:v "notificationShape" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "notificationShape" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.notificationShape` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.notificationShape.resource" ] ;
+       fhir:display [ fhir:v "resource" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "resource" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.notificationShape.resource` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.notificationShape.include" ] ;
+       fhir:display [ fhir:v "include" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "include" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.notificationShape.include` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubscriptionTopic.notificationShape.revInclude" ] ;
+       fhir:display [ fhir:v "revInclude" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "revInclude" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubscriptionTopic.notificationShape.revInclude` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

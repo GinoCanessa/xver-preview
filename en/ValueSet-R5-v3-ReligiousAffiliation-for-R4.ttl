@@ -1,0 +1,1049 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-ReligiousAffiliation-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-v3-ReligiousAffiliation-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-v3-ReligiousAffiliation-for-R4</b></p><a name=\"R5-v3-ReligiousAffiliation-for-R4\"> </a><a name=\"hcR5-v3-ReligiousAffiliation-for-R4\"> </a><p>This value set expansion contains 82 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1001\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1001</td><td>Adventist</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1002\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1002</td><td>African Religions</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1003\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1003</td><td>Afro-Caribbean Religions</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1004\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1004</td><td>Agnosticism</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1005\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1005</td><td>Anglican</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1006\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1006</td><td>Animism</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1007\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1007</td><td>Atheism</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1008\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1008</td><td>Babi &amp; Baha'I faiths</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1009\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1009</td><td>Baptist</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1010\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1010</td><td>Bon</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1011\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1011</td><td>Cao Dai</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1012\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1012</td><td>Celticism</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1013\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1013</td><td>Christian (non-Catholic, non-specific)</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1014\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1014</td><td>Confucianism</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1015\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1015</td><td>Cyberculture Religions</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1016\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1016</td><td>Divination</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1017\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1017</td><td>Fourth Way</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1018\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1018</td><td>Free Daism</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1019\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1019</td><td>Gnosis</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1020\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1020</td><td>Hinduism</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1021\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1021</td><td>Humanism</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1022\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1022</td><td>Independent</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1023\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1023</td><td>Islam</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1024\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1024</td><td>Jainism</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1025\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1025</td><td>Jehovah's Witnesses</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1026\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1026</td><td>Judaism</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1027\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1027</td><td>Latter Day Saints</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1028\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1028</td><td>Lutheran</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1029\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1029</td><td>Mahayana</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1030\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1030</td><td>Meditation</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1031\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1031</td><td>Messianic Judaism</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1032\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1032</td><td>Mitraism</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1033\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1033</td><td>New Age</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1034\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1034</td><td>non-Roman Catholic</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1035\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1035</td><td>Occult</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1036\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1036</td><td>Orthodox</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1037\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1037</td><td>Paganism</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1038\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1038</td><td>Pentecostal</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1039\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1039</td><td>Process, The</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1040\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1040</td><td>Reformed/Presbyterian</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1041\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1041</td><td>Roman Catholic Church</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1042\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1042</td><td>Satanism</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1043\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1043</td><td>Scientology</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1044\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1044</td><td>Shamanism</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1045\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1045</td><td>Shiite (Islam)</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1046\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1046</td><td>Shinto</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1047\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1047</td><td>Sikism</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1048\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1048</td><td>Spiritualism</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1049\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1049</td><td>Sunni (Islam)</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1050\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1050</td><td>Taoism</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1051\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1051</td><td>Theravada</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1052\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1052</td><td>Unitarian-Universalism</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1053\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1053</td><td>Universal Life Church</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1054\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1054</td><td>Vajrayana (Tibetan)</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1055\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1055</td><td>Veda</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1056\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1056</td><td>Voodoo</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1057\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1057</td><td>Wicca</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1058\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1058</td><td>Yaohushua</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1059\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1059</td><td>Zen Buddhism</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1060\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1060</td><td>Zoroastrianism</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1061\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1061</td><td>Assembly of God</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1062\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1062</td><td>Brethren</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1063\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1063</td><td>Christian Scientist</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1064\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1064</td><td>Church of Christ</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1065\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1065</td><td>Church of God</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1066\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1066</td><td>Congregational</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1067\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1067</td><td>Disciples of Christ</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1068\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1068</td><td>Eastern Orthodox</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1069\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1069</td><td>Episcopalian</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1070\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1070</td><td>Evangelical Covenant</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1071\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1071</td><td>Friends</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1072\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1072</td><td>Full Gospel</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1073\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1073</td><td>Methodist</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1074\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1074</td><td>Native American</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1075\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1075</td><td>Nazarene</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1076\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1076</td><td>Presbyterian</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1077\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1077</td><td>Protestant</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1078\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1078</td><td>Protestant, No Denomination</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1079\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1079</td><td>Reformed</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1080\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1080</td><td>Salvation Army</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1081\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1081</td><td>Unitarian Universalist</td></tr><tr><td><a name=\"R5-v3-ReligiousAffiliation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation-1082\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1082</td><td>United Church of Christ</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-ReligiousAffiliation-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-ReligiousAffiliation-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5V3ReligiousAffiliationForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.ReligiousAffiliation for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v3-ReligiousAffiliation|2.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/v3-ReligiousAffiliation|2.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* \r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://terminology.hl7.org/ValueSet/v3-ReligiousAffiliation|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "1001" ] ;
+         fhir:display [ fhir:v "Adventist" ]
+       ] [
+         fhir:code [ fhir:v "1002" ] ;
+         fhir:display [ fhir:v "African Religions" ]
+       ] [
+         fhir:code [ fhir:v "1003" ] ;
+         fhir:display [ fhir:v "Afro-Caribbean Religions" ]
+       ] [
+         fhir:code [ fhir:v "1004" ] ;
+         fhir:display [ fhir:v "Agnosticism" ]
+       ] [
+         fhir:code [ fhir:v "1005" ] ;
+         fhir:display [ fhir:v "Anglican" ]
+       ] [
+         fhir:code [ fhir:v "1006" ] ;
+         fhir:display [ fhir:v "Animism" ]
+       ] [
+         fhir:code [ fhir:v "1007" ] ;
+         fhir:display [ fhir:v "Atheism" ]
+       ] [
+         fhir:code [ fhir:v "1008" ] ;
+         fhir:display [ fhir:v "Babi & Baha'I faiths" ]
+       ] [
+         fhir:code [ fhir:v "1009" ] ;
+         fhir:display [ fhir:v "Baptist" ]
+       ] [
+         fhir:code [ fhir:v "1010" ] ;
+         fhir:display [ fhir:v "Bon" ]
+       ] [
+         fhir:code [ fhir:v "1011" ] ;
+         fhir:display [ fhir:v "Cao Dai" ]
+       ] [
+         fhir:code [ fhir:v "1012" ] ;
+         fhir:display [ fhir:v "Celticism" ]
+       ] [
+         fhir:code [ fhir:v "1013" ] ;
+         fhir:display [ fhir:v "Christian (non-Catholic, non-specific)" ]
+       ] [
+         fhir:code [ fhir:v "1014" ] ;
+         fhir:display [ fhir:v "Confucianism" ]
+       ] [
+         fhir:code [ fhir:v "1015" ] ;
+         fhir:display [ fhir:v "Cyberculture Religions" ]
+       ] [
+         fhir:code [ fhir:v "1016" ] ;
+         fhir:display [ fhir:v "Divination" ]
+       ] [
+         fhir:code [ fhir:v "1017" ] ;
+         fhir:display [ fhir:v "Fourth Way" ]
+       ] [
+         fhir:code [ fhir:v "1018" ] ;
+         fhir:display [ fhir:v "Free Daism" ]
+       ] [
+         fhir:code [ fhir:v "1019" ] ;
+         fhir:display [ fhir:v "Gnosis" ]
+       ] [
+         fhir:code [ fhir:v "1020" ] ;
+         fhir:display [ fhir:v "Hinduism" ]
+       ] [
+         fhir:code [ fhir:v "1021" ] ;
+         fhir:display [ fhir:v "Humanism" ]
+       ] [
+         fhir:code [ fhir:v "1022" ] ;
+         fhir:display [ fhir:v "Independent" ]
+       ] [
+         fhir:code [ fhir:v "1023" ] ;
+         fhir:display [ fhir:v "Islam" ]
+       ] [
+         fhir:code [ fhir:v "1024" ] ;
+         fhir:display [ fhir:v "Jainism" ]
+       ] [
+         fhir:code [ fhir:v "1025" ] ;
+         fhir:display [ fhir:v "Jehovah's Witnesses" ]
+       ] [
+         fhir:code [ fhir:v "1026" ] ;
+         fhir:display [ fhir:v "Judaism" ]
+       ] [
+         fhir:code [ fhir:v "1027" ] ;
+         fhir:display [ fhir:v "Latter Day Saints" ]
+       ] [
+         fhir:code [ fhir:v "1028" ] ;
+         fhir:display [ fhir:v "Lutheran" ]
+       ] [
+         fhir:code [ fhir:v "1029" ] ;
+         fhir:display [ fhir:v "Mahayana" ]
+       ] [
+         fhir:code [ fhir:v "1030" ] ;
+         fhir:display [ fhir:v "Meditation" ]
+       ] [
+         fhir:code [ fhir:v "1031" ] ;
+         fhir:display [ fhir:v "Messianic Judaism" ]
+       ] [
+         fhir:code [ fhir:v "1032" ] ;
+         fhir:display [ fhir:v "Mitraism" ]
+       ] [
+         fhir:code [ fhir:v "1033" ] ;
+         fhir:display [ fhir:v "New Age" ]
+       ] [
+         fhir:code [ fhir:v "1034" ] ;
+         fhir:display [ fhir:v "non-Roman Catholic" ]
+       ] [
+         fhir:code [ fhir:v "1035" ] ;
+         fhir:display [ fhir:v "Occult" ]
+       ] [
+         fhir:code [ fhir:v "1036" ] ;
+         fhir:display [ fhir:v "Orthodox" ]
+       ] [
+         fhir:code [ fhir:v "1037" ] ;
+         fhir:display [ fhir:v "Paganism" ]
+       ] [
+         fhir:code [ fhir:v "1038" ] ;
+         fhir:display [ fhir:v "Pentecostal" ]
+       ] [
+         fhir:code [ fhir:v "1039" ] ;
+         fhir:display [ fhir:v "Process, The" ]
+       ] [
+         fhir:code [ fhir:v "1040" ] ;
+         fhir:display [ fhir:v "Reformed/Presbyterian" ]
+       ] [
+         fhir:code [ fhir:v "1041" ] ;
+         fhir:display [ fhir:v "Roman Catholic Church" ]
+       ] [
+         fhir:code [ fhir:v "1042" ] ;
+         fhir:display [ fhir:v "Satanism" ]
+       ] [
+         fhir:code [ fhir:v "1043" ] ;
+         fhir:display [ fhir:v "Scientology" ]
+       ] [
+         fhir:code [ fhir:v "1044" ] ;
+         fhir:display [ fhir:v "Shamanism" ]
+       ] [
+         fhir:code [ fhir:v "1045" ] ;
+         fhir:display [ fhir:v "Shiite (Islam)" ]
+       ] [
+         fhir:code [ fhir:v "1046" ] ;
+         fhir:display [ fhir:v "Shinto" ]
+       ] [
+         fhir:code [ fhir:v "1047" ] ;
+         fhir:display [ fhir:v "Sikism" ]
+       ] [
+         fhir:code [ fhir:v "1048" ] ;
+         fhir:display [ fhir:v "Spiritualism" ]
+       ] [
+         fhir:code [ fhir:v "1049" ] ;
+         fhir:display [ fhir:v "Sunni (Islam)" ]
+       ] [
+         fhir:code [ fhir:v "1050" ] ;
+         fhir:display [ fhir:v "Taoism" ]
+       ] [
+         fhir:code [ fhir:v "1051" ] ;
+         fhir:display [ fhir:v "Theravada" ]
+       ] [
+         fhir:code [ fhir:v "1052" ] ;
+         fhir:display [ fhir:v "Unitarian-Universalism" ]
+       ] [
+         fhir:code [ fhir:v "1053" ] ;
+         fhir:display [ fhir:v "Universal Life Church" ]
+       ] [
+         fhir:code [ fhir:v "1054" ] ;
+         fhir:display [ fhir:v "Vajrayana (Tibetan)" ]
+       ] [
+         fhir:code [ fhir:v "1055" ] ;
+         fhir:display [ fhir:v "Veda" ]
+       ] [
+         fhir:code [ fhir:v "1056" ] ;
+         fhir:display [ fhir:v "Voodoo" ]
+       ] [
+         fhir:code [ fhir:v "1057" ] ;
+         fhir:display [ fhir:v "Wicca" ]
+       ] [
+         fhir:code [ fhir:v "1058" ] ;
+         fhir:display [ fhir:v "Yaohushua" ]
+       ] [
+         fhir:code [ fhir:v "1059" ] ;
+         fhir:display [ fhir:v "Zen Buddhism" ]
+       ] [
+         fhir:code [ fhir:v "1060" ] ;
+         fhir:display [ fhir:v "Zoroastrianism" ]
+       ] [
+         fhir:code [ fhir:v "1061" ] ;
+         fhir:display [ fhir:v "Assembly of God" ]
+       ] [
+         fhir:code [ fhir:v "1062" ] ;
+         fhir:display [ fhir:v "Brethren" ]
+       ] [
+         fhir:code [ fhir:v "1063" ] ;
+         fhir:display [ fhir:v "Christian Scientist" ]
+       ] [
+         fhir:code [ fhir:v "1064" ] ;
+         fhir:display [ fhir:v "Church of Christ" ]
+       ] [
+         fhir:code [ fhir:v "1065" ] ;
+         fhir:display [ fhir:v "Church of God" ]
+       ] [
+         fhir:code [ fhir:v "1066" ] ;
+         fhir:display [ fhir:v "Congregational" ]
+       ] [
+         fhir:code [ fhir:v "1067" ] ;
+         fhir:display [ fhir:v "Disciples of Christ" ]
+       ] [
+         fhir:code [ fhir:v "1068" ] ;
+         fhir:display [ fhir:v "Eastern Orthodox" ]
+       ] [
+         fhir:code [ fhir:v "1069" ] ;
+         fhir:display [ fhir:v "Episcopalian" ]
+       ] [
+         fhir:code [ fhir:v "1070" ] ;
+         fhir:display [ fhir:v "Evangelical Covenant" ]
+       ] [
+         fhir:code [ fhir:v "1071" ] ;
+         fhir:display [ fhir:v "Friends" ]
+       ] [
+         fhir:code [ fhir:v "1072" ] ;
+         fhir:display [ fhir:v "Full Gospel" ]
+       ] [
+         fhir:code [ fhir:v "1073" ] ;
+         fhir:display [ fhir:v "Methodist" ]
+       ] [
+         fhir:code [ fhir:v "1074" ] ;
+         fhir:display [ fhir:v "Native American" ]
+       ] [
+         fhir:code [ fhir:v "1075" ] ;
+         fhir:display [ fhir:v "Nazarene" ]
+       ] [
+         fhir:code [ fhir:v "1076" ] ;
+         fhir:display [ fhir:v "Presbyterian" ]
+       ] [
+         fhir:code [ fhir:v "1077" ] ;
+         fhir:display [ fhir:v "Protestant" ]
+       ] [
+         fhir:code [ fhir:v "1078" ] ;
+         fhir:display [ fhir:v "Protestant, No Denomination" ]
+       ] [
+         fhir:code [ fhir:v "1079" ] ;
+         fhir:display [ fhir:v "Reformed" ]
+       ] [
+         fhir:code [ fhir:v "1080" ] ;
+         fhir:display [ fhir:v "Salvation Army" ]
+       ] [
+         fhir:code [ fhir:v "1081" ] ;
+         fhir:display [ fhir:v "Unitarian Universalist" ]
+       ] [
+         fhir:code [ fhir:v "1082" ] ;
+         fhir:display [ fhir:v "United Church of Christ" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1001" ] ;
+       fhir:display [ fhir:v "Adventist" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1002" ] ;
+       fhir:display [ fhir:v "African Religions" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1003" ] ;
+       fhir:display [ fhir:v "Afro-Caribbean Religions" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1004" ] ;
+       fhir:display [ fhir:v "Agnosticism" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1005" ] ;
+       fhir:display [ fhir:v "Anglican" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1006" ] ;
+       fhir:display [ fhir:v "Animism" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1007" ] ;
+       fhir:display [ fhir:v "Atheism" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1008" ] ;
+       fhir:display [ fhir:v "Babi & Baha'I faiths" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1009" ] ;
+       fhir:display [ fhir:v "Baptist" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1010" ] ;
+       fhir:display [ fhir:v "Bon" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1011" ] ;
+       fhir:display [ fhir:v "Cao Dai" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1012" ] ;
+       fhir:display [ fhir:v "Celticism" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1013" ] ;
+       fhir:display [ fhir:v "Christian (non-Catholic, non-specific)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1014" ] ;
+       fhir:display [ fhir:v "Confucianism" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1015" ] ;
+       fhir:display [ fhir:v "Cyberculture Religions" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1016" ] ;
+       fhir:display [ fhir:v "Divination" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1017" ] ;
+       fhir:display [ fhir:v "Fourth Way" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1018" ] ;
+       fhir:display [ fhir:v "Free Daism" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1019" ] ;
+       fhir:display [ fhir:v "Gnosis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1020" ] ;
+       fhir:display [ fhir:v "Hinduism" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1021" ] ;
+       fhir:display [ fhir:v "Humanism" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1022" ] ;
+       fhir:display [ fhir:v "Independent" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1023" ] ;
+       fhir:display [ fhir:v "Islam" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1024" ] ;
+       fhir:display [ fhir:v "Jainism" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1025" ] ;
+       fhir:display [ fhir:v "Jehovah's Witnesses" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1026" ] ;
+       fhir:display [ fhir:v "Judaism" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1027" ] ;
+       fhir:display [ fhir:v "Latter Day Saints" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1028" ] ;
+       fhir:display [ fhir:v "Lutheran" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1029" ] ;
+       fhir:display [ fhir:v "Mahayana" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1030" ] ;
+       fhir:display [ fhir:v "Meditation" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1031" ] ;
+       fhir:display [ fhir:v "Messianic Judaism" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1032" ] ;
+       fhir:display [ fhir:v "Mitraism" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1033" ] ;
+       fhir:display [ fhir:v "New Age" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1034" ] ;
+       fhir:display [ fhir:v "non-Roman Catholic" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1035" ] ;
+       fhir:display [ fhir:v "Occult" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1036" ] ;
+       fhir:display [ fhir:v "Orthodox" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1037" ] ;
+       fhir:display [ fhir:v "Paganism" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1038" ] ;
+       fhir:display [ fhir:v "Pentecostal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1039" ] ;
+       fhir:display [ fhir:v "Process, The" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1040" ] ;
+       fhir:display [ fhir:v "Reformed/Presbyterian" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1041" ] ;
+       fhir:display [ fhir:v "Roman Catholic Church" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1042" ] ;
+       fhir:display [ fhir:v "Satanism" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1043" ] ;
+       fhir:display [ fhir:v "Scientology" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1044" ] ;
+       fhir:display [ fhir:v "Shamanism" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1045" ] ;
+       fhir:display [ fhir:v "Shiite (Islam)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1046" ] ;
+       fhir:display [ fhir:v "Shinto" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1047" ] ;
+       fhir:display [ fhir:v "Sikism" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1048" ] ;
+       fhir:display [ fhir:v "Spiritualism" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1049" ] ;
+       fhir:display [ fhir:v "Sunni (Islam)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1050" ] ;
+       fhir:display [ fhir:v "Taoism" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1051" ] ;
+       fhir:display [ fhir:v "Theravada" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1052" ] ;
+       fhir:display [ fhir:v "Unitarian-Universalism" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1053" ] ;
+       fhir:display [ fhir:v "Universal Life Church" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1054" ] ;
+       fhir:display [ fhir:v "Vajrayana (Tibetan)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1055" ] ;
+       fhir:display [ fhir:v "Veda" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1056" ] ;
+       fhir:display [ fhir:v "Voodoo" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1057" ] ;
+       fhir:display [ fhir:v "Wicca" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1058" ] ;
+       fhir:display [ fhir:v "Yaohushua" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1059" ] ;
+       fhir:display [ fhir:v "Zen Buddhism" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1060" ] ;
+       fhir:display [ fhir:v "Zoroastrianism" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1061" ] ;
+       fhir:display [ fhir:v "Assembly of God" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1062" ] ;
+       fhir:display [ fhir:v "Brethren" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1063" ] ;
+       fhir:display [ fhir:v "Christian Scientist" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1064" ] ;
+       fhir:display [ fhir:v "Church of Christ" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1065" ] ;
+       fhir:display [ fhir:v "Church of God" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1066" ] ;
+       fhir:display [ fhir:v "Congregational" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1067" ] ;
+       fhir:display [ fhir:v "Disciples of Christ" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1068" ] ;
+       fhir:display [ fhir:v "Eastern Orthodox" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1069" ] ;
+       fhir:display [ fhir:v "Episcopalian" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1070" ] ;
+       fhir:display [ fhir:v "Evangelical Covenant" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1071" ] ;
+       fhir:display [ fhir:v "Friends" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1072" ] ;
+       fhir:display [ fhir:v "Full Gospel" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1073" ] ;
+       fhir:display [ fhir:v "Methodist" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1074" ] ;
+       fhir:display [ fhir:v "Native American" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1075" ] ;
+       fhir:display [ fhir:v "Nazarene" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1076" ] ;
+       fhir:display [ fhir:v "Presbyterian" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1077" ] ;
+       fhir:display [ fhir:v "Protestant" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1078" ] ;
+       fhir:display [ fhir:v "Protestant, No Denomination" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1079" ] ;
+       fhir:display [ fhir:v "Reformed" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1080" ] ;
+       fhir:display [ fhir:v "Salvation Army" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1081" ] ;
+       fhir:display [ fhir:v "Unitarian Universalist" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1082" ] ;
+       fhir:display [ fhir:v "United Church of Christ" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

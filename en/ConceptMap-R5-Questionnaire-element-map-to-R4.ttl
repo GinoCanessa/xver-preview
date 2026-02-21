@@ -1,0 +1,534 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-Questionnaire-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-Questionnaire-element-map-to-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-Questionnaire-element-map-to-R4</b></p><a name=\"R5-Questionnaire-element-map-to-R4\"> </a><a name=\"hcR5-Questionnaire-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Questionnaire|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/questionnaire.html\">Questionnaireversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Questionnaire.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.meta` is mapped to FHIR R4 element `Questionnaire.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.implicitRules` is mapped to FHIR R4 element `Questionnaire.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.language` is mapped to FHIR R4 element `Questionnaire.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.text` is mapped to FHIR R4 element `Questionnaire.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.contained` is mapped to FHIR R4 element `Questionnaire.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.url (url)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.url` is mapped to FHIR R4 element `Questionnaire.url` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.identifier` is mapped to FHIR R4 element `Questionnaire.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.version (version)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.version` is mapped to FHIR R4 element `Questionnaire.version` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.name` is mapped to FHIR R4 element `Questionnaire.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.title (title)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.title` is mapped to FHIR R4 element `Questionnaire.title` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.derivedFrom (derivedFrom)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.derivedFrom` is mapped to FHIR R4 element `Questionnaire.derivedFrom` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.status` is mapped to FHIR R4 element `Questionnaire.status` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.experimental (experimental)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.experimental` is mapped to FHIR R4 element `Questionnaire.experimental` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.subjectType (subjectType)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `Questionnaire.subjectType` is mapped to FHIR R4 element `Questionnaire.subjectType` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.date (date)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.date` is mapped to FHIR R4 element `Questionnaire.date` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.publisher (publisher)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.publisher` is mapped to FHIR R4 element `Questionnaire.publisher` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.contact (contact)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.contact` is mapped to FHIR R4 element `Questionnaire.contact` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.description` is mapped to FHIR R4 element `Questionnaire.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.useContext (useContext)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.useContext` is mapped to FHIR R4 element `Questionnaire.useContext` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.jurisdiction (jurisdiction)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.jurisdiction` is mapped to FHIR R4 element `Questionnaire.jurisdiction` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.purpose (purpose)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.purpose` is mapped to FHIR R4 element `Questionnaire.purpose` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.copyright (copyright)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.copyright` is mapped to FHIR R4 element `Questionnaire.copyright` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.approvalDate (approvalDate)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.approvalDate` is mapped to FHIR R4 element `Questionnaire.approvalDate` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.lastReviewDate (lastReviewDate)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.lastReviewDate` is mapped to FHIR R4 element `Questionnaire.lastReviewDate` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.effectivePeriod (effectivePeriod)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.effectivePeriod` is mapped to FHIR R4 element `Questionnaire.effectivePeriod` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.code` is mapped to FHIR R4 element `Questionnaire.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.item (item)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `Questionnaire.item` is mapped to FHIR R4 element `Questionnaire.item` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item` because `Questionnaire.item.item` is defined as a content reference to `Questionnaire.item`.</td></tr><tr><td>Questionnaire.item.linkId (linkId)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.item.linkId` is mapped to FHIR R4 element `Questionnaire.item.linkId` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.linkId` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`.</td></tr><tr><td>Questionnaire.item.definition (definition)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.item.definition` is mapped to FHIR R4 element `Questionnaire.item.definition` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.definition` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`.</td></tr><tr><td>Questionnaire.item.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.item.code` is mapped to FHIR R4 element `Questionnaire.item.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.code` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`.</td></tr><tr><td>Questionnaire.item.prefix (prefix)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.item.prefix` is mapped to FHIR R4 element `Questionnaire.item.prefix` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.prefix` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`.</td></tr><tr><td>Questionnaire.item.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.item.text` is mapped to FHIR R4 element `Questionnaire.item.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.text` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`.</td></tr><tr><td>Questionnaire.item.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `Questionnaire.item.type` is mapped to FHIR R4 element `Questionnaire.item.type` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.type` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`.</td></tr><tr><td>Questionnaire.item.enableWhen (enableWhen)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `Questionnaire.item.enableWhen` is mapped to FHIR R4 element `Questionnaire.item.enableWhen` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.enableWhen` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`.</td></tr><tr><td>Questionnaire.item.enableWhen.question (question)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.item.enableWhen.question` is mapped to FHIR R4 element `Questionnaire.item.enableWhen.question` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.enableWhen.question` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`.</td></tr><tr><td>Questionnaire.item.enableWhen.operator (operator)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.item.enableWhen.operator` is mapped to FHIR R4 element `Questionnaire.item.enableWhen.operator` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.enableWhen.operator` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`.</td></tr><tr><td>Questionnaire.item.enableWhen.answer[x] (answer[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Note that the target element context `Questionnaire.item.enableWhen.answer[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Questionnaire.item.enableWhen`.\nElement `Questionnaire.item.enableWhen.answer[x]` is mapped to FHIR R4 element `Questionnaire.item.enableWhen.answer[x]` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `Questionnaire.item.enableWhen.answer[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Questionnaire.item.enableWhen`.\nNote available implied context: `Questionnaire.item.item.enableWhen` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`.</td></tr><tr><td>Questionnaire.item.enableBehavior (enableBehavior)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.item.enableBehavior` is mapped to FHIR R4 element `Questionnaire.item.enableBehavior` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.enableBehavior` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`.</td></tr><tr><td>Questionnaire.item.required (required)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.item.required` is mapped to FHIR R4 element `Questionnaire.item.required` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.required` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`.</td></tr><tr><td>Questionnaire.item.repeats (repeats)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.item.repeats` is mapped to FHIR R4 element `Questionnaire.item.repeats` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.repeats` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`.</td></tr><tr><td>Questionnaire.item.readOnly (readOnly)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.item.readOnly` is mapped to FHIR R4 element `Questionnaire.item.readOnly` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.readOnly` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`.</td></tr><tr><td>Questionnaire.item.maxLength (maxLength)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.item.maxLength` is mapped to FHIR R4 element `Questionnaire.item.maxLength` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.maxLength` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`.</td></tr><tr><td>Questionnaire.item.answerValueSet (answerValueSet)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.item.answerValueSet` is mapped to FHIR R4 element `Questionnaire.item.answerValueSet` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.answerValueSet` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`.</td></tr><tr><td>Questionnaire.item.answerOption (answerOption)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `Questionnaire.item.answerOption` is mapped to FHIR R4 element `Questionnaire.item.answerOption` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.answerOption` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`.</td></tr><tr><td>Questionnaire.item.answerOption.value[x] (value[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Note that the target element context `Questionnaire.item.answerOption.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Questionnaire.item.answerOption`.\nElement `Questionnaire.item.answerOption.value[x]` is mapped to FHIR R4 element `Questionnaire.item.answerOption.value[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `Questionnaire.item.answerOption.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Questionnaire.item.answerOption`.\nNote available implied context: `Questionnaire.item.item.answerOption` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`.</td></tr><tr><td>Questionnaire.item.answerOption.initialSelected (initialSelected)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.item.answerOption.initialSelected` is mapped to FHIR R4 element `Questionnaire.item.answerOption.initialSelected` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.answerOption.initialSelected` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`.</td></tr><tr><td>Questionnaire.item.initial (initial)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `Questionnaire.item.initial` is mapped to FHIR R4 element `Questionnaire.item.initial` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.initial` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`.</td></tr><tr><td>Questionnaire.item.initial.value[x] (value[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Note that the target element context `Questionnaire.item.initial.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Questionnaire.item.initial`.\nElement `Questionnaire.item.initial.value[x]` is mapped to FHIR R4 element `Questionnaire.item.initial.value[x]` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `Questionnaire.item.initial.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Questionnaire.item.initial`.\nNote available implied context: `Questionnaire.item.item.initial` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`.</td></tr><tr><td>Questionnaire.item.item (item)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Questionnaire.item.item` is mapped to FHIR R4 element `Questionnaire.item.item` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.item` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Questionnaire|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Packversion: 5.2.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Questionnaire.versionAlgorithm[x] (versionAlgorithm[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Questionnaire.versionAlgorithm[x]`: `http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm`.\nElement `Questionnaire.versionAlgorithm[x]` has a context of Questionnaire based on following the parent source element upwards and mapping to `Questionnaire`.</td></tr><tr><td>Questionnaire.copyrightLabel (copyrightLabel)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Questionnaire.copyrightLabel`: `http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel`.\nElement `Questionnaire.copyrightLabel` has a context of Questionnaire based on following the parent source element upwards and mapping to `Questionnaire`.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Questionnaire|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Questionnaire.subjectType (subjectType)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.subjectType</td><td>Element `Questionnaire.subjectType` is mapped to FHIR R4 element `Questionnaire.subjectType` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Questionnaire.item.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.item.type</td><td>Element `Questionnaire.item.type` is mapped to FHIR R4 element `Questionnaire.item.type` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.type` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`.</td></tr><tr><td>Questionnaire.item.disabledDisplay (disabledDisplay)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.item.disabledDisplay</td><td>Element `Questionnaire.item.disabledDisplay` has a context of Questionnaire.item based on following the parent source element upwards and mapping to `Questionnaire`.\nNote available implied context: `Questionnaire.item.item` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`.</td></tr><tr><td>Questionnaire.item.answerConstraint (answerConstraint)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.item.answerConstraint</td><td>Element `Questionnaire.item.answerConstraint` has a context of Questionnaire.item based on following the parent source element upwards and mapping to `Questionnaire`.\nNote available implied context: `Questionnaire.item.item` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-Questionnaire-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-Questionnaire-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5QuestionnaireElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 Questionnaire to FHIR R4 Questionnaire"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T13:36:58.5339728-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 Questionnaire to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Questionnaire"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Questionnaire>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Questionnaire"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Questionnaire>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Questionnaire.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.meta` is mapped to FHIR R4 element `Questionnaire.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.implicitRules` is mapped to FHIR R4 element `Questionnaire.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.language` is mapped to FHIR R4 element `Questionnaire.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.text` is mapped to FHIR R4 element `Questionnaire.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.contained` is mapped to FHIR R4 element `Questionnaire.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.url` is mapped to FHIR R4 element `Questionnaire.url` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.identifier` is mapped to FHIR R4 element `Questionnaire.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.version` is mapped to FHIR R4 element `Questionnaire.version` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.name` is mapped to FHIR R4 element `Questionnaire.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.title` is mapped to FHIR R4 element `Questionnaire.title` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.derivedFrom" ] ;
+       fhir:display [ fhir:v "derivedFrom" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.derivedFrom` is mapped to FHIR R4 element `Questionnaire.derivedFrom` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.status` is mapped to FHIR R4 element `Questionnaire.status` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.experimental" ] ;
+       fhir:display [ fhir:v "experimental" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.experimental` is mapped to FHIR R4 element `Questionnaire.experimental` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.subjectType" ] ;
+       fhir:display [ fhir:v "subjectType" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.subjectType` is mapped to FHIR R4 element `Questionnaire.subjectType` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.date` is mapped to FHIR R4 element `Questionnaire.date` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.publisher" ] ;
+       fhir:display [ fhir:v "publisher" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.publisher` is mapped to FHIR R4 element `Questionnaire.publisher` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.contact` is mapped to FHIR R4 element `Questionnaire.contact` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.description` is mapped to FHIR R4 element `Questionnaire.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.useContext" ] ;
+       fhir:display [ fhir:v "useContext" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.useContext` is mapped to FHIR R4 element `Questionnaire.useContext` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.jurisdiction` is mapped to FHIR R4 element `Questionnaire.jurisdiction` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.purpose" ] ;
+       fhir:display [ fhir:v "purpose" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.purpose` is mapped to FHIR R4 element `Questionnaire.purpose` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.copyright" ] ;
+       fhir:display [ fhir:v "copyright" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.copyright` is mapped to FHIR R4 element `Questionnaire.copyright` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.approvalDate" ] ;
+       fhir:display [ fhir:v "approvalDate" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.approvalDate` is mapped to FHIR R4 element `Questionnaire.approvalDate` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.lastReviewDate" ] ;
+       fhir:display [ fhir:v "lastReviewDate" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.lastReviewDate` is mapped to FHIR R4 element `Questionnaire.lastReviewDate` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.effectivePeriod" ] ;
+       fhir:display [ fhir:v "effectivePeriod" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.effectivePeriod` is mapped to FHIR R4 element `Questionnaire.effectivePeriod` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.code` is mapped to FHIR R4 element `Questionnaire.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item" ] ;
+       fhir:display [ fhir:v "item" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item` is mapped to FHIR R4 element `Questionnaire.item` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item` because `Questionnaire.item.item` is defined as a content reference to `Questionnaire.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.linkId" ] ;
+       fhir:display [ fhir:v "linkId" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.linkId` is mapped to FHIR R4 element `Questionnaire.item.linkId` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.linkId` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.definition" ] ;
+       fhir:display [ fhir:v "definition" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.definition` is mapped to FHIR R4 element `Questionnaire.item.definition` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.definition` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.code` is mapped to FHIR R4 element `Questionnaire.item.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.code` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.prefix" ] ;
+       fhir:display [ fhir:v "prefix" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.prefix` is mapped to FHIR R4 element `Questionnaire.item.prefix` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.prefix` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.text` is mapped to FHIR R4 element `Questionnaire.item.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.text` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.type` is mapped to FHIR R4 element `Questionnaire.item.type` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.type` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.enableWhen" ] ;
+       fhir:display [ fhir:v "enableWhen" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.enableWhen` is mapped to FHIR R4 element `Questionnaire.item.enableWhen` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.enableWhen` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.enableWhen.question" ] ;
+       fhir:display [ fhir:v "question" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.enableWhen.question` is mapped to FHIR R4 element `Questionnaire.item.enableWhen.question` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.enableWhen.question` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.enableWhen.operator" ] ;
+       fhir:display [ fhir:v "operator" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.enableWhen.operator` is mapped to FHIR R4 element `Questionnaire.item.enableWhen.operator` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.enableWhen.operator` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.enableWhen.answer[x]" ] ;
+       fhir:display [ fhir:v "answer[x]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Questionnaire.item.enableWhen.answer[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Questionnaire.item.enableWhen`.\nElement `Questionnaire.item.enableWhen.answer[x]` is mapped to FHIR R4 element `Questionnaire.item.enableWhen.answer[x]` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `Questionnaire.item.enableWhen.answer[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Questionnaire.item.enableWhen`.\nNote available implied context: `Questionnaire.item.item.enableWhen` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.enableBehavior" ] ;
+       fhir:display [ fhir:v "enableBehavior" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.enableBehavior` is mapped to FHIR R4 element `Questionnaire.item.enableBehavior` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.enableBehavior` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.required" ] ;
+       fhir:display [ fhir:v "required" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.required` is mapped to FHIR R4 element `Questionnaire.item.required` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.required` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.repeats" ] ;
+       fhir:display [ fhir:v "repeats" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.repeats` is mapped to FHIR R4 element `Questionnaire.item.repeats` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.repeats` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.readOnly" ] ;
+       fhir:display [ fhir:v "readOnly" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.readOnly` is mapped to FHIR R4 element `Questionnaire.item.readOnly` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.readOnly` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.maxLength" ] ;
+       fhir:display [ fhir:v "maxLength" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.maxLength` is mapped to FHIR R4 element `Questionnaire.item.maxLength` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.maxLength` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.answerValueSet" ] ;
+       fhir:display [ fhir:v "answerValueSet" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.answerValueSet` is mapped to FHIR R4 element `Questionnaire.item.answerValueSet` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.answerValueSet` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.answerOption" ] ;
+       fhir:display [ fhir:v "answerOption" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.answerOption` is mapped to FHIR R4 element `Questionnaire.item.answerOption` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.answerOption` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.answerOption.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Questionnaire.item.answerOption.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Questionnaire.item.answerOption`.\nElement `Questionnaire.item.answerOption.value[x]` is mapped to FHIR R4 element `Questionnaire.item.answerOption.value[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `Questionnaire.item.answerOption.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Questionnaire.item.answerOption`.\nNote available implied context: `Questionnaire.item.item.answerOption` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.answerOption.initialSelected" ] ;
+       fhir:display [ fhir:v "initialSelected" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.answerOption.initialSelected` is mapped to FHIR R4 element `Questionnaire.item.answerOption.initialSelected` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.answerOption.initialSelected` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.initial" ] ;
+       fhir:display [ fhir:v "initial" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.initial` is mapped to FHIR R4 element `Questionnaire.item.initial` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.initial` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.initial.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Questionnaire.item.initial.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Questionnaire.item.initial`.\nElement `Questionnaire.item.initial.value[x]` is mapped to FHIR R4 element `Questionnaire.item.initial.value[x]` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `Questionnaire.item.initial.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Questionnaire.item.initial`.\nNote available implied context: `Questionnaire.item.item.initial` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.item" ] ;
+       fhir:display [ fhir:v "item" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.item` is mapped to FHIR R4 element `Questionnaire.item.item` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.item` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Questionnaire"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Questionnaire>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.2.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Questionnaire.versionAlgorithm[x]" ] ;
+       fhir:display [ fhir:v "versionAlgorithm[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Questionnaire.versionAlgorithm[x]`: `http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm`.\nElement `Questionnaire.versionAlgorithm[x]` has a context of Questionnaire based on following the parent source element upwards and mapping to `Questionnaire`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.copyrightLabel" ] ;
+       fhir:display [ fhir:v "copyrightLabel" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Questionnaire.copyrightLabel`: `http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel`.\nElement `Questionnaire.copyrightLabel` has a context of Questionnaire based on following the parent source element upwards and mapping to `Questionnaire`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Questionnaire"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Questionnaire>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Questionnaire.subjectType" ] ;
+       fhir:display [ fhir:v "subjectType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.subjectType" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.subjectType` is mapped to FHIR R4 element `Questionnaire.subjectType` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.item.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.type` is mapped to FHIR R4 element `Questionnaire.item.type` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `Questionnaire.item.item.type` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.disabledDisplay" ] ;
+       fhir:display [ fhir:v "disabledDisplay" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.item.disabledDisplay" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.disabledDisplay` has a context of Questionnaire.item based on following the parent source element upwards and mapping to `Questionnaire`.\nNote available implied context: `Questionnaire.item.item` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.answerConstraint" ] ;
+       fhir:display [ fhir:v "answerConstraint" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.item.answerConstraint" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.answerConstraint` has a context of Questionnaire.item based on following the parent source element upwards and mapping to `Questionnaire`.\nNote available implied context: `Questionnaire.item.item` because `Questionnaire.item.item` is defined via a content reference to `Questionnaire.item`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

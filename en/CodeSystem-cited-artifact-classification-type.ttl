@@ -1,0 +1,161 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/cited-artifact-classification-type> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "cited-artifact-classification-type"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <p>This code system \n              <code>http://hl7.org/fhir/cited-artifact-classification-type</code> defines the following codes:\n            </p>\n            <table class=\"codes\">\n              <tr>\n                <td style=\"white-space:nowrap\">\n                  <b>Code</b>\n                </td>\n                <td>\n                  <b>Display</b>\n                </td>\n                <td>\n                  <b>Definition</b>\n                </td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">publication-type\n                  <a name=\"cited-artifact-classification-type-publication-type\"> </a>\n                </td>\n                <td>Publication type</td>\n                <td>Publication type</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">mesh-heading\n                  <a name=\"cited-artifact-classification-type-mesh-heading\"> </a>\n                </td>\n                <td>MeSH heading</td>\n                <td>MeSH heading</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">supplemental-mesh-protocol\n                  <a name=\"cited-artifact-classification-type-supplemental-mesh-protocol\"> </a>\n                </td>\n                <td>Supplemental MeSH for Protocol</td>\n                <td>Supplemental MeSH for Protocol</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">supplemental-mesh-disease\n                  <a name=\"cited-artifact-classification-type-supplemental-mesh-disease\"> </a>\n                </td>\n                <td>Supplemental MeSH for Disease</td>\n                <td>Supplemental MeSH for Disease</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">supplemental-mesh-organism\n                  <a name=\"cited-artifact-classification-type-supplemental-mesh-organism\"> </a>\n                </td>\n                <td>Supplemental MeSH for Organism</td>\n                <td>Supplemental MeSH for Organism</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">keyword\n                  <a name=\"cited-artifact-classification-type-keyword\"> </a>\n                </td>\n                <td>Keyword</td>\n                <td>Keyword</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">citation-subset\n                  <a name=\"cited-artifact-classification-type-citation-subset\"> </a>\n                </td>\n                <td>Citation subset</td>\n                <td>Citation subset</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">chemical\n                  <a name=\"cited-artifact-classification-type-chemical\"> </a>\n                </td>\n                <td>Chemical</td>\n                <td>Chemical</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">publishing-model\n                  <a name=\"cited-artifact-classification-type-publishing-model\"> </a>\n                </td>\n                <td>Publishing Model</td>\n                <td>Used for PubModel attribute in Medline</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">knowledge-artifact-type\n                  <a name=\"cited-artifact-classification-type-knowledge-artifact-type\"> </a>\n                </td>\n                <td>Knowledge Artifact Type</td>\n                <td>Knowledge Artifact Type</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">coverage\n                  <a name=\"cited-artifact-classification-type-coverage\"> </a>\n                </td>\n                <td>Coverage</td>\n                <td>The spatial or temporal topic of the resource, spatial applicability of the resource, or jurisdiction under which the resource is relevant</td>\n              </tr>\n            </table>\n          </div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "cds"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/cited-artifact-classification-type"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/cited-artifact-classification-type>
+  ] ; # 
+  fhir:version [ fhir:v "5.0.0"] ; # 
+  fhir:name [ fhir:v "CitedArtifactClassificationType"] ; # 
+  fhir:title [ fhir:v "Cited Artifact Classification Type"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2021-03-10T17:55:11.085-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Clinical Decision Support"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Clinical Decision Support" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/dss" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Cited Artifact Classification Type"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://hl7.org/fhir/ValueSet/cited-artifact-classification-type"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/cited-artifact-classification-type>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "publication-type" ] ;
+     fhir:display [ fhir:v "Publication type" ] ;
+     fhir:definition [ fhir:v "Publication type" ]
+  ] [
+     fhir:code [ fhir:v "mesh-heading" ] ;
+     fhir:display [ fhir:v "MeSH heading" ] ;
+     fhir:definition [ fhir:v "MeSH heading" ]
+  ] [
+     fhir:code [ fhir:v "supplemental-mesh-protocol" ] ;
+     fhir:display [ fhir:v "Supplemental MeSH for Protocol" ] ;
+     fhir:definition [ fhir:v "Supplemental MeSH for Protocol" ]
+  ] [
+     fhir:code [ fhir:v "supplemental-mesh-disease" ] ;
+     fhir:display [ fhir:v "Supplemental MeSH for Disease" ] ;
+     fhir:definition [ fhir:v "Supplemental MeSH for Disease" ]
+  ] [
+     fhir:code [ fhir:v "supplemental-mesh-organism" ] ;
+     fhir:display [ fhir:v "Supplemental MeSH for Organism" ] ;
+     fhir:definition [ fhir:v "Supplemental MeSH for Organism" ]
+  ] [
+     fhir:code [ fhir:v "keyword" ] ;
+     fhir:display [ fhir:v "Keyword" ] ;
+     fhir:definition [ fhir:v "Keyword" ]
+  ] [
+     fhir:code [ fhir:v "citation-subset" ] ;
+     fhir:display [ fhir:v "Citation subset" ] ;
+     fhir:definition [ fhir:v "Citation subset" ]
+  ] [
+     fhir:code [ fhir:v "chemical" ] ;
+     fhir:display [ fhir:v "Chemical" ] ;
+     fhir:definition [ fhir:v "Chemical" ]
+  ] [
+     fhir:code [ fhir:v "publishing-model" ] ;
+     fhir:display [ fhir:v "Publishing Model" ] ;
+     fhir:definition [ fhir:v "Used for PubModel attribute in Medline" ]
+  ] [
+     fhir:code [ fhir:v "knowledge-artifact-type" ] ;
+     fhir:display [ fhir:v "Knowledge Artifact Type" ] ;
+     fhir:definition [ fhir:v "Knowledge Artifact Type" ]
+  ] [
+     fhir:code [ fhir:v "coverage" ] ;
+     fhir:display [ fhir:v "Coverage" ] ;
+     fhir:definition [ fhir:v "The spatial or temporal topic of the resource, spatial applicability of the resource, or jurisdiction under which the resource is relevant" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

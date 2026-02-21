@@ -1,0 +1,4041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Lookup for R5V3ContactRoleTypeForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"4.1679"}
+    h3,h4,h5,h6{--heading-prefix:"4.1679"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" data-no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img alt="International flag" src="../assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='lookup-vs.html'><b>ValueSet Lookup</b></a></li><li><b>Lookup for R5V3ContactRoleTypeForR4</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="lookup-vs-R5-v3-ConsultedPrescriberManagementCode-for-R4.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="lookup-vs-R5-v3-ContainerCap-for-R4-container-cap.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Lookup for R5V3ContactRoleTypeForR4</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+</div>
+<h3 id="lookup-for-fhir-r5-valueset-contactroletypehttpterminologyhl7orgvaluesetv3-contactroletype-for-use-in-fhir-r4">Lookup for <a href="https://hl7.org/fhir/R5/">FHIR R5</a> ValueSet ContactRoleType:<a href="https://hl7.org/fhir/R5/valueset-v3-ContactRoleType.html"><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/ValueSet/v3-ContactRoleType</code></a> for use in <a href="https://hl7.org/fhir/R4/">FHIR R4</a></h3>
+
+<p>The FHIR R5 ValueSet ContactRoleType has no mapping  to FHIR R4.</p>
+
+<table class="grid">
+  <thead>
+    <tr>
+      <th>Source System</th>
+      <th>Code</th>
+      <th>Display</th>
+      <th>Has XVer</th>
+      <th>Target System</th>
+      <th>Code</th>
+      <th>Display</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ECON</code></td>
+      <td>emergency contact</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NOK</code></td>
+      <td>next of kin</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ACC</code></td>
+      <td>accident site</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ACHFID</code></td>
+      <td>accreditation location identifier</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ACTMIL</code></td>
+      <td>active duty military</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ADOPT</code></td>
+      <td>adopted child</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ADOPTF</code></td>
+      <td>adoptive father</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ADOPTM</code></td>
+      <td>adoptive mother</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ADOPTP</code></td>
+      <td>adoptive parent</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ALL</code></td>
+      <td>Allergy clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">AMB</code></td>
+      <td>Ambulance</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">AMENDER</code></td>
+      <td>amender</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">AMPUT</code></td>
+      <td>Amputee clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ANTIBIOT</code></td>
+      <td>Antibiotic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ASSIST</code></td>
+      <td>Assistive non-person living subject</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">AUNT</code></td>
+      <td>aunt</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">B</code></td>
+      <td>Blind</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BF</code></td>
+      <td>Beef</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BILL</code></td>
+      <td>Billing Contact</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BIOTH</code></td>
+      <td>Biotherapeutic non-person living subject</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BL</code></td>
+      <td>Broiler</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BMTC</code></td>
+      <td>Bone marrow transplant clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BMTU</code></td>
+      <td>Bone marrow transplant unit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BR</code></td>
+      <td>Breeder</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BREAST</code></td>
+      <td>Breast clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BRO</code></td>
+      <td>brother</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BROINLAW</code></td>
+      <td>brother-in-law</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">C</code></td>
+      <td>Calibrator</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CANC</code></td>
+      <td>Child and adolescent neurology clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CAPC</code></td>
+      <td>Child and adolescent psychiatry clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CARD</code></td>
+      <td>Ambulatory Health Care Facilities; Clinic/Center; Rehabilitation: Cardiac Facilities</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CAS</code></td>
+      <td>asylum seeker</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CASM</code></td>
+      <td>single minor asylum seeker</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CATH</code></td>
+      <td>Cardiac catheterization lab</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CCO</code></td>
+      <td>Clinical Companion</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CCU</code></td>
+      <td>Coronary care unit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CHEST</code></td>
+      <td>Chest unit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CHILD</code></td>
+      <td>child</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CHLDADOPT</code></td>
+      <td>adopted child</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CHLDFOST</code></td>
+      <td>foster child</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CHLDINLAW</code></td>
+      <td>child-in-law</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CHR</code></td>
+      <td>Chronic Care Facility</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CLAIM</code></td>
+      <td>claimant</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CLASSIFIER</code></td>
+      <td>classifier</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CN</code></td>
+      <td>national</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CNRP</code></td>
+      <td>non-country member without residence permit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CNRPM</code></td>
+      <td>non-country member minor without residence permit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CO</code></td>
+      <td>Companion</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">COAG</code></td>
+      <td>Coagulation clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">COCBEN</code></td>
+      <td>continuity of coverage beneficiary</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">COMM</code></td>
+      <td>Community Location</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CONSENTER</code></td>
+      <td>consenter</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CONSWIT</code></td>
+      <td>consent witness</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">COPART</code></td>
+      <td>co-participant</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">COUSN</code></td>
+      <td>cousin</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CPCA</code></td>
+      <td>permit card applicant</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CRIMEVIC</code></td>
+      <td>crime victim</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CRP</code></td>
+      <td>non-country member with residence permit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CRPM</code></td>
+      <td>non-country member minor with residence permit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CRS</code></td>
+      <td>Colon and rectal surgery clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CSC</code></td>
+      <td>community service center</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CVDX</code></td>
+      <td>Cardiovascular diagnostics or therapeutics unit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DA</code></td>
+      <td>Dairy</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DADDR</code></td>
+      <td>Delivery Address</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DAU</code></td>
+      <td>natural daughter</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DAUADOPT</code></td>
+      <td>adopted daughter</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DAUC</code></td>
+      <td>daughter</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DAUFOST</code></td>
+      <td>foster daughter</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DAUINLAW</code></td>
+      <td>daughter in-law</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DC</code></td>
+      <td>therapeutic class</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DEBR</code></td>
+      <td>Debridement</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DECLASSIFIER</code></td>
+      <td>declassifier</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DELEGATEE</code></td>
+      <td>delegatee</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DELEGATOR</code></td>
+      <td>delegator</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DEP</code></td>
+      <td> </td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DEPEN</code></td>
+      <td>dependent</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DERM</code></td>
+      <td>Dermatology clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DIFFABL</code></td>
+      <td>differently abled</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DOMPART</code></td>
+      <td>domestic partner</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DOWNGRDER</code></td>
+      <td>downgrader</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DPOWATT</code></td>
+      <td>durable power of attorney</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DR</code></td>
+      <td>Draft</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DRIVCLASSIFIER</code></td>
+      <td>derivative classifier</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DU</code></td>
+      <td>Dual</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DX</code></td>
+      <td>Diagnostics or therapeutics unit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">E</code></td>
+      <td>Electronic QC</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ECHO</code></td>
+      <td>Echocardiography lab</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ECON</code></td>
+      <td>emergency contact</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ENDO</code></td>
+      <td>Endocrinology clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ENDOS</code></td>
+      <td>Endoscopy lab</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ENROLBKR</code></td>
+      <td>Enrollment Broker</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ENT</code></td>
+      <td>Otorhinolaryngology clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">EPIL</code></td>
+      <td>Epilepsy unit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ER</code></td>
+      <td>Emergency room</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ERL</code></td>
+      <td>enrollment</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ETU</code></td>
+      <td>Emergency trauma unit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">EXCEST</code></td>
+      <td>executor of estate</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">EXT</code></td>
+      <td>extended family member</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">F</code></td>
+      <td>Filler Proficiency</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FAMDEP</code></td>
+      <td>family dependent</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FAMMEMB</code></td>
+      <td>family member</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FI</code></td>
+      <td>Fiber</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FM</code></td>
+      <td>Family Member</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FMC</code></td>
+      <td>Family medicine clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FMRSPS</code></td>
+      <td>former spouse</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FRND</code></td>
+      <td>unrelated friend</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FSTUD</code></td>
+      <td>full-time student</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FTH</code></td>
+      <td>father</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FTHFOST</code></td>
+      <td>foster father</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FTHINLAW</code></td>
+      <td>father-in-law</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FTWIN</code></td>
+      <td>fraternal twin</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FTWINBRO</code></td>
+      <td>fraternal twin brother</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FTWINSIS</code></td>
+      <td>fraternal twin sister</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FULLINS</code></td>
+      <td>Fully insured coverage sponsor</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">G</code></td>
+      <td>Group</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GACH</code></td>
+      <td>Hospitals; General Acute Care Hospital</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GCHILD</code></td>
+      <td>grandchild</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GD</code></td>
+      <td>generic drug</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GDF</code></td>
+      <td>generic drug form</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GDS</code></td>
+      <td>generic drug strength</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GDSF</code></td>
+      <td>generic drug strength form</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GESTM</code></td>
+      <td>gestational mother</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GGRFTH</code></td>
+      <td>great grandfather</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GGRMTH</code></td>
+      <td>great grandmother</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GGRPRN</code></td>
+      <td>great grandparent</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GI</code></td>
+      <td>Gastroenterology clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GIDX</code></td>
+      <td>Gastroenterology diagnostics or therapeutics lab</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GIM</code></td>
+      <td>General internal medicine clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GPARNT</code></td>
+      <td>grandparent</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GRANTEE</code></td>
+      <td>grantee</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GRANTOR</code></td>
+      <td>grantor</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GRFTH</code></td>
+      <td>grandfather</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GRMTH</code></td>
+      <td>grandmother</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GRNDCHILD</code></td>
+      <td>grandchild</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GRNDDAU</code></td>
+      <td>granddaughter</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GRNDSON</code></td>
+      <td>grandson</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GRPRN</code></td>
+      <td>grandparent</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GT</code></td>
+      <td>Guarantor</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GUADLTM</code></td>
+      <td>guardian ad lidem</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GUARD</code></td>
+      <td>guardian</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GYN</code></td>
+      <td>Gynecology clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HAND</code></td>
+      <td>Hand clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HANDIC</code></td>
+      <td>handicapped dependent</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HBRO</code></td>
+      <td>half-brother</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HD</code></td>
+      <td>Hemodialysis unit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HEM</code></td>
+      <td>Hematology clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HLAB</code></td>
+      <td>hospital laboratory</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HOSP</code></td>
+      <td>Hospital</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HPOWATT</code></td>
+      <td>healthcare power of attorney</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HRAD</code></td>
+      <td>radiology unit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HSIB</code></td>
+      <td>half-sibling</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HSIS</code></td>
+      <td>half-sister</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HTN</code></td>
+      <td>Hypertension clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HU</code></td>
+      <td>Hospital unit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HUSB</code></td>
+      <td>husband</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HUSCS</code></td>
+      <td>specimen collection site</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ICU</code></td>
+      <td>Intensive care unit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">IEC</code></td>
+      <td>Impairment evaluation center</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">INDIG</code></td>
+      <td>member of an indigenous people</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">INDIV</code></td>
+      <td>individual</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">INFD</code></td>
+      <td>Infectious disease clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">INJ</code></td>
+      <td>injured plaintiff</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">INJWKR</code></td>
+      <td>injured worker</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">INLAB</code></td>
+      <td>inpatient laboratory</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">INLAW</code></td>
+      <td>inlaw</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">INPHARM</code></td>
+      <td>inpatient pharmacy</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">INTPRTER</code></td>
+      <td>interpreter</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">INV</code></td>
+      <td>Infertility clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ITWIN</code></td>
+      <td>identical twin</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ITWINBRO</code></td>
+      <td>identical twin brother</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ITWINSIS</code></td>
+      <td>identical twin sister</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">JURID</code></td>
+      <td>jurisdiction location identifier</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">L</code></td>
+      <td>Pool</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">LOCHFID</code></td>
+      <td>local location identifier</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">LY</code></td>
+      <td>Layer</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">LYMPH</code></td>
+      <td>Lympedema clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MAUNT</code></td>
+      <td>maternal aunt</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MBL</code></td>
+      <td>medical laboratory</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MCOUSN</code></td>
+      <td>maternal cousin</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MGDSF</code></td>
+      <td>manufactured drug strength form</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MGEN</code></td>
+      <td>Medical genetics clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MGGRFTH</code></td>
+      <td>maternal great-grandfather</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MGGRMTH</code></td>
+      <td>maternal great-grandmother</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MGGRPRN</code></td>
+      <td>maternal great-grandparent</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MGRFTH</code></td>
+      <td>maternal grandfather</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MGRMTH</code></td>
+      <td>maternal grandmother</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MGRPRN</code></td>
+      <td>maternal grandparent</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MHSP</code></td>
+      <td>Military Hospital</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MIL</code></td>
+      <td>military</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MOBL</code></td>
+      <td>Mobile Unit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MT</code></td>
+      <td>Meat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MTH</code></td>
+      <td>mother</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MTHFOST</code></td>
+      <td>foster mother</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MTHINLAW</code></td>
+      <td>mother-in-law</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MTHINLOAW</code></td>
+      <td>mother-in-law</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MU</code></td>
+      <td>Multiplier</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MUNCLE</code></td>
+      <td>maternal uncle</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NAMED</code></td>
+      <td>named insured</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NAT</code></td>
+      <td>natural child</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NBOR</code></td>
+      <td>neighbor</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NBRO</code></td>
+      <td>natural brother</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NCCF</code></td>
+      <td>Nursing or custodial care facility</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NCCS</code></td>
+      <td>Neurology critical care and stroke unit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NCHILD</code></td>
+      <td>natural child</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NEPH</code></td>
+      <td>Nephrology clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NEPHEW</code></td>
+      <td>nephew</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NEUR</code></td>
+      <td>Neurology clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NFTH</code></td>
+      <td>natural father</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NFTHF</code></td>
+      <td>natural father of fetus</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NIECE</code></td>
+      <td>niece</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NIENE</code></td>
+      <td>niece/nephew</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NIENEPH</code></td>
+      <td>niece/nephew</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NMTH</code></td>
+      <td>natural mother</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NMTHF</code></td>
+      <td>natural mother of fetus</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NOK</code></td>
+      <td>next of kin</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NPRN</code></td>
+      <td>natural parent</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NS</code></td>
+      <td>Neurosurgery unit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NSIB</code></td>
+      <td>natural sibling</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NSIS</code></td>
+      <td>natural sister</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">O</code></td>
+      <td>Operator Proficiency</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">OB</code></td>
+      <td>Obstetrics clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">OF</code></td>
+      <td>Outpatient facility</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">OMS</code></td>
+      <td>Oral and maxillofacial surgery clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ONCL</code></td>
+      <td>Medical oncology clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ONESELF</code></td>
+      <td>self</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">OPH</code></td>
+      <td>Opthalmology clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">OPTC</code></td>
+      <td>optometry clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ORG</code></td>
+      <td>organizational contact</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ORTHO</code></td>
+      <td>Orthopedics clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">OUTLAB</code></td>
+      <td>outpatient laboratory</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">OUTPHARM</code></td>
+      <td>outpatient pharmacy</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">P</code></td>
+      <td>Patient</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PAINCL</code></td>
+      <td>Pain clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PARNT</code></td>
+      <td>parent</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PAUNT</code></td>
+      <td>paternal aunt</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PAYOR</code></td>
+      <td>Payor Contact</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PC</code></td>
+      <td>Primary care clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PCOUSN</code></td>
+      <td>paternal cousin</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PEDC</code></td>
+      <td>Pediatrics clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PEDCARD</code></td>
+      <td>Pediatric cardiology clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PEDE</code></td>
+      <td>Pediatric endocrinology clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PEDGI</code></td>
+      <td>Pediatric gastroenterology clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PEDHEM</code></td>
+      <td>Pediatric hematology clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PEDHO</code></td>
+      <td>Pediatric oncology clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PEDICU</code></td>
+      <td>Pediatric intensive care unit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PEDID</code></td>
+      <td>Pediatric infectious disease clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PEDNEPH</code></td>
+      <td>Pediatric nephrology clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PEDNICU</code></td>
+      <td>Pediatric neonatal intensive care unit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PEDRHEUM</code></td>
+      <td>Pediatric rheumatology clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PEDU</code></td>
+      <td>Pediatric unit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PGGRFTH</code></td>
+      <td>paternal great-grandfather</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PGGRMTH</code></td>
+      <td>paternal great-grandmother</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PGGRPRN</code></td>
+      <td>paternal great-grandparent</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PGRFTH</code></td>
+      <td>paternal grandfather</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PGRMTH</code></td>
+      <td>paternal grandmother</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PGRPRN</code></td>
+      <td>paternal grandparent</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PH</code></td>
+      <td>Policy Holder</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PHARM</code></td>
+      <td>Pharmacy</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PHU</code></td>
+      <td>Psychiatric hospital unit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PL</code></td>
+      <td>Pleasure</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PLS</code></td>
+      <td>Plastic surgery clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">POD</code></td>
+      <td>Podiatry clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">POWATT</code></td>
+      <td>power of attorney</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PRC</code></td>
+      <td>Pain rehabilitation center</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PREV</code></td>
+      <td>Preventive medicine clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PRN</code></td>
+      <td>parent</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PRNFOST</code></td>
+      <td>foster parent</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PRNINLAW</code></td>
+      <td>parent in-law</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PROCTO</code></td>
+      <td>Proctology clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PROFF</code></td>
+      <td>Provider's Office</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PROG</code></td>
+      <td>program eligible</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PROS</code></td>
+      <td>Prosthodontics clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PSI</code></td>
+      <td>Psychology clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PSTUD</code></td>
+      <td>part-time student</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PSY</code></td>
+      <td>Psychiatry clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PSYCHCF</code></td>
+      <td> </td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PSYCHF</code></td>
+      <td>Psychatric Care Facility</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PT</code></td>
+      <td>Patient</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PTRES</code></td>
+      <td>Patient's Residence</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PUNCLE</code></td>
+      <td>paternal uncle</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Q</code></td>
+      <td>Quality Control</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">R</code></td>
+      <td>Replicate</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RADDX</code></td>
+      <td>Radiology diagnostics or therapeutics unit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RADO</code></td>
+      <td>Radiation oncology unit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RC</code></td>
+      <td>Racing</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RESPRSN</code></td>
+      <td>responsible party</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RETIREE</code></td>
+      <td>retiree</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RETMIL</code></td>
+      <td>retired military</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">REVIEWER</code></td>
+      <td>reviewer</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RH</code></td>
+      <td>Rehabilitation hospital</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RHAT</code></td>
+      <td>addiction treatment center</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RHEUM</code></td>
+      <td>Rheumatology clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RHII</code></td>
+      <td>intellectual impairment center</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RHMAD</code></td>
+      <td>parents with adjustment difficulties center</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RHPI</code></td>
+      <td>physical impairment center</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RHPIH</code></td>
+      <td>physical impairment - hearing center</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RHPIMS</code></td>
+      <td>physical impairment - motor skills center</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RHPIVS</code></td>
+      <td>physical impairment - visual skills center</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RHU</code></td>
+      <td>Rehabilitation hospital unit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RHYAD</code></td>
+      <td>youths with adjustment difficulties center</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RNEU</code></td>
+      <td>Neuroradiology unit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ROOM</code></td>
+      <td>Roommate</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RTF</code></td>
+      <td>Residential treatment facility</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SCHOOL</code></td>
+      <td>school</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SCN</code></td>
+      <td>screening</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SEE</code></td>
+      <td>Seeing</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SELF</code></td>
+      <td>self</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SELFINS</code></td>
+      <td>Self insured coverage sponsor</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SH</code></td>
+      <td>Show</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SIB</code></td>
+      <td>sibling</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SIBINLAW</code></td>
+      <td>sibling in-law</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SIGOTHR</code></td>
+      <td>significant other</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SIS</code></td>
+      <td>sister</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SISINLAW</code></td>
+      <td>sister-in-law</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SISLINLAW</code></td>
+      <td>sister-in-law</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SLEEP</code></td>
+      <td>Sleep disorders unit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SNF</code></td>
+      <td>Skilled nursing facility</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SNIFF</code></td>
+      <td>Sniffing</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SON</code></td>
+      <td>natural son</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SONADOPT</code></td>
+      <td>adopted son</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SONC</code></td>
+      <td>son</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SONFOST</code></td>
+      <td>foster son</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SONINLAW</code></td>
+      <td>son in-law</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SPMED</code></td>
+      <td>Sports medicine clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SPON</code></td>
+      <td>sponsored dependent</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SPOWATT</code></td>
+      <td>special power of attorney</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SPS</code></td>
+      <td>spouse</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SPSE</code></td>
+      <td>spouse</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">STEP</code></td>
+      <td>step child</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">STPBRO</code></td>
+      <td>stepbrother</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">STPCHLD</code></td>
+      <td>step child</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">STPDAU</code></td>
+      <td>stepdaughter</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">STPFTH</code></td>
+      <td>stepfather</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">STPMTH</code></td>
+      <td>stepmother</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">STPPRN</code></td>
+      <td>step parent</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">STPSIB</code></td>
+      <td>step sibling</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">STPSIS</code></td>
+      <td>stepsister</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">STPSON</code></td>
+      <td>stepson</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">STUD</code></td>
+      <td>student</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SU</code></td>
+      <td>Surgery clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SUBSCR</code></td>
+      <td>subscriber</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SURF</code></td>
+      <td>Substance use rehabilitation facility</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">TPA</code></td>
+      <td>Third party administrator</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">TR</code></td>
+      <td>Transplant clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">TRAVEL</code></td>
+      <td>Travel and geographic medicine clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">TRB</code></td>
+      <td>Tribal Member</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">TWIN</code></td>
+      <td>twin</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">TWINBRO</code></td>
+      <td>twin brother</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">TWINSIS</code></td>
+      <td>twin sister</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">UMO</code></td>
+      <td>Utilization management organization</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">UNCLE</code></td>
+      <td>uncle</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">UPC</code></td>
+      <td>underage protection center</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">UPGRDER</code></td>
+      <td>upgrader</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">URO</code></td>
+      <td>Urology clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">V</code></td>
+      <td>Verifying</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">VALIDATOR</code></td>
+      <td>validator</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">VET</code></td>
+      <td>veteran</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">VL</code></td>
+      <td>Veal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">WARD</code></td>
+      <td>ward</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">WIFE</code></td>
+      <td>wife</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">WL</code></td>
+      <td>Wool</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">WND</code></td>
+      <td>Wound clinic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">WO</code></td>
+      <td>Working</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">WORK</code></td>
+      <td>work site</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_AdministrativeContactRoleType</code></td>
+      <td>AdministrativeContactRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_AdministrativeLocationRoleType</code></td>
+      <td>AdministrativeLocationRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_AffiliationRoleType</code></td>
+      <td>AffiliationRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_AgentRoleType</code></td>
+      <td>AgentRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_AssignedNonPersonLivingSubjectRoleType</code></td>
+      <td>AssignedNonPersonLivingSubjectRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_AssignedRoleType</code></td>
+      <td>AssignedRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_CertifiedEntityType</code></td>
+      <td>CertifiedEntityType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_CitizenRoleType</code></td>
+      <td>CitizenRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_ClaimantCoveredPartyRoleType</code></td>
+      <td>ClaimantCoveredPartyRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_ClinicalOrganizationRoleType</code></td>
+      <td>ClinicalOrganizationRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_CommissioningPartyRoleType</code></td>
+      <td>CommissioningPartyRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_ContactRoleType</code></td>
+      <td>ContactRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_CoverageRoleType</code></td>
+      <td>CoverageRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_CoverageSponsorRoleType</code></td>
+      <td>CoverageSponsorRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_CoveredPartyRoleType</code></td>
+      <td>covered party role type</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_DedicatedClinicalLocationRoleType</code></td>
+      <td>DedicatedClinicalLocationRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_DedicatedNonClinicalLocationRoleType</code></td>
+      <td>DedicatedNonClinicalLocationRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_DedicatedServiceDeliveryLocationRoleType</code></td>
+      <td>DedicatedServiceDeliveryLocationRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_DependentCoveredPartyRoleType</code></td>
+      <td>DependentCoveredPartyRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_DeviceOperatorType</code></td>
+      <td>DeviceOperatorType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_EmployeeRoleType</code></td>
+      <td>EmployeeRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_HealthcareProviderRoleType</code></td>
+      <td>HealthcareProviderRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_IdentifiedEntityType</code></td>
+      <td>IdentifiedEntityType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_IncidentalServiceDeliveryLocationRoleType</code></td>
+      <td>IncidentalServiceDeliveryLocationRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_IndividualInsuredPartyRoleType</code></td>
+      <td>IndividualInsuredPartyRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_LicensedRoleType</code></td>
+      <td>LicensedRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_LivingSubjectProductionClass</code></td>
+      <td>LivingSubjectProductionClass</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_LocationIdentifiedEntityRoleCode</code></td>
+      <td>LocationIdentifiedEntityRoleCode</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_MedicationGeneralizationRoleType</code></td>
+      <td>MedicationGeneralizationRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_MemberRoleType</code></td>
+      <td>MemberRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_NDCRelatedDrugEntityType</code></td>
+      <td>NDCRelatedDrugEntityType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_OrganizationPartRoleType</code></td>
+      <td>OrganizationPartRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_PayorRoleType</code></td>
+      <td>PayorRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_PersonalRelationshipRoleType</code></td>
+      <td>PersonalRelationshipRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_PolicyOrProgramCoverageRoleType</code></td>
+      <td>PolicyOrProgramCoverageRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_PractitionerCertifiedEntityType</code></td>
+      <td>PractitionerCertifiedEntityType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_ProductProcessingOrganizationRoleType</code></td>
+      <td>ProductProcessingOrganizationRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_ProductSafetyReportPartyRoleType</code></td>
+      <td>ProductSafetyReportPartyRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_ProgramEligiblePartyRoleType</code></td>
+      <td>ProgramEligiblePartyRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_QualifiedRoleType</code></td>
+      <td>QualifiedRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_ResearchSubjectRoleBasis</code></td>
+      <td>ResearchSubjectRoleBasis</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_ServiceDeliveryLocationRoleType</code></td>
+      <td>ServiceDeliveryLocationRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_SpecimenRoleType</code></td>
+      <td>SpecimenRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">_SubscriberCoveredPartyRoleType</code></td>
+      <td>SubscriberCoveredPartyRoleType</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">communityLaboratory</code></td>
+      <td>Community Laboratory</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">homeHealth</code></td>
+      <td>Home Health</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">laboratory</code></td>
+      <td>Laboratory</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">pathologist</code></td>
+      <td>Pathologist</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">phlebotomist</code></td>
+      <td>Phlebotomist</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">subject</code></td>
+      <td>Self</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-RoleCode</code></td>
+      <td><code class="language-plaintext highlighter-rouge">thirdParty</code></td>
+      <td>Third Party</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="lookup-vs-R5-v3-ConsultedPrescriberManagementCode-for-R4.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="lookup-vs-R5-v3-ContainerCap-for-R4-container-cap.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-21 13:39:00 -0600">
+    2026-02-21
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir/uv/xver/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

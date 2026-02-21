@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="measure-aggregate-method"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/CodeSystem/measure-aggregate-method</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">sum
+                  <a name="measure-aggregate-method-sum"> </a>
+                </td>
+                <td>Sum</td>
+                <td>The measure score is determined by adding together the observations derived from the measure population.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">average
+                  <a name="measure-aggregate-method-average"> </a>
+                </td>
+                <td>Average</td>
+                <td>The measure score is determined by taking the average of the observations derived from the measure population.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">median
+                  <a name="measure-aggregate-method-median"> </a>
+                </td>
+                <td>Median</td>
+                <td>The measure score is determined by taking the median of the observations derived from the measure population.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">minimum
+                  <a name="measure-aggregate-method-minimum"> </a>
+                </td>
+                <td>Minimum</td>
+                <td>The measure score is determined by taking the minimum of the observations derived from the measure population.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">maximum
+                  <a name="measure-aggregate-method-maximum"> </a>
+                </td>
+                <td>Maximum</td>
+                <td>The measure score is determined by taking the maximum of the observations derived from the measure population.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">count
+                  <a name="measure-aggregate-method-count"> </a>
+                </td>
+                <td>Count</td>
+                <td>The measure score is determined as the number of observations derived from the measure population.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="cqi"/>
+  </extension>
+  <url value="http://hl7.org/fhir/CodeSystem/measure-aggregate-method"/>
+  <version value="5.0.0"/>
+  <name value="MeasureAggregateMethod"/>
+  <title value="Measure Aggregate Method"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2019-03-15T00:21:03-05:00"/>
+  <publisher value="Clinical Quality Information"/>
+  <contact>
+    <name value="Clinical Quality Information"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/cqi"/>
+    </telecom>
+  </contact>
+  <description value="Aggregation method for a measure (e.g. sum, average, median, minimum, maximum, count)"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/aggregate-method"/>
+  <content value="complete"/>
+  <concept>
+    <code value="sum"/>
+    <display value="Sum"/>
+    <definition value="The measure score is determined by adding together the observations derived from the measure population."/>
+  </concept>
+  <concept>
+    <code value="average"/>
+    <display value="Average"/>
+    <definition value="The measure score is determined by taking the average of the observations derived from the measure population."/>
+  </concept>
+  <concept>
+    <code value="median"/>
+    <display value="Median"/>
+    <definition value="The measure score is determined by taking the median of the observations derived from the measure population."/>
+  </concept>
+  <concept>
+    <code value="minimum"/>
+    <display value="Minimum"/>
+    <definition value="The measure score is determined by taking the minimum of the observations derived from the measure population."/>
+  </concept>
+  <concept>
+    <code value="maximum"/>
+    <display value="Maximum"/>
+    <definition value="The measure score is determined by taking the maximum of the observations derived from the measure population."/>
+  </concept>
+  <concept>
+    <code value="count"/>
+    <display value="Count"/>
+    <definition value="The measure score is determined as the number of observations derived from the measure population."/>
+  </concept>
+</CodeSystem>

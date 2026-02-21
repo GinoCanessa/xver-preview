@@ -1,0 +1,223 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-definition-method-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-definition-method-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-definition-method-for-R4</b></p><a name=\"R5-definition-method-for-R4\"> </a><a name=\"hcR5-definition-method-for-R4\"> </a><p>This value set expansion contains 8 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"R5-definition-method-for-R4-http://hl7.org/fhir/definition-method-mean\"> </a><code>http://hl7.org/fhir/definition-method</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-definition-method.html#definition-method-mean\">mean</a></td><td>Mean</td><td>Aggregated using mean of observed values.</td></tr><tr><td><a name=\"R5-definition-method-for-R4-http://hl7.org/fhir/definition-method-mean-of-mean\"> </a><code>http://hl7.org/fhir/definition-method</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-definition-method.html#definition-method-mean-of-mean\">mean-of-mean</a></td><td>Mean of Means</td><td>Aggregated using mean of means (e.g. study mean values).</td></tr><tr><td><a name=\"R5-definition-method-for-R4-http://hl7.org/fhir/definition-method-mean-of-median\"> </a><code>http://hl7.org/fhir/definition-method</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-definition-method.html#definition-method-mean-of-median\">mean-of-median</a></td><td>Mean of Medians</td><td>Aggregated using mean of medians (e.g. study median values).</td></tr><tr><td><a name=\"R5-definition-method-for-R4-http://hl7.org/fhir/definition-method-median\"> </a><code>http://hl7.org/fhir/definition-method</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-definition-method.html#definition-method-median\">median</a></td><td>Median</td><td>Aggregated using median of observed values.</td></tr><tr><td><a name=\"R5-definition-method-for-R4-http://hl7.org/fhir/definition-method-median-of-mean\"> </a><code>http://hl7.org/fhir/definition-method</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-definition-method.html#definition-method-median-of-mean\">median-of-mean</a></td><td>Median of Means</td><td>Aggregated using median of means (e.g. study mean values).</td></tr><tr><td><a name=\"R5-definition-method-for-R4-http://hl7.org/fhir/definition-method-median-of-median\"> </a><code>http://hl7.org/fhir/definition-method</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-definition-method.html#definition-method-median-of-median\">median-of-median</a></td><td>Median of Medians</td><td>Aggregated using median of medians (e.g. study median values).</td></tr><tr><td><a name=\"R5-definition-method-for-R4-http://hl7.org/fhir/definition-method-non-systematic-assessment\"> </a><code>http://hl7.org/fhir/definition-method</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-definition-method.html#definition-method-non-systematic-assessment\">non-systematic-assessment</a></td><td>Non-Systematic Assessment</td><td>Any non-systematic method for determining whether or not adverse events have occurred, such as self-reporting by participants or occasional assessment/testing</td></tr><tr><td><a name=\"R5-definition-method-for-R4-http://hl7.org/fhir/definition-method-systematic-assessment\"> </a><code>http://hl7.org/fhir/definition-method</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-definition-method.html#definition-method-systematic-assessment\">systematic-assessment</a></td><td>Systematic Assessment</td><td>Any method of routinely determining whether or not specific outcomes (e.g. adverse events) have occurred, for example through a standard questionnaire, regular investigator assessment, regular laboratory testing, or other method</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "cds"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-definition-method-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-definition-method-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5DefinitionMethodForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.DefinitionMethod for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Clinical Decision Support"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Clinical Decision Support" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/dss" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/definition-method|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/definition-method|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `EvidenceVariable.characteristic.definitionByTypeAndValue.method`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://hl7.org/fhir/ValueSet/definition-method|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/definition-method"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/definition-method>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "mean" ] ;
+         fhir:display [ fhir:v "Mean" ]
+       ] [
+         fhir:code [ fhir:v "mean-of-mean" ] ;
+         fhir:display [ fhir:v "Mean of Means" ]
+       ] [
+         fhir:code [ fhir:v "mean-of-median" ] ;
+         fhir:display [ fhir:v "Mean of Medians" ]
+       ] [
+         fhir:code [ fhir:v "median" ] ;
+         fhir:display [ fhir:v "Median" ]
+       ] [
+         fhir:code [ fhir:v "median-of-mean" ] ;
+         fhir:display [ fhir:v "Median of Means" ]
+       ] [
+         fhir:code [ fhir:v "median-of-median" ] ;
+         fhir:display [ fhir:v "Median of Medians" ]
+       ] [
+         fhir:code [ fhir:v "non-systematic-assessment" ] ;
+         fhir:display [ fhir:v "Non-Systematic Assessment" ]
+       ] [
+         fhir:code [ fhir:v "systematic-assessment" ] ;
+         fhir:display [ fhir:v "Systematic Assessment" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/definition-method"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/definition-method>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "mean" ] ;
+       fhir:display [ fhir:v "Mean" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/definition-method"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/definition-method>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "mean-of-mean" ] ;
+       fhir:display [ fhir:v "Mean of Means" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/definition-method"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/definition-method>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "mean-of-median" ] ;
+       fhir:display [ fhir:v "Mean of Medians" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/definition-method"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/definition-method>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "median" ] ;
+       fhir:display [ fhir:v "Median" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/definition-method"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/definition-method>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "median-of-mean" ] ;
+       fhir:display [ fhir:v "Median of Means" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/definition-method"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/definition-method>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "median-of-median" ] ;
+       fhir:display [ fhir:v "Median of Medians" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/definition-method"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/definition-method>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "non-systematic-assessment" ] ;
+       fhir:display [ fhir:v "Non-Systematic Assessment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/definition-method"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/definition-method>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "systematic-assessment" ] ;
+       fhir:display [ fhir:v "Systematic Assessment" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

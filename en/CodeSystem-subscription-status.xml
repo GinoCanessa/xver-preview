@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="subscription-status"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/subscription-status</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">requested
+                  <a name="subscription-status-requested"> </a>
+                </td>
+                <td>Requested</td>
+                <td>The client has requested the subscription, and the server has not yet set it up.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">active
+                  <a name="subscription-status-active"> </a>
+                </td>
+                <td>Active</td>
+                <td>The subscription is active.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">error
+                  <a name="subscription-status-error"> </a>
+                </td>
+                <td>Error</td>
+                <td>The server has an error executing the notification.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">off
+                  <a name="subscription-status-off"> </a>
+                </td>
+                <td>Off</td>
+                <td>Too many errors have occurred or the subscription has expired.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">entered-in-error
+                  <a name="subscription-status-entered-in-error"> </a>
+                </td>
+                <td>Entered in Error</td>
+                <td>This subscription has been flagged as incorrect.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <url value="http://hl7.org/fhir/subscription-status"/>
+  <version value="5.0.0"/>
+  <name value="SubscriptionStatus"/>
+  <title value="Subscription Status"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T13:39:05-06:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This codesystem defines a set of codes that can be used to filter Subscription triggers."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="requested"/>
+    <display value="Requested"/>
+    <definition value="The client has requested the subscription, and the server has not yet set it up."/>
+  </concept>
+  <concept>
+    <code value="active"/>
+    <display value="Active"/>
+    <definition value="The subscription is active."/>
+  </concept>
+  <concept>
+    <code value="error"/>
+    <display value="Error"/>
+    <definition value="The server has an error executing the notification."/>
+  </concept>
+  <concept>
+    <code value="off"/>
+    <display value="Off"/>
+    <definition value="Too many errors have occurred or the subscription has expired."/>
+  </concept>
+  <concept>
+    <code value="entered-in-error"/>
+    <display value="Entered in Error"/>
+    <definition value="This subscription has been flagged as incorrect."/>
+  </concept>
+</CodeSystem>

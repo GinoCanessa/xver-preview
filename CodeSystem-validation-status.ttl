@@ -54,25 +54,35 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "fhir"
+       fhir:v "pa"
      ]
   ] ) ; # 
   fhir:url [
      fhir:v "http://terminology.hl7.org/CodeSystem/validation-status"^^xsd:anyURI ;
      fhir:l <http://terminology.hl7.org/CodeSystem/validation-status>
   ] ; # 
-  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "Validation_status"] ; # 
   fhir:title [ fhir:v "Validation-status"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2018-06-05T09:06:02-05:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:publisher [ fhir:v "Patient Administration"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+       fhir:value [ fhir:v "http://hl7.org/fhir" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "fhir@lists.hl7.org" ]
+     ] )
+  ] [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7.org/fhir" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "fhir@lists.hl7.org" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Status of the validation of the target against the primary source"] ; # 
@@ -88,8 +98,8 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://terminology.hl7.org/ValueSet/verificationresult-validation-status"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/ValueSet/verificationresult-validation-status>
+     fhir:v "http://terminology.hl7.org/ValueSet/verificationresult-validation-status|1.0.1"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/verificationresult-validation-status?version=1.0.1>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

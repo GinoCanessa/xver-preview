@@ -1,0 +1,444 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-CalendarCycle-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-v3-CalendarCycle-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-v3-CalendarCycle-for-R4</b></p><a name=\"R5-v3-CalendarCycle-for-R4\"> </a><a name=\"hcR5-v3-CalendarCycle-for-R4\"> </a><p>This value set expansion contains 27 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-CD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CD</td><td>day (continuous)</td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-CH\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CH</td><td>hour (continuous)</td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-CM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CM</td><td>month (continuous)</td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-CN\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CN</td><td>minute (continuous)</td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-CS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CS</td><td>second (continuous)</td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-CW\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CW</td><td>week (continuous)</td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-CY\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CY</td><td>year</td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-D\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  D</td><td>day of the month</td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-DM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  DM</td><td>day of the month</td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-DW\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  DW</td><td>day of the week (begins with Monday)</td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-DY\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  DY</td><td>day of the year</td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-H\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  H</td><td>hour of the day</td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-HD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  HD</td><td>hour of the day</td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-J\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  J</td><td>day of the week (begins with Monday)</td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-M\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  M</td><td>month of the year</td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-MY\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  MY</td><td>month of the year</td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-N\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  N</td><td>minute of the hour</td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-NH\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  NH</td><td>minute of the hour</td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-S\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  S</td><td>second of the minute</td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-SN\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SN</td><td>second of the minute</td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-W\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  W</td><td>week (continuous)</td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-WM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  WM</td><td>week of the month</td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-WY\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  WY</td><td>week of the year</td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-Y\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  Y</td><td>year</td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-_CalendarCycleOneLetter\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _CalendarCycleOneLetter</td><td>CalendarCycleOneLetter</td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-_CalendarCycleTwoLetter\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _CalendarCycleTwoLetter</td><td>CalendarCycleTwoLetter</td></tr><tr><td><a name=\"R5-v3-CalendarCycle-for-R4-http://terminology.hl7.org/CodeSystem/v3-CalendarCycle-_GregorianCalendarCycle\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-CalendarCycle</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _GregorianCalendarCycle</td><td>GregorianCalendarCycle</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-CalendarCycle-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-CalendarCycle-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5V3CalendarCycleForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.CalendarCycle for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v3-CalendarCycle|2.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/v3-CalendarCycle|2.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* \r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://terminology.hl7.org/ValueSet/v3-CalendarCycle|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "CD" ] ;
+         fhir:display [ fhir:v "day (continuous)" ]
+       ] [
+         fhir:code [ fhir:v "CH" ] ;
+         fhir:display [ fhir:v "hour (continuous)" ]
+       ] [
+         fhir:code [ fhir:v "CM" ] ;
+         fhir:display [ fhir:v "month (continuous)" ]
+       ] [
+         fhir:code [ fhir:v "CN" ] ;
+         fhir:display [ fhir:v "minute (continuous)" ]
+       ] [
+         fhir:code [ fhir:v "CS" ] ;
+         fhir:display [ fhir:v "second (continuous)" ]
+       ] [
+         fhir:code [ fhir:v "CW" ] ;
+         fhir:display [ fhir:v "week (continuous)" ]
+       ] [
+         fhir:code [ fhir:v "CY" ] ;
+         fhir:display [ fhir:v "year" ]
+       ] [
+         fhir:code [ fhir:v "D" ] ;
+         fhir:display [ fhir:v "day of the month" ]
+       ] [
+         fhir:code [ fhir:v "DM" ] ;
+         fhir:display [ fhir:v "day of the month" ]
+       ] [
+         fhir:code [ fhir:v "DW" ] ;
+         fhir:display [ fhir:v "day of the week (begins with Monday)" ]
+       ] [
+         fhir:code [ fhir:v "DY" ] ;
+         fhir:display [ fhir:v "day of the year" ]
+       ] [
+         fhir:code [ fhir:v "H" ] ;
+         fhir:display [ fhir:v "hour of the day" ]
+       ] [
+         fhir:code [ fhir:v "HD" ] ;
+         fhir:display [ fhir:v "hour of the day" ]
+       ] [
+         fhir:code [ fhir:v "J" ] ;
+         fhir:display [ fhir:v "day of the week (begins with Monday)" ]
+       ] [
+         fhir:code [ fhir:v "M" ] ;
+         fhir:display [ fhir:v "month of the year" ]
+       ] [
+         fhir:code [ fhir:v "MY" ] ;
+         fhir:display [ fhir:v "month of the year" ]
+       ] [
+         fhir:code [ fhir:v "N" ] ;
+         fhir:display [ fhir:v "minute of the hour" ]
+       ] [
+         fhir:code [ fhir:v "NH" ] ;
+         fhir:display [ fhir:v "minute of the hour" ]
+       ] [
+         fhir:code [ fhir:v "S" ] ;
+         fhir:display [ fhir:v "second of the minute" ]
+       ] [
+         fhir:code [ fhir:v "SN" ] ;
+         fhir:display [ fhir:v "second of the minute" ]
+       ] [
+         fhir:code [ fhir:v "W" ] ;
+         fhir:display [ fhir:v "week (continuous)" ]
+       ] [
+         fhir:code [ fhir:v "WM" ] ;
+         fhir:display [ fhir:v "week of the month" ]
+       ] [
+         fhir:code [ fhir:v "WY" ] ;
+         fhir:display [ fhir:v "week of the year" ]
+       ] [
+         fhir:code [ fhir:v "Y" ] ;
+         fhir:display [ fhir:v "year" ]
+       ] [
+         fhir:code [ fhir:v "_CalendarCycleOneLetter" ] ;
+         fhir:display [ fhir:v "CalendarCycleOneLetter" ]
+       ] [
+         fhir:code [ fhir:v "_CalendarCycleTwoLetter" ] ;
+         fhir:display [ fhir:v "CalendarCycleTwoLetter" ]
+       ] [
+         fhir:code [ fhir:v "_GregorianCalendarCycle" ] ;
+         fhir:display [ fhir:v "GregorianCalendarCycle" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CD" ] ;
+       fhir:display [ fhir:v "day (continuous)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CH" ] ;
+       fhir:display [ fhir:v "hour (continuous)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CM" ] ;
+       fhir:display [ fhir:v "month (continuous)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CN" ] ;
+       fhir:display [ fhir:v "minute (continuous)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CS" ] ;
+       fhir:display [ fhir:v "second (continuous)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CW" ] ;
+       fhir:display [ fhir:v "week (continuous)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CY" ] ;
+       fhir:display [ fhir:v "year" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "D" ] ;
+       fhir:display [ fhir:v "day of the month" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "DM" ] ;
+       fhir:display [ fhir:v "day of the month" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "DW" ] ;
+       fhir:display [ fhir:v "day of the week (begins with Monday)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "DY" ] ;
+       fhir:display [ fhir:v "day of the year" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "H" ] ;
+       fhir:display [ fhir:v "hour of the day" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "HD" ] ;
+       fhir:display [ fhir:v "hour of the day" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "J" ] ;
+       fhir:display [ fhir:v "day of the week (begins with Monday)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "M" ] ;
+       fhir:display [ fhir:v "month of the year" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "MY" ] ;
+       fhir:display [ fhir:v "month of the year" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "N" ] ;
+       fhir:display [ fhir:v "minute of the hour" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "NH" ] ;
+       fhir:display [ fhir:v "minute of the hour" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "S" ] ;
+       fhir:display [ fhir:v "second of the minute" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SN" ] ;
+       fhir:display [ fhir:v "second of the minute" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "W" ] ;
+       fhir:display [ fhir:v "week (continuous)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "WM" ] ;
+       fhir:display [ fhir:v "week of the month" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "WY" ] ;
+       fhir:display [ fhir:v "week of the year" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "Y" ] ;
+       fhir:display [ fhir:v "year" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_CalendarCycleOneLetter" ] ;
+       fhir:display [ fhir:v "CalendarCycleOneLetter" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_CalendarCycleTwoLetter" ] ;
+       fhir:display [ fhir:v "CalendarCycleTwoLetter" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-CalendarCycle"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-CalendarCycle>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_GregorianCalendarCycle" ] ;
+       fhir:display [ fhir:v "GregorianCalendarCycle" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

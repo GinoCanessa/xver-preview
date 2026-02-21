@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-substanceAdminSubstitution"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>Specializes</td><td/><td>Coding</td><td>The child code is a more narrow version of the concept represented by the parent code.  I.e. Every child concept is also a valid parent concept.  Used to allow determination of subsumption.  Must be transitive, irreflexive, antisymmetric.</td></tr><tr><td>Generalizes</td><td/><td>Coding</td><td>Inverse of Specializes.  Only included as a derived relationship.</td></tr><tr><td>internalId</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id</td><td>code</td><td>The internal identifier for the concept in the HL7 Access database repository.</td></tr><tr><td>notSelectable</td><td>http://hl7.org/fhir/concept-properties#notSelectable</td><td>boolean</td><td>Indicates that the code is abstract - only intended to be used as a selector for other concepts</td></tr><tr><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>Designation of a concept's state. Normally is not populated unless the state is retired.</td></tr></table><p><b>Concepts</b></p><p>This code system <code>http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution</code> defines the following codes:</p><table class="codes"><tr><td><b>Lvl</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>internalId</b></td><td><b>Not Selectable</b></td><td><b>status</b></td></tr><tr><td>1</td><td style="white-space:nowrap">_ActSubstanceAdminSubstitutionCode<a name="v3-substanceAdminSubstitution-_ActSubstanceAdminSubstitutionCode"> </a></td><td>ActSubstanceAdminSubstitutionCode</td><td>**Description:** Substitution occurred or is permitted with another product that may potentially have different ingredients, but having the same biological and therapeutic effects.</td><td>21284</td><td>true</td><td>active</td></tr><tr><td>2</td><td style="white-space:nowrap">  E<a name="v3-substanceAdminSubstitution-E"> </a></td><td>equivalent</td><td>**Description:** Substitution occurred or is permitted with another bioequivalent and therapeutically equivalent product.</td><td>23107</td><td/><td>active</td></tr><tr><td>3</td><td style="white-space:nowrap">    EC<a name="v3-substanceAdminSubstitution-EC"> </a></td><td>equivalent composition</td><td>**Description:** 
+
+Substitution occurred or is permitted with another product that is a:
+
+ *  pharmaceutical alternative containing the same active ingredient but is formulated with different salt, ester
+ *  pharmaceutical equivalent that has the same active ingredient, strength, dosage form and route of administration
+
+*Examples:* 
+
+ *  *Pharmaceutical alternative:* Erythromycin Ethylsuccinate for Erythromycin Stearate
+ *  *Pharmaceutical equivalent:* Lisonpril for Zestril</td><td>23108</td><td/><td>active</td></tr><tr><td>4</td><td style="white-space:nowrap">      BC<a name="v3-substanceAdminSubstitution-BC"> </a></td><td>brand composition</td><td>**Description:** 
+
+Substitution occurred or is permitted between equivalent Brands but not Generics
+
+*Examples:* 
+
+ *  Zestril for Prinivil
+ *  Coumadin for Jantoven</td><td>23109</td><td/><td>active</td></tr><tr><td>4</td><td style="white-space:nowrap">      G<a name="v3-substanceAdminSubstitution-G"> </a></td><td>generic composition</td><td>**Description:** Substitution occurred or is permitted between equivalent Generics but not Brands
+
+*Examples:* 
+
+ *  Lisnopril (Lupin Corp) for Lisnopril (Wockhardt Corp)</td><td>16623</td><td/><td>active</td></tr><tr><td>3</td><td style="white-space:nowrap">    TE<a name="v3-substanceAdminSubstitution-TE"> </a></td><td>therapeutic alternative</td><td>**Description:** Substitution occurred or is permitted with another product having the same therapeutic objective and safety profile.
+
+*Examples:* 
+
+ *  ranitidine for Tagamet</td><td>16624</td><td/><td>active</td></tr><tr><td>4</td><td style="white-space:nowrap">      TB<a name="v3-substanceAdminSubstitution-TB"> </a></td><td>therapeutic brand</td><td>**Description:** Substitution occurred or is permitted between therapeutically equivalent Brands but not Generics
+
+&gt;
+
+*Examples:* 
+
+ *  Zantac for Tagamet</td><td>23105</td><td/><td>active</td></tr><tr><td>4</td><td style="white-space:nowrap">      TG<a name="v3-substanceAdminSubstitution-TG"> </a></td><td>therapeutic generic</td><td>**Description:** Substitution occurred or is permitted between therapeutically equivalent Generics but not Brands
+
+&gt;
+
+*Examples:* 
+
+ *  Ranitidine for cimetidine</td><td>23106</td><td/><td>active</td></tr><tr><td>2</td><td style="white-space:nowrap">  F<a name="v3-substanceAdminSubstitution-F"> </a></td><td>formulary</td><td>**Description:** This substitution was performed or is permitted based on formulary guidelines.</td><td>16625</td><td/><td>active</td></tr><tr><td>2</td><td style="white-space:nowrap">  N<a name="v3-substanceAdminSubstitution-N"> </a></td><td>none</td><td>No substitution occurred or is permitted.</td><td>16622</td><td/><td>active</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution"/>
+  <version value="2.1.0"/>
+  <name value="SubstanceAdminSubstitution"/>
+  <title value="Substance Admin Substitution"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2019-03-19T19:00:00-05:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="Identifies what sort of change is permitted or has occurred between the therapy that was ordered and the therapy that was/will be provided."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <hierarchyMeaning value="is-a"/>
+  <content value="complete"/>
+  <property>
+    <code value="Specializes"/>
+    <description value="The child code is a more narrow version of the concept represented by the parent code.  I.e. Every child concept is also a valid parent concept.  Used to allow determination of subsumption.  Must be transitive, irreflexive, antisymmetric."/>
+    <type value="Coding"/>
+  </property>
+  <property>
+    <code value="Generalizes"/>
+    <description value="Inverse of Specializes.  Only included as a derived relationship."/>
+    <type value="Coding"/>
+  </property>
+  <property>
+    <code value="internalId"/>
+    <uri value="http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id"/>
+    <description value="The internal identifier for the concept in the HL7 Access database repository."/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="notSelectable"/>
+    <uri value="http://hl7.org/fhir/concept-properties#notSelectable"/>
+    <description value="Indicates that the code is abstract - only intended to be used as a selector for other concepts"/>
+    <type value="boolean"/>
+  </property>
+  <property>
+    <code value="status"/>
+    <uri value="http://hl7.org/fhir/concept-properties#status"/>
+    <description value="Designation of a concept's state. Normally is not populated unless the state is retired."/>
+    <type value="code"/>
+  </property>
+  <concept>
+    <code value="_ActSubstanceAdminSubstitutionCode"/>
+    <display value="ActSubstanceAdminSubstitutionCode"/>
+    <definition value="**Description:** Substitution occurred or is permitted with another product that may potentially have different ingredients, but having the same biological and therapeutic effects."/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="21284"/>
+    </property>
+    <concept>
+      <code value="E"/>
+      <display value="equivalent"/>
+      <definition value="**Description:** Substitution occurred or is permitted with another bioequivalent and therapeutically equivalent product."/>
+      <property>
+        <code value="status"/>
+        <valueCode value="active"/>
+      </property>
+      <property>
+        <code value="internalId"/>
+        <valueCode value="23107"/>
+      </property>
+      <concept>
+        <code value="EC"/>
+        <display value="equivalent composition"/>
+        <definition value="**Description:** &#xD;&#xA;&#xD;&#xA;Substitution occurred or is permitted with another product that is a:&#xD;&#xA;&#xD;&#xA; *  pharmaceutical alternative containing the same active ingredient but is formulated with different salt, ester&#xD;&#xA; *  pharmaceutical equivalent that has the same active ingredient, strength, dosage form and route of administration&#xD;&#xA;&#xD;&#xA;*Examples:* &#xD;&#xA;&#xD;&#xA; *  *Pharmaceutical alternative:* Erythromycin Ethylsuccinate for Erythromycin Stearate&#xD;&#xA; *  *Pharmaceutical equivalent:* Lisonpril for Zestril"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="23108"/>
+        </property>
+        <concept>
+          <code value="BC"/>
+          <display value="brand composition"/>
+          <definition value="**Description:** &#xD;&#xA;&#xD;&#xA;Substitution occurred or is permitted between equivalent Brands but not Generics&#xD;&#xA;&#xD;&#xA;*Examples:* &#xD;&#xA;&#xD;&#xA; *  Zestril for Prinivil&#xD;&#xA; *  Coumadin for Jantoven"/>
+          <property>
+            <code value="status"/>
+            <valueCode value="active"/>
+          </property>
+          <property>
+            <code value="internalId"/>
+            <valueCode value="23109"/>
+          </property>
+        </concept>
+        <concept>
+          <code value="G"/>
+          <display value="generic composition"/>
+          <definition value="**Description:** Substitution occurred or is permitted between equivalent Generics but not Brands&#xD;&#xA;&#xD;&#xA;*Examples:* &#xD;&#xA;&#xD;&#xA; *  Lisnopril (Lupin Corp) for Lisnopril (Wockhardt Corp)"/>
+          <property>
+            <code value="status"/>
+            <valueCode value="active"/>
+          </property>
+          <property>
+            <code value="internalId"/>
+            <valueCode value="16623"/>
+          </property>
+        </concept>
+      </concept>
+      <concept>
+        <code value="TE"/>
+        <display value="therapeutic alternative"/>
+        <definition value="**Description:** Substitution occurred or is permitted with another product having the same therapeutic objective and safety profile.&#xD;&#xA;&#xD;&#xA;*Examples:* &#xD;&#xA;&#xD;&#xA; *  ranitidine for Tagamet"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="16624"/>
+        </property>
+        <concept>
+          <code value="TB"/>
+          <display value="therapeutic brand"/>
+          <definition value="**Description:** Substitution occurred or is permitted between therapeutically equivalent Brands but not Generics&#xD;&#xA;&#xD;&#xA;&gt;&#xD;&#xA;&#xD;&#xA;*Examples:* &#xD;&#xA;&#xD;&#xA; *  Zantac for Tagamet"/>
+          <property>
+            <code value="status"/>
+            <valueCode value="active"/>
+          </property>
+          <property>
+            <code value="internalId"/>
+            <valueCode value="23105"/>
+          </property>
+        </concept>
+        <concept>
+          <code value="TG"/>
+          <display value="therapeutic generic"/>
+          <definition value="**Description:** Substitution occurred or is permitted between therapeutically equivalent Generics but not Brands&#xD;&#xA;&#xD;&#xA;&gt;&#xD;&#xA;&#xD;&#xA;*Examples:* &#xD;&#xA;&#xD;&#xA; *  Ranitidine for cimetidine"/>
+          <property>
+            <code value="status"/>
+            <valueCode value="active"/>
+          </property>
+          <property>
+            <code value="internalId"/>
+            <valueCode value="23106"/>
+          </property>
+        </concept>
+      </concept>
+    </concept>
+    <concept>
+      <code value="F"/>
+      <display value="formulary"/>
+      <definition value="**Description:** This substitution was performed or is permitted based on formulary guidelines."/>
+      <property>
+        <code value="status"/>
+        <valueCode value="active"/>
+      </property>
+      <property>
+        <code value="internalId"/>
+        <valueCode value="16625"/>
+      </property>
+    </concept>
+    <concept>
+      <code value="N"/>
+      <display value="none"/>
+      <definition value="No substitution occurred or is permitted."/>
+      <property>
+        <code value="status"/>
+        <valueCode value="active"/>
+      </property>
+      <property>
+        <code value="internalId"/>
+        <valueCode value="16622"/>
+      </property>
+    </concept>
+  </concept>
+</CodeSystem>

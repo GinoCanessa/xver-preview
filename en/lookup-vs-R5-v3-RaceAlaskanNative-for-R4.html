@@ -1,0 +1,2142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Lookup for R5V3RaceAlaskanNativeForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"4.2292"}
+    h3,h4,h5,h6{--heading-prefix:"4.2292"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" data-no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img alt="International flag" src="../assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='lookup-vs.html'><b>ValueSet Lookup</b></a></li><li><b>Lookup for R5V3RaceAlaskanNativeForR4</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="lookup-vs-R5-v3-RaceAlaskanIndianAthabascan-for-R4.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="lookup-vs-R5-v3-RaceAlaskanNativeAleut-for-R4.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Lookup for R5V3RaceAlaskanNativeForR4</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+</div>
+<h3 id="lookup-for-fhir-r5-valueset-racealaskannativehttpterminologyhl7orgvaluesetv3-racealaskannative-for-use-in-fhir-r4">Lookup for <a href="https://hl7.org/fhir/R5/">FHIR R5</a> ValueSet RaceAlaskanNative:<a href="https://hl7.org/fhir/R5/valueset-v3-RaceAlaskanNative.html"><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/ValueSet/v3-RaceAlaskanNative</code></a> for use in <a href="https://hl7.org/fhir/R4/">FHIR R4</a></h3>
+
+<p>The FHIR R5 ValueSet RaceAlaskanNative has no mapping  to FHIR R4.</p>
+
+<table class="grid">
+  <thead>
+    <tr>
+      <th>Source System</th>
+      <th>Code</th>
+      <th>Display</th>
+      <th>Has XVer</th>
+      <th>Target System</th>
+      <th>Code</th>
+      <th>Display</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1735-0</code></td>
+      <td>Alaska Native</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1737-6</code></td>
+      <td>Alaska Indian</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1739-2</code></td>
+      <td>Alaskan Athabascan</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1740-0</code></td>
+      <td>Ahtna</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1811-9</code></td>
+      <td>Southeast Alaska</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1813-5</code></td>
+      <td>Tlingit-Haida</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1814-3</code></td>
+      <td>Angoon</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1815-0</code></td>
+      <td>Central Council of Tlingit and Haida Tribes</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1816-8</code></td>
+      <td>Chilkat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1817-6</code></td>
+      <td>Chilkoot</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1818-4</code></td>
+      <td>Craig</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1819-2</code></td>
+      <td>Douglas</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1820-0</code></td>
+      <td>Haida</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1821-8</code></td>
+      <td>Hoonah</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1822-6</code></td>
+      <td>Hydaburg</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1823-4</code></td>
+      <td>Kake</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1824-2</code></td>
+      <td>Kasaan</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1825-9</code></td>
+      <td>Kenaitze</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1826-7</code></td>
+      <td>Ketchikan</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1827-5</code></td>
+      <td>Klawock</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1828-3</code></td>
+      <td>Pelican</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1829-1</code></td>
+      <td>Petersburg</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1830-9</code></td>
+      <td>Saxman</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1831-7</code></td>
+      <td>Sitka</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1832-5</code></td>
+      <td>Tenakee Springs</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1833-3</code></td>
+      <td>Tlingit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1834-1</code></td>
+      <td>Wrangell</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1835-8</code></td>
+      <td>Yakutat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1837-4</code></td>
+      <td>Tsimshian</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1838-2</code></td>
+      <td>Metlakatla</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1840-8</code></td>
+      <td>Eskimo</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1842-4</code></td>
+      <td>Greenland Eskimo</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1844-0</code></td>
+      <td>Inupiat Eskimo</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1845-7</code></td>
+      <td>Ambler</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1846-5</code></td>
+      <td>Anaktuvuk</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1847-3</code></td>
+      <td>Anaktuvuk Pass</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1848-1</code></td>
+      <td>Arctic Slope Inupiat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1849-9</code></td>
+      <td>Arctic Slope Corporation</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1850-7</code></td>
+      <td>Atqasuk</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1851-5</code></td>
+      <td>Barrow</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1852-3</code></td>
+      <td>Bering Straits Inupiat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1853-1</code></td>
+      <td>Brevig Mission</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1854-9</code></td>
+      <td>Buckland</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1855-6</code></td>
+      <td>Chinik</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1856-4</code></td>
+      <td>Council</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1857-2</code></td>
+      <td>Deering</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1858-0</code></td>
+      <td>Elim</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1859-8</code></td>
+      <td>Golovin</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1860-6</code></td>
+      <td>Inalik Diomede</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1861-4</code></td>
+      <td>Inupiaq</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1862-2</code></td>
+      <td>Kaktovik</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1863-0</code></td>
+      <td>Kawerak</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1864-8</code></td>
+      <td>Kiana</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1865-5</code></td>
+      <td>Kivalina</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1866-3</code></td>
+      <td>Kobuk</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1867-1</code></td>
+      <td>Kotzebue</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1868-9</code></td>
+      <td>Koyuk</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1869-7</code></td>
+      <td>Kwiguk</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1870-5</code></td>
+      <td>Mauneluk Inupiat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1871-3</code></td>
+      <td>Nana Inupiat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1872-1</code></td>
+      <td>Noatak</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1873-9</code></td>
+      <td>Nome</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1874-7</code></td>
+      <td>Noorvik</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1875-4</code></td>
+      <td>Nuiqsut</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1876-2</code></td>
+      <td>Point Hope</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1877-0</code></td>
+      <td>Point Lay</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1878-8</code></td>
+      <td>Selawik</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1879-6</code></td>
+      <td>Shaktoolik</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1880-4</code></td>
+      <td>Shishmaref</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1881-2</code></td>
+      <td>Shungnak</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1882-0</code></td>
+      <td>Solomon</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1883-8</code></td>
+      <td>Teller</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1884-6</code></td>
+      <td>Unalakleet</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1885-3</code></td>
+      <td>Wainwright</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1886-1</code></td>
+      <td>Wales</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1887-9</code></td>
+      <td>White Mountain</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1888-7</code></td>
+      <td>White Mountain Inupiat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1889-5</code></td>
+      <td>Mary's Igloo</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1891-1</code></td>
+      <td>Siberian Eskimo</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1892-9</code></td>
+      <td>Gambell</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1893-7</code></td>
+      <td>Savoonga</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1894-5</code></td>
+      <td>Siberian Yupik</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1896-0</code></td>
+      <td>Yupik Eskimo</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1897-8</code></td>
+      <td>Akiachak</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1898-6</code></td>
+      <td>Akiak</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1899-4</code></td>
+      <td>Alakanuk</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1900-0</code></td>
+      <td>Aleknagik</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1901-8</code></td>
+      <td>Andreafsky</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1902-6</code></td>
+      <td>Aniak</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1903-4</code></td>
+      <td>Atmautluak</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1904-2</code></td>
+      <td>Bethel</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1905-9</code></td>
+      <td>Bill Moore's Slough</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1906-7</code></td>
+      <td>Bristol Bay Yupik</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1907-5</code></td>
+      <td>Calista Yupik</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1908-3</code></td>
+      <td>Chefornak</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1909-1</code></td>
+      <td>Chevak</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1910-9</code></td>
+      <td>Chuathbaluk</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1911-7</code></td>
+      <td>Clark's Point</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1912-5</code></td>
+      <td>Crooked Creek</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1913-3</code></td>
+      <td>Dillingham</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1914-1</code></td>
+      <td>Eek</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1915-8</code></td>
+      <td>Ekuk</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1916-6</code></td>
+      <td>Ekwok</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1917-4</code></td>
+      <td>Emmonak</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1918-2</code></td>
+      <td>Goodnews Bay</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1919-0</code></td>
+      <td>Hooper Bay</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1920-8</code></td>
+      <td>Iqurmuit (Russian Mission)</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1921-6</code></td>
+      <td>Kalskag</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1922-4</code></td>
+      <td>Kasigluk</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1923-2</code></td>
+      <td>Kipnuk</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1924-0</code></td>
+      <td>Koliganek</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1925-7</code></td>
+      <td>Kongiganak</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1926-5</code></td>
+      <td>Kotlik</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1927-3</code></td>
+      <td>Kwethluk</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1928-1</code></td>
+      <td>Kwigillingok</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1929-9</code></td>
+      <td>Levelock</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1930-7</code></td>
+      <td>Lower Kalskag</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1931-5</code></td>
+      <td>Manokotak</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1932-3</code></td>
+      <td>Marshall</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1933-1</code></td>
+      <td>Mekoryuk</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1934-9</code></td>
+      <td>Mountain Village</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1935-6</code></td>
+      <td>Naknek</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1936-4</code></td>
+      <td>Napaumute</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1937-2</code></td>
+      <td>Napakiak</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1938-0</code></td>
+      <td>Napaskiak</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1939-8</code></td>
+      <td>Newhalen</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1940-6</code></td>
+      <td>New Stuyahok</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1941-4</code></td>
+      <td>Newtok</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1942-2</code></td>
+      <td>Nightmute</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1943-0</code></td>
+      <td>Nunapitchukv</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1944-8</code></td>
+      <td>Oscarville</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1945-5</code></td>
+      <td>Pilot Station</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1946-3</code></td>
+      <td>Pitkas Point</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1947-1</code></td>
+      <td>Platinum</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1948-9</code></td>
+      <td>Portage Creek</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1949-7</code></td>
+      <td>Quinhagak</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1950-5</code></td>
+      <td>Red Devil</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1951-3</code></td>
+      <td>St. Michael</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1952-1</code></td>
+      <td>Scammon Bay</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1953-9</code></td>
+      <td>Sheldon's Point</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1954-7</code></td>
+      <td>Sleetmute</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1955-4</code></td>
+      <td>Stebbins</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1956-2</code></td>
+      <td>Togiak</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1957-0</code></td>
+      <td>Toksook</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1958-8</code></td>
+      <td>Tulukskak</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1959-6</code></td>
+      <td>Tuntutuliak</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1960-4</code></td>
+      <td>Tununak</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1961-2</code></td>
+      <td>Twin Hills</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1962-0</code></td>
+      <td>Georgetown</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1963-8</code></td>
+      <td>St. Mary's</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1964-6</code></td>
+      <td>Umkumiate</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1966-1</code></td>
+      <td>Aleut</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1968-7</code></td>
+      <td>Alutiiq Aleut</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1969-5</code></td>
+      <td>Tatitlek</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1970-3</code></td>
+      <td>Ugashik</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1972-9</code></td>
+      <td>Bristol Bay Aleut</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1973-7</code></td>
+      <td>Chignik</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1974-5</code></td>
+      <td>Chignik Lake</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1975-2</code></td>
+      <td>Egegik</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1976-0</code></td>
+      <td>Igiugig</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1977-8</code></td>
+      <td>Ivanof Bay</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1978-6</code></td>
+      <td>King Salmon</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1979-4</code></td>
+      <td>Kokhanok</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1980-2</code></td>
+      <td>Perryville</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1981-0</code></td>
+      <td>Pilot Point</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1982-8</code></td>
+      <td>Port Heiden</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1984-4</code></td>
+      <td>Chugach Aleut</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1985-1</code></td>
+      <td>Chenega</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1986-9</code></td>
+      <td>Chugach Corporation</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1987-7</code></td>
+      <td>English Bay</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1988-5</code></td>
+      <td>Port Graham</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1990-1</code></td>
+      <td>Eyak</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1992-7</code></td>
+      <td>Koniag Aleut</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1993-5</code></td>
+      <td>Akhiok</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1994-3</code></td>
+      <td>Agdaagux</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1995-0</code></td>
+      <td>Karluk</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1996-8</code></td>
+      <td>Kodiak</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1997-6</code></td>
+      <td>Larsen Bay</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1998-4</code></td>
+      <td>Old Harbor</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">1999-2</code></td>
+      <td>Ouzinkie</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">2000-8</code></td>
+      <td>Port Lions</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">2002-4</code></td>
+      <td>Sugpiaq</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">2004-0</code></td>
+      <td>Suqpigaq</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">2006-5</code></td>
+      <td>Unangan Aleut</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">2007-3</code></td>
+      <td>Akutan</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">2008-1</code></td>
+      <td>Aleut Corporation</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">2009-9</code></td>
+      <td>Aleutian</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">2010-7</code></td>
+      <td>Aleutian Islander</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">2011-5</code></td>
+      <td>Atka</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">2012-3</code></td>
+      <td>Belkofski</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">2013-1</code></td>
+      <td>Chignik Lagoon</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">2014-9</code></td>
+      <td>King Cove</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">2015-6</code></td>
+      <td>False Pass</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">2016-4</code></td>
+      <td>Nelson Lagoon</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">2017-2</code></td>
+      <td>Nikolski</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">2018-0</code></td>
+      <td>Pauloff Harbor</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">2019-8</code></td>
+      <td>Qagan Toyagungin</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">2020-6</code></td>
+      <td>Qawalangin</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">2021-4</code></td>
+      <td>St. George</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">2022-2</code></td>
+      <td>St. Paul</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">2023-0</code></td>
+      <td>Sand Point</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">2024-8</code></td>
+      <td>South Naknek</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">2025-5</code></td>
+      <td>Unalaska</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v3-Race</code></td>
+      <td><code class="language-plaintext highlighter-rouge">2026-3</code></td>
+      <td>Unga</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="lookup-vs-R5-v3-RaceAlaskanIndianAthabascan-for-R4.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="lookup-vs-R5-v3-RaceAlaskanNativeAleut-for-R4.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-21 13:39:00 -0600">
+    2026-02-21
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir/uv/xver/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

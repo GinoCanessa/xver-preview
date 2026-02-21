@@ -30,21 +30,21 @@
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-    "valueCode" : "fhir"
+    "valueCode" : "pc"
   }],
   "url" : "http://hl7.org/fhir/reaction-event-severity",
-  "version" : "0.0.1-snapshot-3",
+  "version" : "5.0.0",
   "name" : "AllergyIntoleranceSeverity",
   "title" : "Allergy Intolerance Severity",
   "status" : "active",
   "experimental" : false,
   "date" : "2021-01-04T17:01:24-06:00",
-  "publisher" : "FHIR Infrastructure",
+  "publisher" : "Patient Care",
   "contact" : [{
-    "name" : "FHIR Infrastructure",
+    "name" : "Patient Care",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://www.hl7.org/Special/committees/fiwg"
+      "value" : "http://www.hl7.org/Special/committees/patientcare"
     }]
   }],
   "description" : "Clinical assessment of the severity of a reaction event as a whole, potentially considering multiple different manifestations.",
@@ -56,7 +56,7 @@
     }]
   }],
   "caseSensitive" : true,
-  "valueSet" : "http://hl7.org/fhir/ValueSet/reaction-event-severity",
+  "valueSet" : "http://hl7.org/fhir/ValueSet/reaction-event-severity|4.0.1",
   "content" : "complete",
   "concept" : [{
     "code" : "mild",

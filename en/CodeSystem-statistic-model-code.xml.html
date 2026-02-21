@@ -1,0 +1,1435 @@
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>StatisticModelCode - XML Representation - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"7.3848"}
+    h3,h4,h5,h6{--heading-prefix:"7.3848"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" data-no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img alt="International flag" src="../assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>StatisticModelCode</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="CodeSystem-statistic-model-code-testing.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="CodeSystem-statistic-model-code.json.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<!-- layouts\layout-instance-format -->
+<div style="counter-reset: section 7" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="CodeSystem-statistic-model-code.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li class="active">
+      <a href="#">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-statistic-model-code.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-statistic-model-code.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+
+<h2 id="root">: StatisticModelCode</h2>
+
+  <table class="colstu" data-fhir="generated">
+    <tr>
+
+      <td colspan="1">
+        
+          <i>Page standards status:</i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standards Status">Trial-use</a>
+          
+        
+      </td>
+
+      <td>
+        <a href="http://hl7.org/fhir/versions.html#maturity">Maturity Level</a>: 1
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p><a href="CodeSystem-statistic-model-code.xml" no-download="true">Raw xml</a> | <a href="CodeSystem-statistic-model-code.xml" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="xml" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code style="white-space: pre; text-wrap: nowrap;">
+&lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">CodeSystem</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/resource.html#CodeSystem.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;statistic-model-code&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/resource.html#CodeSystem.language">language</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;en&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+            &lt;p&gt;This code system 
+              &lt;code&gt;http://hl7.org/fhir/statistic-model-code&lt;/code&gt; defines the following codes:
+            &lt;/p&gt;
+            &lt;table class=&quot;codes&quot;&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;
+                  &lt;b&gt;Code&lt;/b&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                  &lt;b&gt;Display&lt;/b&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                  &lt;b&gt;Definition&lt;/b&gt;
+                &lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;oneTailedTest
+                  &lt;a name=&quot;statistic-model-code-oneTailedTest&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;one-tailed test (1 threshold)&lt;/td&gt;
+                &lt;td&gt;Used for one-tailed test (1 threshold), no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;twoTailedTest
+                  &lt;a name=&quot;statistic-model-code-twoTailedTest&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;two-tailed test (2 thresholds)&lt;/td&gt;
+                &lt;td&gt;Used for two-tailed test (2 threshold), no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;zTest
+                  &lt;a name=&quot;statistic-model-code-zTest&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;z-test&lt;/td&gt;
+                &lt;td&gt;Used for z-test, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;oneSampleTTest
+                  &lt;a name=&quot;statistic-model-code-oneSampleTTest&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;1-sample t-test&lt;/td&gt;
+                &lt;td&gt;Used for 1-sample t-test, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;twoSampleTTest
+                  &lt;a name=&quot;statistic-model-code-twoSampleTTest&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;2-sample t-test&lt;/td&gt;
+                &lt;td&gt;Used for 2-sample t-test, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;pairedTTest
+                  &lt;a name=&quot;statistic-model-code-pairedTTest&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;paired t-test&lt;/td&gt;
+                &lt;td&gt;Used for paired t-test, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;chiSquareTest
+                  &lt;a name=&quot;statistic-model-code-chiSquareTest&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Chi-square test&lt;/td&gt;
+                &lt;td&gt;Used for Chi-square test, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;chiSquareTestTrend
+                  &lt;a name=&quot;statistic-model-code-chiSquareTestTrend&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Chi-square test for trend&lt;/td&gt;
+                &lt;td&gt;Used for Chi-square test for trend, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;pearsonCorrelation
+                  &lt;a name=&quot;statistic-model-code-pearsonCorrelation&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Pearson correlation&lt;/td&gt;
+                &lt;td&gt;Used for Pearson correlation, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;anova
+                  &lt;a name=&quot;statistic-model-code-anova&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;ANOVA (ANalysis Of VAriance)&lt;/td&gt;
+                &lt;td&gt;Used for ANOVA method of analysis, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;anovaOneWay
+                  &lt;a name=&quot;statistic-model-code-anovaOneWay&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;one-way ANOVA&lt;/td&gt;
+                &lt;td&gt;Used for one-way ANOVA method of analysis, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;anovaTwoWay
+                  &lt;a name=&quot;statistic-model-code-anovaTwoWay&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;2-way ANOVA without replication&lt;/td&gt;
+                &lt;td&gt;Used for 2-way ANOVA without replication method of analysis, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;anovaTwoWayReplication
+                  &lt;a name=&quot;statistic-model-code-anovaTwoWayReplication&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;2-way ANOVA with replication&lt;/td&gt;
+                &lt;td&gt;Used for 2-way ANOVA with replication method of analysis, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;manova
+                  &lt;a name=&quot;statistic-model-code-manova&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;multivariate ANOVA (MANOVA)&lt;/td&gt;
+                &lt;td&gt;Used for multivariate ANOVA (MANOVA) method of analysis, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;anovaThreeWay
+                  &lt;a name=&quot;statistic-model-code-anovaThreeWay&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;3-way ANOVA&lt;/td&gt;
+                &lt;td&gt;Used for 3-way ANOVA method of analysis, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;signTest
+                  &lt;a name=&quot;statistic-model-code-signTest&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;sign test&lt;/td&gt;
+                &lt;td&gt;Used for sign test, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;wilcoxonSignedRankTest
+                  &lt;a name=&quot;statistic-model-code-wilcoxonSignedRankTest&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Wilcoxon signed-rank test&lt;/td&gt;
+                &lt;td&gt;Used for Wilcoxon signed-rank test, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;wilcoxonRankSumTest
+                  &lt;a name=&quot;statistic-model-code-wilcoxonRankSumTest&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Wilcoxon rank-sum test&lt;/td&gt;
+                &lt;td&gt;Used for Wilcoxon rank-sum test, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;mannWhitneyUTest
+                  &lt;a name=&quot;statistic-model-code-mannWhitneyUTest&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Mann-Whitney U test&lt;/td&gt;
+                &lt;td&gt;Used for Mann-Whitney U test, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;fishersExactTest
+                  &lt;a name=&quot;statistic-model-code-fishersExactTest&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Fisher’s exact test&lt;/td&gt;
+                &lt;td&gt;Used for Fisher's exact test, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;mcnemarsTest
+                  &lt;a name=&quot;statistic-model-code-mcnemarsTest&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;McNemar’s test&lt;/td&gt;
+                &lt;td&gt;Used for McNemar's test, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;kruskalWallisTest
+                  &lt;a name=&quot;statistic-model-code-kruskalWallisTest&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Kruskal Wallis test&lt;/td&gt;
+                &lt;td&gt;Used for Kruskal Wallis test, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;spearmanCorrelation
+                  &lt;a name=&quot;statistic-model-code-spearmanCorrelation&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Spearman correlation&lt;/td&gt;
+                &lt;td&gt;Used for Spearman correlation, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;kendallCorrelation
+                  &lt;a name=&quot;statistic-model-code-kendallCorrelation&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Kendall correlation&lt;/td&gt;
+                &lt;td&gt;Used for Kendall correlation, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;friedmanTest
+                  &lt;a name=&quot;statistic-model-code-friedmanTest&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Friedman test&lt;/td&gt;
+                &lt;td&gt;Used for Friedman test, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;goodmanKruskasGamma
+                  &lt;a name=&quot;statistic-model-code-goodmanKruskasGamma&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Goodman Kruska’s Gamma&lt;/td&gt;
+                &lt;td&gt;Used for Goodman Kruska’s Gamma, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;glm
+                  &lt;a name=&quot;statistic-model-code-glm&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;GLM (Generalized Linear Model)&lt;/td&gt;
+                &lt;td&gt;Used for GLM (Generalized Linear Model), no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;glmProbit
+                  &lt;a name=&quot;statistic-model-code-glmProbit&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;GLM with probit link&lt;/td&gt;
+                &lt;td&gt;Used for GLM with probit link, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;glmLogit
+                  &lt;a name=&quot;statistic-model-code-glmLogit&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;GLM with logit link&lt;/td&gt;
+                &lt;td&gt;Used for GLM with logit link, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;glmIdentity
+                  &lt;a name=&quot;statistic-model-code-glmIdentity&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;GLM with identity link&lt;/td&gt;
+                &lt;td&gt;Used for GLM with identity link, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;glmLog
+                  &lt;a name=&quot;statistic-model-code-glmLog&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;GLM with log link&lt;/td&gt;
+                &lt;td&gt;Used for GLM with log link, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;glmGeneralizedLogit
+                  &lt;a name=&quot;statistic-model-code-glmGeneralizedLogit&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;GLM with generalized logit link&lt;/td&gt;
+                &lt;td&gt;Used for GLM with generalized logit link, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;glmm
+                  &lt;a name=&quot;statistic-model-code-glmm&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Generalized linear mixed model (GLMM)&lt;/td&gt;
+                &lt;td&gt;Used for Generalized linear mixed model (GLMM), no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;glmmProbit
+                  &lt;a name=&quot;statistic-model-code-glmmProbit&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;GLMM with probit link&lt;/td&gt;
+                &lt;td&gt;Used for GLMM with probit link, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;glmmLogit
+                  &lt;a name=&quot;statistic-model-code-glmmLogit&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;GLMM with logit link&lt;/td&gt;
+                &lt;td&gt;Used for GLMM with logit link, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;glmmIdentity
+                  &lt;a name=&quot;statistic-model-code-glmmIdentity&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;GLMM with identity link&lt;/td&gt;
+                &lt;td&gt;Used for GLMM with identity link, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;glmmLog
+                  &lt;a name=&quot;statistic-model-code-glmmLog&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;GLMM with log link&lt;/td&gt;
+                &lt;td&gt;Used for GLMM with log link, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;glmmGeneralizedLogit
+                  &lt;a name=&quot;statistic-model-code-glmmGeneralizedLogit&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;GLMM with generalized logit link&lt;/td&gt;
+                &lt;td&gt;Used for GLMM with generalized logit link, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;linearRegression
+                  &lt;a name=&quot;statistic-model-code-linearRegression&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Linear Regression&lt;/td&gt;
+                &lt;td&gt;Used for linear regression method of analysis, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;logisticRegression
+                  &lt;a name=&quot;statistic-model-code-logisticRegression&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Logistic Regression&lt;/td&gt;
+                &lt;td&gt;Used for logistic regression method of analysis, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;polynomialRegression
+                  &lt;a name=&quot;statistic-model-code-polynomialRegression&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Polynomial Regression&lt;/td&gt;
+                &lt;td&gt;Used for Polynomial regression method of analysis, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;coxProportionalHazards
+                  &lt;a name=&quot;statistic-model-code-coxProportionalHazards&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Cox Proportional Hazards&lt;/td&gt;
+                &lt;td&gt;Used for Cox proportional hazards method of analysis, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;binomialDistributionRegression
+                  &lt;a name=&quot;statistic-model-code-binomialDistributionRegression&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Binomial Distribution for Regression&lt;/td&gt;
+                &lt;td&gt;Used for Binomial Distribution for Regression, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;multinomialDistributionRegression
+                  &lt;a name=&quot;statistic-model-code-multinomialDistributionRegression&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Multinomial Distribution for Regression&lt;/td&gt;
+                &lt;td&gt;Used for Multinomial Distribution for Regression, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;poissonRegression
+                  &lt;a name=&quot;statistic-model-code-poissonRegression&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Poisson Regression&lt;/td&gt;
+                &lt;td&gt;Used for Poisson Regression, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;negativeBinomialRegression
+                  &lt;a name=&quot;statistic-model-code-negativeBinomialRegression&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Negative Binomial Regression&lt;/td&gt;
+                &lt;td&gt;Used for Negative Binomial Regression, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;zeroCellConstant
+                  &lt;a name=&quot;statistic-model-code-zeroCellConstant&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Zero-cell adjustment with constant&lt;/td&gt;
+                &lt;td&gt;Zero-cell adjustment done by adding a constant to all cells of affected studies, paired with &amp;quot;value&amp;quot; to define the constant&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;zeroCellContinuityCorrection
+                  &lt;a name=&quot;statistic-model-code-zeroCellContinuityCorrection&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Zero-cell adjustment with continuity correction&lt;/td&gt;
+                &lt;td&gt;Zero-cell adjustment done by treatment arm continuity correction, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;adjusted
+                  &lt;a name=&quot;statistic-model-code-adjusted&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Adjusted analysis&lt;/td&gt;
+                &lt;td&gt;Used for adjusted analysis, paired with variable element(s)&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;interactionTerm
+                  &lt;a name=&quot;statistic-model-code-interactionTerm&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Interaction term&lt;/td&gt;
+                &lt;td&gt;Used for interaction term, paired with &amp;quot;value&amp;quot; and two or more variable elements&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;manteHaenszelMethod
+                  &lt;a name=&quot;statistic-model-code-manteHaenszelMethod&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Mantel-Haenszel method&lt;/td&gt;
+                &lt;td&gt;Used for Mantel-Haenszel method, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;metaAnalysis
+                  &lt;a name=&quot;statistic-model-code-metaAnalysis&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Meta-analysis&lt;/td&gt;
+                &lt;td&gt;Used for meta-analysis, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;inverseVariance
+                  &lt;a name=&quot;statistic-model-code-inverseVariance&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Inverse variance method&lt;/td&gt;
+                &lt;td&gt;Used for inverse variance method of meta-analysis, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;petoMethod
+                  &lt;a name=&quot;statistic-model-code-petoMethod&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Peto method&lt;/td&gt;
+                &lt;td&gt;Used for Peto method of meta-analysis, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;hartungKnapp
+                  &lt;a name=&quot;statistic-model-code-hartungKnapp&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Hartung-Knapp adjustment&lt;/td&gt;
+                &lt;td&gt;Hartung-Knapp/Hartung-Knapp-Sidik-Jonkman adjustment used in meta-analysis, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;modifiedHartungKnapp
+                  &lt;a name=&quot;statistic-model-code-modifiedHartungKnapp&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Modified Hartung-Knapp adjustment&lt;/td&gt;
+                &lt;td&gt;Modified Hartung-Knapp/Hartung-Knapp-Sidik-Jonkman adjustment used in meta-analysis, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;effectsFixed
+                  &lt;a name=&quot;statistic-model-code-effectsFixed&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Fixed-effects&lt;/td&gt;
+                &lt;td&gt;From a fixed-effects analysis, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;effectsRandom
+                  &lt;a name=&quot;statistic-model-code-effectsRandom&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Random-effects&lt;/td&gt;
+                &lt;td&gt;From a random-effects analysis, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;chiSquareTestHomogeneity
+                  &lt;a name=&quot;statistic-model-code-chiSquareTestHomogeneity&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Chi-square test for homogeneity&lt;/td&gt;
+                &lt;td&gt;Used for Chi-square test for homogeneity, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;dersimonianLairdMethod
+                  &lt;a name=&quot;statistic-model-code-dersimonianLairdMethod&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Dersimonian-Laird method&lt;/td&gt;
+                &lt;td&gt;Used for Dersimonian-Laird method of tau estimation, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;pauleMandelMethod
+                  &lt;a name=&quot;statistic-model-code-pauleMandelMethod&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Paule-Mandel method&lt;/td&gt;
+                &lt;td&gt;Used for Paule-Mandel method of tau estimation, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;restrictedLikelihood
+                  &lt;a name=&quot;statistic-model-code-restrictedLikelihood&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Restricted Maximum Likelihood method&lt;/td&gt;
+                &lt;td&gt;Used for Restricted Maximum Likelihood method of tau estimation, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;maximumLikelihood
+                  &lt;a name=&quot;statistic-model-code-maximumLikelihood&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Maximum Likelihood method&lt;/td&gt;
+                &lt;td&gt;Used for Maximum Likelihood method of tau estimation, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;empiricalBayes
+                  &lt;a name=&quot;statistic-model-code-empiricalBayes&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Empirical Bayes method&lt;/td&gt;
+                &lt;td&gt;Used for Empirical Bayes method of tau estimation, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;hunterSchmidt
+                  &lt;a name=&quot;statistic-model-code-hunterSchmidt&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Hunter-Schmidt method&lt;/td&gt;
+                &lt;td&gt;Used for Hunter-Schmidt method of tau estimation, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;sidikJonkman
+                  &lt;a name=&quot;statistic-model-code-sidikJonkman&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Sidik-Jonkman method&lt;/td&gt;
+                &lt;td&gt;Used for Sidik-Jonkman method of tau estimation, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;hedgesMethod
+                  &lt;a name=&quot;statistic-model-code-hedgesMethod&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Hedges method&lt;/td&gt;
+                &lt;td&gt;Used for Hedges method of tau estimation, no additional elements needed&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;tauDersimonianLaird
+                  &lt;a name=&quot;statistic-model-code-tauDersimonianLaird&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Dersimonian-Laird method&lt;/td&gt;
+                &lt;td&gt;Dersimonian-Laird method for tau squared&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;tauPauleMandel
+                  &lt;a name=&quot;statistic-model-code-tauPauleMandel&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Paule-Mandel method&lt;/td&gt;
+                &lt;td&gt;Paule-Mandel method for tau squared&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;tauRestrictedMaximumLikelihood
+                  &lt;a name=&quot;statistic-model-code-tauRestrictedMaximumLikelihood&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Restricted Maximum Likelihood method&lt;/td&gt;
+                &lt;td&gt;Restricted Maximum Likelihood method for tau squared&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;tauMaximumLikelihood
+                  &lt;a name=&quot;statistic-model-code-tauMaximumLikelihood&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Maximum Likelihood method&lt;/td&gt;
+                &lt;td&gt;Maximum Likelihood method for tau squared&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;tauEmpiricalBayes
+                  &lt;a name=&quot;statistic-model-code-tauEmpiricalBayes&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Empirical Bayes method&lt;/td&gt;
+                &lt;td&gt;Empirical Bayes method for tau squared&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;tauHunterSchmidt
+                  &lt;a name=&quot;statistic-model-code-tauHunterSchmidt&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Hunter-Schmidt method&lt;/td&gt;
+                &lt;td&gt;Hunter-Schmidt method for tau squared&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;tauSidikJonkman
+                  &lt;a name=&quot;statistic-model-code-tauSidikJonkman&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Sidik-Jonkman method&lt;/td&gt;
+                &lt;td&gt;Sidik-Jonkman method for tau squared&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;tauHedges
+                  &lt;a name=&quot;statistic-model-code-tauHedges&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Hedges method&lt;/td&gt;
+                &lt;td&gt;Hedges method for tau squared&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;poolMantelHaenzsel
+                  &lt;a name=&quot;statistic-model-code-poolMantelHaenzsel&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Mantel-Haenszel method&lt;/td&gt;
+                &lt;td&gt;Mantel-Haenszel method for pooling in meta-analysis&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;poolInverseVariance
+                  &lt;a name=&quot;statistic-model-code-poolInverseVariance&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Inverse variance method&lt;/td&gt;
+                &lt;td&gt;Inverse variance method for pooling in meta-analysis&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;poolPeto
+                  &lt;a name=&quot;statistic-model-code-poolPeto&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Peto method&lt;/td&gt;
+                &lt;td&gt;Peto method for pooling in meta-analysis&lt;/td&gt;
+              &lt;/tr&gt;
+              &lt;tr&gt;
+                &lt;td style=&quot;white-space:nowrap&quot;&gt;poolGeneralizedLinearMixedModel
+                  &lt;a name=&quot;statistic-model-code-poolGeneralizedLinearMixedModel&quot;&gt; &lt;/a&gt;
+                &lt;/td&gt;
+                &lt;td&gt;Generalized linear mixed model (GLMM)&lt;/td&gt;
+                &lt;td&gt;Generalized linear mixed model (GLMM) method for pooling in meta-analysis&lt;/td&gt;
+              &lt;/tr&gt;
+            &lt;/table&gt;
+          &lt;/div&gt;<a name="end-xhtml"></a>
+  &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.text">text</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.extension">extension</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;trial-use&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.extension">extension</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.extension">extension</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;1&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.extension">extension</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/package-source&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;packageId&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueId</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;hl7.fhir.uv.xver-r5.r4&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;version&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;0.0.1-snapshot-3&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;uri&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueUri</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">extension</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.extension">extension</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.extension">extension</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-wg&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;cds&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.extension">extension</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/statistic-model-code&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;5.0.0&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;StatisticModelCode&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">title</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Statistic Model Code&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.experimental">experimental</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2021-08-04T20:00:00-05:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">publisher</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Clinical Decision Support&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">contact</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Clinical Decision Support&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;url&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;http://www.hl7.org/Special/committees/dss&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">contact</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">description</a> <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;The role that the assertion variable plays.&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.jurisdiction">jurisdiction</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://unstats.un.org/unsd/methods/m49/m49.htm&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;001&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;World&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.jurisdiction">jurisdiction</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.caseSensitive">caseSensitive</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.valueSet">valueSet</a> <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/ValueSet/statistic-model-code&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">content</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;complete&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;oneTailedTest&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;one-tailed test (1 threshold)&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for one-tailed test (1 threshold), no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;twoTailedTest&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;two-tailed test (2 thresholds)&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for two-tailed test (2 threshold), no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;zTest&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;z-test&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for z-test, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;oneSampleTTest&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1-sample t-test&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for 1-sample t-test, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;twoSampleTTest&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2-sample t-test&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for 2-sample t-test, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;pairedTTest&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;paired t-test&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for paired t-test, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;chiSquareTest&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Chi-square test&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Chi-square test, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;chiSquareTestTrend&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Chi-square test for trend&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Chi-square test for trend, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;pearsonCorrelation&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Pearson correlation&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Pearson correlation, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;anova&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ANOVA (ANalysis Of VAriance)&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for ANOVA method of analysis, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;anovaOneWay&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;one-way ANOVA&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for one-way ANOVA method of analysis, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;anovaTwoWay&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2-way ANOVA without replication&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for 2-way ANOVA without replication method of analysis, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;anovaTwoWayReplication&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2-way ANOVA with replication&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for 2-way ANOVA with replication method of analysis, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;manova&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;multivariate ANOVA (MANOVA)&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for multivariate ANOVA (MANOVA) method of analysis, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;anovaThreeWay&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;3-way ANOVA&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for 3-way ANOVA method of analysis, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;signTest&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;sign test&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for sign test, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wilcoxonSignedRankTest&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Wilcoxon signed-rank test&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Wilcoxon signed-rank test, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wilcoxonRankSumTest&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Wilcoxon rank-sum test&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Wilcoxon rank-sum test, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;mannWhitneyUTest&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Mann-Whitney U test&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Mann-Whitney U test, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;fishersExactTest&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Fisher’s exact test&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Fisher's exact test, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;mcnemarsTest&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;McNemar’s test&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for McNemar's test, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;kruskalWallisTest&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Kruskal Wallis test&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Kruskal Wallis test, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;spearmanCorrelation&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Spearman correlation&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Spearman correlation, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;kendallCorrelation&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Kendall correlation&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Kendall correlation, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;friedmanTest&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Friedman test&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Friedman test, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;goodmanKruskasGamma&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Goodman Kruska’s Gamma&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Goodman Kruska’s Gamma, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;glm&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;GLM (Generalized Linear Model)&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for GLM (Generalized Linear Model), no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;glmProbit&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;GLM with probit link&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for GLM with probit link, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;glmLogit&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;GLM with logit link&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for GLM with logit link, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;glmIdentity&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;GLM with identity link&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for GLM with identity link, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;glmLog&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;GLM with log link&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for GLM with log link, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;glmGeneralizedLogit&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;GLM with generalized logit link&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for GLM with generalized logit link, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;glmm&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Generalized linear mixed model (GLMM)&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Generalized linear mixed model (GLMM), no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;glmmProbit&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;GLMM with probit link&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for GLMM with probit link, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;glmmLogit&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;GLMM with logit link&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for GLMM with logit link, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;glmmIdentity&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;GLMM with identity link&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for GLMM with identity link, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;glmmLog&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;GLMM with log link&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for GLMM with log link, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;glmmGeneralizedLogit&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;GLMM with generalized logit link&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for GLMM with generalized logit link, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;linearRegression&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Linear Regression&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for linear regression method of analysis, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;logisticRegression&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Logistic Regression&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for logistic regression method of analysis, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;polynomialRegression&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Polynomial Regression&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Polynomial regression method of analysis, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;coxProportionalHazards&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Cox Proportional Hazards&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Cox proportional hazards method of analysis, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;binomialDistributionRegression&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Binomial Distribution for Regression&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Binomial Distribution for Regression, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;multinomialDistributionRegression&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Multinomial Distribution for Regression&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Multinomial Distribution for Regression, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;poissonRegression&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Poisson Regression&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Poisson Regression, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;negativeBinomialRegression&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Negative Binomial Regression&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Negative Binomial Regression, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;zeroCellConstant&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Zero-cell adjustment with constant&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Zero-cell adjustment done by adding a constant to all cells of affected studies, paired with &amp;quot;value&amp;quot; to define the constant&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;zeroCellContinuityCorrection&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Zero-cell adjustment with continuity correction&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Zero-cell adjustment done by treatment arm continuity correction, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;adjusted&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Adjusted analysis&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for adjusted analysis, paired with variable element(s)&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;interactionTerm&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Interaction term&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for interaction term, paired with &amp;quot;value&amp;quot; and two or more variable elements&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;manteHaenszelMethod&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Mantel-Haenszel method&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Mantel-Haenszel method, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;metaAnalysis&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Meta-analysis&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for meta-analysis, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;inverseVariance&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Inverse variance method&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for inverse variance method of meta-analysis, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;petoMethod&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Peto method&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Peto method of meta-analysis, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;hartungKnapp&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Hartung-Knapp adjustment&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Hartung-Knapp/Hartung-Knapp-Sidik-Jonkman adjustment used in meta-analysis, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;modifiedHartungKnapp&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Modified Hartung-Knapp adjustment&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Modified Hartung-Knapp/Hartung-Knapp-Sidik-Jonkman adjustment used in meta-analysis, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;effectsFixed&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Fixed-effects&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;From a fixed-effects analysis, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;effectsRandom&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Random-effects&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;From a random-effects analysis, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;chiSquareTestHomogeneity&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Chi-square test for homogeneity&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Chi-square test for homogeneity, may be paired with &amp;quot;value&amp;quot; to express degrees of freedom&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;dersimonianLairdMethod&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Dersimonian-Laird method&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Dersimonian-Laird method of tau estimation, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;pauleMandelMethod&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Paule-Mandel method&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Paule-Mandel method of tau estimation, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;restrictedLikelihood&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Restricted Maximum Likelihood method&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Restricted Maximum Likelihood method of tau estimation, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;maximumLikelihood&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Maximum Likelihood method&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Maximum Likelihood method of tau estimation, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;empiricalBayes&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Empirical Bayes method&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Empirical Bayes method of tau estimation, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;hunterSchmidt&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Hunter-Schmidt method&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Hunter-Schmidt method of tau estimation, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;sidikJonkman&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Sidik-Jonkman method&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Sidik-Jonkman method of tau estimation, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;hedgesMethod&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Hedges method&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Used for Hedges method of tau estimation, no additional elements needed&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;tauDersimonianLaird&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Dersimonian-Laird method&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Dersimonian-Laird method for tau squared&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;tauPauleMandel&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Paule-Mandel method&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Paule-Mandel method for tau squared&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;tauRestrictedMaximumLikelihood&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Restricted Maximum Likelihood method&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Restricted Maximum Likelihood method for tau squared&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;tauMaximumLikelihood&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Maximum Likelihood method&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Maximum Likelihood method for tau squared&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;tauEmpiricalBayes&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Empirical Bayes method&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Empirical Bayes method for tau squared&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;tauHunterSchmidt&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Hunter-Schmidt method&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Hunter-Schmidt method for tau squared&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;tauSidikJonkman&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Sidik-Jonkman method&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Sidik-Jonkman method for tau squared&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;tauHedges&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Hedges method&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Hedges method for tau squared&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;poolMantelHaenzsel&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Mantel-Haenszel method&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Mantel-Haenszel method for pooling in meta-analysis&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;poolInverseVariance&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Inverse variance method&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Inverse variance method for pooling in meta-analysis&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;poolPeto&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Peto method&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Peto method for pooling in meta-analysis&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;poolGeneralizedLinearMixedModel&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Generalized linear mixed model (GLMM)&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">definition</a>
+                <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Generalized linear mixed model (GLMM) method for pooling in meta-analysis&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>&gt;
+&lt;/<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">CodeSystem</a>&gt;</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="CodeSystem-statistic-model-code-testing.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="CodeSystem-statistic-model-code.json.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-21 13:39:00 -0600">
+    2026-02-21
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir/uv/xver/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

@@ -1,0 +1,1247 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-VaccineType-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-v3-VaccineType-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-v3-VaccineType-for-R4</b></p><a name=\"R5-v3-VaccineType-for-R4\"> </a><a name=\"hcR5-v3-VaccineType-for-R4\"> </a><p>This value set expansion contains 100 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-1\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1</td><td>DTP</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-10\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  10</td><td>IPV</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-100\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  100</td><td>pneumococcal conjugate</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-101\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  101</td><td>typhoid, ViCPs</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-11\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  11</td><td>pertussis</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-12\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  12</td><td>diphtheria antitoxin</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-13\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  13</td><td>TIG</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-14\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  14</td><td>IG, NOS</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-15\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  15</td><td>influenza, split (incl. purified surface antigen)</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-16\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  16</td><td>influenza, whole</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-17\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  17</td><td>Hib, NOS</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-18\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  18</td><td>rabies, intramuscular injection</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-19\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  19</td><td>BCG</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-2\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  2</td><td>OPV</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-20\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  20</td><td>DTaP</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-21\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  21</td><td>varicella</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-22\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  22</td><td>DTP-Hib</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-23\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  23</td><td>plague</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-24\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  24</td><td>Anthrax</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-25\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  25</td><td>typhoid, oral</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-26\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  26</td><td>Cholera</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-27\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  27</td><td>botulinum antitoxin</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-28\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  28</td><td>DT (pediatric)</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-29\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  29</td><td>CMVIG</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-3\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  3</td><td>MMR</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-30\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  30</td><td>HBIG</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-31\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  31</td><td>Hep A, pediatric, NOS</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-32\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  32</td><td>meningococcal</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-33\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  33</td><td>pneumococcal</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-34\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  34</td><td>RIG</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-35\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  35</td><td>tetanus toxoid</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-36\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  36</td><td>VZIG</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-37\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  37</td><td>yellow fever</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-38\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  38</td><td>rubella/mumps</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-39\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  39</td><td>Japanese encephalitis</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-4\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  4</td><td>M/R</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-40\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  40</td><td>rabies, intradermal injection</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-41\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  41</td><td>typhoid, parenteral</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-42\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  42</td><td>Hep B, adolescent/high risk infant</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-43\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  43</td><td>Hep B, adult</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-44\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  44</td><td>Hep B, dialysis</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-45\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  45</td><td>Hep B, NOS</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-46\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  46</td><td>Hib (PRP-D)</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-47\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  47</td><td>Hib (HbOC)</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-48\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  48</td><td>Hib (PRP-T)</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-49\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  49</td><td>Hib (PRP-OMP)</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-5\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  5</td><td>measles</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-50\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  50</td><td>DTaPHib</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-51\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  51</td><td>Hib-Hep B</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-52\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  52</td><td>Hep A, adult</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-53\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  53</td><td>typhoid, parenteral, AKD (U.S. military)</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-54\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  54</td><td>adenovirus, type 4</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-55\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  55</td><td>adenovirus, type 7</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-56\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  56</td><td>dengue fever</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-57\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  57</td><td>Hantavirus</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-58\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  58</td><td>Hep C</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-59\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  59</td><td>Hep E</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-6\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  6</td><td>rubella</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-60\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  60</td><td>herpes simplex 2</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-61\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  61</td><td>HIV</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-62\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  62</td><td>HPV</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-63\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  63</td><td>Junin virus</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-64\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  64</td><td>leishmaniasis</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-65\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  65</td><td>leprosy</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-66\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  66</td><td>Lyme disease</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-67\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  67</td><td>malaria</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-68\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  68</td><td>melanoma</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-69\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  69</td><td>parainfluenza-3</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-7\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  7</td><td>mumps</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-70\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  70</td><td>Q fever</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-71\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  71</td><td>RSV-IGIV</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-72\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  72</td><td>rheumatic fever</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-73\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  73</td><td>Rift Valley fever</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-74\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  74</td><td>rotavirus</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-75\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  75</td><td>smallpox</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-76\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  76</td><td>Staphylococcus bacterio lysate</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-77\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  77</td><td>tick-borne encephalitis</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-78\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  78</td><td>tularemia vaccine</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-79\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  79</td><td>vaccinia immune globulin</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-8\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  8</td><td>Hep B, adolescent or pediatric</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-80\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  80</td><td>VEE, live</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-81\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  81</td><td>VEE, inactivated</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-82\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  82</td><td>adenovirus, NOS</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-83\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  83</td><td>Hep A, ped/adol, 2 dose</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-84\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  84</td><td>Hep A, ped/adol, 3 dose</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-85\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  85</td><td>Hep A, NOS</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-86\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  86</td><td>IG</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-87\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  87</td><td>IGIV</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-88\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  88</td><td>influenza, NOS</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-89\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  89</td><td>polio, NOS</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-9\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  9</td><td>Td (adult)</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-90\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  90</td><td>rabies, NOS</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-91\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  91</td><td>typhoid, NOS</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-92\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  92</td><td>VEE, NOS</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-93\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  93</td><td>RSV-Mab</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-94\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  94</td><td>MMRV</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-95\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  95</td><td>TST-OT tine test</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-96\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  96</td><td>TST-PPD intradermal</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-97\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  97</td><td>TST-PPD tine test</td></tr><tr><td><a name=\"R5-v3-VaccineType-for-R4-http://terminology.hl7.org/CodeSystem/v3-VaccineType-98\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-VaccineType</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  98</td><td>TST, NOS</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-VaccineType-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-VaccineType-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5V3VaccineTypeForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.VaccineType for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v3-VaccineType|2.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/v3-VaccineType|2.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* \r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://terminology.hl7.org/ValueSet/v3-VaccineType|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "1" ] ;
+         fhir:display [ fhir:v "DTP" ]
+       ] [
+         fhir:code [ fhir:v "10" ] ;
+         fhir:display [ fhir:v "IPV" ]
+       ] [
+         fhir:code [ fhir:v "100" ] ;
+         fhir:display [ fhir:v "pneumococcal conjugate" ]
+       ] [
+         fhir:code [ fhir:v "101" ] ;
+         fhir:display [ fhir:v "typhoid, ViCPs" ]
+       ] [
+         fhir:code [ fhir:v "11" ] ;
+         fhir:display [ fhir:v "pertussis" ]
+       ] [
+         fhir:code [ fhir:v "12" ] ;
+         fhir:display [ fhir:v "diphtheria antitoxin" ]
+       ] [
+         fhir:code [ fhir:v "13" ] ;
+         fhir:display [ fhir:v "TIG" ]
+       ] [
+         fhir:code [ fhir:v "14" ] ;
+         fhir:display [ fhir:v "IG, NOS" ]
+       ] [
+         fhir:code [ fhir:v "15" ] ;
+         fhir:display [ fhir:v "influenza, split (incl. purified surface antigen)" ]
+       ] [
+         fhir:code [ fhir:v "16" ] ;
+         fhir:display [ fhir:v "influenza, whole" ]
+       ] [
+         fhir:code [ fhir:v "17" ] ;
+         fhir:display [ fhir:v "Hib, NOS" ]
+       ] [
+         fhir:code [ fhir:v "18" ] ;
+         fhir:display [ fhir:v "rabies, intramuscular injection" ]
+       ] [
+         fhir:code [ fhir:v "19" ] ;
+         fhir:display [ fhir:v "BCG" ]
+       ] [
+         fhir:code [ fhir:v "2" ] ;
+         fhir:display [ fhir:v "OPV" ]
+       ] [
+         fhir:code [ fhir:v "20" ] ;
+         fhir:display [ fhir:v "DTaP" ]
+       ] [
+         fhir:code [ fhir:v "21" ] ;
+         fhir:display [ fhir:v "varicella" ]
+       ] [
+         fhir:code [ fhir:v "22" ] ;
+         fhir:display [ fhir:v "DTP-Hib" ]
+       ] [
+         fhir:code [ fhir:v "23" ] ;
+         fhir:display [ fhir:v "plague" ]
+       ] [
+         fhir:code [ fhir:v "24" ] ;
+         fhir:display [ fhir:v "Anthrax" ]
+       ] [
+         fhir:code [ fhir:v "25" ] ;
+         fhir:display [ fhir:v "typhoid, oral" ]
+       ] [
+         fhir:code [ fhir:v "26" ] ;
+         fhir:display [ fhir:v "Cholera" ]
+       ] [
+         fhir:code [ fhir:v "27" ] ;
+         fhir:display [ fhir:v "botulinum antitoxin" ]
+       ] [
+         fhir:code [ fhir:v "28" ] ;
+         fhir:display [ fhir:v "DT (pediatric)" ]
+       ] [
+         fhir:code [ fhir:v "29" ] ;
+         fhir:display [ fhir:v "CMVIG" ]
+       ] [
+         fhir:code [ fhir:v "3" ] ;
+         fhir:display [ fhir:v "MMR" ]
+       ] [
+         fhir:code [ fhir:v "30" ] ;
+         fhir:display [ fhir:v "HBIG" ]
+       ] [
+         fhir:code [ fhir:v "31" ] ;
+         fhir:display [ fhir:v "Hep A, pediatric, NOS" ]
+       ] [
+         fhir:code [ fhir:v "32" ] ;
+         fhir:display [ fhir:v "meningococcal" ]
+       ] [
+         fhir:code [ fhir:v "33" ] ;
+         fhir:display [ fhir:v "pneumococcal" ]
+       ] [
+         fhir:code [ fhir:v "34" ] ;
+         fhir:display [ fhir:v "RIG" ]
+       ] [
+         fhir:code [ fhir:v "35" ] ;
+         fhir:display [ fhir:v "tetanus toxoid" ]
+       ] [
+         fhir:code [ fhir:v "36" ] ;
+         fhir:display [ fhir:v "VZIG" ]
+       ] [
+         fhir:code [ fhir:v "37" ] ;
+         fhir:display [ fhir:v "yellow fever" ]
+       ] [
+         fhir:code [ fhir:v "38" ] ;
+         fhir:display [ fhir:v "rubella/mumps" ]
+       ] [
+         fhir:code [ fhir:v "39" ] ;
+         fhir:display [ fhir:v "Japanese encephalitis" ]
+       ] [
+         fhir:code [ fhir:v "4" ] ;
+         fhir:display [ fhir:v "M/R" ]
+       ] [
+         fhir:code [ fhir:v "40" ] ;
+         fhir:display [ fhir:v "rabies, intradermal injection" ]
+       ] [
+         fhir:code [ fhir:v "41" ] ;
+         fhir:display [ fhir:v "typhoid, parenteral" ]
+       ] [
+         fhir:code [ fhir:v "42" ] ;
+         fhir:display [ fhir:v "Hep B, adolescent/high risk infant" ]
+       ] [
+         fhir:code [ fhir:v "43" ] ;
+         fhir:display [ fhir:v "Hep B, adult" ]
+       ] [
+         fhir:code [ fhir:v "44" ] ;
+         fhir:display [ fhir:v "Hep B, dialysis" ]
+       ] [
+         fhir:code [ fhir:v "45" ] ;
+         fhir:display [ fhir:v "Hep B, NOS" ]
+       ] [
+         fhir:code [ fhir:v "46" ] ;
+         fhir:display [ fhir:v "Hib (PRP-D)" ]
+       ] [
+         fhir:code [ fhir:v "47" ] ;
+         fhir:display [ fhir:v "Hib (HbOC)" ]
+       ] [
+         fhir:code [ fhir:v "48" ] ;
+         fhir:display [ fhir:v "Hib (PRP-T)" ]
+       ] [
+         fhir:code [ fhir:v "49" ] ;
+         fhir:display [ fhir:v "Hib (PRP-OMP)" ]
+       ] [
+         fhir:code [ fhir:v "5" ] ;
+         fhir:display [ fhir:v "measles" ]
+       ] [
+         fhir:code [ fhir:v "50" ] ;
+         fhir:display [ fhir:v "DTaPHib" ]
+       ] [
+         fhir:code [ fhir:v "51" ] ;
+         fhir:display [ fhir:v "Hib-Hep B" ]
+       ] [
+         fhir:code [ fhir:v "52" ] ;
+         fhir:display [ fhir:v "Hep A, adult" ]
+       ] [
+         fhir:code [ fhir:v "53" ] ;
+         fhir:display [ fhir:v "typhoid, parenteral, AKD (U.S. military)" ]
+       ] [
+         fhir:code [ fhir:v "54" ] ;
+         fhir:display [ fhir:v "adenovirus, type 4" ]
+       ] [
+         fhir:code [ fhir:v "55" ] ;
+         fhir:display [ fhir:v "adenovirus, type 7" ]
+       ] [
+         fhir:code [ fhir:v "56" ] ;
+         fhir:display [ fhir:v "dengue fever" ]
+       ] [
+         fhir:code [ fhir:v "57" ] ;
+         fhir:display [ fhir:v "Hantavirus" ]
+       ] [
+         fhir:code [ fhir:v "58" ] ;
+         fhir:display [ fhir:v "Hep C" ]
+       ] [
+         fhir:code [ fhir:v "59" ] ;
+         fhir:display [ fhir:v "Hep E" ]
+       ] [
+         fhir:code [ fhir:v "6" ] ;
+         fhir:display [ fhir:v "rubella" ]
+       ] [
+         fhir:code [ fhir:v "60" ] ;
+         fhir:display [ fhir:v "herpes simplex 2" ]
+       ] [
+         fhir:code [ fhir:v "61" ] ;
+         fhir:display [ fhir:v "HIV" ]
+       ] [
+         fhir:code [ fhir:v "62" ] ;
+         fhir:display [ fhir:v "HPV" ]
+       ] [
+         fhir:code [ fhir:v "63" ] ;
+         fhir:display [ fhir:v "Junin virus" ]
+       ] [
+         fhir:code [ fhir:v "64" ] ;
+         fhir:display [ fhir:v "leishmaniasis" ]
+       ] [
+         fhir:code [ fhir:v "65" ] ;
+         fhir:display [ fhir:v "leprosy" ]
+       ] [
+         fhir:code [ fhir:v "66" ] ;
+         fhir:display [ fhir:v "Lyme disease" ]
+       ] [
+         fhir:code [ fhir:v "67" ] ;
+         fhir:display [ fhir:v "malaria" ]
+       ] [
+         fhir:code [ fhir:v "68" ] ;
+         fhir:display [ fhir:v "melanoma" ]
+       ] [
+         fhir:code [ fhir:v "69" ] ;
+         fhir:display [ fhir:v "parainfluenza-3" ]
+       ] [
+         fhir:code [ fhir:v "7" ] ;
+         fhir:display [ fhir:v "mumps" ]
+       ] [
+         fhir:code [ fhir:v "70" ] ;
+         fhir:display [ fhir:v "Q fever" ]
+       ] [
+         fhir:code [ fhir:v "71" ] ;
+         fhir:display [ fhir:v "RSV-IGIV" ]
+       ] [
+         fhir:code [ fhir:v "72" ] ;
+         fhir:display [ fhir:v "rheumatic fever" ]
+       ] [
+         fhir:code [ fhir:v "73" ] ;
+         fhir:display [ fhir:v "Rift Valley fever" ]
+       ] [
+         fhir:code [ fhir:v "74" ] ;
+         fhir:display [ fhir:v "rotavirus" ]
+       ] [
+         fhir:code [ fhir:v "75" ] ;
+         fhir:display [ fhir:v "smallpox" ]
+       ] [
+         fhir:code [ fhir:v "76" ] ;
+         fhir:display [ fhir:v "Staphylococcus bacterio lysate" ]
+       ] [
+         fhir:code [ fhir:v "77" ] ;
+         fhir:display [ fhir:v "tick-borne encephalitis" ]
+       ] [
+         fhir:code [ fhir:v "78" ] ;
+         fhir:display [ fhir:v "tularemia vaccine" ]
+       ] [
+         fhir:code [ fhir:v "79" ] ;
+         fhir:display [ fhir:v "vaccinia immune globulin" ]
+       ] [
+         fhir:code [ fhir:v "8" ] ;
+         fhir:display [ fhir:v "Hep B, adolescent or pediatric" ]
+       ] [
+         fhir:code [ fhir:v "80" ] ;
+         fhir:display [ fhir:v "VEE, live" ]
+       ] [
+         fhir:code [ fhir:v "81" ] ;
+         fhir:display [ fhir:v "VEE, inactivated" ]
+       ] [
+         fhir:code [ fhir:v "82" ] ;
+         fhir:display [ fhir:v "adenovirus, NOS" ]
+       ] [
+         fhir:code [ fhir:v "83" ] ;
+         fhir:display [ fhir:v "Hep A, ped/adol, 2 dose" ]
+       ] [
+         fhir:code [ fhir:v "84" ] ;
+         fhir:display [ fhir:v "Hep A, ped/adol, 3 dose" ]
+       ] [
+         fhir:code [ fhir:v "85" ] ;
+         fhir:display [ fhir:v "Hep A, NOS" ]
+       ] [
+         fhir:code [ fhir:v "86" ] ;
+         fhir:display [ fhir:v "IG" ]
+       ] [
+         fhir:code [ fhir:v "87" ] ;
+         fhir:display [ fhir:v "IGIV" ]
+       ] [
+         fhir:code [ fhir:v "88" ] ;
+         fhir:display [ fhir:v "influenza, NOS" ]
+       ] [
+         fhir:code [ fhir:v "89" ] ;
+         fhir:display [ fhir:v "polio, NOS" ]
+       ] [
+         fhir:code [ fhir:v "9" ] ;
+         fhir:display [ fhir:v "Td (adult)" ]
+       ] [
+         fhir:code [ fhir:v "90" ] ;
+         fhir:display [ fhir:v "rabies, NOS" ]
+       ] [
+         fhir:code [ fhir:v "91" ] ;
+         fhir:display [ fhir:v "typhoid, NOS" ]
+       ] [
+         fhir:code [ fhir:v "92" ] ;
+         fhir:display [ fhir:v "VEE, NOS" ]
+       ] [
+         fhir:code [ fhir:v "93" ] ;
+         fhir:display [ fhir:v "RSV-Mab" ]
+       ] [
+         fhir:code [ fhir:v "94" ] ;
+         fhir:display [ fhir:v "MMRV" ]
+       ] [
+         fhir:code [ fhir:v "95" ] ;
+         fhir:display [ fhir:v "TST-OT tine test" ]
+       ] [
+         fhir:code [ fhir:v "96" ] ;
+         fhir:display [ fhir:v "TST-PPD intradermal" ]
+       ] [
+         fhir:code [ fhir:v "97" ] ;
+         fhir:display [ fhir:v "TST-PPD tine test" ]
+       ] [
+         fhir:code [ fhir:v "98" ] ;
+         fhir:display [ fhir:v "TST, NOS" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1" ] ;
+       fhir:display [ fhir:v "DTP" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "10" ] ;
+       fhir:display [ fhir:v "IPV" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "100" ] ;
+       fhir:display [ fhir:v "pneumococcal conjugate" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "101" ] ;
+       fhir:display [ fhir:v "typhoid, ViCPs" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "11" ] ;
+       fhir:display [ fhir:v "pertussis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "12" ] ;
+       fhir:display [ fhir:v "diphtheria antitoxin" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "13" ] ;
+       fhir:display [ fhir:v "TIG" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "14" ] ;
+       fhir:display [ fhir:v "IG, NOS" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "15" ] ;
+       fhir:display [ fhir:v "influenza, split (incl. purified surface antigen)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "16" ] ;
+       fhir:display [ fhir:v "influenza, whole" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "17" ] ;
+       fhir:display [ fhir:v "Hib, NOS" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "18" ] ;
+       fhir:display [ fhir:v "rabies, intramuscular injection" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "19" ] ;
+       fhir:display [ fhir:v "BCG" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "2" ] ;
+       fhir:display [ fhir:v "OPV" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "20" ] ;
+       fhir:display [ fhir:v "DTaP" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "21" ] ;
+       fhir:display [ fhir:v "varicella" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "22" ] ;
+       fhir:display [ fhir:v "DTP-Hib" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "23" ] ;
+       fhir:display [ fhir:v "plague" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "24" ] ;
+       fhir:display [ fhir:v "Anthrax" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "25" ] ;
+       fhir:display [ fhir:v "typhoid, oral" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "26" ] ;
+       fhir:display [ fhir:v "Cholera" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "27" ] ;
+       fhir:display [ fhir:v "botulinum antitoxin" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "28" ] ;
+       fhir:display [ fhir:v "DT (pediatric)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "29" ] ;
+       fhir:display [ fhir:v "CMVIG" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "3" ] ;
+       fhir:display [ fhir:v "MMR" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "30" ] ;
+       fhir:display [ fhir:v "HBIG" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "31" ] ;
+       fhir:display [ fhir:v "Hep A, pediatric, NOS" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "32" ] ;
+       fhir:display [ fhir:v "meningococcal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "33" ] ;
+       fhir:display [ fhir:v "pneumococcal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "34" ] ;
+       fhir:display [ fhir:v "RIG" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "35" ] ;
+       fhir:display [ fhir:v "tetanus toxoid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "36" ] ;
+       fhir:display [ fhir:v "VZIG" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "37" ] ;
+       fhir:display [ fhir:v "yellow fever" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "38" ] ;
+       fhir:display [ fhir:v "rubella/mumps" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "39" ] ;
+       fhir:display [ fhir:v "Japanese encephalitis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "4" ] ;
+       fhir:display [ fhir:v "M/R" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "40" ] ;
+       fhir:display [ fhir:v "rabies, intradermal injection" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "41" ] ;
+       fhir:display [ fhir:v "typhoid, parenteral" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "42" ] ;
+       fhir:display [ fhir:v "Hep B, adolescent/high risk infant" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "43" ] ;
+       fhir:display [ fhir:v "Hep B, adult" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "44" ] ;
+       fhir:display [ fhir:v "Hep B, dialysis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "45" ] ;
+       fhir:display [ fhir:v "Hep B, NOS" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "46" ] ;
+       fhir:display [ fhir:v "Hib (PRP-D)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "47" ] ;
+       fhir:display [ fhir:v "Hib (HbOC)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "48" ] ;
+       fhir:display [ fhir:v "Hib (PRP-T)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "49" ] ;
+       fhir:display [ fhir:v "Hib (PRP-OMP)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "5" ] ;
+       fhir:display [ fhir:v "measles" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "50" ] ;
+       fhir:display [ fhir:v "DTaPHib" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "51" ] ;
+       fhir:display [ fhir:v "Hib-Hep B" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "52" ] ;
+       fhir:display [ fhir:v "Hep A, adult" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "53" ] ;
+       fhir:display [ fhir:v "typhoid, parenteral, AKD (U.S. military)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "54" ] ;
+       fhir:display [ fhir:v "adenovirus, type 4" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "55" ] ;
+       fhir:display [ fhir:v "adenovirus, type 7" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "56" ] ;
+       fhir:display [ fhir:v "dengue fever" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "57" ] ;
+       fhir:display [ fhir:v "Hantavirus" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "58" ] ;
+       fhir:display [ fhir:v "Hep C" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "59" ] ;
+       fhir:display [ fhir:v "Hep E" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "6" ] ;
+       fhir:display [ fhir:v "rubella" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "60" ] ;
+       fhir:display [ fhir:v "herpes simplex 2" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "61" ] ;
+       fhir:display [ fhir:v "HIV" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "62" ] ;
+       fhir:display [ fhir:v "HPV" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "63" ] ;
+       fhir:display [ fhir:v "Junin virus" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "64" ] ;
+       fhir:display [ fhir:v "leishmaniasis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "65" ] ;
+       fhir:display [ fhir:v "leprosy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "66" ] ;
+       fhir:display [ fhir:v "Lyme disease" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "67" ] ;
+       fhir:display [ fhir:v "malaria" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "68" ] ;
+       fhir:display [ fhir:v "melanoma" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "69" ] ;
+       fhir:display [ fhir:v "parainfluenza-3" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "7" ] ;
+       fhir:display [ fhir:v "mumps" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "70" ] ;
+       fhir:display [ fhir:v "Q fever" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "71" ] ;
+       fhir:display [ fhir:v "RSV-IGIV" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "72" ] ;
+       fhir:display [ fhir:v "rheumatic fever" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "73" ] ;
+       fhir:display [ fhir:v "Rift Valley fever" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "74" ] ;
+       fhir:display [ fhir:v "rotavirus" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "75" ] ;
+       fhir:display [ fhir:v "smallpox" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "76" ] ;
+       fhir:display [ fhir:v "Staphylococcus bacterio lysate" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "77" ] ;
+       fhir:display [ fhir:v "tick-borne encephalitis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "78" ] ;
+       fhir:display [ fhir:v "tularemia vaccine" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "79" ] ;
+       fhir:display [ fhir:v "vaccinia immune globulin" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "8" ] ;
+       fhir:display [ fhir:v "Hep B, adolescent or pediatric" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "80" ] ;
+       fhir:display [ fhir:v "VEE, live" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "81" ] ;
+       fhir:display [ fhir:v "VEE, inactivated" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "82" ] ;
+       fhir:display [ fhir:v "adenovirus, NOS" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "83" ] ;
+       fhir:display [ fhir:v "Hep A, ped/adol, 2 dose" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "84" ] ;
+       fhir:display [ fhir:v "Hep A, ped/adol, 3 dose" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "85" ] ;
+       fhir:display [ fhir:v "Hep A, NOS" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "86" ] ;
+       fhir:display [ fhir:v "IG" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "87" ] ;
+       fhir:display [ fhir:v "IGIV" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "88" ] ;
+       fhir:display [ fhir:v "influenza, NOS" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "89" ] ;
+       fhir:display [ fhir:v "polio, NOS" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "9" ] ;
+       fhir:display [ fhir:v "Td (adult)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "90" ] ;
+       fhir:display [ fhir:v "rabies, NOS" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "91" ] ;
+       fhir:display [ fhir:v "typhoid, NOS" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "92" ] ;
+       fhir:display [ fhir:v "VEE, NOS" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "93" ] ;
+       fhir:display [ fhir:v "RSV-Mab" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "94" ] ;
+       fhir:display [ fhir:v "MMRV" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "95" ] ;
+       fhir:display [ fhir:v "TST-OT tine test" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "96" ] ;
+       fhir:display [ fhir:v "TST-PPD intradermal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "97" ] ;
+       fhir:display [ fhir:v "TST-PPD tine test" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-VaccineType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-VaccineType>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "98" ] ;
+       fhir:display [ fhir:v "TST, NOS" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

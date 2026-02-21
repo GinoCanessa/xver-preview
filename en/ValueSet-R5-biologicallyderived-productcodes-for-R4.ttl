@@ -1,0 +1,235 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-biologicallyderived-productcodes-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-biologicallyderived-productcodes-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-biologicallyderived-productcodes-for-R4</b></p><a name=\"R5-biologicallyderived-productcodes-for-R4\"> </a><a name=\"hcR5-biologicallyderived-productcodes-for-R4\"> </a><p>This value set expansion contains 9 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"R5-biologicallyderived-productcodes-for-R4-http://hl7.org/fhir/biologicallyderived-productcodes-e0398\"> </a><code>http://hl7.org/fhir/biologicallyderived-productcodes</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-biologicallyderived-productcodes.html#biologicallyderived-productcodes-e0398\">e0398</a></td><td>RED BLOOD CELLS|CPD&gt;AS5/450mL/refg|Irr|ResLeu</td><td>RED BLOOD CELLS|CPD&gt;AS5/450mL/refg|Irr|ResLeu</td></tr><tr><td><a name=\"R5-biologicallyderived-productcodes-for-R4-http://hl7.org/fhir/biologicallyderived-productcodes-e4377\"> </a><code>http://hl7.org/fhir/biologicallyderived-productcodes</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-biologicallyderived-productcodes.html#biologicallyderived-productcodes-e4377\">e4377</a></td><td>Apheresis RED BLOOD CELLS|ACD-A/XX/refg|Irradiated|1st container</td><td>RED BLOOD CELLS Apheresis product, ACD-A, Irradiated,1st container, stored at refrigeration temperatures</td></tr><tr><td><a name=\"R5-biologicallyderived-productcodes-for-R4-http://hl7.org/fhir/biologicallyderived-productcodes-s1128\"> </a><code>http://hl7.org/fhir/biologicallyderived-productcodes</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-biologicallyderived-productcodes.html#biologicallyderived-productcodes-s1128\">s1128</a></td><td>HPC, APHERESIS/Citrate/XX/refg/Mobilized</td><td>HPC, APHERESIS/Citrate/XX/refg/Mobilized</td></tr><tr><td><a name=\"R5-biologicallyderived-productcodes-for-R4-http://hl7.org/fhir/biologicallyderived-productcodes-s1194\"> </a><code>http://hl7.org/fhir/biologicallyderived-productcodes</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-biologicallyderived-productcodes.html#biologicallyderived-productcodes-s1194\">s1194</a></td><td>HPC, APHERESIS|NS/XX/&lt;=-120C|10% DMSO|Cryopreserved|Mobilized</td><td>HPC, Apheresis product, 10% DMSO, mobilized, cryopreserved at &lt;=-120C</td></tr><tr><td><a name=\"R5-biologicallyderived-productcodes-for-R4-http://hl7.org/fhir/biologicallyderived-productcodes-s1195\"> </a><code>http://hl7.org/fhir/biologicallyderived-productcodes</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-biologicallyderived-productcodes.html#biologicallyderived-productcodes-s1195\">s1195</a></td><td>HPC, APHERESIS|NS/XX/&lt;=-120C|5% DMSO|Cryopreserved|Mobilized</td><td>HPC, Apheresis product, 5% DMSO, mobilized, cryopreserved at &lt;=-120C</td></tr><tr><td><a name=\"R5-biologicallyderived-productcodes-for-R4-http://hl7.org/fhir/biologicallyderived-productcodes-s1310\"> </a><code>http://hl7.org/fhir/biologicallyderived-productcodes</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-biologicallyderived-productcodes.html#biologicallyderived-productcodes-s1310\">s1310</a></td><td>HPC, APHERESIS|None/XX/refg|3rd Party Comp:Yes|Other Additives:Yes|Mobilized|CD34 enriched</td><td>HPC, Apheresis product, third party components added, other additives added, mobilized, CD34 enriched, stored at refrigeration temperatures</td></tr><tr><td><a name=\"R5-biologicallyderived-productcodes-for-R4-http://hl7.org/fhir/biologicallyderived-productcodes-s1398\"> </a><code>http://hl7.org/fhir/biologicallyderived-productcodes</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-biologicallyderived-productcodes.html#biologicallyderived-productcodes-s1398\">s1398</a></td><td>HPC, MARROW|NS/XX/rt|Plasma reduced</td><td>HPC, Marrow, plasma reduced, stored at room temperature</td></tr><tr><td><a name=\"R5-biologicallyderived-productcodes-for-R4-http://hl7.org/fhir/biologicallyderived-productcodes-s2598\"> </a><code>http://hl7.org/fhir/biologicallyderived-productcodes</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-biologicallyderived-productcodes.html#biologicallyderived-productcodes-s2598\">s2598</a></td><td>HPC, MARROW|NS/XX/&lt;=-150C|10% DMSO|3rd Party Comp:Yes|Cryopreserved|RBC reduced</td><td>HPC, MARROW|NS/XX/&lt;=-150C|10% DMSO|3rd Party Comp:Yes|Cryopreserved|RBC reduced</td></tr><tr><td><a name=\"R5-biologicallyderived-productcodes-for-R4-http://hl7.org/fhir/biologicallyderived-productcodes-t1396\"> </a><code>http://hl7.org/fhir/biologicallyderived-productcodes</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-biologicallyderived-productcodes.html#biologicallyderived-productcodes-t1396\">t1396</a></td><td>BONE, FEMUR|Frozen|Right|Radiation sterilization</td><td>BONE, FEMUR, Right, sterilized by radiation, stored at frozen temperatures</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "oo"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-biologicallyderived-productcodes-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-biologicallyderived-productcodes-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5BiologicallyderivedProductcodesForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.BiologicallyDerivedProductCodes for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Orders and Observations"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Orders and Observations" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/orders" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/biologicallyderived-productcodes|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/biologicallyderived-productcodes|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `BiologicallyDerivedProduct.productCode`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://hl7.org/fhir/ValueSet/biologicallyderived-productcodes|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/biologicallyderived-productcodes"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/biologicallyderived-productcodes>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "e0398" ] ;
+         fhir:display [ fhir:v "RED BLOOD CELLS|CPD>AS5/450mL/refg|Irr|ResLeu" ]
+       ] [
+         fhir:code [ fhir:v "e4377" ] ;
+         fhir:display [ fhir:v "Apheresis RED BLOOD CELLS|ACD-A/XX/refg|Irradiated|1st container" ]
+       ] [
+         fhir:code [ fhir:v "s1128" ] ;
+         fhir:display [ fhir:v "HPC, APHERESIS/Citrate/XX/refg/Mobilized" ]
+       ] [
+         fhir:code [ fhir:v "s1194" ] ;
+         fhir:display [ fhir:v "HPC, APHERESIS|NS/XX/<=-120C|10% DMSO|Cryopreserved|Mobilized" ]
+       ] [
+         fhir:code [ fhir:v "s1195" ] ;
+         fhir:display [ fhir:v "HPC, APHERESIS|NS/XX/<=-120C|5% DMSO|Cryopreserved|Mobilized" ]
+       ] [
+         fhir:code [ fhir:v "s1310" ] ;
+         fhir:display [ fhir:v "HPC, APHERESIS|None/XX/refg|3rd Party Comp:Yes|Other Additives:Yes|Mobilized|CD34 enriched" ]
+       ] [
+         fhir:code [ fhir:v "s1398" ] ;
+         fhir:display [ fhir:v "HPC, MARROW|NS/XX/rt|Plasma reduced" ]
+       ] [
+         fhir:code [ fhir:v "s2598" ] ;
+         fhir:display [ fhir:v "HPC, MARROW|NS/XX/<=-150C|10% DMSO|3rd Party Comp:Yes|Cryopreserved|RBC reduced" ]
+       ] [
+         fhir:code [ fhir:v "t1396" ] ;
+         fhir:display [ fhir:v "BONE, FEMUR|Frozen|Right|Radiation sterilization" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/biologicallyderived-productcodes"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/biologicallyderived-productcodes>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "e0398" ] ;
+       fhir:display [ fhir:v "RED BLOOD CELLS|CPD>AS5/450mL/refg|Irr|ResLeu" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/biologicallyderived-productcodes"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/biologicallyderived-productcodes>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "e4377" ] ;
+       fhir:display [ fhir:v "Apheresis RED BLOOD CELLS|ACD-A/XX/refg|Irradiated|1st container" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/biologicallyderived-productcodes"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/biologicallyderived-productcodes>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "s1128" ] ;
+       fhir:display [ fhir:v "HPC, APHERESIS/Citrate/XX/refg/Mobilized" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/biologicallyderived-productcodes"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/biologicallyderived-productcodes>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "s1194" ] ;
+       fhir:display [ fhir:v "HPC, APHERESIS|NS/XX/<=-120C|10% DMSO|Cryopreserved|Mobilized" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/biologicallyderived-productcodes"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/biologicallyderived-productcodes>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "s1195" ] ;
+       fhir:display [ fhir:v "HPC, APHERESIS|NS/XX/<=-120C|5% DMSO|Cryopreserved|Mobilized" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/biologicallyderived-productcodes"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/biologicallyderived-productcodes>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "s1310" ] ;
+       fhir:display [ fhir:v "HPC, APHERESIS|None/XX/refg|3rd Party Comp:Yes|Other Additives:Yes|Mobilized|CD34 enriched" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/biologicallyderived-productcodes"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/biologicallyderived-productcodes>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "s1398" ] ;
+       fhir:display [ fhir:v "HPC, MARROW|NS/XX/rt|Plasma reduced" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/biologicallyderived-productcodes"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/biologicallyderived-productcodes>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "s2598" ] ;
+       fhir:display [ fhir:v "HPC, MARROW|NS/XX/<=-150C|10% DMSO|3rd Party Comp:Yes|Cryopreserved|RBC reduced" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/biologicallyderived-productcodes"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/biologicallyderived-productcodes>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "t1396" ] ;
+       fhir:display [ fhir:v "BONE, FEMUR|Frozen|Right|Radiation sterilization" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

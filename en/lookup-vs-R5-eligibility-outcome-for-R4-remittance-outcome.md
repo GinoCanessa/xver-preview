@@ -1,0 +1,15 @@
+# Lookup for R5EligibilityOutcomeForR4RemittanceOutcome - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## Lookup for R5EligibilityOutcomeForR4RemittanceOutcome
+
+### Lookup for FHIR R5 ValueSet EligibilityOutcome:http://hl7.org/fhir/ValueSet/eligibility-outcome for use in FHIR R4
+
+The FHIR R5 ValueSet EligibilityOutcome maps to the FHIR R4 ValueSet ClaimProcessingCodes:[`http://hl7.org/fhir/ValueSet/remittance-outcome`](https://hl7.org/fhir/R4/valueset-remittance-outcome.html)
+
+| | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `http://hl7.org/fhir/eligibility-outcome` | `complete` | Processing Complete | No | `http://hl7.org/fhir/remittance-outcome` | `complete` | Processing Complete |
+| `http://hl7.org/fhir/eligibility-outcome` | `error` | Error | No | `http://hl7.org/fhir/remittance-outcome` | `error` | Error |
+| `http://hl7.org/fhir/eligibility-outcome` | `partial` | Partial Processing | No | `http://hl7.org/fhir/remittance-outcome` | `partial` | Partial Processing |
+| `http://hl7.org/fhir/eligibility-outcome` | `queued` | Queued | No | `http://hl7.org/fhir/remittance-outcome` | `queued` | Queued |
+

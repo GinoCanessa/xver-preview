@@ -1,0 +1,180 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/Map-R5-udi-entry-type-for-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Map-R5-udi-entry-type-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap Map-R5-udi-entry-type-for-R4</b></p><a name=\"Map-R5-udi-entry-type-for-R4\"> </a><a name=\"hcMap-R5-udi-entry-type-for-R4\"> </a><p>Mapping from http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0 to <a href=\"http://hl7.org/fhir/R4/valueset-udi-entry-type.html\">UDIEntryType</a></p><br/><p><b>Group 1 </b>Mapping from <a href=\"CodeSystem-udi-entry-type.html\">UDI Entry Typeversion: 5.0.0)</a> to <a href=\"CodeSystem-udi-entry-type.html\">UDI Entry Typeversion: 5.0.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>barcode</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>barcode</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-UdiEntryType-R4B-UdiEntryType` (`ConceptMap-R5-UdiEntryType-R4B-UdiEntryType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|4.3.0` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-UdiEntryType-R4-UdiEntryType` (`ConceptMap-R4B-UdiEntryType-R4-UdiEntryType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0#barcode` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1#barcode` as Equivalent in `ConceptMap-R5-UdiEntryType-R4-UdiEntryType.json`, which results in Equivalent.</td></tr><tr><td>card</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>card</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-UdiEntryType-R4B-UdiEntryType` (`ConceptMap-R5-UdiEntryType-R4B-UdiEntryType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|4.3.0` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-UdiEntryType-R4-UdiEntryType` (`ConceptMap-R4B-UdiEntryType-R4-UdiEntryType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0#card` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1#card` as Equivalent in `ConceptMap-R5-UdiEntryType-R4-UdiEntryType.json`, which results in Equivalent.</td></tr><tr><td>manual</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>manual</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-UdiEntryType-R4B-UdiEntryType` (`ConceptMap-R5-UdiEntryType-R4B-UdiEntryType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|4.3.0` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-UdiEntryType-R4-UdiEntryType` (`ConceptMap-R4B-UdiEntryType-R4-UdiEntryType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0#manual` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1#manual` as Equivalent in `ConceptMap-R5-UdiEntryType-R4-UdiEntryType.json`, which results in Equivalent.</td></tr><tr><td>rfid</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>rfid</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-UdiEntryType-R4B-UdiEntryType` (`ConceptMap-R5-UdiEntryType-R4B-UdiEntryType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|4.3.0` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-UdiEntryType-R4-UdiEntryType` (`ConceptMap-R4B-UdiEntryType-R4-UdiEntryType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0#rfid` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1#rfid` as Equivalent in `ConceptMap-R5-UdiEntryType-R4-UdiEntryType.json`, which results in Equivalent.</td></tr><tr><td>self-reported</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>self-reported</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-UdiEntryType-R4B-UdiEntryType` (`ConceptMap-R5-UdiEntryType-R4B-UdiEntryType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|4.3.0` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-UdiEntryType-R4-UdiEntryType` (`ConceptMap-R4B-UdiEntryType-R4-UdiEntryType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0#self-reported` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1#self-reported` as Equivalent in `ConceptMap-R5-UdiEntryType-R4-UdiEntryType.json`, which results in Equivalent.</td></tr><tr><td>unknown</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>unknown</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-UdiEntryType-R4B-UdiEntryType` (`ConceptMap-R5-UdiEntryType-R4B-UdiEntryType.json`)\nSince source concept `unknown` is flagged as an 'escape-valve' code and the source value set contains more concepts than the target (7 vs. 6), the source is narrower than the target.\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|4.3.0` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-UdiEntryType-R4-UdiEntryType` (`ConceptMap-R4B-UdiEntryType-R4-UdiEntryType.json`)\nSince source concept `unknown` is flagged as an 'escape-valve' code and the source value set contains the same number of concepts as the target (6 vs. 6), we can assume equivalence.\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0#unknown` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1#unknown` as Equivalent in `ConceptMap-R5-UdiEntryType-R4-UdiEntryType.json`, which results in SourceIsNarrowerThanTarget.\nValue Set Relationship of RelatedTo applied to 'escape-valve' mapping.</td></tr><tr><td>electronic-transmission</td><td colspan=\"3\" style=\"background-color: #efefef\">(not mapped)</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-udi-entry-type-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-udi-entry-type-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "MapR5UdiEntryTypeForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for ValueSet R5-udi-entry-type-for-R4 from FHIR R5 to FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T13:36:49.4345183-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of concepts from ValueSet `http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/udi-entry-type?version=5.0.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/udi-entry-type?version=4.0.1>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/udi-entry-type"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/udi-entry-type>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/udi-entry-type"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/udi-entry-type>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "barcode" ] ;
+       fhir:display [ fhir:v "Barcode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "barcode" ] ;
+         fhir:display [ fhir:v "Barcode" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-UdiEntryType-R4B-UdiEntryType` (`ConceptMap-R5-UdiEntryType-R4B-UdiEntryType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|4.3.0` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-UdiEntryType-R4-UdiEntryType` (`ConceptMap-R4B-UdiEntryType-R4-UdiEntryType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0#barcode` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1#barcode` as Equivalent in `ConceptMap-R5-UdiEntryType-R4-UdiEntryType.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "card" ] ;
+       fhir:display [ fhir:v "Card" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "card" ] ;
+         fhir:display [ fhir:v "Card" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-UdiEntryType-R4B-UdiEntryType` (`ConceptMap-R5-UdiEntryType-R4B-UdiEntryType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|4.3.0` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-UdiEntryType-R4-UdiEntryType` (`ConceptMap-R4B-UdiEntryType-R4-UdiEntryType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0#card` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1#card` as Equivalent in `ConceptMap-R5-UdiEntryType-R4-UdiEntryType.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "manual" ] ;
+       fhir:display [ fhir:v "Manual" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "manual" ] ;
+         fhir:display [ fhir:v "Manual" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-UdiEntryType-R4B-UdiEntryType` (`ConceptMap-R5-UdiEntryType-R4B-UdiEntryType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|4.3.0` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-UdiEntryType-R4-UdiEntryType` (`ConceptMap-R4B-UdiEntryType-R4-UdiEntryType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0#manual` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1#manual` as Equivalent in `ConceptMap-R5-UdiEntryType-R4-UdiEntryType.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "rfid" ] ;
+       fhir:display [ fhir:v "RFID" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "rfid" ] ;
+         fhir:display [ fhir:v "RFID" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-UdiEntryType-R4B-UdiEntryType` (`ConceptMap-R5-UdiEntryType-R4B-UdiEntryType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|4.3.0` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-UdiEntryType-R4-UdiEntryType` (`ConceptMap-R4B-UdiEntryType-R4-UdiEntryType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0#rfid` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1#rfid` as Equivalent in `ConceptMap-R5-UdiEntryType-R4-UdiEntryType.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "self-reported" ] ;
+       fhir:display [ fhir:v "Self Reported" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "self-reported" ] ;
+         fhir:display [ fhir:v "Self Reported" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-UdiEntryType-R4B-UdiEntryType` (`ConceptMap-R5-UdiEntryType-R4B-UdiEntryType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|4.3.0` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-UdiEntryType-R4-UdiEntryType` (`ConceptMap-R4B-UdiEntryType-R4-UdiEntryType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0#self-reported` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1#self-reported` as Equivalent in `ConceptMap-R5-UdiEntryType-R4-UdiEntryType.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "unknown" ] ;
+       fhir:display [ fhir:v "Unknown" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "unknown" ] ;
+         fhir:display [ fhir:v "Unknown" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-UdiEntryType-R4B-UdiEntryType` (`ConceptMap-R5-UdiEntryType-R4B-UdiEntryType.json`)\nSince source concept `unknown` is flagged as an 'escape-valve' code and the source value set contains more concepts than the target (7 vs. 6), the source is narrower than the target.\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|4.3.0` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-UdiEntryType-R4-UdiEntryType` (`ConceptMap-R4B-UdiEntryType-R4-UdiEntryType.json`)\nSince source concept `unknown` is flagged as an 'escape-valve' code and the source value set contains the same number of concepts as the target (6 vs. 6), we can assume equivalence.\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/udi-entry-type|5.0.0#unknown` to `http://hl7.org/fhir/ValueSet/udi-entry-type|4.0.1#unknown` as Equivalent in `ConceptMap-R5-UdiEntryType-R4-UdiEntryType.json`, which results in SourceIsNarrowerThanTarget.\nValue Set Relationship of RelatedTo applied to 'escape-valve' mapping." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "electronic-transmission" ] ;
+       fhir:display [ fhir:v "Electronic Transmission" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

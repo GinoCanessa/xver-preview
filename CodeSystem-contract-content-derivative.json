@@ -26,21 +26,27 @@
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-    "valueCode" : "fhir"
+    "valueCode" : "fm"
   }],
   "url" : "http://terminology.hl7.org/CodeSystem/contract-content-derivative",
-  "version" : "0.0.1-snapshot-3",
+  "version" : "0.1.0",
   "name" : "ContractContentDerivationCodes",
   "title" : "Contract Content Derivation Codes",
   "status" : "draft",
   "experimental" : false,
   "date" : "2023-02-25T12:07:30-06:00",
-  "publisher" : "FHIR Infrastructure",
+  "publisher" : "Financial Management",
   "contact" : [{
-    "name" : "FHIR Infrastructure",
+    "name" : "FHIR project team",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://www.hl7.org/Special/committees/fiwg"
+      "value" : "http://hl7.org/fhir"
+    }]
+  },
+  {
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7.org/fhir"
     }]
   }],
   "description" : "This is an example set of Content Derivative type codes, which represent the minimal content derived from the basal information source at a specific stage in its lifecycle, which is sufficient to manage that source information, for example, in a repository, registry, processes and workflows, for making access control decisions, and providing query responses.",
@@ -53,7 +59,7 @@
   }],
   "copyright" : "This is an example set.",
   "caseSensitive" : true,
-  "valueSet" : "http://terminology.hl7.org/ValueSet/contract-content-derivative",
+  "valueSet" : "http://terminology.hl7.org/ValueSet/contract-content-derivative|1.0.1",
   "content" : "complete",
   "concept" : [{
     "code" : "registration",

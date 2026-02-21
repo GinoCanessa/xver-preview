@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="service-referral-method"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://terminology.hl7.org/CodeSystem/service-referral-method</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">fax<a name="service-referral-method-fax"> </a></td><td>Fax</td><td>Referrals may be accepted by fax.</td></tr><tr><td style="white-space:nowrap">phone<a name="service-referral-method-phone"> </a></td><td>Phone</td><td>Referrals may be accepted over the phone from a practitioner.</td></tr><tr><td style="white-space:nowrap">elec<a name="service-referral-method-elec"> </a></td><td>Secure Messaging</td><td>Referrals may be accepted via a secure messaging system. To determine the types of secure messaging systems supported, refer to the identifiers collection. Callers will need to understand the specific identifier system used to know that they are able to transmit messages.</td></tr><tr><td style="white-space:nowrap">semail<a name="service-referral-method-semail"> </a></td><td>Secure Email</td><td>Referrals may be accepted via a secure email. To send please encrypt with the services public key.</td></tr><tr><td style="white-space:nowrap">mail<a name="service-referral-method-mail"> </a></td><td>Mail</td><td>Referrals may be accepted via regular postage (or hand delivered).</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pa"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/service-referral-method"/>
+  <version value="0.1.0"/>
+  <name value="ReferralMethod"/>
+  <title value="ReferralMethod"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-04-09T16:10:28-05:00"/>
+  <publisher value="Patient Administration"/>
+  <contact>
+    <name value="Patient Administration"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pafm"/>
+    </telecom>
+  </contact>
+  <description value="The methods of referral can be used when referring to a specific HealthCareService resource."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/service-referral-method|1.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="fax"/>
+    <display value="Fax"/>
+    <definition value="Referrals may be accepted by fax."/>
+  </concept>
+  <concept>
+    <code value="phone"/>
+    <display value="Phone"/>
+    <definition value="Referrals may be accepted over the phone from a practitioner."/>
+  </concept>
+  <concept>
+    <code value="elec"/>
+    <display value="Secure Messaging"/>
+    <definition value="Referrals may be accepted via a secure messaging system. To determine the types of secure messaging systems supported, refer to the identifiers collection. Callers will need to understand the specific identifier system used to know that they are able to transmit messages."/>
+  </concept>
+  <concept>
+    <code value="semail"/>
+    <display value="Secure Email"/>
+    <definition value="Referrals may be accepted via a secure email. To send please encrypt with the services public key."/>
+  </concept>
+  <concept>
+    <code value="mail"/>
+    <display value="Mail"/>
+    <definition value="Referrals may be accepted via regular postage (or hand delivered)."/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,2837 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-MaterialEntityClassType-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-v3-MaterialEntityClassType-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-v3-MaterialEntityClassType-for-R4</b></p><a name=\"R5-v3-MaterialEntityClassType-for-R4\"> </a><a name=\"hcR5-v3-MaterialEntityClassType-for-R4\"> </a><p>This value set expansion contains 244 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-ACDA\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ACDA</td><td>ACD Solution A</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-ACDB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ACDB</td><td>ACD Solution B</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-ACET\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ACET</td><td>Acetic Acid</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-AINJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  AINJ</td><td>AutoInjector</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-AMIES\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  AMIES</td><td>Amies transport medium</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-AMP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  AMP</td><td>Ampule</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-APLCTR\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  APLCTR</td><td>Applicator</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BACTM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BACTM</td><td>Bacterial Transport medium</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BAG\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BAG</td><td>Bag</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BF10\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BF10</td><td>Buffered 10% formalin</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BLDPRD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BLDPRD</td><td>Blood Product</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BLSTRPK\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BLSTRPK</td><td>Blister Pack</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BOR\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BOR</td><td>Boric Acid</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BOT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BOT</td><td>Bottle</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BOTA\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BOTA</td><td>Amber Bottle</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BOTD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BOTD</td><td>Dropper Bottle</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BOTG\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BOTG</td><td>Glass Bottle</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BOTP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BOTP</td><td>Plastic Bottle</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BOTPLY\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BOTPLY</td><td>Polyethylene Bottle</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BOUIN\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BOUIN</td><td>Bouin's solution</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BOX\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BOX</td><td>Box</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-BSKM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BSKM</td><td>Buffered skim milk</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-C32\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  C32</td><td>3.2% Citrate</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-C38\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  C38</td><td>3.8% Citrate</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-CAN\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CAN</td><td>Can</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-CARD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CARD</td><td>Card</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-CARS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CARS</td><td>Carson's Modified 10% formalin</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-CART\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CART</td><td>Cartridge</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-CARY\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CARY</td><td>Cary Blair Medium</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-CHLTM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CHLTM</td><td>Chlamydia transport medium</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-CNSTR\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CNSTR</td><td>Canister</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-COMPPKG\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  COMPPKG</td><td>Compliance Package</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-CTAD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CTAD</td><td>CTAD</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-DIALPK\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  DIALPK</td><td>Dial Pack</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-DISK\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  DISK</td><td>Disk</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-DOSET\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  DOSET</td><td>Dosette</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-DSKS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  DSKS</td><td>Diskus</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-DSKUNH\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  DSKUNH</td><td>Diskhaler</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-EDTK15\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  EDTK15</td><td>Potassium/K EDTA 15%</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-EDTK75\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  EDTK75</td><td>Potassium/K EDTA 7.5%</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-EDTN\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  EDTN</td><td>Sodium/Na EDTA</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-ENT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ENT</td><td>Enteric bacteria transport medium</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-F10\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  F10</td><td>10% Formalin</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-FDP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  FDP</td><td>Thrombin NIH; soybean trypsin inhibitor</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-FL10\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  FL10</td><td>Sodium Fluoride, 10mg</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-FL100\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  FL100</td><td>Sodium Fluoride, 100mg</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-HCL6\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  HCL6</td><td>6N HCL</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-HEPA\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  HEPA</td><td>Ammonium heparin</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-HEPL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  HEPL</td><td>Lithium/Li Heparin</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-HEPN\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  HEPN</td><td>Sodium/Na Heparin</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-HNO3\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  HNO3</td><td>Nitric Acid</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-IALINE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  IALINE</td><td>Intra-arterial Line</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-INH\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  INH</td><td>Inhaler</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-IVLINE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  IVLINE</td><td>Intraveneous Line</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-JAR\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  JAR</td><td>Jar</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-JKM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  JKM</td><td>Jones Kendrick Medium</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-JUG\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  JUG</td><td>Jug</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-KARN\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  KARN</td><td>Karnovsky's fixative</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-KIT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  KIT</td><td>Kit</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-KOX\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  KOX</td><td>Potassium Oxalate</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-LIA\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  LIA</td><td>Lithium iodoacetate</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-LINE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  LINE</td><td>Line</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-M4\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  M4</td><td>M4</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-M4RT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  M4RT</td><td>M4-RT</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-M5\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  M5</td><td>M5</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-MICHTM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  MICHTM</td><td>Michel's transport medium</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-MINIM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  MINIM</td><td>Minim</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-MMDTM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  MMDTM</td><td>MMD transport medium</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-NAF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  NAF</td><td>Sodium Fluoride</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-NEBAMP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  NEBAMP</td><td>Nebuamp</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-NONE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  NONE</td><td>None</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-OVUL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  OVUL</td><td>Ovule</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-PACKT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  PACKT</td><td>Packet</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-PAGE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  PAGE</td><td>Page's Saline</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-PCH\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  PCH</td><td>Pouch</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-PEN\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  PEN</td><td>Pen</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-PHENOL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  PHENOL</td><td>Phenol</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-PKG\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  PKG</td><td>Package</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-PMP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  PMP</td><td>Pump</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-PVA\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  PVA</td><td>Polyvinylalcohol</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-RLM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  RLM</td><td>Reagan Lowe Medium</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-SACH\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SACH</td><td>Sachet</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-SILICA\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SILICA</td><td>Siliceous earth</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-SPS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SPS</td><td>Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-SST\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SST</td><td>Serum Separator Tube</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-STRIP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  STRIP</td><td>Strip</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-STUTM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  STUTM</td><td>Stuart transport medium</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-SYR\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SYR</td><td>Syringe</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-SYSTM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SYSTM</td><td>System</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-THROM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  THROM</td><td>Thrombin</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-THYMOL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  THYMOL</td><td>Thymol</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-THYO\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  THYO</td><td>Thyoglycolate broth</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-TIN\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TIN</td><td>Tin</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-TOLU\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TOLU</td><td>Toluene</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-TRBINH\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TRBINH</td><td>Turbuhaler</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-TUB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TUB</td><td>Tub</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-TUBE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TUBE</td><td>Tube</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-URETM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  URETM</td><td>Ureaplasma transport medium</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-VCCNE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  VCCNE</td><td>Vaccine</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-VIAL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  VIAL</td><td>Vial</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-VIRTM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  VIRTM</td><td>Viral Transport medium</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-WEST\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  WEST</td><td>Buffered Citrate</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-_AccessMedicalDevice\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _AccessMedicalDevice</td><td>AccessMedicalDevice</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-_ActiveIngredientDrugEntityType\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _ActiveIngredientDrugEntityType</td><td>ActiveIngredientDrugEntityType</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-_AdministrationMedicalDevice\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _AdministrationMedicalDevice</td><td>AdministrationMedicalDevice</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-_ClinicalDrug\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _ClinicalDrug</td><td>ClinicalDrug</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-_ContainerEntityType\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _ContainerEntityType</td><td>ContainerEntityType</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-_DeviceGenericType\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _DeviceGenericType</td><td>Device Generic Type</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-_DrugEntity\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _DrugEntity</td><td>DrugEntity</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-_ExposureAgentEntityType\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _ExposureAgentEntityType</td><td>ExposureAgentEntityType</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-_IndividualPackageEntityType\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _IndividualPackageEntityType</td><td>IndividualPackageEntityType</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-_InjectionMedicalDevice\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _InjectionMedicalDevice</td><td>InjectionMedicalDevice</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-_ManufacturedDrug\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _ManufacturedDrug</td><td>ManufacturedDrug</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-_MedicalDevice\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _MedicalDevice</td><td>MedicalDevice</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-_MultiUseContainerEntityType\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _MultiUseContainerEntityType</td><td>MultiUseContainerEntityType</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-_NonRigidContainerEntityType\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _NonRigidContainerEntityType</td><td>NonRigidContainerEntityType</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-_RigidContainerEntityType\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _RigidContainerEntityType</td><td>RigidContainerEntityType</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-_SpecimenAdditiveEntity\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _SpecimenAdditiveEntity</td><td>SpecimenAdditiveEntity</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-EntityCode-_x_BillableProduct\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-EntityCode</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _x_BillableProduct</td><td>x_BillableProduct</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-ABS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  ABS</td><td>Abcess</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-AMN\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  AMN</td><td>Amniotic fluid</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-ASP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  ASP</td><td>Aspirate</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-BBL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  BBL</td><td>Blood bag</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-BDY\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  BDY</td><td>Whole body</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-BIFL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  BIFL</td><td>Bile fluid</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-BLD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  BLD</td><td>Whole blood</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-BLDA\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  BLDA</td><td>Blood arterial</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-BLDC\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  BLDC</td><td>Blood capillary</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-BLDCO\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  BLDCO</td><td>Blood - cord</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-BLDV\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  BLDV</td><td>Blood venous</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-BON\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  BON</td><td>Bone</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-BPH\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  BPH</td><td>Basophils</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-BPU\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  BPU</td><td>Blood product unit</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-BRN\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  BRN</td><td>Burn</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-BRO\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  BRO</td><td>Bronchial</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-BRTH\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  BRTH</td><td>Exhaled gas (=breath)</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-CALC\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  CALC</td><td>Calculus (=Stone)</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-CDM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  CDM</td><td>Cardiac muscle</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-CNJT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  CNJT</td><td>Conjunctiva</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-CNL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  CNL</td><td>Cannula</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-COL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  COL</td><td>Colostrum</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-CRN\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  CRN</td><td>Cornea</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-CSF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  CSF</td><td>Cerebral spinal fluid</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-CTP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  CTP</td><td>Catheter tip</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-CUR\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  CUR</td><td>Curettage</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-CVM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  CVM</td><td>Cervical mucus</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-CVX\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  CVX</td><td>Cervix</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-CYST\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  CYST</td><td>Cyst</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-DIAF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  DIAF</td><td>Dialysis fluid</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-DOSE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  DOSE</td><td>Dose med or substance</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-DRN\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  DRN</td><td>Drain</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-DUFL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  DUFL</td><td>Duodenal fluid</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-EAR\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  EAR</td><td>Ear</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-EARW\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  EARW</td><td>Ear wax (cerumen)</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-ELT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  ELT</td><td>Electrode</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-ENDC\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  ENDC</td><td>Endocardium</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-ENDM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  ENDM</td><td>Endometrium</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-EOS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  EOS</td><td>Eosinophils</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-EXG\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  EXG</td><td>Exhaled gas (=breath)</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-EYE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  EYE</td><td>Eye</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-FIB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  FIB</td><td>Fibroblasts</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-FIST\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  FIST</td><td>Fistula</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-FLT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  FLT</td><td>Filter</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-FLU\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  FLU</td><td>Body fluid, unsp</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-FOOD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  FOOD</td><td>Food sample</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-GAS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  GAS</td><td>Gas</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-GAST\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  GAST</td><td>Gastric fluid/contents</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-GEN\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  GEN</td><td>Genital</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-GENC\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  GENC</td><td>Genital cervix</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-GENF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  GENF</td><td>Genital fluid</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-GENL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  GENL</td><td>Genital lochia</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-GENV\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  GENV</td><td>Genital vaginal</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-HAR\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  HAR</td><td>Hair</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-IHG\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  IHG</td><td>Inhaled Gas</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-ISLT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  ISLT</td><td>Isolate</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-IT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  IT</td><td>Intubation tube</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-LAM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  LAM</td><td>Lamella</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-LIQ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  LIQ</td><td>Liquid NOS</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-LN\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  LN</td><td>Line</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-LNA\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  LNA</td><td>Line arterial</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-LNV\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  LNV</td><td>Line venous</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-LYM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  LYM</td><td>Lymphocytes</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-MAC\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  MAC</td><td>Macrophages</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-MAR\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  MAR</td><td>Marrow (bone)</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-MBLD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  MBLD</td><td>Menstrual blood</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-MEC\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  MEC</td><td>Meconium</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-MILK\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  MILK</td><td>Breast milk</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-MLK\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  MLK</td><td>Milk</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-NAIL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  NAIL</td><td>Nail</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-NOS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  NOS</td><td>Nose (nasal passage)</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-PAFL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  PAFL</td><td>Pancreatic fluid</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-PAT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  PAT</td><td>Patient</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-PLAS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  PLAS</td><td>Plasma</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-PLB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  PLB</td><td>Plasma bag</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-PLC\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  PLC</td><td>Placenta</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-PLR\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  PLR</td><td>Pleural fluid (thoracentesis fld)</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-PMN\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  PMN</td><td>Polymorphonuclear neutrophils</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-PPP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  PPP</td><td>Platelet poor plasma</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-PRP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  PRP</td><td>Platelet rich plasma</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-PRT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  PRT</td><td>Peritoneal fluid /ascites</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-PUS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  PUS</td><td>Pus</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-RBC\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  RBC</td><td>Erythrocytes</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-SAL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  SAL</td><td>Saliva</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-SER\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  SER</td><td>Serum</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-SKM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  SKM</td><td>Skeletal muscle</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-SKN\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  SKN</td><td>Skin</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-SMN\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  SMN</td><td>Seminal fluid</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-SMPLS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  SMPLS</td><td>Seminal plasma</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-SNV\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  SNV</td><td>Synovial fluid (Joint fluid)</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-SPRM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  SPRM</td><td>Spermatozoa</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-SPT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  SPT</td><td>Sputum</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-SPTC\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  SPTC</td><td>Sputum - coughed</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-SPTT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  SPTT</td><td>Sputum - tracheal aspirate</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-STL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  STL</td><td>Stool = Fecal</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-STON\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  STON</td><td>Calculus (=Stone)</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-SWT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  SWT</td><td>Sweat</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-TEAR\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  TEAR</td><td>Tears</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-THRB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  THRB</td><td>Thrombocyte (platelet)</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-THRT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  THRT</td><td>Throat</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-TISG\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  TISG</td><td>Tissue gall bladder</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-TISPL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  TISPL</td><td>Tissue placenta</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-TISS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  TISS</td><td>Tissue, unspecified</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-TISU\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  TISU</td><td>Tissue ulcer</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-TLGI\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  TLGI</td><td>Tissue large intestine</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-TLNG\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  TLNG</td><td>Tissue lung</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-TSMI\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  TSMI</td><td>Tissue small intestine Tissue ulcer</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-TUB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  TUB</td><td>Tube, unspecified</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-ULC\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  ULC</td><td>Ulcer</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-UMB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  UMB</td><td>Umbilical blood</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-UMED\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  UMED</td><td>Unknown medicine</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-UR\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  UR</td><td>Urine</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-URC\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  URC</td><td>Urine clean catch</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-URNS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  URNS</td><td>Urine sediment</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-URT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  URT</td><td>Urine catheter</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-URTH\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  URTH</td><td>Urethra</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-USUB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  USUB</td><td>Unknown substance</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-VOM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  VOM</td><td>Vomitus</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-WAT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  WAT</td><td>Water</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-WBC\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  WBC</td><td>Leukocytes</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-WICK\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  WICK</td><td>Wick</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-WND\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  WND</td><td>Wound</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-WNDA\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  WNDA</td><td>Wound abscess</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-WNDD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  WNDD</td><td>Wound drainage</td></tr><tr><td><a name=\"R5-v3-MaterialEntityClassType-for-R4-http://terminology.hl7.org/CodeSystem/v3-SpecimenType-WNDE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-SpecimenType</code></td><td>2.1.1</td><td style=\"white-space:nowrap\">  WNDE</td><td>Wound exudate</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-MaterialEntityClassType-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-MaterialEntityClassType-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5V3MaterialEntityClassTypeForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.MaterialEntityClassType for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v3-MaterialEntityClassType|2.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/v3-MaterialEntityClassType|2.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* \r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://terminology.hl7.org/ValueSet/v3-MaterialEntityClassType|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "ACDA" ] ;
+         fhir:display [ fhir:v "ACD Solution A" ]
+       ] [
+         fhir:code [ fhir:v "ACDB" ] ;
+         fhir:display [ fhir:v "ACD Solution B" ]
+       ] [
+         fhir:code [ fhir:v "ACET" ] ;
+         fhir:display [ fhir:v "Acetic Acid" ]
+       ] [
+         fhir:code [ fhir:v "AINJ" ] ;
+         fhir:display [ fhir:v "AutoInjector" ]
+       ] [
+         fhir:code [ fhir:v "AMIES" ] ;
+         fhir:display [ fhir:v "Amies transport medium" ]
+       ] [
+         fhir:code [ fhir:v "AMP" ] ;
+         fhir:display [ fhir:v "Ampule" ]
+       ] [
+         fhir:code [ fhir:v "APLCTR" ] ;
+         fhir:display [ fhir:v "Applicator" ]
+       ] [
+         fhir:code [ fhir:v "BACTM" ] ;
+         fhir:display [ fhir:v "Bacterial Transport medium" ]
+       ] [
+         fhir:code [ fhir:v "BAG" ] ;
+         fhir:display [ fhir:v "Bag" ]
+       ] [
+         fhir:code [ fhir:v "BF10" ] ;
+         fhir:display [ fhir:v "Buffered 10% formalin" ]
+       ] [
+         fhir:code [ fhir:v "BLDPRD" ] ;
+         fhir:display [ fhir:v "Blood Product" ]
+       ] [
+         fhir:code [ fhir:v "BLSTRPK" ] ;
+         fhir:display [ fhir:v "Blister Pack" ]
+       ] [
+         fhir:code [ fhir:v "BOR" ] ;
+         fhir:display [ fhir:v "Boric Acid" ]
+       ] [
+         fhir:code [ fhir:v "BOT" ] ;
+         fhir:display [ fhir:v "Bottle" ]
+       ] [
+         fhir:code [ fhir:v "BOTA" ] ;
+         fhir:display [ fhir:v "Amber Bottle" ]
+       ] [
+         fhir:code [ fhir:v "BOTD" ] ;
+         fhir:display [ fhir:v "Dropper Bottle" ]
+       ] [
+         fhir:code [ fhir:v "BOTG" ] ;
+         fhir:display [ fhir:v "Glass Bottle" ]
+       ] [
+         fhir:code [ fhir:v "BOTP" ] ;
+         fhir:display [ fhir:v "Plastic Bottle" ]
+       ] [
+         fhir:code [ fhir:v "BOTPLY" ] ;
+         fhir:display [ fhir:v "Polyethylene Bottle" ]
+       ] [
+         fhir:code [ fhir:v "BOUIN" ] ;
+         fhir:display [ fhir:v "Bouin's solution" ]
+       ] [
+         fhir:code [ fhir:v "BOX" ] ;
+         fhir:display [ fhir:v "Box" ]
+       ] [
+         fhir:code [ fhir:v "BSKM" ] ;
+         fhir:display [ fhir:v "Buffered skim milk" ]
+       ] [
+         fhir:code [ fhir:v "C32" ] ;
+         fhir:display [ fhir:v "3.2% Citrate" ]
+       ] [
+         fhir:code [ fhir:v "C38" ] ;
+         fhir:display [ fhir:v "3.8% Citrate" ]
+       ] [
+         fhir:code [ fhir:v "CAN" ] ;
+         fhir:display [ fhir:v "Can" ]
+       ] [
+         fhir:code [ fhir:v "CARD" ] ;
+         fhir:display [ fhir:v "Card" ]
+       ] [
+         fhir:code [ fhir:v "CARS" ] ;
+         fhir:display [ fhir:v "Carson's Modified 10% formalin" ]
+       ] [
+         fhir:code [ fhir:v "CART" ] ;
+         fhir:display [ fhir:v "Cartridge" ]
+       ] [
+         fhir:code [ fhir:v "CARY" ] ;
+         fhir:display [ fhir:v "Cary Blair Medium" ]
+       ] [
+         fhir:code [ fhir:v "CHLTM" ] ;
+         fhir:display [ fhir:v "Chlamydia transport medium" ]
+       ] [
+         fhir:code [ fhir:v "CNSTR" ] ;
+         fhir:display [ fhir:v "Canister" ]
+       ] [
+         fhir:code [ fhir:v "COMPPKG" ] ;
+         fhir:display [ fhir:v "Compliance Package" ]
+       ] [
+         fhir:code [ fhir:v "CTAD" ] ;
+         fhir:display [ fhir:v "CTAD" ]
+       ] [
+         fhir:code [ fhir:v "DIALPK" ] ;
+         fhir:display [ fhir:v "Dial Pack" ]
+       ] [
+         fhir:code [ fhir:v "DISK" ] ;
+         fhir:display [ fhir:v "Disk" ]
+       ] [
+         fhir:code [ fhir:v "DOSET" ] ;
+         fhir:display [ fhir:v "Dosette" ]
+       ] [
+         fhir:code [ fhir:v "DSKS" ] ;
+         fhir:display [ fhir:v "Diskus" ]
+       ] [
+         fhir:code [ fhir:v "DSKUNH" ] ;
+         fhir:display [ fhir:v "Diskhaler" ]
+       ] [
+         fhir:code [ fhir:v "EDTK15" ] ;
+         fhir:display [ fhir:v "Potassium/K EDTA 15%" ]
+       ] [
+         fhir:code [ fhir:v "EDTK75" ] ;
+         fhir:display [ fhir:v "Potassium/K EDTA 7.5%" ]
+       ] [
+         fhir:code [ fhir:v "EDTN" ] ;
+         fhir:display [ fhir:v "Sodium/Na EDTA" ]
+       ] [
+         fhir:code [ fhir:v "ENT" ] ;
+         fhir:display [ fhir:v "Enteric bacteria transport medium" ]
+       ] [
+         fhir:code [ fhir:v "F10" ] ;
+         fhir:display [ fhir:v "10% Formalin" ]
+       ] [
+         fhir:code [ fhir:v "FDP" ] ;
+         fhir:display [ fhir:v "Thrombin NIH; soybean trypsin inhibitor" ]
+       ] [
+         fhir:code [ fhir:v "FL10" ] ;
+         fhir:display [ fhir:v "Sodium Fluoride, 10mg" ]
+       ] [
+         fhir:code [ fhir:v "FL100" ] ;
+         fhir:display [ fhir:v "Sodium Fluoride, 100mg" ]
+       ] [
+         fhir:code [ fhir:v "HCL6" ] ;
+         fhir:display [ fhir:v "6N HCL" ]
+       ] [
+         fhir:code [ fhir:v "HEPA" ] ;
+         fhir:display [ fhir:v "Ammonium heparin" ]
+       ] [
+         fhir:code [ fhir:v "HEPL" ] ;
+         fhir:display [ fhir:v "Lithium/Li Heparin" ]
+       ] [
+         fhir:code [ fhir:v "HEPN" ] ;
+         fhir:display [ fhir:v "Sodium/Na Heparin" ]
+       ] [
+         fhir:code [ fhir:v "HNO3" ] ;
+         fhir:display [ fhir:v "Nitric Acid" ]
+       ] [
+         fhir:code [ fhir:v "IALINE" ] ;
+         fhir:display [ fhir:v "Intra-arterial Line" ]
+       ] [
+         fhir:code [ fhir:v "INH" ] ;
+         fhir:display [ fhir:v "Inhaler" ]
+       ] [
+         fhir:code [ fhir:v "IVLINE" ] ;
+         fhir:display [ fhir:v "Intraveneous Line" ]
+       ] [
+         fhir:code [ fhir:v "JAR" ] ;
+         fhir:display [ fhir:v "Jar" ]
+       ] [
+         fhir:code [ fhir:v "JKM" ] ;
+         fhir:display [ fhir:v "Jones Kendrick Medium" ]
+       ] [
+         fhir:code [ fhir:v "JUG" ] ;
+         fhir:display [ fhir:v "Jug" ]
+       ] [
+         fhir:code [ fhir:v "KARN" ] ;
+         fhir:display [ fhir:v "Karnovsky's fixative" ]
+       ] [
+         fhir:code [ fhir:v "KIT" ] ;
+         fhir:display [ fhir:v "Kit" ]
+       ] [
+         fhir:code [ fhir:v "KOX" ] ;
+         fhir:display [ fhir:v "Potassium Oxalate" ]
+       ] [
+         fhir:code [ fhir:v "LIA" ] ;
+         fhir:display [ fhir:v "Lithium iodoacetate" ]
+       ] [
+         fhir:code [ fhir:v "LINE" ] ;
+         fhir:display [ fhir:v "Line" ]
+       ] [
+         fhir:code [ fhir:v "M4" ] ;
+         fhir:display [ fhir:v "M4" ]
+       ] [
+         fhir:code [ fhir:v "M4RT" ] ;
+         fhir:display [ fhir:v "M4-RT" ]
+       ] [
+         fhir:code [ fhir:v "M5" ] ;
+         fhir:display [ fhir:v "M5" ]
+       ] [
+         fhir:code [ fhir:v "MICHTM" ] ;
+         fhir:display [ fhir:v "Michel's transport medium" ]
+       ] [
+         fhir:code [ fhir:v "MINIM" ] ;
+         fhir:display [ fhir:v "Minim" ]
+       ] [
+         fhir:code [ fhir:v "MMDTM" ] ;
+         fhir:display [ fhir:v "MMD transport medium" ]
+       ] [
+         fhir:code [ fhir:v "NAF" ] ;
+         fhir:display [ fhir:v "Sodium Fluoride" ]
+       ] [
+         fhir:code [ fhir:v "NEBAMP" ] ;
+         fhir:display [ fhir:v "Nebuamp" ]
+       ] [
+         fhir:code [ fhir:v "NONE" ] ;
+         fhir:display [ fhir:v "None" ]
+       ] [
+         fhir:code [ fhir:v "OVUL" ] ;
+         fhir:display [ fhir:v "Ovule" ]
+       ] [
+         fhir:code [ fhir:v "PACKT" ] ;
+         fhir:display [ fhir:v "Packet" ]
+       ] [
+         fhir:code [ fhir:v "PAGE" ] ;
+         fhir:display [ fhir:v "Page's Saline" ]
+       ] [
+         fhir:code [ fhir:v "PCH" ] ;
+         fhir:display [ fhir:v "Pouch" ]
+       ] [
+         fhir:code [ fhir:v "PEN" ] ;
+         fhir:display [ fhir:v "Pen" ]
+       ] [
+         fhir:code [ fhir:v "PHENOL" ] ;
+         fhir:display [ fhir:v "Phenol" ]
+       ] [
+         fhir:code [ fhir:v "PKG" ] ;
+         fhir:display [ fhir:v "Package" ]
+       ] [
+         fhir:code [ fhir:v "PMP" ] ;
+         fhir:display [ fhir:v "Pump" ]
+       ] [
+         fhir:code [ fhir:v "PVA" ] ;
+         fhir:display [ fhir:v "Polyvinylalcohol" ]
+       ] [
+         fhir:code [ fhir:v "RLM" ] ;
+         fhir:display [ fhir:v "Reagan Lowe Medium" ]
+       ] [
+         fhir:code [ fhir:v "SACH" ] ;
+         fhir:display [ fhir:v "Sachet" ]
+       ] [
+         fhir:code [ fhir:v "SILICA" ] ;
+         fhir:display [ fhir:v "Siliceous earth" ]
+       ] [
+         fhir:code [ fhir:v "SPS" ] ;
+         fhir:display [ fhir:v "Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride" ]
+       ] [
+         fhir:code [ fhir:v "SST" ] ;
+         fhir:display [ fhir:v "Serum Separator Tube" ]
+       ] [
+         fhir:code [ fhir:v "STRIP" ] ;
+         fhir:display [ fhir:v "Strip" ]
+       ] [
+         fhir:code [ fhir:v "STUTM" ] ;
+         fhir:display [ fhir:v "Stuart transport medium" ]
+       ] [
+         fhir:code [ fhir:v "SYR" ] ;
+         fhir:display [ fhir:v "Syringe" ]
+       ] [
+         fhir:code [ fhir:v "SYSTM" ] ;
+         fhir:display [ fhir:v "System" ]
+       ] [
+         fhir:code [ fhir:v "THROM" ] ;
+         fhir:display [ fhir:v "Thrombin" ]
+       ] [
+         fhir:code [ fhir:v "THYMOL" ] ;
+         fhir:display [ fhir:v "Thymol" ]
+       ] [
+         fhir:code [ fhir:v "THYO" ] ;
+         fhir:display [ fhir:v "Thyoglycolate broth" ]
+       ] [
+         fhir:code [ fhir:v "TIN" ] ;
+         fhir:display [ fhir:v "Tin" ]
+       ] [
+         fhir:code [ fhir:v "TOLU" ] ;
+         fhir:display [ fhir:v "Toluene" ]
+       ] [
+         fhir:code [ fhir:v "TRBINH" ] ;
+         fhir:display [ fhir:v "Turbuhaler" ]
+       ] [
+         fhir:code [ fhir:v "TUB" ] ;
+         fhir:display [ fhir:v "Tub" ]
+       ] [
+         fhir:code [ fhir:v "TUBE" ] ;
+         fhir:display [ fhir:v "Tube" ]
+       ] [
+         fhir:code [ fhir:v "URETM" ] ;
+         fhir:display [ fhir:v "Ureaplasma transport medium" ]
+       ] [
+         fhir:code [ fhir:v "VCCNE" ] ;
+         fhir:display [ fhir:v "Vaccine" ]
+       ] [
+         fhir:code [ fhir:v "VIAL" ] ;
+         fhir:display [ fhir:v "Vial" ]
+       ] [
+         fhir:code [ fhir:v "VIRTM" ] ;
+         fhir:display [ fhir:v "Viral Transport medium" ]
+       ] [
+         fhir:code [ fhir:v "WEST" ] ;
+         fhir:display [ fhir:v "Buffered Citrate" ]
+       ] [
+         fhir:code [ fhir:v "_AccessMedicalDevice" ] ;
+         fhir:display [ fhir:v "AccessMedicalDevice" ]
+       ] [
+         fhir:code [ fhir:v "_ActiveIngredientDrugEntityType" ] ;
+         fhir:display [ fhir:v "ActiveIngredientDrugEntityType" ]
+       ] [
+         fhir:code [ fhir:v "_AdministrationMedicalDevice" ] ;
+         fhir:display [ fhir:v "AdministrationMedicalDevice" ]
+       ] [
+         fhir:code [ fhir:v "_ClinicalDrug" ] ;
+         fhir:display [ fhir:v "ClinicalDrug" ]
+       ] [
+         fhir:code [ fhir:v "_ContainerEntityType" ] ;
+         fhir:display [ fhir:v "ContainerEntityType" ]
+       ] [
+         fhir:code [ fhir:v "_DeviceGenericType" ] ;
+         fhir:display [ fhir:v "Device Generic Type" ]
+       ] [
+         fhir:code [ fhir:v "_DrugEntity" ] ;
+         fhir:display [ fhir:v "DrugEntity" ]
+       ] [
+         fhir:code [ fhir:v "_ExposureAgentEntityType" ] ;
+         fhir:display [ fhir:v "ExposureAgentEntityType" ]
+       ] [
+         fhir:code [ fhir:v "_IndividualPackageEntityType" ] ;
+         fhir:display [ fhir:v "IndividualPackageEntityType" ]
+       ] [
+         fhir:code [ fhir:v "_InjectionMedicalDevice" ] ;
+         fhir:display [ fhir:v "InjectionMedicalDevice" ]
+       ] [
+         fhir:code [ fhir:v "_ManufacturedDrug" ] ;
+         fhir:display [ fhir:v "ManufacturedDrug" ]
+       ] [
+         fhir:code [ fhir:v "_MedicalDevice" ] ;
+         fhir:display [ fhir:v "MedicalDevice" ]
+       ] [
+         fhir:code [ fhir:v "_MultiUseContainerEntityType" ] ;
+         fhir:display [ fhir:v "MultiUseContainerEntityType" ]
+       ] [
+         fhir:code [ fhir:v "_NonRigidContainerEntityType" ] ;
+         fhir:display [ fhir:v "NonRigidContainerEntityType" ]
+       ] [
+         fhir:code [ fhir:v "_RigidContainerEntityType" ] ;
+         fhir:display [ fhir:v "RigidContainerEntityType" ]
+       ] [
+         fhir:code [ fhir:v "_SpecimenAdditiveEntity" ] ;
+         fhir:display [ fhir:v "SpecimenAdditiveEntity" ]
+       ] [
+         fhir:code [ fhir:v "_x_BillableProduct" ] ;
+         fhir:display [ fhir:v "x_BillableProduct" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "ABS" ] ;
+         fhir:display [ fhir:v "Abcess" ]
+       ] [
+         fhir:code [ fhir:v "AMN" ] ;
+         fhir:display [ fhir:v "Amniotic fluid" ]
+       ] [
+         fhir:code [ fhir:v "ASP" ] ;
+         fhir:display [ fhir:v "Aspirate" ]
+       ] [
+         fhir:code [ fhir:v "BBL" ] ;
+         fhir:display [ fhir:v "Blood bag" ]
+       ] [
+         fhir:code [ fhir:v "BDY" ] ;
+         fhir:display [ fhir:v "Whole body" ]
+       ] [
+         fhir:code [ fhir:v "BIFL" ] ;
+         fhir:display [ fhir:v "Bile fluid" ]
+       ] [
+         fhir:code [ fhir:v "BLD" ] ;
+         fhir:display [ fhir:v "Whole blood" ]
+       ] [
+         fhir:code [ fhir:v "BLDA" ] ;
+         fhir:display [ fhir:v "Blood arterial" ]
+       ] [
+         fhir:code [ fhir:v "BLDC" ] ;
+         fhir:display [ fhir:v "Blood capillary" ]
+       ] [
+         fhir:code [ fhir:v "BLDCO" ] ;
+         fhir:display [ fhir:v "Blood - cord" ]
+       ] [
+         fhir:code [ fhir:v "BLDV" ] ;
+         fhir:display [ fhir:v "Blood venous" ]
+       ] [
+         fhir:code [ fhir:v "BON" ] ;
+         fhir:display [ fhir:v "Bone" ]
+       ] [
+         fhir:code [ fhir:v "BPH" ] ;
+         fhir:display [ fhir:v "Basophils" ]
+       ] [
+         fhir:code [ fhir:v "BPU" ] ;
+         fhir:display [ fhir:v "Blood product unit" ]
+       ] [
+         fhir:code [ fhir:v "BRN" ] ;
+         fhir:display [ fhir:v "Burn" ]
+       ] [
+         fhir:code [ fhir:v "BRO" ] ;
+         fhir:display [ fhir:v "Bronchial" ]
+       ] [
+         fhir:code [ fhir:v "BRTH" ] ;
+         fhir:display [ fhir:v "Exhaled gas (=breath)" ]
+       ] [
+         fhir:code [ fhir:v "CALC" ] ;
+         fhir:display [ fhir:v "Calculus (=Stone)" ]
+       ] [
+         fhir:code [ fhir:v "CDM" ] ;
+         fhir:display [ fhir:v "Cardiac muscle" ]
+       ] [
+         fhir:code [ fhir:v "CNJT" ] ;
+         fhir:display [ fhir:v "Conjunctiva" ]
+       ] [
+         fhir:code [ fhir:v "CNL" ] ;
+         fhir:display [ fhir:v "Cannula" ]
+       ] [
+         fhir:code [ fhir:v "COL" ] ;
+         fhir:display [ fhir:v "Colostrum" ]
+       ] [
+         fhir:code [ fhir:v "CRN" ] ;
+         fhir:display [ fhir:v "Cornea" ]
+       ] [
+         fhir:code [ fhir:v "CSF" ] ;
+         fhir:display [ fhir:v "Cerebral spinal fluid" ]
+       ] [
+         fhir:code [ fhir:v "CTP" ] ;
+         fhir:display [ fhir:v "Catheter tip" ]
+       ] [
+         fhir:code [ fhir:v "CUR" ] ;
+         fhir:display [ fhir:v "Curettage" ]
+       ] [
+         fhir:code [ fhir:v "CVM" ] ;
+         fhir:display [ fhir:v "Cervical mucus" ]
+       ] [
+         fhir:code [ fhir:v "CVX" ] ;
+         fhir:display [ fhir:v "Cervix" ]
+       ] [
+         fhir:code [ fhir:v "CYST" ] ;
+         fhir:display [ fhir:v "Cyst" ]
+       ] [
+         fhir:code [ fhir:v "DIAF" ] ;
+         fhir:display [ fhir:v "Dialysis fluid" ]
+       ] [
+         fhir:code [ fhir:v "DOSE" ] ;
+         fhir:display [ fhir:v "Dose med or substance" ]
+       ] [
+         fhir:code [ fhir:v "DRN" ] ;
+         fhir:display [ fhir:v "Drain" ]
+       ] [
+         fhir:code [ fhir:v "DUFL" ] ;
+         fhir:display [ fhir:v "Duodenal fluid" ]
+       ] [
+         fhir:code [ fhir:v "EAR" ] ;
+         fhir:display [ fhir:v "Ear" ]
+       ] [
+         fhir:code [ fhir:v "EARW" ] ;
+         fhir:display [ fhir:v "Ear wax (cerumen)" ]
+       ] [
+         fhir:code [ fhir:v "ELT" ] ;
+         fhir:display [ fhir:v "Electrode" ]
+       ] [
+         fhir:code [ fhir:v "ENDC" ] ;
+         fhir:display [ fhir:v "Endocardium" ]
+       ] [
+         fhir:code [ fhir:v "ENDM" ] ;
+         fhir:display [ fhir:v "Endometrium" ]
+       ] [
+         fhir:code [ fhir:v "EOS" ] ;
+         fhir:display [ fhir:v "Eosinophils" ]
+       ] [
+         fhir:code [ fhir:v "EXG" ] ;
+         fhir:display [ fhir:v "Exhaled gas (=breath)" ]
+       ] [
+         fhir:code [ fhir:v "EYE" ] ;
+         fhir:display [ fhir:v "Eye" ]
+       ] [
+         fhir:code [ fhir:v "FIB" ] ;
+         fhir:display [ fhir:v "Fibroblasts" ]
+       ] [
+         fhir:code [ fhir:v "FIST" ] ;
+         fhir:display [ fhir:v "Fistula" ]
+       ] [
+         fhir:code [ fhir:v "FLT" ] ;
+         fhir:display [ fhir:v "Filter" ]
+       ] [
+         fhir:code [ fhir:v "FLU" ] ;
+         fhir:display [ fhir:v "Body fluid, unsp" ]
+       ] [
+         fhir:code [ fhir:v "FOOD" ] ;
+         fhir:display [ fhir:v "Food sample" ]
+       ] [
+         fhir:code [ fhir:v "GAS" ] ;
+         fhir:display [ fhir:v "Gas" ]
+       ] [
+         fhir:code [ fhir:v "GAST" ] ;
+         fhir:display [ fhir:v "Gastric fluid/contents" ]
+       ] [
+         fhir:code [ fhir:v "GEN" ] ;
+         fhir:display [ fhir:v "Genital" ]
+       ] [
+         fhir:code [ fhir:v "GENC" ] ;
+         fhir:display [ fhir:v "Genital cervix" ]
+       ] [
+         fhir:code [ fhir:v "GENF" ] ;
+         fhir:display [ fhir:v "Genital fluid" ]
+       ] [
+         fhir:code [ fhir:v "GENL" ] ;
+         fhir:display [ fhir:v "Genital lochia" ]
+       ] [
+         fhir:code [ fhir:v "GENV" ] ;
+         fhir:display [ fhir:v "Genital vaginal" ]
+       ] [
+         fhir:code [ fhir:v "HAR" ] ;
+         fhir:display [ fhir:v "Hair" ]
+       ] [
+         fhir:code [ fhir:v "IHG" ] ;
+         fhir:display [ fhir:v "Inhaled Gas" ]
+       ] [
+         fhir:code [ fhir:v "ISLT" ] ;
+         fhir:display [ fhir:v "Isolate" ]
+       ] [
+         fhir:code [ fhir:v "IT" ] ;
+         fhir:display [ fhir:v "Intubation tube" ]
+       ] [
+         fhir:code [ fhir:v "LAM" ] ;
+         fhir:display [ fhir:v "Lamella" ]
+       ] [
+         fhir:code [ fhir:v "LIQ" ] ;
+         fhir:display [ fhir:v "Liquid NOS" ]
+       ] [
+         fhir:code [ fhir:v "LN" ] ;
+         fhir:display [ fhir:v "Line" ]
+       ] [
+         fhir:code [ fhir:v "LNA" ] ;
+         fhir:display [ fhir:v "Line arterial" ]
+       ] [
+         fhir:code [ fhir:v "LNV" ] ;
+         fhir:display [ fhir:v "Line venous" ]
+       ] [
+         fhir:code [ fhir:v "LYM" ] ;
+         fhir:display [ fhir:v "Lymphocytes" ]
+       ] [
+         fhir:code [ fhir:v "MAC" ] ;
+         fhir:display [ fhir:v "Macrophages" ]
+       ] [
+         fhir:code [ fhir:v "MAR" ] ;
+         fhir:display [ fhir:v "Marrow (bone)" ]
+       ] [
+         fhir:code [ fhir:v "MBLD" ] ;
+         fhir:display [ fhir:v "Menstrual blood" ]
+       ] [
+         fhir:code [ fhir:v "MEC" ] ;
+         fhir:display [ fhir:v "Meconium" ]
+       ] [
+         fhir:code [ fhir:v "MILK" ] ;
+         fhir:display [ fhir:v "Breast milk" ]
+       ] [
+         fhir:code [ fhir:v "MLK" ] ;
+         fhir:display [ fhir:v "Milk" ]
+       ] [
+         fhir:code [ fhir:v "NAIL" ] ;
+         fhir:display [ fhir:v "Nail" ]
+       ] [
+         fhir:code [ fhir:v "NOS" ] ;
+         fhir:display [ fhir:v "Nose (nasal passage)" ]
+       ] [
+         fhir:code [ fhir:v "PAFL" ] ;
+         fhir:display [ fhir:v "Pancreatic fluid" ]
+       ] [
+         fhir:code [ fhir:v "PAT" ] ;
+         fhir:display [ fhir:v "Patient" ]
+       ] [
+         fhir:code [ fhir:v "PLAS" ] ;
+         fhir:display [ fhir:v "Plasma" ]
+       ] [
+         fhir:code [ fhir:v "PLB" ] ;
+         fhir:display [ fhir:v "Plasma bag" ]
+       ] [
+         fhir:code [ fhir:v "PLC" ] ;
+         fhir:display [ fhir:v "Placenta" ]
+       ] [
+         fhir:code [ fhir:v "PLR" ] ;
+         fhir:display [ fhir:v "Pleural fluid (thoracentesis fld)" ]
+       ] [
+         fhir:code [ fhir:v "PMN" ] ;
+         fhir:display [ fhir:v "Polymorphonuclear neutrophils" ]
+       ] [
+         fhir:code [ fhir:v "PPP" ] ;
+         fhir:display [ fhir:v "Platelet poor plasma" ]
+       ] [
+         fhir:code [ fhir:v "PRP" ] ;
+         fhir:display [ fhir:v "Platelet rich plasma" ]
+       ] [
+         fhir:code [ fhir:v "PRT" ] ;
+         fhir:display [ fhir:v "Peritoneal fluid /ascites" ]
+       ] [
+         fhir:code [ fhir:v "PUS" ] ;
+         fhir:display [ fhir:v "Pus" ]
+       ] [
+         fhir:code [ fhir:v "RBC" ] ;
+         fhir:display [ fhir:v "Erythrocytes" ]
+       ] [
+         fhir:code [ fhir:v "SAL" ] ;
+         fhir:display [ fhir:v "Saliva" ]
+       ] [
+         fhir:code [ fhir:v "SER" ] ;
+         fhir:display [ fhir:v "Serum" ]
+       ] [
+         fhir:code [ fhir:v "SKM" ] ;
+         fhir:display [ fhir:v "Skeletal muscle" ]
+       ] [
+         fhir:code [ fhir:v "SKN" ] ;
+         fhir:display [ fhir:v "Skin" ]
+       ] [
+         fhir:code [ fhir:v "SMN" ] ;
+         fhir:display [ fhir:v "Seminal fluid" ]
+       ] [
+         fhir:code [ fhir:v "SMPLS" ] ;
+         fhir:display [ fhir:v "Seminal plasma" ]
+       ] [
+         fhir:code [ fhir:v "SNV" ] ;
+         fhir:display [ fhir:v "Synovial fluid (Joint fluid)" ]
+       ] [
+         fhir:code [ fhir:v "SPRM" ] ;
+         fhir:display [ fhir:v "Spermatozoa" ]
+       ] [
+         fhir:code [ fhir:v "SPT" ] ;
+         fhir:display [ fhir:v "Sputum" ]
+       ] [
+         fhir:code [ fhir:v "SPTC" ] ;
+         fhir:display [ fhir:v "Sputum - coughed" ]
+       ] [
+         fhir:code [ fhir:v "SPTT" ] ;
+         fhir:display [ fhir:v "Sputum - tracheal aspirate" ]
+       ] [
+         fhir:code [ fhir:v "STL" ] ;
+         fhir:display [ fhir:v "Stool = Fecal" ]
+       ] [
+         fhir:code [ fhir:v "STON" ] ;
+         fhir:display [ fhir:v "Calculus (=Stone)" ]
+       ] [
+         fhir:code [ fhir:v "SWT" ] ;
+         fhir:display [ fhir:v "Sweat" ]
+       ] [
+         fhir:code [ fhir:v "TEAR" ] ;
+         fhir:display [ fhir:v "Tears" ]
+       ] [
+         fhir:code [ fhir:v "THRB" ] ;
+         fhir:display [ fhir:v "Thrombocyte (platelet)" ]
+       ] [
+         fhir:code [ fhir:v "THRT" ] ;
+         fhir:display [ fhir:v "Throat" ]
+       ] [
+         fhir:code [ fhir:v "TISG" ] ;
+         fhir:display [ fhir:v "Tissue gall bladder" ]
+       ] [
+         fhir:code [ fhir:v "TISPL" ] ;
+         fhir:display [ fhir:v "Tissue placenta" ]
+       ] [
+         fhir:code [ fhir:v "TISS" ] ;
+         fhir:display [ fhir:v "Tissue, unspecified" ]
+       ] [
+         fhir:code [ fhir:v "TISU" ] ;
+         fhir:display [ fhir:v "Tissue ulcer" ]
+       ] [
+         fhir:code [ fhir:v "TLGI" ] ;
+         fhir:display [ fhir:v "Tissue large intestine" ]
+       ] [
+         fhir:code [ fhir:v "TLNG" ] ;
+         fhir:display [ fhir:v "Tissue lung" ]
+       ] [
+         fhir:code [ fhir:v "TSMI" ] ;
+         fhir:display [ fhir:v "Tissue small intestine Tissue ulcer" ]
+       ] [
+         fhir:code [ fhir:v "TUB" ] ;
+         fhir:display [ fhir:v "Tube, unspecified" ]
+       ] [
+         fhir:code [ fhir:v "ULC" ] ;
+         fhir:display [ fhir:v "Ulcer" ]
+       ] [
+         fhir:code [ fhir:v "UMB" ] ;
+         fhir:display [ fhir:v "Umbilical blood" ]
+       ] [
+         fhir:code [ fhir:v "UMED" ] ;
+         fhir:display [ fhir:v "Unknown medicine" ]
+       ] [
+         fhir:code [ fhir:v "UR" ] ;
+         fhir:display [ fhir:v "Urine" ]
+       ] [
+         fhir:code [ fhir:v "URC" ] ;
+         fhir:display [ fhir:v "Urine clean catch" ]
+       ] [
+         fhir:code [ fhir:v "URNS" ] ;
+         fhir:display [ fhir:v "Urine sediment" ]
+       ] [
+         fhir:code [ fhir:v "URT" ] ;
+         fhir:display [ fhir:v "Urine catheter" ]
+       ] [
+         fhir:code [ fhir:v "URTH" ] ;
+         fhir:display [ fhir:v "Urethra" ]
+       ] [
+         fhir:code [ fhir:v "USUB" ] ;
+         fhir:display [ fhir:v "Unknown substance" ]
+       ] [
+         fhir:code [ fhir:v "VOM" ] ;
+         fhir:display [ fhir:v "Vomitus" ]
+       ] [
+         fhir:code [ fhir:v "WAT" ] ;
+         fhir:display [ fhir:v "Water" ]
+       ] [
+         fhir:code [ fhir:v "WBC" ] ;
+         fhir:display [ fhir:v "Leukocytes" ]
+       ] [
+         fhir:code [ fhir:v "WICK" ] ;
+         fhir:display [ fhir:v "Wick" ]
+       ] [
+         fhir:code [ fhir:v "WND" ] ;
+         fhir:display [ fhir:v "Wound" ]
+       ] [
+         fhir:code [ fhir:v "WNDA" ] ;
+         fhir:display [ fhir:v "Wound abscess" ]
+       ] [
+         fhir:code [ fhir:v "WNDD" ] ;
+         fhir:display [ fhir:v "Wound drainage" ]
+       ] [
+         fhir:code [ fhir:v "WNDE" ] ;
+         fhir:display [ fhir:v "Wound exudate" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ACDA" ] ;
+       fhir:display [ fhir:v "ACD Solution A" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ACDB" ] ;
+       fhir:display [ fhir:v "ACD Solution B" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ACET" ] ;
+       fhir:display [ fhir:v "Acetic Acid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "AINJ" ] ;
+       fhir:display [ fhir:v "AutoInjector" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "AMIES" ] ;
+       fhir:display [ fhir:v "Amies transport medium" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "AMP" ] ;
+       fhir:display [ fhir:v "Ampule" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "APLCTR" ] ;
+       fhir:display [ fhir:v "Applicator" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BACTM" ] ;
+       fhir:display [ fhir:v "Bacterial Transport medium" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BAG" ] ;
+       fhir:display [ fhir:v "Bag" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BF10" ] ;
+       fhir:display [ fhir:v "Buffered 10% formalin" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BLDPRD" ] ;
+       fhir:display [ fhir:v "Blood Product" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BLSTRPK" ] ;
+       fhir:display [ fhir:v "Blister Pack" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BOR" ] ;
+       fhir:display [ fhir:v "Boric Acid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BOT" ] ;
+       fhir:display [ fhir:v "Bottle" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BOTA" ] ;
+       fhir:display [ fhir:v "Amber Bottle" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BOTD" ] ;
+       fhir:display [ fhir:v "Dropper Bottle" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BOTG" ] ;
+       fhir:display [ fhir:v "Glass Bottle" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BOTP" ] ;
+       fhir:display [ fhir:v "Plastic Bottle" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BOTPLY" ] ;
+       fhir:display [ fhir:v "Polyethylene Bottle" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BOUIN" ] ;
+       fhir:display [ fhir:v "Bouin's solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BOX" ] ;
+       fhir:display [ fhir:v "Box" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BSKM" ] ;
+       fhir:display [ fhir:v "Buffered skim milk" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "C32" ] ;
+       fhir:display [ fhir:v "3.2% Citrate" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "C38" ] ;
+       fhir:display [ fhir:v "3.8% Citrate" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CAN" ] ;
+       fhir:display [ fhir:v "Can" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CARD" ] ;
+       fhir:display [ fhir:v "Card" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CARS" ] ;
+       fhir:display [ fhir:v "Carson's Modified 10% formalin" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CART" ] ;
+       fhir:display [ fhir:v "Cartridge" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CARY" ] ;
+       fhir:display [ fhir:v "Cary Blair Medium" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CHLTM" ] ;
+       fhir:display [ fhir:v "Chlamydia transport medium" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CNSTR" ] ;
+       fhir:display [ fhir:v "Canister" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "COMPPKG" ] ;
+       fhir:display [ fhir:v "Compliance Package" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CTAD" ] ;
+       fhir:display [ fhir:v "CTAD" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "DIALPK" ] ;
+       fhir:display [ fhir:v "Dial Pack" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "DISK" ] ;
+       fhir:display [ fhir:v "Disk" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "DOSET" ] ;
+       fhir:display [ fhir:v "Dosette" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "DSKS" ] ;
+       fhir:display [ fhir:v "Diskus" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "DSKUNH" ] ;
+       fhir:display [ fhir:v "Diskhaler" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "EDTK15" ] ;
+       fhir:display [ fhir:v "Potassium/K EDTA 15%" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "EDTK75" ] ;
+       fhir:display [ fhir:v "Potassium/K EDTA 7.5%" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "EDTN" ] ;
+       fhir:display [ fhir:v "Sodium/Na EDTA" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ENT" ] ;
+       fhir:display [ fhir:v "Enteric bacteria transport medium" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "F10" ] ;
+       fhir:display [ fhir:v "10% Formalin" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "FDP" ] ;
+       fhir:display [ fhir:v "Thrombin NIH; soybean trypsin inhibitor" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "FL10" ] ;
+       fhir:display [ fhir:v "Sodium Fluoride, 10mg" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "FL100" ] ;
+       fhir:display [ fhir:v "Sodium Fluoride, 100mg" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "HCL6" ] ;
+       fhir:display [ fhir:v "6N HCL" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "HEPA" ] ;
+       fhir:display [ fhir:v "Ammonium heparin" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "HEPL" ] ;
+       fhir:display [ fhir:v "Lithium/Li Heparin" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "HEPN" ] ;
+       fhir:display [ fhir:v "Sodium/Na Heparin" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "HNO3" ] ;
+       fhir:display [ fhir:v "Nitric Acid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IALINE" ] ;
+       fhir:display [ fhir:v "Intra-arterial Line" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "INH" ] ;
+       fhir:display [ fhir:v "Inhaler" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IVLINE" ] ;
+       fhir:display [ fhir:v "Intraveneous Line" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "JAR" ] ;
+       fhir:display [ fhir:v "Jar" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "JKM" ] ;
+       fhir:display [ fhir:v "Jones Kendrick Medium" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "JUG" ] ;
+       fhir:display [ fhir:v "Jug" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "KARN" ] ;
+       fhir:display [ fhir:v "Karnovsky's fixative" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "KIT" ] ;
+       fhir:display [ fhir:v "Kit" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "KOX" ] ;
+       fhir:display [ fhir:v "Potassium Oxalate" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "LIA" ] ;
+       fhir:display [ fhir:v "Lithium iodoacetate" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "LINE" ] ;
+       fhir:display [ fhir:v "Line" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "M4" ] ;
+       fhir:display [ fhir:v "M4" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "M4RT" ] ;
+       fhir:display [ fhir:v "M4-RT" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "M5" ] ;
+       fhir:display [ fhir:v "M5" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "MICHTM" ] ;
+       fhir:display [ fhir:v "Michel's transport medium" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "MINIM" ] ;
+       fhir:display [ fhir:v "Minim" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "MMDTM" ] ;
+       fhir:display [ fhir:v "MMD transport medium" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "NAF" ] ;
+       fhir:display [ fhir:v "Sodium Fluoride" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "NEBAMP" ] ;
+       fhir:display [ fhir:v "Nebuamp" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "NONE" ] ;
+       fhir:display [ fhir:v "None" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "OVUL" ] ;
+       fhir:display [ fhir:v "Ovule" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PACKT" ] ;
+       fhir:display [ fhir:v "Packet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PAGE" ] ;
+       fhir:display [ fhir:v "Page's Saline" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PCH" ] ;
+       fhir:display [ fhir:v "Pouch" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PEN" ] ;
+       fhir:display [ fhir:v "Pen" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PHENOL" ] ;
+       fhir:display [ fhir:v "Phenol" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PKG" ] ;
+       fhir:display [ fhir:v "Package" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PMP" ] ;
+       fhir:display [ fhir:v "Pump" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PVA" ] ;
+       fhir:display [ fhir:v "Polyvinylalcohol" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "RLM" ] ;
+       fhir:display [ fhir:v "Reagan Lowe Medium" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SACH" ] ;
+       fhir:display [ fhir:v "Sachet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SILICA" ] ;
+       fhir:display [ fhir:v "Siliceous earth" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SPS" ] ;
+       fhir:display [ fhir:v "Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SST" ] ;
+       fhir:display [ fhir:v "Serum Separator Tube" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "STRIP" ] ;
+       fhir:display [ fhir:v "Strip" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "STUTM" ] ;
+       fhir:display [ fhir:v "Stuart transport medium" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SYR" ] ;
+       fhir:display [ fhir:v "Syringe" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SYSTM" ] ;
+       fhir:display [ fhir:v "System" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "THROM" ] ;
+       fhir:display [ fhir:v "Thrombin" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "THYMOL" ] ;
+       fhir:display [ fhir:v "Thymol" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "THYO" ] ;
+       fhir:display [ fhir:v "Thyoglycolate broth" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TIN" ] ;
+       fhir:display [ fhir:v "Tin" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TOLU" ] ;
+       fhir:display [ fhir:v "Toluene" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TRBINH" ] ;
+       fhir:display [ fhir:v "Turbuhaler" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TUB" ] ;
+       fhir:display [ fhir:v "Tub" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TUBE" ] ;
+       fhir:display [ fhir:v "Tube" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "URETM" ] ;
+       fhir:display [ fhir:v "Ureaplasma transport medium" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "VCCNE" ] ;
+       fhir:display [ fhir:v "Vaccine" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "VIAL" ] ;
+       fhir:display [ fhir:v "Vial" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "VIRTM" ] ;
+       fhir:display [ fhir:v "Viral Transport medium" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "WEST" ] ;
+       fhir:display [ fhir:v "Buffered Citrate" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_AccessMedicalDevice" ] ;
+       fhir:display [ fhir:v "AccessMedicalDevice" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_ActiveIngredientDrugEntityType" ] ;
+       fhir:display [ fhir:v "ActiveIngredientDrugEntityType" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_AdministrationMedicalDevice" ] ;
+       fhir:display [ fhir:v "AdministrationMedicalDevice" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_ClinicalDrug" ] ;
+       fhir:display [ fhir:v "ClinicalDrug" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_ContainerEntityType" ] ;
+       fhir:display [ fhir:v "ContainerEntityType" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_DeviceGenericType" ] ;
+       fhir:display [ fhir:v "Device Generic Type" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_DrugEntity" ] ;
+       fhir:display [ fhir:v "DrugEntity" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_ExposureAgentEntityType" ] ;
+       fhir:display [ fhir:v "ExposureAgentEntityType" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_IndividualPackageEntityType" ] ;
+       fhir:display [ fhir:v "IndividualPackageEntityType" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_InjectionMedicalDevice" ] ;
+       fhir:display [ fhir:v "InjectionMedicalDevice" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_ManufacturedDrug" ] ;
+       fhir:display [ fhir:v "ManufacturedDrug" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_MedicalDevice" ] ;
+       fhir:display [ fhir:v "MedicalDevice" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_MultiUseContainerEntityType" ] ;
+       fhir:display [ fhir:v "MultiUseContainerEntityType" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_NonRigidContainerEntityType" ] ;
+       fhir:display [ fhir:v "NonRigidContainerEntityType" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_RigidContainerEntityType" ] ;
+       fhir:display [ fhir:v "RigidContainerEntityType" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_SpecimenAdditiveEntity" ] ;
+       fhir:display [ fhir:v "SpecimenAdditiveEntity" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-EntityCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-EntityCode>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_x_BillableProduct" ] ;
+       fhir:display [ fhir:v "x_BillableProduct" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "ABS" ] ;
+       fhir:display [ fhir:v "Abcess" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "AMN" ] ;
+       fhir:display [ fhir:v "Amniotic fluid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "ASP" ] ;
+       fhir:display [ fhir:v "Aspirate" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "BBL" ] ;
+       fhir:display [ fhir:v "Blood bag" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "BDY" ] ;
+       fhir:display [ fhir:v "Whole body" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "BIFL" ] ;
+       fhir:display [ fhir:v "Bile fluid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "BLD" ] ;
+       fhir:display [ fhir:v "Whole blood" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "BLDA" ] ;
+       fhir:display [ fhir:v "Blood arterial" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "BLDC" ] ;
+       fhir:display [ fhir:v "Blood capillary" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "BLDCO" ] ;
+       fhir:display [ fhir:v "Blood - cord" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "BLDV" ] ;
+       fhir:display [ fhir:v "Blood venous" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "BON" ] ;
+       fhir:display [ fhir:v "Bone" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "BPH" ] ;
+       fhir:display [ fhir:v "Basophils" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "BPU" ] ;
+       fhir:display [ fhir:v "Blood product unit" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "BRN" ] ;
+       fhir:display [ fhir:v "Burn" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "BRO" ] ;
+       fhir:display [ fhir:v "Bronchial" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "BRTH" ] ;
+       fhir:display [ fhir:v "Exhaled gas (=breath)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "CALC" ] ;
+       fhir:display [ fhir:v "Calculus (=Stone)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "CDM" ] ;
+       fhir:display [ fhir:v "Cardiac muscle" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "CNJT" ] ;
+       fhir:display [ fhir:v "Conjunctiva" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "CNL" ] ;
+       fhir:display [ fhir:v "Cannula" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "COL" ] ;
+       fhir:display [ fhir:v "Colostrum" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "CRN" ] ;
+       fhir:display [ fhir:v "Cornea" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "CSF" ] ;
+       fhir:display [ fhir:v "Cerebral spinal fluid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "CTP" ] ;
+       fhir:display [ fhir:v "Catheter tip" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "CUR" ] ;
+       fhir:display [ fhir:v "Curettage" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "CVM" ] ;
+       fhir:display [ fhir:v "Cervical mucus" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "CVX" ] ;
+       fhir:display [ fhir:v "Cervix" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "CYST" ] ;
+       fhir:display [ fhir:v "Cyst" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "DIAF" ] ;
+       fhir:display [ fhir:v "Dialysis fluid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "DOSE" ] ;
+       fhir:display [ fhir:v "Dose med or substance" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "DRN" ] ;
+       fhir:display [ fhir:v "Drain" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "DUFL" ] ;
+       fhir:display [ fhir:v "Duodenal fluid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "EAR" ] ;
+       fhir:display [ fhir:v "Ear" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "EARW" ] ;
+       fhir:display [ fhir:v "Ear wax (cerumen)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "ELT" ] ;
+       fhir:display [ fhir:v "Electrode" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "ENDC" ] ;
+       fhir:display [ fhir:v "Endocardium" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "ENDM" ] ;
+       fhir:display [ fhir:v "Endometrium" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "EOS" ] ;
+       fhir:display [ fhir:v "Eosinophils" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "EXG" ] ;
+       fhir:display [ fhir:v "Exhaled gas (=breath)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "EYE" ] ;
+       fhir:display [ fhir:v "Eye" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "FIB" ] ;
+       fhir:display [ fhir:v "Fibroblasts" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "FIST" ] ;
+       fhir:display [ fhir:v "Fistula" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "FLT" ] ;
+       fhir:display [ fhir:v "Filter" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "FLU" ] ;
+       fhir:display [ fhir:v "Body fluid, unsp" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "FOOD" ] ;
+       fhir:display [ fhir:v "Food sample" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "GAS" ] ;
+       fhir:display [ fhir:v "Gas" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "GAST" ] ;
+       fhir:display [ fhir:v "Gastric fluid/contents" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "GEN" ] ;
+       fhir:display [ fhir:v "Genital" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "GENC" ] ;
+       fhir:display [ fhir:v "Genital cervix" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "GENF" ] ;
+       fhir:display [ fhir:v "Genital fluid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "GENL" ] ;
+       fhir:display [ fhir:v "Genital lochia" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "GENV" ] ;
+       fhir:display [ fhir:v "Genital vaginal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "HAR" ] ;
+       fhir:display [ fhir:v "Hair" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "IHG" ] ;
+       fhir:display [ fhir:v "Inhaled Gas" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "ISLT" ] ;
+       fhir:display [ fhir:v "Isolate" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "IT" ] ;
+       fhir:display [ fhir:v "Intubation tube" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "LAM" ] ;
+       fhir:display [ fhir:v "Lamella" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "LIQ" ] ;
+       fhir:display [ fhir:v "Liquid NOS" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "LN" ] ;
+       fhir:display [ fhir:v "Line" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "LNA" ] ;
+       fhir:display [ fhir:v "Line arterial" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "LNV" ] ;
+       fhir:display [ fhir:v "Line venous" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "LYM" ] ;
+       fhir:display [ fhir:v "Lymphocytes" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "MAC" ] ;
+       fhir:display [ fhir:v "Macrophages" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "MAR" ] ;
+       fhir:display [ fhir:v "Marrow (bone)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "MBLD" ] ;
+       fhir:display [ fhir:v "Menstrual blood" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "MEC" ] ;
+       fhir:display [ fhir:v "Meconium" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "MILK" ] ;
+       fhir:display [ fhir:v "Breast milk" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "MLK" ] ;
+       fhir:display [ fhir:v "Milk" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "NAIL" ] ;
+       fhir:display [ fhir:v "Nail" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "NOS" ] ;
+       fhir:display [ fhir:v "Nose (nasal passage)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "PAFL" ] ;
+       fhir:display [ fhir:v "Pancreatic fluid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "PAT" ] ;
+       fhir:display [ fhir:v "Patient" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "PLAS" ] ;
+       fhir:display [ fhir:v "Plasma" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "PLB" ] ;
+       fhir:display [ fhir:v "Plasma bag" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "PLC" ] ;
+       fhir:display [ fhir:v "Placenta" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "PLR" ] ;
+       fhir:display [ fhir:v "Pleural fluid (thoracentesis fld)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "PMN" ] ;
+       fhir:display [ fhir:v "Polymorphonuclear neutrophils" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "PPP" ] ;
+       fhir:display [ fhir:v "Platelet poor plasma" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "PRP" ] ;
+       fhir:display [ fhir:v "Platelet rich plasma" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "PRT" ] ;
+       fhir:display [ fhir:v "Peritoneal fluid /ascites" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "PUS" ] ;
+       fhir:display [ fhir:v "Pus" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "RBC" ] ;
+       fhir:display [ fhir:v "Erythrocytes" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "SAL" ] ;
+       fhir:display [ fhir:v "Saliva" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "SER" ] ;
+       fhir:display [ fhir:v "Serum" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "SKM" ] ;
+       fhir:display [ fhir:v "Skeletal muscle" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "SKN" ] ;
+       fhir:display [ fhir:v "Skin" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "SMN" ] ;
+       fhir:display [ fhir:v "Seminal fluid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "SMPLS" ] ;
+       fhir:display [ fhir:v "Seminal plasma" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "SNV" ] ;
+       fhir:display [ fhir:v "Synovial fluid (Joint fluid)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "SPRM" ] ;
+       fhir:display [ fhir:v "Spermatozoa" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "SPT" ] ;
+       fhir:display [ fhir:v "Sputum" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "SPTC" ] ;
+       fhir:display [ fhir:v "Sputum - coughed" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "SPTT" ] ;
+       fhir:display [ fhir:v "Sputum - tracheal aspirate" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "STL" ] ;
+       fhir:display [ fhir:v "Stool = Fecal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "STON" ] ;
+       fhir:display [ fhir:v "Calculus (=Stone)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "SWT" ] ;
+       fhir:display [ fhir:v "Sweat" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "TEAR" ] ;
+       fhir:display [ fhir:v "Tears" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "THRB" ] ;
+       fhir:display [ fhir:v "Thrombocyte (platelet)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "THRT" ] ;
+       fhir:display [ fhir:v "Throat" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "TISG" ] ;
+       fhir:display [ fhir:v "Tissue gall bladder" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "TISPL" ] ;
+       fhir:display [ fhir:v "Tissue placenta" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "TISS" ] ;
+       fhir:display [ fhir:v "Tissue, unspecified" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "TISU" ] ;
+       fhir:display [ fhir:v "Tissue ulcer" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "TLGI" ] ;
+       fhir:display [ fhir:v "Tissue large intestine" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "TLNG" ] ;
+       fhir:display [ fhir:v "Tissue lung" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "TSMI" ] ;
+       fhir:display [ fhir:v "Tissue small intestine Tissue ulcer" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "TUB" ] ;
+       fhir:display [ fhir:v "Tube, unspecified" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "ULC" ] ;
+       fhir:display [ fhir:v "Ulcer" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "UMB" ] ;
+       fhir:display [ fhir:v "Umbilical blood" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "UMED" ] ;
+       fhir:display [ fhir:v "Unknown medicine" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "UR" ] ;
+       fhir:display [ fhir:v "Urine" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "URC" ] ;
+       fhir:display [ fhir:v "Urine clean catch" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "URNS" ] ;
+       fhir:display [ fhir:v "Urine sediment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "URT" ] ;
+       fhir:display [ fhir:v "Urine catheter" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "URTH" ] ;
+       fhir:display [ fhir:v "Urethra" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "USUB" ] ;
+       fhir:display [ fhir:v "Unknown substance" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "VOM" ] ;
+       fhir:display [ fhir:v "Vomitus" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "WAT" ] ;
+       fhir:display [ fhir:v "Water" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "WBC" ] ;
+       fhir:display [ fhir:v "Leukocytes" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "WICK" ] ;
+       fhir:display [ fhir:v "Wick" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "WND" ] ;
+       fhir:display [ fhir:v "Wound" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "WNDA" ] ;
+       fhir:display [ fhir:v "Wound abscess" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "WNDD" ] ;
+       fhir:display [ fhir:v "Wound drainage" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-SpecimenType>
+       ] ;
+       fhir:version [ fhir:v "2.1.1" ] ;
+       fhir:code [ fhir:v "WNDE" ] ;
+       fhir:display [ fhir:v "Wound exudate" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

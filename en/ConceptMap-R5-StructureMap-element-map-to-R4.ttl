@@ -1,0 +1,654 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-StructureMap-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-StructureMap-element-map-to-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-StructureMap-element-map-to-R4</b></p><a name=\"R5-StructureMap-element-map-to-R4\"> </a><a name=\"hcR5-StructureMap-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/StructureMap|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/structuremap.html\">StructureMapversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>StructureMap.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.meta` is mapped to FHIR R4 element `StructureMap.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.implicitRules` is mapped to FHIR R4 element `StructureMap.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.language` is mapped to FHIR R4 element `StructureMap.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.text` is mapped to FHIR R4 element `StructureMap.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.contained` is mapped to FHIR R4 element `StructureMap.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.url (url)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.url` is mapped to FHIR R4 element `StructureMap.url` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.identifier` is mapped to FHIR R4 element `StructureMap.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.version (version)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.version` is mapped to FHIR R4 element `StructureMap.version` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.name` is mapped to FHIR R4 element `StructureMap.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.title (title)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.title` is mapped to FHIR R4 element `StructureMap.title` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.status` is mapped to FHIR R4 element `StructureMap.status` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.experimental (experimental)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.experimental` is mapped to FHIR R4 element `StructureMap.experimental` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.date (date)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.date` is mapped to FHIR R4 element `StructureMap.date` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.publisher (publisher)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.publisher` is mapped to FHIR R4 element `StructureMap.publisher` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.contact (contact)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.contact` is mapped to FHIR R4 element `StructureMap.contact` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.description` is mapped to FHIR R4 element `StructureMap.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.useContext (useContext)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.useContext` is mapped to FHIR R4 element `StructureMap.useContext` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.jurisdiction (jurisdiction)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.jurisdiction` is mapped to FHIR R4 element `StructureMap.jurisdiction` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.purpose (purpose)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.purpose` is mapped to FHIR R4 element `StructureMap.purpose` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.copyright (copyright)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.copyright` is mapped to FHIR R4 element `StructureMap.copyright` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.structure (structure)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `StructureMap.structure` is mapped to FHIR R4 element `StructureMap.structure` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.structure.url (url)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.structure.url` is mapped to FHIR R4 element `StructureMap.structure.url` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.structure.mode (mode)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.structure.mode` is mapped to FHIR R4 element `StructureMap.structure.mode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.structure.alias (alias)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.structure.alias` is mapped to FHIR R4 element `StructureMap.structure.alias` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.structure.documentation (documentation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.structure.documentation` is mapped to FHIR R4 element `StructureMap.structure.documentation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.import (import)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.import` is mapped to FHIR R4 element `StructureMap.import` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.group (group)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `StructureMap.group` is mapped to FHIR R4 element `StructureMap.group` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.group.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.name` is mapped to FHIR R4 element `StructureMap.group.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.group.extends (extends)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.extends` is mapped to FHIR R4 element `StructureMap.group.extends` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.group.typeMode (typeMode)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.typeMode` is mapped to FHIR R4 element `StructureMap.group.typeMode` as `SourceIsNarrowerThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.group.documentation (documentation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.documentation` is mapped to FHIR R4 element `StructureMap.group.documentation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.group.input (input)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `StructureMap.group.input` is mapped to FHIR R4 element `StructureMap.group.input` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.group.input.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.input.name` is mapped to FHIR R4 element `StructureMap.group.input.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.group.input.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.input.type` is mapped to FHIR R4 element `StructureMap.group.input.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.group.input.mode (mode)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.input.mode` is mapped to FHIR R4 element `StructureMap.group.input.mode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.group.input.documentation (documentation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.input.documentation` is mapped to FHIR R4 element `StructureMap.group.input.documentation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>StructureMap.group.rule (rule)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `StructureMap.group.rule` is mapped to FHIR R4 element `StructureMap.group.rule` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule` because `StructureMap.group.rule.rule` is defined as a content reference to `StructureMap.group.rule`.</td></tr><tr><td>StructureMap.group.rule.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.rule.name` is mapped to FHIR R4 element `StructureMap.group.rule.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.name` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`.</td></tr><tr><td>StructureMap.group.rule.source (source)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `StructureMap.group.rule.source` is mapped to FHIR R4 element `StructureMap.group.rule.source` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.source` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`.</td></tr><tr><td>StructureMap.group.rule.source.context (context)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.rule.source.context` is mapped to FHIR R4 element `StructureMap.group.rule.source.context` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.source.context` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`.</td></tr><tr><td>StructureMap.group.rule.source.min (min)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.rule.source.min` is mapped to FHIR R4 element `StructureMap.group.rule.source.min` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.source.min` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`.</td></tr><tr><td>StructureMap.group.rule.source.max (max)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.rule.source.max` is mapped to FHIR R4 element `StructureMap.group.rule.source.max` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.source.max` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`.</td></tr><tr><td>StructureMap.group.rule.source.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.rule.source.type` is mapped to FHIR R4 element `StructureMap.group.rule.source.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.source.type` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`.</td></tr><tr><td>StructureMap.group.rule.source.defaultValue (defaultValue)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Note that the target element context `StructureMap.group.rule.source.defaultValue[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `StructureMap.group.rule.source`.\nElement `StructureMap.group.rule.source.defaultValue` is mapped to FHIR R4 element `StructureMap.group.rule.source.defaultValue[x]` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `StructureMap.group.rule.source.defaultValue[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `StructureMap.group.rule.source`.\nNote available implied context: `StructureMap.group.rule.rule.source` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`.</td></tr><tr><td>StructureMap.group.rule.source.element (element)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.rule.source.element` is mapped to FHIR R4 element `StructureMap.group.rule.source.element` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.source.element` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`.</td></tr><tr><td>StructureMap.group.rule.source.listMode (listMode)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.rule.source.listMode` is mapped to FHIR R4 element `StructureMap.group.rule.source.listMode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.source.listMode` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`.</td></tr><tr><td>StructureMap.group.rule.source.variable (variable)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.rule.source.variable` is mapped to FHIR R4 element `StructureMap.group.rule.source.variable` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.source.variable` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`.</td></tr><tr><td>StructureMap.group.rule.source.condition (condition)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.rule.source.condition` is mapped to FHIR R4 element `StructureMap.group.rule.source.condition` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.source.condition` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`.</td></tr><tr><td>StructureMap.group.rule.source.check (check)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.rule.source.check` is mapped to FHIR R4 element `StructureMap.group.rule.source.check` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.source.check` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`.</td></tr><tr><td>StructureMap.group.rule.source.logMessage (logMessage)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.rule.source.logMessage` is mapped to FHIR R4 element `StructureMap.group.rule.source.logMessage` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.source.logMessage` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`.</td></tr><tr><td>StructureMap.group.rule.target (target)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `StructureMap.group.rule.target` is mapped to FHIR R4 element `StructureMap.group.rule.target` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.target` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`.</td></tr><tr><td>StructureMap.group.rule.target.context (context)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.rule.target.context` is mapped to FHIR R4 element `StructureMap.group.rule.target.context` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.target.context` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`.</td></tr><tr><td>StructureMap.group.rule.target.element (element)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.rule.target.element` is mapped to FHIR R4 element `StructureMap.group.rule.target.element` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.target.element` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`.</td></tr><tr><td>StructureMap.group.rule.target.variable (variable)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.rule.target.variable` is mapped to FHIR R4 element `StructureMap.group.rule.target.variable` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.target.variable` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`.</td></tr><tr><td>StructureMap.group.rule.target.listMode (listMode)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.rule.target.listMode` is mapped to FHIR R4 element `StructureMap.group.rule.target.listMode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.target.listMode` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`.</td></tr><tr><td>StructureMap.group.rule.target.listRuleId (listRuleId)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.rule.target.listRuleId` is mapped to FHIR R4 element `StructureMap.group.rule.target.listRuleId` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.target.listRuleId` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`.</td></tr><tr><td>StructureMap.group.rule.target.transform (transform)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.rule.target.transform` is mapped to FHIR R4 element `StructureMap.group.rule.target.transform` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.target.transform` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`.</td></tr><tr><td>StructureMap.group.rule.target.parameter (parameter)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `StructureMap.group.rule.target.parameter` is mapped to FHIR R4 element `StructureMap.group.rule.target.parameter` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.dependent.parameter` because `StructureMap.group.rule.dependent.parameter` is defined as a content reference to `StructureMap.group.rule.target.parameter`.</td></tr><tr><td>StructureMap.group.rule.target.parameter.value[x] (value[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Note that the target element context `StructureMap.group.rule.target.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `StructureMap.group.rule.target.parameter`.\nElement `StructureMap.group.rule.target.parameter.value[x]` is mapped to FHIR R4 element `StructureMap.group.rule.target.parameter.value[x]` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `StructureMap.group.rule.target.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `StructureMap.group.rule.target.parameter`.\nNote available implied context: `StructureMap.group.rule.dependent.parameter` because `StructureMap.group.rule.dependent.parameter` is defined via a content reference to `StructureMap.group.rule.target.parameter`.</td></tr><tr><td>StructureMap.group.rule.rule (rule)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.rule.rule` is mapped to FHIR R4 element `StructureMap.group.rule.rule` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.rule` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`.</td></tr><tr><td>StructureMap.group.rule.dependent (dependent)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `StructureMap.group.rule.dependent` is mapped to FHIR R4 element `StructureMap.group.rule.dependent` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.dependent` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`.</td></tr><tr><td>StructureMap.group.rule.dependent.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.rule.dependent.name` is mapped to FHIR R4 element `StructureMap.group.rule.dependent.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.dependent.name` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`.</td></tr><tr><td>StructureMap.group.rule.dependent.parameter (parameter)</td><td><a href=\"CodeSystem-concept-map-relationship.html#narrower\" title=\"narrower\">narrower</a></td><td/><td>Element `StructureMap.group.rule.dependent.parameter` is mapped to FHIR R4 element `StructureMap.group.rule.dependent.variable` as `SourceIsNarrowerThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.dependent.variable` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`.</td></tr><tr><td>StructureMap.group.rule.documentation (documentation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `StructureMap.group.rule.documentation` is mapped to FHIR R4 element `StructureMap.group.rule.documentation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.documentation` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/StructureMap|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Packversion: 5.2.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>StructureMap.versionAlgorithm[x] (versionAlgorithm[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `StructureMap.versionAlgorithm[x]`: `http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm`.\nElement `StructureMap.versionAlgorithm[x]` has a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.</td></tr><tr><td>StructureMap.copyrightLabel (copyrightLabel)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `StructureMap.copyrightLabel`: `http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel`.\nElement `StructureMap.copyrightLabel` has a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/StructureMap|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>StructureMap.const (const)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.const</td><td>Element `StructureMap.const` has a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.</td></tr><tr><td>StructureMap.group.rule.target.parameter (parameter)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.group.rule.target.parameter</td><td>Element `StructureMap.group.rule.target.parameter` is mapped to FHIR R4 element `StructureMap.group.rule.target.parameter` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.dependent.parameter` because `StructureMap.group.rule.dependent.parameter` is defined as a content reference to `StructureMap.group.rule.target.parameter`.</td></tr></table><hr/><p><b>Group 4 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/StructureMap|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>StructureMap.const.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>name</td><td>Element `StructureMap.const.name` has a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.</td></tr><tr><td>StructureMap.const.value (value)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>value</td><td>Element `StructureMap.const.value` has a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.</td></tr><tr><td>StructureMap.group.rule.target.parameter.value[x] (value[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>value</td><td>Note that the target element context `StructureMap.group.rule.target.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `StructureMap.group.rule.target.parameter`.\nElement `StructureMap.group.rule.target.parameter.value[x]` is mapped to FHIR R4 element `StructureMap.group.rule.target.parameter.value[x]` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `StructureMap.group.rule.target.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `StructureMap.group.rule.target.parameter`.\nNote available implied context: `StructureMap.group.rule.dependent.parameter` because `StructureMap.group.rule.dependent.parameter` is defined via a content reference to `StructureMap.group.rule.target.parameter`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-StructureMap-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-StructureMap-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5StructureMapElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 StructureMap to FHIR R4 StructureMap"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T13:36:58.9570185-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 StructureMap to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/StructureMap"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/StructureMap>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/StructureMap"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/StructureMap>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "StructureMap.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.meta` is mapped to FHIR R4 element `StructureMap.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.implicitRules` is mapped to FHIR R4 element `StructureMap.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.language` is mapped to FHIR R4 element `StructureMap.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.text` is mapped to FHIR R4 element `StructureMap.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.contained` is mapped to FHIR R4 element `StructureMap.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.url` is mapped to FHIR R4 element `StructureMap.url` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.identifier` is mapped to FHIR R4 element `StructureMap.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.version` is mapped to FHIR R4 element `StructureMap.version` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.name` is mapped to FHIR R4 element `StructureMap.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.title` is mapped to FHIR R4 element `StructureMap.title` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.status` is mapped to FHIR R4 element `StructureMap.status` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.experimental" ] ;
+       fhir:display [ fhir:v "experimental" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.experimental` is mapped to FHIR R4 element `StructureMap.experimental` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.date` is mapped to FHIR R4 element `StructureMap.date` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.publisher" ] ;
+       fhir:display [ fhir:v "publisher" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.publisher` is mapped to FHIR R4 element `StructureMap.publisher` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.contact` is mapped to FHIR R4 element `StructureMap.contact` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.description` is mapped to FHIR R4 element `StructureMap.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.useContext" ] ;
+       fhir:display [ fhir:v "useContext" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.useContext` is mapped to FHIR R4 element `StructureMap.useContext` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.jurisdiction` is mapped to FHIR R4 element `StructureMap.jurisdiction` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.purpose" ] ;
+       fhir:display [ fhir:v "purpose" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.purpose` is mapped to FHIR R4 element `StructureMap.purpose` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.copyright" ] ;
+       fhir:display [ fhir:v "copyright" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.copyright` is mapped to FHIR R4 element `StructureMap.copyright` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.structure" ] ;
+       fhir:display [ fhir:v "structure" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.structure` is mapped to FHIR R4 element `StructureMap.structure` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.structure.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.structure.url` is mapped to FHIR R4 element `StructureMap.structure.url` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.structure.mode" ] ;
+       fhir:display [ fhir:v "mode" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.structure.mode` is mapped to FHIR R4 element `StructureMap.structure.mode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.structure.alias" ] ;
+       fhir:display [ fhir:v "alias" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.structure.alias` is mapped to FHIR R4 element `StructureMap.structure.alias` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.structure.documentation" ] ;
+       fhir:display [ fhir:v "documentation" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.structure.documentation` is mapped to FHIR R4 element `StructureMap.structure.documentation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.import" ] ;
+       fhir:display [ fhir:v "import" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.import` is mapped to FHIR R4 element `StructureMap.import` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group" ] ;
+       fhir:display [ fhir:v "group" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group` is mapped to FHIR R4 element `StructureMap.group` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.name` is mapped to FHIR R4 element `StructureMap.group.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.extends" ] ;
+       fhir:display [ fhir:v "extends" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.extends` is mapped to FHIR R4 element `StructureMap.group.extends` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.typeMode" ] ;
+       fhir:display [ fhir:v "typeMode" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.typeMode` is mapped to FHIR R4 element `StructureMap.group.typeMode` as `SourceIsNarrowerThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.documentation" ] ;
+       fhir:display [ fhir:v "documentation" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.documentation` is mapped to FHIR R4 element `StructureMap.group.documentation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.input" ] ;
+       fhir:display [ fhir:v "input" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.input` is mapped to FHIR R4 element `StructureMap.group.input` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.input.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.input.name` is mapped to FHIR R4 element `StructureMap.group.input.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.input.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.input.type` is mapped to FHIR R4 element `StructureMap.group.input.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.input.mode" ] ;
+       fhir:display [ fhir:v "mode" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.input.mode` is mapped to FHIR R4 element `StructureMap.group.input.mode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.input.documentation" ] ;
+       fhir:display [ fhir:v "documentation" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.input.documentation` is mapped to FHIR R4 element `StructureMap.group.input.documentation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule" ] ;
+       fhir:display [ fhir:v "rule" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule` is mapped to FHIR R4 element `StructureMap.group.rule` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule` because `StructureMap.group.rule.rule` is defined as a content reference to `StructureMap.group.rule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule.name` is mapped to FHIR R4 element `StructureMap.group.rule.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.name` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.source" ] ;
+       fhir:display [ fhir:v "source" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule.source` is mapped to FHIR R4 element `StructureMap.group.rule.source` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.source` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.source.context" ] ;
+       fhir:display [ fhir:v "context" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule.source.context` is mapped to FHIR R4 element `StructureMap.group.rule.source.context` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.source.context` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.source.min" ] ;
+       fhir:display [ fhir:v "min" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule.source.min` is mapped to FHIR R4 element `StructureMap.group.rule.source.min` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.source.min` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.source.max" ] ;
+       fhir:display [ fhir:v "max" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule.source.max` is mapped to FHIR R4 element `StructureMap.group.rule.source.max` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.source.max` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.source.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule.source.type` is mapped to FHIR R4 element `StructureMap.group.rule.source.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.source.type` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.source.defaultValue" ] ;
+       fhir:display [ fhir:v "defaultValue" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `StructureMap.group.rule.source.defaultValue[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `StructureMap.group.rule.source`.\nElement `StructureMap.group.rule.source.defaultValue` is mapped to FHIR R4 element `StructureMap.group.rule.source.defaultValue[x]` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `StructureMap.group.rule.source.defaultValue[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `StructureMap.group.rule.source`.\nNote available implied context: `StructureMap.group.rule.rule.source` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.source.element" ] ;
+       fhir:display [ fhir:v "element" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule.source.element` is mapped to FHIR R4 element `StructureMap.group.rule.source.element` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.source.element` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.source.listMode" ] ;
+       fhir:display [ fhir:v "listMode" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule.source.listMode` is mapped to FHIR R4 element `StructureMap.group.rule.source.listMode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.source.listMode` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.source.variable" ] ;
+       fhir:display [ fhir:v "variable" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule.source.variable` is mapped to FHIR R4 element `StructureMap.group.rule.source.variable` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.source.variable` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.source.condition" ] ;
+       fhir:display [ fhir:v "condition" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule.source.condition` is mapped to FHIR R4 element `StructureMap.group.rule.source.condition` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.source.condition` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.source.check" ] ;
+       fhir:display [ fhir:v "check" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule.source.check` is mapped to FHIR R4 element `StructureMap.group.rule.source.check` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.source.check` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.source.logMessage" ] ;
+       fhir:display [ fhir:v "logMessage" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule.source.logMessage` is mapped to FHIR R4 element `StructureMap.group.rule.source.logMessage` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.source.logMessage` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.target" ] ;
+       fhir:display [ fhir:v "target" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule.target` is mapped to FHIR R4 element `StructureMap.group.rule.target` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.target` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.target.context" ] ;
+       fhir:display [ fhir:v "context" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule.target.context` is mapped to FHIR R4 element `StructureMap.group.rule.target.context` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.target.context` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.target.element" ] ;
+       fhir:display [ fhir:v "element" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule.target.element` is mapped to FHIR R4 element `StructureMap.group.rule.target.element` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.target.element` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.target.variable" ] ;
+       fhir:display [ fhir:v "variable" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule.target.variable` is mapped to FHIR R4 element `StructureMap.group.rule.target.variable` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.target.variable` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.target.listMode" ] ;
+       fhir:display [ fhir:v "listMode" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule.target.listMode` is mapped to FHIR R4 element `StructureMap.group.rule.target.listMode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.target.listMode` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.target.listRuleId" ] ;
+       fhir:display [ fhir:v "listRuleId" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule.target.listRuleId` is mapped to FHIR R4 element `StructureMap.group.rule.target.listRuleId` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.target.listRuleId` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.target.transform" ] ;
+       fhir:display [ fhir:v "transform" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule.target.transform` is mapped to FHIR R4 element `StructureMap.group.rule.target.transform` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.target.transform` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.target.parameter" ] ;
+       fhir:display [ fhir:v "parameter" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule.target.parameter` is mapped to FHIR R4 element `StructureMap.group.rule.target.parameter` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.dependent.parameter` because `StructureMap.group.rule.dependent.parameter` is defined as a content reference to `StructureMap.group.rule.target.parameter`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.target.parameter.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `StructureMap.group.rule.target.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `StructureMap.group.rule.target.parameter`.\nElement `StructureMap.group.rule.target.parameter.value[x]` is mapped to FHIR R4 element `StructureMap.group.rule.target.parameter.value[x]` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `StructureMap.group.rule.target.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `StructureMap.group.rule.target.parameter`.\nNote available implied context: `StructureMap.group.rule.dependent.parameter` because `StructureMap.group.rule.dependent.parameter` is defined via a content reference to `StructureMap.group.rule.target.parameter`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.rule" ] ;
+       fhir:display [ fhir:v "rule" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule.rule` is mapped to FHIR R4 element `StructureMap.group.rule.rule` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.rule` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.dependent" ] ;
+       fhir:display [ fhir:v "dependent" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule.dependent` is mapped to FHIR R4 element `StructureMap.group.rule.dependent` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.dependent` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.dependent.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule.dependent.name` is mapped to FHIR R4 element `StructureMap.group.rule.dependent.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.dependent.name` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.dependent.parameter" ] ;
+       fhir:display [ fhir:v "parameter" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "narrower" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule.dependent.parameter` is mapped to FHIR R4 element `StructureMap.group.rule.dependent.variable` as `SourceIsNarrowerThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.dependent.variable` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.documentation" ] ;
+       fhir:display [ fhir:v "documentation" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule.documentation` is mapped to FHIR R4 element `StructureMap.group.rule.documentation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.rule.documentation` because `StructureMap.group.rule.rule` is defined via a content reference to `StructureMap.group.rule`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/StructureMap"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/StructureMap>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.2.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "StructureMap.versionAlgorithm[x]" ] ;
+       fhir:display [ fhir:v "versionAlgorithm[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `StructureMap.versionAlgorithm[x]`: `http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm`.\nElement `StructureMap.versionAlgorithm[x]` has a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.copyrightLabel" ] ;
+       fhir:display [ fhir:v "copyrightLabel" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `StructureMap.copyrightLabel`: `http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel`.\nElement `StructureMap.copyrightLabel` has a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/StructureMap"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/StructureMap>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "StructureMap.const" ] ;
+       fhir:display [ fhir:v "const" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.const" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.const` has a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.target.parameter" ] ;
+       fhir:display [ fhir:v "parameter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.group.rule.target.parameter" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.group.rule.target.parameter` is mapped to FHIR R4 element `StructureMap.group.rule.target.parameter` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `StructureMap.group.rule.dependent.parameter` because `StructureMap.group.rule.dependent.parameter` is defined as a content reference to `StructureMap.group.rule.target.parameter`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/StructureMap"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/StructureMap>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "StructureMap.const.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "name" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.const.name` has a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.const.value" ] ;
+       fhir:display [ fhir:v "value" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "value" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `StructureMap.const.value` has a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "StructureMap.group.rule.target.parameter.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "value" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `StructureMap.group.rule.target.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `StructureMap.group.rule.target.parameter`.\nElement `StructureMap.group.rule.target.parameter.value[x]` is mapped to FHIR R4 element `StructureMap.group.rule.target.parameter.value[x]` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `StructureMap.group.rule.target.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `StructureMap.group.rule.target.parameter`.\nNote available implied context: `StructureMap.group.rule.dependent.parameter` because `StructureMap.group.rule.dependent.parameter` is defined via a content reference to `StructureMap.group.rule.target.parameter`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

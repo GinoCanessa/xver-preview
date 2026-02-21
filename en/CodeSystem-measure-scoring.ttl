@@ -1,0 +1,128 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/measure-scoring> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "measure-scoring"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://terminology.hl7.org/CodeSystem/measure-scoring</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">proportion<a name=\"measure-scoring-proportion\"> </a></td><td>Proportion</td><td>The measure score is defined using a proportion.</td></tr><tr><td style=\"white-space:nowrap\">ratio<a name=\"measure-scoring-ratio\"> </a></td><td>Ratio</td><td>The measure score is defined using a ratio.</td></tr><tr><td style=\"white-space:nowrap\">continuous-variable<a name=\"measure-scoring-continuous-variable\"> </a></td><td>Continuous Variable</td><td>The score is defined by a calculation of some quantity.</td></tr><tr><td style=\"white-space:nowrap\">cohort<a name=\"measure-scoring-cohort\"> </a></td><td>Cohort</td><td>The measure is a cohort definition.</td></tr><tr><td style=\"white-space:nowrap\">composite<a name=\"measure-scoring-composite\"> </a></td><td>Composite</td><td>The measure score combines multiple component measures in to a single quality measure score.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 2
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "cqi"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/measure-scoring"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/measure-scoring>
+  ] ; # 
+  fhir:version [ fhir:v "2.0.0"] ; # 
+  fhir:name [ fhir:v "MeasureScoring"] ; # 
+  fhir:title [ fhir:v "MeasureScoring"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2021-03-26T06:10:28-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Clinical Quality Information"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Clinical Quality Information" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/cqi" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The scoring type of the measure."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/measure-scoring|2.0.0"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/measure-scoring?version=2.0.0>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "proportion" ] ;
+     fhir:display [ fhir:v "Proportion" ] ;
+     fhir:definition [ fhir:v "The measure score is defined using a proportion." ]
+  ] [
+     fhir:code [ fhir:v "ratio" ] ;
+     fhir:display [ fhir:v "Ratio" ] ;
+     fhir:definition [ fhir:v "The measure score is defined using a ratio." ]
+  ] [
+     fhir:code [ fhir:v "continuous-variable" ] ;
+     fhir:display [ fhir:v "Continuous Variable" ] ;
+     fhir:definition [ fhir:v "The score is defined by a calculation of some quantity." ]
+  ] [
+     fhir:code [ fhir:v "cohort" ] ;
+     fhir:display [ fhir:v "Cohort" ] ;
+     fhir:definition [ fhir:v "The measure is a cohort definition." ]
+  ] [
+     fhir:code [ fhir:v "composite" ] ;
+     fhir:display [ fhir:v "Composite" ] ;
+     fhir:definition [ fhir:v "The measure score combines multiple component measures in to a single quality measure score." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

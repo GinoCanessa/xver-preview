@@ -1,0 +1,148 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/endpoint-connection-type> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "endpoint-connection-type"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">dicom-wado-rs<a name=\"endpoint-connection-type-dicom-wado-rs\"> </a></td><td>DICOM WADO-RS</td><td>DICOMweb RESTful Image Retrieve - http://dicom.nema.org/medical/dicom/current/output/chtml/part18/sect_6.5.html</td></tr><tr><td style=\"white-space:nowrap\">dicom-qido-rs<a name=\"endpoint-connection-type-dicom-qido-rs\"> </a></td><td>DICOM QIDO-RS</td><td>DICOMweb RESTful Image query - http://dicom.nema.org/medical/dicom/current/output/chtml/part18/sect_6.7.html</td></tr><tr><td style=\"white-space:nowrap\">dicom-stow-rs<a name=\"endpoint-connection-type-dicom-stow-rs\"> </a></td><td>DICOM STOW-RS</td><td>DICOMweb RESTful image sending and storage - http://dicom.nema.org/medical/dicom/current/output/chtml/part18/sect_6.6.html</td></tr><tr><td style=\"white-space:nowrap\">dicom-wado-uri<a name=\"endpoint-connection-type-dicom-wado-uri\"> </a></td><td>DICOM WADO-URI</td><td>DICOMweb Image Retrieve - http://dicom.nema.org/dicom/2013/output/chtml/part18/sect_6.3.html</td></tr><tr><td style=\"white-space:nowrap\">hl7-fhir-rest<a name=\"endpoint-connection-type-hl7-fhir-rest\"> </a></td><td>HL7 FHIR</td><td>Interact with the server interface using FHIR's RESTful interface. For details on its version/capabilities you should connect the value in Endpoint.address and retrieve the FHIR CapabilityStatement.</td></tr><tr><td style=\"white-space:nowrap\">hl7-fhir-msg<a name=\"endpoint-connection-type-hl7-fhir-msg\"> </a></td><td>HL7 FHIR Messaging</td><td>Use the servers FHIR Messaging interface. Details can be found on the messaging.html page in the FHIR Specification. The FHIR server's base address is specified in the Endpoint.address property.</td></tr><tr><td style=\"white-space:nowrap\">hl7v2-mllp<a name=\"endpoint-connection-type-hl7v2-mllp\"> </a></td><td>HL7 v2 MLLP</td><td>HL7v2 messages over an LLP TCP connection</td></tr><tr><td style=\"white-space:nowrap\">secure-email<a name=\"endpoint-connection-type-secure-email\"> </a></td><td>Secure email</td><td>Email delivery using a digital certificate to encrypt the content using the public key, receiver must have the private key to decrypt the content</td></tr><tr><td style=\"white-space:nowrap\">direct-project<a name=\"endpoint-connection-type-direct-project\"> </a></td><td>Direct Project</td><td>Direct Project information - http://wiki.directproject.org/</td></tr><tr><td style=\"white-space:nowrap\">cds-hooks-service<a name=\"endpoint-connection-type-cds-hooks-service\"> </a></td><td>CDS Hooks Service</td><td>A CDS Hooks Service connection. The address will be the base URL of the service as described in the CDS specification https://cds-hooks.hl7.org</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 2
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "pa"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/endpoint-connection-type"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/endpoint-connection-type>
+  ] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "EndpointConnectionType"] ; # 
+  fhir:title [ fhir:v "Endpoint Connection Type"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2023-02-25T12:07:30-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Patient Administration"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Patient Administration" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/pafm" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This is an example value set defined by the FHIR project, that could be used to represent possible connection type profile values."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/endpoint-connection-type|1.0.1"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/endpoint-connection-type?version=1.0.1>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "dicom-wado-rs" ] ;
+     fhir:display [ fhir:v "DICOM WADO-RS" ] ;
+     fhir:definition [ fhir:v "DICOMweb RESTful Image Retrieve - http://dicom.nema.org/medical/dicom/current/output/chtml/part18/sect_6.5.html" ]
+  ] [
+     fhir:code [ fhir:v "dicom-qido-rs" ] ;
+     fhir:display [ fhir:v "DICOM QIDO-RS" ] ;
+     fhir:definition [ fhir:v "DICOMweb RESTful Image query - http://dicom.nema.org/medical/dicom/current/output/chtml/part18/sect_6.7.html" ]
+  ] [
+     fhir:code [ fhir:v "dicom-stow-rs" ] ;
+     fhir:display [ fhir:v "DICOM STOW-RS" ] ;
+     fhir:definition [ fhir:v "DICOMweb RESTful image sending and storage - http://dicom.nema.org/medical/dicom/current/output/chtml/part18/sect_6.6.html" ]
+  ] [
+     fhir:code [ fhir:v "dicom-wado-uri" ] ;
+     fhir:display [ fhir:v "DICOM WADO-URI" ] ;
+     fhir:definition [ fhir:v "DICOMweb Image Retrieve - http://dicom.nema.org/dicom/2013/output/chtml/part18/sect_6.3.html" ]
+  ] [
+     fhir:code [ fhir:v "hl7-fhir-rest" ] ;
+     fhir:display [ fhir:v "HL7 FHIR" ] ;
+     fhir:definition [ fhir:v "Interact with the server interface using FHIR's RESTful interface. For details on its version/capabilities you should connect the value in Endpoint.address and retrieve the FHIR CapabilityStatement." ]
+  ] [
+     fhir:code [ fhir:v "hl7-fhir-msg" ] ;
+     fhir:display [ fhir:v "HL7 FHIR Messaging" ] ;
+     fhir:definition [ fhir:v "Use the servers FHIR Messaging interface. Details can be found on the messaging.html page in the FHIR Specification. The FHIR server's base address is specified in the Endpoint.address property." ]
+  ] [
+     fhir:code [ fhir:v "hl7v2-mllp" ] ;
+     fhir:display [ fhir:v "HL7 v2 MLLP" ] ;
+     fhir:definition [ fhir:v "HL7v2 messages over an LLP TCP connection" ]
+  ] [
+     fhir:code [ fhir:v "secure-email" ] ;
+     fhir:display [ fhir:v "Secure email" ] ;
+     fhir:definition [ fhir:v "Email delivery using a digital certificate to encrypt the content using the public key, receiver must have the private key to decrypt the content" ]
+  ] [
+     fhir:code [ fhir:v "direct-project" ] ;
+     fhir:display [ fhir:v "Direct Project" ] ;
+     fhir:definition [ fhir:v "Direct Project information - http://wiki.directproject.org/" ]
+  ] [
+     fhir:code [ fhir:v "cds-hooks-service" ] ;
+     fhir:display [ fhir:v "CDS Hooks Service" ] ;
+     fhir:definition [ fhir:v "A CDS Hooks Service connection. The address will be the base URL of the service as described in the CDS specification https://cds-hooks.hl7.org" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

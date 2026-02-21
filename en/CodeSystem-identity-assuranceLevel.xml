@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="identity-assuranceLevel"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/identity-assuranceLevel</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">level1
+                  <a name="identity-assuranceLevel-level1"> </a>
+                </td>
+                <td>Level 1</td>
+                <td>Little or no confidence in the asserted identity's accuracy.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">level2
+                  <a name="identity-assuranceLevel-level2"> </a>
+                </td>
+                <td>Level 2</td>
+                <td>Some confidence in the asserted identity's accuracy.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">level3
+                  <a name="identity-assuranceLevel-level3"> </a>
+                </td>
+                <td>Level 3</td>
+                <td>High confidence in the asserted identity's accuracy.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">level4
+                  <a name="identity-assuranceLevel-level4"> </a>
+                </td>
+                <td>Level 4</td>
+                <td>Very high confidence in the asserted identity's accuracy.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pa"/>
+  </extension>
+  <url value="http://hl7.org/fhir/identity-assuranceLevel"/>
+  <version value="5.0.0"/>
+  <name value="IdentityAssuranceLevel"/>
+  <title value="Identity Assurance Level"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Patient Administration"/>
+  <contact>
+    <name value="Patient Administration"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pafm"/>
+    </telecom>
+  </contact>
+  <description value="The level of confidence that this link represents the same actual person, based on NIST Authentication Levels."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/identity-assuranceLevel|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="level1"/>
+    <display value="Level 1"/>
+    <definition value="Little or no confidence in the asserted identity's accuracy."/>
+  </concept>
+  <concept>
+    <code value="level2"/>
+    <display value="Level 2"/>
+    <definition value="Some confidence in the asserted identity's accuracy."/>
+  </concept>
+  <concept>
+    <code value="level3"/>
+    <display value="Level 3"/>
+    <definition value="High confidence in the asserted identity's accuracy."/>
+  </concept>
+  <concept>
+    <code value="level4"/>
+    <display value="Level 4"/>
+    <definition value="Very high confidence in the asserted identity's accuracy."/>
+  </concept>
+</CodeSystem>

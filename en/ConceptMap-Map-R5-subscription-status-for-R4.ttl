@@ -1,0 +1,162 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/Map-R5-subscription-status-for-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Map-R5-subscription-status-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap Map-R5-subscription-status-for-R4</b></p><a name=\"Map-R5-subscription-status-for-R4\"> </a><a name=\"hcMap-R5-subscription-status-for-R4\"> </a><p>Mapping from http://hl7.org/fhir/ValueSet/subscription-status|5.0.0 to <a href=\"http://hl7.org/fhir/R4/valueset-subscription-status.html\">SubscriptionStatus</a></p><br/><p><b>Group 1 </b>Mapping from <a href=\"CodeSystem-subscription-status.html\">Subscription Statusversion: 5.0.0)</a> to <a href=\"CodeSystem-subscription-status.html\">Subscription Statusversion: 5.0.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>active</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>active</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/subscription-status|5.0.0` to `http://hl7.org/fhir/ValueSet/subscription-status|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-SubscriptionStatus-R4B-SubscriptionStatus` (`ConceptMap-R5-SubscriptionStatus-R4B-SubscriptionStatus.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/subscription-status|4.3.0` to `http://hl7.org/fhir/ValueSet/subscription-status|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-SubscriptionStatus-R4-SubscriptionStatus` (`ConceptMap-R4B-SubscriptionStatus-R4-SubscriptionStatus.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/subscription-status|5.0.0#active` to `http://hl7.org/fhir/ValueSet/subscription-status|4.0.1#active` as Equivalent in `ConceptMap-R5-SubscriptionStatus-R4-SubscriptionStatus.json`, which results in Equivalent.</td></tr><tr><td>error</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>error</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/subscription-status|5.0.0` to `http://hl7.org/fhir/ValueSet/subscription-status|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-SubscriptionStatus-R4B-SubscriptionStatus` (`ConceptMap-R5-SubscriptionStatus-R4B-SubscriptionStatus.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/subscription-status|4.3.0` to `http://hl7.org/fhir/ValueSet/subscription-status|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-SubscriptionStatus-R4-SubscriptionStatus` (`ConceptMap-R4B-SubscriptionStatus-R4-SubscriptionStatus.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/subscription-status|5.0.0#error` to `http://hl7.org/fhir/ValueSet/subscription-status|4.0.1#error` as Equivalent in `ConceptMap-R5-SubscriptionStatus-R4-SubscriptionStatus.json`, which results in Equivalent.</td></tr><tr><td>off</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>off</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/subscription-status|5.0.0` to `http://hl7.org/fhir/ValueSet/subscription-status|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-SubscriptionStatus-R4B-SubscriptionStatus` (`ConceptMap-R5-SubscriptionStatus-R4B-SubscriptionStatus.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/subscription-status|4.3.0` to `http://hl7.org/fhir/ValueSet/subscription-status|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-SubscriptionStatus-R4-SubscriptionStatus` (`ConceptMap-R4B-SubscriptionStatus-R4-SubscriptionStatus.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/subscription-status|5.0.0#off` to `http://hl7.org/fhir/ValueSet/subscription-status|4.0.1#off` as Equivalent in `ConceptMap-R5-SubscriptionStatus-R4-SubscriptionStatus.json`, which results in Equivalent.</td></tr><tr><td>requested</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>requested</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/subscription-status|5.0.0` to `http://hl7.org/fhir/ValueSet/subscription-status|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-SubscriptionStatus-R4B-SubscriptionStatus` (`ConceptMap-R5-SubscriptionStatus-R4B-SubscriptionStatus.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/subscription-status|4.3.0` to `http://hl7.org/fhir/ValueSet/subscription-status|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-SubscriptionStatus-R4-SubscriptionStatus` (`ConceptMap-R4B-SubscriptionStatus-R4-SubscriptionStatus.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/subscription-status|5.0.0#requested` to `http://hl7.org/fhir/ValueSet/subscription-status|4.0.1#requested` as Equivalent in `ConceptMap-R5-SubscriptionStatus-R4-SubscriptionStatus.json`, which results in Equivalent.</td></tr><tr><td>entered-in-error</td><td colspan=\"3\" style=\"background-color: #efefef\">(not mapped)</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-subscription-status-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-subscription-status-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "MapR5SubscriptionStatusForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for ValueSet R5-subscription-status-for-R4 from FHIR R5 to FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T13:36:49.4006574-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of concepts from ValueSet `http://hl7.org/fhir/ValueSet/subscription-status|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/ValueSet/subscription-status|5.0.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/subscription-status?version=5.0.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/ValueSet/subscription-status|4.0.1"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/subscription-status?version=4.0.1>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/subscription-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/subscription-status>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/subscription-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/subscription-status>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "active" ] ;
+         fhir:display [ fhir:v "Active" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/subscription-status|5.0.0` to `http://hl7.org/fhir/ValueSet/subscription-status|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-SubscriptionStatus-R4B-SubscriptionStatus` (`ConceptMap-R5-SubscriptionStatus-R4B-SubscriptionStatus.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/subscription-status|4.3.0` to `http://hl7.org/fhir/ValueSet/subscription-status|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-SubscriptionStatus-R4-SubscriptionStatus` (`ConceptMap-R4B-SubscriptionStatus-R4-SubscriptionStatus.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/subscription-status|5.0.0#active` to `http://hl7.org/fhir/ValueSet/subscription-status|4.0.1#active` as Equivalent in `ConceptMap-R5-SubscriptionStatus-R4-SubscriptionStatus.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "error" ] ;
+       fhir:display [ fhir:v "Error" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "error" ] ;
+         fhir:display [ fhir:v "Error" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/subscription-status|5.0.0` to `http://hl7.org/fhir/ValueSet/subscription-status|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-SubscriptionStatus-R4B-SubscriptionStatus` (`ConceptMap-R5-SubscriptionStatus-R4B-SubscriptionStatus.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/subscription-status|4.3.0` to `http://hl7.org/fhir/ValueSet/subscription-status|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-SubscriptionStatus-R4-SubscriptionStatus` (`ConceptMap-R4B-SubscriptionStatus-R4-SubscriptionStatus.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/subscription-status|5.0.0#error` to `http://hl7.org/fhir/ValueSet/subscription-status|4.0.1#error` as Equivalent in `ConceptMap-R5-SubscriptionStatus-R4-SubscriptionStatus.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "off" ] ;
+       fhir:display [ fhir:v "Off" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "off" ] ;
+         fhir:display [ fhir:v "Off" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/subscription-status|5.0.0` to `http://hl7.org/fhir/ValueSet/subscription-status|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-SubscriptionStatus-R4B-SubscriptionStatus` (`ConceptMap-R5-SubscriptionStatus-R4B-SubscriptionStatus.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/subscription-status|4.3.0` to `http://hl7.org/fhir/ValueSet/subscription-status|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-SubscriptionStatus-R4-SubscriptionStatus` (`ConceptMap-R4B-SubscriptionStatus-R4-SubscriptionStatus.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/subscription-status|5.0.0#off` to `http://hl7.org/fhir/ValueSet/subscription-status|4.0.1#off` as Equivalent in `ConceptMap-R5-SubscriptionStatus-R4-SubscriptionStatus.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "requested" ] ;
+       fhir:display [ fhir:v "Requested" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "requested" ] ;
+         fhir:display [ fhir:v "Requested" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/subscription-status|5.0.0` to `http://hl7.org/fhir/ValueSet/subscription-status|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-SubscriptionStatus-R4B-SubscriptionStatus` (`ConceptMap-R5-SubscriptionStatus-R4B-SubscriptionStatus.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/subscription-status|4.3.0` to `http://hl7.org/fhir/ValueSet/subscription-status|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-SubscriptionStatus-R4-SubscriptionStatus` (`ConceptMap-R4B-SubscriptionStatus-R4-SubscriptionStatus.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/subscription-status|5.0.0#requested` to `http://hl7.org/fhir/ValueSet/subscription-status|4.0.1#requested` as Equivalent in `ConceptMap-R5-SubscriptionStatus-R4-SubscriptionStatus.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "entered-in-error" ] ;
+       fhir:display [ fhir:v "Entered in Error" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

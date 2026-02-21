@@ -1,0 +1,1057 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/v3-GTSAbbreviation> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "v3-GTSAbbreviation"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>Specializes</td><td/><td>Coding</td><td>The child code is a more narrow version of the concept represented by the parent code.  I.e. Every child concept is also a valid parent concept.  Used to allow determination of subsumption.  Must be transitive, irreflexive, antisymmetric.</td></tr><tr><td>Generalizes</td><td/><td>Coding</td><td>Inverse of Specializes.  Only included as a derived relationship.</td></tr><tr><td>internalId</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id</td><td>code</td><td>The internal identifier for the concept in the HL7 Access database repository.</td></tr><tr><td>appliesTo</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-applies-to</td><td>string</td><td>Haven't a clue!</td></tr><tr><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>Designation of a concept's state. Normally is not populated unless the state is retired.</td></tr><tr><td>notSelectable</td><td>http://hl7.org/fhir/concept-properties#notSelectable</td><td>boolean</td><td>Indicates that the code is abstract - only intended to be used as a selector for other concepts</td></tr></table><p><b>Concepts</b></p><p>This code system <code>http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation</code> defines the following codes:</p><table class=\"codes\"><tr><td><b>Lvl</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>internalId</b></td><td><b>appliesTo</b></td><td><b>status</b></td><td><b>Not Selectable</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">AM<a name=\"v3-GTSAbbreviation-AM\"> </a></td><td>AM</td><td>Every morning at institution specified times.</td><td>10721</td><td>H0600-1200 IST</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">BED<a name=\"v3-GTSAbbreviation-BED\"> </a></td><td>at bedtime</td><td>At bedtime (institution specified time).</td><td>23940</td><td/><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">BID<a name=\"v3-GTSAbbreviation-BID\"> </a></td><td>BID</td><td>Two times a day at institution specified time</td><td>10703</td><td>/(12 h) IST</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">JB<a name=\"v3-GTSAbbreviation-JB\"> </a></td><td>JB</td><td>Regular business days (Monday to Friday excluding holidays)</td><td>10723</td><td>J1-5 \\JH</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">JE<a name=\"v3-GTSAbbreviation-JE\"> </a></td><td>JE</td><td>Regular weekends (Saturday and Sunday excluding holidays)</td><td>10724</td><td>J6-7 \\JH</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">JH<a name=\"v3-GTSAbbreviation-JH\"> </a></td><td>GTSAbbreviationHolidays</td><td>Holidays</td><td>10725</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  _GTSAbbreviationHolidaysChristianRoman<a name=\"v3-GTSAbbreviation-_GTSAbbreviationHolidaysChristianRoman\"> </a></td><td>GTSAbbreviationHolidaysChristianRoman</td><td>Christian Holidays (Roman/Gregorian \\[Western\\] Tradition.)</td><td>21080</td><td/><td>active</td><td>true</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    JHCHREAS<a name=\"v3-GTSAbbreviation-JHCHREAS\"> </a></td><td>JHCHREAS</td><td>Easter Sunday. The Easter date is a rather complex calculation based on Astronomical tables describing full moon dates. Details can be found at \\[http://www.assa.org.au/edm.html, and http://aa.usno.navy.mil/AA/faq/docs/easter.html\\]. Note that the Christian Orthodox Holidays are based on the Julian calendar.</td><td>10730</td><td/><td>active</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    JHCHRGFR<a name=\"v3-GTSAbbreviation-JHCHRGFR\"> </a></td><td>JHCHRGFR</td><td>Good Friday, is the Friday right before Easter Sunday.</td><td>10731</td><td/><td>active</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    JHCHRNEW<a name=\"v3-GTSAbbreviation-JHCHRNEW\"> </a></td><td>JHCHRNEW</td><td>New Year's Day (January 1)</td><td>10729</td><td>M0101</td><td>active</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    JHCHRPEN<a name=\"v3-GTSAbbreviation-JHCHRPEN\"> </a></td><td>JHCHRPEN</td><td>Pentecost Sunday, is seven weeks after Easter (the 50th day of Easter).</td><td>10732</td><td/><td>active</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    JHCHRXME<a name=\"v3-GTSAbbreviation-JHCHRXME\"> </a></td><td>JHCHRXME</td><td>Christmas Eve (December 24)</td><td>10727</td><td>M1224</td><td>active</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    JHCHRXMS<a name=\"v3-GTSAbbreviation-JHCHRXMS\"> </a></td><td>JHCHRXMS</td><td>Christmas Day (December 25)</td><td>10728</td><td>M1225</td><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  JHNNL<a name=\"v3-GTSAbbreviation-JHNNL\"> </a></td><td>The Netherlands National Holidays</td><td>**Description:**The Netherlands National Holidays.</td><td>22658</td><td/><td>active</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    JHNNLLD<a name=\"v3-GTSAbbreviation-JHNNLLD\"> </a></td><td>Liberation day (May 5 every five years)</td><td>**Description:**Liberation day (May 5 every five years)</td><td>22660</td><td/><td>active</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    JHNNLQD<a name=\"v3-GTSAbbreviation-JHNNLQD\"> </a></td><td>Queen's day (April 30)</td><td>**Description:**Queen's day (April 30)</td><td>22659</td><td/><td>active</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    JHNNLSK<a name=\"v3-GTSAbbreviation-JHNNLSK\"> </a></td><td>Sinterklaas (December 5)</td><td>**Description:**Sinterklaas (December 5)</td><td>22661</td><td/><td>active</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  JHNUS<a name=\"v3-GTSAbbreviation-JHNUS\"> </a></td><td>GTSAbbreviationHolidaysUSNational</td><td>United States National Holidays (public holidays for federal employees established by U.S. Federal law 5 U.S.C. 6103).</td><td>10733</td><td/><td>active</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    JHNUSCLM<a name=\"v3-GTSAbbreviation-JHNUSCLM\"> </a></td><td>JHNUSCLM</td><td>Columbus Day, the second Monday in October.</td><td>10743</td><td>M1008-14 J1</td><td>active</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    JHNUSIND<a name=\"v3-GTSAbbreviation-JHNUSIND\"> </a></td><td>JHNUSIND</td><td>Independence Day (4th of July)</td><td>10739</td><td>M0704</td><td>active</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    JHNUSIND1<a name=\"v3-GTSAbbreviation-JHNUSIND1\"> </a></td><td>JHNUSIND1</td><td>Alternative Monday after 4th of July Weekend \\[5 U.S.C. 6103(b)\\].</td><td>10741</td><td>M0705 J1</td><td>active</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    JHNUSIND5<a name=\"v3-GTSAbbreviation-JHNUSIND5\"> </a></td><td>JHNUSIND5</td><td>Alternative Friday before 4th of July Weekend \\[5 U.S.C. 6103(b)\\].</td><td>10740</td><td>M0703 J5</td><td>active</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    JHNUSLBR<a name=\"v3-GTSAbbreviation-JHNUSLBR\"> </a></td><td>JHNUSLBR</td><td>Labor Day, the first Monday in September.</td><td>10742</td><td>M0901-07 J1</td><td>active</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    JHNUSMEM<a name=\"v3-GTSAbbreviation-JHNUSMEM\"> </a></td><td>JHNUSMEM</td><td>Memorial Day, the last Monday in May.</td><td>10736</td><td>M0525-31 J1</td><td>active</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    JHNUSMEM5<a name=\"v3-GTSAbbreviation-JHNUSMEM5\"> </a></td><td>JHNUSMEM5</td><td>Friday before Memorial Day Weekend</td><td>10737</td><td>M0522-28 J5</td><td>active</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    JHNUSMEM6<a name=\"v3-GTSAbbreviation-JHNUSMEM6\"> </a></td><td>JHNUSMEM6</td><td>Saturday of Memorial Day Weekend</td><td>10738</td><td>M0523-29 J6</td><td>active</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    JHNUSMLK<a name=\"v3-GTSAbbreviation-JHNUSMLK\"> </a></td><td>JHNUSMLK</td><td>Dr. Martin Luther King, Jr. Day, the third Monday in January.</td><td>10734</td><td>M0115-21 J1</td><td>active</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    JHNUSPRE<a name=\"v3-GTSAbbreviation-JHNUSPRE\"> </a></td><td>JHNUSPRE</td><td>Washington's Birthday (Presidential Day) the third Monday in February.</td><td>10735</td><td>M0215-21 J1</td><td>active</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    JHNUSTKS<a name=\"v3-GTSAbbreviation-JHNUSTKS\"> </a></td><td>JHNUSTKS</td><td>Thanksgiving Day, the fourth Thursday in November.</td><td>10745</td><td>M1122-28 J4</td><td>active</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    JHNUSTKS5<a name=\"v3-GTSAbbreviation-JHNUSTKS5\"> </a></td><td>JHNUSTKS5</td><td>Friday after Thanksgiving.</td><td>10746</td><td>M1123-29 J5</td><td>active</td><td/></tr><tr><td>3</td><td style=\"white-space:nowrap\">    JHNUSVET<a name=\"v3-GTSAbbreviation-JHNUSVET\"> </a></td><td>JHNUSVET</td><td>Veteran's Day, November 11.</td><td>10744</td><td>M1111</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">MO<a name=\"v3-GTSAbbreviation-MO\"> </a></td><td>monthly</td><td>Monthly at institution specified time.</td><td>23942</td><td/><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">PM<a name=\"v3-GTSAbbreviation-PM\"> </a></td><td>PM</td><td>Every afternoon at institution specified times.</td><td>10722</td><td>H1200-1800 IST</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">Q1H<a name=\"v3-GTSAbbreviation-Q1H\"> </a></td><td>every hour</td><td>Every hour at institution specified times.</td><td>23936</td><td/><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">Q2H<a name=\"v3-GTSAbbreviation-Q2H\"> </a></td><td>every 2 hours</td><td>Every 2 hours at institution specified times.</td><td>23937</td><td/><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">Q3H<a name=\"v3-GTSAbbreviation-Q3H\"> </a></td><td>every 3 hours</td><td>Every 3 hours at institution specified times.</td><td>23938</td><td/><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">Q4H<a name=\"v3-GTSAbbreviation-Q4H\"> </a></td><td>Q4H</td><td>Every 4 hours at institution specified time</td><td>23746</td><td>4 h IST</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">Q6H<a name=\"v3-GTSAbbreviation-Q6H\"> </a></td><td>Q6H</td><td>Every 6 hours at institution specified time</td><td>23747</td><td>6 h IST</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">Q8H<a name=\"v3-GTSAbbreviation-Q8H\"> </a></td><td>every 8 hours</td><td>Every 8 hours at institution specified times.</td><td>23939</td><td/><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">QD<a name=\"v3-GTSAbbreviation-QD\"> </a></td><td>QD</td><td>Every day at institution specified times.</td><td>23744</td><td>1 d IST</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">QID<a name=\"v3-GTSAbbreviation-QID\"> </a></td><td>QID</td><td>Four times a day at institution specified time</td><td>10705</td><td>/(6 h) IST</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">QOD<a name=\"v3-GTSAbbreviation-QOD\"> </a></td><td>QOD</td><td>Every other day at institution specified times.</td><td>23745</td><td>2 d IST</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">TID<a name=\"v3-GTSAbbreviation-TID\"> </a></td><td>TID</td><td>Three times a day at institution specified time</td><td>10704</td><td>/(8 h) IST</td><td>active</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">WK<a name=\"v3-GTSAbbreviation-WK\"> </a></td><td>weekly</td><td>Weekly at institution specified time.</td><td>23941</td><td/><td>active</td><td/></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation>
+  ] ; # 
+  fhir:version [ fhir:v "2.1.0"] ; # 
+  fhir:name [ fhir:v "GTSAbbreviation"] ; # 
+  fhir:title [ fhir:v "GTSAbbreviation"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2019-03-19T19:00:00-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "*Open Issue:* It appears that the printnames are suboptimal and should be improved for many of the existing codes."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:hierarchyMeaning [ fhir:v "is-a"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "Specializes" ] ;
+     fhir:description [ fhir:v "The child code is a more narrow version of the concept represented by the parent code.  I.e. Every child concept is also a valid parent concept.  Used to allow determination of subsumption.  Must be transitive, irreflexive, antisymmetric." ] ;
+     fhir:type [ fhir:v "Coding" ]
+  ] [
+     fhir:code [ fhir:v "Generalizes" ] ;
+     fhir:description [ fhir:v "Inverse of Specializes.  Only included as a derived relationship." ] ;
+     fhir:type [ fhir:v "Coding" ]
+  ] [
+     fhir:code [ fhir:v "internalId" ] ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id>
+     ] ;
+     fhir:description [ fhir:v "The internal identifier for the concept in the HL7 Access database repository." ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "appliesTo" ] ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-applies-to"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-applies-to>
+     ] ;
+     fhir:description [ fhir:v "Haven't a clue!" ] ;
+     fhir:type [ fhir:v "string" ]
+  ] [
+     fhir:code [ fhir:v "status" ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#status>
+     ] ;
+     fhir:description [ fhir:v "Designation of a concept's state. Normally is not populated unless the state is retired." ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "notSelectable" ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#notSelectable"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#notSelectable>
+     ] ;
+     fhir:description [ fhir:v "Indicates that the code is abstract - only intended to be used as a selector for other concepts" ] ;
+     fhir:type [ fhir:v "boolean" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "AM" ] ;
+     fhir:display [ fhir:v "AM" ] ;
+     fhir:definition [ fhir:v "Every morning at institution specified times." ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "10721"
+       ]
+     ] [
+       fhir:code [ fhir:v "appliesTo" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "H0600-1200 IST"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BED" ] ;
+     fhir:display [ fhir:v "at bedtime" ] ;
+     fhir:definition [ fhir:v "At bedtime (institution specified time)." ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "23940"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BID" ] ;
+     fhir:display [ fhir:v "BID" ] ;
+     fhir:definition [ fhir:v "Two times a day at institution specified time" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "10703"
+       ]
+     ] [
+       fhir:code [ fhir:v "appliesTo" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "/(12 h) IST"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "JB" ] ;
+     fhir:display [ fhir:v "JB" ] ;
+     fhir:definition [ fhir:v "Regular business days (Monday to Friday excluding holidays)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "10723"
+       ]
+     ] [
+       fhir:code [ fhir:v "appliesTo" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "J1-5 \\JH"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "JE" ] ;
+     fhir:display [ fhir:v "JE" ] ;
+     fhir:definition [ fhir:v "Regular weekends (Saturday and Sunday excluding holidays)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "10724"
+       ]
+     ] [
+       fhir:code [ fhir:v "appliesTo" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "J6-7 \\JH"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "JH" ] ;
+     fhir:display [ fhir:v "GTSAbbreviationHolidays" ] ;
+     fhir:definition [ fhir:v "Holidays" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "10725"
+       ]
+     ] ) ;
+     fhir:concept ( [
+       fhir:code [ fhir:v "_GTSAbbreviationHolidaysChristianRoman" ] ;
+       fhir:display [ fhir:v "GTSAbbreviationHolidaysChristianRoman" ] ;
+       fhir:definition [ fhir:v "Christian Holidays (Roman/Gregorian \\[Western\\] Tradition.)" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "notSelectable" ] ;
+         fhir:value [
+           a fhir:Boolean ;
+           fhir:v true
+         ]
+       ] [
+         fhir:code [ fhir:v "status" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "active"
+         ]
+       ] [
+         fhir:code [ fhir:v "internalId" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "21080"
+         ]
+       ] ) ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "JHCHREAS" ] ;
+         fhir:display [ fhir:v "JHCHREAS" ] ;
+         fhir:definition [ fhir:v "Easter Sunday. The Easter date is a rather complex calculation based on Astronomical tables describing full moon dates. Details can be found at \\[http://www.assa.org.au/edm.html, and http://aa.usno.navy.mil/AA/faq/docs/easter.html\\]. Note that the Christian Orthodox Holidays are based on the Julian calendar." ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "10730"
+           ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "JHCHRGFR" ] ;
+         fhir:display [ fhir:v "JHCHRGFR" ] ;
+         fhir:definition [ fhir:v "Good Friday, is the Friday right before Easter Sunday." ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "10731"
+           ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "JHCHRNEW" ] ;
+         fhir:display [ fhir:v "JHCHRNEW" ] ;
+         fhir:definition [ fhir:v "New Year's Day (January 1)" ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "10729"
+           ]
+         ] [
+           fhir:code [ fhir:v "appliesTo" ] ;
+           fhir:value [
+             a fhir:String ;
+             fhir:v "M0101"
+           ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "JHCHRPEN" ] ;
+         fhir:display [ fhir:v "JHCHRPEN" ] ;
+         fhir:definition [ fhir:v "Pentecost Sunday, is seven weeks after Easter (the 50th day of Easter)." ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "10732"
+           ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "JHCHRXME" ] ;
+         fhir:display [ fhir:v "JHCHRXME" ] ;
+         fhir:definition [ fhir:v "Christmas Eve (December 24)" ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "10727"
+           ]
+         ] [
+           fhir:code [ fhir:v "appliesTo" ] ;
+           fhir:value [
+             a fhir:String ;
+             fhir:v "M1224"
+           ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "JHCHRXMS" ] ;
+         fhir:display [ fhir:v "JHCHRXMS" ] ;
+         fhir:definition [ fhir:v "Christmas Day (December 25)" ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "10728"
+           ]
+         ] [
+           fhir:code [ fhir:v "appliesTo" ] ;
+           fhir:value [
+             a fhir:String ;
+             fhir:v "M1225"
+           ]
+         ] )
+       ] )
+     ] [
+       fhir:code [ fhir:v "JHNNL" ] ;
+       fhir:display [ fhir:v "The Netherlands National Holidays" ] ;
+       fhir:definition [ fhir:v "**Description:**The Netherlands National Holidays." ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "status" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "active"
+         ]
+       ] [
+         fhir:code [ fhir:v "internalId" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "22658"
+         ]
+       ] ) ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "JHNNLLD" ] ;
+         fhir:display [ fhir:v "Liberation day (May 5 every five years)" ] ;
+         fhir:definition [ fhir:v "**Description:**Liberation day (May 5 every five years)" ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "22660"
+           ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "JHNNLQD" ] ;
+         fhir:display [ fhir:v "Queen's day (April 30)" ] ;
+         fhir:definition [ fhir:v "**Description:**Queen's day (April 30)" ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "22659"
+           ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "JHNNLSK" ] ;
+         fhir:display [ fhir:v "Sinterklaas (December 5)" ] ;
+         fhir:definition [ fhir:v "**Description:**Sinterklaas (December 5)" ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "22661"
+           ]
+         ] )
+       ] )
+     ] [
+       fhir:code [ fhir:v "JHNUS" ] ;
+       fhir:display [ fhir:v "GTSAbbreviationHolidaysUSNational" ] ;
+       fhir:definition [ fhir:v "United States National Holidays (public holidays for federal employees established by U.S. Federal law 5 U.S.C. 6103)." ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "status" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "active"
+         ]
+       ] [
+         fhir:code [ fhir:v "internalId" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "10733"
+         ]
+       ] ) ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "JHNUSCLM" ] ;
+         fhir:display [ fhir:v "JHNUSCLM" ] ;
+         fhir:definition [ fhir:v "Columbus Day, the second Monday in October." ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "10743"
+           ]
+         ] [
+           fhir:code [ fhir:v "appliesTo" ] ;
+           fhir:value [
+             a fhir:String ;
+             fhir:v "M1008-14 J1"
+           ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "JHNUSIND" ] ;
+         fhir:display [ fhir:v "JHNUSIND" ] ;
+         fhir:definition [ fhir:v "Independence Day (4th of July)" ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "10739"
+           ]
+         ] [
+           fhir:code [ fhir:v "appliesTo" ] ;
+           fhir:value [
+             a fhir:String ;
+             fhir:v "M0704"
+           ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "JHNUSIND1" ] ;
+         fhir:display [ fhir:v "JHNUSIND1" ] ;
+         fhir:definition [ fhir:v "Alternative Monday after 4th of July Weekend \\[5 U.S.C. 6103(b)\\]." ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "10741"
+           ]
+         ] [
+           fhir:code [ fhir:v "appliesTo" ] ;
+           fhir:value [
+             a fhir:String ;
+             fhir:v "M0705 J1"
+           ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "JHNUSIND5" ] ;
+         fhir:display [ fhir:v "JHNUSIND5" ] ;
+         fhir:definition [ fhir:v "Alternative Friday before 4th of July Weekend \\[5 U.S.C. 6103(b)\\]." ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "10740"
+           ]
+         ] [
+           fhir:code [ fhir:v "appliesTo" ] ;
+           fhir:value [
+             a fhir:String ;
+             fhir:v "M0703 J5"
+           ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "JHNUSLBR" ] ;
+         fhir:display [ fhir:v "JHNUSLBR" ] ;
+         fhir:definition [ fhir:v "Labor Day, the first Monday in September." ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "10742"
+           ]
+         ] [
+           fhir:code [ fhir:v "appliesTo" ] ;
+           fhir:value [
+             a fhir:String ;
+             fhir:v "M0901-07 J1"
+           ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "JHNUSMEM" ] ;
+         fhir:display [ fhir:v "JHNUSMEM" ] ;
+         fhir:definition [ fhir:v "Memorial Day, the last Monday in May." ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "10736"
+           ]
+         ] [
+           fhir:code [ fhir:v "appliesTo" ] ;
+           fhir:value [
+             a fhir:String ;
+             fhir:v "M0525-31 J1"
+           ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "JHNUSMEM5" ] ;
+         fhir:display [ fhir:v "JHNUSMEM5" ] ;
+         fhir:definition [ fhir:v "Friday before Memorial Day Weekend" ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "10737"
+           ]
+         ] [
+           fhir:code [ fhir:v "appliesTo" ] ;
+           fhir:value [
+             a fhir:String ;
+             fhir:v "M0522-28 J5"
+           ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "JHNUSMEM6" ] ;
+         fhir:display [ fhir:v "JHNUSMEM6" ] ;
+         fhir:definition [ fhir:v "Saturday of Memorial Day Weekend" ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "10738"
+           ]
+         ] [
+           fhir:code [ fhir:v "appliesTo" ] ;
+           fhir:value [
+             a fhir:String ;
+             fhir:v "M0523-29 J6"
+           ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "JHNUSMLK" ] ;
+         fhir:display [ fhir:v "JHNUSMLK" ] ;
+         fhir:definition [ fhir:v "Dr. Martin Luther King, Jr. Day, the third Monday in January." ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "10734"
+           ]
+         ] [
+           fhir:code [ fhir:v "appliesTo" ] ;
+           fhir:value [
+             a fhir:String ;
+             fhir:v "M0115-21 J1"
+           ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "JHNUSPRE" ] ;
+         fhir:display [ fhir:v "JHNUSPRE" ] ;
+         fhir:definition [ fhir:v "Washington's Birthday (Presidential Day) the third Monday in February." ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "10735"
+           ]
+         ] [
+           fhir:code [ fhir:v "appliesTo" ] ;
+           fhir:value [
+             a fhir:String ;
+             fhir:v "M0215-21 J1"
+           ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "JHNUSTKS" ] ;
+         fhir:display [ fhir:v "JHNUSTKS" ] ;
+         fhir:definition [ fhir:v "Thanksgiving Day, the fourth Thursday in November." ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "10745"
+           ]
+         ] [
+           fhir:code [ fhir:v "appliesTo" ] ;
+           fhir:value [
+             a fhir:String ;
+             fhir:v "M1122-28 J4"
+           ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "JHNUSTKS5" ] ;
+         fhir:display [ fhir:v "JHNUSTKS5" ] ;
+         fhir:definition [ fhir:v "Friday after Thanksgiving." ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "10746"
+           ]
+         ] [
+           fhir:code [ fhir:v "appliesTo" ] ;
+           fhir:value [
+             a fhir:String ;
+             fhir:v "M1123-29 J5"
+           ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "JHNUSVET" ] ;
+         fhir:display [ fhir:v "JHNUSVET" ] ;
+         fhir:definition [ fhir:v "Veteran's Day, November 11." ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "10744"
+           ]
+         ] [
+           fhir:code [ fhir:v "appliesTo" ] ;
+           fhir:value [
+             a fhir:String ;
+             fhir:v "M1111"
+           ]
+         ] )
+       ] )
+     ] )
+  ] [
+     fhir:code [ fhir:v "MO" ] ;
+     fhir:display [ fhir:v "monthly" ] ;
+     fhir:definition [ fhir:v "Monthly at institution specified time." ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "23942"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PM" ] ;
+     fhir:display [ fhir:v "PM" ] ;
+     fhir:definition [ fhir:v "Every afternoon at institution specified times." ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "10722"
+       ]
+     ] [
+       fhir:code [ fhir:v "appliesTo" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "H1200-1800 IST"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "Q1H" ] ;
+     fhir:display [ fhir:v "every hour" ] ;
+     fhir:definition [ fhir:v "Every hour at institution specified times." ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "23936"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "Q2H" ] ;
+     fhir:display [ fhir:v "every 2 hours" ] ;
+     fhir:definition [ fhir:v "Every 2 hours at institution specified times." ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "23937"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "Q3H" ] ;
+     fhir:display [ fhir:v "every 3 hours" ] ;
+     fhir:definition [ fhir:v "Every 3 hours at institution specified times." ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "23938"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "Q4H" ] ;
+     fhir:display [ fhir:v "Q4H" ] ;
+     fhir:definition [ fhir:v "Every 4 hours at institution specified time" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "23746"
+       ]
+     ] [
+       fhir:code [ fhir:v "appliesTo" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "4 h IST"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "Q6H" ] ;
+     fhir:display [ fhir:v "Q6H" ] ;
+     fhir:definition [ fhir:v "Every 6 hours at institution specified time" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "23747"
+       ]
+     ] [
+       fhir:code [ fhir:v "appliesTo" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "6 h IST"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "Q8H" ] ;
+     fhir:display [ fhir:v "every 8 hours" ] ;
+     fhir:definition [ fhir:v "Every 8 hours at institution specified times." ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "23939"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "QD" ] ;
+     fhir:display [ fhir:v "QD" ] ;
+     fhir:definition [ fhir:v "Every day at institution specified times." ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "23744"
+       ]
+     ] [
+       fhir:code [ fhir:v "appliesTo" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "1 d IST"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "QID" ] ;
+     fhir:display [ fhir:v "QID" ] ;
+     fhir:definition [ fhir:v "Four times a day at institution specified time" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "10705"
+       ]
+     ] [
+       fhir:code [ fhir:v "appliesTo" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "/(6 h) IST"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "QOD" ] ;
+     fhir:display [ fhir:v "QOD" ] ;
+     fhir:definition [ fhir:v "Every other day at institution specified times." ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "23745"
+       ]
+     ] [
+       fhir:code [ fhir:v "appliesTo" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "2 d IST"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TID" ] ;
+     fhir:display [ fhir:v "TID" ] ;
+     fhir:definition [ fhir:v "Three times a day at institution specified time" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "10704"
+       ]
+     ] [
+       fhir:code [ fhir:v "appliesTo" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "/(8 h) IST"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "WK" ] ;
+     fhir:display [ fhir:v "weekly" ] ;
+     fhir:definition [ fhir:v "Weekly at institution specified time." ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "23941"
+       ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,179 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-payment-kind-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-payment-kind-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-payment-kind-for-R4</b></p><a name=\"R5-payment-kind-for-R4\"> </a><a name=\"hcR5-payment-kind-for-R4\"> </a><p>This value set expansion contains 4 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"R5-payment-kind-for-R4-http://hl7.org/fhir/payment-kind-deposit\"> </a><code>http://hl7.org/fhir/payment-kind</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-payment-kind.html#payment-kind-deposit\">deposit</a></td><td>Deposit on Account</td><td>The payment or adjustment is to an indicated account not to a specific charge.</td></tr><tr><td><a name=\"R5-payment-kind-for-R4-http://hl7.org/fhir/payment-kind-kiosk\"> </a><code>http://hl7.org/fhir/payment-kind</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-payment-kind.html#payment-kind-kiosk\">kiosk</a></td><td>Kiosk Payment</td><td>Payment made at an authorized Kiosk.</td></tr><tr><td><a name=\"R5-payment-kind-for-R4-http://hl7.org/fhir/payment-kind-online\"> </a><code>http://hl7.org/fhir/payment-kind</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-payment-kind.html#payment-kind-online\">online</a></td><td>Online Bill Payment</td><td>Payment, full or partial, of an invoice or statement provided to the payment issuer.</td></tr><tr><td><a name=\"R5-payment-kind-for-R4-http://hl7.org/fhir/payment-kind-periodic-payment\"> </a><code>http://hl7.org/fhir/payment-kind</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-payment-kind.html#payment-kind-periodic-payment\">periodic-payment</a></td><td>Periodic Payment</td><td>The payment is one of a set of previously agreed payments, for example in fullfilment of a payment plan.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 4
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fm"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-payment-kind-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-payment-kind-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5PaymentKindForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.PaymentKind for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Financial Management"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Financial Management" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fm" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/payment-kind|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/payment-kind|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `PaymentReconciliation.kind`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://hl7.org/fhir/ValueSet/payment-kind|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/payment-kind"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/payment-kind>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "deposit" ] ;
+         fhir:display [ fhir:v "Deposit on Account" ]
+       ] [
+         fhir:code [ fhir:v "kiosk" ] ;
+         fhir:display [ fhir:v "Kiosk Payment" ]
+       ] [
+         fhir:code [ fhir:v "online" ] ;
+         fhir:display [ fhir:v "Online Bill Payment" ]
+       ] [
+         fhir:code [ fhir:v "periodic-payment" ] ;
+         fhir:display [ fhir:v "Periodic Payment" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/payment-kind"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/payment-kind>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "deposit" ] ;
+       fhir:display [ fhir:v "Deposit on Account" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/payment-kind"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/payment-kind>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "kiosk" ] ;
+       fhir:display [ fhir:v "Kiosk Payment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/payment-kind"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/payment-kind>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "online" ] ;
+       fhir:display [ fhir:v "Online Bill Payment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/payment-kind"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/payment-kind>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "periodic-payment" ] ;
+       fhir:display [ fhir:v "Periodic Payment" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

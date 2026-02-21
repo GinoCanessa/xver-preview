@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-Consent-element-map-to-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-Consent-element-map-to-R4</b></p><a name="R5-Consent-element-map-to-R4"> </a><a name="hcR5-Consent-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Consent|5.0.0</code> to <a href="http://hl7.org/fhir/R4/consent.html">Consentversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Consent.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Consent.meta` is mapped to FHIR R4 element `Consent.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Consent.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Consent.implicitRules` is mapped to FHIR R4 element `Consent.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Consent.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Consent.language` is mapped to FHIR R4 element `Consent.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Consent.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Consent.text` is mapped to FHIR R4 element `Consent.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Consent.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Consent.contained` is mapped to FHIR R4 element `Consent.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Consent.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Consent.identifier` is mapped to FHIR R4 element `Consent.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Consent.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Note that the target element context `Consent.status` is a modifier element, so this extension does not need to be defined as a modifier.
+Element `Consent.status` is mapped to FHIR R4 element `Consent.status` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Consent.category (category)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Consent.category` is mapped to FHIR R4 element `Consent.category` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Consent.subject (subject)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Consent.subject` is mapped to FHIR R4 element `Consent.patient` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Consent.date (date)</td><td><a href="CodeSystem-concept-map-relationship.html#narrower" title="narrower">narrower</a></td><td/><td>Element `Consent.date` is mapped to FHIR R4 element `Consent.dateTime` as `SourceIsNarrowerThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Consent.grantee (grantee)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.grantee` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Consent.grantee` is mapped to FHIR R4 element `Consent.performer` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Consent.sourceAttachment (sourceAttachment)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Note that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`.
+Element `Consent.sourceAttachment` is mapped to FHIR R4 element `Consent.source[x]` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`.</td></tr><tr><td>Consent.sourceReference (sourceReference)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Note that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`.
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.sourceReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Consent.sourceReference` is mapped to FHIR R4 element `Consent.source[x]` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`.</td></tr><tr><td>Consent.regulatoryBasis (regulatoryBasis)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Consent.regulatoryBasis` is mapped to FHIR R4 element `Consent.policyRule` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Consent.policyBasis (policyBasis)</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td/><td>Element `Consent.policyBasis` is mapped to FHIR R4 element `Consent.policy` as `SourceIsNarrowerThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Consent.policyBasis.reference (reference)</td><td><a href="CodeSystem-concept-map-relationship.html#narrower" title="narrower">narrower</a></td><td/><td>Element `Consent.policyBasis.reference` is mapped to FHIR R4 element `Consent.policy` as `SourceIsNarrowerThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Consent.policyBasis.url (url)</td><td><a href="CodeSystem-concept-map-relationship.html#narrower" title="narrower">narrower</a></td><td/><td>Element `Consent.policyBasis.url` is mapped to FHIR R4 element `Consent.policy` as `SourceIsNarrowerThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Consent.verification (verification)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `Consent.verification` is mapped to FHIR R4 element `Consent.verification` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Consent.verification.verified (verified)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Consent.verification.verified` is mapped to FHIR R4 element `Consent.verification.verified` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Consent.verification.verifiedWith (verifiedWith)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Consent.verification.verifiedWith` is mapped to FHIR R4 element `Consent.verification.verifiedWith` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Consent.verification.verificationDate (verificationDate)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Consent.verification.verificationDate` is mapped to FHIR R4 element `Consent.verification.verificationDate` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Consent.provision (provision)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `Consent.provision` is mapped to FHIR R4 element `Consent.provision` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Consent.provision.provision` because `Consent.provision.provision` is defined as a content reference to `Consent.provision`.</td></tr><tr><td>Consent.provision.period (period)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Consent.provision.period` is mapped to FHIR R4 element `Consent.provision.period` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Consent.provision.provision.period` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`.</td></tr><tr><td>Consent.provision.actor (actor)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `Consent.provision.actor` is mapped to FHIR R4 element `Consent.provision.actor` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Consent.provision.provision.actor` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`.</td></tr><tr><td>Consent.provision.actor.role (role)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Consent.provision.actor.role` is mapped to FHIR R4 element `Consent.provision.actor.role` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Consent.provision.provision.actor.role` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`.</td></tr><tr><td>Consent.provision.actor.reference (reference)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Consent.provision.actor.reference` is mapped to FHIR R4 element `Consent.provision.actor.reference` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Consent.provision.provision.actor.reference` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`.</td></tr><tr><td>Consent.provision.action (action)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Consent.provision.action` is mapped to FHIR R4 element `Consent.provision.action` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Consent.provision.provision.action` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`.</td></tr><tr><td>Consent.provision.securityLabel (securityLabel)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Consent.provision.securityLabel` is mapped to FHIR R4 element `Consent.provision.securityLabel` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Consent.provision.provision.securityLabel` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`.</td></tr><tr><td>Consent.provision.purpose (purpose)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Consent.provision.purpose` is mapped to FHIR R4 element `Consent.provision.purpose` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Consent.provision.provision.purpose` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`.</td></tr><tr><td>Consent.provision.documentType (documentType)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Consent.provision.documentType` is mapped to FHIR R4 element `Consent.provision.class` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Consent.provision.provision.class` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`.</td></tr><tr><td>Consent.provision.resourceType (resourceType)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Consent.provision.resourceType` is mapped to FHIR R4 element `Consent.provision.class` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Consent.provision.provision.class` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`.</td></tr><tr><td>Consent.provision.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Consent.provision.code` is mapped to FHIR R4 element `Consent.provision.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Consent.provision.provision.code` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`.</td></tr><tr><td>Consent.provision.dataPeriod (dataPeriod)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Consent.provision.dataPeriod` is mapped to FHIR R4 element `Consent.provision.dataPeriod` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Consent.provision.provision.dataPeriod` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`.</td></tr><tr><td>Consent.provision.data (data)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `Consent.provision.data` is mapped to FHIR R4 element `Consent.provision.data` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Consent.provision.provision.data` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`.</td></tr><tr><td>Consent.provision.data.meaning (meaning)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Consent.provision.data.meaning` is mapped to FHIR R4 element `Consent.provision.data.meaning` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Consent.provision.provision.data.meaning` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`.</td></tr><tr><td>Consent.provision.data.reference (reference)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Consent.provision.data.reference` is mapped to FHIR R4 element `Consent.provision.data.reference` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Consent.provision.provision.data.reference` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`.</td></tr><tr><td>Consent.provision.provision (provision)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `Consent.provision.provision` is mapped to FHIR R4 element `Consent.provision.provision` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `Consent.provision.provision.provision` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Consent|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Consent.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.status</td><td>Note that the target element context `Consent.status` is a modifier element, so this extension does not need to be defined as a modifier.
+Element `Consent.status` is mapped to FHIR R4 element `Consent.status` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Consent.period (period)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.period</td><td>Element `Consent.period` has a context of Consent based on following the parent source element upwards and mapping to `Consent`.</td></tr><tr><td>Consent.verification.verificationType (verificationType)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.verification.verificationType</td><td>Element `Consent.verification.verificationType` has a context of Consent.verification based on following the parent source element upwards and mapping to `Consent`.</td></tr><tr><td>Consent.decision (decision)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.decision</td><td>Element `Consent.decision` has a context of Consent based on following the parent source element upwards and mapping to `Consent`.</td></tr><tr><td>Consent.provision.expression (expression)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.provision.expression</td><td>Element `Consent.provision.expression` has a context of Consent.provision based on following the parent source element upwards and mapping to `Consent`.
+Note available implied context: `Consent.provision.provision` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Consent|5.0.0</code> to <a href="http://hl7.org/fhir/extensions/5.2.0/index.html">FHIR Extensions Packversion: 5.2.0)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Consent.subject (subject)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Consent.subject` is mapped to FHIR R4 element `Consent.patient` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Consent.grantor (grantor)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.grantor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Consent.grantor` has a context of Consent based on following the parent source element upwards and mapping to `Consent`.</td></tr><tr><td>Consent.grantee (grantee)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.grantee` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Consent.grantee` is mapped to FHIR R4 element `Consent.performer` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Consent.manager (manager)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.manager` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Consent.manager` has a context of Consent based on following the parent source element upwards and mapping to `Consent`.</td></tr><tr><td>Consent.controller (controller)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.controller` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Consent.controller` has a context of Consent based on following the parent source element upwards and mapping to `Consent`.</td></tr><tr><td>Consent.sourceReference (sourceReference)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`.
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.sourceReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Consent.sourceReference` is mapped to FHIR R4 element `Consent.source[x]` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`.</td></tr><tr><td>Consent.policyText (policyText)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.policyText` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Consent.policyText` has a context of Consent based on following the parent source element upwards and mapping to `Consent`.</td></tr><tr><td>Consent.verification.verifiedBy (verifiedBy)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.verification.verifiedBy` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `Consent.verification.verifiedBy` has a context of Consent.verification based on following the parent source element upwards and mapping to `Consent`.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-Consent-element-map-to-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5ConsentElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 Consent to FHIR R4 Consent"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T13:36:55.8833863-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 Consent to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Consent"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/Consent"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="Consent.meta"/>
+      <display value="meta"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Consent.meta` is mapped to FHIR R4 element `Consent.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Consent.implicitRules` is mapped to FHIR R4 element `Consent.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.language"/>
+      <display value="language"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Consent.language` is mapped to FHIR R4 element `Consent.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.text"/>
+      <display value="text"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Consent.text` is mapped to FHIR R4 element `Consent.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.contained"/>
+      <display value="contained"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Consent.contained` is mapped to FHIR R4 element `Consent.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Consent.identifier` is mapped to FHIR R4 element `Consent.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.status"/>
+      <display value="status"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Note that the target element context `Consent.status` is a modifier element, so this extension does not need to be defined as a modifier.&#xA;Element `Consent.status` is mapped to FHIR R4 element `Consent.status` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.category"/>
+      <display value="category"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Consent.category` is mapped to FHIR R4 element `Consent.category` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.subject"/>
+      <display value="subject"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Consent.subject` is mapped to FHIR R4 element `Consent.patient` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.date"/>
+      <display value="date"/>
+      <target>
+        <equivalence value="narrower"/>
+        <comment value="Element `Consent.date` is mapped to FHIR R4 element `Consent.dateTime` as `SourceIsNarrowerThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.grantee"/>
+      <display value="grantee"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.grantee` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Consent.grantee` is mapped to FHIR R4 element `Consent.performer` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.sourceAttachment"/>
+      <display value="sourceAttachment"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Note that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`.&#xA;Element `Consent.sourceAttachment` is mapped to FHIR R4 element `Consent.source[x]` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.sourceReference"/>
+      <display value="sourceReference"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Note that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.sourceReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Consent.sourceReference` is mapped to FHIR R4 element `Consent.source[x]` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.regulatoryBasis"/>
+      <display value="regulatoryBasis"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Consent.regulatoryBasis` is mapped to FHIR R4 element `Consent.policyRule` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.policyBasis"/>
+      <display value="policyBasis"/>
+      <target>
+        <equivalence value="relatedto"/>
+        <comment value="Element `Consent.policyBasis` is mapped to FHIR R4 element `Consent.policy` as `SourceIsNarrowerThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.policyBasis.reference"/>
+      <display value="reference"/>
+      <target>
+        <equivalence value="narrower"/>
+        <comment value="Element `Consent.policyBasis.reference` is mapped to FHIR R4 element `Consent.policy` as `SourceIsNarrowerThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.policyBasis.url"/>
+      <display value="url"/>
+      <target>
+        <equivalence value="narrower"/>
+        <comment value="Element `Consent.policyBasis.url` is mapped to FHIR R4 element `Consent.policy` as `SourceIsNarrowerThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.verification"/>
+      <display value="verification"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `Consent.verification` is mapped to FHIR R4 element `Consent.verification` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.verification.verified"/>
+      <display value="verified"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Consent.verification.verified` is mapped to FHIR R4 element `Consent.verification.verified` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.verification.verifiedWith"/>
+      <display value="verifiedWith"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Consent.verification.verifiedWith` is mapped to FHIR R4 element `Consent.verification.verifiedWith` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.verification.verificationDate"/>
+      <display value="verificationDate"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Consent.verification.verificationDate` is mapped to FHIR R4 element `Consent.verification.verificationDate` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.provision"/>
+      <display value="provision"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `Consent.provision` is mapped to FHIR R4 element `Consent.provision` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Consent.provision.provision` because `Consent.provision.provision` is defined as a content reference to `Consent.provision`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.provision.period"/>
+      <display value="period"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Consent.provision.period` is mapped to FHIR R4 element `Consent.provision.period` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Consent.provision.provision.period` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.provision.actor"/>
+      <display value="actor"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `Consent.provision.actor` is mapped to FHIR R4 element `Consent.provision.actor` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Consent.provision.provision.actor` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.provision.actor.role"/>
+      <display value="role"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Consent.provision.actor.role` is mapped to FHIR R4 element `Consent.provision.actor.role` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Consent.provision.provision.actor.role` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.provision.actor.reference"/>
+      <display value="reference"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Consent.provision.actor.reference` is mapped to FHIR R4 element `Consent.provision.actor.reference` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Consent.provision.provision.actor.reference` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.provision.action"/>
+      <display value="action"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Consent.provision.action` is mapped to FHIR R4 element `Consent.provision.action` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Consent.provision.provision.action` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.provision.securityLabel"/>
+      <display value="securityLabel"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Consent.provision.securityLabel` is mapped to FHIR R4 element `Consent.provision.securityLabel` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Consent.provision.provision.securityLabel` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.provision.purpose"/>
+      <display value="purpose"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Consent.provision.purpose` is mapped to FHIR R4 element `Consent.provision.purpose` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Consent.provision.provision.purpose` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.provision.documentType"/>
+      <display value="documentType"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Consent.provision.documentType` is mapped to FHIR R4 element `Consent.provision.class` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Consent.provision.provision.class` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.provision.resourceType"/>
+      <display value="resourceType"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Consent.provision.resourceType` is mapped to FHIR R4 element `Consent.provision.class` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Consent.provision.provision.class` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.provision.code"/>
+      <display value="code"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Consent.provision.code` is mapped to FHIR R4 element `Consent.provision.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Consent.provision.provision.code` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.provision.dataPeriod"/>
+      <display value="dataPeriod"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Consent.provision.dataPeriod` is mapped to FHIR R4 element `Consent.provision.dataPeriod` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Consent.provision.provision.dataPeriod` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.provision.data"/>
+      <display value="data"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `Consent.provision.data` is mapped to FHIR R4 element `Consent.provision.data` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Consent.provision.provision.data` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.provision.data.meaning"/>
+      <display value="meaning"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Consent.provision.data.meaning` is mapped to FHIR R4 element `Consent.provision.data.meaning` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Consent.provision.provision.data.meaning` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.provision.data.reference"/>
+      <display value="reference"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Consent.provision.data.reference` is mapped to FHIR R4 element `Consent.provision.data.reference` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Consent.provision.provision.data.reference` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.provision.provision"/>
+      <display value="provision"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Consent.provision.provision` is mapped to FHIR R4 element `Consent.provision.provision` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note available implied context: `Consent.provision.provision.provision` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Consent"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="Consent.status"/>
+      <display value="status"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Note that the target element context `Consent.status` is a modifier element, so this extension does not need to be defined as a modifier.&#xA;Element `Consent.status` is mapped to FHIR R4 element `Consent.status` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.period"/>
+      <display value="period"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.period"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Consent.period` has a context of Consent based on following the parent source element upwards and mapping to `Consent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.verification.verificationType"/>
+      <display value="verificationType"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.verification.verificationType"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Consent.verification.verificationType` has a context of Consent.verification based on following the parent source element upwards and mapping to `Consent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.decision"/>
+      <display value="decision"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.decision"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Consent.decision` has a context of Consent based on following the parent source element upwards and mapping to `Consent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.provision.expression"/>
+      <display value="expression"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.provision.expression"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Consent.provision.expression` has a context of Consent.provision based on following the parent source element upwards and mapping to `Consent`.&#xA;Note available implied context: `Consent.provision.provision` because `Consent.provision.provision` is defined via a content reference to `Consent.provision`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Consent"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <targetVersion value="5.2.0"/>
+    <element>
+      <code value="Consent.subject"/>
+      <display value="subject"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="wider"/>
+        <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Consent.subject` is mapped to FHIR R4 element `Consent.patient` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.grantor"/>
+      <display value="grantor"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="wider"/>
+        <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.grantor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Consent.grantor` has a context of Consent based on following the parent source element upwards and mapping to `Consent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.grantee"/>
+      <display value="grantee"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="wider"/>
+        <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.grantee` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Consent.grantee` is mapped to FHIR R4 element `Consent.performer` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.manager"/>
+      <display value="manager"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="wider"/>
+        <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.manager` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Consent.manager` has a context of Consent based on following the parent source element upwards and mapping to `Consent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.controller"/>
+      <display value="controller"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="wider"/>
+        <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.controller` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Consent.controller` has a context of Consent based on following the parent source element upwards and mapping to `Consent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.sourceReference"/>
+      <display value="sourceReference"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="wider"/>
+        <comment value="Note that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.sourceReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Consent.sourceReference` is mapped to FHIR R4 element `Consent.source[x]` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&#xA;Note that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.policyText"/>
+      <display value="policyText"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="wider"/>
+        <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.policyText` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Consent.policyText` has a context of Consent based on following the parent source element upwards and mapping to `Consent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Consent.verification.verifiedBy"/>
+      <display value="verifiedBy"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="wider"/>
+        <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.verification.verifiedBy` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Consent.verification.verifiedBy` has a context of Consent.verification based on following the parent source element upwards and mapping to `Consent`."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

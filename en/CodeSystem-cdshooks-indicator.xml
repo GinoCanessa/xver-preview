@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cdshooks-indicator"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://cds-hooks.hl7.org/CodeSystem/indicator</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">info
+                  <a name="cdshooks-indicator-info"> </a>
+                </td>
+                <td>Information</td>
+                <td>The response is informational and indicates that it contains additional information or relevant guidance that may be of interest</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">warning
+                  <a name="cdshooks-indicator-warning"> </a>
+                </td>
+                <td>Warning</td>
+                <td>The response is a warning and indicates that it contains urgent or highly relevant information that should be considered</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">critical
+                  <a name="cdshooks-indicator-critical"> </a>
+                </td>
+                <td>Critical</td>
+                <td>The response is critical and indicates that it contains information or activities that have high urgency and importance that should be immediately addressed</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="vocab"/>
+  </extension>
+  <url value="http://cds-hooks.hl7.org/CodeSystem/indicator"/>
+  <version value="5.0.0"/>
+  <name value="Indicator"/>
+  <title value="CDS Hooks Indicator"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T13:39:05-06:00"/>
+  <publisher value="HL7 International / Terminology Infrastructure"/>
+  <contact>
+    <name value="HL7 International / Terminology Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/Vocab"/>
+    </telecom>
+  </contact>
+  <description value="This codesystem captures the indicator codes defined by the CDS Hooks specification. The indicator is included as an element of the cards in a CDS Hooks response and conveys the urgency and/or importance of the information in each card. See [Card Attributes](https://cds-hooks.hl7.org/1.0/#card-attributes) in the CDS Hooks specification for more information."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/cdshooks-indicator|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="info"/>
+    <display value="Information"/>
+    <definition value="The response is informational and indicates that it contains additional information or relevant guidance that may be of interest"/>
+  </concept>
+  <concept>
+    <code value="warning"/>
+    <display value="Warning"/>
+    <definition value="The response is a warning and indicates that it contains urgent or highly relevant information that should be considered"/>
+  </concept>
+  <concept>
+    <code value="critical"/>
+    <display value="Critical"/>
+    <definition value="The response is critical and indicates that it contains information or activities that have high urgency and importance that should be immediately addressed"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,243 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/program> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "program"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://terminology.hl7.org/CodeSystem/program</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"program-1\"> </a></td><td>Acquired Brain Injury (ABI) Program </td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"program-2\"> </a></td><td>ABI Slow To Recover (ABI STR) Program</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"program-3\"> </a></td><td>Access Programs</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"program-4\"> </a></td><td>Adult and Further Education (ACFE) Program</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"program-5\"> </a></td><td>Adult Day Activity and Support Services (ADASS) Program</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"program-6\"> </a></td><td>Adult Day Care Program</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"program-7\"> </a></td><td>ATSS (Adult Training Support Service)</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"program-8\"> </a></td><td>Community Aged Care Packages (CACP)</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"program-9\"> </a></td><td>Care Coordination &amp; Supplementary Services (CCSS)</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"program-10\"> </a></td><td>Cognitive Dementia Memory Service (CDAMS)</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"program-11\"> </a></td><td>ChildFIRST</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"program-12\"> </a></td><td>Children's Contact Services</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"program-13\"> </a></td><td>Community Visitors Scheme</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"program-14\"> </a></td><td>CPP (Community Partners Program)</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"program-15\"> </a></td><td>Closing the Gap (CTG)</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"program-16\"> </a></td><td>Coordinated Veterans' Care (CVC) Program</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"program-17\"> </a></td><td>Day Program</td></tr><tr><td style=\"white-space:nowrap\">18<a name=\"program-18\"> </a></td><td>Drop In Program</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"program-19\"> </a></td><td>Early Years Program</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"program-20\"> </a></td><td>Employee Assistance Program</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"program-21\"> </a></td><td>Home And Community Care (HACC)</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"program-22\"> </a></td><td>Hospital Admission Risk Program (HARP)</td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"program-23\"> </a></td><td>Hospital in the Home (HITH) Program</td></tr><tr><td style=\"white-space:nowrap\">24<a name=\"program-24\"> </a></td><td>ICTP (Intensive Community Treatment Program)</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"program-25\"> </a></td><td>IFSS (Intensive Family Support Program)</td></tr><tr><td style=\"white-space:nowrap\">26<a name=\"program-26\"> </a></td><td>JPET (Job Placement, Education and Training)</td></tr><tr><td style=\"white-space:nowrap\">27<a name=\"program-27\"> </a></td><td>Koori Juvenile Justice Program</td></tr><tr><td style=\"white-space:nowrap\">28<a name=\"program-28\"> </a></td><td>Language Literacy and Numeracy Program</td></tr><tr><td style=\"white-space:nowrap\">29<a name=\"program-29\"> </a></td><td>Life Skills Program</td></tr><tr><td style=\"white-space:nowrap\">30<a name=\"program-30\"> </a></td><td>LMP (Lifestyle Modification Program)</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"program-31\"> </a></td><td>MedsCheck Program</td></tr><tr><td style=\"white-space:nowrap\">32<a name=\"program-32\"> </a></td><td>Methadone/Buprenorphine Program</td></tr><tr><td style=\"white-space:nowrap\">33<a name=\"program-33\"> </a></td><td>National Disabilities Insurance Scheme (NDIS)</td></tr><tr><td style=\"white-space:nowrap\">34<a name=\"program-34\"> </a></td><td>National Diabetes Services Scheme (NDSS)</td></tr><tr><td style=\"white-space:nowrap\">35<a name=\"program-35\"> </a></td><td>Needle/Syringe Program</td></tr><tr><td style=\"white-space:nowrap\">36<a name=\"program-36\"> </a></td><td>nPEP Program</td></tr><tr><td style=\"white-space:nowrap\">37<a name=\"program-37\"> </a></td><td>Personal Support Program</td></tr><tr><td style=\"white-space:nowrap\">38<a name=\"program-38\"> </a></td><td>Partners in Recovery (PIR) Program</td></tr><tr><td style=\"white-space:nowrap\">39<a name=\"program-39\"> </a></td><td>Pre-employment Program</td></tr><tr><td style=\"white-space:nowrap\">40<a name=\"program-40\"> </a></td><td>Reconnect Program</td></tr><tr><td style=\"white-space:nowrap\">41<a name=\"program-41\"> </a></td><td>Sexual Abuse Counselling and Prevention Program (SACPP)</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"program-42\"> </a></td><td>Social Support Programs</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"program-43\"> </a></td><td>Supported Residential Service (SRS)</td></tr><tr><td style=\"white-space:nowrap\">44<a name=\"program-44\"> </a></td><td>Tasmanian Aboriginal Centre (TAC)</td></tr><tr><td style=\"white-space:nowrap\">45<a name=\"program-45\"> </a></td><td>Victim's Assistance Program</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "pa"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/program"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/program>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "Program"] ; # 
+  fhir:title [ fhir:v "Program"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2023-02-25T12:07:30-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Patient Administration"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Patient Administration" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/pafm" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This value set defines an example set of codes that could be can be used to classify groupings of service-types/specialties."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/program|1.0.1"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/program?version=1.0.1>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "Acquired Brain Injury (ABI) Program" ]
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "ABI Slow To Recover (ABI STR) Program" ]
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "Access Programs" ]
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "Adult and Further Education (ACFE) Program" ]
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "Adult Day Activity and Support Services (ADASS) Program" ]
+  ] [
+     fhir:code [ fhir:v "6" ] ;
+     fhir:display [ fhir:v "Adult Day Care Program" ]
+  ] [
+     fhir:code [ fhir:v "7" ] ;
+     fhir:display [ fhir:v "ATSS (Adult Training Support Service)" ]
+  ] [
+     fhir:code [ fhir:v "8" ] ;
+     fhir:display [ fhir:v "Community Aged Care Packages (CACP)" ]
+  ] [
+     fhir:code [ fhir:v "9" ] ;
+     fhir:display [ fhir:v "Care Coordination & Supplementary Services (CCSS)" ]
+  ] [
+     fhir:code [ fhir:v "10" ] ;
+     fhir:display [ fhir:v "Cognitive Dementia Memory Service (CDAMS)" ]
+  ] [
+     fhir:code [ fhir:v "11" ] ;
+     fhir:display [ fhir:v "ChildFIRST" ]
+  ] [
+     fhir:code [ fhir:v "12" ] ;
+     fhir:display [ fhir:v "Children's Contact Services" ]
+  ] [
+     fhir:code [ fhir:v "13" ] ;
+     fhir:display [ fhir:v "Community Visitors Scheme" ]
+  ] [
+     fhir:code [ fhir:v "14" ] ;
+     fhir:display [ fhir:v "CPP (Community Partners Program)" ]
+  ] [
+     fhir:code [ fhir:v "15" ] ;
+     fhir:display [ fhir:v "Closing the Gap (CTG)" ]
+  ] [
+     fhir:code [ fhir:v "16" ] ;
+     fhir:display [ fhir:v "Coordinated Veterans' Care (CVC) Program" ]
+  ] [
+     fhir:code [ fhir:v "17" ] ;
+     fhir:display [ fhir:v "Day Program" ]
+  ] [
+     fhir:code [ fhir:v "18" ] ;
+     fhir:display [ fhir:v "Drop In Program" ]
+  ] [
+     fhir:code [ fhir:v "19" ] ;
+     fhir:display [ fhir:v "Early Years Program" ]
+  ] [
+     fhir:code [ fhir:v "20" ] ;
+     fhir:display [ fhir:v "Employee Assistance Program" ]
+  ] [
+     fhir:code [ fhir:v "21" ] ;
+     fhir:display [ fhir:v "Home And Community Care (HACC)" ]
+  ] [
+     fhir:code [ fhir:v "22" ] ;
+     fhir:display [ fhir:v "Hospital Admission Risk Program (HARP)" ]
+  ] [
+     fhir:code [ fhir:v "23" ] ;
+     fhir:display [ fhir:v "Hospital in the Home (HITH) Program" ]
+  ] [
+     fhir:code [ fhir:v "24" ] ;
+     fhir:display [ fhir:v "ICTP (Intensive Community Treatment Program)" ]
+  ] [
+     fhir:code [ fhir:v "25" ] ;
+     fhir:display [ fhir:v "IFSS (Intensive Family Support Program)" ]
+  ] [
+     fhir:code [ fhir:v "26" ] ;
+     fhir:display [ fhir:v "JPET (Job Placement, Education and Training)" ]
+  ] [
+     fhir:code [ fhir:v "27" ] ;
+     fhir:display [ fhir:v "Koori Juvenile Justice Program" ]
+  ] [
+     fhir:code [ fhir:v "28" ] ;
+     fhir:display [ fhir:v "Language Literacy and Numeracy Program" ]
+  ] [
+     fhir:code [ fhir:v "29" ] ;
+     fhir:display [ fhir:v "Life Skills Program" ]
+  ] [
+     fhir:code [ fhir:v "30" ] ;
+     fhir:display [ fhir:v "LMP (Lifestyle Modification Program)" ]
+  ] [
+     fhir:code [ fhir:v "31" ] ;
+     fhir:display [ fhir:v "MedsCheck Program" ]
+  ] [
+     fhir:code [ fhir:v "32" ] ;
+     fhir:display [ fhir:v "Methadone/Buprenorphine Program" ]
+  ] [
+     fhir:code [ fhir:v "33" ] ;
+     fhir:display [ fhir:v "National Disabilities Insurance Scheme (NDIS)" ]
+  ] [
+     fhir:code [ fhir:v "34" ] ;
+     fhir:display [ fhir:v "National Diabetes Services Scheme (NDSS)" ]
+  ] [
+     fhir:code [ fhir:v "35" ] ;
+     fhir:display [ fhir:v "Needle/Syringe Program" ]
+  ] [
+     fhir:code [ fhir:v "36" ] ;
+     fhir:display [ fhir:v "nPEP Program" ]
+  ] [
+     fhir:code [ fhir:v "37" ] ;
+     fhir:display [ fhir:v "Personal Support Program" ]
+  ] [
+     fhir:code [ fhir:v "38" ] ;
+     fhir:display [ fhir:v "Partners in Recovery (PIR) Program" ]
+  ] [
+     fhir:code [ fhir:v "39" ] ;
+     fhir:display [ fhir:v "Pre-employment Program" ]
+  ] [
+     fhir:code [ fhir:v "40" ] ;
+     fhir:display [ fhir:v "Reconnect Program" ]
+  ] [
+     fhir:code [ fhir:v "41" ] ;
+     fhir:display [ fhir:v "Sexual Abuse Counselling and Prevention Program (SACPP)" ]
+  ] [
+     fhir:code [ fhir:v "42" ] ;
+     fhir:display [ fhir:v "Social Support Programs" ]
+  ] [
+     fhir:code [ fhir:v "43" ] ;
+     fhir:display [ fhir:v "Supported Residential Service (SRS)" ]
+  ] [
+     fhir:code [ fhir:v "44" ] ;
+     fhir:display [ fhir:v "Tasmanian Aboriginal Centre (TAC)" ]
+  ] [
+     fhir:code [ fhir:v "45" ] ;
+     fhir:display [ fhir:v "Victim's Assistance Program" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

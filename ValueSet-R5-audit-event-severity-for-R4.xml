@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-audit-event-severity-for-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-audit-event-severity-for-R4</b></p><a name="R5-audit-event-severity-for-R4"> </a><a name="hcR5-audit-event-severity-for-R4"> </a><p>This value set expansion contains 8 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="R5-audit-event-severity-for-R4-http://hl7.org/fhir/audit-event-severity-alert"> </a><code>http://hl7.org/fhir/audit-event-severity</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-audit-event-severity.html#audit-event-severity-alert">alert</a></td><td>Alert</td><td>Notification should be sent to trigger action be taken. e.g., Loss of the primary network connection needing attention.</td></tr><tr><td><a name="R5-audit-event-severity-for-R4-http://hl7.org/fhir/audit-event-severity-critical"> </a><code>http://hl7.org/fhir/audit-event-severity</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-audit-event-severity.html#audit-event-severity-critical">critical</a></td><td>Critical</td><td>Critical conditions. e.g., A failure in the system's primary application that will reset automatically.</td></tr><tr><td><a name="R5-audit-event-severity-for-R4-http://hl7.org/fhir/audit-event-severity-debug"> </a><code>http://hl7.org/fhir/audit-event-severity</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-audit-event-severity.html#audit-event-severity-debug">debug</a></td><td>Debug</td><td>Debug-level messages. Information useful to developers for debugging the application.</td></tr><tr><td><a name="R5-audit-event-severity-for-R4-http://hl7.org/fhir/audit-event-severity-emergency"> </a><code>http://hl7.org/fhir/audit-event-severity</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-audit-event-severity.html#audit-event-severity-emergency">emergency</a></td><td>Emergency</td><td>System is unusable. e.g., This level should only be reported by infrastructure and should not be used by applications.</td></tr><tr><td><a name="R5-audit-event-severity-for-R4-http://hl7.org/fhir/audit-event-severity-error"> </a><code>http://hl7.org/fhir/audit-event-severity</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-audit-event-severity.html#audit-event-severity-error">error</a></td><td>Error</td><td>Error conditions. e.g., An application has exceeded its file storage limit and attempts to write are failing.</td></tr><tr><td><a name="R5-audit-event-severity-for-R4-http://hl7.org/fhir/audit-event-severity-informational"> </a><code>http://hl7.org/fhir/audit-event-severity</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-audit-event-severity.html#audit-event-severity-informational">informational</a></td><td>Informational</td><td>Normal operational messages that require no action. e.g., An application has started, paused, or ended successfully.</td></tr><tr><td><a name="R5-audit-event-severity-for-R4-http://hl7.org/fhir/audit-event-severity-notice"> </a><code>http://hl7.org/fhir/audit-event-severity</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-audit-event-severity.html#audit-event-severity-notice">notice</a></td><td>Notice</td><td>Notice messages. Normal but significant condition. Events that are unusual, but not error conditions.</td></tr><tr><td><a name="R5-audit-event-severity-for-R4-http://hl7.org/fhir/audit-event-severity-warning"> </a><code>http://hl7.org/fhir/audit-event-severity</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-audit-event-severity.html#audit-event-severity-warning">warning</a></td><td>Warning</td><td>Warning conditions. May indicate that an error will occur if action is not taken. e.g., A non-root file system has only 2GB remaining.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="4"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="sec"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-audit-event-severity-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5AuditEventSeverityForR4"/>
+  <title value="Cross-version ValueSet R5.AuditEventSeverity for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="Security"/>
+  <contact>
+    <name value="Security"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/secure"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/audit-event-severity|5.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/audit-event-severity|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `AuditEvent.severity`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;&#xA;FHIR ValueSet `http://hl7.org/fhir/ValueSet/audit-event-severity|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/audit-event-severity"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="alert"/>
+        <display value="Alert"/>
+      </concept>
+      <concept>
+        <code value="critical"/>
+        <display value="Critical"/>
+      </concept>
+      <concept>
+        <code value="debug"/>
+        <display value="Debug"/>
+      </concept>
+      <concept>
+        <code value="emergency"/>
+        <display value="Emergency"/>
+      </concept>
+      <concept>
+        <code value="error"/>
+        <display value="Error"/>
+      </concept>
+      <concept>
+        <code value="informational"/>
+        <display value="Informational"/>
+      </concept>
+      <concept>
+        <code value="notice"/>
+        <display value="Notice"/>
+      </concept>
+      <concept>
+        <code value="warning"/>
+        <display value="Warning"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/audit-event-severity"/>
+      <version value="5.0.0"/>
+      <code value="alert"/>
+      <display value="Alert"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/audit-event-severity"/>
+      <version value="5.0.0"/>
+      <code value="critical"/>
+      <display value="Critical"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/audit-event-severity"/>
+      <version value="5.0.0"/>
+      <code value="debug"/>
+      <display value="Debug"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/audit-event-severity"/>
+      <version value="5.0.0"/>
+      <code value="emergency"/>
+      <display value="Emergency"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/audit-event-severity"/>
+      <version value="5.0.0"/>
+      <code value="error"/>
+      <display value="Error"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/audit-event-severity"/>
+      <version value="5.0.0"/>
+      <code value="informational"/>
+      <display value="Informational"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/audit-event-severity"/>
+      <version value="5.0.0"/>
+      <code value="notice"/>
+      <display value="Notice"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/audit-event-severity"/>
+      <version value="5.0.0"/>
+      <code value="warning"/>
+      <display value="Warning"/>
+    </contains>
+  </expansion>
+</ValueSet>

@@ -1,0 +1,1560 @@
+# R5ClaimResponseElementMapToR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## ConceptMap: R5ClaimResponseElementMapToR4 
+
+ 
+This ConceptMap represents cross-version mappings for elements from a FHIR R5 ClaimResponse to FHIR R4. 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ConceptMap",
+  "id" : "R5-ClaimResponse-element-map-to-R4",
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "fhir"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger" : 0,
+      "_valueInteger" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode" : "trial-use",
+      "_valueCode" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    }
+  ],
+  "url" : "http://hl7.org/fhir/uv/xver/ConceptMap/R5-ClaimResponse-element-map-to-R4",
+  "version" : "0.0.1-snapshot-3",
+  "name" : "R5ClaimResponseElementMapToR4",
+  "title" : "Cross-version mapping for FHIR R5 ClaimResponse to FHIR R4 ClaimResponse",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-02-21T13:36:55.4900793-06:00",
+  "contact" : [
+    {
+      "name" : "FHIR Infrastructure",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/fiwg"
+        }
+      ]
+    }
+  ],
+  "description" : "This ConceptMap represents cross-version mappings for elements from a FHIR R5 ClaimResponse to FHIR R4.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }
+      ]
+    }
+  ],
+  "sourceCanonical" : "http://hl7.org/fhir/5.0",
+  "targetUri" : "http://hl7.org/fhir/4.0",
+  "group" : [
+    {
+      "source" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse",
+      "sourceVersion" : "5.0.0",
+      "target" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse",
+      "targetVersion" : "4.0.1",
+      "element" : [
+        {
+          "code" : "ClaimResponse.meta",
+          "display" : "meta",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.meta` is mapped to FHIR R4 element `ClaimResponse.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.implicitRules",
+          "display" : "implicitRules",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.implicitRules` is mapped to FHIR R4 element `ClaimResponse.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.language",
+          "display" : "language",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.language` is mapped to FHIR R4 element `ClaimResponse.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.text",
+          "display" : "text",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.text` is mapped to FHIR R4 element `ClaimResponse.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.contained",
+          "display" : "contained",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.contained` is mapped to FHIR R4 element `ClaimResponse.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.identifier",
+          "display" : "identifier",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.identifier` is mapped to FHIR R4 element `ClaimResponse.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.status",
+          "display" : "status",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.status` is mapped to FHIR R4 element `ClaimResponse.status` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.type",
+          "display" : "type",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.type` is mapped to FHIR R4 element `ClaimResponse.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.subType",
+          "display" : "subType",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.subType` is mapped to FHIR R4 element `ClaimResponse.subType` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.use",
+          "display" : "use",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.use` is mapped to FHIR R4 element `ClaimResponse.use` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.patient",
+          "display" : "patient",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.patient` is mapped to FHIR R4 element `ClaimResponse.patient` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.created",
+          "display" : "created",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.created` is mapped to FHIR R4 element `ClaimResponse.created` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.insurer",
+          "display" : "insurer",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.insurer` is mapped to FHIR R4 element `ClaimResponse.insurer` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.requestor",
+          "display" : "requestor",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.requestor` is mapped to FHIR R4 element `ClaimResponse.requestor` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.request",
+          "display" : "request",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.request` is mapped to FHIR R4 element `ClaimResponse.request` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.outcome",
+          "display" : "outcome",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.outcome` is mapped to FHIR R4 element `ClaimResponse.outcome` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.disposition",
+          "display" : "disposition",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.disposition` is mapped to FHIR R4 element `ClaimResponse.disposition` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.preAuthRef",
+          "display" : "preAuthRef",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.preAuthRef` is mapped to FHIR R4 element `ClaimResponse.preAuthRef` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.preAuthPeriod",
+          "display" : "preAuthPeriod",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.preAuthPeriod` is mapped to FHIR R4 element `ClaimResponse.preAuthPeriod` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.payeeType",
+          "display" : "payeeType",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.payeeType` is mapped to FHIR R4 element `ClaimResponse.payeeType` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item",
+          "display" : "item",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.item` is mapped to FHIR R4 element `ClaimResponse.item` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item.itemSequence",
+          "display" : "itemSequence",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.item.itemSequence` is mapped to FHIR R4 element `ClaimResponse.item.itemSequence` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item.noteNumber",
+          "display" : "noteNumber",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.item.noteNumber` is mapped to FHIR R4 element `ClaimResponse.item.noteNumber` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item.adjudication",
+          "display" : "adjudication",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.item.adjudication` is mapped to FHIR R4 element `ClaimResponse.item.adjudication` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `ClaimResponse.addItem.adjudication` because `ClaimResponse.addItem.adjudication` is defined as a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.addItem.detail.adjudication` because `ClaimResponse.addItem.detail.adjudication` is defined as a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.addItem.detail.subDetail.adjudication` because `ClaimResponse.addItem.detail.subDetail.adjudication` is defined as a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.adjudication` because `ClaimResponse.adjudication` is defined as a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.item.detail.adjudication` because `ClaimResponse.item.detail.adjudication` is defined as a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.item.detail.subDetail.adjudication` because `ClaimResponse.item.detail.subDetail.adjudication` is defined as a content reference to `ClaimResponse.item.adjudication`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item.adjudication.category",
+          "display" : "category",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.item.adjudication.category` is mapped to FHIR R4 element `ClaimResponse.item.adjudication.category` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `ClaimResponse.addItem.adjudication.category` because `ClaimResponse.addItem.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.addItem.detail.adjudication.category` because `ClaimResponse.addItem.detail.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.addItem.detail.subDetail.adjudication.category` because `ClaimResponse.addItem.detail.subDetail.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.adjudication.category` because `ClaimResponse.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.item.detail.adjudication.category` because `ClaimResponse.item.detail.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.item.detail.subDetail.adjudication.category` because `ClaimResponse.item.detail.subDetail.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item.adjudication.reason",
+          "display" : "reason",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.item.adjudication.reason` is mapped to FHIR R4 element `ClaimResponse.item.adjudication.reason` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `ClaimResponse.addItem.adjudication.reason` because `ClaimResponse.addItem.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.addItem.detail.adjudication.reason` because `ClaimResponse.addItem.detail.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.addItem.detail.subDetail.adjudication.reason` because `ClaimResponse.addItem.detail.subDetail.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.adjudication.reason` because `ClaimResponse.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.item.detail.adjudication.reason` because `ClaimResponse.item.detail.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.item.detail.subDetail.adjudication.reason` because `ClaimResponse.item.detail.subDetail.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item.adjudication.amount",
+          "display" : "amount",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.item.adjudication.amount` is mapped to FHIR R4 element `ClaimResponse.item.adjudication.amount` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `ClaimResponse.addItem.adjudication.amount` because `ClaimResponse.addItem.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.addItem.detail.adjudication.amount` because `ClaimResponse.addItem.detail.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.addItem.detail.subDetail.adjudication.amount` because `ClaimResponse.addItem.detail.subDetail.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.adjudication.amount` because `ClaimResponse.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.item.detail.adjudication.amount` because `ClaimResponse.item.detail.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.item.detail.subDetail.adjudication.amount` because `ClaimResponse.item.detail.subDetail.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item.adjudication.quantity",
+          "display" : "quantity",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.item.adjudication.quantity` is mapped to FHIR R4 element `ClaimResponse.item.adjudication.value` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `ClaimResponse.addItem.adjudication.value` because `ClaimResponse.addItem.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.addItem.detail.adjudication.value` because `ClaimResponse.addItem.detail.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.addItem.detail.subDetail.adjudication.value` because `ClaimResponse.addItem.detail.subDetail.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.adjudication.value` because `ClaimResponse.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.item.detail.adjudication.value` because `ClaimResponse.item.detail.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.item.detail.subDetail.adjudication.value` because `ClaimResponse.item.detail.subDetail.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item.detail",
+          "display" : "detail",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.item.detail` is mapped to FHIR R4 element `ClaimResponse.item.detail` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item.detail.detailSequence",
+          "display" : "detailSequence",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.item.detail.detailSequence` is mapped to FHIR R4 element `ClaimResponse.item.detail.detailSequence` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item.detail.noteNumber",
+          "display" : "noteNumber",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.item.detail.noteNumber` is mapped to FHIR R4 element `ClaimResponse.item.detail.noteNumber` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item.detail.adjudication",
+          "display" : "adjudication",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.item.detail.adjudication` is mapped to FHIR R4 element `ClaimResponse.item.detail.adjudication` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item.detail.subDetail",
+          "display" : "subDetail",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.item.detail.subDetail` is mapped to FHIR R4 element `ClaimResponse.item.detail.subDetail` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item.detail.subDetail.subDetailSequence",
+          "display" : "subDetailSequence",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.item.detail.subDetail.subDetailSequence` is mapped to FHIR R4 element `ClaimResponse.item.detail.subDetail.subDetailSequence` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item.detail.subDetail.noteNumber",
+          "display" : "noteNumber",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.item.detail.subDetail.noteNumber` is mapped to FHIR R4 element `ClaimResponse.item.detail.subDetail.noteNumber` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item.detail.subDetail.adjudication",
+          "display" : "adjudication",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.item.detail.subDetail.adjudication` is mapped to FHIR R4 element `ClaimResponse.item.detail.subDetail.adjudication` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem",
+          "display" : "addItem",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.addItem` is mapped to FHIR R4 element `ClaimResponse.addItem` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.itemSequence",
+          "display" : "itemSequence",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.itemSequence` is mapped to FHIR R4 element `ClaimResponse.addItem.itemSequence` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detailSequence",
+          "display" : "detailSequence",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.detailSequence` is mapped to FHIR R4 element `ClaimResponse.addItem.detailSequence` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.subdetailSequence",
+          "display" : "subdetailSequence",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.subdetailSequence` is mapped to FHIR R4 element `ClaimResponse.addItem.subdetailSequence` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.provider",
+          "display" : "provider",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.provider` is mapped to FHIR R4 element `ClaimResponse.addItem.provider` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.productOrService",
+          "display" : "productOrService",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.productOrService` is mapped to FHIR R4 element `ClaimResponse.addItem.productOrService` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.modifier",
+          "display" : "modifier",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.modifier` is mapped to FHIR R4 element `ClaimResponse.addItem.modifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.programCode",
+          "display" : "programCode",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.programCode` is mapped to FHIR R4 element `ClaimResponse.addItem.programCode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.serviced[x]",
+          "display" : "serviced[x]",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Note that the target element context `ClaimResponse.addItem.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClaimResponse.addItem`.\nElement `ClaimResponse.addItem.serviced[x]` is mapped to FHIR R4 element `ClaimResponse.addItem.serviced[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `ClaimResponse.addItem.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClaimResponse.addItem`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.location[x]",
+          "display" : "location[x]",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Note that the target element context `ClaimResponse.addItem.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClaimResponse.addItem`.\nElement `ClaimResponse.addItem.location[x]` is mapped to FHIR R4 element `ClaimResponse.addItem.location[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote that the target element context `ClaimResponse.addItem.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClaimResponse.addItem`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.quantity",
+          "display" : "quantity",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.quantity` is mapped to FHIR R4 element `ClaimResponse.addItem.quantity` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.unitPrice",
+          "display" : "unitPrice",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.unitPrice` is mapped to FHIR R4 element `ClaimResponse.addItem.unitPrice` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.factor",
+          "display" : "factor",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.factor` is mapped to FHIR R4 element `ClaimResponse.addItem.factor` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.net",
+          "display" : "net",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.net` is mapped to FHIR R4 element `ClaimResponse.addItem.net` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.bodySite",
+          "display" : "bodySite",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.addItem.bodySite` is mapped to FHIR R4 element `ClaimResponse.addItem.bodySite` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.noteNumber",
+          "display" : "noteNumber",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.noteNumber` is mapped to FHIR R4 element `ClaimResponse.addItem.noteNumber` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.adjudication",
+          "display" : "adjudication",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.adjudication` is mapped to FHIR R4 element `ClaimResponse.addItem.adjudication` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail",
+          "display" : "detail",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.addItem.detail` is mapped to FHIR R4 element `ClaimResponse.addItem.detail` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.productOrService",
+          "display" : "productOrService",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.detail.productOrService` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.productOrService` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.modifier",
+          "display" : "modifier",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.detail.modifier` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.modifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.quantity",
+          "display" : "quantity",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.detail.quantity` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.quantity` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.unitPrice",
+          "display" : "unitPrice",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.detail.unitPrice` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.unitPrice` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.factor",
+          "display" : "factor",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.detail.factor` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.factor` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.net",
+          "display" : "net",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.detail.net` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.net` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.noteNumber",
+          "display" : "noteNumber",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.detail.noteNumber` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.noteNumber` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.adjudication",
+          "display" : "adjudication",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.detail.adjudication` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.adjudication` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.subDetail",
+          "display" : "subDetail",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.subDetail` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.subDetail.productOrService",
+          "display" : "productOrService",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.productOrService` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.subDetail.productOrService` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.subDetail.modifier",
+          "display" : "modifier",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.modifier` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.subDetail.modifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.subDetail.quantity",
+          "display" : "quantity",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.quantity` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.subDetail.quantity` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.subDetail.unitPrice",
+          "display" : "unitPrice",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.unitPrice` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.subDetail.unitPrice` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.subDetail.factor",
+          "display" : "factor",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.factor` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.subDetail.factor` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.subDetail.net",
+          "display" : "net",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.net` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.subDetail.net` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.subDetail.noteNumber",
+          "display" : "noteNumber",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.noteNumber` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.subDetail.noteNumber` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.subDetail.adjudication",
+          "display" : "adjudication",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.adjudication` is mapped to FHIR R4 element `ClaimResponse.addItem.detail.subDetail.adjudication` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.adjudication",
+          "display" : "adjudication",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.adjudication` is mapped to FHIR R4 element `ClaimResponse.adjudication` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.total",
+          "display" : "total",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.total` is mapped to FHIR R4 element `ClaimResponse.total` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.total.category",
+          "display" : "category",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.total.category` is mapped to FHIR R4 element `ClaimResponse.total.category` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.total.amount",
+          "display" : "amount",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.total.amount` is mapped to FHIR R4 element `ClaimResponse.total.amount` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.payment",
+          "display" : "payment",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.payment` is mapped to FHIR R4 element `ClaimResponse.payment` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.payment.type",
+          "display" : "type",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.payment.type` is mapped to FHIR R4 element `ClaimResponse.payment.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.payment.adjustment",
+          "display" : "adjustment",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.payment.adjustment` is mapped to FHIR R4 element `ClaimResponse.payment.adjustment` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.payment.adjustmentReason",
+          "display" : "adjustmentReason",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.payment.adjustmentReason` is mapped to FHIR R4 element `ClaimResponse.payment.adjustmentReason` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.payment.date",
+          "display" : "date",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.payment.date` is mapped to FHIR R4 element `ClaimResponse.payment.date` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.payment.amount",
+          "display" : "amount",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.payment.amount` is mapped to FHIR R4 element `ClaimResponse.payment.amount` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.payment.identifier",
+          "display" : "identifier",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.payment.identifier` is mapped to FHIR R4 element `ClaimResponse.payment.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.fundsReserve",
+          "display" : "fundsReserve",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.fundsReserve` is mapped to FHIR R4 element `ClaimResponse.fundsReserve` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.formCode",
+          "display" : "formCode",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.formCode` is mapped to FHIR R4 element `ClaimResponse.formCode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.form",
+          "display" : "form",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.form` is mapped to FHIR R4 element `ClaimResponse.form` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.processNote",
+          "display" : "processNote",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.processNote` is mapped to FHIR R4 element `ClaimResponse.processNote` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.processNote.number",
+          "display" : "number",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.processNote.number` is mapped to FHIR R4 element `ClaimResponse.processNote.number` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.processNote.type",
+          "display" : "type",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.processNote.type` is mapped to FHIR R4 element `ClaimResponse.processNote.type` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.processNote.text",
+          "display" : "text",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.processNote.text` is mapped to FHIR R4 element `ClaimResponse.processNote.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.processNote.language",
+          "display" : "language",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.processNote.language` is mapped to FHIR R4 element `ClaimResponse.processNote.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.communicationRequest",
+          "display" : "communicationRequest",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.communicationRequest` is mapped to FHIR R4 element `ClaimResponse.communicationRequest` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.insurance",
+          "display" : "insurance",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.insurance` is mapped to FHIR R4 element `ClaimResponse.insurance` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.insurance.sequence",
+          "display" : "sequence",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.insurance.sequence` is mapped to FHIR R4 element `ClaimResponse.insurance.sequence` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.insurance.focal",
+          "display" : "focal",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.insurance.focal` is mapped to FHIR R4 element `ClaimResponse.insurance.focal` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.insurance.coverage",
+          "display" : "coverage",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.insurance.coverage` is mapped to FHIR R4 element `ClaimResponse.insurance.coverage` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.insurance.businessArrangement",
+          "display" : "businessArrangement",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.insurance.businessArrangement` is mapped to FHIR R4 element `ClaimResponse.insurance.businessArrangement` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.insurance.claimResponse",
+          "display" : "claimResponse",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.insurance.claimResponse` is mapped to FHIR R4 element `ClaimResponse.insurance.claimResponse` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.error",
+          "display" : "error",
+          "target" : [
+            {
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.error` is mapped to FHIR R4 element `ClaimResponse.error` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.error.itemSequence",
+          "display" : "itemSequence",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.error.itemSequence` is mapped to FHIR R4 element `ClaimResponse.error.itemSequence` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.error.detailSequence",
+          "display" : "detailSequence",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.error.detailSequence` is mapped to FHIR R4 element `ClaimResponse.error.detailSequence` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.error.subDetailSequence",
+          "display" : "subDetailSequence",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.error.subDetailSequence` is mapped to FHIR R4 element `ClaimResponse.error.subDetailSequence` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.error.code",
+          "display" : "code",
+          "target" : [
+            {
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.error.code` is mapped to FHIR R4 element `ClaimResponse.error.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse",
+      "sourceVersion" : "5.0.0",
+      "target" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4",
+      "element" : [
+        {
+          "code" : "ClaimResponse.traceNumber",
+          "display" : "traceNumber",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.traceNumber",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.traceNumber` has a context of ClaimResponse based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.decision",
+          "display" : "decision",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.decision",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.decision` has a context of ClaimResponse based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.event",
+          "display" : "event",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.event",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.event` has a context of ClaimResponse based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.diagnosisRelatedGroup",
+          "display" : "diagnosisRelatedGroup",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.diagnosisRelatedGroup",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.diagnosisRelatedGroup` has a context of ClaimResponse based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item.traceNumber",
+          "display" : "traceNumber",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.traceNumber",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.item.traceNumber` has a context of ClaimResponse.item based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item.reviewOutcome",
+          "display" : "reviewOutcome",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.reviewOutcome",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.item.reviewOutcome` has a context of ClaimResponse.item based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item.adjudication.quantity",
+          "display" : "quantity",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.adjudication.quantity",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.item.adjudication.quantity` is mapped to FHIR R4 element `ClaimResponse.item.adjudication.value` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `ClaimResponse.addItem.adjudication.value` because `ClaimResponse.addItem.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.addItem.detail.adjudication.value` because `ClaimResponse.addItem.detail.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.addItem.detail.subDetail.adjudication.value` because `ClaimResponse.addItem.detail.subDetail.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.adjudication.value` because `ClaimResponse.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.item.detail.adjudication.value` because `ClaimResponse.item.detail.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`.\nNote available implied context: `ClaimResponse.item.detail.subDetail.adjudication.value` because `ClaimResponse.item.detail.subDetail.adjudication` is defined via a content reference to `ClaimResponse.item.adjudication`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item.detail.traceNumber",
+          "display" : "traceNumber",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.traceNumber",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.item.detail.traceNumber` has a context of ClaimResponse.item.detail based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item.detail.reviewOutcome",
+          "display" : "reviewOutcome",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.reviewOutcome",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.item.detail.reviewOutcome` has a context of ClaimResponse.item.detail based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item.detail.subDetail.traceNumber",
+          "display" : "traceNumber",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.subDetail.traceNumber",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.item.detail.subDetail.traceNumber` has a context of ClaimResponse.item.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item.detail.subDetail.reviewOutcome",
+          "display" : "reviewOutcome",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.reviewOutcome",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.item.detail.subDetail.reviewOutcome` has a context of ClaimResponse.item.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.traceNumber",
+          "display" : "traceNumber",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.traceNumber",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.addItem.traceNumber` has a context of ClaimResponse.addItem based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.revenue",
+          "display" : "revenue",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.revenue",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.addItem.revenue` has a context of ClaimResponse.addItem based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.productOrServiceEnd",
+          "display" : "productOrServiceEnd",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.productOrServiceEnd",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.addItem.productOrServiceEnd` has a context of ClaimResponse.addItem based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.tax",
+          "display" : "tax",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.tax",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.addItem.tax` has a context of ClaimResponse.addItem based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.bodySite",
+          "display" : "bodySite",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.bodySite",
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.addItem.bodySite` is mapped to FHIR R4 element `ClaimResponse.addItem.bodySite` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.reviewOutcome",
+          "display" : "reviewOutcome",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.reviewOutcome",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.addItem.reviewOutcome` has a context of ClaimResponse.addItem based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.traceNumber",
+          "display" : "traceNumber",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.traceNumber",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.addItem.detail.traceNumber` has a context of ClaimResponse.addItem.detail based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.revenue",
+          "display" : "revenue",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.revenue",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.addItem.detail.revenue` has a context of ClaimResponse.addItem.detail based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.productOrServiceEnd",
+          "display" : "productOrServiceEnd",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.productOrServiceEnd",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.addItem.detail.productOrServiceEnd` has a context of ClaimResponse.addItem.detail based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.tax",
+          "display" : "tax",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.tax",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.addItem.detail.tax` has a context of ClaimResponse.addItem.detail based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.reviewOutcome",
+          "display" : "reviewOutcome",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.reviewOutcome",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.addItem.detail.reviewOutcome` has a context of ClaimResponse.addItem.detail based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.subDetail.traceNumber",
+          "display" : "traceNumber",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.traceNumber",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.traceNumber` has a context of ClaimResponse.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.subDetail.revenue",
+          "display" : "revenue",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.revenue",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.revenue` has a context of ClaimResponse.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.subDetail.productOrServiceEnd",
+          "display" : "productOrServiceEnd",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.productOrServiceEnd",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.productOrServiceEnd` has a context of ClaimResponse.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.subDetail.tax",
+          "display" : "tax",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.tax",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.tax` has a context of ClaimResponse.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.detail.subDetail.reviewOutcome",
+          "display" : "reviewOutcome",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.reviewOutcome",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.addItem.detail.subDetail.reviewOutcome` has a context of ClaimResponse.addItem.detail.subDetail based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.processNote.type",
+          "display" : "type",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.processNote.type",
+              "equivalence" : "equivalent",
+              "comment" : "Element `ClaimResponse.processNote.type` is mapped to FHIR R4 element `ClaimResponse.processNote.type` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.error.expression",
+          "display" : "expression",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.error.expression",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.error.expression` has a context of ClaimResponse.error based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse",
+      "sourceVersion" : "5.0.0",
+      "element" : [
+        {
+          "code" : "ClaimResponse.event.type",
+          "display" : "type",
+          "target" : [
+            {
+              "code" : "type",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.event.type` has a context of ClaimResponse based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.event.when[x]",
+          "display" : "when[x]",
+          "target" : [
+            {
+              "code" : "when",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.event.when[x]` has a context of ClaimResponse based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item.reviewOutcome.decision",
+          "display" : "decision",
+          "target" : [
+            {
+              "code" : "decision",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.item.reviewOutcome.decision` has a context of ClaimResponse.item based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item.reviewOutcome.reason",
+          "display" : "reason",
+          "target" : [
+            {
+              "code" : "reason",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.item.reviewOutcome.reason` has a context of ClaimResponse.item based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item.reviewOutcome.preAuthRef",
+          "display" : "preAuthRef",
+          "target" : [
+            {
+              "code" : "preAuthRef",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.item.reviewOutcome.preAuthRef` has a context of ClaimResponse.item based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.item.reviewOutcome.preAuthPeriod",
+          "display" : "preAuthPeriod",
+          "target" : [
+            {
+              "code" : "preAuthPeriod",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.item.reviewOutcome.preAuthPeriod` has a context of ClaimResponse.item based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.bodySite.site",
+          "display" : "site",
+          "target" : [
+            {
+              "code" : "site",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.addItem.bodySite.site` has a context of ClaimResponse.addItem.bodySite based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.bodySite.subSite",
+          "display" : "subSite",
+          "target" : [
+            {
+              "code" : "subSite",
+              "equivalence" : "wider",
+              "comment" : "Element `ClaimResponse.addItem.bodySite.subSite` has a context of ClaimResponse.addItem.bodySite based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source" : "http://hl7.org/fhir/StructureDefinition/ClaimResponse",
+      "sourceVersion" : "5.0.0",
+      "target" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+      "targetVersion" : "5.2.0",
+      "element" : [
+        {
+          "code" : "ClaimResponse.encounter",
+          "display" : "encounter",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
+              "equivalence" : "wider",
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ClaimResponse.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ClaimResponse.encounter` has a context of ClaimResponse based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        },
+        {
+          "code" : "ClaimResponse.addItem.request",
+          "display" : "request",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
+              "equivalence" : "wider",
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ClaimResponse.addItem.request` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ClaimResponse.addItem.request` has a context of ClaimResponse.addItem based on following the parent source element upwards and mapping to `ClaimResponse`."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+```

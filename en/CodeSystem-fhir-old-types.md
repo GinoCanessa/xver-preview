@@ -1,0 +1,263 @@
+# FHIROldTypes - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## CodeSystem: FHIROldTypes 
+
+ 
+An old resource name no longer used in this version of FHIR (deleted or renamed). 
+
+This Code system is referenced in the definition of the following value sets:
+
+* [R5SubscriptionTypesForR4](ValueSet-R5-subscription-types-for-R4.md)
+* [R5VersionIndependentAllResourceTypesForR4](ValueSet-R5-version-independent-all-resource-types-for-R4.md)
+* [R5VersionIndependentResourceTypesForR4](ValueSet-R5-version-independent-resource-types-for-R4.md)
+
+-------
+
+ [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "CodeSystem",
+  "id" : "fhir-old-types",
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode" : "normative"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
+      "valueCode" : "4.0.0"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger" : 5
+    },
+    {
+      "extension" : [
+        {
+          "url" : "packageId",
+          "valueId" : "hl7.fhir.uv.xver-r5.r4"
+        },
+        {
+          "url" : "version",
+          "valueString" : "0.0.1-snapshot-3"
+        },
+        {
+          "url" : "uri",
+          "valueUri" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+        }
+      ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/package-source"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "fhir"
+    }
+  ],
+  "url" : "http://hl7.org/fhir/fhir-old-types",
+  "version" : "5.0.0",
+  "name" : "FHIROldTypes",
+  "title" : "Old FHIR Types",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-02-21T13:39:05-06:00",
+  "publisher" : "FHIR Infrastructure",
+  "contact" : [
+    {
+      "name" : "FHIR Infrastructure",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/fiwg"
+        }
+      ]
+    }
+  ],
+  "description" : "An old resource name no longer used in this version of FHIR (deleted or renamed).",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }
+      ]
+    }
+  ],
+  "caseSensitive" : true,
+  "valueSet" : "http://hl7.org/fhir/ValueSet/fhir-old-types",
+  "content" : "complete",
+  "concept" : [
+    {
+      "code" : "BodySite",
+      "display" : "BodySite"
+    },
+    {
+      "code" : "CatalogEntry",
+      "display" : "CatalogEntry"
+    },
+    {
+      "code" : "Conformance",
+      "display" : "Conformance"
+    },
+    {
+      "code" : "DataElement",
+      "display" : "DataElement"
+    },
+    {
+      "code" : "DeviceComponent",
+      "display" : "DeviceComponent"
+    },
+    {
+      "code" : "DeviceUseRequest",
+      "display" : "DeviceUseRequest"
+    },
+    {
+      "code" : "DeviceUseStatement",
+      "display" : "DeviceUseStatement"
+    },
+    {
+      "code" : "DiagnosticOrder",
+      "display" : "DiagnosticOrder"
+    },
+    {
+      "code" : "DocumentManifest",
+      "display" : "DocumentManifest"
+    },
+    {
+      "code" : "EffectEvidenceSynthesis",
+      "display" : "EffectEvidenceSynthesis"
+    },
+    {
+      "code" : "EligibilityRequest",
+      "display" : "EligibilityRequest"
+    },
+    {
+      "code" : "EligibilityResponse",
+      "display" : "EligibilityResponse"
+    },
+    {
+      "code" : "ExpansionProfile",
+      "display" : "ExpansionProfile"
+    },
+    {
+      "code" : "ImagingManifest",
+      "display" : "ImagingManifest"
+    },
+    {
+      "code" : "ImagingObjectSelection",
+      "display" : "ImagingObjectSelection"
+    },
+    {
+      "code" : "Media",
+      "display" : "Media"
+    },
+    {
+      "code" : "MedicationOrder",
+      "display" : "MedicationOrder"
+    },
+    {
+      "code" : "MedicationUsage",
+      "display" : "MedicationUsage"
+    },
+    {
+      "code" : "MedicinalProduct",
+      "display" : "MedicinalProduct"
+    },
+    {
+      "code" : "MedicinalProductAuthorization",
+      "display" : "MedicinalProductAuthorization"
+    },
+    {
+      "code" : "MedicinalProductContraindication",
+      "display" : "MedicinalProductContraindication"
+    },
+    {
+      "code" : "MedicinalProductIndication",
+      "display" : "MedicinalProductIndication"
+    },
+    {
+      "code" : "MedicinalProductIngredient",
+      "display" : "MedicinalProductIngredient"
+    },
+    {
+      "code" : "MedicinalProductInteraction",
+      "display" : "MedicinalProductInteraction"
+    },
+    {
+      "code" : "MedicinalProductManufactured",
+      "display" : "MedicinalProductManufactured"
+    },
+    {
+      "code" : "MedicinalProductPackaged",
+      "display" : "MedicinalProductPackaged"
+    },
+    {
+      "code" : "MedicinalProductPharmaceutical",
+      "display" : "MedicinalProductPharmaceutical"
+    },
+    {
+      "code" : "MedicinalProductUndesirableEffect",
+      "display" : "MedicinalProductUndesirableEffect"
+    },
+    {
+      "code" : "Order",
+      "display" : "Order"
+    },
+    {
+      "code" : "OrderResponse",
+      "display" : "OrderResponse"
+    },
+    {
+      "code" : "ProcedureRequest",
+      "display" : "ProcedureRequest"
+    },
+    {
+      "code" : "ProcessRequest",
+      "display" : "ProcessRequest"
+    },
+    {
+      "code" : "ProcessResponse",
+      "display" : "ProcessResponse"
+    },
+    {
+      "code" : "ReferralRequest",
+      "display" : "ReferralRequest"
+    },
+    {
+      "code" : "RequestGroup",
+      "display" : "RequestGroup"
+    },
+    {
+      "code" : "ResearchDefinition",
+      "display" : "ResearchDefinition"
+    },
+    {
+      "code" : "ResearchElementDefinition",
+      "display" : "ResearchElementDefinition"
+    },
+    {
+      "code" : "RiskEvidenceSynthesis",
+      "display" : "RiskEvidenceSynthesis"
+    },
+    {
+      "code" : "Sequence",
+      "display" : "Sequence"
+    },
+    {
+      "code" : "ServiceDefinition",
+      "display" : "ServiceDefinition"
+    },
+    {
+      "code" : "SubstanceSpecification",
+      "display" : "SubstanceSpecification"
+    }
+  ]
+}
+
+```

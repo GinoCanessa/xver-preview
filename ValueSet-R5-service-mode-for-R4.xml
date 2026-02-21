@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-service-mode-for-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-service-mode-for-R4</b></p><a name="R5-service-mode-for-R4"> </a><a name="hcR5-service-mode-for-R4"> </a><p>This value set expansion contains 4 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="R5-service-mode-for-R4-http://hl7.org/fhir/service-mode-chat"> </a><code>http://hl7.org/fhir/service-mode</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-service-mode.html#service-mode-chat">chat</a></td><td>Chat/Messaging</td><td>This service will be provided via a realtime chat/messaging conversation</td></tr><tr><td><a name="R5-service-mode-for-R4-http://hl7.org/fhir/service-mode-in-person"> </a><code>http://hl7.org/fhir/service-mode</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-service-mode.html#service-mode-in-person">in-person</a></td><td>In Person</td><td>The service will be provided in person</td></tr><tr><td><a name="R5-service-mode-for-R4-http://hl7.org/fhir/service-mode-telephone"> </a><code>http://hl7.org/fhir/service-mode</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-service-mode.html#service-mode-telephone">telephone</a></td><td>Telephone</td><td>The service will be provided by a teleconferencing facility or regular telephone</td></tr><tr><td><a name="R5-service-mode-for-R4-http://hl7.org/fhir/service-mode-videoconference"> </a><code>http://hl7.org/fhir/service-mode</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-service-mode.html#service-mode-videoconference">videoconference</a></td><td>Video Conference</td><td>The service will be provided over a video-conference facility</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pa"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-service-mode-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5ServiceModeForR4"/>
+  <title value="Cross-version ValueSet R5.ServiceMode for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="Patient Administration"/>
+  <contact>
+    <name value="Patient Administration"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pafm"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/service-mode|5.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/service-mode|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `HealthcareService.characteristic`&#xA;* `PractitionerRole.characteristic`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;&#xA;FHIR ValueSet `http://hl7.org/fhir/ValueSet/service-mode|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/service-mode"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="chat"/>
+        <display value="Chat/Messaging"/>
+      </concept>
+      <concept>
+        <code value="in-person"/>
+        <display value="In Person"/>
+      </concept>
+      <concept>
+        <code value="telephone"/>
+        <display value="Telephone"/>
+      </concept>
+      <concept>
+        <code value="videoconference"/>
+        <display value="Video Conference"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/service-mode"/>
+      <version value="5.0.0"/>
+      <code value="chat"/>
+      <display value="Chat/Messaging"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/service-mode"/>
+      <version value="5.0.0"/>
+      <code value="in-person"/>
+      <display value="In Person"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/service-mode"/>
+      <version value="5.0.0"/>
+      <code value="telephone"/>
+      <display value="Telephone"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/service-mode"/>
+      <version value="5.0.0"/>
+      <code value="videoconference"/>
+      <display value="Video Conference"/>
+    </contains>
+  </expansion>
+</ValueSet>

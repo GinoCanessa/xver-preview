@@ -63,25 +63,25 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "fhir"
+       fhir:v "oo"
      ]
   ] ) ; # 
   fhir:url [
      fhir:v "http://terminology.hl7.org/CodeSystem/supplyrequest-reason"^^xsd:anyURI ;
      fhir:l <http://terminology.hl7.org/CodeSystem/supplyrequest-reason>
   ] ; # 
-  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "SupplyRequestReason"] ; # 
   fhir:title [ fhir:v "SupplyRequestReason"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2020-04-09T16:10:28-05:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:publisher [ fhir:v "Orders and Observations"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:name [ fhir:v "Orders and Observations" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/orders" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "The reason why the supply item was requested."] ; # 
@@ -97,8 +97,8 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://terminology.hl7.org/ValueSet/supplyrequest-reason"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/ValueSet/supplyrequest-reason>
+     fhir:v "http://terminology.hl7.org/ValueSet/supplyrequest-reason|1.0.1"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/supplyrequest-reason?version=1.0.1>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

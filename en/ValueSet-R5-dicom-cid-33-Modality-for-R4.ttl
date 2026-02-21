@@ -1,0 +1,939 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-dicom-cid-33-Modality-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-dicom-cid-33-Modality-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-dicom-cid-33-Modality-for-R4</b></p><a name=\"R5-dicom-cid-33-Modality-for-R4\"> </a><a name=\"hcR5-dicom-cid-33-Modality-for-R4\"> </a><p>This value set expansion contains 72 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-AR\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  AR</td><td>Autorefraction</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-ASMT\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  ASMT</td><td>Content Assessment Result</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-AU\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  AU</td><td>Basic Voice Audio</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-BDUS\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  BDUS</td><td>Ultrasound Bone Densitometry</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-BI\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  BI</td><td>Biomagnetic Imaging</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-BMD\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  BMD</td><td>Bone Mineral Densitometry</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-CR\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  CR</td><td>Computed Radiography</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-CT\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  CT</td><td>Computed Tomography</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-CTPROTOCOL\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  CTPROTOCOL</td><td>CT Protocol</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-DG\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  DG</td><td>Diaphanography</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-DMS\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  DMS</td><td>Dermoscopy</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-DOC\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  DOC</td><td>Document</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-DX\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  DX</td><td>Digital Radiography</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-ECG\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  ECG</td><td>Electrocardiography</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-EEG\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  EEG</td><td>Electroencephalography</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-EMG\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  EMG</td><td>Electromyography</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-EOG\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  EOG</td><td>Electrooculography</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-EPS\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  EPS</td><td>Cardiac Electrophysiology</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-ES\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  ES</td><td>Endoscopy</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-FID\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  FID</td><td>Spatial Fiducials</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-GM\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  GM</td><td>General Microscopy</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-HC\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  HC</td><td>Hard Copy</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-HD\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  HD</td><td>Hemodynamic Waveform</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-IO\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  IO</td><td>Intra-oral Radiography</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-IOL\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  IOL</td><td>Intraocular Lens Calculation</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-IVOCT\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  IVOCT</td><td>Intravascular Optical Coherence Tomography</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-IVUS\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  IVUS</td><td>Intravascular Ultrasound</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-KER\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  KER</td><td>Keratometry</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-KO\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  KO</td><td>Key Object Selection</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-LEN\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  LEN</td><td>Lensometry</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-LS\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  LS</td><td>Laser Scan</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-M3D\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  M3D</td><td>Model for 3D Manufacturing</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-MG\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  MG</td><td>Mammography</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-MR\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  MR</td><td>Magnetic Resonance</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-NM\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  NM</td><td>Nuclear Medicine</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-OAM\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  OAM</td><td>Ophthalmic Axial Measurements</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-OCT\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  OCT</td><td>Optical Coherence Tomography</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-OP\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  OP</td><td>Ophthalmic Photography</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-OPM\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  OPM</td><td>Ophthalmic Mapping</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-OPT\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  OPT</td><td>Ophthalmic Tomography</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-OPTBSV\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  OPTBSV</td><td>Ophthalmic Tomography B-scan Volume Analysis</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-OPTENF\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  OPTENF</td><td>Ophthalmic Tomography En Face</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-OPV\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  OPV</td><td>Ophthalmic Visual Field</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-OSS\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  OSS</td><td>Optical Surface Scanner</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-OT\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  OT</td><td>Other</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-PLAN\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  PLAN</td><td>Plan</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-POS\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  POS</td><td>Position Sensor</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-PR\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  PR</td><td>Presentation State</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-PT\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  PT</td><td>Positron emission tomography</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-PX\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  PX</td><td>Panoramic X-Ray</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-REG\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  REG</td><td>Registration</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-RESP\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  RESP</td><td>Respiratory Waveform</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-RF\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  RF</td><td>Radiofluoroscopy</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-RG\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  RG</td><td>Radiographic imaging</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-RTDOSE\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  RTDOSE</td><td>RT Dose</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-RTIMAGE\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  RTIMAGE</td><td>RT Image</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-RTPLAN\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  RTPLAN</td><td>RT Plan</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-RTRECORD\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  RTRECORD</td><td>RT Treatment Record</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-RTSTRUCT\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  RTSTRUCT</td><td>RT Structure Set</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-RWV\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  RWV</td><td>Real World Value Map</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-SEG\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  SEG</td><td>Segmentation</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-SM\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  SM</td><td>Slide Microscopy</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-SMR\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  SMR</td><td>Stereometric Relationship</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-SR\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  SR</td><td>Structured Report Document</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-SRF\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  SRF</td><td>Subjective Refraction</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-STAIN\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  STAIN</td><td>Automated Slide Stainer</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-TEXTUREMAP\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  TEXTUREMAP</td><td>Texture Map</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-TG\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  TG</td><td>Thermography</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-US\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  US</td><td>Ultrasound</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-VA\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  VA</td><td>Visual Acuity</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-XA\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  XA</td><td>X-Ray Angiography</td></tr><tr><td><a name=\"R5-dicom-cid-33-Modality-for-R4-http://dicom.nema.org/resources/ontology/DCM-XC\"> </a><code>http://dicom.nema.org/resources/ontology/DCM</code></td><td>3.0.1</td><td style=\"white-space:nowrap\">  XC</td><td>External-camera Photography</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-dicom-cid-33-Modality-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-dicom-cid-33-Modality-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5DicomCid33ModalityForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.Modality for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_33.html|2023.1.20230123` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_33.html|2023.1.20230123` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `DocumentReference.modality`\n* `ImagingStudy.modality`\n* `ImagingStudy.series.modality`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_33.html|2023.1.20230123`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "AR" ] ;
+         fhir:display [ fhir:v "Autorefraction" ]
+       ] [
+         fhir:code [ fhir:v "ASMT" ] ;
+         fhir:display [ fhir:v "Content Assessment Result" ]
+       ] [
+         fhir:code [ fhir:v "AU" ] ;
+         fhir:display [ fhir:v "Basic Voice Audio" ]
+       ] [
+         fhir:code [ fhir:v "BDUS" ] ;
+         fhir:display [ fhir:v "Ultrasound Bone Densitometry" ]
+       ] [
+         fhir:code [ fhir:v "BI" ] ;
+         fhir:display [ fhir:v "Biomagnetic Imaging" ]
+       ] [
+         fhir:code [ fhir:v "BMD" ] ;
+         fhir:display [ fhir:v "Bone Mineral Densitometry" ]
+       ] [
+         fhir:code [ fhir:v "CR" ] ;
+         fhir:display [ fhir:v "Computed Radiography" ]
+       ] [
+         fhir:code [ fhir:v "CT" ] ;
+         fhir:display [ fhir:v "Computed Tomography" ]
+       ] [
+         fhir:code [ fhir:v "CTPROTOCOL" ] ;
+         fhir:display [ fhir:v "CT Protocol" ]
+       ] [
+         fhir:code [ fhir:v "DG" ] ;
+         fhir:display [ fhir:v "Diaphanography" ]
+       ] [
+         fhir:code [ fhir:v "DMS" ] ;
+         fhir:display [ fhir:v "Dermoscopy" ]
+       ] [
+         fhir:code [ fhir:v "DOC" ] ;
+         fhir:display [ fhir:v "Document" ]
+       ] [
+         fhir:code [ fhir:v "DX" ] ;
+         fhir:display [ fhir:v "Digital Radiography" ]
+       ] [
+         fhir:code [ fhir:v "ECG" ] ;
+         fhir:display [ fhir:v "Electrocardiography" ]
+       ] [
+         fhir:code [ fhir:v "EEG" ] ;
+         fhir:display [ fhir:v "Electroencephalography" ]
+       ] [
+         fhir:code [ fhir:v "EMG" ] ;
+         fhir:display [ fhir:v "Electromyography" ]
+       ] [
+         fhir:code [ fhir:v "EOG" ] ;
+         fhir:display [ fhir:v "Electrooculography" ]
+       ] [
+         fhir:code [ fhir:v "EPS" ] ;
+         fhir:display [ fhir:v "Cardiac Electrophysiology" ]
+       ] [
+         fhir:code [ fhir:v "ES" ] ;
+         fhir:display [ fhir:v "Endoscopy" ]
+       ] [
+         fhir:code [ fhir:v "FID" ] ;
+         fhir:display [ fhir:v "Spatial Fiducials" ]
+       ] [
+         fhir:code [ fhir:v "GM" ] ;
+         fhir:display [ fhir:v "General Microscopy" ]
+       ] [
+         fhir:code [ fhir:v "HC" ] ;
+         fhir:display [ fhir:v "Hard Copy" ]
+       ] [
+         fhir:code [ fhir:v "HD" ] ;
+         fhir:display [ fhir:v "Hemodynamic Waveform" ]
+       ] [
+         fhir:code [ fhir:v "IO" ] ;
+         fhir:display [ fhir:v "Intra-oral Radiography" ]
+       ] [
+         fhir:code [ fhir:v "IOL" ] ;
+         fhir:display [ fhir:v "Intraocular Lens Calculation" ]
+       ] [
+         fhir:code [ fhir:v "IVOCT" ] ;
+         fhir:display [ fhir:v "Intravascular Optical Coherence Tomography" ]
+       ] [
+         fhir:code [ fhir:v "IVUS" ] ;
+         fhir:display [ fhir:v "Intravascular Ultrasound" ]
+       ] [
+         fhir:code [ fhir:v "KER" ] ;
+         fhir:display [ fhir:v "Keratometry" ]
+       ] [
+         fhir:code [ fhir:v "KO" ] ;
+         fhir:display [ fhir:v "Key Object Selection" ]
+       ] [
+         fhir:code [ fhir:v "LEN" ] ;
+         fhir:display [ fhir:v "Lensometry" ]
+       ] [
+         fhir:code [ fhir:v "LS" ] ;
+         fhir:display [ fhir:v "Laser Scan" ]
+       ] [
+         fhir:code [ fhir:v "M3D" ] ;
+         fhir:display [ fhir:v "Model for 3D Manufacturing" ]
+       ] [
+         fhir:code [ fhir:v "MG" ] ;
+         fhir:display [ fhir:v "Mammography" ]
+       ] [
+         fhir:code [ fhir:v "MR" ] ;
+         fhir:display [ fhir:v "Magnetic Resonance" ]
+       ] [
+         fhir:code [ fhir:v "NM" ] ;
+         fhir:display [ fhir:v "Nuclear Medicine" ]
+       ] [
+         fhir:code [ fhir:v "OAM" ] ;
+         fhir:display [ fhir:v "Ophthalmic Axial Measurements" ]
+       ] [
+         fhir:code [ fhir:v "OCT" ] ;
+         fhir:display [ fhir:v "Optical Coherence Tomography" ]
+       ] [
+         fhir:code [ fhir:v "OP" ] ;
+         fhir:display [ fhir:v "Ophthalmic Photography" ]
+       ] [
+         fhir:code [ fhir:v "OPM" ] ;
+         fhir:display [ fhir:v "Ophthalmic Mapping" ]
+       ] [
+         fhir:code [ fhir:v "OPT" ] ;
+         fhir:display [ fhir:v "Ophthalmic Tomography" ]
+       ] [
+         fhir:code [ fhir:v "OPTBSV" ] ;
+         fhir:display [ fhir:v "Ophthalmic Tomography B-scan Volume Analysis" ]
+       ] [
+         fhir:code [ fhir:v "OPTENF" ] ;
+         fhir:display [ fhir:v "Ophthalmic Tomography En Face" ]
+       ] [
+         fhir:code [ fhir:v "OPV" ] ;
+         fhir:display [ fhir:v "Ophthalmic Visual Field" ]
+       ] [
+         fhir:code [ fhir:v "OSS" ] ;
+         fhir:display [ fhir:v "Optical Surface Scanner" ]
+       ] [
+         fhir:code [ fhir:v "OT" ] ;
+         fhir:display [ fhir:v "Other" ]
+       ] [
+         fhir:code [ fhir:v "PLAN" ] ;
+         fhir:display [ fhir:v "Plan" ]
+       ] [
+         fhir:code [ fhir:v "POS" ] ;
+         fhir:display [ fhir:v "Position Sensor" ]
+       ] [
+         fhir:code [ fhir:v "PR" ] ;
+         fhir:display [ fhir:v "Presentation State" ]
+       ] [
+         fhir:code [ fhir:v "PT" ] ;
+         fhir:display [ fhir:v "Positron emission tomography" ]
+       ] [
+         fhir:code [ fhir:v "PX" ] ;
+         fhir:display [ fhir:v "Panoramic X-Ray" ]
+       ] [
+         fhir:code [ fhir:v "REG" ] ;
+         fhir:display [ fhir:v "Registration" ]
+       ] [
+         fhir:code [ fhir:v "RESP" ] ;
+         fhir:display [ fhir:v "Respiratory Waveform" ]
+       ] [
+         fhir:code [ fhir:v "RF" ] ;
+         fhir:display [ fhir:v "Radiofluoroscopy" ]
+       ] [
+         fhir:code [ fhir:v "RG" ] ;
+         fhir:display [ fhir:v "Radiographic imaging" ]
+       ] [
+         fhir:code [ fhir:v "RTDOSE" ] ;
+         fhir:display [ fhir:v "RT Dose" ]
+       ] [
+         fhir:code [ fhir:v "RTIMAGE" ] ;
+         fhir:display [ fhir:v "RT Image" ]
+       ] [
+         fhir:code [ fhir:v "RTPLAN" ] ;
+         fhir:display [ fhir:v "RT Plan" ]
+       ] [
+         fhir:code [ fhir:v "RTRECORD" ] ;
+         fhir:display [ fhir:v "RT Treatment Record" ]
+       ] [
+         fhir:code [ fhir:v "RTSTRUCT" ] ;
+         fhir:display [ fhir:v "RT Structure Set" ]
+       ] [
+         fhir:code [ fhir:v "RWV" ] ;
+         fhir:display [ fhir:v "Real World Value Map" ]
+       ] [
+         fhir:code [ fhir:v "SEG" ] ;
+         fhir:display [ fhir:v "Segmentation" ]
+       ] [
+         fhir:code [ fhir:v "SM" ] ;
+         fhir:display [ fhir:v "Slide Microscopy" ]
+       ] [
+         fhir:code [ fhir:v "SMR" ] ;
+         fhir:display [ fhir:v "Stereometric Relationship" ]
+       ] [
+         fhir:code [ fhir:v "SR" ] ;
+         fhir:display [ fhir:v "Structured Report Document" ]
+       ] [
+         fhir:code [ fhir:v "SRF" ] ;
+         fhir:display [ fhir:v "Subjective Refraction" ]
+       ] [
+         fhir:code [ fhir:v "STAIN" ] ;
+         fhir:display [ fhir:v "Automated Slide Stainer" ]
+       ] [
+         fhir:code [ fhir:v "TEXTUREMAP" ] ;
+         fhir:display [ fhir:v "Texture Map" ]
+       ] [
+         fhir:code [ fhir:v "TG" ] ;
+         fhir:display [ fhir:v "Thermography" ]
+       ] [
+         fhir:code [ fhir:v "US" ] ;
+         fhir:display [ fhir:v "Ultrasound" ]
+       ] [
+         fhir:code [ fhir:v "VA" ] ;
+         fhir:display [ fhir:v "Visual Acuity" ]
+       ] [
+         fhir:code [ fhir:v "XA" ] ;
+         fhir:display [ fhir:v "X-Ray Angiography" ]
+       ] [
+         fhir:code [ fhir:v "XC" ] ;
+         fhir:display [ fhir:v "External-camera Photography" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "AR" ] ;
+       fhir:display [ fhir:v "Autorefraction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "ASMT" ] ;
+       fhir:display [ fhir:v "Content Assessment Result" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "AU" ] ;
+       fhir:display [ fhir:v "Basic Voice Audio" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "BDUS" ] ;
+       fhir:display [ fhir:v "Ultrasound Bone Densitometry" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "BI" ] ;
+       fhir:display [ fhir:v "Biomagnetic Imaging" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "BMD" ] ;
+       fhir:display [ fhir:v "Bone Mineral Densitometry" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "CR" ] ;
+       fhir:display [ fhir:v "Computed Radiography" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "CT" ] ;
+       fhir:display [ fhir:v "Computed Tomography" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "CTPROTOCOL" ] ;
+       fhir:display [ fhir:v "CT Protocol" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "DG" ] ;
+       fhir:display [ fhir:v "Diaphanography" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "DMS" ] ;
+       fhir:display [ fhir:v "Dermoscopy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "DOC" ] ;
+       fhir:display [ fhir:v "Document" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "DX" ] ;
+       fhir:display [ fhir:v "Digital Radiography" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "ECG" ] ;
+       fhir:display [ fhir:v "Electrocardiography" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "EEG" ] ;
+       fhir:display [ fhir:v "Electroencephalography" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "EMG" ] ;
+       fhir:display [ fhir:v "Electromyography" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "EOG" ] ;
+       fhir:display [ fhir:v "Electrooculography" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "EPS" ] ;
+       fhir:display [ fhir:v "Cardiac Electrophysiology" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "ES" ] ;
+       fhir:display [ fhir:v "Endoscopy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "FID" ] ;
+       fhir:display [ fhir:v "Spatial Fiducials" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "GM" ] ;
+       fhir:display [ fhir:v "General Microscopy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "HC" ] ;
+       fhir:display [ fhir:v "Hard Copy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "HD" ] ;
+       fhir:display [ fhir:v "Hemodynamic Waveform" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "IO" ] ;
+       fhir:display [ fhir:v "Intra-oral Radiography" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "IOL" ] ;
+       fhir:display [ fhir:v "Intraocular Lens Calculation" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "IVOCT" ] ;
+       fhir:display [ fhir:v "Intravascular Optical Coherence Tomography" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "IVUS" ] ;
+       fhir:display [ fhir:v "Intravascular Ultrasound" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "KER" ] ;
+       fhir:display [ fhir:v "Keratometry" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "KO" ] ;
+       fhir:display [ fhir:v "Key Object Selection" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "LEN" ] ;
+       fhir:display [ fhir:v "Lensometry" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "LS" ] ;
+       fhir:display [ fhir:v "Laser Scan" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "M3D" ] ;
+       fhir:display [ fhir:v "Model for 3D Manufacturing" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "MG" ] ;
+       fhir:display [ fhir:v "Mammography" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "MR" ] ;
+       fhir:display [ fhir:v "Magnetic Resonance" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "NM" ] ;
+       fhir:display [ fhir:v "Nuclear Medicine" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "OAM" ] ;
+       fhir:display [ fhir:v "Ophthalmic Axial Measurements" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "OCT" ] ;
+       fhir:display [ fhir:v "Optical Coherence Tomography" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "OP" ] ;
+       fhir:display [ fhir:v "Ophthalmic Photography" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "OPM" ] ;
+       fhir:display [ fhir:v "Ophthalmic Mapping" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "OPT" ] ;
+       fhir:display [ fhir:v "Ophthalmic Tomography" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "OPTBSV" ] ;
+       fhir:display [ fhir:v "Ophthalmic Tomography B-scan Volume Analysis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "OPTENF" ] ;
+       fhir:display [ fhir:v "Ophthalmic Tomography En Face" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "OPV" ] ;
+       fhir:display [ fhir:v "Ophthalmic Visual Field" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "OSS" ] ;
+       fhir:display [ fhir:v "Optical Surface Scanner" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "OT" ] ;
+       fhir:display [ fhir:v "Other" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "PLAN" ] ;
+       fhir:display [ fhir:v "Plan" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "POS" ] ;
+       fhir:display [ fhir:v "Position Sensor" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "PR" ] ;
+       fhir:display [ fhir:v "Presentation State" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "PT" ] ;
+       fhir:display [ fhir:v "Positron emission tomography" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "PX" ] ;
+       fhir:display [ fhir:v "Panoramic X-Ray" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "REG" ] ;
+       fhir:display [ fhir:v "Registration" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "RESP" ] ;
+       fhir:display [ fhir:v "Respiratory Waveform" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "RF" ] ;
+       fhir:display [ fhir:v "Radiofluoroscopy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "RG" ] ;
+       fhir:display [ fhir:v "Radiographic imaging" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "RTDOSE" ] ;
+       fhir:display [ fhir:v "RT Dose" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "RTIMAGE" ] ;
+       fhir:display [ fhir:v "RT Image" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "RTPLAN" ] ;
+       fhir:display [ fhir:v "RT Plan" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "RTRECORD" ] ;
+       fhir:display [ fhir:v "RT Treatment Record" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "RTSTRUCT" ] ;
+       fhir:display [ fhir:v "RT Structure Set" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "RWV" ] ;
+       fhir:display [ fhir:v "Real World Value Map" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "SEG" ] ;
+       fhir:display [ fhir:v "Segmentation" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "SM" ] ;
+       fhir:display [ fhir:v "Slide Microscopy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "SMR" ] ;
+       fhir:display [ fhir:v "Stereometric Relationship" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "SR" ] ;
+       fhir:display [ fhir:v "Structured Report Document" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "SRF" ] ;
+       fhir:display [ fhir:v "Subjective Refraction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "STAIN" ] ;
+       fhir:display [ fhir:v "Automated Slide Stainer" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "TEXTUREMAP" ] ;
+       fhir:display [ fhir:v "Texture Map" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "TG" ] ;
+       fhir:display [ fhir:v "Thermography" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "US" ] ;
+       fhir:display [ fhir:v "Ultrasound" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "VA" ] ;
+       fhir:display [ fhir:v "Visual Acuity" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "XA" ] ;
+       fhir:display [ fhir:v "X-Ray Angiography" ]
+     ] [
+       fhir:system [
+         fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ;
+         fhir:l <http://dicom.nema.org/resources/ontology/DCM>
+       ] ;
+       fhir:version [ fhir:v "3.0.1" ] ;
+       fhir:code [ fhir:v "XC" ] ;
+       fhir:display [ fhir:v "External-camera Photography" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

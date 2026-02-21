@@ -1,0 +1,1307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-v3-RoleClassRoot-for-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-v3-RoleClassRoot-for-R4</b></p><a name="R5-v3-RoleClassRoot-for-R4"> </a><a name="hcR5-v3-RoleClassRoot-for-R4"> </a><p>This value set expansion contains 106 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-ACCESS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-ACCESS">ACCESS</a></td><td>access</td><td><div><p>A role in which the playing entity (material) provides access to another entity. The principal use case is intravenous (or other bodily) access lines that preexist and need to be referred to for medication routing instructions.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-ACTI"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-ACTI">ACTI</a></td><td>active ingredient</td><td><div><p><strong>Definition:</strong> a therapeutically active ingredient (player) in a mixture (scoper), where the mixture is typically a manufactured pharmaceutical. It is unknown if the quantity of such an ingredient is expressed precisely in terms of the playing ingredient substance, or, if it is specified in terms of a closely related substance (active moiety or reference substance).</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-ACTIB"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-ACTIB">ACTIB</a></td><td>active ingredient - basis of strength</td><td><div><p><strong>Description:</strong>  Active ingredient, where the ingredient substance (player) is itself the &quot;basis of strength&quot;, i.e., where the Role.quantity specifies exactly the quantity of the player substance in the medicine formulation.</p>
+<p><strong>Examples:</strong> Lopressor 50 mg actually contains 50 mg of metoprolol succinate, even though the active moiety is metoprolol, but also: Tenormin 50 mg contain 50 mg of atenolol, as free base, i.e., where the active ingredient atenolol is also the active moiety.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-ACTIM"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-ACTIM">ACTIM</a></td><td>active ingredient - moiety is basis of strength</td><td><div><p><strong>Description:</strong> Active ingredient, where not the ingredient substance (player), but itaTMs active moiety is the &quot;basis of strength&quot;, i.e., where the Role.quantity specifies the quantity of the player substance's active moiety in the medicine formulation.</p>
+<p><strong>Examples:</strong> 1 mL of Betopic 5mg/mL eye drops contains 5.6 mg betaxolol hydrochloride equivalent to betaxolol base 5 mg.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-ACTIR"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-ACTIR">ACTIR</a></td><td>active ingredient - reference substance is basis of strength</td><td><div><p><strong>Description:</strong> Active ingredient, where not the ingredient substance (player) but another reference substance with the same active moiety, is the &quot;basis of strength&quot;, i.e., where the Role.quantity specifies the quantity of a reference substance, similar but different from the player substance's in the medicine formulation.</p>
+<p><strong>Examples:</strong> Toprol-XL 50 mg contains 47.5 mg of metoprolol succinate equivalent to 50 mg of metoprolol tartrate.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-ACTM"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-ACTM">ACTM</a></td><td>active moiety</td><td><div><p>The molecule or ion that is responsible for the intended pharmacological action of the drug substance, excluding those appended or associated parts of the molecule that make the molecule an ester, salt (including a salt with hydrogen or coordination bonds), or other noncovalent derivative (such as a complex, chelate, or clathrate).</p>
+<p>Examples: heparin-sodium and heparin-potassium have the same active moiety, heparin; the active moiety of morphine-hydrochloride is morphine.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-ADJV"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-ADJV">ADJV</a></td><td>adjuvant</td><td><div><p>A component (player) added to enhance the action of an active ingredient (scoper) (in the manner of a catalyst) but which has no active effect in and of itself. Such ingredients are significant in defining equivalence of products in a way that inactive ingredients are not.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-ADJY"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-ADJY">ADJY</a></td><td>adjacency</td><td><div><p>A physical association whereby two Entities are in some (even lose) spatial relationship with each other such that they touch each other in some way.</p>
+<p><em>Examples:</em> the colon is connected (and therefore adjacent) to the jejunum; the colon is adjacent to the liver (even if not actually connected.)</p>
+<p><em>UsageConstraints:</em> Adjacency is in principle a symmetrical connection, but scoper and player of the role should, where applicable, be assigned to have scoper be the larger, more central Entity and player the smaller, more distant, appendage.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-ADMM"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-ADMM">ADMM</a></td><td>Administerable Material</td><td><div><p>A material (player) that can be administered to an Entity (scoper).</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-ADTV"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-ADTV">ADTV</a></td><td>additive</td><td><div><p>An ingredient (player) that is added to a base (scoper), that amounts to a minor part of the overall mixture.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-AFFL"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-AFFL">AFFL</a></td><td>affiliate</td><td><div><p>Player of the Affiliate role has a business/professional relationship with scoper. Player and scoper may be persons or organization. The Affiliate relationship does not imply membership in a group, nor does it exist for resource scheduling purposes.</p>
+<p><em>Example:</em> A healthcare provider is affiliated with another provider as a business associate.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-AGNT"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-AGNT">AGNT</a></td><td>agent</td><td><div><p>An entity (player) that acts or is authorized to act on behalf of another entity (scoper).</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-ALQT"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-ALQT">ALQT</a></td><td>aliquot</td><td><div><p>A portion (player) of an original or source specimen (scoper) used for testing or transportation.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-ASSIGNED"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-ASSIGNED">ASSIGNED</a></td><td>assigned entity</td><td><div><p>An agent role in which the agent is an Entity acting in the employ of an organization. The focus is on functional role on behalf of the organization, unlike the Employee role where the focus is on the 'Human Resources' relationship between the employee and the organization.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-BASE"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-BASE">BASE</a></td><td>base</td><td><div><p>A base ingredient (player) is what comprises the major part of a mixture (scoper). E.g., Water in most i.v. solutions, or Vaseline in salves. Among all ingredients of a material, there should be only one base. A base substance can, in turn, be a mixture.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-BIRTHPL"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-BIRTHPL">BIRTHPL</a></td><td>birthplace</td><td><div><p>Relates a place (playing Entity) as the location where a living subject (scoping Entity) was born.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-BOND"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-BOND">BOND</a></td><td>molecular bond</td><td><div><p>A connection between two atoms of a molecule.</p>
+<p><em>Examples:</em> double bond between first and second C in ethane, peptide bond between two amino-acid, disulfide bridge between two proteins, chelate and ion associations, even the much weaker van-der-Waals bonds can be considered molecular bonds.</p>
+<p><em>UsageConstraints:</em> See connection and adjacency for the assignment of player and scoper.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-CAREGIVER"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-CAREGIVER">CAREGIVER</a></td><td>caregiver</td><td><div><p>A person responsible for the primary care of a patient at home.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-CASEBJ"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-CASEBJ">CASEBJ</a></td><td>Case Subject</td><td><div><p>A person, non-person living subject, or place that is the subject of an investigation related to a notifiable condition (health circumstance that is reportable within the applicable public health jurisdiction)</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-CIT"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-CIT">CIT</a></td><td>citizen</td><td><div><p>Citizen of apolitical entity</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-CLAIM"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-CLAIM">CLAIM</a></td><td>claimant</td><td><div><p><strong>Description:</strong> A role played by a party making a claim for coverage under a policy or program. A claimant must be either a person or organization, or a group of persons or organizations. A claimant is not a named insured or a program eligible.</p>
+<p><strong>Discussion:</strong> With respect to liability insurance such as property and casualty insurance, a claimant must file a claim requesting indemnification for a loss that the claimant considers covered under the policy of a named insured. The claims adjuster for the policy underwriter will review the claim to determine whether the loss meets the benefit coverage criteria under a policy, and base any indemnification or coverage payment on that review. If a third party is liable in whole or part for the loss, the underwriter may pursue third party liability recovery. A claimant may be involved in civil or criminal legal proceedings involving claims against a defendant party that is indemnified by an insurance policy or to protest the finding of a claims adjustor. With respect to life insurance, a beneficiary designated by a named insured becomes a claimant of the proceeds of coverage, as in the case of a life insurance policy. However, a claimant for coverage under life insurance is not necessarily a designated beneficiary.</p>
+<p><strong>Note:</strong> A claimant is not a named insured. However, a named insured may make a claim under a policy, e.g., an insured driver may make a claim for an injury under his or her comprehensive automobile insurance policy. Similarly, a program eligible may make a claim under program, e.g., an unemployed worker may claim benefits under an unemployment insurance program, but parties playing these covered party role classes are not, for purposes of this vocabulary and in an effort to clearly distinguish role classes, considered claimants.</p>
+<p>In the case of a named insured making a claim, a role type code INSCLM (insured claimant) subtypes the class to indicate that either a named insured or an individual insured has filed a claim for a loss. In the case of a program eligible, a role type code INJWKR (injured worker) subtypes the class to indicate that the covered party in a workers compensation program is an injured worker, and as such, has filed a &quot;claim&quot; under the program for benefits. Likewise, a covered role type code UNEMP (unemployed worker) subtypes the program eligible class to indicate that the covered party in an unemployment insurance program has filed a claim for unemployment benefits.</p>
+<p><strong>Example:</strong> A claimant under automobile policy that is not the named insured.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-CNTM"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-CNTM">CNTM</a></td><td>contaminant ingredient</td><td><div><p>An ingredient whose presence is not intended but may not be reasonably avoided given the circumstances of the mixture's nature or origin.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-COLR"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-COLR">COLR</a></td><td>color additive</td><td><div><p>A substance (player) influencing the optical aspect of material (scoper).</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-COMPAR"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-COMPAR">COMPAR</a></td><td>commissioning party</td><td><div><p>An Entity that is authorized to issue or instantiate permissions, privileges, credentials or other formal/legal authorizations.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-CON"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-CON">CON</a></td><td>contact</td><td><div><p>A person or an organization (player) which provides or receives information regarding another entity (scoper). Examples; patient NOK and emergency contacts; guarantor contact; employer contact.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-CONC"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-CONC">CONC</a></td><td>connection</td><td><div><p>An adjacency of two Entities held together by a bond which attaches to each of the two entities.</p>
+<p><em>Examples:</em> biceps brachii muscle connected to the radius bone, port 3 on a network switch connected to port 5 on a patch panel.</p>
+<p><em>UsageConstraints:</em> See Adjacency for the assignment of scoper (larger, more central) and player (smaller, more distant).</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-CONT"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-CONT">CONT</a></td><td>content</td><td><div><p>Relates a material as the content (player) to a container (scoper). Unlike ingredients, the content and a container remain separate (not mixed) and the content can be removed from the container. A content is not part of an empty container.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-CONY"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-CONY">CONY</a></td><td>continuity</td><td><div><p>A connection between two regional parts.</p>
+<p><em>Examples:</em>  the connection between ascending aorta and the aortic arc, connection between descending colon and sigmoid.</p>
+<p><em>UsageConstraints:</em> See connection and adjacency for the assignment of player and scoper.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-COVPTY"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-COVPTY">COVPTY</a></td><td>covered party</td><td><div><p>A role class played by a person who receives benefit coverage under the terms of a particular insurance policy. The underwriter of that policy is the scoping entity. The covered party receives coverage because of some contractual or other relationship with the holder of that policy.</p>
+<p>*Discussion:*This reason for coverage is captured in 'Role.code' and a relationship link with type code of indirect authority should be included using the policy holder role as the source, and the covered party role as the target.</p>
+<p>Note that a particular policy may cover several individuals one of whom may be, but need not be, the policy holder. Thus the notion of covered party is a role that is distinct from that of the policy holder.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-CRINV"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-CRINV">CRINV</a></td><td>clinical research investigator</td><td><div><p>A role played by a provider, always a person, who has agency authority from a Clinical Research Sponsor to direct the conduct of a clinical research trial or study on behalf of the sponsor.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-CRSPNSR"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-CRSPNSR">CRSPNSR</a></td><td>clinical research sponsor</td><td><div><p>A role played by an entity, usually an organization, that is the sponsor of a clinical research trial or study. The sponsor commissions the study, bears the expenses, is responsible for satisfying all legal requirements concerning subject safety and privacy, and is generally responsible for collection, storage and analysis of the data generated during the trial. No scoper is necessary, as a clinical research sponsor undertakes the role on its own authority and declaration. Clinical research sponsors are usually educational or other research organizations, government agencies or biopharmaceutical companies.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-DEATHPLC"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-DEATHPLC">DEATHPLC</a></td><td>place of death</td><td><div><p>Definition: Relates a place (playing Entity) as the location where a living subject (scoping Entity) died.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-DEPEN"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-DEPEN">DEPEN</a></td><td>dependent</td><td><div><p><strong>Description:</strong> A role played by a person covered under a policy or program based on an association with a subscriber, which is recognized by the policy holder.</p>
+<p><strong>Note:</strong> The party playing the role of a dependent is not a claimant in the sense conveyed by the RoleClassCoveredParty CLAIM (claimant). However, a dependent may make a claim under a policy, e.g., a dependent under a health insurance policy may become the claimant for coverage under that policy for wellness examines or if injured and there is no liable third party. In the case of a dependent making a claim, a role type code INSCLM (insured claimant) subtypes the class to indicate that the dependent has filed a claim for services covered under the health insurance policy.</p>
+<p><strong>Example:</strong> The dependent has an association with the subscriber such as a financial dependency or personal relationship such as that of a spouse, or a natural or adopted child. The policy holder may be required by law to recognize certain associations or may have discretion about the associations. For example, a policy holder may dictate the criteria for the dependent status of adult children who are students, such as requiring full time enrollment, or may recognize domestic partners as dependents. Under certain circumstances, the dependent may be under the indirect authority of a responsible party acting as a surrogate for the subscriber, for example, if the subscriber is differently abled or deceased, a guardian ad Lidem or estate executor may be appointed to assume the subscriberaTMs legal standing in the relationship with the dependent.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-DSDLOC"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-DSDLOC">DSDLOC</a></td><td>dedicated service delivery location</td><td><div><p>A role of a place (player) that is intended to house the provision of services. Scoper is the Entity (typically Organization) that provides these services. This is not synonymous with &quot;ownership.&quot;</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-DST"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-DST">DST</a></td><td>distributed material</td><td><div><p>A material (player) distributed by a distributor (scoper) who functions between a manufacturer and a buyer or retailer.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-ECON"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-ECON">ECON</a></td><td>emergency contact</td><td><div><p>An entity to be contacted in the event of an emergency.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-EMP"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-EMP">EMP</a></td><td>employee</td><td><div><p>A relationship between a person or organization and a person or organization formed for the purpose of exchanging work for compensation. The purpose of the role is to identify the type of relationship the employee has to the employer, rather than the nature of the work actually performed. (Contrast with AssignedEntity.)</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-EQUIV"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-EQUIV">EQUIV</a></td><td>equivalent entity</td><td><div><p><strong>Description:</strong> Specifies the player Entity (the equivalent Entity) as an Entity that is considered to be equivalent to a reference Entity (scoper). The equivalence is in principle a symmetric relationship, however, it is expected that the scoper is a reference entity which serves as reference entity for multiple different equivalent entities.</p>
+<p><strong>Examples:</strong> An innovator's medicine formulation is the reference for &quot;generics&quot;, i.e., formulations manufactured differently but having been proven to be biologically equivalent to the reference medicine. Another example is a reference ingredient that serves as basis for quantity specifications (basis of strength, e.g., metoprolol succinate specified in terms of metoprolol tartrate.)</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-EXLOC"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-EXLOC">EXLOC</a></td><td>event location</td><td><div><p>A role played by a place at which the location of an event may be recorded.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-EXPAGTCAR"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-EXPAGTCAR">EXPAGTCAR</a></td><td>exposure agent carrier</td><td><div><p>An exposure agent carrier is an entity that is capable of conveying an exposure agent from one entity to another. The scoper of the role must be the exposure agent (e.g., pathogen).</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-EXPR"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-EXPR">EXPR</a></td><td>exposed entity</td><td><div><p>A role played by an entity that has been exposed to a person or animal suffering a contagious disease, or with a location from which a toxin has been distributed. The player of the role is normally a person or animal, but it is possible that other entity types could become exposed. The role is scoped by the source of the exposure, and it is quite possible for a person playing the role of exposed party to also become the scoper a role played by another person. That is to say, once a person has become infected, it is possible, perhaps likely, for that person to infect others.</p>
+<p>Management of exposures and tracking exposed parties is a key function within public health, and within most public health contexts - exposed parties are known as &quot;contacts.&quot;</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-EXPVECTOR"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-EXPVECTOR">EXPVECTOR</a></td><td>exposure vector</td><td><div><p><strong>Description:</strong> A vector is a living subject that carries an exposure agent. The vector does not cause the disease itself, but exposes targets to the exposure agent. A mosquito carrying malaria is an example of a vector. The scoper of the role must be the exposure agent (e.g., pathogen).</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-FLVR"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-FLVR">FLVR</a></td><td>flavor additive</td><td><div><p>A substance (player) added to a mixture (scoper) to make it taste a certain way. In food the use is obvious, in pharmaceuticals flavors can hide disgusting taste of the active ingredient (important in pediatric treatments).</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-FOMITE"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-FOMITE">FOMITE</a></td><td>fomite</td><td><div><p><strong>Description:</strong> A fomite is a non-living entity that is capable of conveying exposure agent from one entity to another. A doorknob contaminated with a Norovirus is an example of a fomite. Anyone touching the doorknob would be exposed to the virus. The scoper of the role must be the exposure agent (e.g., pathogen).</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-GEN"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-GEN">GEN</a></td><td>has generalization</td><td><div><p>Relates a specialized material concept (player) to its generalization (scoper).</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-GRIC"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-GRIC">GRIC</a></td><td>has generic</td><td><div><p>A special link between pharmaceuticals indicating that the target (scoper) is a generic for the source (player).</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-GUAR"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-GUAR">GUAR</a></td><td>guarantor</td><td><div><p>A person or organization (player) that serves as a financial guarantor for another person or organization (scoper).</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-GUARD"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-GUARD">GUARD</a></td><td>guardian</td><td><div><p>Guardian of a ward</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-HLD"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-HLD">HLD</a></td><td>held entity</td><td><div><p>Entity that is currently in the possession of a holder (scoper), who holds, or uses it, usually based on some agreement with the owner.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-HLTHCHRT"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-HLTHCHRT">HLTHCHRT</a></td><td>health chart</td><td><div><p>The role of a material (player) that is the physical health chart belonging to an organization (scoper).</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-IACT"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-IACT">IACT</a></td><td>inactive ingredient</td><td><div><p>An ingredient which is not considered therapeutically active, e.g., colors, flavors, stabilizers, or preservatives, fillers, or structural components added to an active ingredient in order to facilitate administration of the active ingredient but without being considered therapeutically active. An inactive ingredient need not be biologically inert, e.g., might be active as an allergen or might have a pleasant taste, but is not an essential constituent delivering the therapeutic effect.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-IDENT"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-IDENT">IDENT</a></td><td>identified entity</td><td><div><p>A role in which the scoping entity designates an identifier for a playing entity.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-INDIV"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-INDIV">INDIV</a></td><td>individual</td><td><div><p><strong>Description:</strong> A role played by a party covered under a policy as the policy holder. An individual may be either a person or an organization.</p>
+<p><strong>Note:</strong> The party playing the role of an individual insured is not a claimant in the sense conveyed by the RoleClassCoveredParty CLAIM (claimant). However, a named insured may make a claim under a policy, e.g., a party that is the named insured and policy holder under a comprehensive automobile insurance policy may become the claimant for coverage under that policy if injured in an automobile accident and there is no liable third party. In the case of an individual insured making a claim, a role type code INSCLM (insured claimant) subtypes the class to indicate that an individual insured has filed a claim for a loss.</p>
+<p><strong>Example:</strong> The individual insured under a comprehensive automobile, disability, or property and casualty policy that is the policy holder.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-INGR"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-INGR">INGR</a></td><td>ingredient</td><td><div><p>Relates a component (player) to a mixture (scoper). E.g., Glucose and Water are ingredients of D5W, latex may be an ingredient in a tracheal tube.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-INST"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-INST">INST</a></td><td>instance</td><td><div><p>An individual piece of material (player) instantiating a class of material (scoper).</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-INVSBJ"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-INVSBJ">INVSBJ</a></td><td>Investigation Subject</td><td><div><p>An entity that is the subject of an investigation. This role is scoped by the party responsible for the investigation.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-ISDLOC"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-ISDLOC">ISDLOC</a></td><td>incidental service delivery location</td><td><div><p>A role played by a place at which health care services may be provided without prior designation or authorization.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-ISLT"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-ISLT">ISLT</a></td><td>isolate</td><td><div><p>A microorganism that has been isolated from other microorganisms or a source matrix.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-LIC"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-LIC">LIC</a></td><td>licensed entity</td><td><div><p>A relationship in which the scoper certifies the player ( e. g. a medical care giver, a medical device or a provider organization) to perform certain activities that fall under the jurisdiction of the scoper (e.g., a health authority licensing healthcare providers, a medical quality authority certifying healthcare professionals).</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-LOCE"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-LOCE">LOCE</a></td><td>located entity</td><td><div><p>Relates an entity (player) to a location (scoper) at which it is present in some way. This presence may be limited in time.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-MANU"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-MANU">MANU</a></td><td>manufactured product</td><td><div><p>Scoped by the manufacturer</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-MBR"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-MBR">MBR</a></td><td>member</td><td><div><p>A role played by an entity that is a member of a group. The group provides the scope for this role.</p>
+<p>Among other uses, groups as used in insurance (groups of covered individuals) and in scheduling where resources may be grouped for scheduling and logistical purposes.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-MECH"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-MECH">MECH</a></td><td>mechanical ingredient</td><td><div><p>An ingredient (player) of a medication (scoper) that is inseparable from the active ingredients, but has no intended chemical or pharmaceutical effect itself, but which may have some systemic effect on the patient.</p>
+<p>An example is a collagen matrix used as a base for transplanting skin cells. The collagen matrix can be left permanently in the graft site. Because it is of bovine origin, the patient may exhibit allergies or may have cultural objections to its use.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-MIL"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-MIL">MIL</a></td><td>military person</td><td><div><p>A role played by a member of a military service. Scoper is the military service (e.g. Army, Navy, Air Force, etc.) or, more specifically, the unit (e.g. Company C, 3rd Battalion, 4th Division, etc.)</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-MNT"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-MNT">MNT</a></td><td>maintained entity</td><td><div><p>An entity (player) that is maintained by another entity (scoper). This is typical role held by durable equipment. The scoper assumes responsibility for proper operation, quality, and safety.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-NAMED"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-NAMED">NAMED</a></td><td>named insured</td><td><div><p><strong>Description:</strong> A role played by a party to an insurance policy to which the insurer agrees to indemnify for losses, provides benefits for, or renders services. A named insured may be either a person, non-person living subject, or an organization, or a group of persons, non-person living subjects, or organizations.</p>
+<p><strong>Discussion:</strong> The coded concept NAMED should not be used where a more specific child concept in this Specializable value set applies. In some cases, the named insured may not be the policy holder, e.g., where a policy holder purchases life insurance policy in which another party is the named insured and the policy holder is the beneficiary of the policy.</p>
+<p><strong>Note:</strong> The party playing the role of a named insured is not a claimant in the sense conveyed by the RoleClassCoveredParty CLAIM (claimant). However, a named insured may make a claim under a policy, e.g., e.g., a party that is the named insured and policy holder under a comprehensive automobile insurance policy may become the claimant for coverage under that policy e.g., if injured in an automobile accident and there is no liable third party. In the case of a named insured making a claim, a role type code INSCLM (insured claimant) subtypes the class to indicate that a named insured has filed a claim for a loss.</p>
+<p><strong>Example:</strong> The named insured under a comprehensive automobile, disability, or property and casualty policy that is the named insured and may or may not be the policy holder.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-NOK"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-NOK">NOK</a></td><td>next of kin</td><td><div><p>An individual designated for notification as the next of kin for a given entity.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-NOT"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-NOT">NOT</a></td><td>notary public</td><td><div/></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-OWN"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-OWN">OWN</a></td><td>owned entity</td><td><div><p>An Entity (player) for which someone (scoper) is granted by law the right to call the material (player) his own. This entitles the scoper to make decisions about the disposition of that material.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-PART"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-PART">PART</a></td><td>part</td><td><div><p><strong>Definition:</strong>  an association between two Entities where the playing Entity (the part) is a component of the whole (scoper) in the sense of an integral structural component, that is distinct from other parts in the same whole, has a distinct function in the whole, and, as an effect, the full integrity of the whole depends (to some degree) on the presence of this part, even though the part may often be separable from the whole.</p>
+<p><strong>Discussion:</strong> Part is defined in opposition to (a) ingredient (not separable), (b) content (not a functional component), and (c) member (not functionally distinct from other members).</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-PAT"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-PAT">PAT</a></td><td>patient</td><td><div><p>A Role of a LivingSubject (player) as an actual or potential recipient of health care services from a healthcare provider organization (scoper).</p>
+<p><em>Usage Note:</em> Communication about relationships between patients and specific healthcare practitioners (people) is not done via scoper. Instead this is generally done using the CareProvision act. This allows linkage between patient and a particular healthcare practitioner role and also allows description of the type of care involved in the relationship.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-PAYEE"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-PAYEE">PAYEE</a></td><td>payee</td><td><div><p>The role of an organization or individual designated to receive payment for a claim against a particular coverage. The scoping entity is the organization that is the submitter of the invoice in question.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-PAYOR"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-PAYOR">PAYOR</a></td><td>invoice payor</td><td><div><p>The role of an organization that undertakes to accept claims invoices, assess the coverage or payments due for those invoices and pay to the designated payees for those invoices. This role may be either the underwriter or a third-party organization authorized by the underwriter. The scoping entity is the organization that underwrites the claimed coverage.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-POLHOLD"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-POLHOLD">POLHOLD</a></td><td>policy holder</td><td><div><p>A role played by a person or organization that holds an insurance policy. The underwriter of that policy is the scoping entity.</p>
+<p>*Discussion:*The identifier of the policy is captured in 'Role.id' when the Role is a policy holder.</p>
+<p>A particular policy may cover several individuals one of whom may be, but need not be, the policy holder. Thus the notion of covered party is a role that is distinct from that of the policy holder.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-PROG"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-PROG">PROG</a></td><td>program eligible</td><td><div><p><strong>Description:</strong> A role played by a party that meets the eligibility criteria for coverage under a program. A program eligible may be either a person, non-person living subject, or an organization, or a group of persons, non-person living subjects, or organizations.</p>
+<p><strong>Discussion:</strong> A program as typically government administered coverage for parties determined eligible under the terms of the program.</p>
+<p><strong>Note:</strong> The party playing a program eligible is not a claimant in the sense conveyed by the RoleClassCoveredParty CLAIM (claimant). However a program eligible may make a claim under program, e.g., an unemployed worker may claim benefits under an unemployment insurance program, but parties playing these covered party role classes are not, for purposes of this vocabulary and in an effort to clearly distinguish role classes, considered claimants.</p>
+<p>In the case of a program eligible, a role type code INJWKR (injured worker) subtypes the class to indicate that the covered party in a workers compensation program is an injured worker, and as such, has filed a &quot;claim&quot; under the program for benefits. Likewise, a covered role type code UNEMP (unemployed worker) subtypes the program eligible class to indicate that the covered party in an unemployment insurance program has filed a claim for unemployment benefits.</p>
+<p><strong>Example:</strong> A party meeting eligibility criteria related to health or financial status, e.g., in the U.S., persons meeting health, demographic, or financial criteria established by state and federal law are eligible for Medicaid.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-PROV"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-PROV">PROV</a></td><td>healthcare provider</td><td><div><p>An Entity (player) that is authorized to provide health care services by some authorizing agency (scoper).</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-PRS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-PRS">PRS</a></td><td>personal relationship</td><td><div><p>Links two entities with classCode PSN (person) in a personal relationship. The character of the relationship must be defined by a PersonalRelationshipRoleType code. The player and scoper are determined by PersonalRelationshipRoleType code as well.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-PRSV"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-PRSV">PRSV</a></td><td>preservative</td><td><div><p>A substance (player) added to a mixture (scoper) to prevent microorganisms (fungi, bacteria) to spoil the mixture.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-QUAL"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-QUAL">QUAL</a></td><td>qualified entity</td><td><div><p>An entity (player) that has been recognized as having certain training/experience or other characteristics that would make said entity an appropriate performer for a certain activity. The scoper is an organization that educates or qualifies entities.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-RESBJ"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-RESBJ">RESBJ</a></td><td>research subject</td><td><div><p>**Definition:**Specifies the administrative functionality within a formal experimental design for which the ResearchSubject role was established.</p>
+<p><strong>Examples:</strong> Screening - role is used for pre-enrollment evaluation portion of the design; enrolled - role is used for subjects admitted to the experimental portion of the design.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-RET"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-RET">RET</a></td><td>retailed material</td><td><div><p>Material (player) sold by a retailer (scoper), who also give advice to prospective buyers.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-RGPR"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-RGPR">RGPR</a></td><td>regulated product</td><td><div><p>A product regulated by some governmentatl orgnization. The role is played by Material and scoped by Organization.</p>
+<p>Rationale: To support an entity clone used to identify the NDC number for a drug product.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-ROL"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-ROL">ROL</a></td><td>role</td><td><div><p>Corresponds to the Role class</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-SAME"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-SAME">SAME</a></td><td>same</td><td><div><p>The &quot;same&quot; role asserts an identity between playing and scoping entities, i.e., that they are in fact two records of the same entity instance, and, in the case of discrepancies (e.g different DOB, gender), that one or both are in error.</p>
+<p><em>Usage:</em></p>
+<p>playing and scoping entities must have same classCode, but need not have identical attributes or values.</p>
+<p><em>Example:</em></p>
+<p>a provider registry maintains sets of conflicting demographic data for what is reported to be the same individual.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-SDLOC"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-SDLOC">SDLOC</a></td><td>service delivery location</td><td><div><p>A role played by a place at which services may be provided.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-SELF"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-SELF">SELF</a></td><td>self</td><td><div><p>The &quot;same&quot; roleclass asserts an identity between playing and scoping entities: that they are in fact instances of the same entity and, in the case of discrepancies (e.g different DOB, gender), that one or both are in error.</p>
+<p><em>Usage:</em></p>
+<p>playing and scoping entities must have same classcode, but need not have identical attributes or values.</p>
+<p><em>Example:</em></p>
+<p>a provider registry maintains sets of conflicting demographic data for what is reported to be the same individual.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-SGNOFF"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-SGNOFF">SGNOFF</a></td><td>signing authority or officer</td><td><div><p>The role of a person (player) who is the officer or signature authority for of a scoping entity, usually an organization (scoper).</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-SPEC"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-SPEC">SPEC</a></td><td>specimen</td><td><div><p>A role played by a material entity that is a specimen for an act. It is scoped by the source of the specimen.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-SPNSR"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-SPNSR">SPNSR</a></td><td>coverage sponsor</td><td><div><p>A role played by an entity, usually an organization that is the sponsor of an insurance plan or a health program. A sponsor is the party that is ultimately accountable for the coverage by employment contract or by law. A sponsor can be an employer, union, government agency, or association. Fully insured sponsors establish the terms of the plan and contract with health insurance plans to assume the risk and to administer the plan. Self-insured sponsors delegate coverage administration, but not risk, to third-party administrators. Program sponsors designate services to be covered in accordance with statute. Program sponsors may administer the coverage themselves, delegate coverage administration, but not risk to third-party administrators, or contract with health insurance plans to assume the risk and administrator a program. Sponsors qualify individuals who may become</p>
+<ol>
+<li>a policy holder of the plan;</li>
+<li>where the sponsor is the policy holder, who may become a subscriber or a dependent to a policy under the plan; or</li>
+<li>where the sponsor is a government agency, who may become program eligibles under a program.</li>
+</ol>
+<p>The sponsor role may be further qualified by the SponsorRole.code. Entities playing the sponsor role may also play the role of a Coverage Administrator.</p>
+<p><em>Example:</em> An employer, union, government agency, or association.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-STBL"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-STBL">STBL</a></td><td>stabilizer</td><td><div><p>A stabilizer (player) added to a mixture (scoper) in order to prevent the molecular disintegration of the main substance.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-STD"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-STD">STD</a></td><td>student</td><td><div><p>A role played by an individual who is a student of a school, which is the scoping entity.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-STOR"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-STOR">STOR</a></td><td>stored entity</td><td><div><p>Relates an entity (player) (e.g. a device) to a location (scoper) at which it is normally found or stored when not used.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-SUBS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-SUBS">SUBS</a></td><td>subsumer</td><td><div><p>An entity that subsumes the identity of another. Used in the context of merging documented entity instances. Both the player and scoper must have the same classCode.</p>
+<p>The use of this code is <strong>deprecated</strong> in favor of the term SUBY which is its inverse and is more ontologically correct.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-SUBSCR"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-SUBSCR">SUBSCR</a></td><td>subscriber</td><td><div><p><strong>Description:</strong> A role played by a person covered under a policy based on association with a sponsor who is the policy holder, and whose association may provide for the eligibility of dependents for coverage.</p>
+<p><strong>Discussion:</strong> The policy holder holds the contract with the policy or program underwriter. The subscriber holds a certificate of coverage under the contract. In legal proceedings concerning the policy or program, the terms of the contract takes precedence over the terms of the certificate of coverage if there are any inconsistencies.</p>
+<p><strong>Note:</strong> The party playing the role of a subscriber is not a claimant in the sense conveyed by the RoleClassCoveredParty CLAIM (claimant). However, a subscriber may make a claim under a policy, e.g., a subscriber under a health insurance policy may become the claimant for coverage under that policy for wellness examines or if injured and there is no liable third party. In the case of a subscriber making a claim, a role type code INSCLM (insured claimant) subtypes the class to indicate that the subscriber has filed a claim for services covered under the health insurance policy.</p>
+<p><strong>Example:</strong> An employee or a member of an association.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-SUBY"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-SUBY">SUBY</a></td><td>subsumed by</td><td><div><p>Relates a prevailing record of an Entity (scoper) with another record (player) that it subsumes.</p>
+<p><em>Examples:</em> Show a correct new Person object (scoper) that subsumes one or more duplicate Person objects that had accidentally been created for the same physical person.</p>
+<p><em>Constraints:</em> Both the player and scoper must have the same classCode.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-TERR"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-TERR">TERR</a></td><td>territory of authority</td><td><div><p>Relates a place entity (player) as the region over which the scoper (typically an Organization) has certain authority (jurisdiction). For example, the Calgary Regional Health Authority (scoper) has authority over the territory &quot;Region 4 of Alberta&quot; (player) in matters of health.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-THER"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-THER">THER</a></td><td>therapeutic agent</td><td><div><p>A manufactured material (player) that is used for its therapeutic properties. The manufacturer is the scoper.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-UNDWRT"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-UNDWRT">UNDWRT</a></td><td>underwriter</td><td><div><p>A role played by a person or an organization. It is the party that</p>
+<ol>
+<li>accepts fiscal responsibility for insurance plans and the policies created under those plans;</li>
+<li>administers and accepts fiscal responsibility for a program that provides coverage for services to eligible individuals; and/or</li>
+<li>has the responsibility to assess the merits of each risk and decide a suitable premium for accepting all or part of the risk. If played by an organization, this role may be further specified by an appropriate RoleCode.</li>
+</ol>
+<p><em>Example:</em></p>
+<ol>
+<li>A health insurer;</li>
+<li>Medicaid Program;</li>
+<li>Lloyd's of London</li>
+</ol>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-USED"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-USED">USED</a></td><td>used entity</td><td><div><p>**Description:**An entity (player) that is used by another entity (scoper)</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-WRTE"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-WRTE">WRTE</a></td><td>warranted product</td><td><div><p>A role a product plays when a guarantee is given to the purchaser by the seller (scoping entity) stating that the product is reliable and free from known defects and that the seller will repair or replace defective parts within a given time limit and under certain conditions.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-_RoleClassAssociative"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-_RoleClassAssociative">_RoleClassAssociative</a></td><td>RoleClassAssociative</td><td><div><p>A general association between two entities that is neither partitive nor ontological.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-_RoleClassMutualRelationship"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-_RoleClassMutualRelationship">_RoleClassMutualRelationship</a></td><td>RoleClassMutualRelationship</td><td><div><p>A relationship that is based on mutual behavior of the two Entities as being related. The basis of such relationship may be agreements (e.g., spouses, contract parties) or they may be <em>de facto</em> behavior (e.g. friends) or may be an incidental involvement with each other (e.g. parties over a dispute, siblings, children).</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-_RoleClassOntological"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-_RoleClassOntological">_RoleClassOntological</a></td><td>RoleClassOntological</td><td><div><p>A relationship in which the scoping Entity defines or specifies what the playing Entity is. Thus, the player's &quot;being&quot; (Greek: ontos) is specified.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-_RoleClassPartitive"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-_RoleClassPartitive">_RoleClassPartitive</a></td><td>RoleClassPartitive</td><td><div><p>An association between two Entities where the playing Entity is considered in some way &quot;part&quot; of the scoping Entity, e.g., as a member, component, ingredient, or content. Being &quot;part&quot; in the broadest sense of the word can mean anything from being an integral structural component to a mere incidental temporary association of a playing Entity with a (generally larger) scoping Entity.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-_RoleClassPassive"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-_RoleClassPassive">_RoleClassPassive</a></td><td>RoleClassPassive</td><td><div><p>An association for a playing Entity that is used, known, treated, handled, built, or destroyed, etc. under the auspices of the scoping Entity. The playing Entity is passive in these roles (even though it may be active in other roles), in the sense that the kinds of things done to it in this role happen without an agreement from the playing Entity.</p>
+</div></td></tr><tr><td><a name="R5-v3-RoleClassRoot-for-R4-http://terminology.hl7.org/CodeSystem/v3-RoleClass-_RoleClassRelationshipFormal"> </a><code>http://terminology.hl7.org/CodeSystem/v3-RoleClass</code></td><td>3.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-RoleClass.html#v3-RoleClass-_RoleClassRelationshipFormal">_RoleClassRelationshipFormal</a></td><td>RoleClassRelationshipFormal</td><td><div><p>A relationship between two entities that is formally recognized, frequently by a contract or similar agreement.</p>
+</div></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-RoleClassRoot-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5V3RoleClassRootForR4"/>
+  <title value="Cross-version ValueSet R5.RoleClassRoot for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v3-RoleClassRoot|2.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://terminology.hl7.org/ValueSet/v3-RoleClassRoot|2.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* &#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;&#xA;FHIR ValueSet `http://terminology.hl7.org/ValueSet/v3-RoleClassRoot|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <concept>
+        <code value="ACCESS"/>
+        <display value="access"/>
+      </concept>
+      <concept>
+        <code value="ACTI"/>
+        <display value="active ingredient"/>
+      </concept>
+      <concept>
+        <code value="ACTIB"/>
+        <display value="active ingredient - basis of strength"/>
+      </concept>
+      <concept>
+        <code value="ACTIM"/>
+        <display value="active ingredient - moiety is basis of strength"/>
+      </concept>
+      <concept>
+        <code value="ACTIR"/>
+        <display value="active ingredient - reference substance is basis of strength"/>
+      </concept>
+      <concept>
+        <code value="ACTM"/>
+        <display value="active moiety"/>
+      </concept>
+      <concept>
+        <code value="ADJV"/>
+        <display value="adjuvant"/>
+      </concept>
+      <concept>
+        <code value="ADJY"/>
+        <display value="adjacency"/>
+      </concept>
+      <concept>
+        <code value="ADMM"/>
+        <display value="Administerable Material"/>
+      </concept>
+      <concept>
+        <code value="ADTV"/>
+        <display value="additive"/>
+      </concept>
+      <concept>
+        <code value="AFFL"/>
+        <display value="affiliate"/>
+      </concept>
+      <concept>
+        <code value="AGNT"/>
+        <display value="agent"/>
+      </concept>
+      <concept>
+        <code value="ALQT"/>
+        <display value="aliquot"/>
+      </concept>
+      <concept>
+        <code value="ASSIGNED"/>
+        <display value="assigned entity"/>
+      </concept>
+      <concept>
+        <code value="BASE"/>
+        <display value="base"/>
+      </concept>
+      <concept>
+        <code value="BIRTHPL"/>
+        <display value="birthplace"/>
+      </concept>
+      <concept>
+        <code value="BOND"/>
+        <display value="molecular bond"/>
+      </concept>
+      <concept>
+        <code value="CAREGIVER"/>
+        <display value="caregiver"/>
+      </concept>
+      <concept>
+        <code value="CASEBJ"/>
+        <display value="Case Subject"/>
+      </concept>
+      <concept>
+        <code value="CIT"/>
+        <display value="citizen"/>
+      </concept>
+      <concept>
+        <code value="CLAIM"/>
+        <display value="claimant"/>
+      </concept>
+      <concept>
+        <code value="CNTM"/>
+        <display value="contaminant ingredient"/>
+      </concept>
+      <concept>
+        <code value="COLR"/>
+        <display value="color additive"/>
+      </concept>
+      <concept>
+        <code value="COMPAR"/>
+        <display value="commissioning party"/>
+      </concept>
+      <concept>
+        <code value="CON"/>
+        <display value="contact"/>
+      </concept>
+      <concept>
+        <code value="CONC"/>
+        <display value="connection"/>
+      </concept>
+      <concept>
+        <code value="CONT"/>
+        <display value="content"/>
+      </concept>
+      <concept>
+        <code value="CONY"/>
+        <display value="continuity"/>
+      </concept>
+      <concept>
+        <code value="COVPTY"/>
+        <display value="covered party"/>
+      </concept>
+      <concept>
+        <code value="CRINV"/>
+        <display value="clinical research investigator"/>
+      </concept>
+      <concept>
+        <code value="CRSPNSR"/>
+        <display value="clinical research sponsor"/>
+      </concept>
+      <concept>
+        <code value="DEATHPLC"/>
+        <display value="place of death"/>
+      </concept>
+      <concept>
+        <code value="DEPEN"/>
+        <display value="dependent"/>
+      </concept>
+      <concept>
+        <code value="DSDLOC"/>
+        <display value="dedicated service delivery location"/>
+      </concept>
+      <concept>
+        <code value="DST"/>
+        <display value="distributed material"/>
+      </concept>
+      <concept>
+        <code value="ECON"/>
+        <display value="emergency contact"/>
+      </concept>
+      <concept>
+        <code value="EMP"/>
+        <display value="employee"/>
+      </concept>
+      <concept>
+        <code value="EQUIV"/>
+        <display value="equivalent entity"/>
+      </concept>
+      <concept>
+        <code value="EXLOC"/>
+        <display value="event location"/>
+      </concept>
+      <concept>
+        <code value="EXPAGTCAR"/>
+        <display value="exposure agent carrier"/>
+      </concept>
+      <concept>
+        <code value="EXPR"/>
+        <display value="exposed entity"/>
+      </concept>
+      <concept>
+        <code value="EXPVECTOR"/>
+        <display value="exposure vector"/>
+      </concept>
+      <concept>
+        <code value="FLVR"/>
+        <display value="flavor additive"/>
+      </concept>
+      <concept>
+        <code value="FOMITE"/>
+        <display value="fomite"/>
+      </concept>
+      <concept>
+        <code value="GEN"/>
+        <display value="has generalization"/>
+      </concept>
+      <concept>
+        <code value="GRIC"/>
+        <display value="has generic"/>
+      </concept>
+      <concept>
+        <code value="GUAR"/>
+        <display value="guarantor"/>
+      </concept>
+      <concept>
+        <code value="GUARD"/>
+        <display value="guardian"/>
+      </concept>
+      <concept>
+        <code value="HLD"/>
+        <display value="held entity"/>
+      </concept>
+      <concept>
+        <code value="HLTHCHRT"/>
+        <display value="health chart"/>
+      </concept>
+      <concept>
+        <code value="IACT"/>
+        <display value="inactive ingredient"/>
+      </concept>
+      <concept>
+        <code value="IDENT"/>
+        <display value="identified entity"/>
+      </concept>
+      <concept>
+        <code value="INDIV"/>
+        <display value="individual"/>
+      </concept>
+      <concept>
+        <code value="INGR"/>
+        <display value="ingredient"/>
+      </concept>
+      <concept>
+        <code value="INST"/>
+        <display value="instance"/>
+      </concept>
+      <concept>
+        <code value="INVSBJ"/>
+        <display value="Investigation Subject"/>
+      </concept>
+      <concept>
+        <code value="ISDLOC"/>
+        <display value="incidental service delivery location"/>
+      </concept>
+      <concept>
+        <code value="ISLT"/>
+        <display value="isolate"/>
+      </concept>
+      <concept>
+        <code value="LIC"/>
+        <display value="licensed entity"/>
+      </concept>
+      <concept>
+        <code value="LOCE"/>
+        <display value="located entity"/>
+      </concept>
+      <concept>
+        <code value="MANU"/>
+        <display value="manufactured product"/>
+      </concept>
+      <concept>
+        <code value="MBR"/>
+        <display value="member"/>
+      </concept>
+      <concept>
+        <code value="MECH"/>
+        <display value="mechanical ingredient"/>
+      </concept>
+      <concept>
+        <code value="MIL"/>
+        <display value="military person"/>
+      </concept>
+      <concept>
+        <code value="MNT"/>
+        <display value="maintained entity"/>
+      </concept>
+      <concept>
+        <code value="NAMED"/>
+        <display value="named insured"/>
+      </concept>
+      <concept>
+        <code value="NOK"/>
+        <display value="next of kin"/>
+      </concept>
+      <concept>
+        <code value="NOT"/>
+        <display value="notary public"/>
+      </concept>
+      <concept>
+        <code value="OWN"/>
+        <display value="owned entity"/>
+      </concept>
+      <concept>
+        <code value="PART"/>
+        <display value="part"/>
+      </concept>
+      <concept>
+        <code value="PAT"/>
+        <display value="patient"/>
+      </concept>
+      <concept>
+        <code value="PAYEE"/>
+        <display value="payee"/>
+      </concept>
+      <concept>
+        <code value="PAYOR"/>
+        <display value="invoice payor"/>
+      </concept>
+      <concept>
+        <code value="POLHOLD"/>
+        <display value="policy holder"/>
+      </concept>
+      <concept>
+        <code value="PROG"/>
+        <display value="program eligible"/>
+      </concept>
+      <concept>
+        <code value="PROV"/>
+        <display value="healthcare provider"/>
+      </concept>
+      <concept>
+        <code value="PRS"/>
+        <display value="personal relationship"/>
+      </concept>
+      <concept>
+        <code value="PRSV"/>
+        <display value="preservative"/>
+      </concept>
+      <concept>
+        <code value="QUAL"/>
+        <display value="qualified entity"/>
+      </concept>
+      <concept>
+        <code value="RESBJ"/>
+        <display value="research subject"/>
+      </concept>
+      <concept>
+        <code value="RET"/>
+        <display value="retailed material"/>
+      </concept>
+      <concept>
+        <code value="RGPR"/>
+        <display value="regulated product"/>
+      </concept>
+      <concept>
+        <code value="ROL"/>
+        <display value="role"/>
+      </concept>
+      <concept>
+        <code value="SAME"/>
+        <display value="same"/>
+      </concept>
+      <concept>
+        <code value="SDLOC"/>
+        <display value="service delivery location"/>
+      </concept>
+      <concept>
+        <code value="SELF"/>
+        <display value="self"/>
+      </concept>
+      <concept>
+        <code value="SGNOFF"/>
+        <display value="signing authority or officer"/>
+      </concept>
+      <concept>
+        <code value="SPEC"/>
+        <display value="specimen"/>
+      </concept>
+      <concept>
+        <code value="SPNSR"/>
+        <display value="coverage sponsor"/>
+      </concept>
+      <concept>
+        <code value="STBL"/>
+        <display value="stabilizer"/>
+      </concept>
+      <concept>
+        <code value="STD"/>
+        <display value="student"/>
+      </concept>
+      <concept>
+        <code value="STOR"/>
+        <display value="stored entity"/>
+      </concept>
+      <concept>
+        <code value="SUBS"/>
+        <display value="subsumer"/>
+      </concept>
+      <concept>
+        <code value="SUBSCR"/>
+        <display value="subscriber"/>
+      </concept>
+      <concept>
+        <code value="SUBY"/>
+        <display value="subsumed by"/>
+      </concept>
+      <concept>
+        <code value="TERR"/>
+        <display value="territory of authority"/>
+      </concept>
+      <concept>
+        <code value="THER"/>
+        <display value="therapeutic agent"/>
+      </concept>
+      <concept>
+        <code value="UNDWRT"/>
+        <display value="underwriter"/>
+      </concept>
+      <concept>
+        <code value="USED"/>
+        <display value="used entity"/>
+      </concept>
+      <concept>
+        <code value="WRTE"/>
+        <display value="warranted product"/>
+      </concept>
+      <concept>
+        <code value="_RoleClassAssociative"/>
+        <display value="RoleClassAssociative"/>
+      </concept>
+      <concept>
+        <code value="_RoleClassMutualRelationship"/>
+        <display value="RoleClassMutualRelationship"/>
+      </concept>
+      <concept>
+        <code value="_RoleClassOntological"/>
+        <display value="RoleClassOntological"/>
+      </concept>
+      <concept>
+        <code value="_RoleClassPartitive"/>
+        <display value="RoleClassPartitive"/>
+      </concept>
+      <concept>
+        <code value="_RoleClassPassive"/>
+        <display value="RoleClassPassive"/>
+      </concept>
+      <concept>
+        <code value="_RoleClassRelationshipFormal"/>
+        <display value="RoleClassRelationshipFormal"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="ACCESS"/>
+      <display value="access"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="ACTI"/>
+      <display value="active ingredient"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="ACTIB"/>
+      <display value="active ingredient - basis of strength"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="ACTIM"/>
+      <display value="active ingredient - moiety is basis of strength"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="ACTIR"/>
+      <display value="active ingredient - reference substance is basis of strength"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="ACTM"/>
+      <display value="active moiety"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="ADJV"/>
+      <display value="adjuvant"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="ADJY"/>
+      <display value="adjacency"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="ADMM"/>
+      <display value="Administerable Material"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="ADTV"/>
+      <display value="additive"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="AFFL"/>
+      <display value="affiliate"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="AGNT"/>
+      <display value="agent"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="ALQT"/>
+      <display value="aliquot"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="ASSIGNED"/>
+      <display value="assigned entity"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="BASE"/>
+      <display value="base"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="BIRTHPL"/>
+      <display value="birthplace"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="BOND"/>
+      <display value="molecular bond"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="CAREGIVER"/>
+      <display value="caregiver"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="CASEBJ"/>
+      <display value="Case Subject"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="CIT"/>
+      <display value="citizen"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="CLAIM"/>
+      <display value="claimant"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="CNTM"/>
+      <display value="contaminant ingredient"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="COLR"/>
+      <display value="color additive"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="COMPAR"/>
+      <display value="commissioning party"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="CON"/>
+      <display value="contact"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="CONC"/>
+      <display value="connection"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="CONT"/>
+      <display value="content"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="CONY"/>
+      <display value="continuity"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="COVPTY"/>
+      <display value="covered party"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="CRINV"/>
+      <display value="clinical research investigator"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="CRSPNSR"/>
+      <display value="clinical research sponsor"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="DEATHPLC"/>
+      <display value="place of death"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="DEPEN"/>
+      <display value="dependent"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="DSDLOC"/>
+      <display value="dedicated service delivery location"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="DST"/>
+      <display value="distributed material"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="ECON"/>
+      <display value="emergency contact"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="EMP"/>
+      <display value="employee"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="EQUIV"/>
+      <display value="equivalent entity"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="EXLOC"/>
+      <display value="event location"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="EXPAGTCAR"/>
+      <display value="exposure agent carrier"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="EXPR"/>
+      <display value="exposed entity"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="EXPVECTOR"/>
+      <display value="exposure vector"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="FLVR"/>
+      <display value="flavor additive"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="FOMITE"/>
+      <display value="fomite"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="GEN"/>
+      <display value="has generalization"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="GRIC"/>
+      <display value="has generic"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="GUAR"/>
+      <display value="guarantor"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="GUARD"/>
+      <display value="guardian"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="HLD"/>
+      <display value="held entity"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="HLTHCHRT"/>
+      <display value="health chart"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="IACT"/>
+      <display value="inactive ingredient"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="IDENT"/>
+      <display value="identified entity"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="INDIV"/>
+      <display value="individual"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="INGR"/>
+      <display value="ingredient"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="INST"/>
+      <display value="instance"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="INVSBJ"/>
+      <display value="Investigation Subject"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="ISDLOC"/>
+      <display value="incidental service delivery location"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="ISLT"/>
+      <display value="isolate"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="LIC"/>
+      <display value="licensed entity"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="LOCE"/>
+      <display value="located entity"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="MANU"/>
+      <display value="manufactured product"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="MBR"/>
+      <display value="member"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="MECH"/>
+      <display value="mechanical ingredient"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="MIL"/>
+      <display value="military person"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="MNT"/>
+      <display value="maintained entity"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="NAMED"/>
+      <display value="named insured"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="NOK"/>
+      <display value="next of kin"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="NOT"/>
+      <display value="notary public"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="OWN"/>
+      <display value="owned entity"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="PART"/>
+      <display value="part"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="PAT"/>
+      <display value="patient"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="PAYEE"/>
+      <display value="payee"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="PAYOR"/>
+      <display value="invoice payor"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="POLHOLD"/>
+      <display value="policy holder"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="PROG"/>
+      <display value="program eligible"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="PROV"/>
+      <display value="healthcare provider"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="PRS"/>
+      <display value="personal relationship"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="PRSV"/>
+      <display value="preservative"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="QUAL"/>
+      <display value="qualified entity"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="RESBJ"/>
+      <display value="research subject"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="RET"/>
+      <display value="retailed material"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="RGPR"/>
+      <display value="regulated product"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="ROL"/>
+      <display value="role"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="SAME"/>
+      <display value="same"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="SDLOC"/>
+      <display value="service delivery location"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="SELF"/>
+      <display value="self"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="SGNOFF"/>
+      <display value="signing authority or officer"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="SPEC"/>
+      <display value="specimen"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="SPNSR"/>
+      <display value="coverage sponsor"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="STBL"/>
+      <display value="stabilizer"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="STD"/>
+      <display value="student"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="STOR"/>
+      <display value="stored entity"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="SUBS"/>
+      <display value="subsumer"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="SUBSCR"/>
+      <display value="subscriber"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="SUBY"/>
+      <display value="subsumed by"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="TERR"/>
+      <display value="territory of authority"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="THER"/>
+      <display value="therapeutic agent"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="UNDWRT"/>
+      <display value="underwriter"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="USED"/>
+      <display value="used entity"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="WRTE"/>
+      <display value="warranted product"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="_RoleClassAssociative"/>
+      <display value="RoleClassAssociative"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="_RoleClassMutualRelationship"/>
+      <display value="RoleClassMutualRelationship"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="_RoleClassOntological"/>
+      <display value="RoleClassOntological"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="_RoleClassPartitive"/>
+      <display value="RoleClassPartitive"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="_RoleClassPassive"/>
+      <display value="RoleClassPassive"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <version value="3.1.0"/>
+      <code value="_RoleClassRelationshipFormal"/>
+      <display value="RoleClassRelationshipFormal"/>
+    </contains>
+  </expansion>
+</ValueSet>

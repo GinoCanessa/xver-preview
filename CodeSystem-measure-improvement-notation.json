@@ -26,21 +26,21 @@
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-    "valueCode" : "fhir"
+    "valueCode" : "cqi"
   }],
   "url" : "http://terminology.hl7.org/CodeSystem/measure-improvement-notation",
-  "version" : "0.0.1-snapshot-3",
+  "version" : "0.1.0",
   "name" : "MeasureImprovementNotation",
   "title" : "MeasureImprovementNotation",
   "status" : "draft",
   "experimental" : false,
   "date" : "2020-04-09T16:10:28-05:00",
-  "publisher" : "FHIR Infrastructure",
+  "publisher" : "Clinical Quality Information",
   "contact" : [{
-    "name" : "FHIR Infrastructure",
+    "name" : "Clinical Quality Information",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://www.hl7.org/Special/committees/fiwg"
+      "value" : "http://www.hl7.org/Special/committees/cqi"
     }]
   }],
   "description" : "Observation values that indicate what change in a measurement value or score is indicative of an improvement in the measured item or scored issue.",
@@ -52,7 +52,7 @@
     }]
   }],
   "caseSensitive" : true,
-  "valueSet" : "http://terminology.hl7.org/ValueSet/measure-improvement-notation",
+  "valueSet" : "http://terminology.hl7.org/ValueSet/measure-improvement-notation|1.0.1",
   "content" : "complete",
   "concept" : [{
     "code" : "increase",

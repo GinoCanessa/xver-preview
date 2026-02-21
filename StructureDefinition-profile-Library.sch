@@ -9,11 +9,4 @@
     you may need to use this schematron fragment to build a, 
     single schematron that validates contained resources (if you have any) 
   -->
-  <sch:pattern>
-    <sch:title>f:Library</sch:title>
-    <sch:rule context="f:Library">
-      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm': maximum cardinality of 'extension' is 1</sch:assert>
-    </sch:rule>
-  </sch:pattern>
 </sch:schema>

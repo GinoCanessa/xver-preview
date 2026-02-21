@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-transport-intent-for-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-transport-intent-for-R4</b></p><a name="R5-transport-intent-for-R4"> </a><a name="hcR5-transport-intent-for-R4"> </a><p>This value set expansion contains 9 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="R5-transport-intent-for-R4-http://hl7.org/fhir/request-intent-filler-order"> </a><code>http://hl7.org/fhir/request-intent</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-request-intent.html#request-intent-filler-order">filler-order</a></td><td>Filler Order</td><td><div><p>The request represents the view of an authorization instantiated by a fulfilling system representing the details of the fulfiller's intention to act upon a submitted order.</p>
+</div></td></tr><tr><td><a name="R5-transport-intent-for-R4-http://hl7.org/fhir/request-intent-instance-order"> </a><code>http://hl7.org/fhir/request-intent</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-request-intent.html#request-intent-instance-order">instance-order</a></td><td>Instance Order</td><td><div><p>An order created in fulfillment of a broader order that represents the authorization for a single activity occurrence.  E.g. The administration of a single dose of a drug.</p>
+</div></td></tr><tr><td><a name="R5-transport-intent-for-R4-http://hl7.org/fhir/request-intent-option"> </a><code>http://hl7.org/fhir/request-intent</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-request-intent.html#request-intent-option">option</a></td><td>Option</td><td><div><p>The request represents a component or option for a RequestOrchestration that establishes timing, conditionality and/or other constraints among a set of requests.  Refer to <a href="https://hl7.org/fhir/R5/RequestOrchestration.html">RequestOrchestration</a> for additional information on how this status is used.</p>
+</div></td></tr><tr><td><a name="R5-transport-intent-for-R4-http://hl7.org/fhir/request-intent-order"> </a><code>http://hl7.org/fhir/request-intent</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-request-intent.html#request-intent-order">order</a></td><td>Order</td><td><div><p>The request represents a request/demand and authorization for action by the requestor.</p>
+</div></td></tr><tr><td><a name="R5-transport-intent-for-R4-http://hl7.org/fhir/request-intent-original-order"> </a><code>http://hl7.org/fhir/request-intent</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-request-intent.html#request-intent-original-order">original-order</a></td><td>Original Order</td><td><div><p>The request represents an original authorization for action.</p>
+</div></td></tr><tr><td><a name="R5-transport-intent-for-R4-http://hl7.org/fhir/request-intent-plan"> </a><code>http://hl7.org/fhir/request-intent</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-request-intent.html#request-intent-plan">plan</a></td><td>Plan</td><td><div><p>The request represents an intention to ensure something occurs without providing an authorization for others to act.</p>
+</div></td></tr><tr><td><a name="R5-transport-intent-for-R4-http://hl7.org/fhir/request-intent-proposal"> </a><code>http://hl7.org/fhir/request-intent</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-request-intent.html#request-intent-proposal">proposal</a></td><td>Proposal</td><td><div><p>The request is a suggestion made by someone/something that does not have an intention to ensure it occurs and without providing an authorization to act.</p>
+</div></td></tr><tr><td><a name="R5-transport-intent-for-R4-http://hl7.org/fhir/request-intent-reflex-order"> </a><code>http://hl7.org/fhir/request-intent</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-request-intent.html#request-intent-reflex-order">reflex-order</a></td><td>Reflex Order</td><td><div><p>The request represents an automatically generated supplemental authorization for action based on a parent authorization together with initial results of the action taken against that parent authorization.</p>
+</div></td></tr><tr><td><a name="R5-transport-intent-for-R4-http://hl7.org/fhir/transport-intent-unknown"> </a><code>http://hl7.org/fhir/transport-intent</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-transport-intent.html#transport-intent-unknown">unknown</a></td><td>Unknown</td><td>The intent is not known.  When dealing with Transport, it's not always known (or relevant) how the transport was initiated - i.e. whether it was proposed, planned, ordered or just done spontaneously.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-transport-intent-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5TransportIntentForR4"/>
+  <title value="Cross-version ValueSet R5.TransportIntent for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="Orders and Observations"/>
+  <contact>
+    <name value="Orders and Observations"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/orders"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/transport-intent|5.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/transport-intent|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `Transport.intent`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;&#xA;FHIR ValueSet `http://hl7.org/fhir/ValueSet/transport-intent|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/request-intent"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="filler-order"/>
+        <display value="Filler Order"/>
+      </concept>
+      <concept>
+        <code value="instance-order"/>
+        <display value="Instance Order"/>
+      </concept>
+      <concept>
+        <code value="option"/>
+        <display value="Option"/>
+      </concept>
+      <concept>
+        <code value="order"/>
+        <display value="Order"/>
+      </concept>
+      <concept>
+        <code value="original-order"/>
+        <display value="Original Order"/>
+      </concept>
+      <concept>
+        <code value="plan"/>
+        <display value="Plan"/>
+      </concept>
+      <concept>
+        <code value="proposal"/>
+        <display value="Proposal"/>
+      </concept>
+      <concept>
+        <code value="reflex-order"/>
+        <display value="Reflex Order"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://hl7.org/fhir/transport-intent"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="unknown"/>
+        <display value="Unknown"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/request-intent"/>
+      <version value="5.0.0"/>
+      <code value="filler-order"/>
+      <display value="Filler Order"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/request-intent"/>
+      <version value="5.0.0"/>
+      <code value="instance-order"/>
+      <display value="Instance Order"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/request-intent"/>
+      <version value="5.0.0"/>
+      <code value="option"/>
+      <display value="Option"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/request-intent"/>
+      <version value="5.0.0"/>
+      <code value="order"/>
+      <display value="Order"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/request-intent"/>
+      <version value="5.0.0"/>
+      <code value="original-order"/>
+      <display value="Original Order"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/request-intent"/>
+      <version value="5.0.0"/>
+      <code value="plan"/>
+      <display value="Plan"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/request-intent"/>
+      <version value="5.0.0"/>
+      <code value="proposal"/>
+      <display value="Proposal"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/request-intent"/>
+      <version value="5.0.0"/>
+      <code value="reflex-order"/>
+      <display value="Reflex Order"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/transport-intent"/>
+      <version value="5.0.0"/>
+      <code value="unknown"/>
+      <display value="Unknown"/>
+    </contains>
+  </expansion>
+</ValueSet>

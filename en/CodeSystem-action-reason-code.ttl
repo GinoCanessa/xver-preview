@@ -1,0 +1,137 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/action-reason-code> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "action-reason-code"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <p>This code system \n              <code>http://hl7.org/fhir/action-reason-code</code> defines the following codes:\n            </p>\n            <table class=\"codes\">\n              <tr>\n                <td style=\"white-space:nowrap\">\n                  <b>Code</b>\n                </td>\n                <td>\n                  <b>Display</b>\n                </td>\n                <td>\n                  <b>Definition</b>\n                </td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">off-pathway\n                  <a name=\"action-reason-code-off-pathway\"> </a>\n                </td>\n                <td>Off pathway</td>\n                <td>The action should be performed because the patient was determined to be off pathway.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">risk-assessment\n                  <a name=\"action-reason-code-risk-assessment\"> </a>\n                </td>\n                <td>Risk assessment</td>\n                <td>The action should be performed based on a particular risk assessment.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">care-gap\n                  <a name=\"action-reason-code-care-gap\"> </a>\n                </td>\n                <td>Care gap detected</td>\n                <td>The action should be performed to address a detected care gap.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">drug-drug-interaction\n                  <a name=\"action-reason-code-drug-drug-interaction\"> </a>\n                </td>\n                <td>Drug-drug interaction</td>\n                <td>The action should be performed to address a detected potential drug-drug interaction.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">quality-measure\n                  <a name=\"action-reason-code-quality-measure\"> </a>\n                </td>\n                <td>Quality measure</td>\n                <td>The action should be performed to bring the patient's care in line with a quality measure.</td>\n              </tr>\n            </table>\n          </div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "draft"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "cds"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/action-reason-code"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/action-reason-code>
+  ] ; # 
+  fhir:version [ fhir:v "5.0.0"] ; # 
+  fhir:name [ fhir:v "ActionReasonCode"] ; # 
+  fhir:title [ fhir:v "Action Reason Code"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2020-12-27T23:55:11-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Clinical Decision Support"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Clinical Decision Support" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/dss" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Provides examples of reasons for actions to be performed."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://hl7.org/fhir/ValueSet/action-reason-code"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/action-reason-code>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "off-pathway" ] ;
+     fhir:display [ fhir:v "Off pathway" ] ;
+     fhir:definition [ fhir:v "The action should be performed because the patient was determined to be off pathway." ]
+  ] [
+     fhir:code [ fhir:v "risk-assessment" ] ;
+     fhir:display [ fhir:v "Risk assessment" ] ;
+     fhir:definition [ fhir:v "The action should be performed based on a particular risk assessment." ]
+  ] [
+     fhir:code [ fhir:v "care-gap" ] ;
+     fhir:display [ fhir:v "Care gap detected" ] ;
+     fhir:definition [ fhir:v "The action should be performed to address a detected care gap." ]
+  ] [
+     fhir:code [ fhir:v "drug-drug-interaction" ] ;
+     fhir:display [ fhir:v "Drug-drug interaction" ] ;
+     fhir:definition [ fhir:v "The action should be performed to address a detected potential drug-drug interaction." ]
+  ] [
+     fhir:code [ fhir:v "quality-measure" ] ;
+     fhir:display [ fhir:v "Quality measure" ] ;
+     fhir:definition [ fhir:v "The action should be performed to bring the patient's care in line with a quality measure." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

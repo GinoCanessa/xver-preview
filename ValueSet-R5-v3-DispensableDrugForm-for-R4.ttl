@@ -1,0 +1,1851 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-DispensableDrugForm-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-v3-DispensableDrugForm-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-v3-DispensableDrugForm-for-R4</b></p><a name=\"R5-v3-DispensableDrugForm-for-R4\"> </a><a name=\"hcR5-v3-DispensableDrugForm-for-R4\"> </a><p>This value set expansion contains 155 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-AER\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  AER</td><td>Aerosol</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-BAINHL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BAINHL</td><td>Breath Activated Inhaler</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-BAINHLPWD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BAINHLPWD</td><td>Breath Activated Powder Inhaler</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-BAR\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BAR</td><td>Bar</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-BARSOAP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BARSOAP</td><td>Bar Soap</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-BEAD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BEAD</td><td>Beads</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-BUCTAB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  BUCTAB</td><td>Buccal Tablet</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-CAKE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CAKE</td><td>Cake</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-CAP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CAP</td><td>Capsule</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-CAPLET\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CAPLET</td><td>Caplet</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-CEMENT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CEMENT</td><td>Cement</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-CHEWBAR\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CHEWBAR</td><td>Chewable Bar</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-CHEWTAB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CHEWTAB</td><td>Chewable Tablet</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-CPTAB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CPTAB</td><td>Coated Particles Tablet</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-CRM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CRM</td><td>Cream</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-CRYS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CRYS</td><td>Crystals</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-DERMSPRY\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  DERMSPRY</td><td>Dermal Spray</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-DISINTAB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  DISINTAB</td><td>Disintegrating Tablet</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-DISK\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  DISK</td><td>Disk</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-DOUCHE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  DOUCHE</td><td>Douche</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-DROP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  DROP</td><td>Drops</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-DRTAB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  DRTAB</td><td>Delayed Release Tablet</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-ECTAB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ECTAB</td><td>Enteric Coated Tablet</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-ELIXIR\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ELIXIR</td><td>Elixir</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-ENEMA\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ENEMA</td><td>Enema</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-ENTCAP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ENTCAP</td><td>Enteric Coated Capsule</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-ERCAP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ERCAP</td><td>Extended Release Capsule</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-ERCAP12\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ERCAP12</td><td>12 Hour Extended Release Capsule</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-ERCAP24\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ERCAP24</td><td>24 Hour Extended Release Capsule</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-ERECCAP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ERECCAP</td><td>Extended Release Enteric Coated Capsule</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-ERECTAB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ERECTAB</td><td>Extended Release Enteric Coated Tablet</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-ERENTCAP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ERENTCAP</td><td>Extended Release Enteric Coated Capsule</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-ERSUSP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ERSUSP</td><td>Extended-Release Suspension</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-ERSUSP12\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ERSUSP12</td><td>12 Hour Extended-Release Suspension</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-ERSUSP24\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ERSUSP24</td><td>24 Hour Extended Release Suspension</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-ERTAB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ERTAB</td><td>Extended Release Tablet</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-ERTAB12\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ERTAB12</td><td>12 Hour Extended Release Tablet</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-ERTAB24\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ERTAB24</td><td>24 Hour Extended Release Tablet</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-FLAKE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  FLAKE</td><td>Flakes</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-FOAM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  FOAM</td><td>Foam</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-FOAMAPL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  FOAMAPL</td><td>Foam with Applicator</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-GASINHL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  GASINHL</td><td>Gas for Inhalation</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-GEL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  GEL</td><td>Gel</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-GELAPL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  GELAPL</td><td>Gel with Applicator</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-GRAN\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  GRAN</td><td>Granules</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-GUM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  GUM</td><td>ChewingGum</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-INHL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  INHL</td><td>Inhalant</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-INHLPWD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  INHLPWD</td><td>Inhalant Powder</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-INHLSOL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  INHLSOL</td><td>Inhalant Solution</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-IPSOL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  IPSOL</td><td>Intraperitoneal Solution</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-IRSOL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  IRSOL</td><td>Irrigation Solution</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-ITSUSP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ITSUSP</td><td>Intrathecal Suspension</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-IVSOL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  IVSOL</td><td>Intravenous Solution</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-LIN\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  LIN</td><td>Liniment</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-LIQCLN\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  LIQCLN</td><td>Liquid Cleanser</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-LIQSOAP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  LIQSOAP</td><td>Medicated Liquid Soap</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-LTN\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  LTN</td><td>Lotion</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-MDINHL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  MDINHL</td><td>Metered Dose Inhaler</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-MDINHLPWD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  MDINHLPWD</td><td>Metered Dose Powder Inhaler</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-MEDBAR\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  MEDBAR</td><td>Medicated Bar Soap</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-MEDPAD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  MEDPAD</td><td>Medicated Pad</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-MEDSWAB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  MEDSWAB</td><td>Medicated swab</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-MUCTOPSOL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  MUCTOPSOL</td><td>Mucous Membrane Topical Solution</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-NASCRM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  NASCRM</td><td>Nasal Cream</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-NASGEL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  NASGEL</td><td>Nasal Gel</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-NASINHL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  NASINHL</td><td>Nasal Inhalant</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-NASOINT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  NASOINT</td><td>Nasal Ointment</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-NASSPRY\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  NASSPRY</td><td>Nasal Spray</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-NDROP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  NDROP</td><td>Nasal Drops</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-OIL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  OIL</td><td>Oil</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-OINT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  OINT</td><td>Ointment</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-OINTAPL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  OINTAPL</td><td>Ointment with Applicator</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-OPCRM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  OPCRM</td><td>Ophthalmic Cream</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-OPDROP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  OPDROP</td><td>Ophthalmic Drops</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-OPGEL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  OPGEL</td><td>Ophthalmic Gel</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-OPIRSOL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  OPIRSOL</td><td>Ophthalmic Irrigation Solution</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-OPOINT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  OPOINT</td><td>Ophthalmic Ointment</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-OPSUSP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  OPSUSP</td><td>Ophthalmic Suspension</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-ORALSOL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ORALSOL</td><td>Oral Solution</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-ORCAP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ORCAP</td><td>Oral Capsule</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-ORCRM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ORCRM</td><td>Oral Cream</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-ORDROP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ORDROP</td><td>Oral Drops</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-ORINHL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ORINHL</td><td>Oral Inhalant</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-ORSUSP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ORSUSP</td><td>Oral Suspension</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-ORTAB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ORTAB</td><td>Oral Tablet</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-ORTROCHE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ORTROCHE</td><td>Lozenge/Oral Troche</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-OTCRM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  OTCRM</td><td>Otic Cream</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-OTDROP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  OTDROP</td><td>Otic Drops</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-OTGEL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  OTGEL</td><td>Otic Gel</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-OTOINT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  OTOINT</td><td>Otic Ointment</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-OTSUSP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  OTSUSP</td><td>Otic Suspension</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-PAD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  PAD</td><td>Pad</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-PASTE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  PASTE</td><td>Paste</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-PATCH\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  PATCH</td><td>Patch</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-PELLET\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  PELLET</td><td>Pellet</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-PILL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  PILL</td><td>Pill</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-POWD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  POWD</td><td>Powder</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-PUD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  PUD</td><td>Pudding</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-PWDSPRY\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  PWDSPRY</td><td>Powder Spray</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-RECCRM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  RECCRM</td><td>Rectal Cream</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-RECFORM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  RECFORM</td><td>Rectal foam</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-RECOINT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  RECOINT</td><td>Rectal Ointment</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-RECPWD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  RECPWD</td><td>Rectal Powder</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-RECSOL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  RECSOL</td><td>Rectal Solution</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-RECSPRY\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  RECSPRY</td><td>Rectal Spray</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-RECSUPP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  RECSUPP</td><td>Rectal Suppository</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-RECSUSP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  RECSUSP</td><td>Rectal Suspension</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-RINSE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  RINSE</td><td>Mouthwash/Rinse</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-SHMP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SHMP</td><td>Shampoo</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-SLTAB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SLTAB</td><td>Sublingual Tablet</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-SOL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SOL</td><td>Solution</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-SPRYADAPT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SPRYADAPT</td><td>Spray with Adaptor</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-SRBUCTAB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SRBUCTAB</td><td>Sustained Release Buccal Tablet</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-SUPP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SUPP</td><td>Suppository</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-SUSP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SUSP</td><td>Suspension</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-SWAB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SWAB</td><td>Swab</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-SYRUP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SYRUP</td><td>Syrup</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-TAB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TAB</td><td>Tablet</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-TINC\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TINC</td><td>Tincture</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-TOPCRM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TOPCRM</td><td>Topical Cream</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-TOPGEL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TOPGEL</td><td>Topical Gel</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-TOPLTN\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TOPLTN</td><td>Topical Lotion</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-TOPOIL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TOPOIL</td><td>Topical Oil</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-TOPOINT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TOPOINT</td><td>Topical Ointment</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-TOPPWD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TOPPWD</td><td>Topical Powder</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-TOPSOL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TOPSOL</td><td>Topical Solution</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-TPASTE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TPASTE</td><td>Toothpaste</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-TPATCH\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TPATCH</td><td>Transdermal Patch</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-TPATH16\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TPATH16</td><td>16 Hour Transdermal Patch</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-TPATH24\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TPATH24</td><td>24 Hour Transdermal Patch</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-TPATH2WK\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TPATH2WK</td><td>Biweekly Transdermal Patch</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-TPATH72\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TPATH72</td><td>72 Hour Transdermal Patch</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-TPATHWK\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TPATHWK</td><td>Weekly Transdermal Patch</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-URETHGEL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  URETHGEL</td><td>Urethral Gel</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-URETHSUPP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  URETHSUPP</td><td>Urethral suppository</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-VAGCRM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  VAGCRM</td><td>Vaginal Cream</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-VAGCRMAPL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  VAGCRMAPL</td><td>Vaginal Cream with Applicator</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-VAGFOAM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  VAGFOAM</td><td>Vaginal foam</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-VAGFOAMAPL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  VAGFOAMAPL</td><td>Vaginal foam with applicator</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-VAGGEL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  VAGGEL</td><td>Vaginal Gel</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-VAGOINT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  VAGOINT</td><td>Vaginal Ointment</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-VAGOINTAPL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  VAGOINTAPL</td><td>Vaginal Ointment with Applicator</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-VAGPWD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  VAGPWD</td><td>Vaginal Powder</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-VAGSPRY\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  VAGSPRY</td><td>Vaginal Spray</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-VAGSUPP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  VAGSUPP</td><td>Vaginal Suppository</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-VAGTAB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  VAGTAB</td><td>Vaginal Tablet</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-VGELAPL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  VGELAPL</td><td>Vaginal Gel with Applicator</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-WAFER\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  WAFER</td><td>Wafer</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-_GasDrugForm\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _GasDrugForm</td><td>GasDrugForm</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-_GasLiquidMixture\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _GasLiquidMixture</td><td>GasLiquidMixture</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-_GasSolidSpray\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _GasSolidSpray</td><td>GasSolidSpray</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-_Liquid\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _Liquid</td><td>Liquid</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-_LiquidLiquidEmulsion\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _LiquidLiquidEmulsion</td><td>LiquidLiquidEmulsion</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-_LiquidSolidSuspension\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _LiquidSolidSuspension</td><td>LiquidSolidSuspension</td></tr><tr><td><a name=\"R5-v3-DispensableDrugForm-for-R4-http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm-_SolidDrugForm\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _SolidDrugForm</td><td>SolidDrugForm</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-DispensableDrugForm-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-DispensableDrugForm-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5V3DispensableDrugFormForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.DispensableDrugForm for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v3-DispensableDrugForm|2.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/v3-DispensableDrugForm|2.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* \r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://terminology.hl7.org/ValueSet/v3-DispensableDrugForm|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "AER" ] ;
+         fhir:display [ fhir:v "Aerosol" ]
+       ] [
+         fhir:code [ fhir:v "BAINHL" ] ;
+         fhir:display [ fhir:v "Breath Activated Inhaler" ]
+       ] [
+         fhir:code [ fhir:v "BAINHLPWD" ] ;
+         fhir:display [ fhir:v "Breath Activated Powder Inhaler" ]
+       ] [
+         fhir:code [ fhir:v "BAR" ] ;
+         fhir:display [ fhir:v "Bar" ]
+       ] [
+         fhir:code [ fhir:v "BARSOAP" ] ;
+         fhir:display [ fhir:v "Bar Soap" ]
+       ] [
+         fhir:code [ fhir:v "BEAD" ] ;
+         fhir:display [ fhir:v "Beads" ]
+       ] [
+         fhir:code [ fhir:v "BUCTAB" ] ;
+         fhir:display [ fhir:v "Buccal Tablet" ]
+       ] [
+         fhir:code [ fhir:v "CAKE" ] ;
+         fhir:display [ fhir:v "Cake" ]
+       ] [
+         fhir:code [ fhir:v "CAP" ] ;
+         fhir:display [ fhir:v "Capsule" ]
+       ] [
+         fhir:code [ fhir:v "CAPLET" ] ;
+         fhir:display [ fhir:v "Caplet" ]
+       ] [
+         fhir:code [ fhir:v "CEMENT" ] ;
+         fhir:display [ fhir:v "Cement" ]
+       ] [
+         fhir:code [ fhir:v "CHEWBAR" ] ;
+         fhir:display [ fhir:v "Chewable Bar" ]
+       ] [
+         fhir:code [ fhir:v "CHEWTAB" ] ;
+         fhir:display [ fhir:v "Chewable Tablet" ]
+       ] [
+         fhir:code [ fhir:v "CPTAB" ] ;
+         fhir:display [ fhir:v "Coated Particles Tablet" ]
+       ] [
+         fhir:code [ fhir:v "CRM" ] ;
+         fhir:display [ fhir:v "Cream" ]
+       ] [
+         fhir:code [ fhir:v "CRYS" ] ;
+         fhir:display [ fhir:v "Crystals" ]
+       ] [
+         fhir:code [ fhir:v "DERMSPRY" ] ;
+         fhir:display [ fhir:v "Dermal Spray" ]
+       ] [
+         fhir:code [ fhir:v "DISINTAB" ] ;
+         fhir:display [ fhir:v "Disintegrating Tablet" ]
+       ] [
+         fhir:code [ fhir:v "DISK" ] ;
+         fhir:display [ fhir:v "Disk" ]
+       ] [
+         fhir:code [ fhir:v "DOUCHE" ] ;
+         fhir:display [ fhir:v "Douche" ]
+       ] [
+         fhir:code [ fhir:v "DROP" ] ;
+         fhir:display [ fhir:v "Drops" ]
+       ] [
+         fhir:code [ fhir:v "DRTAB" ] ;
+         fhir:display [ fhir:v "Delayed Release Tablet" ]
+       ] [
+         fhir:code [ fhir:v "ECTAB" ] ;
+         fhir:display [ fhir:v "Enteric Coated Tablet" ]
+       ] [
+         fhir:code [ fhir:v "ELIXIR" ] ;
+         fhir:display [ fhir:v "Elixir" ]
+       ] [
+         fhir:code [ fhir:v "ENEMA" ] ;
+         fhir:display [ fhir:v "Enema" ]
+       ] [
+         fhir:code [ fhir:v "ENTCAP" ] ;
+         fhir:display [ fhir:v "Enteric Coated Capsule" ]
+       ] [
+         fhir:code [ fhir:v "ERCAP" ] ;
+         fhir:display [ fhir:v "Extended Release Capsule" ]
+       ] [
+         fhir:code [ fhir:v "ERCAP12" ] ;
+         fhir:display [ fhir:v "12 Hour Extended Release Capsule" ]
+       ] [
+         fhir:code [ fhir:v "ERCAP24" ] ;
+         fhir:display [ fhir:v "24 Hour Extended Release Capsule" ]
+       ] [
+         fhir:code [ fhir:v "ERECCAP" ] ;
+         fhir:display [ fhir:v "Extended Release Enteric Coated Capsule" ]
+       ] [
+         fhir:code [ fhir:v "ERECTAB" ] ;
+         fhir:display [ fhir:v "Extended Release Enteric Coated Tablet" ]
+       ] [
+         fhir:code [ fhir:v "ERENTCAP" ] ;
+         fhir:display [ fhir:v "Extended Release Enteric Coated Capsule" ]
+       ] [
+         fhir:code [ fhir:v "ERSUSP" ] ;
+         fhir:display [ fhir:v "Extended-Release Suspension" ]
+       ] [
+         fhir:code [ fhir:v "ERSUSP12" ] ;
+         fhir:display [ fhir:v "12 Hour Extended-Release Suspension" ]
+       ] [
+         fhir:code [ fhir:v "ERSUSP24" ] ;
+         fhir:display [ fhir:v "24 Hour Extended Release Suspension" ]
+       ] [
+         fhir:code [ fhir:v "ERTAB" ] ;
+         fhir:display [ fhir:v "Extended Release Tablet" ]
+       ] [
+         fhir:code [ fhir:v "ERTAB12" ] ;
+         fhir:display [ fhir:v "12 Hour Extended Release Tablet" ]
+       ] [
+         fhir:code [ fhir:v "ERTAB24" ] ;
+         fhir:display [ fhir:v "24 Hour Extended Release Tablet" ]
+       ] [
+         fhir:code [ fhir:v "FLAKE" ] ;
+         fhir:display [ fhir:v "Flakes" ]
+       ] [
+         fhir:code [ fhir:v "FOAM" ] ;
+         fhir:display [ fhir:v "Foam" ]
+       ] [
+         fhir:code [ fhir:v "FOAMAPL" ] ;
+         fhir:display [ fhir:v "Foam with Applicator" ]
+       ] [
+         fhir:code [ fhir:v "GASINHL" ] ;
+         fhir:display [ fhir:v "Gas for Inhalation" ]
+       ] [
+         fhir:code [ fhir:v "GEL" ] ;
+         fhir:display [ fhir:v "Gel" ]
+       ] [
+         fhir:code [ fhir:v "GELAPL" ] ;
+         fhir:display [ fhir:v "Gel with Applicator" ]
+       ] [
+         fhir:code [ fhir:v "GRAN" ] ;
+         fhir:display [ fhir:v "Granules" ]
+       ] [
+         fhir:code [ fhir:v "GUM" ] ;
+         fhir:display [ fhir:v "ChewingGum" ]
+       ] [
+         fhir:code [ fhir:v "INHL" ] ;
+         fhir:display [ fhir:v "Inhalant" ]
+       ] [
+         fhir:code [ fhir:v "INHLPWD" ] ;
+         fhir:display [ fhir:v "Inhalant Powder" ]
+       ] [
+         fhir:code [ fhir:v "INHLSOL" ] ;
+         fhir:display [ fhir:v "Inhalant Solution" ]
+       ] [
+         fhir:code [ fhir:v "IPSOL" ] ;
+         fhir:display [ fhir:v "Intraperitoneal Solution" ]
+       ] [
+         fhir:code [ fhir:v "IRSOL" ] ;
+         fhir:display [ fhir:v "Irrigation Solution" ]
+       ] [
+         fhir:code [ fhir:v "ITSUSP" ] ;
+         fhir:display [ fhir:v "Intrathecal Suspension" ]
+       ] [
+         fhir:code [ fhir:v "IVSOL" ] ;
+         fhir:display [ fhir:v "Intravenous Solution" ]
+       ] [
+         fhir:code [ fhir:v "LIN" ] ;
+         fhir:display [ fhir:v "Liniment" ]
+       ] [
+         fhir:code [ fhir:v "LIQCLN" ] ;
+         fhir:display [ fhir:v "Liquid Cleanser" ]
+       ] [
+         fhir:code [ fhir:v "LIQSOAP" ] ;
+         fhir:display [ fhir:v "Medicated Liquid Soap" ]
+       ] [
+         fhir:code [ fhir:v "LTN" ] ;
+         fhir:display [ fhir:v "Lotion" ]
+       ] [
+         fhir:code [ fhir:v "MDINHL" ] ;
+         fhir:display [ fhir:v "Metered Dose Inhaler" ]
+       ] [
+         fhir:code [ fhir:v "MDINHLPWD" ] ;
+         fhir:display [ fhir:v "Metered Dose Powder Inhaler" ]
+       ] [
+         fhir:code [ fhir:v "MEDBAR" ] ;
+         fhir:display [ fhir:v "Medicated Bar Soap" ]
+       ] [
+         fhir:code [ fhir:v "MEDPAD" ] ;
+         fhir:display [ fhir:v "Medicated Pad" ]
+       ] [
+         fhir:code [ fhir:v "MEDSWAB" ] ;
+         fhir:display [ fhir:v "Medicated swab" ]
+       ] [
+         fhir:code [ fhir:v "MUCTOPSOL" ] ;
+         fhir:display [ fhir:v "Mucous Membrane Topical Solution" ]
+       ] [
+         fhir:code [ fhir:v "NASCRM" ] ;
+         fhir:display [ fhir:v "Nasal Cream" ]
+       ] [
+         fhir:code [ fhir:v "NASGEL" ] ;
+         fhir:display [ fhir:v "Nasal Gel" ]
+       ] [
+         fhir:code [ fhir:v "NASINHL" ] ;
+         fhir:display [ fhir:v "Nasal Inhalant" ]
+       ] [
+         fhir:code [ fhir:v "NASOINT" ] ;
+         fhir:display [ fhir:v "Nasal Ointment" ]
+       ] [
+         fhir:code [ fhir:v "NASSPRY" ] ;
+         fhir:display [ fhir:v "Nasal Spray" ]
+       ] [
+         fhir:code [ fhir:v "NDROP" ] ;
+         fhir:display [ fhir:v "Nasal Drops" ]
+       ] [
+         fhir:code [ fhir:v "OIL" ] ;
+         fhir:display [ fhir:v "Oil" ]
+       ] [
+         fhir:code [ fhir:v "OINT" ] ;
+         fhir:display [ fhir:v "Ointment" ]
+       ] [
+         fhir:code [ fhir:v "OINTAPL" ] ;
+         fhir:display [ fhir:v "Ointment with Applicator" ]
+       ] [
+         fhir:code [ fhir:v "OPCRM" ] ;
+         fhir:display [ fhir:v "Ophthalmic Cream" ]
+       ] [
+         fhir:code [ fhir:v "OPDROP" ] ;
+         fhir:display [ fhir:v "Ophthalmic Drops" ]
+       ] [
+         fhir:code [ fhir:v "OPGEL" ] ;
+         fhir:display [ fhir:v "Ophthalmic Gel" ]
+       ] [
+         fhir:code [ fhir:v "OPIRSOL" ] ;
+         fhir:display [ fhir:v "Ophthalmic Irrigation Solution" ]
+       ] [
+         fhir:code [ fhir:v "OPOINT" ] ;
+         fhir:display [ fhir:v "Ophthalmic Ointment" ]
+       ] [
+         fhir:code [ fhir:v "OPSUSP" ] ;
+         fhir:display [ fhir:v "Ophthalmic Suspension" ]
+       ] [
+         fhir:code [ fhir:v "ORALSOL" ] ;
+         fhir:display [ fhir:v "Oral Solution" ]
+       ] [
+         fhir:code [ fhir:v "ORCAP" ] ;
+         fhir:display [ fhir:v "Oral Capsule" ]
+       ] [
+         fhir:code [ fhir:v "ORCRM" ] ;
+         fhir:display [ fhir:v "Oral Cream" ]
+       ] [
+         fhir:code [ fhir:v "ORDROP" ] ;
+         fhir:display [ fhir:v "Oral Drops" ]
+       ] [
+         fhir:code [ fhir:v "ORINHL" ] ;
+         fhir:display [ fhir:v "Oral Inhalant" ]
+       ] [
+         fhir:code [ fhir:v "ORSUSP" ] ;
+         fhir:display [ fhir:v "Oral Suspension" ]
+       ] [
+         fhir:code [ fhir:v "ORTAB" ] ;
+         fhir:display [ fhir:v "Oral Tablet" ]
+       ] [
+         fhir:code [ fhir:v "ORTROCHE" ] ;
+         fhir:display [ fhir:v "Lozenge/Oral Troche" ]
+       ] [
+         fhir:code [ fhir:v "OTCRM" ] ;
+         fhir:display [ fhir:v "Otic Cream" ]
+       ] [
+         fhir:code [ fhir:v "OTDROP" ] ;
+         fhir:display [ fhir:v "Otic Drops" ]
+       ] [
+         fhir:code [ fhir:v "OTGEL" ] ;
+         fhir:display [ fhir:v "Otic Gel" ]
+       ] [
+         fhir:code [ fhir:v "OTOINT" ] ;
+         fhir:display [ fhir:v "Otic Ointment" ]
+       ] [
+         fhir:code [ fhir:v "OTSUSP" ] ;
+         fhir:display [ fhir:v "Otic Suspension" ]
+       ] [
+         fhir:code [ fhir:v "PAD" ] ;
+         fhir:display [ fhir:v "Pad" ]
+       ] [
+         fhir:code [ fhir:v "PASTE" ] ;
+         fhir:display [ fhir:v "Paste" ]
+       ] [
+         fhir:code [ fhir:v "PATCH" ] ;
+         fhir:display [ fhir:v "Patch" ]
+       ] [
+         fhir:code [ fhir:v "PELLET" ] ;
+         fhir:display [ fhir:v "Pellet" ]
+       ] [
+         fhir:code [ fhir:v "PILL" ] ;
+         fhir:display [ fhir:v "Pill" ]
+       ] [
+         fhir:code [ fhir:v "POWD" ] ;
+         fhir:display [ fhir:v "Powder" ]
+       ] [
+         fhir:code [ fhir:v "PUD" ] ;
+         fhir:display [ fhir:v "Pudding" ]
+       ] [
+         fhir:code [ fhir:v "PWDSPRY" ] ;
+         fhir:display [ fhir:v "Powder Spray" ]
+       ] [
+         fhir:code [ fhir:v "RECCRM" ] ;
+         fhir:display [ fhir:v "Rectal Cream" ]
+       ] [
+         fhir:code [ fhir:v "RECFORM" ] ;
+         fhir:display [ fhir:v "Rectal foam" ]
+       ] [
+         fhir:code [ fhir:v "RECOINT" ] ;
+         fhir:display [ fhir:v "Rectal Ointment" ]
+       ] [
+         fhir:code [ fhir:v "RECPWD" ] ;
+         fhir:display [ fhir:v "Rectal Powder" ]
+       ] [
+         fhir:code [ fhir:v "RECSOL" ] ;
+         fhir:display [ fhir:v "Rectal Solution" ]
+       ] [
+         fhir:code [ fhir:v "RECSPRY" ] ;
+         fhir:display [ fhir:v "Rectal Spray" ]
+       ] [
+         fhir:code [ fhir:v "RECSUPP" ] ;
+         fhir:display [ fhir:v "Rectal Suppository" ]
+       ] [
+         fhir:code [ fhir:v "RECSUSP" ] ;
+         fhir:display [ fhir:v "Rectal Suspension" ]
+       ] [
+         fhir:code [ fhir:v "RINSE" ] ;
+         fhir:display [ fhir:v "Mouthwash/Rinse" ]
+       ] [
+         fhir:code [ fhir:v "SHMP" ] ;
+         fhir:display [ fhir:v "Shampoo" ]
+       ] [
+         fhir:code [ fhir:v "SLTAB" ] ;
+         fhir:display [ fhir:v "Sublingual Tablet" ]
+       ] [
+         fhir:code [ fhir:v "SOL" ] ;
+         fhir:display [ fhir:v "Solution" ]
+       ] [
+         fhir:code [ fhir:v "SPRYADAPT" ] ;
+         fhir:display [ fhir:v "Spray with Adaptor" ]
+       ] [
+         fhir:code [ fhir:v "SRBUCTAB" ] ;
+         fhir:display [ fhir:v "Sustained Release Buccal Tablet" ]
+       ] [
+         fhir:code [ fhir:v "SUPP" ] ;
+         fhir:display [ fhir:v "Suppository" ]
+       ] [
+         fhir:code [ fhir:v "SUSP" ] ;
+         fhir:display [ fhir:v "Suspension" ]
+       ] [
+         fhir:code [ fhir:v "SWAB" ] ;
+         fhir:display [ fhir:v "Swab" ]
+       ] [
+         fhir:code [ fhir:v "SYRUP" ] ;
+         fhir:display [ fhir:v "Syrup" ]
+       ] [
+         fhir:code [ fhir:v "TAB" ] ;
+         fhir:display [ fhir:v "Tablet" ]
+       ] [
+         fhir:code [ fhir:v "TINC" ] ;
+         fhir:display [ fhir:v "Tincture" ]
+       ] [
+         fhir:code [ fhir:v "TOPCRM" ] ;
+         fhir:display [ fhir:v "Topical Cream" ]
+       ] [
+         fhir:code [ fhir:v "TOPGEL" ] ;
+         fhir:display [ fhir:v "Topical Gel" ]
+       ] [
+         fhir:code [ fhir:v "TOPLTN" ] ;
+         fhir:display [ fhir:v "Topical Lotion" ]
+       ] [
+         fhir:code [ fhir:v "TOPOIL" ] ;
+         fhir:display [ fhir:v "Topical Oil" ]
+       ] [
+         fhir:code [ fhir:v "TOPOINT" ] ;
+         fhir:display [ fhir:v "Topical Ointment" ]
+       ] [
+         fhir:code [ fhir:v "TOPPWD" ] ;
+         fhir:display [ fhir:v "Topical Powder" ]
+       ] [
+         fhir:code [ fhir:v "TOPSOL" ] ;
+         fhir:display [ fhir:v "Topical Solution" ]
+       ] [
+         fhir:code [ fhir:v "TPASTE" ] ;
+         fhir:display [ fhir:v "Toothpaste" ]
+       ] [
+         fhir:code [ fhir:v "TPATCH" ] ;
+         fhir:display [ fhir:v "Transdermal Patch" ]
+       ] [
+         fhir:code [ fhir:v "TPATH16" ] ;
+         fhir:display [ fhir:v "16 Hour Transdermal Patch" ]
+       ] [
+         fhir:code [ fhir:v "TPATH24" ] ;
+         fhir:display [ fhir:v "24 Hour Transdermal Patch" ]
+       ] [
+         fhir:code [ fhir:v "TPATH2WK" ] ;
+         fhir:display [ fhir:v "Biweekly Transdermal Patch" ]
+       ] [
+         fhir:code [ fhir:v "TPATH72" ] ;
+         fhir:display [ fhir:v "72 Hour Transdermal Patch" ]
+       ] [
+         fhir:code [ fhir:v "TPATHWK" ] ;
+         fhir:display [ fhir:v "Weekly Transdermal Patch" ]
+       ] [
+         fhir:code [ fhir:v "URETHGEL" ] ;
+         fhir:display [ fhir:v "Urethral Gel" ]
+       ] [
+         fhir:code [ fhir:v "URETHSUPP" ] ;
+         fhir:display [ fhir:v "Urethral suppository" ]
+       ] [
+         fhir:code [ fhir:v "VAGCRM" ] ;
+         fhir:display [ fhir:v "Vaginal Cream" ]
+       ] [
+         fhir:code [ fhir:v "VAGCRMAPL" ] ;
+         fhir:display [ fhir:v "Vaginal Cream with Applicator" ]
+       ] [
+         fhir:code [ fhir:v "VAGFOAM" ] ;
+         fhir:display [ fhir:v "Vaginal foam" ]
+       ] [
+         fhir:code [ fhir:v "VAGFOAMAPL" ] ;
+         fhir:display [ fhir:v "Vaginal foam with applicator" ]
+       ] [
+         fhir:code [ fhir:v "VAGGEL" ] ;
+         fhir:display [ fhir:v "Vaginal Gel" ]
+       ] [
+         fhir:code [ fhir:v "VAGOINT" ] ;
+         fhir:display [ fhir:v "Vaginal Ointment" ]
+       ] [
+         fhir:code [ fhir:v "VAGOINTAPL" ] ;
+         fhir:display [ fhir:v "Vaginal Ointment with Applicator" ]
+       ] [
+         fhir:code [ fhir:v "VAGPWD" ] ;
+         fhir:display [ fhir:v "Vaginal Powder" ]
+       ] [
+         fhir:code [ fhir:v "VAGSPRY" ] ;
+         fhir:display [ fhir:v "Vaginal Spray" ]
+       ] [
+         fhir:code [ fhir:v "VAGSUPP" ] ;
+         fhir:display [ fhir:v "Vaginal Suppository" ]
+       ] [
+         fhir:code [ fhir:v "VAGTAB" ] ;
+         fhir:display [ fhir:v "Vaginal Tablet" ]
+       ] [
+         fhir:code [ fhir:v "VGELAPL" ] ;
+         fhir:display [ fhir:v "Vaginal Gel with Applicator" ]
+       ] [
+         fhir:code [ fhir:v "WAFER" ] ;
+         fhir:display [ fhir:v "Wafer" ]
+       ] [
+         fhir:code [ fhir:v "_GasDrugForm" ] ;
+         fhir:display [ fhir:v "GasDrugForm" ]
+       ] [
+         fhir:code [ fhir:v "_GasLiquidMixture" ] ;
+         fhir:display [ fhir:v "GasLiquidMixture" ]
+       ] [
+         fhir:code [ fhir:v "_GasSolidSpray" ] ;
+         fhir:display [ fhir:v "GasSolidSpray" ]
+       ] [
+         fhir:code [ fhir:v "_Liquid" ] ;
+         fhir:display [ fhir:v "Liquid" ]
+       ] [
+         fhir:code [ fhir:v "_LiquidLiquidEmulsion" ] ;
+         fhir:display [ fhir:v "LiquidLiquidEmulsion" ]
+       ] [
+         fhir:code [ fhir:v "_LiquidSolidSuspension" ] ;
+         fhir:display [ fhir:v "LiquidSolidSuspension" ]
+       ] [
+         fhir:code [ fhir:v "_SolidDrugForm" ] ;
+         fhir:display [ fhir:v "SolidDrugForm" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "AER" ] ;
+       fhir:display [ fhir:v "Aerosol" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BAINHL" ] ;
+       fhir:display [ fhir:v "Breath Activated Inhaler" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BAINHLPWD" ] ;
+       fhir:display [ fhir:v "Breath Activated Powder Inhaler" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BAR" ] ;
+       fhir:display [ fhir:v "Bar" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BARSOAP" ] ;
+       fhir:display [ fhir:v "Bar Soap" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BEAD" ] ;
+       fhir:display [ fhir:v "Beads" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "BUCTAB" ] ;
+       fhir:display [ fhir:v "Buccal Tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CAKE" ] ;
+       fhir:display [ fhir:v "Cake" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CAP" ] ;
+       fhir:display [ fhir:v "Capsule" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CAPLET" ] ;
+       fhir:display [ fhir:v "Caplet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CEMENT" ] ;
+       fhir:display [ fhir:v "Cement" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CHEWBAR" ] ;
+       fhir:display [ fhir:v "Chewable Bar" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CHEWTAB" ] ;
+       fhir:display [ fhir:v "Chewable Tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CPTAB" ] ;
+       fhir:display [ fhir:v "Coated Particles Tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CRM" ] ;
+       fhir:display [ fhir:v "Cream" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CRYS" ] ;
+       fhir:display [ fhir:v "Crystals" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "DERMSPRY" ] ;
+       fhir:display [ fhir:v "Dermal Spray" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "DISINTAB" ] ;
+       fhir:display [ fhir:v "Disintegrating Tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "DISK" ] ;
+       fhir:display [ fhir:v "Disk" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "DOUCHE" ] ;
+       fhir:display [ fhir:v "Douche" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "DROP" ] ;
+       fhir:display [ fhir:v "Drops" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "DRTAB" ] ;
+       fhir:display [ fhir:v "Delayed Release Tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ECTAB" ] ;
+       fhir:display [ fhir:v "Enteric Coated Tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ELIXIR" ] ;
+       fhir:display [ fhir:v "Elixir" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ENEMA" ] ;
+       fhir:display [ fhir:v "Enema" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ENTCAP" ] ;
+       fhir:display [ fhir:v "Enteric Coated Capsule" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ERCAP" ] ;
+       fhir:display [ fhir:v "Extended Release Capsule" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ERCAP12" ] ;
+       fhir:display [ fhir:v "12 Hour Extended Release Capsule" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ERCAP24" ] ;
+       fhir:display [ fhir:v "24 Hour Extended Release Capsule" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ERECCAP" ] ;
+       fhir:display [ fhir:v "Extended Release Enteric Coated Capsule" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ERECTAB" ] ;
+       fhir:display [ fhir:v "Extended Release Enteric Coated Tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ERENTCAP" ] ;
+       fhir:display [ fhir:v "Extended Release Enteric Coated Capsule" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ERSUSP" ] ;
+       fhir:display [ fhir:v "Extended-Release Suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ERSUSP12" ] ;
+       fhir:display [ fhir:v "12 Hour Extended-Release Suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ERSUSP24" ] ;
+       fhir:display [ fhir:v "24 Hour Extended Release Suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ERTAB" ] ;
+       fhir:display [ fhir:v "Extended Release Tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ERTAB12" ] ;
+       fhir:display [ fhir:v "12 Hour Extended Release Tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ERTAB24" ] ;
+       fhir:display [ fhir:v "24 Hour Extended Release Tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "FLAKE" ] ;
+       fhir:display [ fhir:v "Flakes" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "FOAM" ] ;
+       fhir:display [ fhir:v "Foam" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "FOAMAPL" ] ;
+       fhir:display [ fhir:v "Foam with Applicator" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "GASINHL" ] ;
+       fhir:display [ fhir:v "Gas for Inhalation" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "GEL" ] ;
+       fhir:display [ fhir:v "Gel" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "GELAPL" ] ;
+       fhir:display [ fhir:v "Gel with Applicator" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "GRAN" ] ;
+       fhir:display [ fhir:v "Granules" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "GUM" ] ;
+       fhir:display [ fhir:v "ChewingGum" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "INHL" ] ;
+       fhir:display [ fhir:v "Inhalant" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "INHLPWD" ] ;
+       fhir:display [ fhir:v "Inhalant Powder" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "INHLSOL" ] ;
+       fhir:display [ fhir:v "Inhalant Solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IPSOL" ] ;
+       fhir:display [ fhir:v "Intraperitoneal Solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IRSOL" ] ;
+       fhir:display [ fhir:v "Irrigation Solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ITSUSP" ] ;
+       fhir:display [ fhir:v "Intrathecal Suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IVSOL" ] ;
+       fhir:display [ fhir:v "Intravenous Solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "LIN" ] ;
+       fhir:display [ fhir:v "Liniment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "LIQCLN" ] ;
+       fhir:display [ fhir:v "Liquid Cleanser" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "LIQSOAP" ] ;
+       fhir:display [ fhir:v "Medicated Liquid Soap" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "LTN" ] ;
+       fhir:display [ fhir:v "Lotion" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "MDINHL" ] ;
+       fhir:display [ fhir:v "Metered Dose Inhaler" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "MDINHLPWD" ] ;
+       fhir:display [ fhir:v "Metered Dose Powder Inhaler" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "MEDBAR" ] ;
+       fhir:display [ fhir:v "Medicated Bar Soap" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "MEDPAD" ] ;
+       fhir:display [ fhir:v "Medicated Pad" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "MEDSWAB" ] ;
+       fhir:display [ fhir:v "Medicated swab" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "MUCTOPSOL" ] ;
+       fhir:display [ fhir:v "Mucous Membrane Topical Solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "NASCRM" ] ;
+       fhir:display [ fhir:v "Nasal Cream" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "NASGEL" ] ;
+       fhir:display [ fhir:v "Nasal Gel" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "NASINHL" ] ;
+       fhir:display [ fhir:v "Nasal Inhalant" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "NASOINT" ] ;
+       fhir:display [ fhir:v "Nasal Ointment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "NASSPRY" ] ;
+       fhir:display [ fhir:v "Nasal Spray" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "NDROP" ] ;
+       fhir:display [ fhir:v "Nasal Drops" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "OIL" ] ;
+       fhir:display [ fhir:v "Oil" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "OINT" ] ;
+       fhir:display [ fhir:v "Ointment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "OINTAPL" ] ;
+       fhir:display [ fhir:v "Ointment with Applicator" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "OPCRM" ] ;
+       fhir:display [ fhir:v "Ophthalmic Cream" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "OPDROP" ] ;
+       fhir:display [ fhir:v "Ophthalmic Drops" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "OPGEL" ] ;
+       fhir:display [ fhir:v "Ophthalmic Gel" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "OPIRSOL" ] ;
+       fhir:display [ fhir:v "Ophthalmic Irrigation Solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "OPOINT" ] ;
+       fhir:display [ fhir:v "Ophthalmic Ointment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "OPSUSP" ] ;
+       fhir:display [ fhir:v "Ophthalmic Suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ORALSOL" ] ;
+       fhir:display [ fhir:v "Oral Solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ORCAP" ] ;
+       fhir:display [ fhir:v "Oral Capsule" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ORCRM" ] ;
+       fhir:display [ fhir:v "Oral Cream" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ORDROP" ] ;
+       fhir:display [ fhir:v "Oral Drops" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ORINHL" ] ;
+       fhir:display [ fhir:v "Oral Inhalant" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ORSUSP" ] ;
+       fhir:display [ fhir:v "Oral Suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ORTAB" ] ;
+       fhir:display [ fhir:v "Oral Tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ORTROCHE" ] ;
+       fhir:display [ fhir:v "Lozenge/Oral Troche" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "OTCRM" ] ;
+       fhir:display [ fhir:v "Otic Cream" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "OTDROP" ] ;
+       fhir:display [ fhir:v "Otic Drops" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "OTGEL" ] ;
+       fhir:display [ fhir:v "Otic Gel" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "OTOINT" ] ;
+       fhir:display [ fhir:v "Otic Ointment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "OTSUSP" ] ;
+       fhir:display [ fhir:v "Otic Suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PAD" ] ;
+       fhir:display [ fhir:v "Pad" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PASTE" ] ;
+       fhir:display [ fhir:v "Paste" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PATCH" ] ;
+       fhir:display [ fhir:v "Patch" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PELLET" ] ;
+       fhir:display [ fhir:v "Pellet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PILL" ] ;
+       fhir:display [ fhir:v "Pill" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "POWD" ] ;
+       fhir:display [ fhir:v "Powder" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PUD" ] ;
+       fhir:display [ fhir:v "Pudding" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PWDSPRY" ] ;
+       fhir:display [ fhir:v "Powder Spray" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "RECCRM" ] ;
+       fhir:display [ fhir:v "Rectal Cream" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "RECFORM" ] ;
+       fhir:display [ fhir:v "Rectal foam" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "RECOINT" ] ;
+       fhir:display [ fhir:v "Rectal Ointment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "RECPWD" ] ;
+       fhir:display [ fhir:v "Rectal Powder" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "RECSOL" ] ;
+       fhir:display [ fhir:v "Rectal Solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "RECSPRY" ] ;
+       fhir:display [ fhir:v "Rectal Spray" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "RECSUPP" ] ;
+       fhir:display [ fhir:v "Rectal Suppository" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "RECSUSP" ] ;
+       fhir:display [ fhir:v "Rectal Suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "RINSE" ] ;
+       fhir:display [ fhir:v "Mouthwash/Rinse" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SHMP" ] ;
+       fhir:display [ fhir:v "Shampoo" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SLTAB" ] ;
+       fhir:display [ fhir:v "Sublingual Tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SOL" ] ;
+       fhir:display [ fhir:v "Solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SPRYADAPT" ] ;
+       fhir:display [ fhir:v "Spray with Adaptor" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SRBUCTAB" ] ;
+       fhir:display [ fhir:v "Sustained Release Buccal Tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SUPP" ] ;
+       fhir:display [ fhir:v "Suppository" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SUSP" ] ;
+       fhir:display [ fhir:v "Suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SWAB" ] ;
+       fhir:display [ fhir:v "Swab" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SYRUP" ] ;
+       fhir:display [ fhir:v "Syrup" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TAB" ] ;
+       fhir:display [ fhir:v "Tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TINC" ] ;
+       fhir:display [ fhir:v "Tincture" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TOPCRM" ] ;
+       fhir:display [ fhir:v "Topical Cream" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TOPGEL" ] ;
+       fhir:display [ fhir:v "Topical Gel" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TOPLTN" ] ;
+       fhir:display [ fhir:v "Topical Lotion" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TOPOIL" ] ;
+       fhir:display [ fhir:v "Topical Oil" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TOPOINT" ] ;
+       fhir:display [ fhir:v "Topical Ointment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TOPPWD" ] ;
+       fhir:display [ fhir:v "Topical Powder" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TOPSOL" ] ;
+       fhir:display [ fhir:v "Topical Solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TPASTE" ] ;
+       fhir:display [ fhir:v "Toothpaste" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TPATCH" ] ;
+       fhir:display [ fhir:v "Transdermal Patch" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TPATH16" ] ;
+       fhir:display [ fhir:v "16 Hour Transdermal Patch" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TPATH24" ] ;
+       fhir:display [ fhir:v "24 Hour Transdermal Patch" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TPATH2WK" ] ;
+       fhir:display [ fhir:v "Biweekly Transdermal Patch" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TPATH72" ] ;
+       fhir:display [ fhir:v "72 Hour Transdermal Patch" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TPATHWK" ] ;
+       fhir:display [ fhir:v "Weekly Transdermal Patch" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "URETHGEL" ] ;
+       fhir:display [ fhir:v "Urethral Gel" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "URETHSUPP" ] ;
+       fhir:display [ fhir:v "Urethral suppository" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "VAGCRM" ] ;
+       fhir:display [ fhir:v "Vaginal Cream" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "VAGCRMAPL" ] ;
+       fhir:display [ fhir:v "Vaginal Cream with Applicator" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "VAGFOAM" ] ;
+       fhir:display [ fhir:v "Vaginal foam" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "VAGFOAMAPL" ] ;
+       fhir:display [ fhir:v "Vaginal foam with applicator" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "VAGGEL" ] ;
+       fhir:display [ fhir:v "Vaginal Gel" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "VAGOINT" ] ;
+       fhir:display [ fhir:v "Vaginal Ointment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "VAGOINTAPL" ] ;
+       fhir:display [ fhir:v "Vaginal Ointment with Applicator" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "VAGPWD" ] ;
+       fhir:display [ fhir:v "Vaginal Powder" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "VAGSPRY" ] ;
+       fhir:display [ fhir:v "Vaginal Spray" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "VAGSUPP" ] ;
+       fhir:display [ fhir:v "Vaginal Suppository" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "VAGTAB" ] ;
+       fhir:display [ fhir:v "Vaginal Tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "VGELAPL" ] ;
+       fhir:display [ fhir:v "Vaginal Gel with Applicator" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "WAFER" ] ;
+       fhir:display [ fhir:v "Wafer" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_GasDrugForm" ] ;
+       fhir:display [ fhir:v "GasDrugForm" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_GasLiquidMixture" ] ;
+       fhir:display [ fhir:v "GasLiquidMixture" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_GasSolidSpray" ] ;
+       fhir:display [ fhir:v "GasSolidSpray" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_Liquid" ] ;
+       fhir:display [ fhir:v "Liquid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_LiquidLiquidEmulsion" ] ;
+       fhir:display [ fhir:v "LiquidLiquidEmulsion" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_LiquidSolidSuspension" ] ;
+       fhir:display [ fhir:v "LiquidSolidSuspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_SolidDrugForm" ] ;
+       fhir:display [ fhir:v "SolidDrugForm" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

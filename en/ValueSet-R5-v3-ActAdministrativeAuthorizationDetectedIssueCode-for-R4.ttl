@@ -1,0 +1,913 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4</b></p><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4\"> </a><a name=\"hcR5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4\"> </a><p>This value set expansion contains 70 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-ABUSE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-ABUSE\">ABUSE</a></td><td>commonly abused/misused alert</td><td><div><p>**Description:**The proposed therapy is frequently misused or abused and therefore should be used with caution and/or monitoring.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-ADALRT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-ADALRT\">ADALRT</a></td><td>adult alert</td><td><div><p>Proposed therapy is outside of the standard practice for an adult patient.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-AGE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-AGE\">AGE</a></td><td>Age Alert</td><td><div><p>Proposed therapy may be inappropriate or contraindicated due to patient age</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-ALGY\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-ALGY\">ALGY</a></td><td>Allergy Alert</td><td><div><p>Proposed therapy may be inappropriate or contraindicated because of a recorded patient allergy to the proposed product. (Allergies are immune based reactions.)</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-BUS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-BUS\">BUS</a></td><td>business constraint violation</td><td><div><p>**Description:**A local business rule relating multiple elements has been violated.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-CODE_DEPREC\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-CODE_DEPREC\">CODE_DEPREC</a></td><td>code has been deprecated</td><td><div><p>**Description:**The specified code has been deprecated and should no longer be used. Select another code from the code system.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-CODE_INVAL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-CODE_INVAL\">CODE_INVAL</a></td><td>code is not valid</td><td><div><p>**Description:**The specified code is not valid against the list of codes allowed for the element.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-COMPLY\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-COMPLY\">COMPLY</a></td><td>Compliance Alert</td><td><div><p>There may be an issue with the patient complying with the intentions of the proposed therapy</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-COND\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-COND\">COND</a></td><td>Condition Alert</td><td><div><p>Proposed therapy may be inappropriate or contraindicated due to an existing/recent patient condition or diagnosis</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-CREACT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-CREACT\">CREACT</a></td><td>common reaction alert</td><td><div><p>**Description:**Proposed therapy may be inappropriate or contraindicated because of a common but non-patient specific reaction to the product.</p>\n<p>**Example:**There is no record of a specific sensitivity for the patient, but the presence of the sensitivity is common and therefore caution is warranted.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DOSE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-DOSE\">DOSE</a></td><td>Dosage problem</td><td><div><p>Proposed dosage instructions for therapy differ from standard practice.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DOSECOND\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-DOSECOND\">DOSECOND</a></td><td>dosage-condition alert</td><td><div><p>**Description:**Proposed dosage is inappropriate due to patient's medical condition.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DOSEDUR\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-DOSEDUR\">DOSEDUR</a></td><td>Dose-Duration Alert</td><td><div><p>Proposed length of therapy differs from standard practice.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DOSEDURH\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-DOSEDURH\">DOSEDURH</a></td><td>Dose-Duration High Alert</td><td><div><p>Proposed length of therapy is longer than standard practice</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DOSEDURHIND\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-DOSEDURHIND\">DOSEDURHIND</a></td><td>Dose-Duration High for Indication Alert</td><td><div><p>Proposed length of therapy is longer than standard practice for the identified indication or diagnosis</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DOSEDURL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-DOSEDURL\">DOSEDURL</a></td><td>Dose-Duration Low Alert</td><td><div><p>Proposed length of therapy is shorter than that necessary for therapeutic effect</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DOSEDURLIND\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-DOSEDURLIND\">DOSEDURLIND</a></td><td>Dose-Duration Low for Indication Alert</td><td><div><p>Proposed length of therapy is shorter than standard practice for the identified indication or diagnosis</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DOSEH\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-DOSEH\">DOSEH</a></td><td>High Dose Alert</td><td><div><p>Proposed dosage exceeds standard practice</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DOSEHIND\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-DOSEHIND\">DOSEHIND</a></td><td>High Dose for Indication Alert</td><td><div/></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DOSEHINDA\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-DOSEHINDA\">DOSEHINDA</a></td><td>High Dose for Age Alert</td><td><div><p>Proposed dosage exceeds standard practice for the patient's age</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DOSEHINDSA\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-DOSEHINDSA\">DOSEHINDSA</a></td><td>High Dose for Height/Surface Area Alert</td><td><div><p>Proposed dosage exceeds standard practice for the patient's height or body surface area</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DOSEHINDW\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-DOSEHINDW\">DOSEHINDW</a></td><td>High Dose for Weight Alert</td><td><div><p>Proposed dosage exceeds standard practice for the patient's weight</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DOSEIVL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-DOSEIVL\">DOSEIVL</a></td><td>Dose-Interval Alert</td><td><div><p>Proposed dosage interval/timing differs from standard practice</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DOSEIVLIND\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-DOSEIVLIND\">DOSEIVLIND</a></td><td>Dose-Interval for Indication Alert</td><td><div><p>Proposed dosage interval/timing differs from standard practice for the identified indication or diagnosis</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DOSEL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-DOSEL\">DOSEL</a></td><td>Low Dose Alert</td><td><div><p>Proposed dosage is below suggested therapeutic levels</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DOSELIND\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-DOSELIND\">DOSELIND</a></td><td>Low Dose for Indication Alert</td><td><div/></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DOSELINDA\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-DOSELINDA\">DOSELINDA</a></td><td>Low Dose for Age Alert</td><td><div><p>Proposed dosage is below suggested therapeutic levels for the patient's age</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DOSELINDSA\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-DOSELINDSA\">DOSELINDSA</a></td><td>Low Dose for Height/Surface Area Alert</td><td><div><p>Proposed dosage is below suggested therapeutic levels for the patient's height or body surface area</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DOSELINDW\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-DOSELINDW\">DOSELINDW</a></td><td>Low Dose for Weight Alert</td><td><div><p>Proposed dosage is below suggested therapeutic levels for the patient's weight</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DUPTHPCLS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-DUPTHPCLS\">DUPTHPCLS</a></td><td>duplicate therapeutic alass alert</td><td><div><p>**Description:**The proposed therapy appears to have the same intended therapeutic benefit as an existing therapy, though the specific mechanisms of action vary.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DUPTHPGEN\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-DUPTHPGEN\">DUPTHPGEN</a></td><td>duplicate generic alert</td><td><div><p>**Description:**The proposed therapy appears to have the same intended therapeutic benefit as an existing therapy and uses the same mechanisms of action as the existing therapy.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-DUPTHPY\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-DUPTHPY\">DUPTHPY</a></td><td>Duplicate Therapy Alert</td><td><div><p>The proposed therapy appears to duplicate an existing therapy</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-FORMAT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-FORMAT\">FORMAT</a></td><td>invalid format</td><td><div><p>**Description:**The element does not follow the formatting or type rules defined for the field.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-FRAUD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-FRAUD\">FRAUD</a></td><td>potential fraud</td><td><div><p>**Description:**The request is suspected to have a fraudulent basis.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-GEALRT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-GEALRT\">GEALRT</a></td><td>geriatric alert</td><td><div><p>Proposed therapy is outside of standard practice for a geriatric patient.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-GEN\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-GEN\">GEN</a></td><td>Genetic Alert</td><td><div><p>Proposed therapy may be inappropriate or contraindicated due to patient genetic indicators.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-GEND\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-GEND\">GEND</a></td><td>Gender Alert</td><td><div><p>Proposed therapy may be inappropriate or contraindicated due to patient gender.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-HGHT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-HGHT\">HGHT</a></td><td/><td><div/></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-ILLEGAL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-ILLEGAL\">ILLEGAL</a></td><td>illegal</td><td><div><p>**Description:**The request is missing elements or contains elements which cause it to not meet the legal standards for actioning.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-INT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-INT\">INT</a></td><td>Intolerance Alert</td><td><div><p>Proposed therapy may be inappropriate or contraindicated because of a recorded patient intolerance to the proposed product. (Intolerances are non-immune based sensitivities.)</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-KEY204\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-KEY204\">KEY204</a></td><td>Unknown key identifier</td><td><div><p>The ID of the patient, order, etc., was not found. Used for transactions other than additions, e.g. transfer of a non-existent patient.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-KEY205\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-KEY205\">KEY205</a></td><td>Duplicate key identifier</td><td><div><p>The ID of the patient, order, etc., already exists. Used in response to addition transactions (Admit, New Order, etc.).</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-LAB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-LAB\">LAB</a></td><td>Lab Alert</td><td><div><p>Proposed therapy may be inappropriate or contraindicated due to recent lab test results</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-LACT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-LACT\">LACT</a></td><td>Lactation Alert</td><td><div><p>Proposed therapy may be inappropriate or contraindicated when breast-feeding</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-LEN_LONG\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-LEN_LONG\">LEN_LONG</a></td><td>length is too long</td><td><div><p>**Description:**The length of the data specified is greater than the maximum length defined for the element.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-LEN_RANGE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-LEN_RANGE\">LEN_RANGE</a></td><td>length out of range</td><td><div><p>**Description:**The length of the data specified falls out of the range defined for the element.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-LEN_SHORT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-LEN_SHORT\">LEN_SHORT</a></td><td>length is too short</td><td><div><p>**Description:**The length of the data specified is less than the minimum length defined for the element.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-MAXOCCURS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-MAXOCCURS\">MAXOCCURS</a></td><td>repetitions above maximum</td><td><div><p>**Description:**The number of repeating elements is above the maximum number of repetitions allowed.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-MDOSE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-MDOSE\">MDOSE</a></td><td>maximum dosage reached</td><td><div><p>**Description:**The maximum quantity of this drug allowed to be administered within a particular time-range (month, year, lifetime) has been reached or exceeded.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-MINOCCURS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-MINOCCURS\">MINOCCURS</a></td><td>repetitions below minimum</td><td><div><p>**Description:**The number of repeating elements is below the minimum number of repetitions allowed.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-MISSCOND\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-MISSCOND\">MISSCOND</a></td><td>conditional element missing</td><td><div><p>**Description:**The specified element must be specified with a non-null value under certain conditions. In this case, the conditions are true but the element is still missing or null.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-MISSMAND\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-MISSMAND\">MISSMAND</a></td><td>mandatory element missing</td><td><div><p>**Description:**The specified element is mandatory and was not included in the instance.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-NAT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-NAT\">NAT</a></td><td>Insufficient authorization</td><td><div><p>The requesting party has insufficient authorization to invoke the interaction.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-NODUPS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-NODUPS\">NODUPS</a></td><td>duplicate values are not permitted</td><td><div><p>**Description:**More than one element with the same value exists in the set. Duplicates not permission in this set in a set.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-NOPERSIST\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-NOPERSIST\">NOPERSIST</a></td><td>element will not be persisted</td><td><div><p><strong>Description:</strong> Element in submitted message will not persist in data storage based on detected issue.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-OBSA\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-OBSA\">OBSA</a></td><td>Observation Alert</td><td><div><p>Proposed therapy may be inappropriate or contraindicated due to conditions or characteristics of the patient</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-PEALRT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-PEALRT\">PEALRT</a></td><td>pediatric alert</td><td><div><p>Proposed therapy is outside of the standard practice for a pediatric patient.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-PLYDOC\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-PLYDOC\">PLYDOC</a></td><td>Poly-orderer Alert</td><td><div><p>A similar or identical therapy was recently ordered by a different practitioner.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-PLYPHRM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-PLYPHRM\">PLYPHRM</a></td><td>Poly-supplier Alert</td><td><div><p>This patient was recently supplied a similar or identical therapy from a different pharmacy or supplier.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-PREG\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-PREG\">PREG</a></td><td>Pregnancy Alert</td><td><div><p>Proposed therapy may be inappropriate or contraindicated during pregnancy</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-RALG\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-RALG\">RALG</a></td><td>Related Allergy Alert</td><td><div><p>Proposed therapy may be inappropriate or contraindicated because of a recorded patient allergy to a cross-sensitivity related product. (Allergies are immune based reactions.)</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-RAR\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-RAR\">RAR</a></td><td>Related Prior Reaction Alert</td><td><div><p>Proposed therapy may be inappropriate or contraindicated because of a recorded prior adverse reaction to a cross-sensitivity related product.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-REACT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-REACT\">REACT</a></td><td>Reaction Alert</td><td><div><p>Proposed therapy may be inappropriate or contraindicated based on the potential for a patient reaction to the proposed product</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-REP_RANGE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-REP_RANGE\">REP_RANGE</a></td><td>repetitions out of range</td><td><div><p>**Description:**The number of repeating elements falls outside the range of the allowed number of repetitions.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-RINT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-RINT\">RINT</a></td><td>Related Intolerance Alert</td><td><div><p>Proposed therapy may be inappropriate or contraindicated because of a recorded patient intolerance to a cross-sensitivity related product. (Intolerances are non-immune based sensitivities.)</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-RREACT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-RREACT\">RREACT</a></td><td>Related Reaction Alert</td><td><div><p>Proposed therapy may be inappropriate or contraindicated because of a potential patient reaction to a cross-sensitivity related product.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-SUPPRESSED\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-SUPPRESSED\">SUPPRESSED</a></td><td>record suppressed</td><td><div><p><strong>Description:</strong> One or more records in the query response have been suppressed due to consent or privacy restrictions.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-VALIDAT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-VALIDAT\">VALIDAT</a></td><td>validation issue</td><td><div><p>**Description:**The specified element did not pass business-rule validation.</p>\n</div></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-WGHT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-WGHT\">WGHT</a></td><td/><td><div/></td></tr><tr><td><a name=\"R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4-http://terminology.hl7.org/CodeSystem/v3-ActCode-_ActAdministrativeAuthorizationDetectedIssueCode\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ActCode</code></td><td>8.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-ActCode.html#v3-ActCode-_ActAdministrativeAuthorizationDetectedIssueCode\">_ActAdministrativeAuthorizationDetectedIssueCode</a></td><td>ActAdministrativeAuthorizationDetectedIssueCode</td><td><div/></td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-ActAdministrativeAuthorizationDetectedIssueCode-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5V3ActAdministrativeAuthorizationDetectedIssueCodeForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.ActAdministrativeAuthorizationDetectedIssueCode for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v3-ActAdministrativeAuthorizationDetectedIssueCode|2.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/v3-ActAdministrativeAuthorizationDetectedIssueCode|2.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* \r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://terminology.hl7.org/ValueSet/v3-ActAdministrativeAuthorizationDetectedIssueCode|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "ABUSE" ] ;
+         fhir:display [ fhir:v "commonly abused/misused alert" ]
+       ] [
+         fhir:code [ fhir:v "ADALRT" ] ;
+         fhir:display [ fhir:v "adult alert" ]
+       ] [
+         fhir:code [ fhir:v "AGE" ] ;
+         fhir:display [ fhir:v "Age Alert" ]
+       ] [
+         fhir:code [ fhir:v "ALGY" ] ;
+         fhir:display [ fhir:v "Allergy Alert" ]
+       ] [
+         fhir:code [ fhir:v "BUS" ] ;
+         fhir:display [ fhir:v "business constraint violation" ]
+       ] [
+         fhir:code [ fhir:v "CODE_DEPREC" ] ;
+         fhir:display [ fhir:v "code has been deprecated" ]
+       ] [
+         fhir:code [ fhir:v "CODE_INVAL" ] ;
+         fhir:display [ fhir:v "code is not valid" ]
+       ] [
+         fhir:code [ fhir:v "COMPLY" ] ;
+         fhir:display [ fhir:v "Compliance Alert" ]
+       ] [
+         fhir:code [ fhir:v "COND" ] ;
+         fhir:display [ fhir:v "Condition Alert" ]
+       ] [
+         fhir:code [ fhir:v "CREACT" ] ;
+         fhir:display [ fhir:v "common reaction alert" ]
+       ] [
+         fhir:code [ fhir:v "DOSE" ] ;
+         fhir:display [ fhir:v "Dosage problem" ]
+       ] [
+         fhir:code [ fhir:v "DOSECOND" ] ;
+         fhir:display [ fhir:v "dosage-condition alert" ]
+       ] [
+         fhir:code [ fhir:v "DOSEDUR" ] ;
+         fhir:display [ fhir:v "Dose-Duration Alert" ]
+       ] [
+         fhir:code [ fhir:v "DOSEDURH" ] ;
+         fhir:display [ fhir:v "Dose-Duration High Alert" ]
+       ] [
+         fhir:code [ fhir:v "DOSEDURHIND" ] ;
+         fhir:display [ fhir:v "Dose-Duration High for Indication Alert" ]
+       ] [
+         fhir:code [ fhir:v "DOSEDURL" ] ;
+         fhir:display [ fhir:v "Dose-Duration Low Alert" ]
+       ] [
+         fhir:code [ fhir:v "DOSEDURLIND" ] ;
+         fhir:display [ fhir:v "Dose-Duration Low for Indication Alert" ]
+       ] [
+         fhir:code [ fhir:v "DOSEH" ] ;
+         fhir:display [ fhir:v "High Dose Alert" ]
+       ] [
+         fhir:code [ fhir:v "DOSEHIND" ] ;
+         fhir:display [ fhir:v "High Dose for Indication Alert" ]
+       ] [
+         fhir:code [ fhir:v "DOSEHINDA" ] ;
+         fhir:display [ fhir:v "High Dose for Age Alert" ]
+       ] [
+         fhir:code [ fhir:v "DOSEHINDSA" ] ;
+         fhir:display [ fhir:v "High Dose for Height/Surface Area Alert" ]
+       ] [
+         fhir:code [ fhir:v "DOSEHINDW" ] ;
+         fhir:display [ fhir:v "High Dose for Weight Alert" ]
+       ] [
+         fhir:code [ fhir:v "DOSEIVL" ] ;
+         fhir:display [ fhir:v "Dose-Interval Alert" ]
+       ] [
+         fhir:code [ fhir:v "DOSEIVLIND" ] ;
+         fhir:display [ fhir:v "Dose-Interval for Indication Alert" ]
+       ] [
+         fhir:code [ fhir:v "DOSEL" ] ;
+         fhir:display [ fhir:v "Low Dose Alert" ]
+       ] [
+         fhir:code [ fhir:v "DOSELIND" ] ;
+         fhir:display [ fhir:v "Low Dose for Indication Alert" ]
+       ] [
+         fhir:code [ fhir:v "DOSELINDA" ] ;
+         fhir:display [ fhir:v "Low Dose for Age Alert" ]
+       ] [
+         fhir:code [ fhir:v "DOSELINDSA" ] ;
+         fhir:display [ fhir:v "Low Dose for Height/Surface Area Alert" ]
+       ] [
+         fhir:code [ fhir:v "DOSELINDW" ] ;
+         fhir:display [ fhir:v "Low Dose for Weight Alert" ]
+       ] [
+         fhir:code [ fhir:v "DUPTHPCLS" ] ;
+         fhir:display [ fhir:v "duplicate therapeutic alass alert" ]
+       ] [
+         fhir:code [ fhir:v "DUPTHPGEN" ] ;
+         fhir:display [ fhir:v "duplicate generic alert" ]
+       ] [
+         fhir:code [ fhir:v "DUPTHPY" ] ;
+         fhir:display [ fhir:v "Duplicate Therapy Alert" ]
+       ] [
+         fhir:code [ fhir:v "FORMAT" ] ;
+         fhir:display [ fhir:v "invalid format" ]
+       ] [
+         fhir:code [ fhir:v "FRAUD" ] ;
+         fhir:display [ fhir:v "potential fraud" ]
+       ] [
+         fhir:code [ fhir:v "GEALRT" ] ;
+         fhir:display [ fhir:v "geriatric alert" ]
+       ] [
+         fhir:code [ fhir:v "GEN" ] ;
+         fhir:display [ fhir:v "Genetic Alert" ]
+       ] [
+         fhir:code [ fhir:v "GEND" ] ;
+         fhir:display [ fhir:v "Gender Alert" ]
+       ] [
+         fhir:code [ fhir:v "HGHT" ]
+       ] [
+         fhir:code [ fhir:v "ILLEGAL" ] ;
+         fhir:display [ fhir:v "illegal" ]
+       ] [
+         fhir:code [ fhir:v "INT" ] ;
+         fhir:display [ fhir:v "Intolerance Alert" ]
+       ] [
+         fhir:code [ fhir:v "KEY204" ] ;
+         fhir:display [ fhir:v "Unknown key identifier" ]
+       ] [
+         fhir:code [ fhir:v "KEY205" ] ;
+         fhir:display [ fhir:v "Duplicate key identifier" ]
+       ] [
+         fhir:code [ fhir:v "LAB" ] ;
+         fhir:display [ fhir:v "Lab Alert" ]
+       ] [
+         fhir:code [ fhir:v "LACT" ] ;
+         fhir:display [ fhir:v "Lactation Alert" ]
+       ] [
+         fhir:code [ fhir:v "LEN_LONG" ] ;
+         fhir:display [ fhir:v "length is too long" ]
+       ] [
+         fhir:code [ fhir:v "LEN_RANGE" ] ;
+         fhir:display [ fhir:v "length out of range" ]
+       ] [
+         fhir:code [ fhir:v "LEN_SHORT" ] ;
+         fhir:display [ fhir:v "length is too short" ]
+       ] [
+         fhir:code [ fhir:v "MAXOCCURS" ] ;
+         fhir:display [ fhir:v "repetitions above maximum" ]
+       ] [
+         fhir:code [ fhir:v "MDOSE" ] ;
+         fhir:display [ fhir:v "maximum dosage reached" ]
+       ] [
+         fhir:code [ fhir:v "MINOCCURS" ] ;
+         fhir:display [ fhir:v "repetitions below minimum" ]
+       ] [
+         fhir:code [ fhir:v "MISSCOND" ] ;
+         fhir:display [ fhir:v "conditional element missing" ]
+       ] [
+         fhir:code [ fhir:v "MISSMAND" ] ;
+         fhir:display [ fhir:v "mandatory element missing" ]
+       ] [
+         fhir:code [ fhir:v "NAT" ] ;
+         fhir:display [ fhir:v "Insufficient authorization" ]
+       ] [
+         fhir:code [ fhir:v "NODUPS" ] ;
+         fhir:display [ fhir:v "duplicate values are not permitted" ]
+       ] [
+         fhir:code [ fhir:v "NOPERSIST" ] ;
+         fhir:display [ fhir:v "element will not be persisted" ]
+       ] [
+         fhir:code [ fhir:v "OBSA" ] ;
+         fhir:display [ fhir:v "Observation Alert" ]
+       ] [
+         fhir:code [ fhir:v "PEALRT" ] ;
+         fhir:display [ fhir:v "pediatric alert" ]
+       ] [
+         fhir:code [ fhir:v "PLYDOC" ] ;
+         fhir:display [ fhir:v "Poly-orderer Alert" ]
+       ] [
+         fhir:code [ fhir:v "PLYPHRM" ] ;
+         fhir:display [ fhir:v "Poly-supplier Alert" ]
+       ] [
+         fhir:code [ fhir:v "PREG" ] ;
+         fhir:display [ fhir:v "Pregnancy Alert" ]
+       ] [
+         fhir:code [ fhir:v "RALG" ] ;
+         fhir:display [ fhir:v "Related Allergy Alert" ]
+       ] [
+         fhir:code [ fhir:v "RAR" ] ;
+         fhir:display [ fhir:v "Related Prior Reaction Alert" ]
+       ] [
+         fhir:code [ fhir:v "REACT" ] ;
+         fhir:display [ fhir:v "Reaction Alert" ]
+       ] [
+         fhir:code [ fhir:v "REP_RANGE" ] ;
+         fhir:display [ fhir:v "repetitions out of range" ]
+       ] [
+         fhir:code [ fhir:v "RINT" ] ;
+         fhir:display [ fhir:v "Related Intolerance Alert" ]
+       ] [
+         fhir:code [ fhir:v "RREACT" ] ;
+         fhir:display [ fhir:v "Related Reaction Alert" ]
+       ] [
+         fhir:code [ fhir:v "SUPPRESSED" ] ;
+         fhir:display [ fhir:v "record suppressed" ]
+       ] [
+         fhir:code [ fhir:v "VALIDAT" ] ;
+         fhir:display [ fhir:v "validation issue" ]
+       ] [
+         fhir:code [ fhir:v "WGHT" ]
+       ] [
+         fhir:code [ fhir:v "_ActAdministrativeAuthorizationDetectedIssueCode" ] ;
+         fhir:display [ fhir:v "ActAdministrativeAuthorizationDetectedIssueCode" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "ABUSE" ] ;
+       fhir:display [ fhir:v "commonly abused/misused alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "ADALRT" ] ;
+       fhir:display [ fhir:v "adult alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "AGE" ] ;
+       fhir:display [ fhir:v "Age Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "ALGY" ] ;
+       fhir:display [ fhir:v "Allergy Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "BUS" ] ;
+       fhir:display [ fhir:v "business constraint violation" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "CODE_DEPREC" ] ;
+       fhir:display [ fhir:v "code has been deprecated" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "CODE_INVAL" ] ;
+       fhir:display [ fhir:v "code is not valid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "COMPLY" ] ;
+       fhir:display [ fhir:v "Compliance Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "COND" ] ;
+       fhir:display [ fhir:v "Condition Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "CREACT" ] ;
+       fhir:display [ fhir:v "common reaction alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "DOSE" ] ;
+       fhir:display [ fhir:v "Dosage problem" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "DOSECOND" ] ;
+       fhir:display [ fhir:v "dosage-condition alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "DOSEDUR" ] ;
+       fhir:display [ fhir:v "Dose-Duration Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "DOSEDURH" ] ;
+       fhir:display [ fhir:v "Dose-Duration High Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "DOSEDURHIND" ] ;
+       fhir:display [ fhir:v "Dose-Duration High for Indication Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "DOSEDURL" ] ;
+       fhir:display [ fhir:v "Dose-Duration Low Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "DOSEDURLIND" ] ;
+       fhir:display [ fhir:v "Dose-Duration Low for Indication Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "DOSEH" ] ;
+       fhir:display [ fhir:v "High Dose Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "DOSEHIND" ] ;
+       fhir:display [ fhir:v "High Dose for Indication Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "DOSEHINDA" ] ;
+       fhir:display [ fhir:v "High Dose for Age Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "DOSEHINDSA" ] ;
+       fhir:display [ fhir:v "High Dose for Height/Surface Area Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "DOSEHINDW" ] ;
+       fhir:display [ fhir:v "High Dose for Weight Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "DOSEIVL" ] ;
+       fhir:display [ fhir:v "Dose-Interval Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "DOSEIVLIND" ] ;
+       fhir:display [ fhir:v "Dose-Interval for Indication Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "DOSEL" ] ;
+       fhir:display [ fhir:v "Low Dose Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "DOSELIND" ] ;
+       fhir:display [ fhir:v "Low Dose for Indication Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "DOSELINDA" ] ;
+       fhir:display [ fhir:v "Low Dose for Age Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "DOSELINDSA" ] ;
+       fhir:display [ fhir:v "Low Dose for Height/Surface Area Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "DOSELINDW" ] ;
+       fhir:display [ fhir:v "Low Dose for Weight Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "DUPTHPCLS" ] ;
+       fhir:display [ fhir:v "duplicate therapeutic alass alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "DUPTHPGEN" ] ;
+       fhir:display [ fhir:v "duplicate generic alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "DUPTHPY" ] ;
+       fhir:display [ fhir:v "Duplicate Therapy Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "FORMAT" ] ;
+       fhir:display [ fhir:v "invalid format" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "FRAUD" ] ;
+       fhir:display [ fhir:v "potential fraud" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "GEALRT" ] ;
+       fhir:display [ fhir:v "geriatric alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "GEN" ] ;
+       fhir:display [ fhir:v "Genetic Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "GEND" ] ;
+       fhir:display [ fhir:v "Gender Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "HGHT" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "ILLEGAL" ] ;
+       fhir:display [ fhir:v "illegal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "INT" ] ;
+       fhir:display [ fhir:v "Intolerance Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "KEY204" ] ;
+       fhir:display [ fhir:v "Unknown key identifier" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "KEY205" ] ;
+       fhir:display [ fhir:v "Duplicate key identifier" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "LAB" ] ;
+       fhir:display [ fhir:v "Lab Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "LACT" ] ;
+       fhir:display [ fhir:v "Lactation Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "LEN_LONG" ] ;
+       fhir:display [ fhir:v "length is too long" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "LEN_RANGE" ] ;
+       fhir:display [ fhir:v "length out of range" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "LEN_SHORT" ] ;
+       fhir:display [ fhir:v "length is too short" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "MAXOCCURS" ] ;
+       fhir:display [ fhir:v "repetitions above maximum" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "MDOSE" ] ;
+       fhir:display [ fhir:v "maximum dosage reached" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "MINOCCURS" ] ;
+       fhir:display [ fhir:v "repetitions below minimum" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "MISSCOND" ] ;
+       fhir:display [ fhir:v "conditional element missing" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "MISSMAND" ] ;
+       fhir:display [ fhir:v "mandatory element missing" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "NAT" ] ;
+       fhir:display [ fhir:v "Insufficient authorization" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "NODUPS" ] ;
+       fhir:display [ fhir:v "duplicate values are not permitted" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "NOPERSIST" ] ;
+       fhir:display [ fhir:v "element will not be persisted" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "OBSA" ] ;
+       fhir:display [ fhir:v "Observation Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "PEALRT" ] ;
+       fhir:display [ fhir:v "pediatric alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "PLYDOC" ] ;
+       fhir:display [ fhir:v "Poly-orderer Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "PLYPHRM" ] ;
+       fhir:display [ fhir:v "Poly-supplier Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "PREG" ] ;
+       fhir:display [ fhir:v "Pregnancy Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "RALG" ] ;
+       fhir:display [ fhir:v "Related Allergy Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "RAR" ] ;
+       fhir:display [ fhir:v "Related Prior Reaction Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "REACT" ] ;
+       fhir:display [ fhir:v "Reaction Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "REP_RANGE" ] ;
+       fhir:display [ fhir:v "repetitions out of range" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "RINT" ] ;
+       fhir:display [ fhir:v "Related Intolerance Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "RREACT" ] ;
+       fhir:display [ fhir:v "Related Reaction Alert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "SUPPRESSED" ] ;
+       fhir:display [ fhir:v "record suppressed" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "VALIDAT" ] ;
+       fhir:display [ fhir:v "validation issue" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "WGHT" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActCode"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActCode>
+       ] ;
+       fhir:version [ fhir:v "8.0.0" ] ;
+       fhir:code [ fhir:v "_ActAdministrativeAuthorizationDetectedIssueCode" ] ;
+       fhir:display [ fhir:v "ActAdministrativeAuthorizationDetectedIssueCode" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

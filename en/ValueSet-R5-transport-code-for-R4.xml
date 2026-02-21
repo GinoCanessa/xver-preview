@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-transport-code-for-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-transport-code-for-R4</b></p><a name="R5-transport-code-for-R4"> </a><a name="hcR5-transport-code-for-R4"> </a><p>This value set expansion contains 8 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="R5-transport-code-for-R4-http://hl7.org/fhir/CodeSystem/transport-code-abort"> </a><code>http://hl7.org/fhir/CodeSystem/transport-code</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-transport-code.html#transport-code-abort">abort</a></td><td>Mark the focal resource as no longer active</td><td>Abort, cancel or withdraw the focal resource, as appropriate for the type of resource.</td></tr><tr><td><a name="R5-transport-code-for-R4-http://hl7.org/fhir/CodeSystem/transport-code-approve"> </a><code>http://hl7.org/fhir/CodeSystem/transport-code</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-transport-code.html#transport-code-approve">approve</a></td><td>Activate/approve the focal resource</td><td>Take what actions are needed to transition the focus resource from 'draft' to 'active' or 'in-progress', as appropriate for the resource type.  This may involve additing additional content, approval, validation, etc.</td></tr><tr><td><a name="R5-transport-code-for-R4-http://hl7.org/fhir/CodeSystem/transport-code-change"> </a><code>http://hl7.org/fhir/CodeSystem/transport-code</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-transport-code.html#transport-code-change">change</a></td><td>Change the focal resource</td><td>Update the focal resource of the owning system to reflect the content specified as the Task.focus</td></tr><tr><td><a name="R5-transport-code-for-R4-http://hl7.org/fhir/CodeSystem/transport-code-fulfill"> </a><code>http://hl7.org/fhir/CodeSystem/transport-code</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-transport-code.html#transport-code-fulfill">fulfill</a></td><td>Fulfill the focal request</td><td>Act to perform the actions described in the focus request.  This might result in a 'more assertive' request (order for a plan or proposal, filler order for a placer order), but is intend to eventually result in events.  The degree of fulfillment requested might be limited by Task.restriction.</td></tr><tr><td><a name="R5-transport-code-for-R4-http://hl7.org/fhir/CodeSystem/transport-code-instantiate"> </a><code>http://hl7.org/fhir/CodeSystem/transport-code</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-transport-code.html#transport-code-instantiate">instantiate</a></td><td>Instantiate the focal definition</td><td>Act to perform the actions defined in the focus definition resource (ActivityDefinition, PlanDefinition, Questionnaire, etc.)  For PlanDefinition or ActivityDefinition, this might result in a 'more assertive' request (order for a plan or proposal, filler order for a placer order), but is intend to eventually result in events.  For Questionnaire, this would result in a QuestionnaireResponse - and possibly resources constructed using data extracted from the response.  The degree of fulfillment requested might be limited by Task.restriction.</td></tr><tr><td><a name="R5-transport-code-for-R4-http://hl7.org/fhir/CodeSystem/transport-code-replace"> </a><code>http://hl7.org/fhir/CodeSystem/transport-code</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-transport-code.html#transport-code-replace">replace</a></td><td>Replace the focal resource with the input resource</td><td>Replace the focal resource with the specified input resource</td></tr><tr><td><a name="R5-transport-code-for-R4-http://hl7.org/fhir/CodeSystem/transport-code-resume"> </a><code>http://hl7.org/fhir/CodeSystem/transport-code</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-transport-code.html#transport-code-resume">resume</a></td><td>Re-activate the focal resource</td><td>Transition the focal resource from 'suspended' to 'active' or 'in-progress' as appropriate for the resource type.</td></tr><tr><td><a name="R5-transport-code-for-R4-http://hl7.org/fhir/CodeSystem/transport-code-suspend"> </a><code>http://hl7.org/fhir/CodeSystem/transport-code</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-transport-code.html#transport-code-suspend">suspend</a></td><td>Suspend the focal resource</td><td>Transition the focal resource from 'active' or 'in-progress' to 'suspended'</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-transport-code-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5TransportCodeForR4"/>
+  <title value="Cross-version ValueSet R5.TransportCode for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="Orders and Observations"/>
+  <contact>
+    <name value="Orders and Observations"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/orders"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/transport-code|5.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/transport-code|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `Transport.code`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;&#xA;FHIR ValueSet `http://hl7.org/fhir/ValueSet/transport-code|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/CodeSystem/transport-code"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="abort"/>
+        <display value="Mark the focal resource as no longer active"/>
+      </concept>
+      <concept>
+        <code value="approve"/>
+        <display value="Activate/approve the focal resource"/>
+      </concept>
+      <concept>
+        <code value="change"/>
+        <display value="Change the focal resource"/>
+      </concept>
+      <concept>
+        <code value="fulfill"/>
+        <display value="Fulfill the focal request"/>
+      </concept>
+      <concept>
+        <code value="instantiate"/>
+        <display value="Instantiate the focal definition"/>
+      </concept>
+      <concept>
+        <code value="replace"/>
+        <display value="Replace the focal resource with the input resource"/>
+      </concept>
+      <concept>
+        <code value="resume"/>
+        <display value="Re-activate the focal resource"/>
+      </concept>
+      <concept>
+        <code value="suspend"/>
+        <display value="Suspend the focal resource"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/transport-code"/>
+      <version value="5.0.0"/>
+      <code value="abort"/>
+      <display value="Mark the focal resource as no longer active"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/transport-code"/>
+      <version value="5.0.0"/>
+      <code value="approve"/>
+      <display value="Activate/approve the focal resource"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/transport-code"/>
+      <version value="5.0.0"/>
+      <code value="change"/>
+      <display value="Change the focal resource"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/transport-code"/>
+      <version value="5.0.0"/>
+      <code value="fulfill"/>
+      <display value="Fulfill the focal request"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/transport-code"/>
+      <version value="5.0.0"/>
+      <code value="instantiate"/>
+      <display value="Instantiate the focal definition"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/transport-code"/>
+      <version value="5.0.0"/>
+      <code value="replace"/>
+      <display value="Replace the focal resource with the input resource"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/transport-code"/>
+      <version value="5.0.0"/>
+      <code value="resume"/>
+      <display value="Re-activate the focal resource"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/CodeSystem/transport-code"/>
+      <version value="5.0.0"/>
+      <code value="suspend"/>
+      <display value="Suspend the focal resource"/>
+    </contains>
+  </expansion>
+</ValueSet>

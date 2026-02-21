@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="adverse-event-causality-method"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://terminology.hl7.org/CodeSystem/adverse-event-causality-method</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">probability-scale<a name="adverse-event-causality-method-probability-scale"> </a></td><td>Probability Scale</td></tr><tr><td style="white-space:nowrap">bayesian<a name="adverse-event-causality-method-bayesian"> </a></td><td>Bayesian</td></tr><tr><td style="white-space:nowrap">checklist<a name="adverse-event-causality-method-checklist"> </a></td><td>Checklist</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pc"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/adverse-event-causality-method"/>
+  <version value="0.1.0"/>
+  <name value="AdverseEventCausalityMethod"/>
+  <title value="AdverseEventCausalityMethod"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-04-09T16:10:28-05:00"/>
+  <publisher value="Patient Care"/>
+  <contact>
+    <name value="Patient Care"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="TODO."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/adverse-event-causality-method|1.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="probability-scale"/>
+    <display value="Probability Scale"/>
+  </concept>
+  <concept>
+    <code value="bayesian"/>
+    <display value="Bayesian"/>
+  </concept>
+  <concept>
+    <code value="checklist"/>
+    <display value="Checklist"/>
+  </concept>
+</CodeSystem>

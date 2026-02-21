@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-deviceassociation-operationstatus-for-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-deviceassociation-operationstatus-for-R4</b></p><a name="R5-deviceassociation-operationstatus-for-R4"> </a><a name="hcR5-deviceassociation-operationstatus-for-R4"> </a><p>This value set expansion contains 5 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="R5-deviceassociation-operationstatus-for-R4-http://hl7.org/fhir/deviceassociation-operationstatus-defective"> </a><code>http://hl7.org/fhir/deviceassociation-operationstatus</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-deviceassociation-operationstatus.html#deviceassociation-operationstatus-defective">defective</a></td><td>Stand By</td><td>The device is defective or for maintenance and is not available or working.</td></tr><tr><td><a name="R5-deviceassociation-operationstatus-for-R4-http://hl7.org/fhir/deviceassociation-operationstatus-off"> </a><code>http://hl7.org/fhir/deviceassociation-operationstatus</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-deviceassociation-operationstatus.html#deviceassociation-operationstatus-off">off</a></td><td>Off</td><td>The device is inactive, switched off, or deactivated.</td></tr><tr><td><a name="R5-deviceassociation-operationstatus-for-R4-http://hl7.org/fhir/deviceassociation-operationstatus-on"> </a><code>http://hl7.org/fhir/deviceassociation-operationstatus</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-deviceassociation-operationstatus.html#deviceassociation-operationstatus-on">on</a></td><td>On</td><td>The device is working or switched on, i.e. active.</td></tr><tr><td><a name="R5-deviceassociation-operationstatus-for-R4-http://hl7.org/fhir/deviceassociation-operationstatus-standby"> </a><code>http://hl7.org/fhir/deviceassociation-operationstatus</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-deviceassociation-operationstatus.html#deviceassociation-operationstatus-standby">standby</a></td><td>Stand By</td><td>The device is in stand-by mode i.e. not actively working but not powered off.</td></tr><tr><td><a name="R5-deviceassociation-operationstatus-for-R4-http://hl7.org/fhir/deviceassociation-operationstatus-unknown"> </a><code>http://hl7.org/fhir/deviceassociation-operationstatus</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-deviceassociation-operationstatus.html#deviceassociation-operationstatus-unknown">unknown</a></td><td>Unknown</td><td>The operational status of the device has not been determined.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-deviceassociation-operationstatus-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5DeviceassociationOperationstatusForR4"/>
+  <title value="Cross-version ValueSet R5.FHIRDeviceAssociationOperationStatus for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T19:36:42.9229177+00:00"/>
+  <publisher value="Orders and Observations"/>
+  <contact>
+    <name value="Orders and Observations"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/orders"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/deviceassociation-operationstatus|5.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/deviceassociation-operationstatus|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `DeviceAssociation.operation.status`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;&#xA;FHIR ValueSet `http://hl7.org/fhir/ValueSet/deviceassociation-operationstatus|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/deviceassociation-operationstatus"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="defective"/>
+        <display value="Stand By"/>
+      </concept>
+      <concept>
+        <code value="off"/>
+        <display value="Off"/>
+      </concept>
+      <concept>
+        <code value="on"/>
+        <display value="On"/>
+      </concept>
+      <concept>
+        <code value="standby"/>
+        <display value="Stand By"/>
+      </concept>
+      <concept>
+        <code value="unknown"/>
+        <display value="Unknown"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-21T19:36:42.9229177+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/deviceassociation-operationstatus"/>
+      <version value="5.0.0"/>
+      <code value="defective"/>
+      <display value="Stand By"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/deviceassociation-operationstatus"/>
+      <version value="5.0.0"/>
+      <code value="off"/>
+      <display value="Off"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/deviceassociation-operationstatus"/>
+      <version value="5.0.0"/>
+      <code value="on"/>
+      <display value="On"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/deviceassociation-operationstatus"/>
+      <version value="5.0.0"/>
+      <code value="standby"/>
+      <display value="Stand By"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/deviceassociation-operationstatus"/>
+      <version value="5.0.0"/>
+      <code value="unknown"/>
+      <display value="Unknown"/>
+    </contains>
+  </expansion>
+</ValueSet>

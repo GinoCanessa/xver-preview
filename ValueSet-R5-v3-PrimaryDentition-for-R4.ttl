@@ -1,0 +1,366 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-PrimaryDentition-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-v3-PrimaryDentition-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-v3-PrimaryDentition-for-R4</b></p><a name=\"R5-v3-PrimaryDentition-for-R4\"> </a><a name=\"hcR5-v3-PrimaryDentition-for-R4\"> </a><p>This value set expansion contains 20 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-v3-PrimaryDentition-for-R4-http://terminology.hl7.org/CodeSystem/v3-Dentition-TIDA\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Dentition</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TIDA</td><td>A</td></tr><tr><td><a name=\"R5-v3-PrimaryDentition-for-R4-http://terminology.hl7.org/CodeSystem/v3-Dentition-TIDB\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Dentition</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TIDB</td><td>B</td></tr><tr><td><a name=\"R5-v3-PrimaryDentition-for-R4-http://terminology.hl7.org/CodeSystem/v3-Dentition-TIDC\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Dentition</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TIDC</td><td>C</td></tr><tr><td><a name=\"R5-v3-PrimaryDentition-for-R4-http://terminology.hl7.org/CodeSystem/v3-Dentition-TIDD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Dentition</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TIDD</td><td>D</td></tr><tr><td><a name=\"R5-v3-PrimaryDentition-for-R4-http://terminology.hl7.org/CodeSystem/v3-Dentition-TIDE\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Dentition</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TIDE</td><td>E</td></tr><tr><td><a name=\"R5-v3-PrimaryDentition-for-R4-http://terminology.hl7.org/CodeSystem/v3-Dentition-TIDF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Dentition</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TIDF</td><td>F</td></tr><tr><td><a name=\"R5-v3-PrimaryDentition-for-R4-http://terminology.hl7.org/CodeSystem/v3-Dentition-TIDG\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Dentition</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TIDG</td><td>G</td></tr><tr><td><a name=\"R5-v3-PrimaryDentition-for-R4-http://terminology.hl7.org/CodeSystem/v3-Dentition-TIDH\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Dentition</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TIDH</td><td>H</td></tr><tr><td><a name=\"R5-v3-PrimaryDentition-for-R4-http://terminology.hl7.org/CodeSystem/v3-Dentition-TIDI\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Dentition</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TIDI</td><td>I</td></tr><tr><td><a name=\"R5-v3-PrimaryDentition-for-R4-http://terminology.hl7.org/CodeSystem/v3-Dentition-TIDJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Dentition</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TIDJ</td><td>J</td></tr><tr><td><a name=\"R5-v3-PrimaryDentition-for-R4-http://terminology.hl7.org/CodeSystem/v3-Dentition-TIDK\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Dentition</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TIDK</td><td>K</td></tr><tr><td><a name=\"R5-v3-PrimaryDentition-for-R4-http://terminology.hl7.org/CodeSystem/v3-Dentition-TIDL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Dentition</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TIDL</td><td>L</td></tr><tr><td><a name=\"R5-v3-PrimaryDentition-for-R4-http://terminology.hl7.org/CodeSystem/v3-Dentition-TIDM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Dentition</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TIDM</td><td>M</td></tr><tr><td><a name=\"R5-v3-PrimaryDentition-for-R4-http://terminology.hl7.org/CodeSystem/v3-Dentition-TIDN\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Dentition</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TIDN</td><td>N</td></tr><tr><td><a name=\"R5-v3-PrimaryDentition-for-R4-http://terminology.hl7.org/CodeSystem/v3-Dentition-TIDO\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Dentition</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TIDO</td><td>O</td></tr><tr><td><a name=\"R5-v3-PrimaryDentition-for-R4-http://terminology.hl7.org/CodeSystem/v3-Dentition-TIDP\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Dentition</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TIDP</td><td>P</td></tr><tr><td><a name=\"R5-v3-PrimaryDentition-for-R4-http://terminology.hl7.org/CodeSystem/v3-Dentition-TIDQ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Dentition</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TIDQ</td><td>Q</td></tr><tr><td><a name=\"R5-v3-PrimaryDentition-for-R4-http://terminology.hl7.org/CodeSystem/v3-Dentition-TIDR\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Dentition</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TIDR</td><td>R</td></tr><tr><td><a name=\"R5-v3-PrimaryDentition-for-R4-http://terminology.hl7.org/CodeSystem/v3-Dentition-TIDS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Dentition</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TIDS</td><td>S</td></tr><tr><td><a name=\"R5-v3-PrimaryDentition-for-R4-http://terminology.hl7.org/CodeSystem/v3-Dentition-TIDT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Dentition</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TIDT</td><td>T</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-PrimaryDentition-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-PrimaryDentition-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5V3PrimaryDentitionForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.PrimaryDentition for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v3-PrimaryDentition|2.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/v3-PrimaryDentition|2.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* \r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://terminology.hl7.org/ValueSet/v3-PrimaryDentition|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Dentition"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Dentition>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "TIDA" ] ;
+         fhir:display [ fhir:v "A" ]
+       ] [
+         fhir:code [ fhir:v "TIDB" ] ;
+         fhir:display [ fhir:v "B" ]
+       ] [
+         fhir:code [ fhir:v "TIDC" ] ;
+         fhir:display [ fhir:v "C" ]
+       ] [
+         fhir:code [ fhir:v "TIDD" ] ;
+         fhir:display [ fhir:v "D" ]
+       ] [
+         fhir:code [ fhir:v "TIDE" ] ;
+         fhir:display [ fhir:v "E" ]
+       ] [
+         fhir:code [ fhir:v "TIDF" ] ;
+         fhir:display [ fhir:v "F" ]
+       ] [
+         fhir:code [ fhir:v "TIDG" ] ;
+         fhir:display [ fhir:v "G" ]
+       ] [
+         fhir:code [ fhir:v "TIDH" ] ;
+         fhir:display [ fhir:v "H" ]
+       ] [
+         fhir:code [ fhir:v "TIDI" ] ;
+         fhir:display [ fhir:v "I" ]
+       ] [
+         fhir:code [ fhir:v "TIDJ" ] ;
+         fhir:display [ fhir:v "J" ]
+       ] [
+         fhir:code [ fhir:v "TIDK" ] ;
+         fhir:display [ fhir:v "K" ]
+       ] [
+         fhir:code [ fhir:v "TIDL" ] ;
+         fhir:display [ fhir:v "L" ]
+       ] [
+         fhir:code [ fhir:v "TIDM" ] ;
+         fhir:display [ fhir:v "M" ]
+       ] [
+         fhir:code [ fhir:v "TIDN" ] ;
+         fhir:display [ fhir:v "N" ]
+       ] [
+         fhir:code [ fhir:v "TIDO" ] ;
+         fhir:display [ fhir:v "O" ]
+       ] [
+         fhir:code [ fhir:v "TIDP" ] ;
+         fhir:display [ fhir:v "P" ]
+       ] [
+         fhir:code [ fhir:v "TIDQ" ] ;
+         fhir:display [ fhir:v "Q" ]
+       ] [
+         fhir:code [ fhir:v "TIDR" ] ;
+         fhir:display [ fhir:v "R" ]
+       ] [
+         fhir:code [ fhir:v "TIDS" ] ;
+         fhir:display [ fhir:v "S" ]
+       ] [
+         fhir:code [ fhir:v "TIDT" ] ;
+         fhir:display [ fhir:v "T" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Dentition"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Dentition>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TIDA" ] ;
+       fhir:display [ fhir:v "A" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Dentition"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Dentition>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TIDB" ] ;
+       fhir:display [ fhir:v "B" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Dentition"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Dentition>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TIDC" ] ;
+       fhir:display [ fhir:v "C" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Dentition"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Dentition>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TIDD" ] ;
+       fhir:display [ fhir:v "D" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Dentition"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Dentition>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TIDE" ] ;
+       fhir:display [ fhir:v "E" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Dentition"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Dentition>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TIDF" ] ;
+       fhir:display [ fhir:v "F" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Dentition"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Dentition>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TIDG" ] ;
+       fhir:display [ fhir:v "G" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Dentition"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Dentition>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TIDH" ] ;
+       fhir:display [ fhir:v "H" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Dentition"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Dentition>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TIDI" ] ;
+       fhir:display [ fhir:v "I" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Dentition"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Dentition>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TIDJ" ] ;
+       fhir:display [ fhir:v "J" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Dentition"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Dentition>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TIDK" ] ;
+       fhir:display [ fhir:v "K" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Dentition"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Dentition>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TIDL" ] ;
+       fhir:display [ fhir:v "L" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Dentition"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Dentition>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TIDM" ] ;
+       fhir:display [ fhir:v "M" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Dentition"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Dentition>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TIDN" ] ;
+       fhir:display [ fhir:v "N" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Dentition"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Dentition>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TIDO" ] ;
+       fhir:display [ fhir:v "O" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Dentition"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Dentition>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TIDP" ] ;
+       fhir:display [ fhir:v "P" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Dentition"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Dentition>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TIDQ" ] ;
+       fhir:display [ fhir:v "Q" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Dentition"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Dentition>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TIDR" ] ;
+       fhir:display [ fhir:v "R" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Dentition"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Dentition>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TIDS" ] ;
+       fhir:display [ fhir:v "S" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Dentition"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Dentition>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TIDT" ] ;
+       fhir:display [ fhir:v "T" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

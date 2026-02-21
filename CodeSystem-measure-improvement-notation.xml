@@ -20,21 +20,21 @@
     </extension>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
-    <valueCode value="fhir"/>
+    <valueCode value="cqi"/>
   </extension>
   <url value="http://terminology.hl7.org/CodeSystem/measure-improvement-notation"/>
-  <version value="0.0.1-snapshot-3"/>
+  <version value="0.1.0"/>
   <name value="MeasureImprovementNotation"/>
   <title value="MeasureImprovementNotation"/>
   <status value="draft"/>
   <experimental value="false"/>
   <date value="2020-04-09T16:10:28-05:00"/>
-  <publisher value="FHIR Infrastructure"/>
+  <publisher value="Clinical Quality Information"/>
   <contact>
-    <name value="FHIR Infrastructure"/>
+    <name value="Clinical Quality Information"/>
     <telecom>
       <system value="url"/>
-      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+      <value value="http://www.hl7.org/Special/committees/cqi"/>
     </telecom>
   </contact>
   <description value="Observation values that indicate what change in a measurement value or score is indicative of an improvement in the measured item or scored issue."/>
@@ -46,7 +46,7 @@
     </coding>
   </jurisdiction>
   <caseSensitive value="true"/>
-  <valueSet value="http://terminology.hl7.org/ValueSet/measure-improvement-notation"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/measure-improvement-notation|1.0.1"/>
   <content value="complete"/>
   <concept>
     <code value="increase"/>

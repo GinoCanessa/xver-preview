@@ -1,0 +1,399 @@
+# R5PermissionElementMapToR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## ConceptMap: R5PermissionElementMapToR4 
+
+ 
+This ConceptMap represents cross-version mappings for elements from a FHIR R5 Permission to FHIR R4. 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ConceptMap",
+  "id" : "R5-Permission-element-map-to-R4",
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "fhir"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger" : 0,
+      "_valueInteger" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode" : "trial-use",
+      "_valueCode" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    }
+  ],
+  "url" : "http://hl7.org/fhir/uv/xver/ConceptMap/R5-Permission-element-map-to-R4",
+  "version" : "0.0.1-snapshot-3",
+  "name" : "R5PermissionElementMapToR4",
+  "title" : "Cross-version mapping for FHIR R5 Permission to FHIR R4 Basic",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-02-21T13:36:58.3221385-06:00",
+  "contact" : [
+    {
+      "name" : "FHIR Infrastructure",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/fiwg"
+        }
+      ]
+    }
+  ],
+  "description" : "This ConceptMap represents cross-version mappings for elements from a FHIR R5 Permission to FHIR R4.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }
+      ]
+    }
+  ],
+  "sourceCanonical" : "http://hl7.org/fhir/5.0",
+  "targetUri" : "http://hl7.org/fhir/4.0",
+  "group" : [
+    {
+      "source" : "http://hl7.org/fhir/StructureDefinition/Permission",
+      "sourceVersion" : "5.0.0",
+      "target" : "http://hl7.org/fhir/StructureDefinition/Basic",
+      "targetVersion" : "4.0.1",
+      "element" : [
+        {
+          "code" : "Permission.meta",
+          "display" : "meta",
+          "target" : [
+            {
+              "code" : "Resource.meta",
+              "display" : "Resource.meta",
+              "equivalence" : "equivalent",
+              "comment" : "Element `Permission.meta` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped.\nElement matches Basic element path `Resource.meta` and is compatible, use that element instead."
+            }
+          ]
+        },
+        {
+          "code" : "Permission.implicitRules",
+          "display" : "implicitRules",
+          "target" : [
+            {
+              "code" : "Resource.implicitRules",
+              "display" : "Resource.implicitRules",
+              "equivalence" : "equivalent",
+              "comment" : "Element `Permission.implicitRules` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped.\nElement matches Basic element path `Resource.implicitRules` and is compatible, use that element instead."
+            }
+          ]
+        },
+        {
+          "code" : "Permission.language",
+          "display" : "language",
+          "target" : [
+            {
+              "code" : "Resource.language",
+              "display" : "Resource.language",
+              "equivalence" : "equivalent",
+              "comment" : "Element `Permission.language` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped.\nElement matches Basic element path `Resource.language` and is compatible, use that element instead."
+            }
+          ]
+        },
+        {
+          "code" : "Permission.text",
+          "display" : "text",
+          "target" : [
+            {
+              "code" : "DomainResource.text",
+              "display" : "DomainResource.text",
+              "equivalence" : "equivalent",
+              "comment" : "Element `Permission.text` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped.\nElement matches Basic element path `DomainResource.text` and is compatible, use that element instead."
+            }
+          ]
+        },
+        {
+          "code" : "Permission.contained",
+          "display" : "contained",
+          "target" : [
+            {
+              "code" : "DomainResource.contained",
+              "display" : "DomainResource.contained",
+              "equivalence" : "equivalent",
+              "comment" : "Element `Permission.contained` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped.\nElement matches Basic element path `DomainResource.contained` and is compatible, use that element instead."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source" : "http://hl7.org/fhir/StructureDefinition/Permission",
+      "sourceVersion" : "5.0.0",
+      "target" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4",
+      "element" : [
+        {
+          "code" : "Permission.status",
+          "display" : "status",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.status",
+              "equivalence" : "wider",
+              "comment" : "Element `Permission.status` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Permission.asserter",
+          "display" : "asserter",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.asserter",
+              "equivalence" : "wider",
+              "comment" : "Element `Permission.asserter` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Permission.date",
+          "display" : "date",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.date",
+              "equivalence" : "wider",
+              "comment" : "Element `Permission.date` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Permission.validity",
+          "display" : "validity",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.validity",
+              "equivalence" : "wider",
+              "comment" : "Element `Permission.validity` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Permission.justification",
+          "display" : "justification",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.justification",
+              "equivalence" : "wider",
+              "comment" : "Element `Permission.justification` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Permission.justification.basis",
+          "display" : "basis",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.justification.basis",
+              "equivalence" : "wider",
+              "comment" : "Element `Permission.justification.basis` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Permission.justification.evidence",
+          "display" : "evidence",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.justification.evidence",
+              "equivalence" : "wider",
+              "comment" : "Element `Permission.justification.evidence` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Permission.combining",
+          "display" : "combining",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.combining",
+              "equivalence" : "wider",
+              "comment" : "Element `Permission.combining` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Permission.rule",
+          "display" : "rule",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule",
+              "equivalence" : "wider",
+              "comment" : "Element `Permission.rule` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Permission.rule.type",
+          "display" : "type",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.type",
+              "equivalence" : "wider",
+              "comment" : "Element `Permission.rule.type` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Permission.rule.data",
+          "display" : "data",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.data",
+              "equivalence" : "wider",
+              "comment" : "Element `Permission.rule.data` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Permission.rule.data.resource",
+          "display" : "resource",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.data.resource",
+              "equivalence" : "wider",
+              "comment" : "Element `Permission.rule.data.resource` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Permission.rule.data.resource.meaning",
+          "display" : "meaning",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.data.resource.meaning",
+              "equivalence" : "wider",
+              "comment" : "Element `Permission.rule.data.resource.meaning` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Permission.rule.data.resource.reference",
+          "display" : "reference",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.data.resource.reference",
+              "equivalence" : "wider",
+              "comment" : "Element `Permission.rule.data.resource.reference` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Permission.rule.data.security",
+          "display" : "security",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.data.security",
+              "equivalence" : "wider",
+              "comment" : "Element `Permission.rule.data.security` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Permission.rule.data.period",
+          "display" : "period",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.data.period",
+              "equivalence" : "wider",
+              "comment" : "Element `Permission.rule.data.period` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Permission.rule.data.expression",
+          "display" : "expression",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.data.expression",
+              "equivalence" : "wider",
+              "comment" : "Element `Permission.rule.data.expression` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Permission.rule.activity",
+          "display" : "activity",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.activity",
+              "equivalence" : "wider",
+              "comment" : "Element `Permission.rule.activity` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Permission.rule.activity.actor",
+          "display" : "actor",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.activity.actor",
+              "equivalence" : "wider",
+              "comment" : "Element `Permission.rule.activity.actor` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Permission.rule.activity.action",
+          "display" : "action",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.activity.action",
+              "equivalence" : "wider",
+              "comment" : "Element `Permission.rule.activity.action` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Permission.rule.activity.purpose",
+          "display" : "purpose",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.activity.purpose",
+              "equivalence" : "wider",
+              "comment" : "Element `Permission.rule.activity.purpose` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Permission.rule.limit",
+          "display" : "limit",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.limit",
+              "equivalence" : "wider",
+              "comment" : "Element `Permission.rule.limit` is not mapped to FHIR R4, since FHIR R5 `Permission` is not mapped."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+```

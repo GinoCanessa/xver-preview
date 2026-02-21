@@ -72,25 +72,25 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "fhir"
+       fhir:v "vocab"
      ]
   ] ) ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/namingsystem-identifier-type"^^xsd:anyURI ;
      fhir:l <http://hl7.org/fhir/namingsystem-identifier-type>
   ] ; # 
-  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:version [ fhir:v "5.0.0"] ; # 
   fhir:name [ fhir:v "NamingSystemIdentifierType"] ; # 
   fhir:title [ fhir:v "Naming System Identifier Type"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2023-01-26T09:53:48-06:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:publisher [ fhir:v "HL7 International / Terminology Infrastructure"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:name [ fhir:v "HL7 International / Terminology Infrastructure" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/Vocab" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Identifies the style of unique identifier used to identify a namespace."] ; # 
@@ -106,8 +106,8 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://hl7.org/fhir/ValueSet/namingsystem-identifier-type"^^xsd:anyURI ;
-     fhir:l <http://hl7.org/fhir/ValueSet/namingsystem-identifier-type>
+     fhir:v "http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.0.1"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/namingsystem-identifier-type?version=4.0.1>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

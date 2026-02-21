@@ -1,0 +1,1230 @@
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>R5ConceptMapElementMapToR4 - XML Representation - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"7.4039"}
+    h3,h4,h5,h6{--heading-prefix:"7.4039"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" data-no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img alt="International flag" src="../assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>R5ConceptMapElementMapToR4</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="ConceptMap-R5-ConceptMap-element-map-to-R4-testing.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="ConceptMap-R5-ConceptMap-element-map-to-R4.json.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<!-- layouts\layout-instance-format -->
+<div style="counter-reset: section 7" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="ConceptMap-R5-ConceptMap-element-map-to-R4.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li class="active">
+      <a href="#">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ConceptMap-R5-ConceptMap-element-map-to-R4.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ConceptMap-R5-ConceptMap-element-map-to-R4.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+
+<h2 id="root">: R5ConceptMapElementMapToR4</h2>
+
+  <table class="colsd" data-fhir="generated">
+    <tr>
+
+      <td colspan="1">
+        
+          <i>Page standards status:</i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standards Status">Trial-use</a>
+          
+        
+      </td>
+
+      <td>
+        <a href="http://hl7.org/fhir/versions.html#maturity">Maturity Level</a>: 0
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p><a href="ConceptMap-R5-ConceptMap-element-map-to-R4.xml" no-download="true">Raw xml</a> | <a href="ConceptMap-R5-ConceptMap-element-map-to-R4.xml" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="xml" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code style="white-space: pre; text-wrap: nowrap;">
+&lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap">ConceptMap</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/resource.html#ConceptMap.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;R5-ConceptMap-element-map-to-R4&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/resource.html#ConceptMap.language">language</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;en&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#ConceptMap.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: ConceptMap R5-ConceptMap-element-map-to-R4&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;R5-ConceptMap-element-map-to-R4&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcR5-ConceptMap-element-map-to-R4&quot;&gt; &lt;/a&gt;&lt;p&gt;Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b&gt;Group 1 &lt;/b&gt;Mapping from &lt;code&gt;http://hl7.org/fhir/StructureDefinition/ConceptMap|5.0.0&lt;/code&gt; to &lt;a href=&quot;http://hl7.org/fhir/R4/conceptmap.html&quot;&gt;ConceptMapversion: 4.0.1)&lt;/a&gt;&lt;/p&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Source Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Relationship&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Target Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Comment&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.meta (meta)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.meta` is mapped to FHIR R4 element `ConceptMap.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.implicitRules (implicitRules)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.implicitRules` is mapped to FHIR R4 element `ConceptMap.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.language (language)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.language` is mapped to FHIR R4 element `ConceptMap.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.text (text)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.text` is mapped to FHIR R4 element `ConceptMap.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.contained (contained)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.contained` is mapped to FHIR R4 element `ConceptMap.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.url (url)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.url` is mapped to FHIR R4 element `ConceptMap.url` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.identifier (identifier)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.identifier` is mapped to FHIR R4 element `ConceptMap.identifier` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.version (version)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.version` is mapped to FHIR R4 element `ConceptMap.version` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.name (name)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.name` is mapped to FHIR R4 element `ConceptMap.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.title (title)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.title` is mapped to FHIR R4 element `ConceptMap.title` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.status (status)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.status` is mapped to FHIR R4 element `ConceptMap.status` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.experimental (experimental)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.experimental` is mapped to FHIR R4 element `ConceptMap.experimental` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.date (date)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.date` is mapped to FHIR R4 element `ConceptMap.date` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.publisher (publisher)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.publisher` is mapped to FHIR R4 element `ConceptMap.publisher` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.contact (contact)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.contact` is mapped to FHIR R4 element `ConceptMap.contact` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.description (description)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.description` is mapped to FHIR R4 element `ConceptMap.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.useContext (useContext)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.useContext` is mapped to FHIR R4 element `ConceptMap.useContext` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.jurisdiction (jurisdiction)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.jurisdiction` is mapped to FHIR R4 element `ConceptMap.jurisdiction` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.purpose (purpose)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.purpose` is mapped to FHIR R4 element `ConceptMap.purpose` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.copyright (copyright)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.copyright` is mapped to FHIR R4 element `ConceptMap.copyright` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.sourceScope[x] (sourceScope[x])&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Note that the target element context `ConceptMap.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ConceptMap`.
+Element `ConceptMap.sourceScope[x]` is mapped to FHIR R4 element `ConceptMap.source[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note that the target element context `ConceptMap.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.targetScope[x] (targetScope[x])&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Note that the target element context `ConceptMap.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ConceptMap`.
+Element `ConceptMap.targetScope[x]` is mapped to FHIR R4 element `ConceptMap.target[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note that the target element context `ConceptMap.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group (group)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.group` is mapped to FHIR R4 element `ConceptMap.group` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.source (source)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.group.source` is mapped to FHIR R4 element `ConceptMap.group.source` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.target (target)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.group.target` is mapped to FHIR R4 element `ConceptMap.group.target` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.element (element)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.group.element` is mapped to FHIR R4 element `ConceptMap.group.element` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.element.code (code)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.group.element.code` is mapped to FHIR R4 element `ConceptMap.group.element.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.element.display (display)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.group.element.display` is mapped to FHIR R4 element `ConceptMap.group.element.display` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.element.noMap (noMap)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.group.element.noMap` is mapped to FHIR R4 element `ConceptMap.group.element.target.equivalence` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.element.target (target)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.group.element.target` is mapped to FHIR R4 element `ConceptMap.group.element.target` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.element.target.code (code)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.group.element.target.code` is mapped to FHIR R4 element `ConceptMap.group.element.target.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.element.target.display (display)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.group.element.target.display` is mapped to FHIR R4 element `ConceptMap.group.element.target.display` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.element.target.relationship (relationship)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#narrower&quot; title=&quot;narrower&quot;&gt;narrower&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.group.element.target.relationship` is mapped to FHIR R4 element `ConceptMap.group.element.target.equivalence` as `SourceIsNarrowerThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.element.target.comment (comment)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.group.element.target.comment` is mapped to FHIR R4 element `ConceptMap.group.element.target.comment` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.element.target.dependsOn (dependsOn)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.group.element.target.dependsOn` is mapped to FHIR R4 element `ConceptMap.group.element.target.dependsOn` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `ConceptMap.group.element.target.product` because `ConceptMap.group.element.target.product` is defined as a content reference to `ConceptMap.group.element.target.dependsOn`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.element.target.dependsOn.attribute (attribute)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.group.element.target.dependsOn.attribute` is mapped to FHIR R4 element `ConceptMap.group.element.target.dependsOn.property` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `ConceptMap.group.element.target.product.property` because `ConceptMap.group.element.target.product` is defined via a content reference to `ConceptMap.group.element.target.dependsOn`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.element.target.dependsOn.value[x] (value[x])&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.group.element.target.dependsOn.value[x]` is mapped to FHIR R4 element `ConceptMap.group.element.target.dependsOn.value` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `ConceptMap.group.element.target.product.value` because `ConceptMap.group.element.target.product` is defined via a content reference to `ConceptMap.group.element.target.dependsOn`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.element.target.product (product)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.group.element.target.product` is mapped to FHIR R4 element `ConceptMap.group.element.target.product` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.unmapped (unmapped)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.group.unmapped` is mapped to FHIR R4 element `ConceptMap.group.unmapped` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.unmapped.mode (mode)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.group.unmapped.mode` is mapped to FHIR R4 element `ConceptMap.group.unmapped.mode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.unmapped.code (code)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.group.unmapped.code` is mapped to FHIR R4 element `ConceptMap.group.unmapped.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.unmapped.display (display)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.group.unmapped.display` is mapped to FHIR R4 element `ConceptMap.group.unmapped.display` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.unmapped.otherMap (otherMap)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Element `ConceptMap.group.unmapped.otherMap` is mapped to FHIR R4 element `ConceptMap.group.unmapped.url` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;Group 2 &lt;/b&gt;Mapping from &lt;code&gt;http://hl7.org/fhir/StructureDefinition/ConceptMap|5.0.0&lt;/code&gt; to &lt;a href=&quot;http://hl7.org/fhir/extensions/5.2.0/index.html&quot;&gt;FHIR Extensions Packversion: 5.2.0)&lt;/a&gt;&lt;/p&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Source Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Relationship&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Target Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Comment&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.versionAlgorithm[x] (versionAlgorithm[x])&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm&lt;/td&gt;&lt;td&gt;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.versionAlgorithm[x]`: `http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm`.
+Element `ConceptMap.versionAlgorithm[x]` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.copyrightLabel (copyrightLabel)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel&lt;/td&gt;&lt;td&gt;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.copyrightLabel`: `http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel`.
+Element `ConceptMap.copyrightLabel` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.approvalDate (approvalDate)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/artifact-approvalDate&lt;/td&gt;&lt;td&gt;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.approvalDate`: `http://hl7.org/fhir/StructureDefinition/artifact-approvalDate`.
+Element `ConceptMap.approvalDate` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.lastReviewDate (lastReviewDate)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/artifact-lastReviewDate&lt;/td&gt;&lt;td&gt;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.lastReviewDate`: `http://hl7.org/fhir/StructureDefinition/artifact-lastReviewDate`.
+Element `ConceptMap.lastReviewDate` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.effectivePeriod (effectivePeriod)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/artifact-effectivePeriod&lt;/td&gt;&lt;td&gt;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.effectivePeriod`: `http://hl7.org/fhir/StructureDefinition/artifact-effectivePeriod`.
+Element `ConceptMap.effectivePeriod` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.topic (topic)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/artifact-topic&lt;/td&gt;&lt;td&gt;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.topic`: `http://hl7.org/fhir/StructureDefinition/artifact-topic`.
+Element `ConceptMap.topic` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.author (author)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/artifact-author&lt;/td&gt;&lt;td&gt;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.author`: `http://hl7.org/fhir/StructureDefinition/artifact-author`.
+Element `ConceptMap.author` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.editor (editor)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/artifact-editor&lt;/td&gt;&lt;td&gt;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.editor`: `http://hl7.org/fhir/StructureDefinition/artifact-editor`.
+Element `ConceptMap.editor` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.reviewer (reviewer)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/artifact-reviewer&lt;/td&gt;&lt;td&gt;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.reviewer`: `http://hl7.org/fhir/StructureDefinition/artifact-reviewer`.
+Element `ConceptMap.reviewer` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.endorser (endorser)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/artifact-endorser&lt;/td&gt;&lt;td&gt;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.endorser`: `http://hl7.org/fhir/StructureDefinition/artifact-endorser`.
+Element `ConceptMap.endorser` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.relatedArtifact (relatedArtifact)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/artifact-relatedArtifact&lt;/td&gt;&lt;td&gt;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.relatedArtifact`: `http://hl7.org/fhir/StructureDefinition/artifact-relatedArtifact`.
+Element `ConceptMap.relatedArtifact` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.property.system (system)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/alternate-canonical&lt;/td&gt;&lt;td&gt;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.property.system` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.
+Element `ConceptMap.property.system` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.element.valueSet (valueSet)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/alternate-canonical&lt;/td&gt;&lt;td&gt;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.group.element.valueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.
+Element `ConceptMap.group.element.valueSet` has a context of ConceptMap.group.element based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.element.target.valueSet (valueSet)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/alternate-canonical&lt;/td&gt;&lt;td&gt;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.group.element.target.valueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.
+Element `ConceptMap.group.element.target.valueSet` has a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.element.target.dependsOn.valueSet (valueSet)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/alternate-canonical&lt;/td&gt;&lt;td&gt;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.group.element.target.dependsOn.valueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.
+Element `ConceptMap.group.element.target.dependsOn.valueSet` has a context of ConceptMap.group.element.target.dependsOn based on following the parent source element upwards and mapping to `ConceptMap`.
+Note available implied context: `ConceptMap.group.element.target.product` because `ConceptMap.group.element.target.product` is defined via a content reference to `ConceptMap.group.element.target.dependsOn`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.unmapped.valueSet (valueSet)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/alternate-canonical&lt;/td&gt;&lt;td&gt;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.group.unmapped.valueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.
+Element `ConceptMap.group.unmapped.valueSet` has a context of ConceptMap.group.unmapped based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;Group 3 &lt;/b&gt;Mapping from &lt;code&gt;http://hl7.org/fhir/StructureDefinition/ConceptMap|5.0.0&lt;/code&gt; to &lt;a href=&quot;index.html&quot;&gt;Extensions for Using Data Elements from FHIR R5 in FHIR R4&lt;/a&gt;&lt;/p&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Source Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Relationship&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Target Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Comment&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.property (property)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-ConceptMap.property&lt;/td&gt;&lt;td&gt;Element `ConceptMap.property` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.additionalAttribute (additionalAttribute)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-ConceptMap.additionalAttribute&lt;/td&gt;&lt;td&gt;Element `ConceptMap.additionalAttribute` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.element.noMap (noMap)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-ConceptMap.group.element.noMap&lt;/td&gt;&lt;td&gt;Element `ConceptMap.group.element.noMap` is mapped to FHIR R4 element `ConceptMap.group.element.target.equivalence` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.element.target.property (property)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-ConceptMap.group.element.target.property&lt;/td&gt;&lt;td&gt;Element `ConceptMap.group.element.target.property` has a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.element.target.dependsOn (dependsOn)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#equivalent&quot; title=&quot;equivalent&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-ConceptMap.group.element.target.dependsOn&lt;/td&gt;&lt;td&gt;Element `ConceptMap.group.element.target.dependsOn` is mapped to FHIR R4 element `ConceptMap.group.element.target.dependsOn` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `ConceptMap.group.element.target.product` because `ConceptMap.group.element.target.product` is defined as a content reference to `ConceptMap.group.element.target.dependsOn`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.unmapped.relationship (relationship)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-ConceptMap.group.unmapped.relationship&lt;/td&gt;&lt;td&gt;Element `ConceptMap.group.unmapped.relationship` has a context of ConceptMap.group.unmapped based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;hr/&gt;&lt;p&gt;&lt;b&gt;Group 4 &lt;/b&gt;Mapping from &lt;code&gt;http://hl7.org/fhir/StructureDefinition/ConceptMap|5.0.0&lt;/code&gt; to &lt;code&gt;unspecified code system&lt;/code&gt;&lt;/p&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Source Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Relationship&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Target Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Comment&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.property.code (code)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;code&lt;/td&gt;&lt;td&gt;Element `ConceptMap.property.code` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.property.uri (uri)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;uri&lt;/td&gt;&lt;td&gt;Element `ConceptMap.property.uri` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.property.description (description)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;description&lt;/td&gt;&lt;td&gt;Element `ConceptMap.property.description` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.property.type (type)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;type&lt;/td&gt;&lt;td&gt;Element `ConceptMap.property.type` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.additionalAttribute.code (code)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;code&lt;/td&gt;&lt;td&gt;Element `ConceptMap.additionalAttribute.code` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.additionalAttribute.uri (uri)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;uri&lt;/td&gt;&lt;td&gt;Element `ConceptMap.additionalAttribute.uri` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.additionalAttribute.description (description)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;description&lt;/td&gt;&lt;td&gt;Element `ConceptMap.additionalAttribute.description` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.additionalAttribute.type (type)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;type&lt;/td&gt;&lt;td&gt;Element `ConceptMap.additionalAttribute.type` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.element.target.property.code (code)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;code&lt;/td&gt;&lt;td&gt;Element `ConceptMap.group.element.target.property.code` has a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.element.target.property.value[x] (value[x])&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;value&lt;/td&gt;&lt;td&gt;Element `ConceptMap.group.element.target.property.value[x]` has a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.element.target.dependsOn.attribute (attribute)&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;attribute&lt;/td&gt;&lt;td&gt;Element `ConceptMap.group.element.target.dependsOn.attribute` is mapped to FHIR R4 element `ConceptMap.group.element.target.dependsOn.property` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `ConceptMap.group.element.target.product.property` because `ConceptMap.group.element.target.product` is defined via a content reference to `ConceptMap.group.element.target.dependsOn`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ConceptMap.group.element.target.dependsOn.value[x] (value[x])&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;CodeSystem-concept-map-relationship.html#wider&quot; title=&quot;wider&quot;&gt;maps to wider concept&lt;/a&gt;&lt;/td&gt;&lt;td&gt;value&lt;/td&gt;&lt;td&gt;Element `ConceptMap.group.element.target.dependsOn.value[x]` is mapped to FHIR R4 element `ConceptMap.group.element.target.dependsOn.value` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `ConceptMap.group.element.target.product.value` because `ConceptMap.group.element.target.product` is defined via a content reference to `ConceptMap.group.element.target.dependsOn`.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+  &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#ConceptMap.text">text</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#ConceptMap.extension">extension</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-wg&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;fhir&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#ConceptMap.extension">extension</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#ConceptMap.extension">extension</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a> <a href="http://hl7.org/fhir/R4/datatypes.html#integer">value</a>=&quot;0&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#integer.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCanonical</a>
+                        <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#integer.extension">extension</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#ConceptMap.extension">extension</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#ConceptMap.extension">extension</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;trial-use&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Element#code.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCanonical</a>
+                        <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Element#code.extension">extension</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#ConceptMap.extension">extension</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.url">url</a>
+       <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/uv/xver/ConceptMap/R5-ConceptMap-element-map-to-R4&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;0.0.1-snapshot-3&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;R5ConceptMapElementMapToR4&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.title">title</a>
+         <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Cross-version mapping for FHIR R5 ConceptMap to FHIR R4 ConceptMap&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.experimental">experimental</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2026-02-21T13:36:55.7015242-06:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.contact">contact</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FHIR Infrastructure&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;url&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;http://www.hl7.org/Special/committees/fiwg&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.contact">contact</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.description">description</a>
+               <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;This ConceptMap represents cross-version mappings for elements from a FHIR R5 ConceptMap to FHIR R4.&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.jurisdiction">jurisdiction</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://unstats.un.org/unsd/methods/m49/m49.htm&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;001&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;World&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.jurisdiction">jurisdiction</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.source_x_">sourceCanonical</a> <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/5.0&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.target_x_">targetUri</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/4.0&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group">group</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.source">source</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/ConceptMap&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.sourceVersion">sourceVersion</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;5.0.0&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.target">target</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/ConceptMap&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.targetVersion">targetVersion</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;4.0.1&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.meta&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;meta&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.meta` is mapped to FHIR R4 element `ConceptMap.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.implicitRules&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;implicitRules&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.implicitRules` is mapped to FHIR R4 element `ConceptMap.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.language&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;language&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.language` is mapped to FHIR R4 element `ConceptMap.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.text&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;text&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.text` is mapped to FHIR R4 element `ConceptMap.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.contained&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;contained&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.contained` is mapped to FHIR R4 element `ConceptMap.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.url&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;url&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.url` is mapped to FHIR R4 element `ConceptMap.url` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.identifier&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;identifier&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.identifier` is mapped to FHIR R4 element `ConceptMap.identifier` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.version&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;version&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.version` is mapped to FHIR R4 element `ConceptMap.version` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.name&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;name&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.name` is mapped to FHIR R4 element `ConceptMap.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.title&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;title&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.title` is mapped to FHIR R4 element `ConceptMap.title` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.status&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;status&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.status` is mapped to FHIR R4 element `ConceptMap.status` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.experimental&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;experimental&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.experimental` is mapped to FHIR R4 element `ConceptMap.experimental` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.date&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;date&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.date` is mapped to FHIR R4 element `ConceptMap.date` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.publisher&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;publisher&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.publisher` is mapped to FHIR R4 element `ConceptMap.publisher` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.contact&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;contact&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.contact` is mapped to FHIR R4 element `ConceptMap.contact` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.description&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;description&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.description` is mapped to FHIR R4 element `ConceptMap.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.useContext&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;useContext&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.useContext` is mapped to FHIR R4 element `ConceptMap.useContext` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.jurisdiction&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;jurisdiction&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.jurisdiction` is mapped to FHIR R4 element `ConceptMap.jurisdiction` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.purpose&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;purpose&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.purpose` is mapped to FHIR R4 element `ConceptMap.purpose` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.copyright&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;copyright&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.copyright` is mapped to FHIR R4 element `ConceptMap.copyright` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.sourceScope[x]&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;sourceScope[x]&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Note that the target element context `ConceptMap.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ConceptMap`.
+Element `ConceptMap.sourceScope[x]` is mapped to FHIR R4 element `ConceptMap.source[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note that the target element context `ConceptMap.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.targetScope[x]&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;targetScope[x]&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Note that the target element context `ConceptMap.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ConceptMap`.
+Element `ConceptMap.targetScope[x]` is mapped to FHIR R4 element `ConceptMap.target[x]` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note that the target element context `ConceptMap.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;group&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group` is mapped to FHIR R4 element `ConceptMap.group` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.source&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;source&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.source` is mapped to FHIR R4 element `ConceptMap.group.source` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.target&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;target&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.target` is mapped to FHIR R4 element `ConceptMap.group.target` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.element&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;element&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.element` is mapped to FHIR R4 element `ConceptMap.group.element` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.element.code&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;code&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.element.code` is mapped to FHIR R4 element `ConceptMap.group.element.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.element.display&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;display&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.element.display` is mapped to FHIR R4 element `ConceptMap.group.element.display` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.element.noMap&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;noMap&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.element.noMap` is mapped to FHIR R4 element `ConceptMap.group.element.target.equivalence` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.element.target&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;target&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.element.target` is mapped to FHIR R4 element `ConceptMap.group.element.target` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.element.target.code&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;code&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.element.target.code` is mapped to FHIR R4 element `ConceptMap.group.element.target.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.element.target.display&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;display&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.element.target.display` is mapped to FHIR R4 element `ConceptMap.group.element.target.display` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.element.target.relationship&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;relationship&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;narrower&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.element.target.relationship` is mapped to FHIR R4 element `ConceptMap.group.element.target.equivalence` as `SourceIsNarrowerThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.element.target.comment&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;comment&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.element.target.comment` is mapped to FHIR R4 element `ConceptMap.group.element.target.comment` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.element.target.dependsOn&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;dependsOn&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.element.target.dependsOn` is mapped to FHIR R4 element `ConceptMap.group.element.target.dependsOn` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `ConceptMap.group.element.target.product` because `ConceptMap.group.element.target.product` is defined as a content reference to `ConceptMap.group.element.target.dependsOn`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.element.target.dependsOn.attribute&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;attribute&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.element.target.dependsOn.attribute` is mapped to FHIR R4 element `ConceptMap.group.element.target.dependsOn.property` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `ConceptMap.group.element.target.product.property` because `ConceptMap.group.element.target.product` is defined via a content reference to `ConceptMap.group.element.target.dependsOn`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.element.target.dependsOn.value[x]&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;value[x]&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.element.target.dependsOn.value[x]` is mapped to FHIR R4 element `ConceptMap.group.element.target.dependsOn.value` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `ConceptMap.group.element.target.product.value` because `ConceptMap.group.element.target.product` is defined via a content reference to `ConceptMap.group.element.target.dependsOn`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.element.target.product&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;product&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.element.target.product` is mapped to FHIR R4 element `ConceptMap.group.element.target.product` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.unmapped&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;unmapped&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.unmapped` is mapped to FHIR R4 element `ConceptMap.group.unmapped` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.unmapped.mode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;mode&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.unmapped.mode` is mapped to FHIR R4 element `ConceptMap.group.unmapped.mode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.unmapped.code&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;code&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.unmapped.code` is mapped to FHIR R4 element `ConceptMap.group.unmapped.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.unmapped.display&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;display&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.unmapped.display` is mapped to FHIR R4 element `ConceptMap.group.unmapped.display` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.unmapped.otherMap&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;otherMap&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.unmapped.otherMap` is mapped to FHIR R4 element `ConceptMap.group.unmapped.url` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group">group</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group">group</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.source">source</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/ConceptMap&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.sourceVersion">sourceVersion</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;5.0.0&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.target">target</a>
+            <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.targetVersion">targetVersion</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;5.2.0&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.versionAlgorithm[x]&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;versionAlgorithm[x]&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.versionAlgorithm[x]`: `http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm`.
+Element `ConceptMap.versionAlgorithm[x]` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.copyrightLabel&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;copyrightLabel&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.copyrightLabel`: `http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel`.
+Element `ConceptMap.copyrightLabel` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.approvalDate&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;approvalDate&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/artifact-approvalDate&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.approvalDate`: `http://hl7.org/fhir/StructureDefinition/artifact-approvalDate`.
+Element `ConceptMap.approvalDate` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.lastReviewDate&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;lastReviewDate&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/artifact-lastReviewDate&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.lastReviewDate`: `http://hl7.org/fhir/StructureDefinition/artifact-lastReviewDate`.
+Element `ConceptMap.lastReviewDate` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.effectivePeriod&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;effectivePeriod&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/artifact-effectivePeriod&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.effectivePeriod`: `http://hl7.org/fhir/StructureDefinition/artifact-effectivePeriod`.
+Element `ConceptMap.effectivePeriod` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.topic&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;topic&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/artifact-topic&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.topic`: `http://hl7.org/fhir/StructureDefinition/artifact-topic`.
+Element `ConceptMap.topic` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.author&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;author&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/artifact-author&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.author`: `http://hl7.org/fhir/StructureDefinition/artifact-author`.
+Element `ConceptMap.author` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.editor&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;editor&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/artifact-editor&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.editor`: `http://hl7.org/fhir/StructureDefinition/artifact-editor`.
+Element `ConceptMap.editor` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.reviewer&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;reviewer&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/artifact-reviewer&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.reviewer`: `http://hl7.org/fhir/StructureDefinition/artifact-reviewer`.
+Element `ConceptMap.reviewer` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.endorser&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;endorser&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/artifact-endorser&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.endorser`: `http://hl7.org/fhir/StructureDefinition/artifact-endorser`.
+Element `ConceptMap.endorser` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.relatedArtifact&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;relatedArtifact&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/artifact-relatedArtifact&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.relatedArtifact`: `http://hl7.org/fhir/StructureDefinition/artifact-relatedArtifact`.
+Element `ConceptMap.relatedArtifact` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.property.system&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;system&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/alternate-canonical&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.property.system` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.
+Element `ConceptMap.property.system` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.element.valueSet&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;valueSet&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/alternate-canonical&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.group.element.valueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.
+Element `ConceptMap.group.element.valueSet` has a context of ConceptMap.group.element based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.element.target.valueSet&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;valueSet&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/alternate-canonical&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.group.element.target.valueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.
+Element `ConceptMap.group.element.target.valueSet` has a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.element.target.dependsOn.valueSet&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;valueSet&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/alternate-canonical&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.group.element.target.dependsOn.valueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.
+Element `ConceptMap.group.element.target.dependsOn.valueSet` has a context of ConceptMap.group.element.target.dependsOn based on following the parent source element upwards and mapping to `ConceptMap`.
+Note available implied context: `ConceptMap.group.element.target.product` because `ConceptMap.group.element.target.product` is defined via a content reference to `ConceptMap.group.element.target.dependsOn`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.unmapped.valueSet&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;valueSet&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/alternate-canonical&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.group.unmapped.valueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.
+Element `ConceptMap.group.unmapped.valueSet` has a context of ConceptMap.group.unmapped based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group">group</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group">group</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.source">source</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/ConceptMap&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.sourceVersion">sourceVersion</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;5.0.0&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.target">target</a>
+            <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.property&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;property&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/5.0/StructureDefinition/extension-ConceptMap.property&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.property` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.additionalAttribute&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;additionalAttribute&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/5.0/StructureDefinition/extension-ConceptMap.additionalAttribute&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.additionalAttribute` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.element.noMap&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;noMap&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/5.0/StructureDefinition/extension-ConceptMap.group.element.noMap&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.element.noMap` is mapped to FHIR R4 element `ConceptMap.group.element.target.equivalence` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.element.target.property&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;property&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/5.0/StructureDefinition/extension-ConceptMap.group.element.target.property&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.element.target.property` has a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.element.target.dependsOn&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;dependsOn&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/5.0/StructureDefinition/extension-ConceptMap.group.element.target.dependsOn&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;equivalent&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.element.target.dependsOn` is mapped to FHIR R4 element `ConceptMap.group.element.target.dependsOn` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `ConceptMap.group.element.target.product` because `ConceptMap.group.element.target.product` is defined as a content reference to `ConceptMap.group.element.target.dependsOn`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.unmapped.relationship&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;relationship&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>
+              <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/5.0/StructureDefinition/extension-ConceptMap.group.unmapped.relationship&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.unmapped.relationship` has a context of ConceptMap.group.unmapped based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group">group</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group">group</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.source">source</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/ConceptMap&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.sourceVersion">sourceVersion</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;5.0.0&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.property.code&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;code&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;code&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.property.code` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.property.uri&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;uri&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;uri&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.property.uri` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.property.description&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;description&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;description&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.property.description` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.property.type&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;type&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;type&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.property.type` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.additionalAttribute.code&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;code&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;code&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.additionalAttribute.code` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.additionalAttribute.uri&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;uri&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;uri&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.additionalAttribute.uri` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.additionalAttribute.description&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;description&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;description&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.additionalAttribute.description` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.additionalAttribute.type&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;type&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;type&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.additionalAttribute.type` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.element.target.property.code&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;code&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;code&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.element.target.property.code` has a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.element.target.property.value[x]&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;value[x]&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;value&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.element.target.property.value[x]` has a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.element.target.dependsOn.attribute&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;attribute&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;attribute&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.element.target.dependsOn.attribute` is mapped to FHIR R4 element `ConceptMap.group.element.target.dependsOn.property` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `ConceptMap.group.element.target.product.property` because `ConceptMap.group.element.target.product` is defined via a content reference to `ConceptMap.group.element.target.dependsOn`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;ConceptMap.group.element.target.dependsOn.value[x]&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;value[x]&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;value&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;wider&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `ConceptMap.group.element.target.dependsOn.value[x]` is mapped to FHIR R4 element `ConceptMap.group.element.target.dependsOn.value` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.
+Note available implied context: `ConceptMap.group.element.target.product.value` because `ConceptMap.group.element.target.product` is defined via a content reference to `ConceptMap.group.element.target.dependsOn`.&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group">group</a>&gt;
+&lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap">ConceptMap</a>&gt;</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="ConceptMap-R5-ConceptMap-element-map-to-R4-testing.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="ConceptMap-R5-ConceptMap-element-map-to-R4.json.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-21 13:39:00 -0600">
+    2026-02-21
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir/uv/xver/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

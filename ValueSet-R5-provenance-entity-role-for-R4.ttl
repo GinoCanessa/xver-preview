@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "R5-provenance-entity-role-for-R4"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-provenance-entity-role-for-R4</b></p><a name=\"R5-provenance-entity-role-for-R4\"> </a><a name=\"hcR5-provenance-entity-role-for-R4\"> </a><p>This value set expansion contains 1 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-provenance-entity-role-for-R4-http://hl7.org/fhir/provenance-entity-role-instantiates\"> </a><code>http://hl7.org/fhir/provenance-entity-role</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  instantiates</td><td>Instantiates</td></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-provenance-entity-role-for-R4</b></p><a name=\"R5-provenance-entity-role-for-R4\"> </a><a name=\"hcR5-provenance-entity-role-for-R4\"> </a><p>This value set expansion contains 1 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"R5-provenance-entity-role-for-R4-http://hl7.org/fhir/provenance-entity-role-instantiates\"> </a><code>http://hl7.org/fhir/provenance-entity-role</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-provenance-entity-role.html#provenance-entity-role-instantiates\">instantiates</a></td><td>Instantiates</td><td>The record resulting from this event adheres to the protocol, guideline, order set or other definition represented by this entity.</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:url [
@@ -29,7 +29,7 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "fhir"
+       fhir:v "sec"
      ]
   ] [
      fhir:extension ( [
@@ -95,13 +95,13 @@
   fhir:title [ fhir:v "Cross-version ValueSet R5.ProvenanceEntityRole for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-20T17:59:09.1776521+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Security"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:name [ fhir:v "Security" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/secure" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "This cross-version ValueSet represents content from http://hl7.org/fhir/ValueSet/provenance-entity-role|5.0.0 for use in FHIR R4 that is appropriate for use but unavailable in `http://hl7.org/fhir/ValueSet/provenance-entity-role|4.0.1`."] ; # 
@@ -130,7 +130,7 @@
      ] )
   ] ; # 
   fhir:expansion [
-     fhir:timestamp [ fhir:v "2026-02-20T17:59:09.1776521+00:00"^^xsd:dateTime ] ;
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
      fhir:contains ( [
        fhir:system [
          fhir:v "http://hl7.org/fhir/provenance-entity-role"^^xsd:anyURI ;

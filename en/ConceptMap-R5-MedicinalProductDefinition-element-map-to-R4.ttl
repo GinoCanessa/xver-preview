@@ -1,0 +1,618 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-MedicinalProductDefinition-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-MedicinalProductDefinition-element-map-to-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-MedicinalProductDefinition-element-map-to-R4</b></p><a name=\"R5-MedicinalProductDefinition-element-map-to-R4\"> </a><a name=\"hcR5-MedicinalProductDefinition-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/medicinalproduct.html\">MedicinalProductversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>MedicinalProductDefinition.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicinalProductDefinition.meta` is mapped to FHIR R4 element `MedicinalProduct.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicinalProductDefinition.implicitRules` is mapped to FHIR R4 element `MedicinalProduct.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicinalProductDefinition.language` is mapped to FHIR R4 element `MedicinalProduct.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicinalProductDefinition.text` is mapped to FHIR R4 element `MedicinalProduct.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicinalProductDefinition.contained` is mapped to FHIR R4 element `MedicinalProduct.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicinalProductDefinition.identifier` is mapped to FHIR R4 element `MedicinalProduct.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicinalProductDefinition.type` is mapped to FHIR R4 element `MedicinalProduct.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.domain (domain)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `MedicinalProductDefinition.domain` is mapped to FHIR R4 element `MedicinalProduct.domain` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.combinedPharmaceuticalDoseForm (combinedPharmaceuticalDoseForm)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicinalProductDefinition.combinedPharmaceuticalDoseForm` is mapped to FHIR R4 element `MedicinalProduct.combinedPharmaceuticalDoseForm` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.legalStatusOfSupply (legalStatusOfSupply)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicinalProductDefinition.legalStatusOfSupply` is mapped to FHIR R4 element `MedicinalProduct.legalStatusOfSupply` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.additionalMonitoringIndicator (additionalMonitoringIndicator)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicinalProductDefinition.additionalMonitoringIndicator` is mapped to FHIR R4 element `MedicinalProduct.additionalMonitoringIndicator` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.specialMeasures (specialMeasures)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `MedicinalProductDefinition.specialMeasures` is mapped to FHIR R4 element `MedicinalProduct.specialMeasures` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.marketingStatus (marketingStatus)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicinalProductDefinition.marketingStatus` is mapped to FHIR R4 element `MedicinalProduct.marketingStatus` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.packagedMedicinalProduct (packagedMedicinalProduct)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `MedicinalProductDefinition.packagedMedicinalProduct` is mapped to FHIR R4 element `MedicinalProduct.packagedMedicinalProduct` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.attachedDocument (attachedDocument)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.attachedDocument` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicinalProductDefinition.attachedDocument` is mapped to FHIR R4 element `MedicinalProduct.attachedDocument` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.masterFile (masterFile)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.masterFile` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicinalProductDefinition.masterFile` is mapped to FHIR R4 element `MedicinalProduct.masterFile` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.contact (contact)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `MedicinalProductDefinition.contact` is mapped to FHIR R4 element `MedicinalProduct.contact` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.clinicalTrial (clinicalTrial)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicinalProductDefinition.clinicalTrial` is mapped to FHIR R4 element `MedicinalProduct.clinicalTrial` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `MedicinalProductDefinition.name` is mapped to FHIR R4 element `MedicinalProduct.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.name.productName (productName)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicinalProductDefinition.name.productName` is mapped to FHIR R4 element `MedicinalProduct.name.productName` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.name.part (part)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `MedicinalProductDefinition.name.part` is mapped to FHIR R4 element `MedicinalProduct.name.namePart` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.name.part.part (part)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicinalProductDefinition.name.part.part` is mapped to FHIR R4 element `MedicinalProduct.name.namePart.part` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.name.part.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `MedicinalProductDefinition.name.part.type` is mapped to FHIR R4 element `MedicinalProduct.name.namePart.type` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.name.usage (usage)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `MedicinalProductDefinition.name.usage` is mapped to FHIR R4 element `MedicinalProduct.name.countryLanguage` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.name.usage.country (country)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicinalProductDefinition.name.usage.country` is mapped to FHIR R4 element `MedicinalProduct.name.countryLanguage.country` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.name.usage.jurisdiction (jurisdiction)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicinalProductDefinition.name.usage.jurisdiction` is mapped to FHIR R4 element `MedicinalProduct.name.countryLanguage.jurisdiction` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.name.usage.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `MedicinalProductDefinition.name.usage.language` is mapped to FHIR R4 element `MedicinalProduct.name.countryLanguage.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.crossReference (crossReference)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `MedicinalProductDefinition.crossReference` is mapped to FHIR R4 element `MedicinalProduct.crossReference` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>MedicinalProductDefinition.domain (domain)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.domain</td><td>Element `MedicinalProductDefinition.domain` is mapped to FHIR R4 element `MedicinalProduct.domain` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.version (version)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.version</td><td>Element `MedicinalProductDefinition.version` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.</td></tr><tr><td>MedicinalProductDefinition.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.status</td><td>Element `MedicinalProductDefinition.status` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.</td></tr><tr><td>MedicinalProductDefinition.statusDate (statusDate)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.statusDate</td><td>Element `MedicinalProductDefinition.statusDate` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.</td></tr><tr><td>MedicinalProductDefinition.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.description</td><td>Element `MedicinalProductDefinition.description` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.</td></tr><tr><td>MedicinalProductDefinition.route (route)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.route</td><td>Element `MedicinalProductDefinition.route` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.</td></tr><tr><td>MedicinalProductDefinition.indication (indication)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.indication</td><td>Element `MedicinalProductDefinition.indication` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.</td></tr><tr><td>MedicinalProductDefinition.specialMeasures (specialMeasures)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.specialMeasures</td><td>Element `MedicinalProductDefinition.specialMeasures` is mapped to FHIR R4 element `MedicinalProduct.specialMeasures` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.pediatricUseIndicator (pediatricUseIndicator)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.pediatricUseIndicator</td><td>Element `MedicinalProductDefinition.pediatricUseIndicator` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.</td></tr><tr><td>MedicinalProductDefinition.classification (classification)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.classification</td><td>Element `MedicinalProductDefinition.classification` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.</td></tr><tr><td>MedicinalProductDefinition.packagedMedicinalProduct (packagedMedicinalProduct)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.packagedMedicinalProduct</td><td>Element `MedicinalProductDefinition.packagedMedicinalProduct` is mapped to FHIR R4 element `MedicinalProduct.packagedMedicinalProduct` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.ingredient (ingredient)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.ingredient</td><td>Element `MedicinalProductDefinition.ingredient` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.</td></tr><tr><td>MedicinalProductDefinition.impurity (impurity)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.impurity</td><td>Element `MedicinalProductDefinition.impurity` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.</td></tr><tr><td>MedicinalProductDefinition.contact (contact)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.contact</td><td>Element `MedicinalProductDefinition.contact` is mapped to FHIR R4 element `MedicinalProduct.contact` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.code</td><td>Element `MedicinalProductDefinition.code` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.</td></tr><tr><td>MedicinalProductDefinition.name.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.name.type</td><td>Element `MedicinalProductDefinition.name.type` has a context of MedicinalProduct.name based on following the parent source element upwards and mapping to `MedicinalProduct`.</td></tr><tr><td>MedicinalProductDefinition.name.part.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.name.part.type</td><td>Element `MedicinalProductDefinition.name.part.type` is mapped to FHIR R4 element `MedicinalProduct.name.namePart.type` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.name.usage.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.name.usage.language</td><td>Element `MedicinalProductDefinition.name.usage.language` is mapped to FHIR R4 element `MedicinalProduct.name.countryLanguage.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.crossReference (crossReference)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.crossReference</td><td>Element `MedicinalProductDefinition.crossReference` is mapped to FHIR R4 element `MedicinalProduct.crossReference` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.operation (operation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.operation</td><td>Element `MedicinalProductDefinition.operation` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.</td></tr><tr><td>MedicinalProductDefinition.characteristic (characteristic)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.characteristic</td><td>Element `MedicinalProductDefinition.characteristic` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Packversion: 5.2.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>MedicinalProductDefinition.comprisedOf (comprisedOf)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.comprisedOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicinalProductDefinition.comprisedOf` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.</td></tr><tr><td>MedicinalProductDefinition.attachedDocument (attachedDocument)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.attachedDocument` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicinalProductDefinition.attachedDocument` is mapped to FHIR R4 element `MedicinalProduct.attachedDocument` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.masterFile (masterFile)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.masterFile` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicinalProductDefinition.masterFile` is mapped to FHIR R4 element `MedicinalProduct.masterFile` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>MedicinalProductDefinition.contact.contact (contact)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.contact.contact` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicinalProductDefinition.contact.contact` has a context of MedicinalProduct.contact based on following the parent source element upwards and mapping to `MedicinalProduct`.</td></tr><tr><td>MedicinalProductDefinition.operation.organization (organization)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.operation.organization` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicinalProductDefinition.operation.organization` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.</td></tr></table><hr/><p><b>Group 4 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>MedicinalProductDefinition.contact.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>type</td><td>Element `MedicinalProductDefinition.contact.type` has a context of MedicinalProduct.contact based on following the parent source element upwards and mapping to `MedicinalProduct`.</td></tr><tr><td>MedicinalProductDefinition.crossReference.product (product)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>product</td><td>Element `MedicinalProductDefinition.crossReference.product` has a context of MedicinalProduct.crossReference based on following the parent source element upwards and mapping to `MedicinalProduct`.</td></tr><tr><td>MedicinalProductDefinition.crossReference.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>type</td><td>Element `MedicinalProductDefinition.crossReference.type` has a context of MedicinalProduct.crossReference based on following the parent source element upwards and mapping to `MedicinalProduct`.</td></tr><tr><td>MedicinalProductDefinition.operation.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>type</td><td>Element `MedicinalProductDefinition.operation.type` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.</td></tr><tr><td>MedicinalProductDefinition.operation.effectiveDate (effectiveDate)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>effectiveDate</td><td>Element `MedicinalProductDefinition.operation.effectiveDate` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.</td></tr><tr><td>MedicinalProductDefinition.operation.confidentialityIndicator (confidentialityIndicator)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>confidentialityIndicator</td><td>Element `MedicinalProductDefinition.operation.confidentialityIndicator` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.</td></tr><tr><td>MedicinalProductDefinition.characteristic.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>type</td><td>Element `MedicinalProductDefinition.characteristic.type` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.</td></tr><tr><td>MedicinalProductDefinition.characteristic.value[x] (value[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>value</td><td>Element `MedicinalProductDefinition.characteristic.value[x]` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-MedicinalProductDefinition-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-MedicinalProductDefinition-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5MedicinalProductDefinitionElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 MedicinalProductDefinition to FHIR R4 MedicinalProduct"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T13:36:57.7140404-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 MedicinalProductDefinition to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/MedicinalProduct"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/MedicinalProduct>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "MedicinalProductDefinition.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.meta` is mapped to FHIR R4 element `MedicinalProduct.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.implicitRules` is mapped to FHIR R4 element `MedicinalProduct.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.language` is mapped to FHIR R4 element `MedicinalProduct.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.text` is mapped to FHIR R4 element `MedicinalProduct.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.contained` is mapped to FHIR R4 element `MedicinalProduct.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.identifier` is mapped to FHIR R4 element `MedicinalProduct.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.type` is mapped to FHIR R4 element `MedicinalProduct.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.domain" ] ;
+       fhir:display [ fhir:v "domain" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.domain` is mapped to FHIR R4 element `MedicinalProduct.domain` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.combinedPharmaceuticalDoseForm" ] ;
+       fhir:display [ fhir:v "combinedPharmaceuticalDoseForm" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.combinedPharmaceuticalDoseForm` is mapped to FHIR R4 element `MedicinalProduct.combinedPharmaceuticalDoseForm` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.legalStatusOfSupply" ] ;
+       fhir:display [ fhir:v "legalStatusOfSupply" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.legalStatusOfSupply` is mapped to FHIR R4 element `MedicinalProduct.legalStatusOfSupply` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.additionalMonitoringIndicator" ] ;
+       fhir:display [ fhir:v "additionalMonitoringIndicator" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.additionalMonitoringIndicator` is mapped to FHIR R4 element `MedicinalProduct.additionalMonitoringIndicator` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.specialMeasures" ] ;
+       fhir:display [ fhir:v "specialMeasures" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.specialMeasures` is mapped to FHIR R4 element `MedicinalProduct.specialMeasures` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.marketingStatus" ] ;
+       fhir:display [ fhir:v "marketingStatus" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.marketingStatus` is mapped to FHIR R4 element `MedicinalProduct.marketingStatus` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.packagedMedicinalProduct" ] ;
+       fhir:display [ fhir:v "packagedMedicinalProduct" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.packagedMedicinalProduct` is mapped to FHIR R4 element `MedicinalProduct.packagedMedicinalProduct` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.attachedDocument" ] ;
+       fhir:display [ fhir:v "attachedDocument" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.attachedDocument` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicinalProductDefinition.attachedDocument` is mapped to FHIR R4 element `MedicinalProduct.attachedDocument` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.masterFile" ] ;
+       fhir:display [ fhir:v "masterFile" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.masterFile` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicinalProductDefinition.masterFile` is mapped to FHIR R4 element `MedicinalProduct.masterFile` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.contact` is mapped to FHIR R4 element `MedicinalProduct.contact` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.clinicalTrial" ] ;
+       fhir:display [ fhir:v "clinicalTrial" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.clinicalTrial` is mapped to FHIR R4 element `MedicinalProduct.clinicalTrial` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.name` is mapped to FHIR R4 element `MedicinalProduct.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.name.productName" ] ;
+       fhir:display [ fhir:v "productName" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.name.productName` is mapped to FHIR R4 element `MedicinalProduct.name.productName` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.name.part" ] ;
+       fhir:display [ fhir:v "part" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.name.part` is mapped to FHIR R4 element `MedicinalProduct.name.namePart` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.name.part.part" ] ;
+       fhir:display [ fhir:v "part" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.name.part.part` is mapped to FHIR R4 element `MedicinalProduct.name.namePart.part` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.name.part.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.name.part.type` is mapped to FHIR R4 element `MedicinalProduct.name.namePart.type` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.name.usage" ] ;
+       fhir:display [ fhir:v "usage" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.name.usage` is mapped to FHIR R4 element `MedicinalProduct.name.countryLanguage` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.name.usage.country" ] ;
+       fhir:display [ fhir:v "country" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.name.usage.country` is mapped to FHIR R4 element `MedicinalProduct.name.countryLanguage.country` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.name.usage.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.name.usage.jurisdiction` is mapped to FHIR R4 element `MedicinalProduct.name.countryLanguage.jurisdiction` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.name.usage.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.name.usage.language` is mapped to FHIR R4 element `MedicinalProduct.name.countryLanguage.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.crossReference" ] ;
+       fhir:display [ fhir:v "crossReference" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.crossReference` is mapped to FHIR R4 element `MedicinalProduct.crossReference` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "MedicinalProductDefinition.domain" ] ;
+       fhir:display [ fhir:v "domain" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.domain" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.domain` is mapped to FHIR R4 element `MedicinalProduct.domain` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.version" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.version` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.status` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.statusDate" ] ;
+       fhir:display [ fhir:v "statusDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.statusDate" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.statusDate` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.description" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.description` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.route" ] ;
+       fhir:display [ fhir:v "route" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.route" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.route` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.indication" ] ;
+       fhir:display [ fhir:v "indication" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.indication" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.indication` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.specialMeasures" ] ;
+       fhir:display [ fhir:v "specialMeasures" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.specialMeasures" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.specialMeasures` is mapped to FHIR R4 element `MedicinalProduct.specialMeasures` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.pediatricUseIndicator" ] ;
+       fhir:display [ fhir:v "pediatricUseIndicator" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.pediatricUseIndicator" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.pediatricUseIndicator` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.classification" ] ;
+       fhir:display [ fhir:v "classification" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.classification" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.classification` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.packagedMedicinalProduct" ] ;
+       fhir:display [ fhir:v "packagedMedicinalProduct" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.packagedMedicinalProduct" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.packagedMedicinalProduct` is mapped to FHIR R4 element `MedicinalProduct.packagedMedicinalProduct` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.ingredient" ] ;
+       fhir:display [ fhir:v "ingredient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.ingredient" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.ingredient` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.impurity" ] ;
+       fhir:display [ fhir:v "impurity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.impurity" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.impurity` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.contact" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.contact` is mapped to FHIR R4 element `MedicinalProduct.contact` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.code` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.name.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.name.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.name.type` has a context of MedicinalProduct.name based on following the parent source element upwards and mapping to `MedicinalProduct`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.name.part.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.name.part.type" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.name.part.type` is mapped to FHIR R4 element `MedicinalProduct.name.namePart.type` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.name.usage.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.name.usage.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.name.usage.language` is mapped to FHIR R4 element `MedicinalProduct.name.countryLanguage.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.crossReference" ] ;
+       fhir:display [ fhir:v "crossReference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.crossReference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.crossReference` is mapped to FHIR R4 element `MedicinalProduct.crossReference` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.operation" ] ;
+       fhir:display [ fhir:v "operation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.operation" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.operation` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.characteristic" ] ;
+       fhir:display [ fhir:v "characteristic" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.characteristic" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.characteristic` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.2.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "MedicinalProductDefinition.comprisedOf" ] ;
+       fhir:display [ fhir:v "comprisedOf" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.comprisedOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicinalProductDefinition.comprisedOf` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.attachedDocument" ] ;
+       fhir:display [ fhir:v "attachedDocument" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.attachedDocument` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicinalProductDefinition.attachedDocument` is mapped to FHIR R4 element `MedicinalProduct.attachedDocument` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.masterFile" ] ;
+       fhir:display [ fhir:v "masterFile" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.masterFile` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicinalProductDefinition.masterFile` is mapped to FHIR R4 element `MedicinalProduct.masterFile` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.contact.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.contact.contact` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicinalProductDefinition.contact.contact` has a context of MedicinalProduct.contact based on following the parent source element upwards and mapping to `MedicinalProduct`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.operation.organization" ] ;
+       fhir:display [ fhir:v "organization" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.operation.organization` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicinalProductDefinition.operation.organization` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "MedicinalProductDefinition.contact.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.contact.type` has a context of MedicinalProduct.contact based on following the parent source element upwards and mapping to `MedicinalProduct`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.crossReference.product" ] ;
+       fhir:display [ fhir:v "product" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "product" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.crossReference.product` has a context of MedicinalProduct.crossReference based on following the parent source element upwards and mapping to `MedicinalProduct`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.crossReference.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.crossReference.type` has a context of MedicinalProduct.crossReference based on following the parent source element upwards and mapping to `MedicinalProduct`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.operation.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.operation.type` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.operation.effectiveDate" ] ;
+       fhir:display [ fhir:v "effectiveDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "effectiveDate" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.operation.effectiveDate` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.operation.confidentialityIndicator" ] ;
+       fhir:display [ fhir:v "confidentialityIndicator" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "confidentialityIndicator" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.operation.confidentialityIndicator` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.characteristic.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.characteristic.type` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicinalProductDefinition.characteristic.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "value" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MedicinalProductDefinition.characteristic.value[x]` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,1268 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-v2-0254-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-v2-0254-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-v2-0254-for-R4</b></p><a name=\"R5-v2-0254-for-R4\"> </a><a name=\"hcR5-v2-0254-for-R4\"> </a><p>This value set expansion contains 102 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-ABS\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ABS</td><td>Absorbance</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-ACNC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ACNC</td><td>Concentration, Arbitrary Substance</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-ACT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ACT</td><td>Activity</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-APER\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  APER</td><td>Appearance</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-ARB\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ARB</td><td>Arbitrary</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-AREA\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  AREA</td><td>Area</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-ASPECT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ASPECT</td><td>Aspect</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-CACT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CACT</td><td>Catalytic Activity</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-CCNT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CCNT</td><td>Catalytic Content</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-CCRTO\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CCRTO</td><td>Catalytic Concentration Ratio</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-CFR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CFR</td><td>Catalytic Fraction</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-CLAS\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CLAS</td><td>Class</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-CNC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CNC</td><td>Catalytic Concentration</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-CNST\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CNST</td><td>Constant</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-COEF\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  COEF</td><td>Coefficient</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-COLOR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  COLOR</td><td>Color</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-CONS\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CONS</td><td>Consistency</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-CRAT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CRAT</td><td>Catalytic Rate</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-CRTO\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  CRTO</td><td>Catalytic Ratio</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-DEN\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  DEN</td><td>Density</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-DEV\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  DEV</td><td>Device</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-DIFF\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  DIFF</td><td>Difference</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-ELAS\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ELAS</td><td>Elasticity</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-ELPOT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ELPOT</td><td>Electrical Potential (Voltage)</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-ELRAT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ELRAT</td><td>Electrical current (amperage)</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-ELRES\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ELRES</td><td>Electrical Resistance</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-ENGR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ENGR</td><td>Energy</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-ENT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ENT</td><td>Entitic</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-ENTCAT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ENTCAT</td><td>Entitic Catalytic Activity</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-ENTNUM\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ENTNUM</td><td>Entitic Number</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-ENTSUB\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ENTSUB</td><td>Entitic Substance of Amount</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-ENTVOL\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  ENTVOL</td><td>Entitic Volume</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-EQL\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  EQL</td><td>Equilibrium</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-FORCE\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  FORCE</td><td>Mechanical force</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-FREQ\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  FREQ</td><td>Frequency</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-IMP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  IMP</td><td>Impression/ interpretation of study</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-KINV\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  KINV</td><td>Kinematic Viscosity</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-LEN\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  LEN</td><td>Length</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-LINC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  LINC</td><td>Length Increment</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-LIQ\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  LIQ</td><td>Liquefaction</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-MASS\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  MASS</td><td>Mass</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-MCNC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  MCNC</td><td>Mass Concentration</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-MCNT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  MCNT</td><td>Mass Content</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-MCRTO\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  MCRTO</td><td>Mass Concentration Ratio</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-MFR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  MFR</td><td>Mass Fraction</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-MGFLUX\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  MGFLUX</td><td>Magnetic flux</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-MINC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  MINC</td><td>Mass Increment</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-MORPH\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  MORPH</td><td>Morphology</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-MOTIL\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  MOTIL</td><td>Motility</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-MRAT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  MRAT</td><td>Mass Rate</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-MRTO\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  MRTO</td><td>Mass Ratio</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-NCNC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  NCNC</td><td>Number Concentration</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-NCNT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  NCNT</td><td>Number Content</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-NFR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  NFR</td><td>Number Fraction</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-NRTO\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  NRTO</td><td>Number Ratio</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-NUM\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  NUM</td><td>Number</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-OD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  OD</td><td>Optical density</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-OSMOL\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  OSMOL</td><td>Osmolality</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-PRES\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  PRES</td><td>Pressure (Partial)</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-PRID\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  PRID</td><td>Presence/Identity/Existence</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-PWR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  PWR</td><td>Power (wattage)</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-RANGE\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  RANGE</td><td>Ranges</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-RATIO\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  RATIO</td><td>Ratios</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-RCRLTM\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  RCRLTM</td><td>Reciprocal Relative Time</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-RDEN\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  RDEN</td><td>Relative Density</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-REL\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  REL</td><td>Relative</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-RLMCNC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  RLMCNC</td><td>Relative Mass Concentration</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-RLSCNC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  RLSCNC</td><td>Relative Substance Concentration</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-RLTM\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  RLTM</td><td>Relative Time</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-SATFR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SATFR</td><td>Saturation Fraction</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-SCNC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SCNC</td><td>Substance Concentration</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-SCNCIN\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SCNCIN</td><td>Substance Concentration Increment</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-SCNT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SCNT</td><td>Substance Content</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-SCNTR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SCNTR</td><td>Substance Content Rate</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-SCRTO\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SCRTO</td><td>Substance Concentration Ratio</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-SFR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SFR</td><td>Substance Fraction</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-SHAPE\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SHAPE</td><td>Shape</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-SMELL\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SMELL</td><td>Smell</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-SRAT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SRAT</td><td>Substance Rate</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-SRTO\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SRTO</td><td>Substance Ratio</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-SUB\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SUB</td><td>Substance Amount</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-SUSC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  SUSC</td><td>Susceptibility</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-TASTE\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TASTE</td><td>Taste</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-TEMP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TEMP</td><td>Temperature</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-TEMPDF\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TEMPDF</td><td>Temperature Difference</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-TEMPIN\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TEMPIN</td><td>Temperature Increment</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-THRMCNC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  THRMCNC</td><td>Threshold Mass Concentration</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-THRSCNC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  THRSCNC</td><td>Threshold Substance Concentration</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-TIME\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TIME</td><td>Time (e.g. seconds)</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-TITR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TITR</td><td>Dilution Factor (Titer)</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-TMDF\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TMDF</td><td>Time Difference</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-TMSTP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TMSTP</td><td>Time Stamp-Date and Time</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-TRTO\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TRTO</td><td>Time Ratio</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-TYPE\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TYPE</td><td>Type</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-VCNT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  VCNT</td><td>Volume Content</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-VEL\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  VEL</td><td>Velocity</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-VELRT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  VELRT</td><td>Velocity Ratio</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-VFR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  VFR</td><td>Volume Fraction</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-VISC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  VISC</td><td>Viscosity</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-VOL\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  VOL</td><td>Volume</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-VRAT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  VRAT</td><td>Volume Rate</td></tr><tr><td><a name=\"R5-v2-0254-for-R4-http://terminology.hl7.org/CodeSystem/v2-0254-VRTO\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0254</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  VRTO</td><td>Volume Ratio</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-v2-0254-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-v2-0254-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5V20254ForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.Hl7VSKindOfQuantity for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v2-0254|2.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/v2-0254|2.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* \r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://terminology.hl7.org/ValueSet/v2-0254|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "ABS" ] ;
+         fhir:display [ fhir:v "Absorbance" ]
+       ] [
+         fhir:code [ fhir:v "ACNC" ] ;
+         fhir:display [ fhir:v "Concentration, Arbitrary Substance" ]
+       ] [
+         fhir:code [ fhir:v "ACT" ] ;
+         fhir:display [ fhir:v "Activity" ]
+       ] [
+         fhir:code [ fhir:v "APER" ] ;
+         fhir:display [ fhir:v "Appearance" ]
+       ] [
+         fhir:code [ fhir:v "ARB" ] ;
+         fhir:display [ fhir:v "Arbitrary" ]
+       ] [
+         fhir:code [ fhir:v "AREA" ] ;
+         fhir:display [ fhir:v "Area" ]
+       ] [
+         fhir:code [ fhir:v "ASPECT" ] ;
+         fhir:display [ fhir:v "Aspect" ]
+       ] [
+         fhir:code [ fhir:v "CACT" ] ;
+         fhir:display [ fhir:v "Catalytic Activity" ]
+       ] [
+         fhir:code [ fhir:v "CCNT" ] ;
+         fhir:display [ fhir:v "Catalytic Content" ]
+       ] [
+         fhir:code [ fhir:v "CCRTO" ] ;
+         fhir:display [ fhir:v "Catalytic Concentration Ratio" ]
+       ] [
+         fhir:code [ fhir:v "CFR" ] ;
+         fhir:display [ fhir:v "Catalytic Fraction" ]
+       ] [
+         fhir:code [ fhir:v "CLAS" ] ;
+         fhir:display [ fhir:v "Class" ]
+       ] [
+         fhir:code [ fhir:v "CNC" ] ;
+         fhir:display [ fhir:v "Catalytic Concentration" ]
+       ] [
+         fhir:code [ fhir:v "CNST" ] ;
+         fhir:display [ fhir:v "Constant" ]
+       ] [
+         fhir:code [ fhir:v "COEF" ] ;
+         fhir:display [ fhir:v "Coefficient" ]
+       ] [
+         fhir:code [ fhir:v "COLOR" ] ;
+         fhir:display [ fhir:v "Color" ]
+       ] [
+         fhir:code [ fhir:v "CONS" ] ;
+         fhir:display [ fhir:v "Consistency" ]
+       ] [
+         fhir:code [ fhir:v "CRAT" ] ;
+         fhir:display [ fhir:v "Catalytic Rate" ]
+       ] [
+         fhir:code [ fhir:v "CRTO" ] ;
+         fhir:display [ fhir:v "Catalytic Ratio" ]
+       ] [
+         fhir:code [ fhir:v "DEN" ] ;
+         fhir:display [ fhir:v "Density" ]
+       ] [
+         fhir:code [ fhir:v "DEV" ] ;
+         fhir:display [ fhir:v "Device" ]
+       ] [
+         fhir:code [ fhir:v "DIFF" ] ;
+         fhir:display [ fhir:v "Difference" ]
+       ] [
+         fhir:code [ fhir:v "ELAS" ] ;
+         fhir:display [ fhir:v "Elasticity" ]
+       ] [
+         fhir:code [ fhir:v "ELPOT" ] ;
+         fhir:display [ fhir:v "Electrical Potential (Voltage)" ]
+       ] [
+         fhir:code [ fhir:v "ELRAT" ] ;
+         fhir:display [ fhir:v "Electrical current (amperage)" ]
+       ] [
+         fhir:code [ fhir:v "ELRES" ] ;
+         fhir:display [ fhir:v "Electrical Resistance" ]
+       ] [
+         fhir:code [ fhir:v "ENGR" ] ;
+         fhir:display [ fhir:v "Energy" ]
+       ] [
+         fhir:code [ fhir:v "ENT" ] ;
+         fhir:display [ fhir:v "Entitic" ]
+       ] [
+         fhir:code [ fhir:v "ENTCAT" ] ;
+         fhir:display [ fhir:v "Entitic Catalytic Activity" ]
+       ] [
+         fhir:code [ fhir:v "ENTNUM" ] ;
+         fhir:display [ fhir:v "Entitic Number" ]
+       ] [
+         fhir:code [ fhir:v "ENTSUB" ] ;
+         fhir:display [ fhir:v "Entitic Substance of Amount" ]
+       ] [
+         fhir:code [ fhir:v "ENTVOL" ] ;
+         fhir:display [ fhir:v "Entitic Volume" ]
+       ] [
+         fhir:code [ fhir:v "EQL" ] ;
+         fhir:display [ fhir:v "Equilibrium" ]
+       ] [
+         fhir:code [ fhir:v "FORCE" ] ;
+         fhir:display [ fhir:v "Mechanical force" ]
+       ] [
+         fhir:code [ fhir:v "FREQ" ] ;
+         fhir:display [ fhir:v "Frequency" ]
+       ] [
+         fhir:code [ fhir:v "IMP" ] ;
+         fhir:display [ fhir:v "Impression/ interpretation of study" ]
+       ] [
+         fhir:code [ fhir:v "KINV" ] ;
+         fhir:display [ fhir:v "Kinematic Viscosity" ]
+       ] [
+         fhir:code [ fhir:v "LEN" ] ;
+         fhir:display [ fhir:v "Length" ]
+       ] [
+         fhir:code [ fhir:v "LINC" ] ;
+         fhir:display [ fhir:v "Length Increment" ]
+       ] [
+         fhir:code [ fhir:v "LIQ" ] ;
+         fhir:display [ fhir:v "Liquefaction" ]
+       ] [
+         fhir:code [ fhir:v "MASS" ] ;
+         fhir:display [ fhir:v "Mass" ]
+       ] [
+         fhir:code [ fhir:v "MCNC" ] ;
+         fhir:display [ fhir:v "Mass Concentration" ]
+       ] [
+         fhir:code [ fhir:v "MCNT" ] ;
+         fhir:display [ fhir:v "Mass Content" ]
+       ] [
+         fhir:code [ fhir:v "MCRTO" ] ;
+         fhir:display [ fhir:v "Mass Concentration Ratio" ]
+       ] [
+         fhir:code [ fhir:v "MFR" ] ;
+         fhir:display [ fhir:v "Mass Fraction" ]
+       ] [
+         fhir:code [ fhir:v "MGFLUX" ] ;
+         fhir:display [ fhir:v "Magnetic flux" ]
+       ] [
+         fhir:code [ fhir:v "MINC" ] ;
+         fhir:display [ fhir:v "Mass Increment" ]
+       ] [
+         fhir:code [ fhir:v "MORPH" ] ;
+         fhir:display [ fhir:v "Morphology" ]
+       ] [
+         fhir:code [ fhir:v "MOTIL" ] ;
+         fhir:display [ fhir:v "Motility" ]
+       ] [
+         fhir:code [ fhir:v "MRAT" ] ;
+         fhir:display [ fhir:v "Mass Rate" ]
+       ] [
+         fhir:code [ fhir:v "MRTO" ] ;
+         fhir:display [ fhir:v "Mass Ratio" ]
+       ] [
+         fhir:code [ fhir:v "NCNC" ] ;
+         fhir:display [ fhir:v "Number Concentration" ]
+       ] [
+         fhir:code [ fhir:v "NCNT" ] ;
+         fhir:display [ fhir:v "Number Content" ]
+       ] [
+         fhir:code [ fhir:v "NFR" ] ;
+         fhir:display [ fhir:v "Number Fraction" ]
+       ] [
+         fhir:code [ fhir:v "NRTO" ] ;
+         fhir:display [ fhir:v "Number Ratio" ]
+       ] [
+         fhir:code [ fhir:v "NUM" ] ;
+         fhir:display [ fhir:v "Number" ]
+       ] [
+         fhir:code [ fhir:v "OD" ] ;
+         fhir:display [ fhir:v "Optical density" ]
+       ] [
+         fhir:code [ fhir:v "OSMOL" ] ;
+         fhir:display [ fhir:v "Osmolality" ]
+       ] [
+         fhir:code [ fhir:v "PRES" ] ;
+         fhir:display [ fhir:v "Pressure (Partial)" ]
+       ] [
+         fhir:code [ fhir:v "PRID" ] ;
+         fhir:display [ fhir:v "Presence/Identity/Existence" ]
+       ] [
+         fhir:code [ fhir:v "PWR" ] ;
+         fhir:display [ fhir:v "Power (wattage)" ]
+       ] [
+         fhir:code [ fhir:v "RANGE" ] ;
+         fhir:display [ fhir:v "Ranges" ]
+       ] [
+         fhir:code [ fhir:v "RATIO" ] ;
+         fhir:display [ fhir:v "Ratios" ]
+       ] [
+         fhir:code [ fhir:v "RCRLTM" ] ;
+         fhir:display [ fhir:v "Reciprocal Relative Time" ]
+       ] [
+         fhir:code [ fhir:v "RDEN" ] ;
+         fhir:display [ fhir:v "Relative Density" ]
+       ] [
+         fhir:code [ fhir:v "REL" ] ;
+         fhir:display [ fhir:v "Relative" ]
+       ] [
+         fhir:code [ fhir:v "RLMCNC" ] ;
+         fhir:display [ fhir:v "Relative Mass Concentration" ]
+       ] [
+         fhir:code [ fhir:v "RLSCNC" ] ;
+         fhir:display [ fhir:v "Relative Substance Concentration" ]
+       ] [
+         fhir:code [ fhir:v "RLTM" ] ;
+         fhir:display [ fhir:v "Relative Time" ]
+       ] [
+         fhir:code [ fhir:v "SATFR" ] ;
+         fhir:display [ fhir:v "Saturation Fraction" ]
+       ] [
+         fhir:code [ fhir:v "SCNC" ] ;
+         fhir:display [ fhir:v "Substance Concentration" ]
+       ] [
+         fhir:code [ fhir:v "SCNCIN" ] ;
+         fhir:display [ fhir:v "Substance Concentration Increment" ]
+       ] [
+         fhir:code [ fhir:v "SCNT" ] ;
+         fhir:display [ fhir:v "Substance Content" ]
+       ] [
+         fhir:code [ fhir:v "SCNTR" ] ;
+         fhir:display [ fhir:v "Substance Content Rate" ]
+       ] [
+         fhir:code [ fhir:v "SCRTO" ] ;
+         fhir:display [ fhir:v "Substance Concentration Ratio" ]
+       ] [
+         fhir:code [ fhir:v "SFR" ] ;
+         fhir:display [ fhir:v "Substance Fraction" ]
+       ] [
+         fhir:code [ fhir:v "SHAPE" ] ;
+         fhir:display [ fhir:v "Shape" ]
+       ] [
+         fhir:code [ fhir:v "SMELL" ] ;
+         fhir:display [ fhir:v "Smell" ]
+       ] [
+         fhir:code [ fhir:v "SRAT" ] ;
+         fhir:display [ fhir:v "Substance Rate" ]
+       ] [
+         fhir:code [ fhir:v "SRTO" ] ;
+         fhir:display [ fhir:v "Substance Ratio" ]
+       ] [
+         fhir:code [ fhir:v "SUB" ] ;
+         fhir:display [ fhir:v "Substance Amount" ]
+       ] [
+         fhir:code [ fhir:v "SUSC" ] ;
+         fhir:display [ fhir:v "Susceptibility" ]
+       ] [
+         fhir:code [ fhir:v "TASTE" ] ;
+         fhir:display [ fhir:v "Taste" ]
+       ] [
+         fhir:code [ fhir:v "TEMP" ] ;
+         fhir:display [ fhir:v "Temperature" ]
+       ] [
+         fhir:code [ fhir:v "TEMPDF" ] ;
+         fhir:display [ fhir:v "Temperature Difference" ]
+       ] [
+         fhir:code [ fhir:v "TEMPIN" ] ;
+         fhir:display [ fhir:v "Temperature Increment" ]
+       ] [
+         fhir:code [ fhir:v "THRMCNC" ] ;
+         fhir:display [ fhir:v "Threshold Mass Concentration" ]
+       ] [
+         fhir:code [ fhir:v "THRSCNC" ] ;
+         fhir:display [ fhir:v "Threshold Substance Concentration" ]
+       ] [
+         fhir:code [ fhir:v "TIME" ] ;
+         fhir:display [ fhir:v "Time (e.g. seconds)" ]
+       ] [
+         fhir:code [ fhir:v "TITR" ] ;
+         fhir:display [ fhir:v "Dilution Factor (Titer)" ]
+       ] [
+         fhir:code [ fhir:v "TMDF" ] ;
+         fhir:display [ fhir:v "Time Difference" ]
+       ] [
+         fhir:code [ fhir:v "TMSTP" ] ;
+         fhir:display [ fhir:v "Time Stamp-Date and Time" ]
+       ] [
+         fhir:code [ fhir:v "TRTO" ] ;
+         fhir:display [ fhir:v "Time Ratio" ]
+       ] [
+         fhir:code [ fhir:v "TYPE" ] ;
+         fhir:display [ fhir:v "Type" ]
+       ] [
+         fhir:code [ fhir:v "VCNT" ] ;
+         fhir:display [ fhir:v "Volume Content" ]
+       ] [
+         fhir:code [ fhir:v "VEL" ] ;
+         fhir:display [ fhir:v "Velocity" ]
+       ] [
+         fhir:code [ fhir:v "VELRT" ] ;
+         fhir:display [ fhir:v "Velocity Ratio" ]
+       ] [
+         fhir:code [ fhir:v "VFR" ] ;
+         fhir:display [ fhir:v "Volume Fraction" ]
+       ] [
+         fhir:code [ fhir:v "VISC" ] ;
+         fhir:display [ fhir:v "Viscosity" ]
+       ] [
+         fhir:code [ fhir:v "VOL" ] ;
+         fhir:display [ fhir:v "Volume" ]
+       ] [
+         fhir:code [ fhir:v "VRAT" ] ;
+         fhir:display [ fhir:v "Volume Rate" ]
+       ] [
+         fhir:code [ fhir:v "VRTO" ] ;
+         fhir:display [ fhir:v "Volume Ratio" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ABS" ] ;
+       fhir:display [ fhir:v "Absorbance" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ACNC" ] ;
+       fhir:display [ fhir:v "Concentration, Arbitrary Substance" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ACT" ] ;
+       fhir:display [ fhir:v "Activity" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "APER" ] ;
+       fhir:display [ fhir:v "Appearance" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ARB" ] ;
+       fhir:display [ fhir:v "Arbitrary" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "AREA" ] ;
+       fhir:display [ fhir:v "Area" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ASPECT" ] ;
+       fhir:display [ fhir:v "Aspect" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CACT" ] ;
+       fhir:display [ fhir:v "Catalytic Activity" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CCNT" ] ;
+       fhir:display [ fhir:v "Catalytic Content" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CCRTO" ] ;
+       fhir:display [ fhir:v "Catalytic Concentration Ratio" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CFR" ] ;
+       fhir:display [ fhir:v "Catalytic Fraction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CLAS" ] ;
+       fhir:display [ fhir:v "Class" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CNC" ] ;
+       fhir:display [ fhir:v "Catalytic Concentration" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CNST" ] ;
+       fhir:display [ fhir:v "Constant" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "COEF" ] ;
+       fhir:display [ fhir:v "Coefficient" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "COLOR" ] ;
+       fhir:display [ fhir:v "Color" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CONS" ] ;
+       fhir:display [ fhir:v "Consistency" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CRAT" ] ;
+       fhir:display [ fhir:v "Catalytic Rate" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "CRTO" ] ;
+       fhir:display [ fhir:v "Catalytic Ratio" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "DEN" ] ;
+       fhir:display [ fhir:v "Density" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "DEV" ] ;
+       fhir:display [ fhir:v "Device" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "DIFF" ] ;
+       fhir:display [ fhir:v "Difference" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ELAS" ] ;
+       fhir:display [ fhir:v "Elasticity" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ELPOT" ] ;
+       fhir:display [ fhir:v "Electrical Potential (Voltage)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ELRAT" ] ;
+       fhir:display [ fhir:v "Electrical current (amperage)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ELRES" ] ;
+       fhir:display [ fhir:v "Electrical Resistance" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ENGR" ] ;
+       fhir:display [ fhir:v "Energy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ENT" ] ;
+       fhir:display [ fhir:v "Entitic" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ENTCAT" ] ;
+       fhir:display [ fhir:v "Entitic Catalytic Activity" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ENTNUM" ] ;
+       fhir:display [ fhir:v "Entitic Number" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ENTSUB" ] ;
+       fhir:display [ fhir:v "Entitic Substance of Amount" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "ENTVOL" ] ;
+       fhir:display [ fhir:v "Entitic Volume" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "EQL" ] ;
+       fhir:display [ fhir:v "Equilibrium" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "FORCE" ] ;
+       fhir:display [ fhir:v "Mechanical force" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "FREQ" ] ;
+       fhir:display [ fhir:v "Frequency" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "IMP" ] ;
+       fhir:display [ fhir:v "Impression/ interpretation of study" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "KINV" ] ;
+       fhir:display [ fhir:v "Kinematic Viscosity" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "LEN" ] ;
+       fhir:display [ fhir:v "Length" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "LINC" ] ;
+       fhir:display [ fhir:v "Length Increment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "LIQ" ] ;
+       fhir:display [ fhir:v "Liquefaction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "MASS" ] ;
+       fhir:display [ fhir:v "Mass" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "MCNC" ] ;
+       fhir:display [ fhir:v "Mass Concentration" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "MCNT" ] ;
+       fhir:display [ fhir:v "Mass Content" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "MCRTO" ] ;
+       fhir:display [ fhir:v "Mass Concentration Ratio" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "MFR" ] ;
+       fhir:display [ fhir:v "Mass Fraction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "MGFLUX" ] ;
+       fhir:display [ fhir:v "Magnetic flux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "MINC" ] ;
+       fhir:display [ fhir:v "Mass Increment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "MORPH" ] ;
+       fhir:display [ fhir:v "Morphology" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "MOTIL" ] ;
+       fhir:display [ fhir:v "Motility" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "MRAT" ] ;
+       fhir:display [ fhir:v "Mass Rate" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "MRTO" ] ;
+       fhir:display [ fhir:v "Mass Ratio" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "NCNC" ] ;
+       fhir:display [ fhir:v "Number Concentration" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "NCNT" ] ;
+       fhir:display [ fhir:v "Number Content" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "NFR" ] ;
+       fhir:display [ fhir:v "Number Fraction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "NRTO" ] ;
+       fhir:display [ fhir:v "Number Ratio" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "NUM" ] ;
+       fhir:display [ fhir:v "Number" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "OD" ] ;
+       fhir:display [ fhir:v "Optical density" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "OSMOL" ] ;
+       fhir:display [ fhir:v "Osmolality" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PRES" ] ;
+       fhir:display [ fhir:v "Pressure (Partial)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PRID" ] ;
+       fhir:display [ fhir:v "Presence/Identity/Existence" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "PWR" ] ;
+       fhir:display [ fhir:v "Power (wattage)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "RANGE" ] ;
+       fhir:display [ fhir:v "Ranges" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "RATIO" ] ;
+       fhir:display [ fhir:v "Ratios" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "RCRLTM" ] ;
+       fhir:display [ fhir:v "Reciprocal Relative Time" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "RDEN" ] ;
+       fhir:display [ fhir:v "Relative Density" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "REL" ] ;
+       fhir:display [ fhir:v "Relative" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "RLMCNC" ] ;
+       fhir:display [ fhir:v "Relative Mass Concentration" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "RLSCNC" ] ;
+       fhir:display [ fhir:v "Relative Substance Concentration" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "RLTM" ] ;
+       fhir:display [ fhir:v "Relative Time" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SATFR" ] ;
+       fhir:display [ fhir:v "Saturation Fraction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SCNC" ] ;
+       fhir:display [ fhir:v "Substance Concentration" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SCNCIN" ] ;
+       fhir:display [ fhir:v "Substance Concentration Increment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SCNT" ] ;
+       fhir:display [ fhir:v "Substance Content" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SCNTR" ] ;
+       fhir:display [ fhir:v "Substance Content Rate" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SCRTO" ] ;
+       fhir:display [ fhir:v "Substance Concentration Ratio" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SFR" ] ;
+       fhir:display [ fhir:v "Substance Fraction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SHAPE" ] ;
+       fhir:display [ fhir:v "Shape" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SMELL" ] ;
+       fhir:display [ fhir:v "Smell" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SRAT" ] ;
+       fhir:display [ fhir:v "Substance Rate" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SRTO" ] ;
+       fhir:display [ fhir:v "Substance Ratio" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SUB" ] ;
+       fhir:display [ fhir:v "Substance Amount" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "SUSC" ] ;
+       fhir:display [ fhir:v "Susceptibility" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TASTE" ] ;
+       fhir:display [ fhir:v "Taste" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TEMP" ] ;
+       fhir:display [ fhir:v "Temperature" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TEMPDF" ] ;
+       fhir:display [ fhir:v "Temperature Difference" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TEMPIN" ] ;
+       fhir:display [ fhir:v "Temperature Increment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "THRMCNC" ] ;
+       fhir:display [ fhir:v "Threshold Mass Concentration" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "THRSCNC" ] ;
+       fhir:display [ fhir:v "Threshold Substance Concentration" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TIME" ] ;
+       fhir:display [ fhir:v "Time (e.g. seconds)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TITR" ] ;
+       fhir:display [ fhir:v "Dilution Factor (Titer)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TMDF" ] ;
+       fhir:display [ fhir:v "Time Difference" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TMSTP" ] ;
+       fhir:display [ fhir:v "Time Stamp-Date and Time" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TRTO" ] ;
+       fhir:display [ fhir:v "Time Ratio" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TYPE" ] ;
+       fhir:display [ fhir:v "Type" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "VCNT" ] ;
+       fhir:display [ fhir:v "Volume Content" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "VEL" ] ;
+       fhir:display [ fhir:v "Velocity" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "VELRT" ] ;
+       fhir:display [ fhir:v "Velocity Ratio" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "VFR" ] ;
+       fhir:display [ fhir:v "Volume Fraction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "VISC" ] ;
+       fhir:display [ fhir:v "Viscosity" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "VOL" ] ;
+       fhir:display [ fhir:v "Volume" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "VRAT" ] ;
+       fhir:display [ fhir:v "Volume Rate" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0254"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0254>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "VRTO" ] ;
+       fhir:display [ fhir:v "Volume Ratio" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -26,21 +26,26 @@
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-    "valueCode" : "fhir"
+    "valueCode" : "sec"
   }],
   "url" : "http://terminology.hl7.org/CodeSystem/provenance-participant-type",
-  "version" : "0.0.1-snapshot-3",
+  "version" : "0.1.0",
   "name" : "ProvenanceParticipantType",
   "title" : "Provenance participant type",
   "status" : "draft",
   "experimental" : false,
   "date" : "2023-05-11T19:00:00-05:00",
-  "publisher" : "FHIR Infrastructure",
+  "publisher" : "Security",
   "contact" : [{
-    "name" : "FHIR Infrastructure",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://www.hl7.org/Special/committees/fiwg"
+      "value" : "http://hl7.org/fhir"
+    }]
+  },
+  {
+    "telecom" : [{
+      "system" : "email",
+      "value" : "fhir@lists.hl7.org"
     }]
   }],
   "description" : "The type of participation a provenance participant.",
@@ -52,7 +57,7 @@
     }]
   }],
   "caseSensitive" : true,
-  "valueSet" : "http://terminology.hl7.org/ValueSet/provenance-agent-type",
+  "valueSet" : "http://terminology.hl7.org/ValueSet/provenance-agent-type|1.0.1",
   "hierarchyMeaning" : "is-a",
   "content" : "complete",
   "concept" : [{

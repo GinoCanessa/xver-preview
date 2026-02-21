@@ -115,21 +115,21 @@
     </extension>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
-    <valueCode value="fhir"/>
+    <valueCode value="cds"/>
   </extension>
   <url value="http://hl7.org/fhir/request-intent"/>
-  <version value="0.0.1-snapshot-3"/>
+  <version value="5.0.0"/>
   <name value="RequestIntent"/>
   <title value="RequestIntent"/>
   <status value="draft"/>
   <experimental value="true"/>
   <date value="2023-03-25T23:21:02-05:00"/>
-  <publisher value="FHIR Infrastructure"/>
+  <publisher value="Clinical Decision Support"/>
   <contact>
-    <name value="FHIR Infrastructure"/>
+    <name value="Clinical Decision Support"/>
     <telecom>
       <system value="url"/>
-      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+      <value value="http://www.hl7.org/Special/committees/dss"/>
     </telecom>
   </contact>
   <description value="Codes indicating the degree of authority/intentionality associated with a request."/>
@@ -141,7 +141,7 @@
     </coding>
   </jurisdiction>
   <caseSensitive value="true"/>
-  <valueSet value="http://hl7.org/fhir/ValueSet/request-intent"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/request-intent|4.0.1"/>
   <content value="complete"/>
   <concept>
     <code value="proposal"/>

@@ -1,0 +1,575 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-Penutian-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-v3-Penutian-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-v3-Penutian-for-R4</b></p><a name=\"R5-v3-Penutian-for-R4\"> </a><a name=\"hcR5-v3-Penutian-for-R4\"> </a><p>This value set expansion contains 39 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-_Chinookan\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _Chinookan</td><td>Chinookan</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-_Coosan\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _Coosan</td><td>Coosan</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-_EasternMiwok\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _EasternMiwok</td><td>EasternMiwok</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-_Kalapuyan\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _Kalapuyan</td><td>Kalapuyan</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-_Maiduan\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _Maiduan</td><td>Maiduan</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-_Miwokan\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _Miwokan</td><td>Miwokan</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-_PlateauPenutian\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _PlateauPenutian</td><td>PlateauPenutian</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-_Sahaptian\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _Sahaptian</td><td>Sahaptian</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-_Takelman\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _Takelman</td><td>Takelman</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-_Tsimshianic\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _Tsimshianic</td><td>Tsimshianic</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-_UpperChinook\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _UpperChinook</td><td>UpperChinook</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-_Utian\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _Utian</td><td>Utian</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-_WesternMiwok\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _WesternMiwok</td><td>WesternMiwok</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-_Wintuan\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _Wintuan</td><td>Wintuan</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-_Yokutsan\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  _Yokutsan</td><td>Yokutsan</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-COS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  x-COS</td><td>Hanis</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-CSI\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  x-CSI</td><td>Coast Miwok</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-CSM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  x-CSM</td><td>Central Sierra Miwok</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-ENH\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  x-ENH</td><td>Kings River</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-GSH\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  x-GSH</td><td>Gashowu</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-KAL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  x-KAL</td><td>Central Kalapuyan</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-KLA\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  x-KLA</td><td>Klamath-Modoc</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-LMW\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  x-LMW</td><td>Lake Miwok</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-MAI\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  x-MAI</td><td>Northwest Maidu</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-NEZ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  x-NEZ</td><td>Nez Perce</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-NMU\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  x-NMU</td><td>Northeast Maidu</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-NSQ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  x-NSQ</td><td>Northern Sierra Miwok</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-NSZ\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  x-NSZ</td><td>Nisenan</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-PMW\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  x-PMW</td><td>Plains Miwok</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-PYL\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  x-PYL</td><td>Poso Creek</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-SKD\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  x-SKD</td><td>Southern Sierra Miwok</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-TKH\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  x-TKH</td><td>Tule-Kaweah</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-TSI\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  x-TSI</td><td>Coast Tsimshain</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-UMA\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  x-UMA</td><td>Umatilla</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-WAA\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  x-WAA</td><td>Walla Walla</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-WAC\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  x-WAC</td><td>Kiksht</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-WAR\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  x-WAR</td><td>Tenino</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-WIT\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  x-WIT</td><td>Wintu-Nomlaki</td></tr><tr><td><a name=\"R5-v3-Penutian-for-R4-http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages-x-YAK\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  x-YAK</td><td>Yakima</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-Penutian-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-Penutian-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5V3PenutianForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.Penutian for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v3-Penutian|2.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/v3-Penutian|2.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* \r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://terminology.hl7.org/ValueSet/v3-Penutian|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "_Chinookan" ] ;
+         fhir:display [ fhir:v "Chinookan" ]
+       ] [
+         fhir:code [ fhir:v "_Coosan" ] ;
+         fhir:display [ fhir:v "Coosan" ]
+       ] [
+         fhir:code [ fhir:v "_EasternMiwok" ] ;
+         fhir:display [ fhir:v "EasternMiwok" ]
+       ] [
+         fhir:code [ fhir:v "_Kalapuyan" ] ;
+         fhir:display [ fhir:v "Kalapuyan" ]
+       ] [
+         fhir:code [ fhir:v "_Maiduan" ] ;
+         fhir:display [ fhir:v "Maiduan" ]
+       ] [
+         fhir:code [ fhir:v "_Miwokan" ] ;
+         fhir:display [ fhir:v "Miwokan" ]
+       ] [
+         fhir:code [ fhir:v "_PlateauPenutian" ] ;
+         fhir:display [ fhir:v "PlateauPenutian" ]
+       ] [
+         fhir:code [ fhir:v "_Sahaptian" ] ;
+         fhir:display [ fhir:v "Sahaptian" ]
+       ] [
+         fhir:code [ fhir:v "_Takelman" ] ;
+         fhir:display [ fhir:v "Takelman" ]
+       ] [
+         fhir:code [ fhir:v "_Tsimshianic" ] ;
+         fhir:display [ fhir:v "Tsimshianic" ]
+       ] [
+         fhir:code [ fhir:v "_UpperChinook" ] ;
+         fhir:display [ fhir:v "UpperChinook" ]
+       ] [
+         fhir:code [ fhir:v "_Utian" ] ;
+         fhir:display [ fhir:v "Utian" ]
+       ] [
+         fhir:code [ fhir:v "_WesternMiwok" ] ;
+         fhir:display [ fhir:v "WesternMiwok" ]
+       ] [
+         fhir:code [ fhir:v "_Wintuan" ] ;
+         fhir:display [ fhir:v "Wintuan" ]
+       ] [
+         fhir:code [ fhir:v "_Yokutsan" ] ;
+         fhir:display [ fhir:v "Yokutsan" ]
+       ] [
+         fhir:code [ fhir:v "x-COS" ] ;
+         fhir:display [ fhir:v "Hanis" ]
+       ] [
+         fhir:code [ fhir:v "x-CSI" ] ;
+         fhir:display [ fhir:v "Coast Miwok" ]
+       ] [
+         fhir:code [ fhir:v "x-CSM" ] ;
+         fhir:display [ fhir:v "Central Sierra Miwok" ]
+       ] [
+         fhir:code [ fhir:v "x-ENH" ] ;
+         fhir:display [ fhir:v "Kings River" ]
+       ] [
+         fhir:code [ fhir:v "x-GSH" ] ;
+         fhir:display [ fhir:v "Gashowu" ]
+       ] [
+         fhir:code [ fhir:v "x-KAL" ] ;
+         fhir:display [ fhir:v "Central Kalapuyan" ]
+       ] [
+         fhir:code [ fhir:v "x-KLA" ] ;
+         fhir:display [ fhir:v "Klamath-Modoc" ]
+       ] [
+         fhir:code [ fhir:v "x-LMW" ] ;
+         fhir:display [ fhir:v "Lake Miwok" ]
+       ] [
+         fhir:code [ fhir:v "x-MAI" ] ;
+         fhir:display [ fhir:v "Northwest Maidu" ]
+       ] [
+         fhir:code [ fhir:v "x-NEZ" ] ;
+         fhir:display [ fhir:v "Nez Perce" ]
+       ] [
+         fhir:code [ fhir:v "x-NMU" ] ;
+         fhir:display [ fhir:v "Northeast Maidu" ]
+       ] [
+         fhir:code [ fhir:v "x-NSQ" ] ;
+         fhir:display [ fhir:v "Northern Sierra Miwok" ]
+       ] [
+         fhir:code [ fhir:v "x-NSZ" ] ;
+         fhir:display [ fhir:v "Nisenan" ]
+       ] [
+         fhir:code [ fhir:v "x-PMW" ] ;
+         fhir:display [ fhir:v "Plains Miwok" ]
+       ] [
+         fhir:code [ fhir:v "x-PYL" ] ;
+         fhir:display [ fhir:v "Poso Creek" ]
+       ] [
+         fhir:code [ fhir:v "x-SKD" ] ;
+         fhir:display [ fhir:v "Southern Sierra Miwok" ]
+       ] [
+         fhir:code [ fhir:v "x-TKH" ] ;
+         fhir:display [ fhir:v "Tule-Kaweah" ]
+       ] [
+         fhir:code [ fhir:v "x-TSI" ] ;
+         fhir:display [ fhir:v "Coast Tsimshain" ]
+       ] [
+         fhir:code [ fhir:v "x-UMA" ] ;
+         fhir:display [ fhir:v "Umatilla" ]
+       ] [
+         fhir:code [ fhir:v "x-WAA" ] ;
+         fhir:display [ fhir:v "Walla Walla" ]
+       ] [
+         fhir:code [ fhir:v "x-WAC" ] ;
+         fhir:display [ fhir:v "Kiksht" ]
+       ] [
+         fhir:code [ fhir:v "x-WAR" ] ;
+         fhir:display [ fhir:v "Tenino" ]
+       ] [
+         fhir:code [ fhir:v "x-WIT" ] ;
+         fhir:display [ fhir:v "Wintu-Nomlaki" ]
+       ] [
+         fhir:code [ fhir:v "x-YAK" ] ;
+         fhir:display [ fhir:v "Yakima" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_Chinookan" ] ;
+       fhir:display [ fhir:v "Chinookan" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_Coosan" ] ;
+       fhir:display [ fhir:v "Coosan" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_EasternMiwok" ] ;
+       fhir:display [ fhir:v "EasternMiwok" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_Kalapuyan" ] ;
+       fhir:display [ fhir:v "Kalapuyan" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_Maiduan" ] ;
+       fhir:display [ fhir:v "Maiduan" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_Miwokan" ] ;
+       fhir:display [ fhir:v "Miwokan" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_PlateauPenutian" ] ;
+       fhir:display [ fhir:v "PlateauPenutian" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_Sahaptian" ] ;
+       fhir:display [ fhir:v "Sahaptian" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_Takelman" ] ;
+       fhir:display [ fhir:v "Takelman" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_Tsimshianic" ] ;
+       fhir:display [ fhir:v "Tsimshianic" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_UpperChinook" ] ;
+       fhir:display [ fhir:v "UpperChinook" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_Utian" ] ;
+       fhir:display [ fhir:v "Utian" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_WesternMiwok" ] ;
+       fhir:display [ fhir:v "WesternMiwok" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_Wintuan" ] ;
+       fhir:display [ fhir:v "Wintuan" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "_Yokutsan" ] ;
+       fhir:display [ fhir:v "Yokutsan" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "x-COS" ] ;
+       fhir:display [ fhir:v "Hanis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "x-CSI" ] ;
+       fhir:display [ fhir:v "Coast Miwok" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "x-CSM" ] ;
+       fhir:display [ fhir:v "Central Sierra Miwok" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "x-ENH" ] ;
+       fhir:display [ fhir:v "Kings River" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "x-GSH" ] ;
+       fhir:display [ fhir:v "Gashowu" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "x-KAL" ] ;
+       fhir:display [ fhir:v "Central Kalapuyan" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "x-KLA" ] ;
+       fhir:display [ fhir:v "Klamath-Modoc" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "x-LMW" ] ;
+       fhir:display [ fhir:v "Lake Miwok" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "x-MAI" ] ;
+       fhir:display [ fhir:v "Northwest Maidu" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "x-NEZ" ] ;
+       fhir:display [ fhir:v "Nez Perce" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "x-NMU" ] ;
+       fhir:display [ fhir:v "Northeast Maidu" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "x-NSQ" ] ;
+       fhir:display [ fhir:v "Northern Sierra Miwok" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "x-NSZ" ] ;
+       fhir:display [ fhir:v "Nisenan" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "x-PMW" ] ;
+       fhir:display [ fhir:v "Plains Miwok" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "x-PYL" ] ;
+       fhir:display [ fhir:v "Poso Creek" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "x-SKD" ] ;
+       fhir:display [ fhir:v "Southern Sierra Miwok" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "x-TKH" ] ;
+       fhir:display [ fhir:v "Tule-Kaweah" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "x-TSI" ] ;
+       fhir:display [ fhir:v "Coast Tsimshain" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "x-UMA" ] ;
+       fhir:display [ fhir:v "Umatilla" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "x-WAA" ] ;
+       fhir:display [ fhir:v "Walla Walla" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "x-WAC" ] ;
+       fhir:display [ fhir:v "Kiksht" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "x-WAR" ] ;
+       fhir:display [ fhir:v "Tenino" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "x-WIT" ] ;
+       fhir:display [ fhir:v "Wintu-Nomlaki" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-AmericanIndianAlaskaNativeLanguages>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "x-YAK" ] ;
+       fhir:display [ fhir:v "Yakima" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

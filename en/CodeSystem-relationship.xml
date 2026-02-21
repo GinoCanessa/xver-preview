@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="relationship"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/relationship</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">1
+                  <a name="relationship-1"> </a>
+                </td>
+                <td>Self</td>
+                <td>The patient is the subscriber (policy holder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">2
+                  <a name="relationship-2"> </a>
+                </td>
+                <td>Spouse</td>
+                <td>The patient is the spouse or equivalent of the subscriber (policy holder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">3
+                  <a name="relationship-3"> </a>
+                </td>
+                <td>Child</td>
+                <td>The patient is the child of the subscriber (policy holder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">4
+                  <a name="relationship-4"> </a>
+                </td>
+                <td>Common Law Spouse</td>
+                <td>The patient is the common law spouse of the subscriber (policy holder)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">5
+                  <a name="relationship-5"> </a>
+                </td>
+                <td>Other</td>
+                <td>The patient has some other relationship, such as parent, to the subscriber (policy holder)</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fm"/>
+  </extension>
+  <url value="http://hl7.org/fhir/relationship"/>
+  <version value="5.0.0"/>
+  <name value="BeneficiaryRelationshipCodes"/>
+  <title value="Beneficiary Relationship Codes"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2026-02-21T13:39:05-06:00"/>
+  <publisher value="Financial Management"/>
+  <contact>
+    <name value="Financial Management"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fm"/>
+    </telecom>
+  </contact>
+  <description value="This value set includes the Patient to subscriber relationship codes."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This is an example set."/>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/relationship|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="1"/>
+    <display value="Self"/>
+    <definition value="The patient is the subscriber (policy holder)"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Spouse"/>
+    <definition value="The patient is the spouse or equivalent of the subscriber (policy holder)"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Child"/>
+    <definition value="The patient is the child of the subscriber (policy holder)"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Common Law Spouse"/>
+    <definition value="The patient is the common law spouse of the subscriber (policy holder)"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Other"/>
+    <definition value="The patient has some other relationship, such as parent, to the subscriber (policy holder)"/>
+  </concept>
+</CodeSystem>

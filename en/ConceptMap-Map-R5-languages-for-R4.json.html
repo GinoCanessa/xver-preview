@@ -1,0 +1,1332 @@
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>MapR5LanguagesForR4 - JSON Representation - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"7.3990"}
+    h3,h4,h5,h6{--heading-prefix:"7.3990"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" data-no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img alt="International flag" src="../assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>MapR5LanguagesForR4</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="ConceptMap-Map-R5-languages-for-R4.xml.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="ConceptMap-Map-R5-languages-for-R4.ttl.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<!-- layouts\layout-instance-format -->
+<div style="counter-reset: section 8" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="ConceptMap-Map-R5-languages-for-R4.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ConceptMap-Map-R5-languages-for-R4.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ConceptMap-Map-R5-languages-for-R4.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+
+<h2 id="root">: MapR5LanguagesForR4</h2>
+
+  <table class="colsd" data-fhir="generated">
+    <tr>
+
+      <td colspan="1">
+        
+          <i>Page standards status:</i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standards Status">Trial-use</a>
+          
+        
+      </td>
+
+      <td>
+        <a href="http://hl7.org/fhir/versions.html#maturity">Maturity Level</a>: 0
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p><a href="ConceptMap-Map-R5-languages-for-R4.json" no-download="true">Raw json</a> | <a href="ConceptMap-Map-R5-languages-for-R4.json" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="json" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code style="white-space: pre; text-wrap: nowrap;">{
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap">resourceType</a>" : "ConceptMap",
+  "<a href="http://hl7.org/fhir/R4/resource.html#ConceptMap.id">id</a>" : "Map-R5-languages-for-R4",
+  "<a href="http://hl7.org/fhir/R4/resource.html#ConceptMap.language">language</a>" : "en",
+  "<a href="http://hl7.org/fhir/R4/domainresource.html#ConceptMap.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: ConceptMap Map-R5-languages-for-R4&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;Map-R5-languages-for-R4\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcMap-R5-languages-for-R4\&quot;&gt; &lt;/a&gt;&lt;p&gt;Mapping from http://hl7.org/fhir/ValueSet/languages|5.0.0 to &lt;a href=\&quot;http://hl7.org/fhir/R4/valueset-languages.html\&quot;&gt;Common Languages&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b&gt;Group 1 &lt;/b&gt;Mapping from &lt;a href=\&quot;CodeSystem-v3-ietf3066.html\&quot;&gt;Tags for the Identification of Languagesversion: 2.0.1)&lt;/a&gt; to &lt;a href=\&quot;CodeSystem-v3-ietf3066.html\&quot;&gt;Tags for the Identification of Languagesversion: 2.0.1)&lt;/a&gt;&lt;/p&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Source Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Relationship&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Target Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Comment&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ar (Arabisk)&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;ar (Arabisch)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;bn (Bengali)&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;bn (Bengalsk)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;cs (Czech)&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;cs (Tjekkisk)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;da (Danish)&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;da (Dansk)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;de (German)&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;de (Tysk)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;de-AT (German (Austria))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;de-AT (Tysk (Østrig)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;de-CH (German (Switzerland))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;de-CH (Tysk (Schweiz))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;de-DE (German (Germany))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;de-DE (Tysk (Tyskland))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;el (Greek)&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;el (Græsk)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;en (English)&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;en (Engelsk)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;en-AU (English (Australia))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;en-AU (Engelsk (Australien))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;en-CA (English (Canada))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;en-CA (Engelsk (Canada))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;en-GB (English (Great Britain))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;en-GB (Engelsk (Storbritannien))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;en-IN (English (India))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;en-IN (Engelsk (Indien))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;en-NZ (English (New Zealand))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;en-NZ (Engelsk (New Zeeland))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;en-SG (English (Singapore))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;en-SG (Engelsk (Singapore))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;en-US (English (United States))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;en-US (Engelsk (Amerikansk))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;es (Spanish)&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;es (Spansk)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;es-AR (Spanish (Argentina))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;es-AR (Spansk (Argentina))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;es-ES (Spanish (Spain))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;es-ES (Spansk (Spanien))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;es-UY (Spanish (Uruguay))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;es-UY (Spansk (Uruguay))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;fi (Finnish)&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;fi (Finsk)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;fr (French)&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;fr (Fransk)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;fr-BE (French (Belgium))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;fr-BE (Finsk (Belgien))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;fr-CH (French (Switzerland))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;fr-CH (Fransk (Schweiz))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;fr-FR (French (France))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;fr-FR (Fransk (Frankrig))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;fy (Frisian)&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;fy (Frisisk)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;fy-NL (Frisian (Netherlands))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;fy-NL (Frisisk (Holland))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;hi (Hindi)&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;hi (Hindi)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;hr (Croatian)&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;hr (Kroatisk)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;it (Italian)&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;it (Italiensk)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;it-CH (Italian (Switzerland))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;it-CH (Italiensk (Schweiz))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;it-IT (Italian (Italy))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;it-IT (Italiensk (Italien))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ja (Japanese)&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;ja (Japansk)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ko (Korean)&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;ko (Koreansk)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;nl (Dutch)&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;nl (Hollandsk)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;nl-BE (Dutch (Belgium))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;nl-BE (Hollandsk (Belgien))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;nl-NL (Dutch (Netherlands))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;nl-NL (Hollandsk (Holland))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;no (Norwegian)&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;no (Norsk)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;no-NO (Norwegian (Norway))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;no-NO (Norsk (Norge))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pa (Punjabi)&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;pa (Punjabi)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pl (Polskie)&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;pl (Polskie)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pt (Portuguese)&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;pt (Portugisisk)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pt-BR (Portuguese (Brazil))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;pt-BR (Portugisisk (Brasilien))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ru (Russian)&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;ru (Russisk)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ru-RU (Russian (Russia))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;ru-RU (Russisk (Rusland))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;sr (Serbian)&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;sr (Serbisk)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;sr-RS (Serbian (Serbia))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;sr-RS (Serbisk (Serbien))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;sv (Swedish)&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;sv (Svensk)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;sv-SE (Swedish (Sweden))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;sv-SE (Svensk (Sverige))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;te (Telugu)&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;te (Telugu)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;zh (Chinese)&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;zh (Kinesisk)&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;zh-CN (Chinese (China))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;zh-CN (Kinesisk (Kina))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;zh-HK (Chinese (Hong Kong))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;zh-HK (Kinesisk (Hong Kong))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;zh-SG (Chinese (Singapore))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;zh-SG (Kinesisk (Singapore))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;zh-TW (Chinese (Taiwan))&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;CodeSystem-concept-map-relationship.html#equivalent\&quot; title=\&quot;equivalent\&quot;&gt;is equivalent to&lt;/a&gt;&lt;/td&gt;&lt;td&gt;zh-TW (Kinesisk (Taiwan))&lt;/td&gt;&lt;td&gt;TODO&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;bg (Bulgarian)&lt;/td&gt;&lt;td colspan=\&quot;3\&quot; style=\&quot;background-color: #efefef\&quot;&gt;(not mapped)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;bg-BG (Bulgarian (Bulgaria))&lt;/td&gt;&lt;td colspan=\&quot;3\&quot; style=\&quot;background-color: #efefef\&quot;&gt;(not mapped)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;bs (Bosnian)&lt;/td&gt;&lt;td colspan=\&quot;3\&quot; style=\&quot;background-color: #efefef\&quot;&gt;(not mapped)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;bs-BA (Bosnian (Bosnia and Herzegovina)))&lt;/td&gt;&lt;td colspan=\&quot;3\&quot; style=\&quot;background-color: #efefef\&quot;&gt;(not mapped)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;cs-CZ (Czech (Czechia))&lt;/td&gt;&lt;td colspan=\&quot;3\&quot; style=\&quot;background-color: #efefef\&quot;&gt;(not mapped)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;da-DK (Danish (Denmark))&lt;/td&gt;&lt;td colspan=\&quot;3\&quot; style=\&quot;background-color: #efefef\&quot;&gt;(not mapped)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;el-GR (Greek (Greece))&lt;/td&gt;&lt;td colspan=\&quot;3\&quot; style=\&quot;background-color: #efefef\&quot;&gt;(not mapped)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;et (Estonian)&lt;/td&gt;&lt;td colspan=\&quot;3\&quot; style=\&quot;background-color: #efefef\&quot;&gt;(not mapped)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;et-EE (Estonian (Estonia))&lt;/td&gt;&lt;td colspan=\&quot;3\&quot; style=\&quot;background-color: #efefef\&quot;&gt;(not mapped)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;fi-FI (Finnish (Finland))&lt;/td&gt;&lt;td colspan=\&quot;3\&quot; style=\&quot;background-color: #efefef\&quot;&gt;(not mapped)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;fr-CA (French (Canada))&lt;/td&gt;&lt;td colspan=\&quot;3\&quot; style=\&quot;background-color: #efefef\&quot;&gt;(not mapped)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;hr-HR (Croatian (Croatia))&lt;/td&gt;&lt;td colspan=\&quot;3\&quot; style=\&quot;background-color: #efefef\&quot;&gt;(not mapped)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;is (Icelandic)&lt;/td&gt;&lt;td colspan=\&quot;3\&quot; style=\&quot;background-color: #efefef\&quot;&gt;(not mapped)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;is-IS (Icelandic (Iceland))&lt;/td&gt;&lt;td colspan=\&quot;3\&quot; style=\&quot;background-color: #efefef\&quot;&gt;(not mapped)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lt (Lithuanian)&lt;/td&gt;&lt;td colspan=\&quot;3\&quot; style=\&quot;background-color: #efefef\&quot;&gt;(not mapped)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lt-LT (Lithuanian (Lithuania))&lt;/td&gt;&lt;td colspan=\&quot;3\&quot; style=\&quot;background-color: #efefef\&quot;&gt;(not mapped)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lv (Latvian)&lt;/td&gt;&lt;td colspan=\&quot;3\&quot; style=\&quot;background-color: #efefef\&quot;&gt;(not mapped)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;lv-LV (Latvian (Latvia))&lt;/td&gt;&lt;td colspan=\&quot;3\&quot; style=\&quot;background-color: #efefef\&quot;&gt;(not mapped)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pl-PL (Polish (Poland))&lt;/td&gt;&lt;td colspan=\&quot;3\&quot; style=\&quot;background-color: #efefef\&quot;&gt;(not mapped)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pt-PT (Portuguese (Portugal))&lt;/td&gt;&lt;td colspan=\&quot;3\&quot; style=\&quot;background-color: #efefef\&quot;&gt;(not mapped)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ro (Romanian)&lt;/td&gt;&lt;td colspan=\&quot;3\&quot; style=\&quot;background-color: #efefef\&quot;&gt;(not mapped)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ro-RO (Romanian (Romania))&lt;/td&gt;&lt;td colspan=\&quot;3\&quot; style=\&quot;background-color: #efefef\&quot;&gt;(not mapped)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;sk (Slovakian)&lt;/td&gt;&lt;td colspan=\&quot;3\&quot; style=\&quot;background-color: #efefef\&quot;&gt;(not mapped)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;sk-SK (Slovakian (Slovakia))&lt;/td&gt;&lt;td colspan=\&quot;3\&quot; style=\&quot;background-color: #efefef\&quot;&gt;(not mapped)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;sl (Slovenian)&lt;/td&gt;&lt;td colspan=\&quot;3\&quot; style=\&quot;background-color: #efefef\&quot;&gt;(not mapped)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;sl-SI (Slovenian (Slovenia))&lt;/td&gt;&lt;td colspan=\&quot;3\&quot; style=\&quot;background-color: #efefef\&quot;&gt;(not mapped)&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+  },
+  "<a href="http://hl7.org/fhir/R4/domainresource.html#ConceptMap.extension">extension</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a>" : "fhir"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 0,
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">_valueInteger</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#integer.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCanonical</a>" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a>" : "trial-use",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">_valueCode</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#code.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCanonical</a>" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.url">url</a>" : "http://hl7.org/fhir/uv/xver/ConceptMap/R5-languages-for-R4",
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.version">version</a>" : "0.0.1-snapshot-3",
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.name">name</a>" : "MapR5LanguagesForR4",
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.title">title</a>" : "Cross-version ConceptMap for ValueSet R5-languages-for-R4 from FHIR R5 to FHIR R4",
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.status">status</a>" : "active",
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.experimental">experimental</a>" : false,
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.date">date</a>" : "2026-02-21T13:36:49.3645504-06:00",
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.contact">contact</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "FHIR Infrastructure",
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "http://www.hl7.org/Special/committees/fiwg"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.description">description</a>" : "This ConceptMap represents the cross-version mapping of concepts from ValueSet `http://hl7.org/fhir/ValueSet/languages|5.0.0` for use in FHIR R4.",
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.jurisdiction">jurisdiction</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "001",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "World"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.source_x_">sourceUri</a>" : "http://hl7.org/fhir/ValueSet/languages|5.0.0",
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.target_x_">targetUri</a>" : "http://hl7.org/fhir/ValueSet/languages|4.0.1",
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group">group</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.source">source</a>" : "urn:ietf:bcp:47",
+      "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.sourceVersion">sourceVersion</a>" : "2.0.1",
+      "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.target">target</a>" : "urn:ietf:bcp:47",
+      "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.targetVersion">targetVersion</a>" : "2.0.1",
+      "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "ar",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Arabisk",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "ar",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Arabisch",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "bn",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Bengali",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "bn",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Bengalsk",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "cs",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Czech",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "cs",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Tjekkisk",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "da",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Danish",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "da",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Dansk",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "de",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "German",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "de",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Tysk",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "de-AT",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "German (Austria)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "de-AT",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Tysk (Østrig",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "de-CH",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "German (Switzerland)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "de-CH",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Tysk (Schweiz)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "de-DE",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "German (Germany)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "de-DE",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Tysk (Tyskland)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "el",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Greek",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "el",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Græsk",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "en",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "English",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "en",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Engelsk",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "en-AU",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "English (Australia)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "en-AU",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Engelsk (Australien)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "en-CA",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "English (Canada)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "en-CA",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Engelsk (Canada)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "en-GB",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "English (Great Britain)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "en-GB",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Engelsk (Storbritannien)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "en-IN",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "English (India)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "en-IN",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Engelsk (Indien)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "en-NZ",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "English (New Zealand)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "en-NZ",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Engelsk (New Zeeland)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "en-SG",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "English (Singapore)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "en-SG",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Engelsk (Singapore)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "en-US",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "English (United States)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "en-US",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Engelsk (Amerikansk)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "es",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Spanish",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "es",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Spansk",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "es-AR",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Spanish (Argentina)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "es-AR",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Spansk (Argentina)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "es-ES",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Spanish (Spain)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "es-ES",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Spansk (Spanien)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "es-UY",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Spanish (Uruguay)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "es-UY",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Spansk (Uruguay)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "fi",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Finnish",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "fi",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Finsk",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "fr",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "French",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "fr",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Fransk",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "fr-BE",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "French (Belgium)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "fr-BE",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Finsk (Belgien)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "fr-CH",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "French (Switzerland)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "fr-CH",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Fransk (Schweiz)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "fr-FR",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "French (France)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "fr-FR",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Fransk (Frankrig)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "fy",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Frisian",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "fy",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Frisisk",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "fy-NL",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Frisian (Netherlands)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "fy-NL",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Frisisk (Holland)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "hi",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Hindi",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "hi",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Hindi",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "hr",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Croatian",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "hr",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Kroatisk",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "it",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Italian",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "it",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Italiensk",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "it-CH",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Italian (Switzerland)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "it-CH",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Italiensk (Schweiz)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "it-IT",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Italian (Italy)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "it-IT",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Italiensk (Italien)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "ja",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Japanese",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "ja",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Japansk",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "ko",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Korean",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "ko",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Koreansk",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "nl",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Dutch",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "nl",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Hollandsk",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "nl-BE",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Dutch (Belgium)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "nl-BE",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Hollandsk (Belgien)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "nl-NL",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Dutch (Netherlands)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "nl-NL",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Hollandsk (Holland)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "no",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Norwegian",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "no",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Norsk",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "no-NO",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Norwegian (Norway)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "no-NO",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Norsk (Norge)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "pa",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Punjabi",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "pa",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Punjabi",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "pl",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Polskie",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "pl",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Polskie",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "pt",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Portuguese",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "pt",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Portugisisk",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "pt-BR",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Portuguese (Brazil)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "pt-BR",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Portugisisk (Brasilien)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "ru",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Russian",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "ru",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Russisk",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "ru-RU",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Russian (Russia)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "ru-RU",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Russisk (Rusland)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "sr",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Serbian",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "sr",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Serbisk",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "sr-RS",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Serbian (Serbia)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "sr-RS",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Serbisk (Serbien)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "sv",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Swedish",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "sv",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Svensk",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "sv-SE",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Swedish (Sweden)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "sv-SE",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Svensk (Sverige)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "te",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Telugu",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "te",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Telugu",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "zh",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Chinese",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "zh",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Kinesisk",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "zh-CN",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Chinese (China)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "zh-CN",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Kinesisk (Kina)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "zh-HK",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Chinese (Hong Kong)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "zh-HK",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Kinesisk (Hong Kong)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "zh-SG",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Chinese (Singapore)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "zh-SG",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Kinesisk (Singapore)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "zh-TW",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Chinese (Taiwan)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "zh-TW",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.display">display</a>" : "Kinesisk (Taiwan)",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "equivalent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "TODO"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "bg",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Bulgarian",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "unmatched"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "bg-BG",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Bulgarian (Bulgaria)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "unmatched"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "bs",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Bosnian",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "unmatched"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "bs-BA",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Bosnian (Bosnia and Herzegovina))",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "unmatched"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "cs-CZ",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Czech (Czechia)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "unmatched"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "da-DK",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Danish (Denmark)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "unmatched"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "el-GR",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Greek (Greece)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "unmatched"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "et",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Estonian",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "unmatched"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "et-EE",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Estonian (Estonia)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "unmatched"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "fi-FI",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Finnish (Finland)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "unmatched"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "fr-CA",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "French (Canada)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "unmatched"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "hr-HR",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Croatian (Croatia)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "unmatched"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "is",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Icelandic",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "unmatched"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "is-IS",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Icelandic (Iceland)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "unmatched"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "lt",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Lithuanian",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "unmatched"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "lt-LT",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Lithuanian (Lithuania)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "unmatched"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "lv",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Latvian",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "unmatched"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "lv-LV",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Latvian (Latvia)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "unmatched"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "pl-PL",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Polish (Poland)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "unmatched"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "pt-PT",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Portuguese (Portugal)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "unmatched"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "ro",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Romanian",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "unmatched"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "ro-RO",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Romanian (Romania)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "unmatched"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "sk",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Slovakian",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "unmatched"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "sk-SK",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Slovakian (Slovakia)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "unmatched"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "sl",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Slovenian",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "unmatched"
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "sl-SI",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Slovenian (Slovenia)",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "unmatched"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="ConceptMap-Map-R5-languages-for-R4.xml.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="ConceptMap-Map-R5-languages-for-R4.ttl.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-21 13:39:00 -0600">
+    2026-02-21
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir/uv/xver/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

@@ -1,0 +1,2115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Lookup for R5ManufacturedDoseFormForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"4.400"}
+    h3,h4,h5,h6{--heading-prefix:"4.400"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" data-no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img alt="International flag" src="../assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='lookup-vs.html'><b>ValueSet Lookup</b></a></li><li><b>Lookup for R5ManufacturedDoseFormForR4</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="lookup-vs-R5-location-status-for-R4.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="lookup-vs-R5-map-group-type-mode-for-R4.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Lookup for R5ManufacturedDoseFormForR4</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+</div>
+<h3 id="lookup-for-fhir-r5-valueset-manufactureddoseformhttphl7orgfhirvaluesetmanufactured-dose-form-for-use-in-fhir-r4">Lookup for <a href="https://hl7.org/fhir/R5/">FHIR R5</a> ValueSet ManufacturedDoseForm:<a href="https://hl7.org/fhir/R5/valueset-manufactured-dose-form.html"><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/ValueSet/manufactured-dose-form</code></a> for use in <a href="https://hl7.org/fhir/R4/">FHIR R4</a></h3>
+
+<p>The FHIR R5 ValueSet ManufacturedDoseForm has no mapping  to FHIR R4.</p>
+
+<table class="grid">
+  <thead>
+    <tr>
+      <th>Source System</th>
+      <th>Code</th>
+      <th>Display</th>
+      <th>Has XVer</th>
+      <th>Target System</th>
+      <th>Code</th>
+      <th>Display</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073362</code></td>
+      <td>Oral suspension</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073363</code></td>
+      <td>Oral gel</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073364</code></td>
+      <td>Powder for oral solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073365</code></td>
+      <td>Granules for oral solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073367</code></td>
+      <td>Lyophilisate for suspension</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073368</code></td>
+      <td>Powder for syrup</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073369</code></td>
+      <td>Soluble tablet</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073370</code></td>
+      <td>Herbal tea</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073371</code></td>
+      <td>Instant herbal tea</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073372</code></td>
+      <td>Granules</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073373</code></td>
+      <td>Gastro-resistant granules</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073374</code></td>
+      <td>Modified-release granules</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073375</code></td>
+      <td>Capsule, hard</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073376</code></td>
+      <td>Gastro-resistant capsule, hard</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073377</code></td>
+      <td>Chewable capsule, soft</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073378</code></td>
+      <td>Prolonged-release capsule, soft</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073379</code></td>
+      <td>Modified-release capsule, soft</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073380</code></td>
+      <td>Coated tablet</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073642</code></td>
+      <td>Oral drops, solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073643</code></td>
+      <td>Oral drops, suspension</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073644</code></td>
+      <td>Oral drops, emulsion</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073645</code></td>
+      <td>Oral liquid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073646</code></td>
+      <td>Oral solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073647</code></td>
+      <td>Oral emulsion</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073648</code></td>
+      <td>Oral paste</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073649</code></td>
+      <td>Powder for oral suspension</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073650</code></td>
+      <td>Granules for oral suspension</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073652</code></td>
+      <td>Syrup</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073653</code></td>
+      <td>Granules for syrup</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073654</code></td>
+      <td>Dispersible tablet</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073655</code></td>
+      <td>Oral powder</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073656</code></td>
+      <td>Effervescent powder</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073657</code></td>
+      <td>Effervescent granules</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073658</code></td>
+      <td>Prolonged-release granules</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073659</code></td>
+      <td>Cachet</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073660</code></td>
+      <td>Capsule, soft</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073661</code></td>
+      <td>Gastro-resistant capsule, soft</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073662</code></td>
+      <td>Prolonged-release capsule, hard</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073663</code></td>
+      <td>Modified-release capsule, hard</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073664</code></td>
+      <td>Tablet</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073665</code></td>
+      <td>Film-coated tablet</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073666</code></td>
+      <td>Orodispersible tablet</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073667</code></td>
+      <td>Gastro-resistant tablet</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073668</code></td>
+      <td>Modified-release tablet</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073669</code></td>
+      <td>Medicated chewing-gum</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073670</code></td>
+      <td>Pillules</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073671</code></td>
+      <td>Pulsatile-release intraruminal device</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073672</code></td>
+      <td>Premix for medicated feeding stuff</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073673</code></td>
+      <td>Gargle</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073674</code></td>
+      <td>Gargle, powder for solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073675</code></td>
+      <td>Oromucosal suspension</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073676</code></td>
+      <td>Oromucosal spray</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073677</code></td>
+      <td>Mouthwash</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073678</code></td>
+      <td>Gingival solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073679</code></td>
+      <td>Oromucosal paste</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073680</code></td>
+      <td>Gingival gel</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073681</code></td>
+      <td>Effervescent tablet</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073682</code></td>
+      <td>Oral lyophilisate</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073683</code></td>
+      <td>Prolonged-release tablet</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073684</code></td>
+      <td>Chewable tablet</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073685</code></td>
+      <td>Oral gum</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073686</code></td>
+      <td>Continuous-release intraruminal device</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073687</code></td>
+      <td>Lick block</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073688</code></td>
+      <td>Medicated pellets</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073689</code></td>
+      <td>Concentrate for gargle</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073690</code></td>
+      <td>Gargle, tablet for solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073691</code></td>
+      <td>Oromucosal solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073692</code></td>
+      <td>Oromucosal drops</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073693</code></td>
+      <td>Sublingual spray</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073694</code></td>
+      <td>Mouthwash, tablet for solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073695</code></td>
+      <td>Oromucosal gel</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073696</code></td>
+      <td>Oromucosal cream</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073697</code></td>
+      <td>Gingival paste</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073698</code></td>
+      <td>Sublingual tablet</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073699</code></td>
+      <td>Buccal tablet</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073700</code></td>
+      <td>Compressed lozenge</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073701</code></td>
+      <td>Oromucosal capsule</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073702</code></td>
+      <td>Muco-adhesive buccal tablet</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073703</code></td>
+      <td>Lozenge</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073704</code></td>
+      <td>Pastille</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073705</code></td>
+      <td>Dental gel</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073706</code></td>
+      <td>Dental insert</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073707</code></td>
+      <td>Dental powder</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073708</code></td>
+      <td>Dental suspension</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073709</code></td>
+      <td>Toothpaste</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073710</code></td>
+      <td>Periodontal gel</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073711</code></td>
+      <td>Bath additive</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073712</code></td>
+      <td>Cream</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073713</code></td>
+      <td>Ointment</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073714</code></td>
+      <td>Medicated plaster</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073715</code></td>
+      <td>Shampoo</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073716</code></td>
+      <td>Cutaneous spray, suspension</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073717</code></td>
+      <td>Cutaneous liquid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073718</code></td>
+      <td>Concentrate for cutaneous solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073719</code></td>
+      <td>Cutaneous emulsion</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073720</code></td>
+      <td>Cutaneous patch</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073721</code></td>
+      <td>Periodontal powder</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073722</code></td>
+      <td>Dental stick</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073723</code></td>
+      <td>Dental solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073724</code></td>
+      <td>Dental emulsion</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073725</code></td>
+      <td>Periodontal insert</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073726</code></td>
+      <td>Gel</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073727</code></td>
+      <td>Cutaneous paste</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073728</code></td>
+      <td>Cutaneous foam</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073729</code></td>
+      <td>Cutaneous spray, solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073730</code></td>
+      <td>Cutaneous spray, powder</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073731</code></td>
+      <td>Cutaneous solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073732</code></td>
+      <td>Cutaneous suspension</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073733</code></td>
+      <td>Cutaneous powder</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073734</code></td>
+      <td>Solution for iontophoresis</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073735</code></td>
+      <td>Collodion</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073736</code></td>
+      <td>Poultice</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073737</code></td>
+      <td>Cutaneous sponge</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073738</code></td>
+      <td>Collar</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073739</code></td>
+      <td>Ear tag</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073740</code></td>
+      <td>Dip suspension</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073741</code></td>
+      <td>Transdermal patch</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073742</code></td>
+      <td>Medicated nail lacquer</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073743</code></td>
+      <td>Cutaneous stick</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073744</code></td>
+      <td>Impregnated dressing</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073745</code></td>
+      <td>Medicated pendant</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073746</code></td>
+      <td>Dip solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073747</code></td>
+      <td>Dip emulsion</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073748</code></td>
+      <td>Concentrate for dip suspension</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073749</code></td>
+      <td>Powder for dip solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073750</code></td>
+      <td>Powder for suspension for fish treatment</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073751</code></td>
+      <td>Pour-on suspension</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073752</code></td>
+      <td>Spot-on solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073753</code></td>
+      <td>Spot-on emulsion</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073754</code></td>
+      <td>Teat dip suspension</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073755</code></td>
+      <td>Teat spray solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073756</code></td>
+      <td>Solution for skin-prick test</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073757</code></td>
+      <td>Plaster for provocation test</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073758</code></td>
+      <td>Eye gel</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073759</code></td>
+      <td>Eye drops, solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073760</code></td>
+      <td>Eye drops, suspension</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073761</code></td>
+      <td>Concentrate for dip solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073762</code></td>
+      <td>Concentrate for dip emulsion</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073763</code></td>
+      <td>Concentrate for solution for fish treatment</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073764</code></td>
+      <td>Pour-on solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073765</code></td>
+      <td>Pour-on emulsion</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073766</code></td>
+      <td>Spot-on suspension</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073767</code></td>
+      <td>Teat dip solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073768</code></td>
+      <td>Teat dip emulsion</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073769</code></td>
+      <td>Transdermal system</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073770</code></td>
+      <td>Solution for skin-scratch test</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073771</code></td>
+      <td>Eye cream</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073772</code></td>
+      <td>Eye ointment</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073773</code></td>
+      <td>Eye drops, emulsion</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073775</code></td>
+      <td>Eye drops, solvent for reconstitution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073776</code></td>
+      <td>Eye lotion</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073777</code></td>
+      <td>Ophthalmic insert</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073778</code></td>
+      <td>Ear cream</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073779</code></td>
+      <td>Ear ointment</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073780</code></td>
+      <td>Ear drops, suspension</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073782</code></td>
+      <td>Eye drops, prolonged-release</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073783</code></td>
+      <td>Eye lotion, solvent for reconstitution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073784</code></td>
+      <td>Ophthalmic strip</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073785</code></td>
+      <td>Ear gel</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073786</code></td>
+      <td>Ear drops, solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073787</code></td>
+      <td>Ear drops, emulsion</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073788</code></td>
+      <td>Ear powder</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073789</code></td>
+      <td>Ear spray, suspension</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073790</code></td>
+      <td>Ear wash, solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073791</code></td>
+      <td>Ear tampon</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073792</code></td>
+      <td>Nasal cream</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073793</code></td>
+      <td>Nasal gel</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073794</code></td>
+      <td>Nasal drops, solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073795</code></td>
+      <td>Nasal drops, emulsion</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073796</code></td>
+      <td>Nasal spray, solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073797</code></td>
+      <td>Nasal spray, emulsion</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073798</code></td>
+      <td>Nasal stick</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073799</code></td>
+      <td>Vaginal gel</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073800</code></td>
+      <td>Vaginal foam</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073802</code></td>
+      <td>Ear spray, solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073803</code></td>
+      <td>Ear spray, emulsion</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073804</code></td>
+      <td>Ear wash, emulsion</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073805</code></td>
+      <td>Ear stick</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073806</code></td>
+      <td>Nasal ointment</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073807</code></td>
+      <td>Nasal drops, suspension</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073808</code></td>
+      <td>Nasal powder</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073809</code></td>
+      <td>Nasal spray, suspension</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073810</code></td>
+      <td>Nasal wash</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073811</code></td>
+      <td>Vaginal cream</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073812</code></td>
+      <td>Vaginal ointment</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073813</code></td>
+      <td>Vaginal solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073814</code></td>
+      <td>Vaginal emulsion</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073815</code></td>
+      <td>Pessary</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073816</code></td>
+      <td>Vaginal capsule, soft</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073817</code></td>
+      <td>Effervescent vaginal tablet</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073818</code></td>
+      <td>Vaginal delivery system</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073819</code></td>
+      <td>Rectal cream</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073820</code></td>
+      <td>Rectal foam</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073821</code></td>
+      <td>Vaginal suspension</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073822</code></td>
+      <td>Tablet for vaginal solution</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073823</code></td>
+      <td>Vaginal capsule, hard</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073824</code></td>
+      <td>Vaginal tablet</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073825</code></td>
+      <td>Medicated vaginal tampon</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073826</code></td>
+      <td>Vaginal sponge</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073827</code></td>
+      <td>Rectal gel</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/manufactured-dose-form</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000073863</code></td>
+      <td>Solution for injection</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="lookup-vs-R5-location-status-for-R4.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="lookup-vs-R5-map-group-type-mode-for-R4.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-21 13:39:00 -0600">
+    2026-02-21
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir/uv/xver/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

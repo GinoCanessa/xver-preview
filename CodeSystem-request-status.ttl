@@ -72,25 +72,25 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "fhir"
+       fhir:v "pc"
      ]
   ] ) ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/request-status"^^xsd:anyURI ;
      fhir:l <http://hl7.org/fhir/request-status>
   ] ; # 
-  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:version [ fhir:v "5.0.0"] ; # 
   fhir:name [ fhir:v "RequestStatus"] ; # 
   fhir:title [ fhir:v "RequestStatus"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v true] ; # 
   fhir:date [ fhir:v "2023-03-25T23:21:02-05:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:publisher [ fhir:v "Patient Care"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:name [ fhir:v "Patient Care" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/patientcare" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Codes identifying the lifecycle stage of a request."] ; # 
@@ -106,8 +106,8 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://hl7.org/fhir/ValueSet/request-status"^^xsd:anyURI ;
-     fhir:l <http://hl7.org/fhir/ValueSet/request-status>
+     fhir:v "http://hl7.org/fhir/ValueSet/request-status|4.0.1"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/request-status?version=4.0.1>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

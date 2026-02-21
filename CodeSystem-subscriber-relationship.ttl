@@ -63,25 +63,29 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "fhir"
+       fhir:v "fm"
      ]
   ] ) ; # 
   fhir:url [
      fhir:v "http://terminology.hl7.org/CodeSystem/subscriber-relationship"^^xsd:anyURI ;
      fhir:l <http://terminology.hl7.org/CodeSystem/subscriber-relationship>
   ] ; # 
-  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "SubscriberRelationshipCodes"] ; # 
   fhir:title [ fhir:v "SubscriberPolicyholder Relationship Codes"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2023-02-25T12:07:30-06:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:publisher [ fhir:v "Financial Management"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+       fhir:value [ fhir:v "http://hl7.org/fhir" ]
+     ] )
+  ] [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7.org/fhir" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "This value set includes codes for the relationship between the Subscriber and the Beneficiary (insured/covered party/patient)."] ; # 
@@ -98,8 +102,8 @@
   fhir:copyright [ fhir:v "This is an extensible set."] ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://terminology.hl7.org/ValueSet/subscriber-relationship"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/ValueSet/subscriber-relationship>
+     fhir:v "http://terminology.hl7.org/ValueSet/subscriber-relationship|1.0.1"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/subscriber-relationship?version=1.0.1>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

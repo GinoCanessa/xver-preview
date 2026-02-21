@@ -1,0 +1,575 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-genomicstudy-dataformat-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-genomicstudy-dataformat-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-genomicstudy-dataformat-for-R4</b></p><a name=\"R5-genomicstudy-dataformat-for-R4\"> </a><a name=\"hcR5-genomicstudy-dataformat-for-R4\"> </a><p>This value set expansion contains 40 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-bam\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-bam\">bam</a></td><td>BAM</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-bed\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-bed\">bed</a></td><td>BED</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-bedgraph\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-bedgraph\">bedgraph</a></td><td>BedGraph</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-bedpe\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-bedpe\">bedpe</a></td><td>BEDPE</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-bigWig\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-bigWig\">bigWig</a></td><td>bigWig</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-bigbed\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-bigbed\">bigbed</a></td><td>bigBed</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-birdsuite-files\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-birdsuite-files\">birdsuite-files</a></td><td>Birdsuite-Files</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-broadpeak\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-broadpeak\">broadpeak</a></td><td>broadPeak</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-cbs\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-cbs\">cbs</a></td><td>CBS</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-chemical-reactivity-probing-profiles\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-chemical-reactivity-probing-profiles\">chemical-reactivity-probing-profiles</a></td><td>Chemical-Reactivity-Probing-Profiles</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-chrom-sizes\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-chrom-sizes\">chrom-sizes</a></td><td>chrom-sizes</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-cn\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-cn\">cn</a></td><td>CN</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-cram\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-cram\">cram</a></td><td>CRAM</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-custom-file-formats\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-custom-file-formats\">custom-file-formats</a></td><td>Custom-File-Formats</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-cytoband\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-cytoband\">cytoband</a></td><td>Cytoband</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-fasta\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-fasta\">fasta</a></td><td>FASTA</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-gct\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-gct\">gct</a></td><td>GCT</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-genepred\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-genepred\">genepred</a></td><td>genePred</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-gff-gtf\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-gff-gtf\">gff-gtf</a></td><td>GFF/GTF</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-gistic\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-gistic\">gistic</a></td><td>GISTIC</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-goby\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-goby\">goby</a></td><td>Goby</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-gwas\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-gwas\">gwas</a></td><td>GWAS</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-igv\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-igv\">igv</a></td><td>IGV</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-loh\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-loh\">loh</a></td><td>LOH</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-maf-multiple-alignment-format\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-maf-multiple-alignment-format\">maf-multiple-alignment-format</a></td><td>MAF-Multiple Alignment Format</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-maf-mutation-annotation-format\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-maf-mutation-annotation-format\">maf-mutation-annotation-format</a></td><td>MAF-Mutation-Annotation-Format</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-merged-bam-file\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-merged-bam-file\">merged-bam-file</a></td><td>Merged BAM File</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-mut\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-mut\">mut</a></td><td>MUT</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-narrowpeak\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-narrowpeak\">narrowpeak</a></td><td>narrowPeak</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-psl\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-psl\">psl</a></td><td>PSL</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-res\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-res\">res</a></td><td>RES</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-rna-secondary-structure-formats\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-rna-secondary-structure-formats\">rna-secondary-structure-formats</a></td><td>RNA-Secondary-Structure-Formats</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-sam\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-sam\">sam</a></td><td>SAM</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-sample-info-attributes-file\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-sample-info-attributes-file\">sample-info-attributes-file</a></td><td>Sample-Info-Attributes-file</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-seg\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-seg\">seg</a></td><td>SEG</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-tdf\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-tdf\">tdf</a></td><td>TDF</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-track-line\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-track-line\">track-line</a></td><td>Track Line</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-type-line\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-type-line\">type-line</a></td><td>Type Line</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-vcf\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-vcf\">vcf</a></td><td>VCF</td></tr><tr><td><a name=\"R5-genomicstudy-dataformat-for-R4-http://hl7.org/fhir/genomicstudy-dataformat-wig\"> </a><code>http://hl7.org/fhir/genomicstudy-dataformat</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-dataformat.html#genomicstudy-dataformat-wig\">wig</a></td><td>WIG</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "cg"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-genomicstudy-dataformat-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-genomicstudy-dataformat-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5GenomicstudyDataformatForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.GenomicStudyDataFormat for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Clinical Genomics"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Clinical Genomics" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/clingenomics" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/genomicstudy-dataformat|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/genomicstudy-dataformat|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `GenomicStudy.analysis.input.type`\n* `GenomicStudy.analysis.output.type`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://hl7.org/fhir/ValueSet/genomicstudy-dataformat|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "bam" ] ;
+         fhir:display [ fhir:v "BAM" ]
+       ] [
+         fhir:code [ fhir:v "bed" ] ;
+         fhir:display [ fhir:v "BED" ]
+       ] [
+         fhir:code [ fhir:v "bedgraph" ] ;
+         fhir:display [ fhir:v "BedGraph" ]
+       ] [
+         fhir:code [ fhir:v "bedpe" ] ;
+         fhir:display [ fhir:v "BEDPE" ]
+       ] [
+         fhir:code [ fhir:v "bigWig" ] ;
+         fhir:display [ fhir:v "bigWig" ]
+       ] [
+         fhir:code [ fhir:v "bigbed" ] ;
+         fhir:display [ fhir:v "bigBed" ]
+       ] [
+         fhir:code [ fhir:v "birdsuite-files" ] ;
+         fhir:display [ fhir:v "Birdsuite-Files" ]
+       ] [
+         fhir:code [ fhir:v "broadpeak" ] ;
+         fhir:display [ fhir:v "broadPeak" ]
+       ] [
+         fhir:code [ fhir:v "cbs" ] ;
+         fhir:display [ fhir:v "CBS" ]
+       ] [
+         fhir:code [ fhir:v "chemical-reactivity-probing-profiles" ] ;
+         fhir:display [ fhir:v "Chemical-Reactivity-Probing-Profiles" ]
+       ] [
+         fhir:code [ fhir:v "chrom-sizes" ] ;
+         fhir:display [ fhir:v "chrom-sizes" ]
+       ] [
+         fhir:code [ fhir:v "cn" ] ;
+         fhir:display [ fhir:v "CN" ]
+       ] [
+         fhir:code [ fhir:v "cram" ] ;
+         fhir:display [ fhir:v "CRAM" ]
+       ] [
+         fhir:code [ fhir:v "custom-file-formats" ] ;
+         fhir:display [ fhir:v "Custom-File-Formats" ]
+       ] [
+         fhir:code [ fhir:v "cytoband" ] ;
+         fhir:display [ fhir:v "Cytoband" ]
+       ] [
+         fhir:code [ fhir:v "fasta" ] ;
+         fhir:display [ fhir:v "FASTA" ]
+       ] [
+         fhir:code [ fhir:v "gct" ] ;
+         fhir:display [ fhir:v "GCT" ]
+       ] [
+         fhir:code [ fhir:v "genepred" ] ;
+         fhir:display [ fhir:v "genePred" ]
+       ] [
+         fhir:code [ fhir:v "gff-gtf" ] ;
+         fhir:display [ fhir:v "GFF/GTF" ]
+       ] [
+         fhir:code [ fhir:v "gistic" ] ;
+         fhir:display [ fhir:v "GISTIC" ]
+       ] [
+         fhir:code [ fhir:v "goby" ] ;
+         fhir:display [ fhir:v "Goby" ]
+       ] [
+         fhir:code [ fhir:v "gwas" ] ;
+         fhir:display [ fhir:v "GWAS" ]
+       ] [
+         fhir:code [ fhir:v "igv" ] ;
+         fhir:display [ fhir:v "IGV" ]
+       ] [
+         fhir:code [ fhir:v "loh" ] ;
+         fhir:display [ fhir:v "LOH" ]
+       ] [
+         fhir:code [ fhir:v "maf-multiple-alignment-format" ] ;
+         fhir:display [ fhir:v "MAF-Multiple Alignment Format" ]
+       ] [
+         fhir:code [ fhir:v "maf-mutation-annotation-format" ] ;
+         fhir:display [ fhir:v "MAF-Mutation-Annotation-Format" ]
+       ] [
+         fhir:code [ fhir:v "merged-bam-file" ] ;
+         fhir:display [ fhir:v "Merged BAM File" ]
+       ] [
+         fhir:code [ fhir:v "mut" ] ;
+         fhir:display [ fhir:v "MUT" ]
+       ] [
+         fhir:code [ fhir:v "narrowpeak" ] ;
+         fhir:display [ fhir:v "narrowPeak" ]
+       ] [
+         fhir:code [ fhir:v "psl" ] ;
+         fhir:display [ fhir:v "PSL" ]
+       ] [
+         fhir:code [ fhir:v "res" ] ;
+         fhir:display [ fhir:v "RES" ]
+       ] [
+         fhir:code [ fhir:v "rna-secondary-structure-formats" ] ;
+         fhir:display [ fhir:v "RNA-Secondary-Structure-Formats" ]
+       ] [
+         fhir:code [ fhir:v "sam" ] ;
+         fhir:display [ fhir:v "SAM" ]
+       ] [
+         fhir:code [ fhir:v "sample-info-attributes-file" ] ;
+         fhir:display [ fhir:v "Sample-Info-Attributes-file" ]
+       ] [
+         fhir:code [ fhir:v "seg" ] ;
+         fhir:display [ fhir:v "SEG" ]
+       ] [
+         fhir:code [ fhir:v "tdf" ] ;
+         fhir:display [ fhir:v "TDF" ]
+       ] [
+         fhir:code [ fhir:v "track-line" ] ;
+         fhir:display [ fhir:v "Track Line" ]
+       ] [
+         fhir:code [ fhir:v "type-line" ] ;
+         fhir:display [ fhir:v "Type Line" ]
+       ] [
+         fhir:code [ fhir:v "vcf" ] ;
+         fhir:display [ fhir:v "VCF" ]
+       ] [
+         fhir:code [ fhir:v "wig" ] ;
+         fhir:display [ fhir:v "WIG" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "bam" ] ;
+       fhir:display [ fhir:v "BAM" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "bed" ] ;
+       fhir:display [ fhir:v "BED" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "bedgraph" ] ;
+       fhir:display [ fhir:v "BedGraph" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "bedpe" ] ;
+       fhir:display [ fhir:v "BEDPE" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "bigWig" ] ;
+       fhir:display [ fhir:v "bigWig" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "bigbed" ] ;
+       fhir:display [ fhir:v "bigBed" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "birdsuite-files" ] ;
+       fhir:display [ fhir:v "Birdsuite-Files" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "broadpeak" ] ;
+       fhir:display [ fhir:v "broadPeak" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "cbs" ] ;
+       fhir:display [ fhir:v "CBS" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "chemical-reactivity-probing-profiles" ] ;
+       fhir:display [ fhir:v "Chemical-Reactivity-Probing-Profiles" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "chrom-sizes" ] ;
+       fhir:display [ fhir:v "chrom-sizes" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "cn" ] ;
+       fhir:display [ fhir:v "CN" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "cram" ] ;
+       fhir:display [ fhir:v "CRAM" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "custom-file-formats" ] ;
+       fhir:display [ fhir:v "Custom-File-Formats" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "cytoband" ] ;
+       fhir:display [ fhir:v "Cytoband" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "fasta" ] ;
+       fhir:display [ fhir:v "FASTA" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "gct" ] ;
+       fhir:display [ fhir:v "GCT" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "genepred" ] ;
+       fhir:display [ fhir:v "genePred" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "gff-gtf" ] ;
+       fhir:display [ fhir:v "GFF/GTF" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "gistic" ] ;
+       fhir:display [ fhir:v "GISTIC" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "goby" ] ;
+       fhir:display [ fhir:v "Goby" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "gwas" ] ;
+       fhir:display [ fhir:v "GWAS" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "igv" ] ;
+       fhir:display [ fhir:v "IGV" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "loh" ] ;
+       fhir:display [ fhir:v "LOH" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "maf-multiple-alignment-format" ] ;
+       fhir:display [ fhir:v "MAF-Multiple Alignment Format" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "maf-mutation-annotation-format" ] ;
+       fhir:display [ fhir:v "MAF-Mutation-Annotation-Format" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "merged-bam-file" ] ;
+       fhir:display [ fhir:v "Merged BAM File" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "mut" ] ;
+       fhir:display [ fhir:v "MUT" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "narrowpeak" ] ;
+       fhir:display [ fhir:v "narrowPeak" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "psl" ] ;
+       fhir:display [ fhir:v "PSL" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "res" ] ;
+       fhir:display [ fhir:v "RES" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "rna-secondary-structure-formats" ] ;
+       fhir:display [ fhir:v "RNA-Secondary-Structure-Formats" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "sam" ] ;
+       fhir:display [ fhir:v "SAM" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "sample-info-attributes-file" ] ;
+       fhir:display [ fhir:v "Sample-Info-Attributes-file" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "seg" ] ;
+       fhir:display [ fhir:v "SEG" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "tdf" ] ;
+       fhir:display [ fhir:v "TDF" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "track-line" ] ;
+       fhir:display [ fhir:v "Track Line" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "type-line" ] ;
+       fhir:display [ fhir:v "Type Line" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "vcf" ] ;
+       fhir:display [ fhir:v "VCF" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-dataformat"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-dataformat>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "wig" ] ;
+       fhir:display [ fhir:v "WIG" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

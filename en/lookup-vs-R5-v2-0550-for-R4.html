@@ -1,0 +1,4320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Lookup for R5V20550ForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"4.1031"}
+    h3,h4,h5,h6{--heading-prefix:"4.1031"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" data-no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img alt="International flag" src="../assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='lookup-vs.html'><b>ValueSet Lookup</b></a></li><li><b>Lookup for R5V20550ForR4</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="lookup-vs-R5-v2-0548-for-R4.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="lookup-vs-R5-v2-0553-for-R4.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Lookup for R5V20550ForR4</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+</div>
+<h3 id="lookup-for-fhir-r5-valueset-hl7vsbodypartshttpterminologyhl7orgvaluesetv2-0550-for-use-in-fhir-r4">Lookup for <a href="https://hl7.org/fhir/R5/">FHIR R5</a> ValueSet Hl7VSBodyParts:<a href="https://hl7.org/fhir/R5/valueset-v2-0550.html"><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/ValueSet/v2-0550</code></a> for use in <a href="https://hl7.org/fhir/R4/">FHIR R4</a></h3>
+
+<p>The FHIR R5 ValueSet Hl7VSBodyParts has no mapping  to FHIR R4.</p>
+
+<table class="grid">
+  <thead>
+    <tr>
+      <th>Source System</th>
+      <th>Code</th>
+      <th>Display</th>
+      <th>Has XVer</th>
+      <th>Target System</th>
+      <th>Code</th>
+      <th>Display</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ACET</code></td>
+      <td>Acetabulum</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ACHIL</code></td>
+      <td>Achilles</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ADB</code></td>
+      <td>Abdomen</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ADE</code></td>
+      <td>Adenoids</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ADR</code></td>
+      <td>Adrenal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">AMN</code></td>
+      <td>Amniotic fluid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">AMS</code></td>
+      <td>Amniotic Sac</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ANAL</code></td>
+      <td>Anal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ANKL</code></td>
+      <td>Ankle</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ANTEC</code></td>
+      <td>Antecubital</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ANTECF</code></td>
+      <td>Antecubital Fossa</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ANTR</code></td>
+      <td>Antrum</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ANUS</code></td>
+      <td>Anus</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">AORTA</code></td>
+      <td>Aorta</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">APDX</code></td>
+      <td>Appendix</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">AR</code></td>
+      <td>Aortic Rim</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">AREO</code></td>
+      <td>Areola</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ARM</code></td>
+      <td>Arm</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ARTE</code></td>
+      <td>Artery</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ASCIT</code></td>
+      <td>Ascites</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ASCT</code></td>
+      <td>Ascitic Fluid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ATR</code></td>
+      <td>Atrium</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">AURI</code></td>
+      <td>Auricular</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">AV</code></td>
+      <td>Aortic Valve</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">AXI</code></td>
+      <td>Axilla</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BACK</code></td>
+      <td>Back</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BARTD</code></td>
+      <td>Bartholin Duct</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BARTG</code></td>
+      <td>Bartholin Gland</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BCYS</code></td>
+      <td>Brain Cyst Fluid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BDY</code></td>
+      <td>Body, Whole</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BID</code></td>
+      <td>Bile Duct</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BIFL</code></td>
+      <td>Bile fluid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BLAD</code></td>
+      <td>Bladder</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BLD</code></td>
+      <td>Blood, Whole</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BLDA</code></td>
+      <td>Blood,  Arterial</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BLDC</code></td>
+      <td>Blood,  Capillary</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BLDV</code></td>
+      <td>Blood,  Venous</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BLOOD</code></td>
+      <td>Blood</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BMAR</code></td>
+      <td>Bone marrow</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BON</code></td>
+      <td>Bone</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BOWEL</code></td>
+      <td>Bowel</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BOWLA</code></td>
+      <td>Bowel, Large</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BOWSM</code></td>
+      <td>Bowel, Small</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BPH</code></td>
+      <td>Basophils</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BRA</code></td>
+      <td>Brachial</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BRAIN</code></td>
+      <td>Brain</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BRO</code></td>
+      <td>Bronchial</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BROCH</code></td>
+      <td>Bronchiole/Bronchiolar</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BRONC</code></td>
+      <td>Bronchus/Bronchial</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BROW</code></td>
+      <td>Eyebrow</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BRST</code></td>
+      <td>Breast</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BRSTFL</code></td>
+      <td>Breast fluid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BRTGF</code></td>
+      <td>Bartholin Gland Fluid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BRV</code></td>
+      <td>Broviac</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BUCCA</code></td>
+      <td>Buccal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BURSA</code></td>
+      <td>Bursa</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BURSF</code></td>
+      <td>Bursa Fluid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">BUTT</code></td>
+      <td>Buttocks</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CALF</code></td>
+      <td>Calf</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CANAL</code></td>
+      <td>Canal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CANLI</code></td>
+      <td>Canaliculis</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CANTH</code></td>
+      <td>Canthus</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CARO</code></td>
+      <td>Carotid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CARP</code></td>
+      <td>Carpal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CAVIT</code></td>
+      <td>Cavity</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CBLD</code></td>
+      <td>Blood, Cord</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CDM</code></td>
+      <td>Cardiac Muscle</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CDUCT</code></td>
+      <td>Common Duct</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CECUM</code></td>
+      <td>Cecum/Cecal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CERVUT</code></td>
+      <td>Cervix/Uterus</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CHE</code></td>
+      <td>Cavity, Chest</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CHEEK</code></td>
+      <td>Cheek</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CHES</code></td>
+      <td>Chest</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CHEST</code></td>
+      <td>Chest Tube</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CHESTÂ </code></td>
+      <td>Chest Tube</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CHIN</code></td>
+      <td>Chin</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CIRCU</code></td>
+      <td>Circumcision Site</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CLAVI</code></td>
+      <td>Clavicle/Clavicular</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CLIT</code></td>
+      <td>Clitoris</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CLITO</code></td>
+      <td>Clitoral</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CNL</code></td>
+      <td>Cannula</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">COCCG</code></td>
+      <td>Coccygeal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">COCCY</code></td>
+      <td>Coccyx</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">COLON</code></td>
+      <td>Colon</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">COLOS</code></td>
+      <td>Colostomy</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CONJ</code></td>
+      <td>Conjunctiva</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">COR</code></td>
+      <td>Cord</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CORAL</code></td>
+      <td>Coral</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CORD</code></td>
+      <td>Cord Blood</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CORN</code></td>
+      <td>Cornea</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">COS</code></td>
+      <td>Colostomy Stoma</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CRANE</code></td>
+      <td>Cranium, ethmoid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CRANF</code></td>
+      <td>Cranium, frontal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CRANO</code></td>
+      <td>Cranium, occipital</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CRANP</code></td>
+      <td>Cranium, parietal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CRANS</code></td>
+      <td>Cranium, sphenoid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CRANT</code></td>
+      <td>Cranium, temporal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CSF</code></td>
+      <td>Cerebral Spinal Fluid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CUBIT</code></td>
+      <td>Cubitus</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CUFF</code></td>
+      <td>Cuff</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CULD</code></td>
+      <td>Cul De Sac</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CULDO</code></td>
+      <td>Culdocentesis</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">CVX</code></td>
+      <td>Cervix</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DELT</code></td>
+      <td>Deltoid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DEN</code></td>
+      <td>Dental Gingiva</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DENTA</code></td>
+      <td>Dental</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DIAF</code></td>
+      <td>Dialysis Fluid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DIGIT</code></td>
+      <td>Digit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DISC</code></td>
+      <td>Disc</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DORS</code></td>
+      <td>Dorsum/Dorsal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DPH</code></td>
+      <td>Diaphragm</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DUFL</code></td>
+      <td>Duodenal Fluid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DUODE</code></td>
+      <td>Duodenum/Duodenal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">DUR</code></td>
+      <td>Dura</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">EAR</code></td>
+      <td>Ear</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">EARBI</code></td>
+      <td>Ear bone, incus</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">EARBM</code></td>
+      <td>Ear bone, malleus</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">EARBS</code></td>
+      <td>Ear bone,stapes</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">EARLO</code></td>
+      <td>Ear Lobe</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">EC</code></td>
+      <td>Endocervical</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ELBOW</code></td>
+      <td>Elbow</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ELBOWJ</code></td>
+      <td>Elbow Joint</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ENDC</code></td>
+      <td>Endocardium</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ENDM</code></td>
+      <td>Endometrium</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">EOLPH</code></td>
+      <td>endolpthamitis</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">EOS</code></td>
+      <td>Eosinophils</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">EPD</code></td>
+      <td>Epididymis</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">EPICA</code></td>
+      <td>Epicardial</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">EPICM</code></td>
+      <td>Epicardium</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">EPIDU</code></td>
+      <td>Epidural</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">EPIGL</code></td>
+      <td>Epiglottis</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ESO</code></td>
+      <td>Esophagus</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ESOPG</code></td>
+      <td>Esophageal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ET</code></td>
+      <td>Endotracheal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ETHMO</code></td>
+      <td>Ethmoid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">EUR</code></td>
+      <td>Endourethral</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">EYE</code></td>
+      <td>Eye</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">EYELI</code></td>
+      <td>Eyelid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FACE</code></td>
+      <td>Face</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FALLT</code></td>
+      <td>Fallopian Tube</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FBINC</code></td>
+      <td>Facial bone, inferior nasal concha</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FBLAC</code></td>
+      <td>Facial bone, lacrimal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FBMAX</code></td>
+      <td>Facial bone, maxilla</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FBNAS</code></td>
+      <td>Facial bone, nasal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FBPAL</code></td>
+      <td>Facial bone, palatine</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FBVOM</code></td>
+      <td>Facial bone, vomer</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FBZYG</code></td>
+      <td>Facial bone, zygomatic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FEMOR</code></td>
+      <td>Femoral</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FEMUR</code></td>
+      <td>Femur</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FET</code></td>
+      <td>Fetus</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FIBU</code></td>
+      <td>Fibula</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FING</code></td>
+      <td>Finger</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FINGN</code></td>
+      <td>Finger Nail</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FMH</code></td>
+      <td>Femoral Head</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FOL</code></td>
+      <td>Follicle</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FOOT</code></td>
+      <td>Foot</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FOREA</code></td>
+      <td>Forearm</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FOREH</code></td>
+      <td>Forehead</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FORES</code></td>
+      <td>Foreskin</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">FOURC</code></td>
+      <td>Fourchette</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GB</code></td>
+      <td>Gall Bladder</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GEN</code></td>
+      <td>Genital</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GENC</code></td>
+      <td>Genital Cervix</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GENL</code></td>
+      <td>Genital Lochia</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GL</code></td>
+      <td>Genital Lesion</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GLAND</code></td>
+      <td>Gland</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GLANS</code></td>
+      <td>Glans</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GLUT</code></td>
+      <td>Gluteus</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GLUTE</code></td>
+      <td>Gluteal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GLUTM</code></td>
+      <td>Gluteus Medius</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GROIN</code></td>
+      <td>Groin</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GUM</code></td>
+      <td>Gum</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">GVU</code></td>
+      <td>Genital - Vulva</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HAL</code></td>
+      <td>Hallux</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HAND</code></td>
+      <td>Hand</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HAR</code></td>
+      <td>Hair</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HART</code></td>
+      <td>Heart</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HEAD</code></td>
+      <td>Head</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HEEL</code></td>
+      <td>Heel</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HEM</code></td>
+      <td>Hemorrhoid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HIP</code></td>
+      <td>Hip</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HIPJ</code></td>
+      <td>Hip Joint</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HUMER</code></td>
+      <td>Humerus</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HV</code></td>
+      <td>Heart Valve</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HVB</code></td>
+      <td>Heart Valve, Bicuspid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HVT</code></td>
+      <td>Heart Valve, Tricuspid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">HYMEN</code></td>
+      <td>Hymen</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ICX</code></td>
+      <td>Intracervical</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ILC</code></td>
+      <td>Ileal Conduit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ILCON</code></td>
+      <td>Ilical Conduit</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ILCR</code></td>
+      <td>Iliac Crest</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ILE</code></td>
+      <td>Ileal Loop</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ILEOS</code></td>
+      <td>Ileostomy</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ILEUM</code></td>
+      <td>Ileum</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ILIAC</code></td>
+      <td>Iliac</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">INASA</code></td>
+      <td>Intranasal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">INGUI</code></td>
+      <td>Inguinal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">INSTL</code></td>
+      <td>Intestine, Large</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">INSTS</code></td>
+      <td>Intestine, Small</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">INT</code></td>
+      <td>Intestine</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">INTRO</code></td>
+      <td>Introitus</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">INTRU</code></td>
+      <td>Intrauterine</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ISCHI</code></td>
+      <td>Ischium</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ISH</code></td>
+      <td>Loop, Ishial</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">JAW</code></td>
+      <td>Jaw</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">JUGE</code></td>
+      <td>Jugular, External</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">JUGI</code></td>
+      <td>Jugular, Internal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">KIDN</code></td>
+      <td>Kidney</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">KIDNÂ </code></td>
+      <td>Kidney</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">KNEE</code></td>
+      <td>Knee</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">KNEEF</code></td>
+      <td>Knee Fluid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">KNEEJ</code></td>
+      <td>Knee Joint</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">LABIA</code></td>
+      <td>Labia</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">LABMA</code></td>
+      <td>Labia Majora</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">LABMI</code></td>
+      <td>Labia Minora</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">LACRI</code></td>
+      <td>Lacrimal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">LAM</code></td>
+      <td>Lamella</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">LARYN</code></td>
+      <td>Larynx</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">LEG</code></td>
+      <td>Leg</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">LENS</code></td>
+      <td>Lens</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">LING</code></td>
+      <td>Lingual</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">LINGU</code></td>
+      <td>Lingula</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">LIP</code></td>
+      <td>Lip</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">LIVER</code></td>
+      <td>Liver</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">LMN</code></td>
+      <td>Lumen</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">LN</code></td>
+      <td>Lymph Node</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">LNG</code></td>
+      <td>Lymph Node, Groin</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">LOBE</code></td>
+      <td>Lobe</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">LOCH</code></td>
+      <td>Lochia</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">LUMBA</code></td>
+      <td>Lumbar</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">LUNG</code></td>
+      <td>Lung</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">LYM</code></td>
+      <td>Lymphocytes</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MAC</code></td>
+      <td>Macrophages</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MALLE</code></td>
+      <td>Malleolus</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MANDI</code></td>
+      <td>Mandible/Mandibular</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MAR</code></td>
+      <td>Marrow</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MAST</code></td>
+      <td>Mastoid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MAXIL</code></td>
+      <td>Maxilla/Maxillary</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MAXS</code></td>
+      <td>Maxillary Sinus</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MEATU</code></td>
+      <td>Meatus</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MEC</code></td>
+      <td>Meconium</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MEDST</code></td>
+      <td>Mediastinum</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MEDU</code></td>
+      <td>Medullary</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">METAC</code></td>
+      <td>Metacarpal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">METAT</code></td>
+      <td>Metatarsal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MILK</code></td>
+      <td>Milk, Breast</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MITRL</code></td>
+      <td>Mitral Valve</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MOLAR</code></td>
+      <td>Molar</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MONSU</code></td>
+      <td>Mons Ureteris</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MONSV</code></td>
+      <td>Mons Veneris(Mons Pubis)</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MOU</code></td>
+      <td>Membrane</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MOUTH</code></td>
+      <td>Mouth</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MP</code></td>
+      <td>Mons Pubis</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MPB</code></td>
+      <td>Meninges</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MRSA2</code></td>
+      <td>Mrsa:</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">MYO</code></td>
+      <td>Myocardium</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NAIL</code></td>
+      <td>Nail</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NAILB</code></td>
+      <td>Nail Bed</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NAILF</code></td>
+      <td>Nail, Finger</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NAILT</code></td>
+      <td>Nail, Toe</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NARES</code></td>
+      <td>Nares</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NASL</code></td>
+      <td>Nasal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NAVEL</code></td>
+      <td>Navel</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NECK</code></td>
+      <td>Neck</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NERVE</code></td>
+      <td>Nerve</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NIPPL</code></td>
+      <td>Nipple</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NLACR</code></td>
+      <td>Nasolacrimal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NOS</code></td>
+      <td>Nose (Nasal Passage)</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NOSE</code></td>
+      <td>Nose/Nose(outside)</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NOSTR</code></td>
+      <td>Nostril</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NP</code></td>
+      <td>Nasopharyngeal/Nasopharynx</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NSS</code></td>
+      <td>Nasal Septum</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">NTRAC</code></td>
+      <td>Nasotracheal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">OCCIP</code></td>
+      <td>Occipital</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">OLECR</code></td>
+      <td>Olecranon</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">OMEN</code></td>
+      <td>Omentum</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ORBIT</code></td>
+      <td>Orbit/Orbital</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ORO</code></td>
+      <td>Oropharynx</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">OSCOX</code></td>
+      <td>Os coxa (pelvic girdle)</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">OVARY</code></td>
+      <td>Ovary</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PAFL</code></td>
+      <td>Pancreatic Fluid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PALAT</code></td>
+      <td>Palate</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PALM</code></td>
+      <td>Palm</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PANAL</code></td>
+      <td>Perianal/Perirectal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PANCR</code></td>
+      <td>Pancreas</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PARAT</code></td>
+      <td>Paratracheal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PARIE</code></td>
+      <td>Parietal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PARON</code></td>
+      <td>Paronychia</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PAROT</code></td>
+      <td>Parotid/Parotid Gland</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PAS</code></td>
+      <td>Parasternal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PATEL</code></td>
+      <td>Patella</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PCARD</code></td>
+      <td>Pericardium</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PCLIT</code></td>
+      <td>Periclitoral</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PELV</code></td>
+      <td>Pelvis</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PENIS</code></td>
+      <td>Penis</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PENSH</code></td>
+      <td>Penile Shaft</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PER</code></td>
+      <td>Peritoneal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PERI</code></td>
+      <td>Pericardial Fluid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PERIH</code></td>
+      <td>Perihepatic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PERIN</code></td>
+      <td>Perineal Abscess</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PERIS</code></td>
+      <td>Perisplenic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PERIT</code></td>
+      <td>Peritoneum</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PERIU</code></td>
+      <td>Periurethal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PERIV</code></td>
+      <td>Perivesicular</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PERRA</code></td>
+      <td>Perirectal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PERT</code></td>
+      <td>Peritoneal Fluid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PHALA</code></td>
+      <td>Phalanyx</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PILO</code></td>
+      <td>Pilonidal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PINNA</code></td>
+      <td>Pinna</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PLACF</code></td>
+      <td>Placenta (Fetal Side)</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PLACM</code></td>
+      <td>Placenta (Maternal Side)</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PLANT</code></td>
+      <td>Plantar</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PLATH</code></td>
+      <td>Palate, Hard</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PLATS</code></td>
+      <td>Palate, Soft</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PLC</code></td>
+      <td>Placenta</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PLEU</code></td>
+      <td>Pleural Fluid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PLEUR</code></td>
+      <td>Pleura</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PLR</code></td>
+      <td>Pleural Fluid (Thoracentesis Fld)</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PNEAL</code></td>
+      <td>Perineal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PNEPH</code></td>
+      <td>Perinephric</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PNM</code></td>
+      <td>Perineum</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">POPLI</code></td>
+      <td>Popliteal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PORBI</code></td>
+      <td>Periorbital</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PREAU</code></td>
+      <td>Preauricular</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PRERE</code></td>
+      <td>Prerenal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PROS</code></td>
+      <td>Prostatic Fluid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PRST</code></td>
+      <td>Prostate Gland</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PTONS</code></td>
+      <td>Peritonsillar</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PUBIC</code></td>
+      <td>Pubic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">PUL</code></td>
+      <td>Pulmonary Artery</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RADI</code></td>
+      <td>Radial</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RADIUS</code></td>
+      <td>Radius</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RBC</code></td>
+      <td>Red Blood Cells</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RECTL</code></td>
+      <td>Rectal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RECTU</code></td>
+      <td>Rectum</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RENL</code></td>
+      <td>Renal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RIB</code></td>
+      <td>Rib</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RNP</code></td>
+      <td>Renal Pelvis</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">RPERI</code></td>
+      <td>Retroperitoneal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SAC</code></td>
+      <td>Uterine Cul/De/Sac</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SACIL</code></td>
+      <td>Sacroiliac</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SACRA</code></td>
+      <td>Sacral</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SACRO</code></td>
+      <td>Sacrococcygeal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SACRU</code></td>
+      <td>Sacrum</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SALGL</code></td>
+      <td>Salivary Gland</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SCALP</code></td>
+      <td>Scalp</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SCAPU</code></td>
+      <td>Scapula/Scapular</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SCLAV</code></td>
+      <td>Supraclavicle/Supraclavicular</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SCLER</code></td>
+      <td>Sclera</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SCLV</code></td>
+      <td>Sub Clavian</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SCROT</code></td>
+      <td>Scrotum/Scrotal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SDP</code></td>
+      <td>Subdiaphramatic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SEM</code></td>
+      <td>Seminal Fluid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SEMN</code></td>
+      <td>Semen</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SEPTU</code></td>
+      <td>Septum/Septal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SEROM</code></td>
+      <td>Seroma</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SGF</code></td>
+      <td>Subgaleal Fluid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SHIN</code></td>
+      <td>Shin</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SHOL</code></td>
+      <td>Shoulder</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SHOLJ</code></td>
+      <td>Sholder Joint</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SIGMO</code></td>
+      <td>Sigmoid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SINUS</code></td>
+      <td>Sinus</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SKENE</code></td>
+      <td>Skene's Gland</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SKM</code></td>
+      <td>Skeletal Muscle</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SKULL</code></td>
+      <td>Skull</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SOLE</code></td>
+      <td>Sole</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SPCOR</code></td>
+      <td>Spinal Cord</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SPHEN</code></td>
+      <td>Sphenoid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SPLN</code></td>
+      <td>Spleen</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SPRM</code></td>
+      <td>Spermatozoa</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SPX</code></td>
+      <td>Supra Cervical</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">STER</code></td>
+      <td>Sternum/Sternal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">STOM</code></td>
+      <td>Stoma</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">STOMA</code></td>
+      <td>Stomach</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">STOOLL</code></td>
+      <td>Liquid Stool</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">STUMP</code></td>
+      <td>Stump</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SUB</code></td>
+      <td>Subdural</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SUBD</code></td>
+      <td>Subdural Fluid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SUBM</code></td>
+      <td>Submandibular</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SUBME</code></td>
+      <td>Submental</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SUBPH</code></td>
+      <td>Subphrenic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SUBX</code></td>
+      <td>Submaxillary</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SUPB</code></td>
+      <td>Suprapubic Specimen</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SUPRA</code></td>
+      <td>Suprapubic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SWT</code></td>
+      <td>Sweat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SWTG</code></td>
+      <td>Sweat Gland</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SYN</code></td>
+      <td>Synovial Fluid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SYNOL</code></td>
+      <td>Synovial</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">SYNOV</code></td>
+      <td>Synovium</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">TARS</code></td>
+      <td>Tarsal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">TBRON</code></td>
+      <td>Transbronchial</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">TCN</code></td>
+      <td>Transcarina Asp</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">TDUCT</code></td>
+      <td>Tear Duct</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">TEAR</code></td>
+      <td>Tears</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">TEMPL</code></td>
+      <td>Temple</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">TEMPO</code></td>
+      <td>Temporal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">TESTI</code></td>
+      <td>Testicle(Testis)</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">THIGH</code></td>
+      <td>Thigh</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">THM</code></td>
+      <td>Thymus</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">THORA</code></td>
+      <td>Thorax/Thoracic/Thoracentesis</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">THRB</code></td>
+      <td>Throat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">THUMB</code></td>
+      <td>Thumb</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">THYRD</code></td>
+      <td>Thyroid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">TIBIA</code></td>
+      <td>Tibia</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">TML</code></td>
+      <td>Temporal Lobe</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">TNL</code></td>
+      <td>Thumbnail</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">TOE</code></td>
+      <td>Toe</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">TOEN</code></td>
+      <td>Toe Nail</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">TONG</code></td>
+      <td>Tongue</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">TONS</code></td>
+      <td>Tonsil</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">TOOTH</code></td>
+      <td>Tooth</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">TRCHE</code></td>
+      <td>Trachea/Tracheal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">TSK</code></td>
+      <td>Tooth Socket</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">ULNA</code></td>
+      <td>Ulna/Ulnar</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">UMB</code></td>
+      <td>Umbilical Blood</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">UMBL</code></td>
+      <td>Umbilicus/Umbilical</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">URET</code></td>
+      <td>Ureter</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">URTH</code></td>
+      <td>Urethra</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">USTOM</code></td>
+      <td>Stoma, Urinary</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">UTER</code></td>
+      <td>Uterus</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">UTERI</code></td>
+      <td>Uterine</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">VAGIN</code></td>
+      <td>Vagina/Vaginal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">VAL</code></td>
+      <td>Valve</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">VAS</code></td>
+      <td>Vas Deferens</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">VASTL</code></td>
+      <td>Vastus Lateralis</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">VAULT</code></td>
+      <td>Vault</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">VCSF</code></td>
+      <td>Ventricular CSF</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">VCUFF</code></td>
+      <td>Vaginal Cuff</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">VEIN</code></td>
+      <td>Vein</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">VENTG</code></td>
+      <td>Ventragluteal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">VERMI</code></td>
+      <td>Vermis Cerebelli</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">VERTC</code></td>
+      <td>Vertebra, cervical</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">VERTL</code></td>
+      <td>Vertebra, lumbar</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">VERTT</code></td>
+      <td>Vertebra, thoracic</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">VESCL</code></td>
+      <td>Vesicular</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">VESFLD</code></td>
+      <td>Vesicular Fluid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">VESI</code></td>
+      <td>Vesicle</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">VESTI</code></td>
+      <td>Vestibule(Genital)</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">VGV</code></td>
+      <td>Vaginal Vault</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">VITR</code></td>
+      <td>Vitreous Fluid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">VOC</code></td>
+      <td>Vocal Cord</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">VULVA</code></td>
+      <td>Vulva</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">WBC</code></td>
+      <td>Leukocytes</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">WRIST</code></td>
+      <td>Wrist</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge"> </code></td>
+      <td>External Jugular</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/CodeSystem/v2-0550</code></td>
+      <td><code class="language-plaintext highlighter-rouge">Â </code></td>
+      <td>External Jugular</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="lookup-vs-R5-v2-0548-for-R4.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="lookup-vs-R5-v2-0553-for-R4.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-21 13:39:00 -0600">
+    2026-02-21
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir/uv/xver/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

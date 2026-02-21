@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "R5-namingsystem-identifier-type-for-R4"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-namingsystem-identifier-type-for-R4</b></p><a name=\"R5-namingsystem-identifier-type-for-R4\"> </a><a name=\"hcR5-namingsystem-identifier-type-for-R4\"> </a><p>This value set expansion contains 3 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-namingsystem-identifier-type-for-R4-http://hl7.org/fhir/namingsystem-identifier-type-iri-stem\"> </a><code>http://hl7.org/fhir/namingsystem-identifier-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  iri-stem</td><td>IRI stem</td></tr><tr><td><a name=\"R5-namingsystem-identifier-type-for-R4-http://hl7.org/fhir/namingsystem-identifier-type-other\"> </a><code>http://hl7.org/fhir/namingsystem-identifier-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  other</td><td>Other</td></tr><tr><td><a name=\"R5-namingsystem-identifier-type-for-R4-http://hl7.org/fhir/namingsystem-identifier-type-v2csmnemonic\"> </a><code>http://hl7.org/fhir/namingsystem-identifier-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  v2csmnemonic</td><td>V2CSMNemonic</td></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-namingsystem-identifier-type-for-R4</b></p><a name=\"R5-namingsystem-identifier-type-for-R4\"> </a><a name=\"hcR5-namingsystem-identifier-type-for-R4\"> </a><p>This value set expansion contains 3 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"R5-namingsystem-identifier-type-for-R4-http://hl7.org/fhir/namingsystem-identifier-type-iri-stem\"> </a><code>http://hl7.org/fhir/namingsystem-identifier-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-namingsystem-identifier-type.html#namingsystem-identifier-type-iri-stem\">iri-stem</a></td><td>IRI stem</td><td>An IRI string that can be prepended to the code to obtain a concept IRI for RDF applications. This should be a valid, absolute IRI as defined in RFC 3987. See rdf.html#iri-stem for details on how this value may be used.</td></tr><tr><td><a name=\"R5-namingsystem-identifier-type-for-R4-http://hl7.org/fhir/namingsystem-identifier-type-other\"> </a><code>http://hl7.org/fhir/namingsystem-identifier-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-namingsystem-identifier-type.html#namingsystem-identifier-type-other\">other</a></td><td>Other</td><td>Some other type of unique identifier; e.g. HL7-assigned reserved string such as LN for LOINC.</td></tr><tr><td><a name=\"R5-namingsystem-identifier-type-for-R4-http://hl7.org/fhir/namingsystem-identifier-type-v2csmnemonic\"> </a><code>http://hl7.org/fhir/namingsystem-identifier-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-namingsystem-identifier-type.html#namingsystem-identifier-type-v2csmnemonic\">v2csmnemonic</a></td><td>V2CSMNemonic</td><td>A short string published by HL7 for use in the V2 family of standsrds to idenfify a code system in the V12 coded data types CWE, CNE, and CF. The code values are also published by HL7 at http://www.hl7.org/Special/committees/vocab/table_0396/index.cfm</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:url [
@@ -29,7 +29,7 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "fhir"
+       fhir:v "vocab"
      ]
   ] [
      fhir:extension ( [
@@ -95,13 +95,13 @@
   fhir:title [ fhir:v "Cross-version ValueSet R5.NamingSystemIdentifierType for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-20T17:59:09.1776521+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 International / Terminology Infrastructure"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:name [ fhir:v "HL7 International / Terminology Infrastructure" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/Vocab" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "This cross-version ValueSet represents content from http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0 for use in FHIR R4 that is appropriate for use but unavailable in `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.0.1`."] ; # 
@@ -136,7 +136,7 @@
      ] )
   ] ; # 
   fhir:expansion [
-     fhir:timestamp [ fhir:v "2026-02-20T17:59:09.1776521+00:00"^^xsd:dateTime ] ;
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
      fhir:contains ( [
        fhir:system [
          fhir:v "http://hl7.org/fhir/namingsystem-identifier-type"^^xsd:anyURI ;

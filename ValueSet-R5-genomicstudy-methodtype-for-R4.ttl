@@ -1,0 +1,1026 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-genomicstudy-methodtype-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-genomicstudy-methodtype-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-genomicstudy-methodtype-for-R4</b></p><a name=\"R5-genomicstudy-methodtype-for-R4\"> </a><a name=\"hcR5-genomicstudy-methodtype-for-R4\"> </a><p>This value set expansion contains 81 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-alternative-splicing-detection\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-alternative-splicing-detection\">alternative-splicing-detection</a></td><td>Alternative splicing detection</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-analyte\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-analyte\">analyte</a></td><td>Analyte</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-aspe\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-aspe\">aspe</a></td><td>Allele-specific primer extension (ASPE)</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-bi-directional-sanger-sequence-analysis\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-bi-directional-sanger-sequence-analysis\">bi-directional-sanger-sequence-analysis</a></td><td>Bi-directional Sanger Sequence Analysis</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-biochemical-genetics\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-biochemical-genetics\">biochemical-genetics</a></td><td>Biochemical Genetics</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-c-banding\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-c-banding\">c-banding</a></td><td>C-banding</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-chromatin-immunoprecipitation-on-chip\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-chromatin-immunoprecipitation-on-chip\">chromatin-immunoprecipitation-on-chip</a></td><td>Chromatin Immunoprecipitation on ChIP</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-chromosome-breakage-studies\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-chromosome-breakage-studies\">chromosome-breakage-studies</a></td><td>Chromosome breakage studies</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-cia\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-cia\">cia</a></td><td>Chemiluminescent Immunoassay (CIA)</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-comparative-genomic-hybridization\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-comparative-genomic-hybridization\">comparative-genomic-hybridization</a></td><td>Comparative Genomic Hybridization</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-cytogenetics\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-cytogenetics\">cytogenetics</a></td><td>Cytogenetics</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-damid\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-damid\">damid</a></td><td>DamID</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-deletion-duplication-analysis\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-deletion-duplication-analysis\">deletion-duplication-analysis</a></td><td>Deletion/duplication analysis</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-detection-of-homozygosity\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-detection-of-homozygosity\">detection-of-homozygosity</a></td><td>Detection of homozygosity</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-digital-microfluidic-microspheres\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-digital-microfluidic-microspheres\">digital-microfluidic-microspheres</a></td><td>Digital microfluidic microspheres</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-digital-virtual-karyotyping\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-digital-virtual-karyotyping\">digital-virtual-karyotyping</a></td><td>Digital / Virtual karyotyping</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-elisa\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-elisa\">elisa</a></td><td>Enzyme-Linked Immunosorbent Assays (ELISA)</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-enzymatic-levels\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-enzymatic-levels\">enzymatic-levels</a></td><td>Enzymatic levels</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-enzyme-activity\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-enzyme-activity\">enzyme-activity</a></td><td>Enzyme activity</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-enzyme-assay\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-enzyme-assay\">enzyme-assay</a></td><td>Enzyme assay</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-fish\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-fish\">fish</a></td><td>Fluorescence in situ hybridization (FISH)</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-fish-interphase\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-fish-interphase\">fish-interphase</a></td><td>FISH-interphase</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-fish-metaphase\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-fish-metaphase\">fish-metaphase</a></td><td>FISH-metaphase</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-flow-cytometry\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-flow-cytometry\">flow-cytometry</a></td><td>Flow cytometry</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-fluorometry\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-fluorometry\">fluorometry</a></td><td>Fluorometry</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-fusion-genes-microarrays\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-fusion-genes-microarrays\">fusion-genes-microarrays</a></td><td>Fusion genes microarrays</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-g-banding\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-g-banding\">g-banding</a></td><td>G-banding</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-gc-ms\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-gc-ms\">gc-ms</a></td><td>Gas chromatographyâ€“mass spectrometry (GC-MS)</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-gene-expression-profiling\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-gene-expression-profiling\">gene-expression-profiling</a></td><td>Gene expression profiling</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-gene-id\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-gene-id\">gene-id</a></td><td>GeneID</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-gold-nanoparticle-probe-technology\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-gold-nanoparticle-probe-technology\">gold-nanoparticle-probe-technology</a></td><td>Gold nanoparticle probe technology</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-hplc\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-hplc\">hplc</a></td><td>High-performance liquid chromatography (HPLC)</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-immunohistochemistry\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-immunohistochemistry\">immunohistochemistry</a></td><td>Immunohistochemistry</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-karyotyping\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-karyotyping\">karyotyping</a></td><td>Karyotyping</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-lc-ms\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-lc-ms\">lc-ms</a></td><td>Liquid chromatography mass spectrometry (LC-MS)</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-lc-ms-ms\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-lc-ms-ms\">lc-ms-ms</a></td><td>Liquid chromatography-tandem mass spectrometry (LC-MS/MS)</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-linkage-analysis\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-linkage-analysis\">linkage-analysis</a></td><td>Linkage analysis</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-m-fish\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-m-fish\">m-fish</a></td><td>Multicolor FISH (M-FISH)</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-metabolite-levels\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-metabolite-levels\">metabolite-levels</a></td><td>Metabolite levels</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-methylation-analysis\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-methylation-analysis\">methylation-analysis</a></td><td>Methylation analysis</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-methylation-specific-pcr\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-methylation-specific-pcr\">methylation-specific-pcr</a></td><td>Methylation-specific PCR</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-microarray\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-microarray\">microarray</a></td><td>Microarray</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-mlpa\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-mlpa\">mlpa</a></td><td>Multiplex Ligation-dependent Probe Amplification (MLPA)</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-molecular-genetics\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-molecular-genetics\">molecular-genetics</a></td><td>Molecular Genetics</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-ms-ms\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-ms-ms\">ms-ms</a></td><td>Tandem mass spectrometry (MS/MS)</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-msi\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-msi\">msi</a></td><td>Microsatellite instability testing (MSI)</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-mutation-scanning-of-select-exons\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-mutation-scanning-of-select-exons\">mutation-scanning-of-select-exons</a></td><td>Mutation scanning of select exons</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-mutation-scanning-of-the-entire-coding-region\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-mutation-scanning-of-the-entire-coding-region\">mutation-scanning-of-the-entire-coding-region</a></td><td>Mutation scanning of the entire coding region</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-ngs-mps\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-ngs-mps\">ngs-mps</a></td><td>Next-Generation (NGS)/Massively parallel sequencing (MPS)</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-ola\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-ola\">ola</a></td><td>Oligonucleotide Ligation Assay (OLA)</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-oligonucleotide-hybridization-based-dna-sequencing\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-oligonucleotide-hybridization-based-dna-sequencing\">oligonucleotide-hybridization-based-dna-sequencing</a></td><td>Oligonucleotide hybridization-based DNA sequencing</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-other\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-other\">other</a></td><td>Other</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-pcr\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-pcr\">pcr</a></td><td>PCR</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-pcr-rflp-with-southern-hybridization\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-pcr-rflp-with-southern-hybridization\">pcr-rflp-with-southern-hybridization</a></td><td>PCR-RFLP with Southern hybridization</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-pcr-with-allele-specific-hybridization\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-pcr-with-allele-specific-hybridization\">pcr-with-allele-specific-hybridization</a></td><td>PCR with allele specific hybridization</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-protein-analysis\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-protein-analysis\">protein-analysis</a></td><td>Protein analysis</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-protein-expression\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-protein-expression\">protein-expression</a></td><td>Protein expression</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-protein-truncation-test\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-protein-truncation-test\">protein-truncation-test</a></td><td>Protein truncation test</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-pyrosequencing\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-pyrosequencing\">pyrosequencing</a></td><td>Pyrosequencing</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-q-banding\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-q-banding\">q-banding</a></td><td>Q-banding</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-qpcr\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-qpcr\">qpcr</a></td><td>Quantitative PCR (qPCR)</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-r-banding\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-r-banding\">r-banding</a></td><td>R-banding</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-rflp\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-rflp\">rflp</a></td><td>RFLP</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-rna-analysis\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-rna-analysis\">rna-analysis</a></td><td>RNA analysis</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-rt-lamp\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-rt-lamp\">rt-lamp</a></td><td>RT-LAMP</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-rt-pcr\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-rt-pcr\">rt-pcr</a></td><td>RT-PCR</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-rt-pcr-with-gel-analysis\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-rt-pcr-with-gel-analysis\">rt-pcr-with-gel-analysis</a></td><td>RT-PCR with gel analysis</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-rt-qpcr\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-rt-qpcr\">rt-qpcr</a></td><td>RT-qPCR</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-sequence-analysis-of-select-exons\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-sequence-analysis-of-select-exons\">sequence-analysis-of-select-exons</a></td><td>Sequence analysis of select exons</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-sequence-analysis-of-the-entire-coding-region\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-sequence-analysis-of-the-entire-coding-region\">sequence-analysis-of-the-entire-coding-region</a></td><td>Sequence analysis of the entire coding region</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-silver-staining\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-silver-staining\">silver-staining</a></td><td>Silver staining</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-sister-chromatid-exchange\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-sister-chromatid-exchange\">sister-chromatid-exchange</a></td><td>Sister chromatid exchange</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-sky\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-sky\">sky</a></td><td>Spectral karyotyping (SKY)</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-snp-detection\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-snp-detection\">snp-detection</a></td><td>SNP Detection</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-t-banding\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-t-banding\">t-banding</a></td><td>T-banding</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-targeted-variant-analysis\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-targeted-variant-analysis\">targeted-variant-analysis</a></td><td>Targeted variant analysis</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-tetra-nucleotide-repeat-by-pcr-or-southern-blot\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-tetra-nucleotide-repeat-by-pcr-or-southern-blot\">tetra-nucleotide-repeat-by-pcr-or-southern-blot</a></td><td>Tetra-nucleotide repeat by PCR or Southern Blot</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-tiling-arrays\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-tiling-arrays\">tiling-arrays</a></td><td>Tiling Arrays</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-trinucleotide-repeat-by-pcr-or-southern-blot\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-trinucleotide-repeat-by-pcr-or-southern-blot\">trinucleotide-repeat-by-pcr-or-southern-blot</a></td><td>Trinucleotide repeat by PCR or Southern Blot</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-udp\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-udp\">udp</a></td><td>Uniparental disomy study (UPD)</td></tr><tr><td><a name=\"R5-genomicstudy-methodtype-for-R4-http://hl7.org/fhir/genomicstudy-methodtype-uni-directional-sanger-sequencing\"> </a><code>http://hl7.org/fhir/genomicstudy-methodtype</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-genomicstudy-methodtype.html#genomicstudy-methodtype-uni-directional-sanger-sequencing\">uni-directional-sanger-sequencing</a></td><td>Uni-directional Sanger sequencing</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "cg"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-genomicstudy-methodtype-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-genomicstudy-methodtype-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5GenomicstudyMethodtypeForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.GenomicStudyMethodType for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Clinical Genomics"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Clinical Genomics" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/clingenomics" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/genomicstudy-methodtype|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/genomicstudy-methodtype|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `GenomicStudy.analysis.methodType`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://hl7.org/fhir/ValueSet/genomicstudy-methodtype|5.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "alternative-splicing-detection" ] ;
+         fhir:display [ fhir:v "Alternative splicing detection" ]
+       ] [
+         fhir:code [ fhir:v "analyte" ] ;
+         fhir:display [ fhir:v "Analyte" ]
+       ] [
+         fhir:code [ fhir:v "aspe" ] ;
+         fhir:display [ fhir:v "Allele-specific primer extension (ASPE)" ]
+       ] [
+         fhir:code [ fhir:v "bi-directional-sanger-sequence-analysis" ] ;
+         fhir:display [ fhir:v "Bi-directional Sanger Sequence Analysis" ]
+       ] [
+         fhir:code [ fhir:v "biochemical-genetics" ] ;
+         fhir:display [ fhir:v "Biochemical Genetics" ]
+       ] [
+         fhir:code [ fhir:v "c-banding" ] ;
+         fhir:display [ fhir:v "C-banding" ]
+       ] [
+         fhir:code [ fhir:v "chromatin-immunoprecipitation-on-chip" ] ;
+         fhir:display [ fhir:v "Chromatin Immunoprecipitation on ChIP" ]
+       ] [
+         fhir:code [ fhir:v "chromosome-breakage-studies" ] ;
+         fhir:display [ fhir:v "Chromosome breakage studies" ]
+       ] [
+         fhir:code [ fhir:v "cia" ] ;
+         fhir:display [ fhir:v "Chemiluminescent Immunoassay (CIA)" ]
+       ] [
+         fhir:code [ fhir:v "comparative-genomic-hybridization" ] ;
+         fhir:display [ fhir:v "Comparative Genomic Hybridization" ]
+       ] [
+         fhir:code [ fhir:v "cytogenetics" ] ;
+         fhir:display [ fhir:v "Cytogenetics" ]
+       ] [
+         fhir:code [ fhir:v "damid" ] ;
+         fhir:display [ fhir:v "DamID" ]
+       ] [
+         fhir:code [ fhir:v "deletion-duplication-analysis" ] ;
+         fhir:display [ fhir:v "Deletion/duplication analysis" ]
+       ] [
+         fhir:code [ fhir:v "detection-of-homozygosity" ] ;
+         fhir:display [ fhir:v "Detection of homozygosity" ]
+       ] [
+         fhir:code [ fhir:v "digital-microfluidic-microspheres" ] ;
+         fhir:display [ fhir:v "Digital microfluidic microspheres" ]
+       ] [
+         fhir:code [ fhir:v "digital-virtual-karyotyping" ] ;
+         fhir:display [ fhir:v "Digital / Virtual karyotyping" ]
+       ] [
+         fhir:code [ fhir:v "elisa" ] ;
+         fhir:display [ fhir:v "Enzyme-Linked Immunosorbent Assays (ELISA)" ]
+       ] [
+         fhir:code [ fhir:v "enzymatic-levels" ] ;
+         fhir:display [ fhir:v "Enzymatic levels" ]
+       ] [
+         fhir:code [ fhir:v "enzyme-activity" ] ;
+         fhir:display [ fhir:v "Enzyme activity" ]
+       ] [
+         fhir:code [ fhir:v "enzyme-assay" ] ;
+         fhir:display [ fhir:v "Enzyme assay" ]
+       ] [
+         fhir:code [ fhir:v "fish" ] ;
+         fhir:display [ fhir:v "Fluorescence in situ hybridization (FISH)" ]
+       ] [
+         fhir:code [ fhir:v "fish-interphase" ] ;
+         fhir:display [ fhir:v "FISH-interphase" ]
+       ] [
+         fhir:code [ fhir:v "fish-metaphase" ] ;
+         fhir:display [ fhir:v "FISH-metaphase" ]
+       ] [
+         fhir:code [ fhir:v "flow-cytometry" ] ;
+         fhir:display [ fhir:v "Flow cytometry" ]
+       ] [
+         fhir:code [ fhir:v "fluorometry" ] ;
+         fhir:display [ fhir:v "Fluorometry" ]
+       ] [
+         fhir:code [ fhir:v "fusion-genes-microarrays" ] ;
+         fhir:display [ fhir:v "Fusion genes microarrays" ]
+       ] [
+         fhir:code [ fhir:v "g-banding" ] ;
+         fhir:display [ fhir:v "G-banding" ]
+       ] [
+         fhir:code [ fhir:v "gc-ms" ] ;
+         fhir:display [ fhir:v "Gas chromatographyâ€“mass spectrometry (GC-MS)" ]
+       ] [
+         fhir:code [ fhir:v "gene-expression-profiling" ] ;
+         fhir:display [ fhir:v "Gene expression profiling" ]
+       ] [
+         fhir:code [ fhir:v "gene-id" ] ;
+         fhir:display [ fhir:v "GeneID" ]
+       ] [
+         fhir:code [ fhir:v "gold-nanoparticle-probe-technology" ] ;
+         fhir:display [ fhir:v "Gold nanoparticle probe technology" ]
+       ] [
+         fhir:code [ fhir:v "hplc" ] ;
+         fhir:display [ fhir:v "High-performance liquid chromatography (HPLC)" ]
+       ] [
+         fhir:code [ fhir:v "immunohistochemistry" ] ;
+         fhir:display [ fhir:v "Immunohistochemistry" ]
+       ] [
+         fhir:code [ fhir:v "karyotyping" ] ;
+         fhir:display [ fhir:v "Karyotyping" ]
+       ] [
+         fhir:code [ fhir:v "lc-ms" ] ;
+         fhir:display [ fhir:v "Liquid chromatography mass spectrometry (LC-MS)" ]
+       ] [
+         fhir:code [ fhir:v "lc-ms-ms" ] ;
+         fhir:display [ fhir:v "Liquid chromatography-tandem mass spectrometry (LC-MS/MS)" ]
+       ] [
+         fhir:code [ fhir:v "linkage-analysis" ] ;
+         fhir:display [ fhir:v "Linkage analysis" ]
+       ] [
+         fhir:code [ fhir:v "m-fish" ] ;
+         fhir:display [ fhir:v "Multicolor FISH (M-FISH)" ]
+       ] [
+         fhir:code [ fhir:v "metabolite-levels" ] ;
+         fhir:display [ fhir:v "Metabolite levels" ]
+       ] [
+         fhir:code [ fhir:v "methylation-analysis" ] ;
+         fhir:display [ fhir:v "Methylation analysis" ]
+       ] [
+         fhir:code [ fhir:v "methylation-specific-pcr" ] ;
+         fhir:display [ fhir:v "Methylation-specific PCR" ]
+       ] [
+         fhir:code [ fhir:v "microarray" ] ;
+         fhir:display [ fhir:v "Microarray" ]
+       ] [
+         fhir:code [ fhir:v "mlpa" ] ;
+         fhir:display [ fhir:v "Multiplex Ligation-dependent Probe Amplification (MLPA)" ]
+       ] [
+         fhir:code [ fhir:v "molecular-genetics" ] ;
+         fhir:display [ fhir:v "Molecular Genetics" ]
+       ] [
+         fhir:code [ fhir:v "ms-ms" ] ;
+         fhir:display [ fhir:v "Tandem mass spectrometry (MS/MS)" ]
+       ] [
+         fhir:code [ fhir:v "msi" ] ;
+         fhir:display [ fhir:v "Microsatellite instability testing (MSI)" ]
+       ] [
+         fhir:code [ fhir:v "mutation-scanning-of-select-exons" ] ;
+         fhir:display [ fhir:v "Mutation scanning of select exons" ]
+       ] [
+         fhir:code [ fhir:v "mutation-scanning-of-the-entire-coding-region" ] ;
+         fhir:display [ fhir:v "Mutation scanning of the entire coding region" ]
+       ] [
+         fhir:code [ fhir:v "ngs-mps" ] ;
+         fhir:display [ fhir:v "Next-Generation (NGS)/Massively parallel sequencing (MPS)" ]
+       ] [
+         fhir:code [ fhir:v "ola" ] ;
+         fhir:display [ fhir:v "Oligonucleotide Ligation Assay (OLA)" ]
+       ] [
+         fhir:code [ fhir:v "oligonucleotide-hybridization-based-dna-sequencing" ] ;
+         fhir:display [ fhir:v "Oligonucleotide hybridization-based DNA sequencing" ]
+       ] [
+         fhir:code [ fhir:v "other" ] ;
+         fhir:display [ fhir:v "Other" ]
+       ] [
+         fhir:code [ fhir:v "pcr" ] ;
+         fhir:display [ fhir:v "PCR" ]
+       ] [
+         fhir:code [ fhir:v "pcr-rflp-with-southern-hybridization" ] ;
+         fhir:display [ fhir:v "PCR-RFLP with Southern hybridization" ]
+       ] [
+         fhir:code [ fhir:v "pcr-with-allele-specific-hybridization" ] ;
+         fhir:display [ fhir:v "PCR with allele specific hybridization" ]
+       ] [
+         fhir:code [ fhir:v "protein-analysis" ] ;
+         fhir:display [ fhir:v "Protein analysis" ]
+       ] [
+         fhir:code [ fhir:v "protein-expression" ] ;
+         fhir:display [ fhir:v "Protein expression" ]
+       ] [
+         fhir:code [ fhir:v "protein-truncation-test" ] ;
+         fhir:display [ fhir:v "Protein truncation test" ]
+       ] [
+         fhir:code [ fhir:v "pyrosequencing" ] ;
+         fhir:display [ fhir:v "Pyrosequencing" ]
+       ] [
+         fhir:code [ fhir:v "q-banding" ] ;
+         fhir:display [ fhir:v "Q-banding" ]
+       ] [
+         fhir:code [ fhir:v "qpcr" ] ;
+         fhir:display [ fhir:v "Quantitative PCR (qPCR)" ]
+       ] [
+         fhir:code [ fhir:v "r-banding" ] ;
+         fhir:display [ fhir:v "R-banding" ]
+       ] [
+         fhir:code [ fhir:v "rflp" ] ;
+         fhir:display [ fhir:v "RFLP" ]
+       ] [
+         fhir:code [ fhir:v "rna-analysis" ] ;
+         fhir:display [ fhir:v "RNA analysis" ]
+       ] [
+         fhir:code [ fhir:v "rt-lamp" ] ;
+         fhir:display [ fhir:v "RT-LAMP" ]
+       ] [
+         fhir:code [ fhir:v "rt-pcr" ] ;
+         fhir:display [ fhir:v "RT-PCR" ]
+       ] [
+         fhir:code [ fhir:v "rt-pcr-with-gel-analysis" ] ;
+         fhir:display [ fhir:v "RT-PCR with gel analysis" ]
+       ] [
+         fhir:code [ fhir:v "rt-qpcr" ] ;
+         fhir:display [ fhir:v "RT-qPCR" ]
+       ] [
+         fhir:code [ fhir:v "sequence-analysis-of-select-exons" ] ;
+         fhir:display [ fhir:v "Sequence analysis of select exons" ]
+       ] [
+         fhir:code [ fhir:v "sequence-analysis-of-the-entire-coding-region" ] ;
+         fhir:display [ fhir:v "Sequence analysis of the entire coding region" ]
+       ] [
+         fhir:code [ fhir:v "silver-staining" ] ;
+         fhir:display [ fhir:v "Silver staining" ]
+       ] [
+         fhir:code [ fhir:v "sister-chromatid-exchange" ] ;
+         fhir:display [ fhir:v "Sister chromatid exchange" ]
+       ] [
+         fhir:code [ fhir:v "sky" ] ;
+         fhir:display [ fhir:v "Spectral karyotyping (SKY)" ]
+       ] [
+         fhir:code [ fhir:v "snp-detection" ] ;
+         fhir:display [ fhir:v "SNP Detection" ]
+       ] [
+         fhir:code [ fhir:v "t-banding" ] ;
+         fhir:display [ fhir:v "T-banding" ]
+       ] [
+         fhir:code [ fhir:v "targeted-variant-analysis" ] ;
+         fhir:display [ fhir:v "Targeted variant analysis" ]
+       ] [
+         fhir:code [ fhir:v "tetra-nucleotide-repeat-by-pcr-or-southern-blot" ] ;
+         fhir:display [ fhir:v "Tetra-nucleotide repeat by PCR or Southern Blot" ]
+       ] [
+         fhir:code [ fhir:v "tiling-arrays" ] ;
+         fhir:display [ fhir:v "Tiling Arrays" ]
+       ] [
+         fhir:code [ fhir:v "trinucleotide-repeat-by-pcr-or-southern-blot" ] ;
+         fhir:display [ fhir:v "Trinucleotide repeat by PCR or Southern Blot" ]
+       ] [
+         fhir:code [ fhir:v "udp" ] ;
+         fhir:display [ fhir:v "Uniparental disomy study (UPD)" ]
+       ] [
+         fhir:code [ fhir:v "uni-directional-sanger-sequencing" ] ;
+         fhir:display [ fhir:v "Uni-directional Sanger sequencing" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "alternative-splicing-detection" ] ;
+       fhir:display [ fhir:v "Alternative splicing detection" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "analyte" ] ;
+       fhir:display [ fhir:v "Analyte" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "aspe" ] ;
+       fhir:display [ fhir:v "Allele-specific primer extension (ASPE)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "bi-directional-sanger-sequence-analysis" ] ;
+       fhir:display [ fhir:v "Bi-directional Sanger Sequence Analysis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "biochemical-genetics" ] ;
+       fhir:display [ fhir:v "Biochemical Genetics" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "c-banding" ] ;
+       fhir:display [ fhir:v "C-banding" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "chromatin-immunoprecipitation-on-chip" ] ;
+       fhir:display [ fhir:v "Chromatin Immunoprecipitation on ChIP" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "chromosome-breakage-studies" ] ;
+       fhir:display [ fhir:v "Chromosome breakage studies" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "cia" ] ;
+       fhir:display [ fhir:v "Chemiluminescent Immunoassay (CIA)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "comparative-genomic-hybridization" ] ;
+       fhir:display [ fhir:v "Comparative Genomic Hybridization" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "cytogenetics" ] ;
+       fhir:display [ fhir:v "Cytogenetics" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "damid" ] ;
+       fhir:display [ fhir:v "DamID" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "deletion-duplication-analysis" ] ;
+       fhir:display [ fhir:v "Deletion/duplication analysis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "detection-of-homozygosity" ] ;
+       fhir:display [ fhir:v "Detection of homozygosity" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "digital-microfluidic-microspheres" ] ;
+       fhir:display [ fhir:v "Digital microfluidic microspheres" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "digital-virtual-karyotyping" ] ;
+       fhir:display [ fhir:v "Digital / Virtual karyotyping" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "elisa" ] ;
+       fhir:display [ fhir:v "Enzyme-Linked Immunosorbent Assays (ELISA)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "enzymatic-levels" ] ;
+       fhir:display [ fhir:v "Enzymatic levels" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "enzyme-activity" ] ;
+       fhir:display [ fhir:v "Enzyme activity" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "enzyme-assay" ] ;
+       fhir:display [ fhir:v "Enzyme assay" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "fish" ] ;
+       fhir:display [ fhir:v "Fluorescence in situ hybridization (FISH)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "fish-interphase" ] ;
+       fhir:display [ fhir:v "FISH-interphase" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "fish-metaphase" ] ;
+       fhir:display [ fhir:v "FISH-metaphase" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "flow-cytometry" ] ;
+       fhir:display [ fhir:v "Flow cytometry" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "fluorometry" ] ;
+       fhir:display [ fhir:v "Fluorometry" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "fusion-genes-microarrays" ] ;
+       fhir:display [ fhir:v "Fusion genes microarrays" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "g-banding" ] ;
+       fhir:display [ fhir:v "G-banding" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "gc-ms" ] ;
+       fhir:display [ fhir:v "Gas chromatographyâ€“mass spectrometry (GC-MS)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "gene-expression-profiling" ] ;
+       fhir:display [ fhir:v "Gene expression profiling" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "gene-id" ] ;
+       fhir:display [ fhir:v "GeneID" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "gold-nanoparticle-probe-technology" ] ;
+       fhir:display [ fhir:v "Gold nanoparticle probe technology" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "hplc" ] ;
+       fhir:display [ fhir:v "High-performance liquid chromatography (HPLC)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "immunohistochemistry" ] ;
+       fhir:display [ fhir:v "Immunohistochemistry" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "karyotyping" ] ;
+       fhir:display [ fhir:v "Karyotyping" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "lc-ms" ] ;
+       fhir:display [ fhir:v "Liquid chromatography mass spectrometry (LC-MS)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "lc-ms-ms" ] ;
+       fhir:display [ fhir:v "Liquid chromatography-tandem mass spectrometry (LC-MS/MS)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "linkage-analysis" ] ;
+       fhir:display [ fhir:v "Linkage analysis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "m-fish" ] ;
+       fhir:display [ fhir:v "Multicolor FISH (M-FISH)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "metabolite-levels" ] ;
+       fhir:display [ fhir:v "Metabolite levels" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "methylation-analysis" ] ;
+       fhir:display [ fhir:v "Methylation analysis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "methylation-specific-pcr" ] ;
+       fhir:display [ fhir:v "Methylation-specific PCR" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "microarray" ] ;
+       fhir:display [ fhir:v "Microarray" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "mlpa" ] ;
+       fhir:display [ fhir:v "Multiplex Ligation-dependent Probe Amplification (MLPA)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "molecular-genetics" ] ;
+       fhir:display [ fhir:v "Molecular Genetics" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "ms-ms" ] ;
+       fhir:display [ fhir:v "Tandem mass spectrometry (MS/MS)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "msi" ] ;
+       fhir:display [ fhir:v "Microsatellite instability testing (MSI)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "mutation-scanning-of-select-exons" ] ;
+       fhir:display [ fhir:v "Mutation scanning of select exons" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "mutation-scanning-of-the-entire-coding-region" ] ;
+       fhir:display [ fhir:v "Mutation scanning of the entire coding region" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "ngs-mps" ] ;
+       fhir:display [ fhir:v "Next-Generation (NGS)/Massively parallel sequencing (MPS)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "ola" ] ;
+       fhir:display [ fhir:v "Oligonucleotide Ligation Assay (OLA)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "oligonucleotide-hybridization-based-dna-sequencing" ] ;
+       fhir:display [ fhir:v "Oligonucleotide hybridization-based DNA sequencing" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "other" ] ;
+       fhir:display [ fhir:v "Other" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "pcr" ] ;
+       fhir:display [ fhir:v "PCR" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "pcr-rflp-with-southern-hybridization" ] ;
+       fhir:display [ fhir:v "PCR-RFLP with Southern hybridization" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "pcr-with-allele-specific-hybridization" ] ;
+       fhir:display [ fhir:v "PCR with allele specific hybridization" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "protein-analysis" ] ;
+       fhir:display [ fhir:v "Protein analysis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "protein-expression" ] ;
+       fhir:display [ fhir:v "Protein expression" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "protein-truncation-test" ] ;
+       fhir:display [ fhir:v "Protein truncation test" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "pyrosequencing" ] ;
+       fhir:display [ fhir:v "Pyrosequencing" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "q-banding" ] ;
+       fhir:display [ fhir:v "Q-banding" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "qpcr" ] ;
+       fhir:display [ fhir:v "Quantitative PCR (qPCR)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "r-banding" ] ;
+       fhir:display [ fhir:v "R-banding" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "rflp" ] ;
+       fhir:display [ fhir:v "RFLP" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "rna-analysis" ] ;
+       fhir:display [ fhir:v "RNA analysis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "rt-lamp" ] ;
+       fhir:display [ fhir:v "RT-LAMP" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "rt-pcr" ] ;
+       fhir:display [ fhir:v "RT-PCR" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "rt-pcr-with-gel-analysis" ] ;
+       fhir:display [ fhir:v "RT-PCR with gel analysis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "rt-qpcr" ] ;
+       fhir:display [ fhir:v "RT-qPCR" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "sequence-analysis-of-select-exons" ] ;
+       fhir:display [ fhir:v "Sequence analysis of select exons" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "sequence-analysis-of-the-entire-coding-region" ] ;
+       fhir:display [ fhir:v "Sequence analysis of the entire coding region" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "silver-staining" ] ;
+       fhir:display [ fhir:v "Silver staining" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "sister-chromatid-exchange" ] ;
+       fhir:display [ fhir:v "Sister chromatid exchange" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "sky" ] ;
+       fhir:display [ fhir:v "Spectral karyotyping (SKY)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "snp-detection" ] ;
+       fhir:display [ fhir:v "SNP Detection" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "t-banding" ] ;
+       fhir:display [ fhir:v "T-banding" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "targeted-variant-analysis" ] ;
+       fhir:display [ fhir:v "Targeted variant analysis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "tetra-nucleotide-repeat-by-pcr-or-southern-blot" ] ;
+       fhir:display [ fhir:v "Tetra-nucleotide repeat by PCR or Southern Blot" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "tiling-arrays" ] ;
+       fhir:display [ fhir:v "Tiling Arrays" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "trinucleotide-repeat-by-pcr-or-southern-blot" ] ;
+       fhir:display [ fhir:v "Trinucleotide repeat by PCR or Southern Blot" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "udp" ] ;
+       fhir:display [ fhir:v "Uniparental disomy study (UPD)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "uni-directional-sanger-sequencing" ] ;
+       fhir:display [ fhir:v "Uni-directional Sanger sequencing" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

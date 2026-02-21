@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="deviceusage-adherence-code"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/deviceusage-adherence-code</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">always
+                  <a name="deviceusage-adherence-code-always"> </a>
+                </td>
+                <td>Always</td>
+                <td>The device is always used.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">never
+                  <a name="deviceusage-adherence-code-never"> </a>
+                </td>
+                <td>Never</td>
+                <td>The device is never used.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">sometimes
+                  <a name="deviceusage-adherence-code-sometimes"> </a>
+                </td>
+                <td>Sometimes</td>
+                <td>The device is sometimes used.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo"/>
+  </extension>
+  <url value="http://hl7.org/fhir/deviceusage-adherence-code"/>
+  <version value="5.0.0"/>
+  <name value="DeviceUsageAdherenceCode"/>
+  <title value="Device Usage Adherence Code"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Orders and Observations"/>
+  <contact>
+    <name value="Orders and Observations"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/orders"/>
+    </telecom>
+  </contact>
+  <description value="A coded concept indicating the usage of the device."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/deviceusage-adherence-code"/>
+  <content value="complete"/>
+  <concept>
+    <code value="always"/>
+    <display value="Always"/>
+    <definition value="The device is always used."/>
+  </concept>
+  <concept>
+    <code value="never"/>
+    <display value="Never"/>
+    <definition value="The device is never used."/>
+  </concept>
+  <concept>
+    <code value="sometimes"/>
+    <display value="Sometimes"/>
+    <definition value="The device is sometimes used."/>
+  </concept>
+</CodeSystem>

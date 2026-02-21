@@ -1,0 +1,861 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-v2-0290-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-v2-0290-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-v2-0290-for-R4</b></p><a name=\"R5-v2-0290-for-R4\"> </a><a name=\"hcR5-v2-0290-for-R4\"> </a><p>This value set expansion contains 65 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-(pad)\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  (pad)</td><td>=</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-0\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  0</td><td>A</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-1\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  1</td><td>B</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-10\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  10</td><td>K</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-11\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  11</td><td>L</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-12\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  12</td><td>M</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-13\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  13</td><td>N</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-14\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  14</td><td>O</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-15\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  15</td><td>P</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-16\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  16</td><td>Q</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-17\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  17</td><td>R</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-18\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  18</td><td>S</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-19\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  19</td><td>T</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-2\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  2</td><td>C</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-20\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  20</td><td>U</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-21\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  21</td><td>V</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-22\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  22</td><td>W</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-23\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  23</td><td>X</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-24\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  24</td><td>Y</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-25\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  25</td><td>Z</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-26\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  26</td><td>a</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-27\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  27</td><td>b</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-28\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  28</td><td>c</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-29\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  29</td><td>d</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-3\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  3</td><td>D</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-30\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  30</td><td>e</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-31\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  31</td><td>f</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-32\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  32</td><td>g</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-33\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  33</td><td>h</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-34\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  34</td><td>I</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-35\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  35</td><td>j</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-36\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  36</td><td>k</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-37\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  37</td><td>l</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-38\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  38</td><td>m</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-39\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  39</td><td>n</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-4\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  4</td><td>E</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-40\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  40</td><td>o</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-41\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  41</td><td>p</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-42\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  42</td><td>q</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-43\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  43</td><td>r</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-44\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  44</td><td>s</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-45\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  45</td><td>t</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-46\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  46</td><td>u</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-47\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  47</td><td>v</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-48\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  48</td><td>w</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-49\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  49</td><td>x</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-5\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  5</td><td>F</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-50\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  50</td><td>y</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-51\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  51</td><td>z</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-52\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  52</td><td>0</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-53\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  53</td><td>1</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-54\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  54</td><td>2</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-55\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  55</td><td>3</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-56\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  56</td><td>4</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-57\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  57</td><td>5</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-58\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  58</td><td>6</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-59\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  59</td><td>7</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-6\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  6</td><td>G</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-60\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  60</td><td>8</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-61\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  61</td><td>9</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-62\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  62</td><td>+</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-63\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  63</td><td>/</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-7\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  7</td><td>H</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-8\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  8</td><td>I</td></tr><tr><td><a name=\"R5-v2-0290-for-R4-http://terminology.hl7.org/CodeSystem/v2-0290-9\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0290</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  9</td><td>J</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-v2-0290-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-v2-0290-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5V20290ForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.Hl7VSMimeBase64EncodingCharacters for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v2-0290|2.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/v2-0290|2.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* \r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://terminology.hl7.org/ValueSet/v2-0290|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "(pad)" ] ;
+         fhir:display [ fhir:v "=" ]
+       ] [
+         fhir:code [ fhir:v "0" ] ;
+         fhir:display [ fhir:v "A" ]
+       ] [
+         fhir:code [ fhir:v "1" ] ;
+         fhir:display [ fhir:v "B" ]
+       ] [
+         fhir:code [ fhir:v "10" ] ;
+         fhir:display [ fhir:v "K" ]
+       ] [
+         fhir:code [ fhir:v "11" ] ;
+         fhir:display [ fhir:v "L" ]
+       ] [
+         fhir:code [ fhir:v "12" ] ;
+         fhir:display [ fhir:v "M" ]
+       ] [
+         fhir:code [ fhir:v "13" ] ;
+         fhir:display [ fhir:v "N" ]
+       ] [
+         fhir:code [ fhir:v "14" ] ;
+         fhir:display [ fhir:v "O" ]
+       ] [
+         fhir:code [ fhir:v "15" ] ;
+         fhir:display [ fhir:v "P" ]
+       ] [
+         fhir:code [ fhir:v "16" ] ;
+         fhir:display [ fhir:v "Q" ]
+       ] [
+         fhir:code [ fhir:v "17" ] ;
+         fhir:display [ fhir:v "R" ]
+       ] [
+         fhir:code [ fhir:v "18" ] ;
+         fhir:display [ fhir:v "S" ]
+       ] [
+         fhir:code [ fhir:v "19" ] ;
+         fhir:display [ fhir:v "T" ]
+       ] [
+         fhir:code [ fhir:v "2" ] ;
+         fhir:display [ fhir:v "C" ]
+       ] [
+         fhir:code [ fhir:v "20" ] ;
+         fhir:display [ fhir:v "U" ]
+       ] [
+         fhir:code [ fhir:v "21" ] ;
+         fhir:display [ fhir:v "V" ]
+       ] [
+         fhir:code [ fhir:v "22" ] ;
+         fhir:display [ fhir:v "W" ]
+       ] [
+         fhir:code [ fhir:v "23" ] ;
+         fhir:display [ fhir:v "X" ]
+       ] [
+         fhir:code [ fhir:v "24" ] ;
+         fhir:display [ fhir:v "Y" ]
+       ] [
+         fhir:code [ fhir:v "25" ] ;
+         fhir:display [ fhir:v "Z" ]
+       ] [
+         fhir:code [ fhir:v "26" ] ;
+         fhir:display [ fhir:v "a" ]
+       ] [
+         fhir:code [ fhir:v "27" ] ;
+         fhir:display [ fhir:v "b" ]
+       ] [
+         fhir:code [ fhir:v "28" ] ;
+         fhir:display [ fhir:v "c" ]
+       ] [
+         fhir:code [ fhir:v "29" ] ;
+         fhir:display [ fhir:v "d" ]
+       ] [
+         fhir:code [ fhir:v "3" ] ;
+         fhir:display [ fhir:v "D" ]
+       ] [
+         fhir:code [ fhir:v "30" ] ;
+         fhir:display [ fhir:v "e" ]
+       ] [
+         fhir:code [ fhir:v "31" ] ;
+         fhir:display [ fhir:v "f" ]
+       ] [
+         fhir:code [ fhir:v "32" ] ;
+         fhir:display [ fhir:v "g" ]
+       ] [
+         fhir:code [ fhir:v "33" ] ;
+         fhir:display [ fhir:v "h" ]
+       ] [
+         fhir:code [ fhir:v "34" ] ;
+         fhir:display [ fhir:v "I" ]
+       ] [
+         fhir:code [ fhir:v "35" ] ;
+         fhir:display [ fhir:v "j" ]
+       ] [
+         fhir:code [ fhir:v "36" ] ;
+         fhir:display [ fhir:v "k" ]
+       ] [
+         fhir:code [ fhir:v "37" ] ;
+         fhir:display [ fhir:v "l" ]
+       ] [
+         fhir:code [ fhir:v "38" ] ;
+         fhir:display [ fhir:v "m" ]
+       ] [
+         fhir:code [ fhir:v "39" ] ;
+         fhir:display [ fhir:v "n" ]
+       ] [
+         fhir:code [ fhir:v "4" ] ;
+         fhir:display [ fhir:v "E" ]
+       ] [
+         fhir:code [ fhir:v "40" ] ;
+         fhir:display [ fhir:v "o" ]
+       ] [
+         fhir:code [ fhir:v "41" ] ;
+         fhir:display [ fhir:v "p" ]
+       ] [
+         fhir:code [ fhir:v "42" ] ;
+         fhir:display [ fhir:v "q" ]
+       ] [
+         fhir:code [ fhir:v "43" ] ;
+         fhir:display [ fhir:v "r" ]
+       ] [
+         fhir:code [ fhir:v "44" ] ;
+         fhir:display [ fhir:v "s" ]
+       ] [
+         fhir:code [ fhir:v "45" ] ;
+         fhir:display [ fhir:v "t" ]
+       ] [
+         fhir:code [ fhir:v "46" ] ;
+         fhir:display [ fhir:v "u" ]
+       ] [
+         fhir:code [ fhir:v "47" ] ;
+         fhir:display [ fhir:v "v" ]
+       ] [
+         fhir:code [ fhir:v "48" ] ;
+         fhir:display [ fhir:v "w" ]
+       ] [
+         fhir:code [ fhir:v "49" ] ;
+         fhir:display [ fhir:v "x" ]
+       ] [
+         fhir:code [ fhir:v "5" ] ;
+         fhir:display [ fhir:v "F" ]
+       ] [
+         fhir:code [ fhir:v "50" ] ;
+         fhir:display [ fhir:v "y" ]
+       ] [
+         fhir:code [ fhir:v "51" ] ;
+         fhir:display [ fhir:v "z" ]
+       ] [
+         fhir:code [ fhir:v "52" ] ;
+         fhir:display [ fhir:v "0" ]
+       ] [
+         fhir:code [ fhir:v "53" ] ;
+         fhir:display [ fhir:v "1" ]
+       ] [
+         fhir:code [ fhir:v "54" ] ;
+         fhir:display [ fhir:v "2" ]
+       ] [
+         fhir:code [ fhir:v "55" ] ;
+         fhir:display [ fhir:v "3" ]
+       ] [
+         fhir:code [ fhir:v "56" ] ;
+         fhir:display [ fhir:v "4" ]
+       ] [
+         fhir:code [ fhir:v "57" ] ;
+         fhir:display [ fhir:v "5" ]
+       ] [
+         fhir:code [ fhir:v "58" ] ;
+         fhir:display [ fhir:v "6" ]
+       ] [
+         fhir:code [ fhir:v "59" ] ;
+         fhir:display [ fhir:v "7" ]
+       ] [
+         fhir:code [ fhir:v "6" ] ;
+         fhir:display [ fhir:v "G" ]
+       ] [
+         fhir:code [ fhir:v "60" ] ;
+         fhir:display [ fhir:v "8" ]
+       ] [
+         fhir:code [ fhir:v "61" ] ;
+         fhir:display [ fhir:v "9" ]
+       ] [
+         fhir:code [ fhir:v "62" ] ;
+         fhir:display [ fhir:v "+" ]
+       ] [
+         fhir:code [ fhir:v "63" ] ;
+         fhir:display [ fhir:v "/" ]
+       ] [
+         fhir:code [ fhir:v "7" ] ;
+         fhir:display [ fhir:v "H" ]
+       ] [
+         fhir:code [ fhir:v "8" ] ;
+         fhir:display [ fhir:v "I" ]
+       ] [
+         fhir:code [ fhir:v "9" ] ;
+         fhir:display [ fhir:v "J" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "(pad)" ] ;
+       fhir:display [ fhir:v "=" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "0" ] ;
+       fhir:display [ fhir:v "A" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "1" ] ;
+       fhir:display [ fhir:v "B" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "10" ] ;
+       fhir:display [ fhir:v "K" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "11" ] ;
+       fhir:display [ fhir:v "L" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "12" ] ;
+       fhir:display [ fhir:v "M" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "13" ] ;
+       fhir:display [ fhir:v "N" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "14" ] ;
+       fhir:display [ fhir:v "O" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "15" ] ;
+       fhir:display [ fhir:v "P" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "16" ] ;
+       fhir:display [ fhir:v "Q" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "17" ] ;
+       fhir:display [ fhir:v "R" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "18" ] ;
+       fhir:display [ fhir:v "S" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "19" ] ;
+       fhir:display [ fhir:v "T" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "2" ] ;
+       fhir:display [ fhir:v "C" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "20" ] ;
+       fhir:display [ fhir:v "U" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "21" ] ;
+       fhir:display [ fhir:v "V" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "22" ] ;
+       fhir:display [ fhir:v "W" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "23" ] ;
+       fhir:display [ fhir:v "X" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "24" ] ;
+       fhir:display [ fhir:v "Y" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "25" ] ;
+       fhir:display [ fhir:v "Z" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "26" ] ;
+       fhir:display [ fhir:v "a" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "27" ] ;
+       fhir:display [ fhir:v "b" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "28" ] ;
+       fhir:display [ fhir:v "c" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "29" ] ;
+       fhir:display [ fhir:v "d" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "3" ] ;
+       fhir:display [ fhir:v "D" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "30" ] ;
+       fhir:display [ fhir:v "e" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "31" ] ;
+       fhir:display [ fhir:v "f" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "32" ] ;
+       fhir:display [ fhir:v "g" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "33" ] ;
+       fhir:display [ fhir:v "h" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "34" ] ;
+       fhir:display [ fhir:v "I" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "35" ] ;
+       fhir:display [ fhir:v "j" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "36" ] ;
+       fhir:display [ fhir:v "k" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "37" ] ;
+       fhir:display [ fhir:v "l" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "38" ] ;
+       fhir:display [ fhir:v "m" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "39" ] ;
+       fhir:display [ fhir:v "n" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "4" ] ;
+       fhir:display [ fhir:v "E" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "40" ] ;
+       fhir:display [ fhir:v "o" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "41" ] ;
+       fhir:display [ fhir:v "p" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "42" ] ;
+       fhir:display [ fhir:v "q" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "43" ] ;
+       fhir:display [ fhir:v "r" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "44" ] ;
+       fhir:display [ fhir:v "s" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "45" ] ;
+       fhir:display [ fhir:v "t" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "46" ] ;
+       fhir:display [ fhir:v "u" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "47" ] ;
+       fhir:display [ fhir:v "v" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "48" ] ;
+       fhir:display [ fhir:v "w" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "49" ] ;
+       fhir:display [ fhir:v "x" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "5" ] ;
+       fhir:display [ fhir:v "F" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "50" ] ;
+       fhir:display [ fhir:v "y" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "51" ] ;
+       fhir:display [ fhir:v "z" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "52" ] ;
+       fhir:display [ fhir:v "0" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "53" ] ;
+       fhir:display [ fhir:v "1" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "54" ] ;
+       fhir:display [ fhir:v "2" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "55" ] ;
+       fhir:display [ fhir:v "3" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "56" ] ;
+       fhir:display [ fhir:v "4" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "57" ] ;
+       fhir:display [ fhir:v "5" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "58" ] ;
+       fhir:display [ fhir:v "6" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "59" ] ;
+       fhir:display [ fhir:v "7" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "6" ] ;
+       fhir:display [ fhir:v "G" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "60" ] ;
+       fhir:display [ fhir:v "8" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "61" ] ;
+       fhir:display [ fhir:v "9" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "62" ] ;
+       fhir:display [ fhir:v "+" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "63" ] ;
+       fhir:display [ fhir:v "/" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "7" ] ;
+       fhir:display [ fhir:v "H" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "8" ] ;
+       fhir:display [ fhir:v "I" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0290"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0290>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "9" ] ;
+       fhir:display [ fhir:v "J" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

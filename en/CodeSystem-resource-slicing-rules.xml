@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="resource-slicing-rules"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/resource-slicing-rules</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">closed
+                  <a name="resource-slicing-rules-closed"> </a>
+                </td>
+                <td>Closed</td>
+                <td>No additional content is allowed other than that described by the slices in this profile.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">open
+                  <a name="resource-slicing-rules-open"> </a>
+                </td>
+                <td>Open</td>
+                <td>Additional content is allowed anywhere in the list.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">openAtEnd
+                  <a name="resource-slicing-rules-openAtEnd"> </a>
+                </td>
+                <td>Open at End</td>
+                <td>Additional content is allowed, but only at the end of the list. Note that using this requires that the slices be ordered, which makes it hard to share uses. This should only be done where absolutely required.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="normative"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+    <valueCode value="4.0.0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="5"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <url value="http://hl7.org/fhir/resource-slicing-rules"/>
+  <version value="5.0.0"/>
+  <name value="SlicingRules"/>
+  <title value="SlicingRules"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-03-25T23:21:02-05:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="How slices are interpreted when evaluating an instance."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/resource-slicing-rules|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="closed"/>
+    <display value="Closed"/>
+    <definition value="No additional content is allowed other than that described by the slices in this profile."/>
+  </concept>
+  <concept>
+    <code value="open"/>
+    <display value="Open"/>
+    <definition value="Additional content is allowed anywhere in the list."/>
+  </concept>
+  <concept>
+    <code value="openAtEnd"/>
+    <display value="Open at End"/>
+    <definition value="Additional content is allowed, but only at the end of the list. Note that using this requires that the slices be ordered, which makes it hard to share uses. This should only be done where absolutely required."/>
+  </concept>
+</CodeSystem>

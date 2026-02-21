@@ -1,0 +1,279 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-EthnicityHispanicSouthAmerican-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-v3-EthnicityHispanicSouthAmerican-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-v3-EthnicityHispanicSouthAmerican-for-R4</b></p><a name=\"R5-v3-EthnicityHispanicSouthAmerican-for-R4\"> </a><a name=\"hcR5-v3-EthnicityHispanicSouthAmerican-for-R4\"> </a><p>This value set expansion contains 12 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-v3-EthnicityHispanicSouthAmerican-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2165-9\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  2165-9</td><td>South American</td></tr><tr><td><a name=\"R5-v3-EthnicityHispanicSouthAmerican-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2166-7\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  2166-7</td><td>Argentinean</td></tr><tr><td><a name=\"R5-v3-EthnicityHispanicSouthAmerican-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2167-5\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  2167-5</td><td>Bolivian</td></tr><tr><td><a name=\"R5-v3-EthnicityHispanicSouthAmerican-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2168-3\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  2168-3</td><td>Chilean</td></tr><tr><td><a name=\"R5-v3-EthnicityHispanicSouthAmerican-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2169-1\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  2169-1</td><td>Colombian</td></tr><tr><td><a name=\"R5-v3-EthnicityHispanicSouthAmerican-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2170-9\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  2170-9</td><td>Ecuadorian</td></tr><tr><td><a name=\"R5-v3-EthnicityHispanicSouthAmerican-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2171-7\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  2171-7</td><td>Paraguayan</td></tr><tr><td><a name=\"R5-v3-EthnicityHispanicSouthAmerican-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2172-5\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  2172-5</td><td>Peruvian</td></tr><tr><td><a name=\"R5-v3-EthnicityHispanicSouthAmerican-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2173-3\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  2173-3</td><td>Uruguayan</td></tr><tr><td><a name=\"R5-v3-EthnicityHispanicSouthAmerican-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2174-1\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  2174-1</td><td>Venezuelan</td></tr><tr><td><a name=\"R5-v3-EthnicityHispanicSouthAmerican-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2175-8\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  2175-8</td><td>South American Indian</td></tr><tr><td><a name=\"R5-v3-EthnicityHispanicSouthAmerican-for-R4-http://terminology.hl7.org/CodeSystem/v3-Ethnicity-2176-6\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Ethnicity</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  2176-6</td><td>Criollo</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-EthnicityHispanicSouthAmerican-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-EthnicityHispanicSouthAmerican-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5V3EthnicityHispanicSouthAmericanForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.EthnicityHispanicSouthAmerican for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v3-EthnicityHispanicSouthAmerican|2.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/v3-EthnicityHispanicSouthAmerican|2.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* \r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://terminology.hl7.org/ValueSet/v3-EthnicityHispanicSouthAmerican|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Ethnicity"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Ethnicity>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "2165-9" ] ;
+         fhir:display [ fhir:v "South American" ]
+       ] [
+         fhir:code [ fhir:v "2166-7" ] ;
+         fhir:display [ fhir:v "Argentinean" ]
+       ] [
+         fhir:code [ fhir:v "2167-5" ] ;
+         fhir:display [ fhir:v "Bolivian" ]
+       ] [
+         fhir:code [ fhir:v "2168-3" ] ;
+         fhir:display [ fhir:v "Chilean" ]
+       ] [
+         fhir:code [ fhir:v "2169-1" ] ;
+         fhir:display [ fhir:v "Colombian" ]
+       ] [
+         fhir:code [ fhir:v "2170-9" ] ;
+         fhir:display [ fhir:v "Ecuadorian" ]
+       ] [
+         fhir:code [ fhir:v "2171-7" ] ;
+         fhir:display [ fhir:v "Paraguayan" ]
+       ] [
+         fhir:code [ fhir:v "2172-5" ] ;
+         fhir:display [ fhir:v "Peruvian" ]
+       ] [
+         fhir:code [ fhir:v "2173-3" ] ;
+         fhir:display [ fhir:v "Uruguayan" ]
+       ] [
+         fhir:code [ fhir:v "2174-1" ] ;
+         fhir:display [ fhir:v "Venezuelan" ]
+       ] [
+         fhir:code [ fhir:v "2175-8" ] ;
+         fhir:display [ fhir:v "South American Indian" ]
+       ] [
+         fhir:code [ fhir:v "2176-6" ] ;
+         fhir:display [ fhir:v "Criollo" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Ethnicity"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Ethnicity>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "2165-9" ] ;
+       fhir:display [ fhir:v "South American" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Ethnicity"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Ethnicity>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "2166-7" ] ;
+       fhir:display [ fhir:v "Argentinean" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Ethnicity"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Ethnicity>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "2167-5" ] ;
+       fhir:display [ fhir:v "Bolivian" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Ethnicity"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Ethnicity>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "2168-3" ] ;
+       fhir:display [ fhir:v "Chilean" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Ethnicity"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Ethnicity>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "2169-1" ] ;
+       fhir:display [ fhir:v "Colombian" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Ethnicity"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Ethnicity>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "2170-9" ] ;
+       fhir:display [ fhir:v "Ecuadorian" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Ethnicity"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Ethnicity>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "2171-7" ] ;
+       fhir:display [ fhir:v "Paraguayan" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Ethnicity"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Ethnicity>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "2172-5" ] ;
+       fhir:display [ fhir:v "Peruvian" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Ethnicity"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Ethnicity>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "2173-3" ] ;
+       fhir:display [ fhir:v "Uruguayan" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Ethnicity"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Ethnicity>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "2174-1" ] ;
+       fhir:display [ fhir:v "Venezuelan" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Ethnicity"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Ethnicity>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "2175-8" ] ;
+       fhir:display [ fhir:v "South American Indian" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Ethnicity"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Ethnicity>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "2176-6" ] ;
+       fhir:display [ fhir:v "Criollo" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

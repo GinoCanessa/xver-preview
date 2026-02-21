@@ -1,0 +1,194 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/v2-0936> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "v2-0936"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>status</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#status</td><td>code</td><td>Status of the concept</td></tr><tr><td>deprecated</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated</td><td>code</td><td>Version of HL7 in which the code was deprecated</td></tr><tr><td>v2-concComment</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-concComment</td><td>string</td><td>V2 Concept Comment</td></tr><tr><td>v2-concCommentAsPub</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-concCommentAsPub</td><td>string</td><td>V2 Concept Comment As Published</td></tr></table><p><b>Concepts</b></p><p>This code system <code>http://terminology.hl7.org/CodeSystem/v2-0936</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>V2 Concept Comment</b></td><td><b>V2 Concept Comment As Published</b></td></tr><tr><td style=\"white-space:nowrap\">QST<a name=\"v2-0936-QST\"> </a></td><td>Question</td><td>Question</td><td>Limited to expected responses to questions by the filler</td><td>Limited to expected responses to questions by the filler</td></tr><tr><td style=\"white-space:nowrap\">RSLT<a name=\"v2-0936-RSLT\"> </a></td><td>Result</td><td>Result</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SCI<a name=\"v2-0936-SCI\"> </a></td><td>Supporting Clinical Information</td><td>Supporting Clinical Information</td><td>Placer observations not explicitly requested by the filler to provide context or supporting information</td><td>Placer observations not explicitly requested by the filler to provide context or supporting information</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/v2-0936"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/v2-0936>
+  ] ; # 
+  fhir:version [ fhir:v "2.1.0"] ; # 
+  fhir:name [ fhir:v "ObservationType"] ; # 
+  fhir:title [ fhir:v "observationType"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2019-11-30T18:00:00-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "HL7-defined code system of concepts specifying types of observations to enable systems to distinguish between observations sent along with an order, versus observations sent as the result to an order. Used in HL7 Version 2.x messaging in the OBX segment."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "Underlying Master Code System for V2 table 0936 (Observation Type)"] ; # 
+  fhir:copyright [ fhir:v "Copyright HL7. Licensed under creative commons public domain"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/v2-0936|2.0.0"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/v2-0936?version=2.0.0>
+  ] ; # 
+  fhir:hierarchyMeaning [ fhir:v "is-a"] ; # 
+  fhir:compositional [ fhir:v false] ; # 
+  fhir:versionNeeded [ fhir:v false] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "status" ] ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/CodeSystem/utg-concept-properties#status"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/utg-concept-properties#status>
+     ] ;
+     fhir:description [ fhir:v "Status of the concept" ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "deprecated" ] ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated>
+     ] ;
+     fhir:description [ fhir:v "Version of HL7 in which the code was deprecated" ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "v2-concComment" ] ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-concComment"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-concComment>
+     ] ;
+     fhir:description [ fhir:v "V2 Concept Comment" ] ;
+     fhir:type [ fhir:v "string" ]
+  ] [
+     fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-concCommentAsPub"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-concCommentAsPub>
+     ] ;
+     fhir:description [ fhir:v "V2 Concept Comment As Published" ] ;
+     fhir:type [ fhir:v "string" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "QST" ] ;
+     fhir:display [ fhir:v "Question" ] ;
+     fhir:definition [ fhir:v "Question" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Limited to expected responses to questions by the filler"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Limited to expected responses to questions by the filler"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "RSLT" ] ;
+     fhir:display [ fhir:v "Result" ] ;
+     fhir:definition [ fhir:v "Result" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SCI" ] ;
+     fhir:display [ fhir:v "Supporting Clinical Information" ] ;
+     fhir:definition [ fhir:v "Supporting Clinical Information" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Placer observations not explicitly requested by the filler to provide context or supporting information"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Placer observations not explicitly requested by the filler to provide context or supporting information"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

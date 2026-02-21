@@ -1,0 +1,763 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-v2-0163-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-v2-0163-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-v2-0163-for-R4</b></p><a name=\"R5-v2-0163-for-R4\"> </a><a name=\"hcR5-v2-0163-for-R4\"> </a><p>This value set expansion contains 56 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-BE\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  BE</td><td>Bilateral Ears</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-BN\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  BN</td><td>Bilateral Nares</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-BU\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  BU</td><td>Buttock</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-CT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  CT</td><td>Chest Tube</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-LA\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  LA</td><td>Left Arm</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-LAC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  LAC</td><td>Left Anterior Chest</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-LACF\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  LACF</td><td>Left Antecubital Fossa</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-LD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  LD</td><td>Left Deltoid</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-LE\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  LE</td><td>Left Ear</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-LEJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  LEJ</td><td>Left External Jugular</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-LF\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  LF</td><td>Left Foot</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-LG\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  LG</td><td>Left Gluteus Medius</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-LH\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  LH</td><td>Left Hand</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-LIJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  LIJ</td><td>Left Internal Jugular</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-LLAQ\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  LLAQ</td><td>Left Lower Abd Quadrant</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-LLFA\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  LLFA</td><td>Left Lower Forearm</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-LMFA\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  LMFA</td><td>Left Mid Forearm</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-LN\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  LN</td><td>Left Naris</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-LNB\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  LNB</td><td>Nebulized</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-LPC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  LPC</td><td>Left Posterior Chest</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-LSC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  LSC</td><td>Left Subclavian</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-LT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  LT</td><td>Left Thigh</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-LUA\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  LUA</td><td>Left Upper Arm</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-LUAQ\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  LUAQ</td><td>Left Upper Abd Quadrant</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-LUFA\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  LUFA</td><td>Left Upper Forearm</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-LV\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  LV</td><td>Left Vastus Lateralis</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-LVG\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  LVG</td><td>Left Ventragluteal</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-LVL\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  LVL</td><td>Left Vastus Lateralis</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-NB\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  NB</td><td>Nebulized</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-OD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  OD</td><td>Right Eye</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-OS\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  OS</td><td>Left Eye</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-OU\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  OU</td><td>Bilateral Eyes</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-PA\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  PA</td><td>Perianal</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-PERIN\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  PERIN</td><td>Perineal</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-RA\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  RA</td><td>Right Arm</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-RAC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  RAC</td><td>Right Anterior Chest</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-RACF\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  RACF</td><td>Right Antecubital Fossa</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-RD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  RD</td><td>Right Deltoid</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-RE\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  RE</td><td>Right Ear</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-REJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  REJ</td><td>Right External Jugular</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-RF\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  RF</td><td>Right Foot</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-RG\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  RG</td><td>Right Gluteus Medius</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-RH\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  RH</td><td>Right Hand</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-RIJ\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  RIJ</td><td>Right Internal Jugular</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-RLAQ\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  RLAQ</td><td>Rt Lower Abd Quadrant</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-RLFA\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  RLFA</td><td>Right Lower Forearm</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-RMFA\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  RMFA</td><td>Right Mid Forearm</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-RN\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  RN</td><td>Right Naris</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-RPC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  RPC</td><td>Right Posterior Chest</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-RSC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  RSC</td><td>Right Subclavian</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-RT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  RT</td><td>Right Thigh</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-RUA\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  RUA</td><td>Right Upper Arm</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-RUAQ\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  RUAQ</td><td>Right Upper Abd Quadrant</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-RUFA\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  RUFA</td><td>Right Upper Forearm</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-RVG\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  RVG</td><td>Right Ventragluteal</td></tr><tr><td><a name=\"R5-v2-0163-for-R4-http://terminology.hl7.org/CodeSystem/v2-0163-RVL\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0163</code></td><td>2.3.0</td><td style=\"white-space:nowrap\">  RVL</td><td>Right Vastus Lateralis</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-v2-0163-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-v2-0163-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5V20163ForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.Hl7VSAdministriveSite for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v2-0163|2.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/v2-0163|2.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* \r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://terminology.hl7.org/ValueSet/v2-0163|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "BE" ] ;
+         fhir:display [ fhir:v "Bilateral Ears" ]
+       ] [
+         fhir:code [ fhir:v "BN" ] ;
+         fhir:display [ fhir:v "Bilateral Nares" ]
+       ] [
+         fhir:code [ fhir:v "BU" ] ;
+         fhir:display [ fhir:v "Buttock" ]
+       ] [
+         fhir:code [ fhir:v "CT" ] ;
+         fhir:display [ fhir:v "Chest Tube" ]
+       ] [
+         fhir:code [ fhir:v "LA" ] ;
+         fhir:display [ fhir:v "Left Arm" ]
+       ] [
+         fhir:code [ fhir:v "LAC" ] ;
+         fhir:display [ fhir:v "Left Anterior Chest" ]
+       ] [
+         fhir:code [ fhir:v "LACF" ] ;
+         fhir:display [ fhir:v "Left Antecubital Fossa" ]
+       ] [
+         fhir:code [ fhir:v "LD" ] ;
+         fhir:display [ fhir:v "Left Deltoid" ]
+       ] [
+         fhir:code [ fhir:v "LE" ] ;
+         fhir:display [ fhir:v "Left Ear" ]
+       ] [
+         fhir:code [ fhir:v "LEJ" ] ;
+         fhir:display [ fhir:v "Left External Jugular" ]
+       ] [
+         fhir:code [ fhir:v "LF" ] ;
+         fhir:display [ fhir:v "Left Foot" ]
+       ] [
+         fhir:code [ fhir:v "LG" ] ;
+         fhir:display [ fhir:v "Left Gluteus Medius" ]
+       ] [
+         fhir:code [ fhir:v "LH" ] ;
+         fhir:display [ fhir:v "Left Hand" ]
+       ] [
+         fhir:code [ fhir:v "LIJ" ] ;
+         fhir:display [ fhir:v "Left Internal Jugular" ]
+       ] [
+         fhir:code [ fhir:v "LLAQ" ] ;
+         fhir:display [ fhir:v "Left Lower Abd Quadrant" ]
+       ] [
+         fhir:code [ fhir:v "LLFA" ] ;
+         fhir:display [ fhir:v "Left Lower Forearm" ]
+       ] [
+         fhir:code [ fhir:v "LMFA" ] ;
+         fhir:display [ fhir:v "Left Mid Forearm" ]
+       ] [
+         fhir:code [ fhir:v "LN" ] ;
+         fhir:display [ fhir:v "Left Naris" ]
+       ] [
+         fhir:code [ fhir:v "LNB" ] ;
+         fhir:display [ fhir:v "Nebulized" ]
+       ] [
+         fhir:code [ fhir:v "LPC" ] ;
+         fhir:display [ fhir:v "Left Posterior Chest" ]
+       ] [
+         fhir:code [ fhir:v "LSC" ] ;
+         fhir:display [ fhir:v "Left Subclavian" ]
+       ] [
+         fhir:code [ fhir:v "LT" ] ;
+         fhir:display [ fhir:v "Left Thigh" ]
+       ] [
+         fhir:code [ fhir:v "LUA" ] ;
+         fhir:display [ fhir:v "Left Upper Arm" ]
+       ] [
+         fhir:code [ fhir:v "LUAQ" ] ;
+         fhir:display [ fhir:v "Left Upper Abd Quadrant" ]
+       ] [
+         fhir:code [ fhir:v "LUFA" ] ;
+         fhir:display [ fhir:v "Left Upper Forearm" ]
+       ] [
+         fhir:code [ fhir:v "LV" ] ;
+         fhir:display [ fhir:v "Left Vastus Lateralis" ]
+       ] [
+         fhir:code [ fhir:v "LVG" ] ;
+         fhir:display [ fhir:v "Left Ventragluteal" ]
+       ] [
+         fhir:code [ fhir:v "LVL" ] ;
+         fhir:display [ fhir:v "Left Vastus Lateralis" ]
+       ] [
+         fhir:code [ fhir:v "NB" ] ;
+         fhir:display [ fhir:v "Nebulized" ]
+       ] [
+         fhir:code [ fhir:v "OD" ] ;
+         fhir:display [ fhir:v "Right Eye" ]
+       ] [
+         fhir:code [ fhir:v "OS" ] ;
+         fhir:display [ fhir:v "Left Eye" ]
+       ] [
+         fhir:code [ fhir:v "OU" ] ;
+         fhir:display [ fhir:v "Bilateral Eyes" ]
+       ] [
+         fhir:code [ fhir:v "PA" ] ;
+         fhir:display [ fhir:v "Perianal" ]
+       ] [
+         fhir:code [ fhir:v "PERIN" ] ;
+         fhir:display [ fhir:v "Perineal" ]
+       ] [
+         fhir:code [ fhir:v "RA" ] ;
+         fhir:display [ fhir:v "Right Arm" ]
+       ] [
+         fhir:code [ fhir:v "RAC" ] ;
+         fhir:display [ fhir:v "Right Anterior Chest" ]
+       ] [
+         fhir:code [ fhir:v "RACF" ] ;
+         fhir:display [ fhir:v "Right Antecubital Fossa" ]
+       ] [
+         fhir:code [ fhir:v "RD" ] ;
+         fhir:display [ fhir:v "Right Deltoid" ]
+       ] [
+         fhir:code [ fhir:v "RE" ] ;
+         fhir:display [ fhir:v "Right Ear" ]
+       ] [
+         fhir:code [ fhir:v "REJ" ] ;
+         fhir:display [ fhir:v "Right External Jugular" ]
+       ] [
+         fhir:code [ fhir:v "RF" ] ;
+         fhir:display [ fhir:v "Right Foot" ]
+       ] [
+         fhir:code [ fhir:v "RG" ] ;
+         fhir:display [ fhir:v "Right Gluteus Medius" ]
+       ] [
+         fhir:code [ fhir:v "RH" ] ;
+         fhir:display [ fhir:v "Right Hand" ]
+       ] [
+         fhir:code [ fhir:v "RIJ" ] ;
+         fhir:display [ fhir:v "Right Internal Jugular" ]
+       ] [
+         fhir:code [ fhir:v "RLAQ" ] ;
+         fhir:display [ fhir:v "Rt Lower Abd Quadrant" ]
+       ] [
+         fhir:code [ fhir:v "RLFA" ] ;
+         fhir:display [ fhir:v "Right Lower Forearm" ]
+       ] [
+         fhir:code [ fhir:v "RMFA" ] ;
+         fhir:display [ fhir:v "Right Mid Forearm" ]
+       ] [
+         fhir:code [ fhir:v "RN" ] ;
+         fhir:display [ fhir:v "Right Naris" ]
+       ] [
+         fhir:code [ fhir:v "RPC" ] ;
+         fhir:display [ fhir:v "Right Posterior Chest" ]
+       ] [
+         fhir:code [ fhir:v "RSC" ] ;
+         fhir:display [ fhir:v "Right Subclavian" ]
+       ] [
+         fhir:code [ fhir:v "RT" ] ;
+         fhir:display [ fhir:v "Right Thigh" ]
+       ] [
+         fhir:code [ fhir:v "RUA" ] ;
+         fhir:display [ fhir:v "Right Upper Arm" ]
+       ] [
+         fhir:code [ fhir:v "RUAQ" ] ;
+         fhir:display [ fhir:v "Right Upper Abd Quadrant" ]
+       ] [
+         fhir:code [ fhir:v "RUFA" ] ;
+         fhir:display [ fhir:v "Right Upper Forearm" ]
+       ] [
+         fhir:code [ fhir:v "RVG" ] ;
+         fhir:display [ fhir:v "Right Ventragluteal" ]
+       ] [
+         fhir:code [ fhir:v "RVL" ] ;
+         fhir:display [ fhir:v "Right Vastus Lateralis" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "BE" ] ;
+       fhir:display [ fhir:v "Bilateral Ears" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "BN" ] ;
+       fhir:display [ fhir:v "Bilateral Nares" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "BU" ] ;
+       fhir:display [ fhir:v "Buttock" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "CT" ] ;
+       fhir:display [ fhir:v "Chest Tube" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "LA" ] ;
+       fhir:display [ fhir:v "Left Arm" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "LAC" ] ;
+       fhir:display [ fhir:v "Left Anterior Chest" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "LACF" ] ;
+       fhir:display [ fhir:v "Left Antecubital Fossa" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "LD" ] ;
+       fhir:display [ fhir:v "Left Deltoid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "LE" ] ;
+       fhir:display [ fhir:v "Left Ear" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "LEJ" ] ;
+       fhir:display [ fhir:v "Left External Jugular" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "LF" ] ;
+       fhir:display [ fhir:v "Left Foot" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "LG" ] ;
+       fhir:display [ fhir:v "Left Gluteus Medius" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "LH" ] ;
+       fhir:display [ fhir:v "Left Hand" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "LIJ" ] ;
+       fhir:display [ fhir:v "Left Internal Jugular" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "LLAQ" ] ;
+       fhir:display [ fhir:v "Left Lower Abd Quadrant" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "LLFA" ] ;
+       fhir:display [ fhir:v "Left Lower Forearm" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "LMFA" ] ;
+       fhir:display [ fhir:v "Left Mid Forearm" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "LN" ] ;
+       fhir:display [ fhir:v "Left Naris" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "LNB" ] ;
+       fhir:display [ fhir:v "Nebulized" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "LPC" ] ;
+       fhir:display [ fhir:v "Left Posterior Chest" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "LSC" ] ;
+       fhir:display [ fhir:v "Left Subclavian" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "LT" ] ;
+       fhir:display [ fhir:v "Left Thigh" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "LUA" ] ;
+       fhir:display [ fhir:v "Left Upper Arm" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "LUAQ" ] ;
+       fhir:display [ fhir:v "Left Upper Abd Quadrant" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "LUFA" ] ;
+       fhir:display [ fhir:v "Left Upper Forearm" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "LV" ] ;
+       fhir:display [ fhir:v "Left Vastus Lateralis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "LVG" ] ;
+       fhir:display [ fhir:v "Left Ventragluteal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "LVL" ] ;
+       fhir:display [ fhir:v "Left Vastus Lateralis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "NB" ] ;
+       fhir:display [ fhir:v "Nebulized" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "OD" ] ;
+       fhir:display [ fhir:v "Right Eye" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "OS" ] ;
+       fhir:display [ fhir:v "Left Eye" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "OU" ] ;
+       fhir:display [ fhir:v "Bilateral Eyes" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "PA" ] ;
+       fhir:display [ fhir:v "Perianal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "PERIN" ] ;
+       fhir:display [ fhir:v "Perineal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "RA" ] ;
+       fhir:display [ fhir:v "Right Arm" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "RAC" ] ;
+       fhir:display [ fhir:v "Right Anterior Chest" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "RACF" ] ;
+       fhir:display [ fhir:v "Right Antecubital Fossa" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "RD" ] ;
+       fhir:display [ fhir:v "Right Deltoid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "RE" ] ;
+       fhir:display [ fhir:v "Right Ear" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "REJ" ] ;
+       fhir:display [ fhir:v "Right External Jugular" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "RF" ] ;
+       fhir:display [ fhir:v "Right Foot" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "RG" ] ;
+       fhir:display [ fhir:v "Right Gluteus Medius" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "RH" ] ;
+       fhir:display [ fhir:v "Right Hand" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "RIJ" ] ;
+       fhir:display [ fhir:v "Right Internal Jugular" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "RLAQ" ] ;
+       fhir:display [ fhir:v "Rt Lower Abd Quadrant" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "RLFA" ] ;
+       fhir:display [ fhir:v "Right Lower Forearm" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "RMFA" ] ;
+       fhir:display [ fhir:v "Right Mid Forearm" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "RN" ] ;
+       fhir:display [ fhir:v "Right Naris" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "RPC" ] ;
+       fhir:display [ fhir:v "Right Posterior Chest" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "RSC" ] ;
+       fhir:display [ fhir:v "Right Subclavian" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "RT" ] ;
+       fhir:display [ fhir:v "Right Thigh" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "RUA" ] ;
+       fhir:display [ fhir:v "Right Upper Arm" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "RUAQ" ] ;
+       fhir:display [ fhir:v "Right Upper Abd Quadrant" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "RUFA" ] ;
+       fhir:display [ fhir:v "Right Upper Forearm" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "RVG" ] ;
+       fhir:display [ fhir:v "Right Ventragluteal" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0163"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0163>
+       ] ;
+       fhir:version [ fhir:v "2.3.0" ] ;
+       fhir:code [ fhir:v "RVL" ] ;
+       fhir:display [ fhir:v "Right Vastus Lateralis" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

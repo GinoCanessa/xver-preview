@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>R5ResearchStudyElementMapToR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+    <link rel="stylesheet" href="assets/css/project.css"/>
+  	<link rel="stylesheet" href="assets/css/cqf.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/hl7.css"/>
+    <link rel="stylesheet" href="assets/css/fhir-ig.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+    <script src="assets/js/direction-management.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script src="assets/js/mermaid.js" type="text/javascript"></script>
+    <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
+    <style type="text/css">h2{--heading-prefix:"7.4135"}
+    h3,h4,h5,h6{--heading-prefix:"7.4135"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+
+          <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" href="http://hl7.org" data-no-external="true">
+            <img src="assets/images/hl7-logo-header.png" alt="Visit the HL7 website" height="50"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" href="http://hl7.org/fhir" data-no-external="true"><img src="assets/images/fhir-logo-www.png" alt="Visit the FHIR website" height="50"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" href="searchform.html" data-no-external="true"><img src="assets/images/search.png" alt="Search FHIR"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img src="../assets/images/001.svg" alt="International flag" title="International" height="16"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">    <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <!-- status-bar -->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>    <!-- /.nav-collapse -->
+
+              
+
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>R5ResearchStudyElementMapToR4</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="ConceptMap-R5-Requirements-element-map-to-R4.ttl.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="ConceptMap-R5-ResearchStudy-element-map-to-R4-testing.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+  <!-- layouts\layout-canonical -->
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://hl7.org/fhir/uv/xver/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  
+
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ConceptMap-R5-ResearchStudy-element-map-to-R4.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ConceptMap-R5-ResearchStudy-element-map-to-R4.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ConceptMap-R5-ResearchStudy-element-map-to-R4.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+
+
+  <h2 id="root">ConceptMap: R5ResearchStudyElementMapToR4
+
+  </h2>
+
+  <table class="colsd" data-fhir="generated">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://hl7.org/fhir/uv/xver/ConceptMap/R5-ResearchStudy-element-map-to-R4<button data-clipboard-text="http://hl7.org/fhir/uv/xver/ConceptMap/R5-ResearchStudy-element-map-to-R4" title="Click to copy URL" class="btn-copy"></button></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.0.1-snapshot-3<button data-clipboard-text="http://hl7.org/fhir/uv/xver/ConceptMap/R5-ResearchStudy-element-map-to-R4|0.0.1-snapshot-3" title="Click to copy versioned URL" class="btn-copy"></button></span>
+      </td>
+      <td style="text-align: right;border-left-style: hidden" title="Enable this to see changes since the last official release">
+        <span id="toggle-change-display"><label for="showChanges" style="margin:0;font-weight:normal">Highlight text changes?</label>
+  
+        <input onchange="toggleChanges()" style="margin:0" id="showChanges" type="checkbox"/>
+  
+      </span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="3">
+        
+          <i>
+            
+            Standards status:
+          </i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standards Status">Trial-use</a>
+          
+          
+          Active
+          
+
+            as of 
+2026-02-21
+
+          
+        
+      </td>
+
+      <td>
+        <a href="http://hl7.org/fhir/versions.html#maturity">Maturity Level</a>: 0
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">R5ResearchStudyElementMapToR4</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+
+<p>
+<p>This ConceptMap represents cross-version mappings for elements from a FHIR R5 ResearchStudy to FHIR R4.</p>
+
+</p>
+
+
+    <!-- insert intro if present -->
+  
+
+
+
+  <!-- <p>
+  Formats: <a href="ConceptMap-R5-ResearchStudy-element-map-to-R4.xml.html">XML</a>, <a href="ConceptMap-R5-ResearchStudy-element-map-to-R4.json.html">JSON</a>, <a href="ConceptMap-R5-ResearchStudy-element-map-to-R4.ttl.html">Turtle</a>
+  </p> -->
+
+  
+
+
+  <div data-fhir="generated"><p class="res-header-id"></p><a name="R5-ResearchStudy-element-map-to-R4"> </a><a name="hcR5-ResearchStudy-element-map-to-R4"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p></div><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ResearchStudy|5.0.0</code> to <a href="http://hl7.org/fhir/R4/researchstudy.html">ResearchStudyversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ResearchStudy.meta (meta)</td><td><a name="l451">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td></td><td>Element `ResearchStudy.meta` is mapped to FHIR R4 element `ResearchStudy.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.implicitRules (implicitRules)</td><td><a name="l460">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td></td><td>Element `ResearchStudy.implicitRules` is mapped to FHIR R4 element `ResearchStudy.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.language (language)</td><td><a name="l469">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td></td><td>Element `ResearchStudy.language` is mapped to FHIR R4 element `ResearchStudy.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.text (text)</td><td><a name="l478">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td></td><td>Element `ResearchStudy.text` is mapped to FHIR R4 element `ResearchStudy.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.contained (contained)</td><td><a name="l487">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td></td><td>Element `ResearchStudy.contained` is mapped to FHIR R4 element `ResearchStudy.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.identifier (identifier)</td><td><a name="l496">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td></td><td>Element `ResearchStudy.identifier` is mapped to FHIR R4 element `ResearchStudy.identifier` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.title (title)</td><td><a name="l505">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td></td><td>Element `ResearchStudy.title` is mapped to FHIR R4 element `ResearchStudy.title` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.protocol (protocol)</td><td><a name="l514">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td></td><td>Element `ResearchStudy.protocol` is mapped to FHIR R4 element `ResearchStudy.protocol` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.partOf (partOf)</td><td><a name="l523">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td></td><td>Element `ResearchStudy.partOf` is mapped to FHIR R4 element `ResearchStudy.partOf` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.relatedArtifact (relatedArtifact)</td><td><a name="l532">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td></td><td>Element `ResearchStudy.relatedArtifact` is mapped to FHIR R4 element `ResearchStudy.relatedArtifact` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.status (status)</td><td><a name="l541">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td></td><td>Note that the target element context `ResearchStudy.status` is a modifier element, so this extension does not need to be defined as a modifier.
+Element `ResearchStudy.status` is mapped to FHIR R4 element `ResearchStudy.status` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.primaryPurposeType (primaryPurposeType)</td><td><a name="l550">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td></td><td>Element `ResearchStudy.primaryPurposeType` is mapped to FHIR R4 element `ResearchStudy.primaryPurposeType` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.phase (phase)</td><td><a name="l559">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td></td><td>Element `ResearchStudy.phase` is mapped to FHIR R4 element `ResearchStudy.phase` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.focus (focus)</td><td><a name="l568">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td></td><td>Element `ResearchStudy.focus` is mapped to FHIR R4 element `ResearchStudy.focus` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.condition (condition)</td><td><a name="l577">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td></td><td>Element `ResearchStudy.condition` is mapped to FHIR R4 element `ResearchStudy.condition` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.keyword (keyword)</td><td><a name="l586">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td></td><td>Element `ResearchStudy.keyword` is mapped to FHIR R4 element `ResearchStudy.keyword` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.region (region)</td><td><a name="l595">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td></td><td>Element `ResearchStudy.region` is mapped to FHIR R4 element `ResearchStudy.location` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.description (description)</td><td><a name="l604">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td></td><td>Element `ResearchStudy.description` is mapped to FHIR R4 element `ResearchStudy.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.period (period)</td><td><a name="l613">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td></td><td>Element `ResearchStudy.period` is mapped to FHIR R4 element `ResearchStudy.period` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.site (site)</td><td><a name="l622">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td></td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.site` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `ResearchStudy.site` is mapped to FHIR R4 element `ResearchStudy.site` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.note (note)</td><td><a name="l631">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td></td><td>Element `ResearchStudy.note` is mapped to FHIR R4 element `ResearchStudy.note` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.whyStopped (whyStopped)</td><td><a name="l640">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td></td><td>Element `ResearchStudy.whyStopped` is mapped to FHIR R4 element `ResearchStudy.reasonStopped` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.recruitment (recruitment)</td><td><a name="l649">​</a><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td></td><td>Element `ResearchStudy.recruitment` is mapped to FHIR R4 element `ResearchStudy` as `SourceIsNarrowerThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.recruitment.eligibility (eligibility)</td><td><a name="l658">​</a><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td></td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.recruitment.eligibility` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `ResearchStudy.recruitment.eligibility` is mapped to FHIR R4 element `ResearchStudy.enrollment` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.comparisonGroup (comparisonGroup)</td><td><a name="l667">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td></td><td>Element `ResearchStudy.comparisonGroup` is mapped to FHIR R4 element `ResearchStudy.arm` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.comparisonGroup.name (name)</td><td><a name="l676">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td></td><td>Element `ResearchStudy.comparisonGroup.name` is mapped to FHIR R4 element `ResearchStudy.arm.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.comparisonGroup.type (type)</td><td><a name="l685">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td></td><td>Element `ResearchStudy.comparisonGroup.type` is mapped to FHIR R4 element `ResearchStudy.arm.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.comparisonGroup.description (description)</td><td><a name="l694">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td></td><td>Element `ResearchStudy.comparisonGroup.description` is mapped to FHIR R4 element `ResearchStudy.arm.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.objective (objective)</td><td><a name="l703">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td></td><td>Element `ResearchStudy.objective` is mapped to FHIR R4 element `ResearchStudy.objective` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.objective.name (name)</td><td><a name="l712">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td></td><td>Element `ResearchStudy.objective.name` is mapped to FHIR R4 element `ResearchStudy.objective.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.objective.type (type)</td><td><a name="l721">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td></td><td>Element `ResearchStudy.objective.type` is mapped to FHIR R4 element `ResearchStudy.objective.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ResearchStudy|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ResearchStudy.url (url)</td><td><a name="l754">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.url</td><td>Element `ResearchStudy.url` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.version (version)</td><td><a name="l764">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.version</td><td>Element `ResearchStudy.version` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.name (name)</td><td><a name="l774">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.name</td><td>Element `ResearchStudy.name` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.label (label)</td><td><a name="l784">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.label</td><td>Element `ResearchStudy.label` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.date (date)</td><td><a name="l794">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.date</td><td>Element `ResearchStudy.date` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.status (status)</td><td><a name="l804">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.status</td><td>Note that the target element context `ResearchStudy.status` is a modifier element, so this extension does not need to be defined as a modifier.
+Element `ResearchStudy.status` is mapped to FHIR R4 element `ResearchStudy.status` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.studyDesign (studyDesign)</td><td><a name="l814">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.studyDesign</td><td>Element `ResearchStudy.studyDesign` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.focus (focus)</td><td><a name="l824">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.focus</td><td>Element `ResearchStudy.focus` is mapped to FHIR R4 element `ResearchStudy.focus` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.descriptionSummary (descriptionSummary)</td><td><a name="l834">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.descriptionSummary</td><td>Element `ResearchStudy.descriptionSummary` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.classifier (classifier)</td><td><a name="l844">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.classifier</td><td>Element `ResearchStudy.classifier` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.associatedParty (associatedParty)</td><td><a name="l854">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.associatedParty</td><td>Element `ResearchStudy.associatedParty` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.progressStatus (progressStatus)</td><td><a name="l864">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.progressStatus</td><td>Element `ResearchStudy.progressStatus` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.recruitment (recruitment)</td><td><a name="l874">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment</td><td>Element `ResearchStudy.recruitment` is mapped to FHIR R4 element `ResearchStudy` as `SourceIsNarrowerThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.comparisonGroup.linkId (linkId)</td><td><a name="l884">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.comparisonGroup.linkId</td><td>Element `ResearchStudy.comparisonGroup.linkId` has a context of ResearchStudy.arm based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.objective.description (description)</td><td><a name="l894">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.objective.description</td><td>Element `ResearchStudy.objective.description` has a context of ResearchStudy.objective based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.outcomeMeasure (outcomeMeasure)</td><td><a name="l904">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.outcomeMeasure</td><td>Element `ResearchStudy.outcomeMeasure` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ResearchStudy|5.0.0</code> to <code>unspecified code system</code></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ResearchStudy.label.type (type)</td><td><a name="l938">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>type</td><td>Element `ResearchStudy.label.type` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.label.value (value)</td><td><a name="l948">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>value</td><td>Element `ResearchStudy.label.value` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.associatedParty.name (name)</td><td><a name="l958">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>name</td><td>Element `ResearchStudy.associatedParty.name` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.associatedParty.role (role)</td><td><a name="l968">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>role</td><td>Element `ResearchStudy.associatedParty.role` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.associatedParty.period (period)</td><td><a name="l978">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>period</td><td>Element `ResearchStudy.associatedParty.period` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.associatedParty.classifier (classifier)</td><td><a name="l988">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>classifier</td><td>Element `ResearchStudy.associatedParty.classifier` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.progressStatus.state (state)</td><td><a name="l998">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>state</td><td>Element `ResearchStudy.progressStatus.state` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.progressStatus.actual (actual)</td><td><a name="l1008">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>actual</td><td>Element `ResearchStudy.progressStatus.actual` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.progressStatus.period (period)</td><td><a name="l1018">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>period</td><td>Element `ResearchStudy.progressStatus.period` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.recruitment.targetNumber (targetNumber)</td><td><a name="l1028">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>targetNumber</td><td>Element `ResearchStudy.recruitment.targetNumber` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.recruitment.actualNumber (actualNumber)</td><td><a name="l1038">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>actualNumber</td><td>Element `ResearchStudy.recruitment.actualNumber` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.outcomeMeasure.name (name)</td><td><a name="l1048">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>name</td><td>Element `ResearchStudy.outcomeMeasure.name` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.outcomeMeasure.type (type)</td><td><a name="l1058">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>type</td><td>Element `ResearchStudy.outcomeMeasure.type` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.outcomeMeasure.description (description)</td><td><a name="l1068">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>description</td><td>Element `ResearchStudy.outcomeMeasure.description` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr></table><hr/><p><b>Group 4 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ResearchStudy|5.0.0</code> to <a href="http://hl7.org/fhir/extensions/5.2.0/index.html">FHIR Extensions Packversion: 5.2.0)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ResearchStudy.site (site)</td><td><a name="l1102">​</a><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.site` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `ResearchStudy.site` is mapped to FHIR R4 element `ResearchStudy.site` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.associatedParty.party (party)</td><td><a name="l1112">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.associatedParty.party` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `ResearchStudy.associatedParty.party` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.recruitment.eligibility (eligibility)</td><td><a name="l1122">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.recruitment.eligibility` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `ResearchStudy.recruitment.eligibility` is mapped to FHIR R4 element `ResearchStudy.enrollment` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>ResearchStudy.recruitment.actualGroup (actualGroup)</td><td><a name="l1132">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.recruitment.actualGroup` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `ResearchStudy.recruitment.actualGroup` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.comparisonGroup.intendedExposure (intendedExposure)</td><td><a name="l1142">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.comparisonGroup.intendedExposure` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `ResearchStudy.comparisonGroup.intendedExposure` has a context of ResearchStudy.arm based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.comparisonGroup.observedGroup (observedGroup)</td><td><a name="l1152">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.comparisonGroup.observedGroup` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `ResearchStudy.comparisonGroup.observedGroup` has a context of ResearchStudy.arm based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.outcomeMeasure.reference (reference)</td><td><a name="l1162">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.outcomeMeasure.reference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `ResearchStudy.outcomeMeasure.reference` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr><tr><td>ResearchStudy.result (result)</td><td><a name="l1172">​</a><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.result` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `ResearchStudy.result` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.</td></tr></table></div>
+
+    <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+  <script src="assets/js/flags.js" type="text/javascript"> </script>
+
+  <script src="assets/js/window-hash.js" type="text/javascript"> </script>
+
+  <script src="assets/js/requirements-table.js" type="text/javascript"> </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container" data-fhir="generated">    <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&nbsp;
+
+                <a href="ConceptMap-R5-Requirements-element-map-to-R4.ttl.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&nbsp;
+
+                <a href="ConceptMap-R5-ResearchStudy-element-map-to-R4-testing.html">next &gt;</a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-21 13:39:00 -0600">
+    2026-02-21
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/uv/xver/history.html" target="_blank">Version History</a> |
+                 <a rel="license" style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/license.html"><img src="cc0.png" alt="CC0" style="border-style: none;"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir-issues" target="_blank">Propose a change</a>
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

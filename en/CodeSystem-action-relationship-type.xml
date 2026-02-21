@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="action-relationship-type"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/action-relationship-type</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td>
+                  <b>Lvl</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td style="white-space:nowrap">before
+                  <a name="action-relationship-type-before"> </a>
+                </td>
+                <td>Before</td>
+                <td>The action must be performed before the related action.</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td style="white-space:nowrap">  before-start
+                  <a name="action-relationship-type-before-start"> </a>
+                </td>
+                <td>Before Start</td>
+                <td>The action must be performed before the start of the related action.</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td style="white-space:nowrap">  before-end
+                  <a name="action-relationship-type-before-end"> </a>
+                </td>
+                <td>Before End</td>
+                <td>The action must be performed before the end of the related action.</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td style="white-space:nowrap">concurrent
+                  <a name="action-relationship-type-concurrent"> </a>
+                </td>
+                <td>Concurrent</td>
+                <td>The action must be performed concurrent with the related action.</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td style="white-space:nowrap">  concurrent-with-start
+                  <a name="action-relationship-type-concurrent-with-start"> </a>
+                </td>
+                <td>Concurrent With Start</td>
+                <td>The action must be performed concurrent with the start of the related action.</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td style="white-space:nowrap">  concurrent-with-end
+                  <a name="action-relationship-type-concurrent-with-end"> </a>
+                </td>
+                <td>Concurrent With End</td>
+                <td>The action must be performed concurrent with the end of the related action.</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td style="white-space:nowrap">after
+                  <a name="action-relationship-type-after"> </a>
+                </td>
+                <td>After</td>
+                <td>The action must be performed after the related action.</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td style="white-space:nowrap">  after-start
+                  <a name="action-relationship-type-after-start"> </a>
+                </td>
+                <td>After Start</td>
+                <td>The action must be performed after the start of the related action.</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td style="white-space:nowrap">  after-end
+                  <a name="action-relationship-type-after-end"> </a>
+                </td>
+                <td>After End</td>
+                <td>The action must be performed after the end of the related action.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="3"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="cds"/>
+  </extension>
+  <url value="http://hl7.org/fhir/action-relationship-type"/>
+  <version value="5.0.0"/>
+  <name value="ActionRelationshipType"/>
+  <title value="Action Relationship Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Clinical Decision Support"/>
+  <contact>
+    <name value="Clinical Decision Support"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/dss"/>
+    </telecom>
+  </contact>
+  <description value="Defines the types of relationships between actions."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/action-relationship-type|4.0.1"/>
+  <hierarchyMeaning value="is-a"/>
+  <content value="complete"/>
+  <concept>
+    <code value="before"/>
+    <display value="Before"/>
+    <definition value="The action must be performed before the related action."/>
+    <concept>
+      <code value="before-start"/>
+      <display value="Before Start"/>
+      <definition value="The action must be performed before the start of the related action."/>
+    </concept>
+    <concept>
+      <code value="before-end"/>
+      <display value="Before End"/>
+      <definition value="The action must be performed before the end of the related action."/>
+    </concept>
+  </concept>
+  <concept>
+    <code value="concurrent"/>
+    <display value="Concurrent"/>
+    <definition value="The action must be performed concurrent with the related action."/>
+    <concept>
+      <code value="concurrent-with-start"/>
+      <display value="Concurrent With Start"/>
+      <definition value="The action must be performed concurrent with the start of the related action."/>
+    </concept>
+    <concept>
+      <code value="concurrent-with-end"/>
+      <display value="Concurrent With End"/>
+      <definition value="The action must be performed concurrent with the end of the related action."/>
+    </concept>
+  </concept>
+  <concept>
+    <code value="after"/>
+    <display value="After"/>
+    <definition value="The action must be performed after the related action."/>
+    <concept>
+      <code value="after-start"/>
+      <display value="After Start"/>
+      <definition value="The action must be performed after the start of the related action."/>
+    </concept>
+    <concept>
+      <code value="after-end"/>
+      <display value="After End"/>
+      <definition value="The action must be performed after the end of the related action."/>
+    </concept>
+  </concept>
+</CodeSystem>

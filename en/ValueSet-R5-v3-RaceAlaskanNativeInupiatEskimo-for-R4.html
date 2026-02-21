@@ -1,0 +1,414 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>R5V3RaceAlaskanNativeInupiatEskimoForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"7.2757"}
+    h3,h4,h5,h6{--heading-prefix:"7.2757"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" data-no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img alt="International flag" src="../assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>R5V3RaceAlaskanNativeInupiatEskimoForR4</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="ValueSet-R5-v3-RaceAlaskanNativeEskimo-for-R4.ttl.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="ValueSet-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-testing.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<!-- layouts\layout-valueset -->
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ValueSet-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">ValueSet: Cross-version ValueSet R5.RaceAlaskanNativeInupiatEskimo for use in FHIR R4
+
+  </h2>
+  <table class="colsd" data-fhir="generated">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.0.1-snapshot-3<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4|0.0.1-snapshot-3"/></span>
+      </td>
+      <td style="text-align: right;border-left-style: hidden" title="Enable this to see changes since the last official release">
+        <span id="toggle-change-display"><label style="margin:0;font-weight:normal" for="showChanges">Highlight text changes?</label>
+  
+        <input style="margin:0" type="checkbox" id="showChanges" onchange="toggleChanges()"/>
+  
+      </span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          <i>
+            
+            Standards status:
+          </i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standards Status">Trial-use</a>
+          
+          
+          Active
+          
+
+            as of 
+2026-02-21
+
+          
+        
+      </td>
+
+      <td>
+        <a href="http://hl7.org/fhir/versions.html#maturity">Maturity Level</a>: 0
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">R5V3RaceAlaskanNativeInupiatEskimoForR4</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>This cross-version ValueSet represents content from <code class="language-plaintext highlighter-rouge">http://terminology.hl7.org/ValueSet/v3-RaceAlaskanNativeInupiatEskimo|2.0.0</code> for use in FHIR R4.</p>
+
+</p>
+
+<p>
+
+
+</p>
+
+
+  <p>
+    <b>References</b>
+  </p>
+  
+<p>This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)</p>
+
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <a name="definition"> </a>
+
+<!-- Content Logical Definition heading in the fragment -->
+  <h3>Logical Definition (CLD)</h3>
+<div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated"><p class="res-header-id"></p><a name="R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4"> </a><a name="hcR5-v3-RaceAlaskanNativeInupiatEskimo-for-R4"> </a>
+<ul><li>Include these codes as defined in <code>http://terminology.hl7.org/CodeSystem/v3-Race</code><span title="Version is explicitly stated to be 3.0.0"> version &#x1F4CD;</span><table class="none" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>1844-0</td><td>Inupiat Eskimo</td></tr><tr><td>1845-7</td><td>Ambler</td></tr><tr><td>1846-5</td><td>Anaktuvuk</td></tr><tr><td>1847-3</td><td>Anaktuvuk Pass</td></tr><tr><td>1848-1</td><td>Arctic Slope Inupiat</td></tr><tr><td>1849-9</td><td>Arctic Slope Corporation</td></tr><tr><td>1850-7</td><td>Atqasuk</td></tr><tr><td>1851-5</td><td>Barrow</td></tr><tr><td>1852-3</td><td>Bering Straits Inupiat</td></tr><tr><td>1853-1</td><td>Brevig Mission</td></tr><tr><td>1854-9</td><td>Buckland</td></tr><tr><td>1855-6</td><td>Chinik</td></tr><tr><td>1856-4</td><td>Council</td></tr><tr><td>1857-2</td><td>Deering</td></tr><tr><td>1858-0</td><td>Elim</td></tr><tr><td>1859-8</td><td>Golovin</td></tr><tr><td>1860-6</td><td>Inalik Diomede</td></tr><tr><td>1861-4</td><td>Inupiaq</td></tr><tr><td>1862-2</td><td>Kaktovik</td></tr><tr><td>1863-0</td><td>Kawerak</td></tr><tr><td>1864-8</td><td>Kiana</td></tr><tr><td>1865-5</td><td>Kivalina</td></tr><tr><td>1866-3</td><td>Kobuk</td></tr><tr><td>1867-1</td><td>Kotzebue</td></tr><tr><td>1868-9</td><td>Koyuk</td></tr><tr><td>1869-7</td><td>Kwiguk</td></tr><tr><td>1870-5</td><td>Mauneluk Inupiat</td></tr><tr><td>1871-3</td><td>Nana Inupiat</td></tr><tr><td>1872-1</td><td>Noatak</td></tr><tr><td>1873-9</td><td>Nome</td></tr><tr><td>1874-7</td><td>Noorvik</td></tr><tr><td>1875-4</td><td>Nuiqsut</td></tr><tr><td>1876-2</td><td>Point Hope</td></tr><tr><td>1877-0</td><td>Point Lay</td></tr><tr><td>1878-8</td><td>Selawik</td></tr><tr><td>1879-6</td><td>Shaktoolik</td></tr><tr><td>1880-4</td><td>Shishmaref</td></tr><tr><td>1881-2</td><td>Shungnak</td></tr><tr><td>1882-0</td><td>Solomon</td></tr><tr><td>1883-8</td><td>Teller</td></tr><tr><td>1884-6</td><td>Unalakleet</td></tr><tr><td>1885-3</td><td>Wainwright</td></tr><tr><td>1886-1</td><td>Wales</td></tr><tr><td>1887-9</td><td>White Mountain</td></tr><tr><td>1888-7</td><td>White Mountain Inupiat</td></tr><tr><td>1889-5</td><td>Mary's Igloo</td></tr></table></li></ul></div>
+
+  <p>&#160;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">Expansion</h3>
+
+  <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated"><p class="res-header-id"/><p>This value set expansion contains 46 concepts.</p><table class="codes" data-fhir="generated"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>JSON</b></td><td><b>XML</b></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1844-0"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1844-0</td><td>Inupiat Eskimo</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1844-0&quot;, &quot;display&quot;: &quot;Inupiat Eskimo&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1844-0&quot;&gt;&lt;display value=&quot;Inupiat Eskimo&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1845-7"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1845-7</td><td>Ambler</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1845-7&quot;, &quot;display&quot;: &quot;Ambler&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1845-7&quot;&gt;&lt;display value=&quot;Ambler&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1846-5"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1846-5</td><td>Anaktuvuk</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1846-5&quot;, &quot;display&quot;: &quot;Anaktuvuk&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1846-5&quot;&gt;&lt;display value=&quot;Anaktuvuk&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1847-3"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1847-3</td><td>Anaktuvuk Pass</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1847-3&quot;, &quot;display&quot;: &quot;Anaktuvuk Pass&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1847-3&quot;&gt;&lt;display value=&quot;Anaktuvuk Pass&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1848-1"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1848-1</td><td>Arctic Slope Inupiat</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1848-1&quot;, &quot;display&quot;: &quot;Arctic Slope Inupiat&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1848-1&quot;&gt;&lt;display value=&quot;Arctic Slope Inupiat&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1849-9"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1849-9</td><td>Arctic Slope Corporation</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1849-9&quot;, &quot;display&quot;: &quot;Arctic Slope Corporation&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1849-9&quot;&gt;&lt;display value=&quot;Arctic Slope Corporation&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1850-7"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1850-7</td><td>Atqasuk</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1850-7&quot;, &quot;display&quot;: &quot;Atqasuk&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1850-7&quot;&gt;&lt;display value=&quot;Atqasuk&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1851-5"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1851-5</td><td>Barrow</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1851-5&quot;, &quot;display&quot;: &quot;Barrow&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1851-5&quot;&gt;&lt;display value=&quot;Barrow&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1852-3"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1852-3</td><td>Bering Straits Inupiat</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1852-3&quot;, &quot;display&quot;: &quot;Bering Straits Inupiat&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1852-3&quot;&gt;&lt;display value=&quot;Bering Straits Inupiat&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1853-1"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1853-1</td><td>Brevig Mission</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1853-1&quot;, &quot;display&quot;: &quot;Brevig Mission&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1853-1&quot;&gt;&lt;display value=&quot;Brevig Mission&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1854-9"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1854-9</td><td>Buckland</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1854-9&quot;, &quot;display&quot;: &quot;Buckland&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1854-9&quot;&gt;&lt;display value=&quot;Buckland&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1855-6"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1855-6</td><td>Chinik</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1855-6&quot;, &quot;display&quot;: &quot;Chinik&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1855-6&quot;&gt;&lt;display value=&quot;Chinik&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1856-4"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1856-4</td><td>Council</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1856-4&quot;, &quot;display&quot;: &quot;Council&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1856-4&quot;&gt;&lt;display value=&quot;Council&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1857-2"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1857-2</td><td>Deering</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1857-2&quot;, &quot;display&quot;: &quot;Deering&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1857-2&quot;&gt;&lt;display value=&quot;Deering&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1858-0"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1858-0</td><td>Elim</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1858-0&quot;, &quot;display&quot;: &quot;Elim&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1858-0&quot;&gt;&lt;display value=&quot;Elim&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1859-8"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1859-8</td><td>Golovin</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1859-8&quot;, &quot;display&quot;: &quot;Golovin&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1859-8&quot;&gt;&lt;display value=&quot;Golovin&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1860-6"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1860-6</td><td>Inalik Diomede</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1860-6&quot;, &quot;display&quot;: &quot;Inalik Diomede&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1860-6&quot;&gt;&lt;display value=&quot;Inalik Diomede&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1861-4"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1861-4</td><td>Inupiaq</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1861-4&quot;, &quot;display&quot;: &quot;Inupiaq&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1861-4&quot;&gt;&lt;display value=&quot;Inupiaq&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1862-2"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1862-2</td><td>Kaktovik</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1862-2&quot;, &quot;display&quot;: &quot;Kaktovik&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1862-2&quot;&gt;&lt;display value=&quot;Kaktovik&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1863-0"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1863-0</td><td>Kawerak</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1863-0&quot;, &quot;display&quot;: &quot;Kawerak&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1863-0&quot;&gt;&lt;display value=&quot;Kawerak&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1864-8"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1864-8</td><td>Kiana</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1864-8&quot;, &quot;display&quot;: &quot;Kiana&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1864-8&quot;&gt;&lt;display value=&quot;Kiana&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1865-5"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1865-5</td><td>Kivalina</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1865-5&quot;, &quot;display&quot;: &quot;Kivalina&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1865-5&quot;&gt;&lt;display value=&quot;Kivalina&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1866-3"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1866-3</td><td>Kobuk</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1866-3&quot;, &quot;display&quot;: &quot;Kobuk&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1866-3&quot;&gt;&lt;display value=&quot;Kobuk&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1867-1"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1867-1</td><td>Kotzebue</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1867-1&quot;, &quot;display&quot;: &quot;Kotzebue&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1867-1&quot;&gt;&lt;display value=&quot;Kotzebue&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1868-9"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1868-9</td><td>Koyuk</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1868-9&quot;, &quot;display&quot;: &quot;Koyuk&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1868-9&quot;&gt;&lt;display value=&quot;Koyuk&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1869-7"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1869-7</td><td>Kwiguk</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1869-7&quot;, &quot;display&quot;: &quot;Kwiguk&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1869-7&quot;&gt;&lt;display value=&quot;Kwiguk&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1870-5"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1870-5</td><td>Mauneluk Inupiat</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1870-5&quot;, &quot;display&quot;: &quot;Mauneluk Inupiat&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1870-5&quot;&gt;&lt;display value=&quot;Mauneluk Inupiat&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1871-3"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1871-3</td><td>Nana Inupiat</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1871-3&quot;, &quot;display&quot;: &quot;Nana Inupiat&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1871-3&quot;&gt;&lt;display value=&quot;Nana Inupiat&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1872-1"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1872-1</td><td>Noatak</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1872-1&quot;, &quot;display&quot;: &quot;Noatak&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1872-1&quot;&gt;&lt;display value=&quot;Noatak&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1873-9"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1873-9</td><td>Nome</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1873-9&quot;, &quot;display&quot;: &quot;Nome&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1873-9&quot;&gt;&lt;display value=&quot;Nome&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1874-7"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1874-7</td><td>Noorvik</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1874-7&quot;, &quot;display&quot;: &quot;Noorvik&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1874-7&quot;&gt;&lt;display value=&quot;Noorvik&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1875-4"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1875-4</td><td>Nuiqsut</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1875-4&quot;, &quot;display&quot;: &quot;Nuiqsut&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1875-4&quot;&gt;&lt;display value=&quot;Nuiqsut&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1876-2"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1876-2</td><td>Point Hope</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1876-2&quot;, &quot;display&quot;: &quot;Point Hope&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1876-2&quot;&gt;&lt;display value=&quot;Point Hope&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1877-0"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1877-0</td><td>Point Lay</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1877-0&quot;, &quot;display&quot;: &quot;Point Lay&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1877-0&quot;&gt;&lt;display value=&quot;Point Lay&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1878-8"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1878-8</td><td>Selawik</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1878-8&quot;, &quot;display&quot;: &quot;Selawik&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1878-8&quot;&gt;&lt;display value=&quot;Selawik&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1879-6"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1879-6</td><td>Shaktoolik</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1879-6&quot;, &quot;display&quot;: &quot;Shaktoolik&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1879-6&quot;&gt;&lt;display value=&quot;Shaktoolik&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1880-4"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1880-4</td><td>Shishmaref</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1880-4&quot;, &quot;display&quot;: &quot;Shishmaref&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1880-4&quot;&gt;&lt;display value=&quot;Shishmaref&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1881-2"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1881-2</td><td>Shungnak</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1881-2&quot;, &quot;display&quot;: &quot;Shungnak&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1881-2&quot;&gt;&lt;display value=&quot;Shungnak&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1882-0"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1882-0</td><td>Solomon</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1882-0&quot;, &quot;display&quot;: &quot;Solomon&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1882-0&quot;&gt;&lt;display value=&quot;Solomon&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1883-8"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1883-8</td><td>Teller</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1883-8&quot;, &quot;display&quot;: &quot;Teller&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1883-8&quot;&gt;&lt;display value=&quot;Teller&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1884-6"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1884-6</td><td>Unalakleet</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1884-6&quot;, &quot;display&quot;: &quot;Unalakleet&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1884-6&quot;&gt;&lt;display value=&quot;Unalakleet&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1885-3"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1885-3</td><td>Wainwright</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1885-3&quot;, &quot;display&quot;: &quot;Wainwright&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1885-3&quot;&gt;&lt;display value=&quot;Wainwright&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1886-1"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1886-1</td><td>Wales</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1886-1&quot;, &quot;display&quot;: &quot;Wales&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1886-1&quot;&gt;&lt;display value=&quot;Wales&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1887-9"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1887-9</td><td>White Mountain</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1887-9&quot;, &quot;display&quot;: &quot;White Mountain&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1887-9&quot;&gt;&lt;display value=&quot;White Mountain&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1888-7"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1888-7</td><td>White Mountain Inupiat</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1888-7&quot;, &quot;display&quot;: &quot;White Mountain Inupiat&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1888-7&quot;&gt;&lt;display value=&quot;White Mountain Inupiat&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr><tr><td><a name="x-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1889-5"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style="white-space:nowrap">  1889-5</td><td>Mary's Igloo</td><td><span class="copy-text-inline"><button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;, &quot;version&quot;: &quot;3.0.0&quot;, &quot;code&quot;: &quot;1889-5&quot;, &quot;display&quot;: &quot;Mary's Igloo&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button></span></td><td><span class="copy-text-inline"><button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/v3-Race&quot;&gt;&lt;version value=&quot;3.0.0&quot;&gt;&lt;code value=&quot;1889-5&quot;&gt;&lt;display value=&quot;Mary's Igloo&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button></span></td></tr></table></div>
+
+  <hr/>
+  <p>
+    <a href="http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology">Description of the above table(s)</a>.
+  </p>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="ValueSet-R5-v3-RaceAlaskanNativeEskimo-for-R4.ttl.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="ValueSet-R5-v3-RaceAlaskanNativeInupiatEskimo-for-R4-testing.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-21 13:39:00 -0600">
+    2026-02-21
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir/uv/xver/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

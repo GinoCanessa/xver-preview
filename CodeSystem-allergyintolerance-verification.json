@@ -26,21 +26,21 @@
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-    "valueCode" : "fhir"
+    "valueCode" : "pc"
   }],
   "url" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
-  "version" : "0.0.1-snapshot-3",
+  "version" : "0.5.0",
   "name" : "AllergyIntoleranceVerificationStatus",
   "title" : "AllergyIntolerance Verification Status",
   "status" : "draft",
   "experimental" : false,
   "date" : "2023-02-25T12:07:30-06:00",
-  "publisher" : "FHIR Infrastructure",
+  "publisher" : "Patient Care",
   "contact" : [{
-    "name" : "FHIR Infrastructure",
+    "name" : "Patient Care",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://www.hl7.org/Special/committees/fiwg"
+      "value" : "http://www.hl7.org/Special/committees/patientcare"
     }]
   }],
   "description" : "The verification status to support or decline the clinical status of the allergy or intolerance.",
@@ -52,7 +52,7 @@
     }]
   }],
   "caseSensitive" : true,
-  "valueSet" : "http://terminology.hl7.org/ValueSet/allergyintolerance-verification",
+  "valueSet" : "http://terminology.hl7.org/ValueSet/allergyintolerance-verification|1.0.1",
   "content" : "complete",
   "concept" : [{
     "code" : "unconfirmed",

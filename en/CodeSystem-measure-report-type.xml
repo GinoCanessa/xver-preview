@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="measure-report-type"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/measure-report-type</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">individual
+                  <a name="measure-report-type-individual"> </a>
+                </td>
+                <td>Individual</td>
+                <td>An individual report that provides information on the performance for a given measure with respect to a single subject.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">subject-list
+                  <a name="measure-report-type-subject-list"> </a>
+                </td>
+                <td>Subject List</td>
+                <td>A subject list report that includes a listing of subjects that satisfied each population criteria in the measure.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">summary
+                  <a name="measure-report-type-summary"> </a>
+                </td>
+                <td>Summary</td>
+                <td>A summary report that returns the number of members in each population criteria for the measure.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">data-exchange
+                  <a name="measure-report-type-data-exchange"> </a>
+                </td>
+                <td>Data Exchange</td>
+                <td>A data exchange report that contains data-of-interest for the measure (i.e. data that is needed to calculate the measure)</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="3"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="cqi"/>
+  </extension>
+  <url value="http://hl7.org/fhir/measure-report-type"/>
+  <version value="5.0.0"/>
+  <name value="MeasureReportType"/>
+  <title value="Measure Report Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Clinical Quality Information"/>
+  <contact>
+    <name value="Clinical Quality Information"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/cqi"/>
+    </telecom>
+  </contact>
+  <description value="The type of the measure report."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/measure-report-type|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="individual"/>
+    <display value="Individual"/>
+    <definition value="An individual report that provides information on the performance for a given measure with respect to a single subject."/>
+  </concept>
+  <concept>
+    <code value="subject-list"/>
+    <display value="Subject List"/>
+    <definition value="A subject list report that includes a listing of subjects that satisfied each population criteria in the measure."/>
+  </concept>
+  <concept>
+    <code value="summary"/>
+    <display value="Summary"/>
+    <definition value="A summary report that returns the number of members in each population criteria for the measure."/>
+  </concept>
+  <concept>
+    <code value="data-exchange"/>
+    <display value="Data Exchange"/>
+    <definition value="A data exchange report that contains data-of-interest for the measure (i.e. data that is needed to calculate the measure)"/>
+  </concept>
+</CodeSystem>

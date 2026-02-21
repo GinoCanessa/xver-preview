@@ -1,0 +1,105 @@
+# InventoryItemStatus - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## CodeSystem: InventoryItemStatus 
+
+ 
+InventoryItem Status Codes 
+
+This Code system is referenced in the definition of the following value sets:
+
+* [R5InventoryitemStatusForR4](ValueSet-R5-inventoryitem-status-for-R4.md)
+
+-------
+
+ [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "CodeSystem",
+  "id" : "inventoryitem-status",
+  "extension" : [
+    {
+      "extension" : [
+        {
+          "url" : "packageId",
+          "valueId" : "hl7.fhir.uv.xver-r5.r4"
+        },
+        {
+          "url" : "version",
+          "valueString" : "0.0.1-snapshot-3"
+        },
+        {
+          "url" : "uri",
+          "valueUri" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+        }
+      ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/package-source"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "oo"
+    }
+  ],
+  "url" : "http://hl7.org/fhir/inventoryitem-status",
+  "version" : "5.0.0",
+  "name" : "InventoryItemStatus",
+  "title" : "InventoryItem Status Codes",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-02-21T13:39:05-06:00",
+  "publisher" : "Orders and Observations",
+  "contact" : [
+    {
+      "name" : "Orders and Observations",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/orders"
+        }
+      ]
+    }
+  ],
+  "description" : "InventoryItem Status Codes",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }
+      ]
+    }
+  ],
+  "caseSensitive" : true,
+  "valueSet" : "http://hl7.org/fhir/ValueSet/inventoryitem-status",
+  "content" : "complete",
+  "concept" : [
+    {
+      "code" : "active",
+      "display" : "Active",
+      "definition" : "The item is active and can be referenced."
+    },
+    {
+      "code" : "inactive",
+      "display" : "Inactive",
+      "definition" : "The item is presently inactive - there may be references to it but the item is not expected to be used."
+    },
+    {
+      "code" : "entered-in-error",
+      "display" : "Entered in Error",
+      "definition" : "The item record was entered in error."
+    },
+    {
+      "code" : "unknown",
+      "display" : "Unknown",
+      "definition" : "The item status has not been determined."
+    }
+  ]
+}
+
+```

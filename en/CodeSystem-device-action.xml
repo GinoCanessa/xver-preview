@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="device-action"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/device-action</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">implanted
+                  <a name="device-action-implanted"> </a>
+                </td>
+                <td>Implanted</td>
+                <td>The device was implanted in the patient during the procedure.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">explanted
+                  <a name="device-action-explanted"> </a>
+                </td>
+                <td>Explanted</td>
+                <td>The device was explanted from the patient during the procedure.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">manipulated
+                  <a name="device-action-manipulated"> </a>
+                </td>
+                <td>Manipulated</td>
+                <td>The device remains in the patient, but its location, settings, or functionality was changed.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pc"/>
+  </extension>
+  <url value="http://hl7.org/fhir/device-action"/>
+  <version value="5.0.0"/>
+  <name value="ProcedureDeviceActionCodes"/>
+  <title value="Procedure Device Action Codes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T13:39:05-06:00"/>
+  <publisher value="Patient Care"/>
+  <contact>
+    <name value="Patient Care"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="Example value set for Procedure Device Action code (what happened to a device during a procedure."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="implanted"/>
+    <display value="Implanted"/>
+    <definition value="The device was implanted in the patient during the procedure."/>
+  </concept>
+  <concept>
+    <code value="explanted"/>
+    <display value="Explanted"/>
+    <definition value="The device was explanted from the patient during the procedure."/>
+  </concept>
+  <concept>
+    <code value="manipulated"/>
+    <display value="Manipulated"/>
+    <definition value="The device remains in the patient, but its location, settings, or functionality was changed."/>
+  </concept>
+</CodeSystem>

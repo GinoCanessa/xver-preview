@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="rejection-criteria"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://terminology.hl7.org/CodeSystem/rejection-criteria</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">hemolized<a name="rejection-criteria-hemolized"> </a></td><td>hemolized specimen</td><td>blood specimen hemolized.</td></tr><tr><td style="white-space:nowrap">insufficient<a name="rejection-criteria-insufficient"> </a></td><td>insufficient specimen volume</td><td>insufficient quantity of specimen.</td></tr><tr><td style="white-space:nowrap">broken<a name="rejection-criteria-broken"> </a></td><td>broken specimen container</td><td>specimen container broken.</td></tr><tr><td style="white-space:nowrap">clotted<a name="rejection-criteria-clotted"> </a></td><td>specimen clotted</td><td>specimen clotted.</td></tr><tr><td style="white-space:nowrap">wrong-temperature<a name="rejection-criteria-wrong-temperature"> </a></td><td>specimen temperature inappropriate</td><td>specimen temperature inappropriate.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/rejection-criteria"/>
+  <version value="0.1.0"/>
+  <name value="RejectionCriterion"/>
+  <title value="RejectionCriterion"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-04-09T16:10:28-05:00"/>
+  <publisher value="Orders and Observations"/>
+  <contact>
+    <name value="Orders and Observations"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/orders"/>
+    </telecom>
+  </contact>
+  <description value="Criterion for rejection of the specimen by laboratory."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/rejection-criteria|1.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="hemolized"/>
+    <display value="hemolized specimen"/>
+    <definition value="blood specimen hemolized."/>
+  </concept>
+  <concept>
+    <code value="insufficient"/>
+    <display value="insufficient specimen volume"/>
+    <definition value="insufficient quantity of specimen."/>
+  </concept>
+  <concept>
+    <code value="broken"/>
+    <display value="broken specimen container"/>
+    <definition value="specimen container broken."/>
+  </concept>
+  <concept>
+    <code value="clotted"/>
+    <display value="specimen clotted"/>
+    <definition value="specimen clotted."/>
+  </concept>
+  <concept>
+    <code value="wrong-temperature"/>
+    <display value="specimen temperature inappropriate"/>
+    <definition value="specimen temperature inappropriate."/>
+  </concept>
+</CodeSystem>

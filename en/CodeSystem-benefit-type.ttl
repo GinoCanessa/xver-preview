@@ -1,0 +1,157 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/benefit-type> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "benefit-type"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://terminology.hl7.org/CodeSystem/benefit-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">benefit<a name=\"benefit-type-benefit\"> </a></td><td>Benefit</td><td>Maximum benefit allowable.</td></tr><tr><td style=\"white-space:nowrap\">deductible<a name=\"benefit-type-deductible\"> </a></td><td>Deductible</td><td>Cost to be incurred before benefits are applied</td></tr><tr><td style=\"white-space:nowrap\">visit<a name=\"benefit-type-visit\"> </a></td><td>Visit</td><td>Service visit</td></tr><tr><td style=\"white-space:nowrap\">room<a name=\"benefit-type-room\"> </a></td><td>Room</td><td>Type of room</td></tr><tr><td style=\"white-space:nowrap\">copay<a name=\"benefit-type-copay\"> </a></td><td>Copayment per service</td><td>Copayment per service</td></tr><tr><td style=\"white-space:nowrap\">copay-percent<a name=\"benefit-type-copay-percent\"> </a></td><td>Copayment Percent per service</td><td>Copayment percentage per service</td></tr><tr><td style=\"white-space:nowrap\">copay-maximum<a name=\"benefit-type-copay-maximum\"> </a></td><td>Copayment maximum per service</td><td>Copayment maximum per service</td></tr><tr><td style=\"white-space:nowrap\">vision-exam<a name=\"benefit-type-vision-exam\"> </a></td><td>Vision Exam</td><td>Vision Exam</td></tr><tr><td style=\"white-space:nowrap\">vision-glasses<a name=\"benefit-type-vision-glasses\"> </a></td><td>Vision Glasses</td><td>Frames and lenses</td></tr><tr><td style=\"white-space:nowrap\">vision-contacts<a name=\"benefit-type-vision-contacts\"> </a></td><td>Vision Contacts Coverage</td><td>Contact Lenses</td></tr><tr><td style=\"white-space:nowrap\">medical-primarycare<a name=\"benefit-type-medical-primarycare\"> </a></td><td>Medical Primary Health Coverage</td><td>Medical Primary Health Coverage</td></tr><tr><td style=\"white-space:nowrap\">pharmacy-dispense<a name=\"benefit-type-pharmacy-dispense\"> </a></td><td>Pharmacy Dispense Coverage</td><td>Pharmacy Dispense Coverage</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fm"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/benefit-type"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/benefit-type>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "BenefitTypeCodes"] ; # 
+  fhir:title [ fhir:v "Benefit Type Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2023-02-25T12:07:30-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Financial Management"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Financial Management" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fm" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This value set includes a smattering of Benefit type codes."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:copyright [ fhir:v "This is an example set."] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/benefit-type|1.0.1"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/benefit-type?version=1.0.1>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "benefit" ] ;
+     fhir:display [ fhir:v "Benefit" ] ;
+     fhir:definition [ fhir:v "Maximum benefit allowable." ]
+  ] [
+     fhir:code [ fhir:v "deductible" ] ;
+     fhir:display [ fhir:v "Deductible" ] ;
+     fhir:definition [ fhir:v "Cost to be incurred before benefits are applied" ]
+  ] [
+     fhir:code [ fhir:v "visit" ] ;
+     fhir:display [ fhir:v "Visit" ] ;
+     fhir:definition [ fhir:v "Service visit" ]
+  ] [
+     fhir:code [ fhir:v "room" ] ;
+     fhir:display [ fhir:v "Room" ] ;
+     fhir:definition [ fhir:v "Type of room" ]
+  ] [
+     fhir:code [ fhir:v "copay" ] ;
+     fhir:display [ fhir:v "Copayment per service" ] ;
+     fhir:definition [ fhir:v "Copayment per service" ]
+  ] [
+     fhir:code [ fhir:v "copay-percent" ] ;
+     fhir:display [ fhir:v "Copayment Percent per service" ] ;
+     fhir:definition [ fhir:v "Copayment percentage per service" ]
+  ] [
+     fhir:code [ fhir:v "copay-maximum" ] ;
+     fhir:display [ fhir:v "Copayment maximum per service" ] ;
+     fhir:definition [ fhir:v "Copayment maximum per service" ]
+  ] [
+     fhir:code [ fhir:v "vision-exam" ] ;
+     fhir:display [ fhir:v "Vision Exam" ] ;
+     fhir:definition [ fhir:v "Vision Exam" ]
+  ] [
+     fhir:code [ fhir:v "vision-glasses" ] ;
+     fhir:display [ fhir:v "Vision Glasses" ] ;
+     fhir:definition [ fhir:v "Frames and lenses" ]
+  ] [
+     fhir:code [ fhir:v "vision-contacts" ] ;
+     fhir:display [ fhir:v "Vision Contacts Coverage" ] ;
+     fhir:definition [ fhir:v "Contact Lenses" ]
+  ] [
+     fhir:code [ fhir:v "medical-primarycare" ] ;
+     fhir:display [ fhir:v "Medical Primary Health Coverage" ] ;
+     fhir:definition [ fhir:v "Medical Primary Health Coverage" ]
+  ] [
+     fhir:code [ fhir:v "pharmacy-dispense" ] ;
+     fhir:display [ fhir:v "Pharmacy Dispense Coverage" ] ;
+     fhir:definition [ fhir:v "Pharmacy Dispense Coverage" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

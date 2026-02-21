@@ -1,0 +1,115 @@
+# MeasureAggregateMethod - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## CodeSystem: MeasureAggregateMethod 
+
+ 
+Aggregation method for a measure (e.g. sum, average, median, minimum, maximum, count) 
+
+This Code system is referenced in the definition of the following value sets:
+
+* [R5MeasureAggregateMethodForR4](ValueSet-R5-measure-aggregate-method-for-R4.md)
+
+-------
+
+ [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "CodeSystem",
+  "id" : "measure-aggregate-method",
+  "extension" : [
+    {
+      "extension" : [
+        {
+          "url" : "packageId",
+          "valueId" : "hl7.fhir.uv.xver-r5.r4"
+        },
+        {
+          "url" : "version",
+          "valueString" : "0.0.1-snapshot-3"
+        },
+        {
+          "url" : "uri",
+          "valueUri" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+        }
+      ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/package-source"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "cqi"
+    }
+  ],
+  "url" : "http://hl7.org/fhir/CodeSystem/measure-aggregate-method",
+  "version" : "5.0.0",
+  "name" : "MeasureAggregateMethod",
+  "title" : "Measure Aggregate Method",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2019-03-15T00:21:03-05:00",
+  "publisher" : "Clinical Quality Information",
+  "contact" : [
+    {
+      "name" : "Clinical Quality Information",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/cqi"
+        }
+      ]
+    }
+  ],
+  "description" : "Aggregation method for a measure (e.g. sum, average, median, minimum, maximum, count)",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }
+      ]
+    }
+  ],
+  "caseSensitive" : true,
+  "valueSet" : "http://hl7.org/fhir/ValueSet/aggregate-method",
+  "content" : "complete",
+  "concept" : [
+    {
+      "code" : "sum",
+      "display" : "Sum",
+      "definition" : "The measure score is determined by adding together the observations derived from the measure population."
+    },
+    {
+      "code" : "average",
+      "display" : "Average",
+      "definition" : "The measure score is determined by taking the average of the observations derived from the measure population."
+    },
+    {
+      "code" : "median",
+      "display" : "Median",
+      "definition" : "The measure score is determined by taking the median of the observations derived from the measure population."
+    },
+    {
+      "code" : "minimum",
+      "display" : "Minimum",
+      "definition" : "The measure score is determined by taking the minimum of the observations derived from the measure population."
+    },
+    {
+      "code" : "maximum",
+      "display" : "Maximum",
+      "definition" : "The measure score is determined by taking the maximum of the observations derived from the measure population."
+    },
+    {
+      "code" : "count",
+      "display" : "Count",
+      "definition" : "The measure score is determined as the number of observations derived from the measure population."
+    }
+  ]
+}
+
+```

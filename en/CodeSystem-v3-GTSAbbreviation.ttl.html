@@ -1,0 +1,1127 @@
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>GTSAbbreviation - TTL Representation - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"7.3936"}
+    h3,h4,h5,h6{--heading-prefix:"7.3936"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" data-no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img alt="International flag" src="../assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>GTSAbbreviation</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="CodeSystem-v3-GTSAbbreviation.json.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="CodeSystem-v3-HL7DocumentFormatCodes.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<!-- layouts\layout-instance-format -->
+<div style="counter-reset: section 9" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="CodeSystem-v3-GTSAbbreviation.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="CodeSystem-v3-GTSAbbreviation.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-v3-GTSAbbreviation.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+
+<h2 id="root">: GTSAbbreviation</h2>
+
+  <table class="colsd" data-fhir="generated">
+    <tr>
+
+      <td colspan="1">
+        
+          <i>Page standards status:</i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standards Status">Trial-use</a>
+          
+        
+      </td>
+
+      <td>
+        <a href="http://hl7.org/fhir/versions.html#maturity">Maturity Level</a>: 0
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p><a href="CodeSystem-v3-GTSAbbreviation.ttl" no-download="true">Raw ttl</a> | <a href="CodeSystem-v3-GTSAbbreviation.ttl" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="rdf" data-fhir="generated" style="white-space: pre; overflow: hidden">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:CodeSystem ;
+  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R4/resource.html#CodeSystem.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;v3-GTSAbbreviation&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/resource.html#CodeSystem.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;en&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R4/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xml:lang=\&quot;en\&quot; xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; lang=\&quot;en\&quot;&gt;&lt;p&gt;&lt;b&gt;Properties&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;This code system  defines the following properties for its concepts&lt;/b&gt;&lt;/p&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;URI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Specializes&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Coding&lt;/td&gt;&lt;td&gt;The child code is a more narrow version of the concept represented by the parent code.  I.e. Every child concept is also a valid parent concept.  Used to allow determination of subsumption.  Must be transitive, irreflexive, antisymmetric.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Generalizes&lt;/td&gt;&lt;td/&gt;&lt;td&gt;Coding&lt;/td&gt;&lt;td&gt;Inverse of Specializes.  Only included as a derived relationship.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;internalId&lt;/td&gt;&lt;td&gt;http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id&lt;/td&gt;&lt;td&gt;code&lt;/td&gt;&lt;td&gt;The internal identifier for the concept in the HL7 Access database repository.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;appliesTo&lt;/td&gt;&lt;td&gt;http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-applies-to&lt;/td&gt;&lt;td&gt;string&lt;/td&gt;&lt;td&gt;Haven't a clue!&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;status&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#status&lt;/td&gt;&lt;td&gt;code&lt;/td&gt;&lt;td&gt;Designation of a concept's state. Normally is not populated unless the state is retired.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;notSelectable&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#notSelectable&lt;/td&gt;&lt;td&gt;boolean&lt;/td&gt;&lt;td&gt;Indicates that the code is abstract - only intended to be used as a selector for other concepts&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Concepts&lt;/b&gt;&lt;/p&gt;&lt;p&gt;This code system &lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Lvl&lt;/b&gt;&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;internalId&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;appliesTo&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;status&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Not Selectable&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;AM&lt;a name=\&quot;v3-GTSAbbreviation-AM\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;AM&lt;/td&gt;&lt;td&gt;Every morning at institution specified times.&lt;/td&gt;&lt;td&gt;10721&lt;/td&gt;&lt;td&gt;H0600-1200 IST&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BED&lt;a name=\&quot;v3-GTSAbbreviation-BED\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;at bedtime&lt;/td&gt;&lt;td&gt;At bedtime (institution specified time).&lt;/td&gt;&lt;td&gt;23940&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BID&lt;a name=\&quot;v3-GTSAbbreviation-BID\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;BID&lt;/td&gt;&lt;td&gt;Two times a day at institution specified time&lt;/td&gt;&lt;td&gt;10703&lt;/td&gt;&lt;td&gt;/(12 h) IST&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;JB&lt;a name=\&quot;v3-GTSAbbreviation-JB\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JB&lt;/td&gt;&lt;td&gt;Regular business days (Monday to Friday excluding holidays)&lt;/td&gt;&lt;td&gt;10723&lt;/td&gt;&lt;td&gt;J1-5 \\JH&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;JE&lt;a name=\&quot;v3-GTSAbbreviation-JE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JE&lt;/td&gt;&lt;td&gt;Regular weekends (Saturday and Sunday excluding holidays)&lt;/td&gt;&lt;td&gt;10724&lt;/td&gt;&lt;td&gt;J6-7 \\JH&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;JH&lt;a name=\&quot;v3-GTSAbbreviation-JH\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GTSAbbreviationHolidays&lt;/td&gt;&lt;td&gt;Holidays&lt;/td&gt;&lt;td&gt;10725&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  _GTSAbbreviationHolidaysChristianRoman&lt;a name=\&quot;v3-GTSAbbreviation-_GTSAbbreviationHolidaysChristianRoman\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GTSAbbreviationHolidaysChristianRoman&lt;/td&gt;&lt;td&gt;Christian Holidays (Roman/Gregorian \\[Western\\] Tradition.)&lt;/td&gt;&lt;td&gt;21080&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;td&gt;true&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;    JHCHREAS&lt;a name=\&quot;v3-GTSAbbreviation-JHCHREAS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JHCHREAS&lt;/td&gt;&lt;td&gt;Easter Sunday. The Easter date is a rather complex calculation based on Astronomical tables describing full moon dates. Details can be found at \\[http://www.assa.org.au/edm.html, and http://aa.usno.navy.mil/AA/faq/docs/easter.html\\]. Note that the Christian Orthodox Holidays are based on the Julian calendar.&lt;/td&gt;&lt;td&gt;10730&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;    JHCHRGFR&lt;a name=\&quot;v3-GTSAbbreviation-JHCHRGFR\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JHCHRGFR&lt;/td&gt;&lt;td&gt;Good Friday, is the Friday right before Easter Sunday.&lt;/td&gt;&lt;td&gt;10731&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;    JHCHRNEW&lt;a name=\&quot;v3-GTSAbbreviation-JHCHRNEW\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JHCHRNEW&lt;/td&gt;&lt;td&gt;New Year's Day (January 1)&lt;/td&gt;&lt;td&gt;10729&lt;/td&gt;&lt;td&gt;M0101&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;    JHCHRPEN&lt;a name=\&quot;v3-GTSAbbreviation-JHCHRPEN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JHCHRPEN&lt;/td&gt;&lt;td&gt;Pentecost Sunday, is seven weeks after Easter (the 50th day of Easter).&lt;/td&gt;&lt;td&gt;10732&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;    JHCHRXME&lt;a name=\&quot;v3-GTSAbbreviation-JHCHRXME\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JHCHRXME&lt;/td&gt;&lt;td&gt;Christmas Eve (December 24)&lt;/td&gt;&lt;td&gt;10727&lt;/td&gt;&lt;td&gt;M1224&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;    JHCHRXMS&lt;a name=\&quot;v3-GTSAbbreviation-JHCHRXMS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JHCHRXMS&lt;/td&gt;&lt;td&gt;Christmas Day (December 25)&lt;/td&gt;&lt;td&gt;10728&lt;/td&gt;&lt;td&gt;M1225&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  JHNNL&lt;a name=\&quot;v3-GTSAbbreviation-JHNNL\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;The Netherlands National Holidays&lt;/td&gt;&lt;td&gt;**Description:**The Netherlands National Holidays.&lt;/td&gt;&lt;td&gt;22658&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;    JHNNLLD&lt;a name=\&quot;v3-GTSAbbreviation-JHNNLLD\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Liberation day (May 5 every five years)&lt;/td&gt;&lt;td&gt;**Description:**Liberation day (May 5 every five years)&lt;/td&gt;&lt;td&gt;22660&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;    JHNNLQD&lt;a name=\&quot;v3-GTSAbbreviation-JHNNLQD\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Queen's day (April 30)&lt;/td&gt;&lt;td&gt;**Description:**Queen's day (April 30)&lt;/td&gt;&lt;td&gt;22659&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;    JHNNLSK&lt;a name=\&quot;v3-GTSAbbreviation-JHNNLSK\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Sinterklaas (December 5)&lt;/td&gt;&lt;td&gt;**Description:**Sinterklaas (December 5)&lt;/td&gt;&lt;td&gt;22661&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  JHNUS&lt;a name=\&quot;v3-GTSAbbreviation-JHNUS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;GTSAbbreviationHolidaysUSNational&lt;/td&gt;&lt;td&gt;United States National Holidays (public holidays for federal employees established by U.S. Federal law 5 U.S.C. 6103).&lt;/td&gt;&lt;td&gt;10733&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;    JHNUSCLM&lt;a name=\&quot;v3-GTSAbbreviation-JHNUSCLM\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JHNUSCLM&lt;/td&gt;&lt;td&gt;Columbus Day, the second Monday in October.&lt;/td&gt;&lt;td&gt;10743&lt;/td&gt;&lt;td&gt;M1008-14 J1&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;    JHNUSIND&lt;a name=\&quot;v3-GTSAbbreviation-JHNUSIND\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JHNUSIND&lt;/td&gt;&lt;td&gt;Independence Day (4th of July)&lt;/td&gt;&lt;td&gt;10739&lt;/td&gt;&lt;td&gt;M0704&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;    JHNUSIND1&lt;a name=\&quot;v3-GTSAbbreviation-JHNUSIND1\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JHNUSIND1&lt;/td&gt;&lt;td&gt;Alternative Monday after 4th of July Weekend \\[5 U.S.C. 6103(b)\\].&lt;/td&gt;&lt;td&gt;10741&lt;/td&gt;&lt;td&gt;M0705 J1&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;    JHNUSIND5&lt;a name=\&quot;v3-GTSAbbreviation-JHNUSIND5\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JHNUSIND5&lt;/td&gt;&lt;td&gt;Alternative Friday before 4th of July Weekend \\[5 U.S.C. 6103(b)\\].&lt;/td&gt;&lt;td&gt;10740&lt;/td&gt;&lt;td&gt;M0703 J5&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;    JHNUSLBR&lt;a name=\&quot;v3-GTSAbbreviation-JHNUSLBR\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JHNUSLBR&lt;/td&gt;&lt;td&gt;Labor Day, the first Monday in September.&lt;/td&gt;&lt;td&gt;10742&lt;/td&gt;&lt;td&gt;M0901-07 J1&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;    JHNUSMEM&lt;a name=\&quot;v3-GTSAbbreviation-JHNUSMEM\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JHNUSMEM&lt;/td&gt;&lt;td&gt;Memorial Day, the last Monday in May.&lt;/td&gt;&lt;td&gt;10736&lt;/td&gt;&lt;td&gt;M0525-31 J1&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;    JHNUSMEM5&lt;a name=\&quot;v3-GTSAbbreviation-JHNUSMEM5\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JHNUSMEM5&lt;/td&gt;&lt;td&gt;Friday before Memorial Day Weekend&lt;/td&gt;&lt;td&gt;10737&lt;/td&gt;&lt;td&gt;M0522-28 J5&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;    JHNUSMEM6&lt;a name=\&quot;v3-GTSAbbreviation-JHNUSMEM6\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JHNUSMEM6&lt;/td&gt;&lt;td&gt;Saturday of Memorial Day Weekend&lt;/td&gt;&lt;td&gt;10738&lt;/td&gt;&lt;td&gt;M0523-29 J6&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;    JHNUSMLK&lt;a name=\&quot;v3-GTSAbbreviation-JHNUSMLK\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JHNUSMLK&lt;/td&gt;&lt;td&gt;Dr. Martin Luther King, Jr. Day, the third Monday in January.&lt;/td&gt;&lt;td&gt;10734&lt;/td&gt;&lt;td&gt;M0115-21 J1&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;    JHNUSPRE&lt;a name=\&quot;v3-GTSAbbreviation-JHNUSPRE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JHNUSPRE&lt;/td&gt;&lt;td&gt;Washington's Birthday (Presidential Day) the third Monday in February.&lt;/td&gt;&lt;td&gt;10735&lt;/td&gt;&lt;td&gt;M0215-21 J1&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;    JHNUSTKS&lt;a name=\&quot;v3-GTSAbbreviation-JHNUSTKS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JHNUSTKS&lt;/td&gt;&lt;td&gt;Thanksgiving Day, the fourth Thursday in November.&lt;/td&gt;&lt;td&gt;10745&lt;/td&gt;&lt;td&gt;M1122-28 J4&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;    JHNUSTKS5&lt;a name=\&quot;v3-GTSAbbreviation-JHNUSTKS5\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JHNUSTKS5&lt;/td&gt;&lt;td&gt;Friday after Thanksgiving.&lt;/td&gt;&lt;td&gt;10746&lt;/td&gt;&lt;td&gt;M1123-29 J5&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;    JHNUSVET&lt;a name=\&quot;v3-GTSAbbreviation-JHNUSVET\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;JHNUSVET&lt;/td&gt;&lt;td&gt;Veteran's Day, November 11.&lt;/td&gt;&lt;td&gt;10744&lt;/td&gt;&lt;td&gt;M1111&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MO&lt;a name=\&quot;v3-GTSAbbreviation-MO\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;monthly&lt;/td&gt;&lt;td&gt;Monthly at institution specified time.&lt;/td&gt;&lt;td&gt;23942&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PM&lt;a name=\&quot;v3-GTSAbbreviation-PM\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;PM&lt;/td&gt;&lt;td&gt;Every afternoon at institution specified times.&lt;/td&gt;&lt;td&gt;10722&lt;/td&gt;&lt;td&gt;H1200-1800 IST&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;Q1H&lt;a name=\&quot;v3-GTSAbbreviation-Q1H\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;every hour&lt;/td&gt;&lt;td&gt;Every hour at institution specified times.&lt;/td&gt;&lt;td&gt;23936&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;Q2H&lt;a name=\&quot;v3-GTSAbbreviation-Q2H\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;every 2 hours&lt;/td&gt;&lt;td&gt;Every 2 hours at institution specified times.&lt;/td&gt;&lt;td&gt;23937&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;Q3H&lt;a name=\&quot;v3-GTSAbbreviation-Q3H\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;every 3 hours&lt;/td&gt;&lt;td&gt;Every 3 hours at institution specified times.&lt;/td&gt;&lt;td&gt;23938&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;Q4H&lt;a name=\&quot;v3-GTSAbbreviation-Q4H\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Q4H&lt;/td&gt;&lt;td&gt;Every 4 hours at institution specified time&lt;/td&gt;&lt;td&gt;23746&lt;/td&gt;&lt;td&gt;4 h IST&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;Q6H&lt;a name=\&quot;v3-GTSAbbreviation-Q6H\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Q6H&lt;/td&gt;&lt;td&gt;Every 6 hours at institution specified time&lt;/td&gt;&lt;td&gt;23747&lt;/td&gt;&lt;td&gt;6 h IST&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;Q8H&lt;a name=\&quot;v3-GTSAbbreviation-Q8H\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;every 8 hours&lt;/td&gt;&lt;td&gt;Every 8 hours at institution specified times.&lt;/td&gt;&lt;td&gt;23939&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;QD&lt;a name=\&quot;v3-GTSAbbreviation-QD\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;QD&lt;/td&gt;&lt;td&gt;Every day at institution specified times.&lt;/td&gt;&lt;td&gt;23744&lt;/td&gt;&lt;td&gt;1 d IST&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;QID&lt;a name=\&quot;v3-GTSAbbreviation-QID\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;QID&lt;/td&gt;&lt;td&gt;Four times a day at institution specified time&lt;/td&gt;&lt;td&gt;10705&lt;/td&gt;&lt;td&gt;/(6 h) IST&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;QOD&lt;a name=\&quot;v3-GTSAbbreviation-QOD\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;QOD&lt;/td&gt;&lt;td&gt;Every other day at institution specified times.&lt;/td&gt;&lt;td&gt;23745&lt;/td&gt;&lt;td&gt;2 d IST&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TID&lt;a name=\&quot;v3-GTSAbbreviation-TID\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;TID&lt;/td&gt;&lt;td&gt;Three times a day at institution specified time&lt;/td&gt;&lt;td&gt;10704&lt;/td&gt;&lt;td&gt;/(8 h) IST&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;WK&lt;a name=\&quot;v3-GTSAbbreviation-WK\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;weekly&lt;/td&gt;&lt;td&gt;Weekly at institution specified time.&lt;/td&gt;&lt;td&gt;23941&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.extension">fhir:extension</a> ( [
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Element#Extension.extension">fhir:extension</a> [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;packageId&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> fhir:packageId       ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#id">a</a> fhir:Id ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;hl7.fhir.uv.xver-r5.r4&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;version&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> fhir:version       ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;0.0.1-snapshot-3&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;uri&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> fhir:uri       ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">a</a> fhir:Uri ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4&gt;       ]     ] ) ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/StructureDefinition/package-source&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://hl7.org/fhir/StructureDefinition/package-source&gt;     ]
+  ] [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-wg&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://hl7.org/fhir/StructureDefinition/structuredefinition-wg&gt;     ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fhir&quot;     ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">fhir:url</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation&gt;
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;2.1.0&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;GTSAbbreviation&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;GTSAbbreviation&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.experimental">fhir:experimental</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> false] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2019-03-19T19:00:00-05:00&quot;^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">fhir:publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;FHIR Infrastructure&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">fhir:contact</a> ( [
+<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;FHIR Infrastructure&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">fhir:telecom</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;url&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;http://www.hl7.org/Special/committees/fiwg&quot; ]     ] )
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;*Open Issue:* It appears that the printnames are suboptimal and should be improved for many of the existing codes.&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.jurisdiction">fhir:jurisdiction</a> ( [
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://unstats.un.org/unsd/methods/m49/m49.htm&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://unstats.un.org/unsd/methods/m49/m49.htm&gt;       ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;001&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;World&quot; ]     ] )
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.caseSensitive">fhir:caseSensitive</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> true] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.hierarchyMeaning">fhir:hierarchyMeaning</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;is-a&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">fhir:content</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;complete&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property">fhir:property</a> ( [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;Specializes&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;The child code is a more narrow version of the concept represented by the parent code.  I.e. Every child concept is also a valid parent concept.  Used to allow determination of subsumption.  Must be transitive, irreflexive, antisymmetric.&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;Coding&quot; ]
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;Generalizes&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Inverse of Specializes.  Only included as a derived relationship.&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;Coding&quot; ]
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:uri</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id&gt;     ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;The internal identifier for the concept in the HL7 Access database repository.&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;code&quot; ]
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:uri</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-applies-to&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-applies-to&gt;     ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Haven't a clue!&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;string&quot; ]
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:uri</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/concept-properties#status&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://hl7.org/fhir/concept-properties#status&gt;     ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Designation of a concept's state. Normally is not populated unless the state is retired.&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;code&quot; ]
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;notSelectable&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:uri</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/concept-properties#notSelectable&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://hl7.org/fhir/concept-properties#notSelectable&gt;     ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Indicates that the code is abstract - only intended to be used as a selector for other concepts&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;boolean&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">fhir:concept</a> ( [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;AM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;AM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Every morning at institution specified times.&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10721&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;H0600-1200 IST&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;BED&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;at bedtime&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;At bedtime (institution specified time).&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;23940&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;BID&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;BID&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Two times a day at institution specified time&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10703&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;/(12 h) IST&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JB&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;JB&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Regular business days (Monday to Friday excluding holidays)&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10723&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;J1-5 \\JH&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JE&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;JE&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Regular weekends (Saturday and Sunday excluding holidays)&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10724&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;J6-7 \\JH&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JH&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;GTSAbbreviationHolidays&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Holidays&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10725&quot;       ]     ] ) ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">fhir:concept</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;_GTSAbbreviationHolidaysChristianRoman&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;GTSAbbreviationHolidaysChristianRoman&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Christian Holidays (Roman/Gregorian \\[Western\\] Tradition.)&quot; ] ;
+      ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;notSelectable&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#boolean">a</a> fhir:Boolean ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> true         ]       ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;         ]       ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;21080&quot;         ]       ] ) ;
+      ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">fhir:concept</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JHCHREAS&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;JHCHREAS&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Easter Sunday. The Easter date is a rather complex calculation based on Astronomical tables describing full moon dates. Details can be found at \\[http://www.assa.org.au/edm.html, and http://aa.usno.navy.mil/AA/faq/docs/easter.html\\]. Note that the Christian Orthodox Holidays are based on the Julian calendar.&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10730&quot;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JHCHRGFR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;JHCHRGFR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Good Friday, is the Friday right before Easter Sunday.&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10731&quot;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JHCHRNEW&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;JHCHRNEW&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;New Year's Day (January 1)&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10729&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;M0101&quot;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JHCHRPEN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;JHCHRPEN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pentecost Sunday, is seven weeks after Easter (the 50th day of Easter).&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10732&quot;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JHCHRXME&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;JHCHRXME&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Christmas Eve (December 24)&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10727&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;M1224&quot;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JHCHRXMS&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;JHCHRXMS&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Christmas Day (December 25)&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10728&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;M1225&quot;           ]         ] )       ] )     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JHNNL&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;The Netherlands National Holidays&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;**Description:**The Netherlands National Holidays.&quot; ] ;
+      ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;         ]       ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;22658&quot;         ]       ] ) ;
+      ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">fhir:concept</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JHNNLLD&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Liberation day (May 5 every five years)&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;**Description:**Liberation day (May 5 every five years)&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;22660&quot;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JHNNLQD&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Queen's day (April 30)&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;**Description:**Queen's day (April 30)&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;22659&quot;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JHNNLSK&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Sinterklaas (December 5)&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;**Description:**Sinterklaas (December 5)&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;22661&quot;           ]         ] )       ] )     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JHNUS&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;GTSAbbreviationHolidaysUSNational&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;United States National Holidays (public holidays for federal employees established by U.S. Federal law 5 U.S.C. 6103).&quot; ] ;
+      ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;         ]       ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10733&quot;         ]       ] ) ;
+      ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">fhir:concept</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JHNUSCLM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;JHNUSCLM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Columbus Day, the second Monday in October.&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10743&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;M1008-14 J1&quot;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JHNUSIND&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;JHNUSIND&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Independence Day (4th of July)&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10739&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;M0704&quot;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JHNUSIND1&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;JHNUSIND1&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Alternative Monday after 4th of July Weekend \\[5 U.S.C. 6103(b)\\].&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10741&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;M0705 J1&quot;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JHNUSIND5&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;JHNUSIND5&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Alternative Friday before 4th of July Weekend \\[5 U.S.C. 6103(b)\\].&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10740&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;M0703 J5&quot;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JHNUSLBR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;JHNUSLBR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Labor Day, the first Monday in September.&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10742&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;M0901-07 J1&quot;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JHNUSMEM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;JHNUSMEM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Memorial Day, the last Monday in May.&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10736&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;M0525-31 J1&quot;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JHNUSMEM5&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;JHNUSMEM5&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Friday before Memorial Day Weekend&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10737&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;M0522-28 J5&quot;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JHNUSMEM6&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;JHNUSMEM6&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Saturday of Memorial Day Weekend&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10738&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;M0523-29 J6&quot;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JHNUSMLK&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;JHNUSMLK&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Dr. Martin Luther King, Jr. Day, the third Monday in January.&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10734&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;M0115-21 J1&quot;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JHNUSPRE&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;JHNUSPRE&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Washington's Birthday (Presidential Day) the third Monday in February.&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10735&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;M0215-21 J1&quot;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JHNUSTKS&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;JHNUSTKS&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Thanksgiving Day, the fourth Thursday in November.&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10745&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;M1122-28 J4&quot;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JHNUSTKS5&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;JHNUSTKS5&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Friday after Thanksgiving.&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10746&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;M1123-29 J5&quot;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;JHNUSVET&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;JHNUSVET&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Veteran's Day, November 11.&quot; ] ;
+        ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10744&quot;           ]         ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;M1111&quot;           ]         ] )       ] )     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;MO&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;monthly&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Monthly at institution specified time.&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;23942&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;PM&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Every afternoon at institution specified times.&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10722&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;H1200-1800 IST&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;Q1H&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;every hour&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Every hour at institution specified times.&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;23936&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;Q2H&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;every 2 hours&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Every 2 hours at institution specified times.&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;23937&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;Q3H&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;every 3 hours&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Every 3 hours at institution specified times.&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;23938&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;Q4H&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Q4H&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Every 4 hours at institution specified time&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;23746&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;4 h IST&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;Q6H&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Q6H&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Every 6 hours at institution specified time&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;23747&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;6 h IST&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;Q8H&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;every 8 hours&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Every 8 hours at institution specified times.&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;23939&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;QD&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;QD&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Every day at institution specified times.&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;23744&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;1 d IST&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;QID&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;QID&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Four times a day at institution specified time&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10705&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;/(6 h) IST&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;QOD&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;QOD&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Every other day at institution specified times.&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;23745&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;2 d IST&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;TID&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;TID&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Three times a day at institution specified time&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;10704&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;appliesTo&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:String ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;/(8 h) IST&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;WK&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;weekly&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Weekly at institution specified time.&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;23941&quot;       ]     ] )
+  ] ) . # 
+
+</pre>
+
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="CodeSystem-v3-GTSAbbreviation.json.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="CodeSystem-v3-HL7DocumentFormatCodes.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-21 13:39:00 -0600">
+    2026-02-21
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir/uv/xver/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

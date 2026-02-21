@@ -1,0 +1,509 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-RaceAmericanIndianSioux-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-v3-RaceAmericanIndianSioux-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-v3-RaceAmericanIndianSioux-for-R4</b></p><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4\"> </a><a name=\"hcR5-v3-RaceAmericanIndianSioux-for-R4\"> </a><p>This value set expansion contains 33 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1609-7\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1609-7</td><td>Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1610-5\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1610-5</td><td>Blackfoot Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1611-3\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1611-3</td><td>Brule Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1612-1\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1612-1</td><td>Cheyenne River Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1613-9\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1613-9</td><td>Crow Creek Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1614-7\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1614-7</td><td>Dakota Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1615-4\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1615-4</td><td>Flandreau Santee</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1616-2\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1616-2</td><td>Fort Peck</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1617-0\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1617-0</td><td>Lake Traverse Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1618-8\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1618-8</td><td>Lower Brule Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1619-6\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1619-6</td><td>Lower Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1620-4\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1620-4</td><td>Mdewakanton Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1621-2\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1621-2</td><td>Miniconjou</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1622-0\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1622-0</td><td>Oglala Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1623-8\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1623-8</td><td>Pine Ridge Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1624-6\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1624-6</td><td>Pipestone Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1625-3\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1625-3</td><td>Prairie Island Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1626-1\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1626-1</td><td>Prior Lake Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1627-9\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1627-9</td><td>Rosebud Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1628-7\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1628-7</td><td>Sans Arc Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1629-5\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1629-5</td><td>Santee Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1630-3\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1630-3</td><td>Sisseton-Wahpeton</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1631-1\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1631-1</td><td>Sisseton Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1632-9\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1632-9</td><td>Spirit Lake Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1633-7\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1633-7</td><td>Standing Rock Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1634-5\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1634-5</td><td>Teton Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1635-2\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1635-2</td><td>Two Kettle Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1636-0\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1636-0</td><td>Upper Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1637-8\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1637-8</td><td>Wahpekute Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1638-6\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1638-6</td><td>Wahpeton Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1639-4\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1639-4</td><td>Wazhaza Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1640-2\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1640-2</td><td>Yankton Sioux</td></tr><tr><td><a name=\"R5-v3-RaceAmericanIndianSioux-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1641-0\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1641-0</td><td>Yanktonai Sioux</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-RaceAmericanIndianSioux-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-RaceAmericanIndianSioux-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5V3RaceAmericanIndianSiouxForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.RaceAmericanIndianSioux for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v3-RaceAmericanIndianSioux|2.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/v3-RaceAmericanIndianSioux|2.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* \r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://terminology.hl7.org/ValueSet/v3-RaceAmericanIndianSioux|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "1609-7" ] ;
+         fhir:display [ fhir:v "Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1610-5" ] ;
+         fhir:display [ fhir:v "Blackfoot Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1611-3" ] ;
+         fhir:display [ fhir:v "Brule Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1612-1" ] ;
+         fhir:display [ fhir:v "Cheyenne River Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1613-9" ] ;
+         fhir:display [ fhir:v "Crow Creek Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1614-7" ] ;
+         fhir:display [ fhir:v "Dakota Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1615-4" ] ;
+         fhir:display [ fhir:v "Flandreau Santee" ]
+       ] [
+         fhir:code [ fhir:v "1616-2" ] ;
+         fhir:display [ fhir:v "Fort Peck" ]
+       ] [
+         fhir:code [ fhir:v "1617-0" ] ;
+         fhir:display [ fhir:v "Lake Traverse Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1618-8" ] ;
+         fhir:display [ fhir:v "Lower Brule Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1619-6" ] ;
+         fhir:display [ fhir:v "Lower Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1620-4" ] ;
+         fhir:display [ fhir:v "Mdewakanton Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1621-2" ] ;
+         fhir:display [ fhir:v "Miniconjou" ]
+       ] [
+         fhir:code [ fhir:v "1622-0" ] ;
+         fhir:display [ fhir:v "Oglala Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1623-8" ] ;
+         fhir:display [ fhir:v "Pine Ridge Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1624-6" ] ;
+         fhir:display [ fhir:v "Pipestone Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1625-3" ] ;
+         fhir:display [ fhir:v "Prairie Island Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1626-1" ] ;
+         fhir:display [ fhir:v "Prior Lake Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1627-9" ] ;
+         fhir:display [ fhir:v "Rosebud Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1628-7" ] ;
+         fhir:display [ fhir:v "Sans Arc Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1629-5" ] ;
+         fhir:display [ fhir:v "Santee Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1630-3" ] ;
+         fhir:display [ fhir:v "Sisseton-Wahpeton" ]
+       ] [
+         fhir:code [ fhir:v "1631-1" ] ;
+         fhir:display [ fhir:v "Sisseton Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1632-9" ] ;
+         fhir:display [ fhir:v "Spirit Lake Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1633-7" ] ;
+         fhir:display [ fhir:v "Standing Rock Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1634-5" ] ;
+         fhir:display [ fhir:v "Teton Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1635-2" ] ;
+         fhir:display [ fhir:v "Two Kettle Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1636-0" ] ;
+         fhir:display [ fhir:v "Upper Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1637-8" ] ;
+         fhir:display [ fhir:v "Wahpekute Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1638-6" ] ;
+         fhir:display [ fhir:v "Wahpeton Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1639-4" ] ;
+         fhir:display [ fhir:v "Wazhaza Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1640-2" ] ;
+         fhir:display [ fhir:v "Yankton Sioux" ]
+       ] [
+         fhir:code [ fhir:v "1641-0" ] ;
+         fhir:display [ fhir:v "Yanktonai Sioux" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1609-7" ] ;
+       fhir:display [ fhir:v "Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1610-5" ] ;
+       fhir:display [ fhir:v "Blackfoot Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1611-3" ] ;
+       fhir:display [ fhir:v "Brule Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1612-1" ] ;
+       fhir:display [ fhir:v "Cheyenne River Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1613-9" ] ;
+       fhir:display [ fhir:v "Crow Creek Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1614-7" ] ;
+       fhir:display [ fhir:v "Dakota Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1615-4" ] ;
+       fhir:display [ fhir:v "Flandreau Santee" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1616-2" ] ;
+       fhir:display [ fhir:v "Fort Peck" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1617-0" ] ;
+       fhir:display [ fhir:v "Lake Traverse Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1618-8" ] ;
+       fhir:display [ fhir:v "Lower Brule Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1619-6" ] ;
+       fhir:display [ fhir:v "Lower Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1620-4" ] ;
+       fhir:display [ fhir:v "Mdewakanton Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1621-2" ] ;
+       fhir:display [ fhir:v "Miniconjou" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1622-0" ] ;
+       fhir:display [ fhir:v "Oglala Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1623-8" ] ;
+       fhir:display [ fhir:v "Pine Ridge Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1624-6" ] ;
+       fhir:display [ fhir:v "Pipestone Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1625-3" ] ;
+       fhir:display [ fhir:v "Prairie Island Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1626-1" ] ;
+       fhir:display [ fhir:v "Prior Lake Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1627-9" ] ;
+       fhir:display [ fhir:v "Rosebud Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1628-7" ] ;
+       fhir:display [ fhir:v "Sans Arc Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1629-5" ] ;
+       fhir:display [ fhir:v "Santee Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1630-3" ] ;
+       fhir:display [ fhir:v "Sisseton-Wahpeton" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1631-1" ] ;
+       fhir:display [ fhir:v "Sisseton Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1632-9" ] ;
+       fhir:display [ fhir:v "Spirit Lake Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1633-7" ] ;
+       fhir:display [ fhir:v "Standing Rock Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1634-5" ] ;
+       fhir:display [ fhir:v "Teton Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1635-2" ] ;
+       fhir:display [ fhir:v "Two Kettle Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1636-0" ] ;
+       fhir:display [ fhir:v "Upper Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1637-8" ] ;
+       fhir:display [ fhir:v "Wahpekute Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1638-6" ] ;
+       fhir:display [ fhir:v "Wahpeton Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1639-4" ] ;
+       fhir:display [ fhir:v "Wazhaza Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1640-2" ] ;
+       fhir:display [ fhir:v "Yankton Sioux" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1641-0" ] ;
+       fhir:display [ fhir:v "Yanktonai Sioux" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

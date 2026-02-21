@@ -1,0 +1,940 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/Map-R5-endpoint-payload-type-for-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Map-R5-endpoint-payload-type-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap Map-R5-endpoint-payload-type-for-R4</b></p><a name=\"Map-R5-endpoint-payload-type-for-R4\"> </a><a name=\"hcMap-R5-endpoint-payload-type-for-R4\"> </a><p>Mapping from http://hl7.org/fhir/ValueSet/endpoint-payload-type|5.0.0 to <a href=\"http://hl7.org/fhir/R4/valueset-endpoint-payload-type.html\">Endpoint Payload Type</a></p><br/><p><b>Group 1 </b>Mapping from <code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>urn:hl7-org:sdwg:ccda-nonXMLBody:2.1 (For documents following C-CDA 2.1 constraints using a non structured body.)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:hl7-org:sdwg:ccda-structuredBody:2.1 (For documents following C-CDA 2.1 constraints using a structured body.)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe.palm:apsr:2016 (PALM APSR)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:card:CPN:2017 (CARD CPN)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:iti:appc:2016:consent (ITI APPC)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:iti:xds:2017:mimeTypeSufficient (mimeType Sufficient)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:pcc:360x:hl7:OMG:O19:2017 (PCC 360X Referral Request)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:pcc:360x:hl7:OSU:O51:2017 (PCC 360X Referral Status Update)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:pcc:360x:hl7:SIU:S12:2017 (PCC 360X Appointment Notification)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:pcc:360x:hl7:SIU:S13:2017 (PCC 360X Appointment Reschedule Notification)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:pcc:360x:hl7:SIU:S15:2017 (PCC 360X Appointment Cancel Notification)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:pcc:360x:hl7:SIU:S26:2017 (PCC 360X Appointment No-show Notification)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:pcc:ic:2008 (Immunization Registry Content (IRC))</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:pcc:ips:2020 (PCC IPS)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:pcc:pcs-cr:2018 (PCC PCS-CR)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:pcc:pcs-cs:2018 (PCC PCS-CS)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:pcc:ript:2017 (PCC RIPT)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:pharm:cma:2017 (Pharmacy CMA)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:pharm:mtp:2015 (Pharmacy MTP)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:qrph:BFDR-Birth:2014 (QRPH BFDR Birth CDA document)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:qrph:BFDR-FDeath:2014 (QRPH BFDR Death CDA document)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:qrph:HPoCUS:2014 (QRPH HPoC US)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:qrph:HPoCUV:2014 (QRPH HPoC UV)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:qrph:LDS-VR:2013 (QRPH LDS-VR)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:qrph:NHS-CatIII-UV:2015 (QRPH EHDI NHS Cat III)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:qrph:NHS-Catl-UV:2015 (QRPH EHDI NHS Cat I)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:qrph:bfdr:2011 (QRPH BFDR)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:qrph:crd:2008 (QRPH CRD)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:qrph:crpc:2012 (QRPH CRPC)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:qrph:dsc:2008 (QRPH DSC)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:qrph:ehcp:2010 (QRPH EHCP)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:qrph:ehdi:2014 (QRPH EHDI)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:qrph:ehdiwd:2013 (QRPH EHDI-WD)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:qrph:fp:2014 (QRPH FP)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:qrph:fp:2017 (QRPH FP V2)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:qrph:hbs:2009 (QRPH HBS)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:qrph:hw:2013 (QRPH HW)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:qrph:mch:2009 (QRPH MCH)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:qrph:ms-vrdr:2013 (QRPH MS-VRDR)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:qrph:prph:2009 (QRPH PRPH-Ca)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:qrph:prq:2019 (QRPH PRQ)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:qrph:qmd-eh:2010 (QRPH QMD-EH)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:qrph:qme-eh:2010 (QRPH QME-EH)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:ihe:qrph:vrdr:2013 (QRPH VRDR)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code> to <code>urn:oid:1.3.6.1.4.1.19376.1.2.3</code></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>urn:hl7-org:sdwg:ccda-nonXMLBody:1.1 (For documents following C-CDA 1.1 constraints using a non structured body.)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>urn:hl7-org:sdwg:ccda-nonXMLBody:1.1 (For documents following C-CDA constraints using a non structured body.)</td><td>TODO</td></tr><tr><td>urn:hl7-org:sdwg:ccda-structuredBody:1.1 (For documents following C-CDA 1.1 constraints using a structured body.)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>urn:hl7-org:sdwg:ccda-structuredBody:1.1 (For documents following C-CDA constraints using a structured body.)</td><td>TODO</td></tr><tr><td>urn:ihe:card:CRC:2012 (CARD CRC)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:card:CRC:2012 (Cardiology CRC)</td><td>TODO</td></tr><tr><td>urn:ihe:card:EPRC-IE:2014 (CARD EPRC-IE)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:card:EPRC-IE:2014 (Cardiology EPRC-IE)</td><td>TODO</td></tr><tr><td>urn:ihe:card:imaging:2011 (CARD Imaging)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:card:imaging:2011 (Cardiac Imaging Report)</td><td>TODO</td></tr><tr><td>urn:ihe:dent:CDA:ImagingReportStructuredHeadings:2013 (DENT CDA)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:dent:CDA:ImagingReportStructuredHeadings:2013 (Dental CDA)</td><td>TODO</td></tr><tr><td>urn:ihe:dent:PDF (DENT PDF)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:dent:PDF (Dental PDF)</td><td>TODO</td></tr><tr><td>urn:ihe:dent:TEXT (DENT TEXT)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:dent:TEXT (Dental Text)</td><td>TODO</td></tr><tr><td>urn:ihe:iti:bppc-sd:2007 (ITI BPPC-SD)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:iti:bppc-sd:2007 (Basic Patient Privacy Consents with Scanned Document)</td><td>TODO</td></tr><tr><td>urn:ihe:iti:bppc:2007 (ITI BPPC)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:iti:bppc:2007 (Basic Patient Privacy Consents)</td><td>TODO</td></tr><tr><td>urn:ihe:iti:dsg:detached:2014 (ITI DSG Detached)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:iti:dsg:detached:2014 (DSG Detached Document)</td><td>TODO</td></tr><tr><td>urn:ihe:iti:dsg:enveloping:2014 (ITI DSG Enveloping)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:iti:dsg:enveloping:2014 (DSG Enveloping Document)</td><td>TODO</td></tr><tr><td>urn:ihe:iti:xds-sd:pdf:2008 (ITI XDS-SD PDF)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:iti:xds-sd:pdf:2008 (PDF embedded in CDA per XDS-SD profile)</td><td>TODO</td></tr><tr><td>urn:ihe:iti:xds-sd:text:2008 (ITI XDS-SD TEXT)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:iti:xds-sd:text:2008 (Text embedded in CDA per XDS-SD profile)</td><td>TODO</td></tr><tr><td>urn:ihe:iti:xdw:2011:workflowDoc (ITI XDW)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:iti:xdw:2011:workflowDoc (XDW Workflow Document)</td><td>TODO</td></tr><tr><td>urn:ihe:lab:xd-lab:2008 (LAB XD-LAB)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:lab:xd-lab:2008 (CDA Laboratory Report)</td><td>TODO</td></tr><tr><td>urn:ihe:pcc:apr:edu:2008 (PCC APR EDU)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pcc:apr:edu:2008 (Antepartum Record (APR) - Education)</td><td>TODO</td></tr><tr><td>urn:ihe:pcc:apr:handp:2008 (PCC APR HANDP)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pcc:apr:handp:2008 (Antepartum Record (APR) - History and Physical)</td><td>TODO</td></tr><tr><td>urn:ihe:pcc:apr:lab:2008 (PCC APR LAB)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pcc:apr:lab:2008 (Antepartum Record (APR) - Laboratory)</td><td>TODO</td></tr><tr><td>urn:ihe:pcc:aps:2007 (PCC APS)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pcc:aps:2007 (IHE Antepartum Summary)</td><td>TODO</td></tr><tr><td>urn:ihe:pcc:cm:2008 (Care Management (CM))</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pcc:cm:2008 (Care Management (CM))</td><td>TODO</td></tr><tr><td>urn:ihe:pcc:crc:2008 (PCC CRC)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pcc:crc:2008 (Cancer Registry Content (CRC))</td><td>TODO</td></tr><tr><td>urn:ihe:pcc:ctn:2007 (PCC CTN)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pcc:ctn:2007 (PCC CTN)</td><td>TODO</td></tr><tr><td>urn:ihe:pcc:edes:2007 (PCC EDES)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pcc:edes:2007 (Emergency Department Encounter Summary (EDES))</td><td>TODO</td></tr><tr><td>urn:ihe:pcc:edpn:2007 (PCC EDPN)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pcc:edpn:2007 (PCC EDPN)</td><td>TODO</td></tr><tr><td>urn:ihe:pcc:edr:2007 (PCC EDR)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pcc:edr:2007 (Emergency Department Referral (EDR))</td><td>TODO</td></tr><tr><td>urn:ihe:pcc:ets:2011 (PCC ETS)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pcc:ets:2011 (PCC ETS)</td><td>TODO</td></tr><tr><td>urn:ihe:pcc:hp:2008 (PCC HP)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pcc:hp:2008 (PCC HP)</td><td>TODO</td></tr><tr><td>urn:ihe:pcc:its:2011 (PCC ITS)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pcc:its:2011 (PCC ITS)</td><td>TODO</td></tr><tr><td>urn:ihe:pcc:ldhp:2009 (PCC LDHP)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pcc:ldhp:2009 (PCC LDHP)</td><td>TODO</td></tr><tr><td>urn:ihe:pcc:lds:2009 (PCC LDS)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pcc:lds:2009 (PCC LDS)</td><td>TODO</td></tr><tr><td>urn:ihe:pcc:mds:2009 (PCC MDS)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pcc:mds:2009 (PCC MDS)</td><td>TODO</td></tr><tr><td>urn:ihe:pcc:nds:2010 (PCC NDS)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pcc:nds:2010 (PCC NDS)</td><td>TODO</td></tr><tr><td>urn:ihe:pcc:nn:2007 (PCC NN)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pcc:nn:2007 (PCC NN)</td><td>TODO</td></tr><tr><td>urn:ihe:pcc:ppvs:2010 (PCC PPVS)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pcc:ppvs:2010 (PCC PPVS)</td><td>TODO</td></tr><tr><td>urn:ihe:pcc:tn:2007 (PCC TN)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pcc:tn:2007 (PCC TN)</td><td>TODO</td></tr><tr><td>urn:ihe:pcc:trs:2011 (PCC TRS)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pcc:trs:2011 (PCC TRS)</td><td>TODO</td></tr><tr><td>urn:ihe:pcc:xds-ms:2007 (PCC XDS-MS)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pcc:xds-ms:2007 (XDS Medical Summaries)</td><td>TODO</td></tr><tr><td>urn:ihe:pcc:xphr:2007 (PCC XPHR)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pcc:xphr:2007 (HL7 CCD Document)</td><td>TODO</td></tr><tr><td>urn:ihe:pharm:dis:2010 (Pharmacy DIS)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pharm:dis:2010 (Pharmacy DIS)</td><td>TODO</td></tr><tr><td>urn:ihe:pharm:padv:2010 (Pharmacy PADV)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pharm:padv:2010 (Pharmacy PADV)</td><td>TODO</td></tr><tr><td>urn:ihe:pharm:pml:2013 (Pharmacy PML)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pharm:pml:2013 (Pharmacy PML)</td><td>TODO</td></tr><tr><td>urn:ihe:pharm:pre:2010 (Pharmacy PRE)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:pharm:pre:2010 (Pharmacy Pre)</td><td>TODO</td></tr><tr><td>urn:ihe:rad:CDA:ImagingReportStructuredHeadings:2013 (RAD CDA)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:rad:CDA:ImagingReportStructuredHeadings:2013 (Radiology XDS-I Structured CDA)</td><td>TODO</td></tr><tr><td>urn:ihe:rad:PDF (RAD PDF)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:rad:PDF (Radiology XDS-I PDF)</td><td>TODO</td></tr><tr><td>urn:ihe:rad:TEXT (RAD TEXT)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>urn:ihe:rad:TEXT (Radiology XDS-I Text)</td><td>TODO</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-endpoint-payload-type.html\">Endpoint Payload Typeversion: 2.0.1)</a> to <a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-endpoint-payload-type.html\">Endpoint Payload Typeversion: 2.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>any</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>any</td><td>TODO</td></tr><tr><td>none</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>none</td><td>TODO</td></tr></table><hr/><p><b>Group 4 </b>Mapping from <a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-HL7DocumentFormatCodes.html\">HL7 Document Format Codesversion: 4.1.0)</a> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>urn:hl7-org:sdwg:ccda-nonXMLBody:2.1 (ccda-nonXMLBody:2.1)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:hl7-org:sdwg:ccda-nonXMLBody:2.2 (ccda-nonXMLBody:2.2)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:hl7-org:sdwg:ccda-structuredBody:2.1 (ccda-structuredBody:2.1)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:hl7-org:sdwg:ccda-structuredBody:2.2 (ccda-structuredBody:2.2)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:hl7-org:sdwg:pacp-nonXMLBody:1.0 (pacp-nonXMLBody:1.0)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:hl7-org:sdwg:pacp-nonXMLBody:1.1 (pacp-nonXMLBody:1.1)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:hl7-org:sdwg:pacp-nonXMLBody:1.2 (pacp-nonXMLBody:1.2)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:hl7-org:sdwg:pacp-nonXMLBody:1.3 (pacp-nonXMLBody:1.3)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:hl7-org:sdwg:pacp-structuredBody:1.0 (pacp-structuredBody:1.0)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:hl7-org:sdwg:pacp-structuredBody:1.1 (pacp-structuredBody:1.1)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:hl7-org:sdwg:pacp-structuredBody:1.2 (pacp-structuredBody:1.2)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>urn:hl7-org:sdwg:pacp-structuredBody:1.3 (pacp-structuredBody:1.3)</td><td colspan=\"2\" style=\"background-color: #efefef\">(not mapped)</td></tr></table><hr/><p><b>Group 5 </b>Mapping from <a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-HL7DocumentFormatCodes.html\">HL7 Document Format Codesversion: 4.1.0)</a> to <code>urn:oid:1.3.6.1.4.1.19376.1.2.3</code></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>urn:hl7-org:sdwg:ccda-nonXMLBody:1.1 (ccda-nonXMLBody:1.1)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>urn:hl7-org:sdwg:ccda-nonXMLBody:1.1 (For documents following C-CDA constraints using a non structured body.)</td><td>TODO</td></tr><tr><td>urn:hl7-org:sdwg:ccda-structuredBody:1.1 (ccda-structuredBody:1.1)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>urn:hl7-org:sdwg:ccda-structuredBody:1.1 (For documents following C-CDA constraints using a structured body.)</td><td>TODO</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-endpoint-payload-type-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-endpoint-payload-type-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "MapR5EndpointPayloadTypeForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for ValueSet R5-endpoint-payload-type-for-R4 from FHIR R5 to FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T13:36:49.3376092-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of concepts from ValueSet `http://hl7.org/fhir/ValueSet/endpoint-payload-type|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/ValueSet/endpoint-payload-type|5.0.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/endpoint-payload-type?version=5.0.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/ValueSet/endpoint-payload-type|4.0.1"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/endpoint-payload-type?version=4.0.1>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+       fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-nonXMLBody:2.1" ] ;
+       fhir:display [ fhir:v "For documents following C-CDA 2.1 constraints using a non structured body." ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-structuredBody:2.1" ] ;
+       fhir:display [ fhir:v "For documents following C-CDA 2.1 constraints using a structured body." ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe.palm:apsr:2016" ] ;
+       fhir:display [ fhir:v "PALM APSR" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:card:CPN:2017" ] ;
+       fhir:display [ fhir:v "CARD CPN" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:iti:appc:2016:consent" ] ;
+       fhir:display [ fhir:v "ITI APPC" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:iti:xds:2017:mimeTypeSufficient" ] ;
+       fhir:display [ fhir:v "mimeType Sufficient" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:360x:hl7:OMG:O19:2017" ] ;
+       fhir:display [ fhir:v "PCC 360X Referral Request" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:360x:hl7:OSU:O51:2017" ] ;
+       fhir:display [ fhir:v "PCC 360X Referral Status Update" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:360x:hl7:SIU:S12:2017" ] ;
+       fhir:display [ fhir:v "PCC 360X Appointment Notification" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:360x:hl7:SIU:S13:2017" ] ;
+       fhir:display [ fhir:v "PCC 360X Appointment Reschedule Notification" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:360x:hl7:SIU:S15:2017" ] ;
+       fhir:display [ fhir:v "PCC 360X Appointment Cancel Notification" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:360x:hl7:SIU:S26:2017" ] ;
+       fhir:display [ fhir:v "PCC 360X Appointment No-show Notification" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:ic:2008" ] ;
+       fhir:display [ fhir:v "Immunization Registry Content (IRC)" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:ips:2020" ] ;
+       fhir:display [ fhir:v "PCC IPS" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:pcs-cr:2018" ] ;
+       fhir:display [ fhir:v "PCC PCS-CR" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:pcs-cs:2018" ] ;
+       fhir:display [ fhir:v "PCC PCS-CS" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:ript:2017" ] ;
+       fhir:display [ fhir:v "PCC RIPT" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pharm:cma:2017" ] ;
+       fhir:display [ fhir:v "Pharmacy CMA" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pharm:mtp:2015" ] ;
+       fhir:display [ fhir:v "Pharmacy MTP" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:qrph:BFDR-Birth:2014" ] ;
+       fhir:display [ fhir:v "QRPH BFDR Birth CDA document" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:qrph:BFDR-FDeath:2014" ] ;
+       fhir:display [ fhir:v "QRPH BFDR Death CDA document" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:qrph:HPoCUS:2014" ] ;
+       fhir:display [ fhir:v "QRPH HPoC US" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:qrph:HPoCUV:2014" ] ;
+       fhir:display [ fhir:v "QRPH HPoC UV" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:qrph:LDS-VR:2013" ] ;
+       fhir:display [ fhir:v "QRPH LDS-VR" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:qrph:NHS-CatIII-UV:2015" ] ;
+       fhir:display [ fhir:v "QRPH EHDI NHS Cat III" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:qrph:NHS-Catl-UV:2015" ] ;
+       fhir:display [ fhir:v "QRPH EHDI NHS Cat I" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:qrph:bfdr:2011" ] ;
+       fhir:display [ fhir:v "QRPH BFDR" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:qrph:crd:2008" ] ;
+       fhir:display [ fhir:v "QRPH CRD" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:qrph:crpc:2012" ] ;
+       fhir:display [ fhir:v "QRPH CRPC" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:qrph:dsc:2008" ] ;
+       fhir:display [ fhir:v "QRPH DSC" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:qrph:ehcp:2010" ] ;
+       fhir:display [ fhir:v "QRPH EHCP" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:qrph:ehdi:2014" ] ;
+       fhir:display [ fhir:v "QRPH EHDI" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:qrph:ehdiwd:2013" ] ;
+       fhir:display [ fhir:v "QRPH EHDI-WD" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:qrph:fp:2014" ] ;
+       fhir:display [ fhir:v "QRPH FP" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:qrph:fp:2017" ] ;
+       fhir:display [ fhir:v "QRPH FP V2" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:qrph:hbs:2009" ] ;
+       fhir:display [ fhir:v "QRPH HBS" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:qrph:hw:2013" ] ;
+       fhir:display [ fhir:v "QRPH HW" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:qrph:mch:2009" ] ;
+       fhir:display [ fhir:v "QRPH MCH" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:qrph:ms-vrdr:2013" ] ;
+       fhir:display [ fhir:v "QRPH MS-VRDR" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:qrph:prph:2009" ] ;
+       fhir:display [ fhir:v "QRPH PRPH-Ca" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:qrph:prq:2019" ] ;
+       fhir:display [ fhir:v "QRPH PRQ" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:qrph:qmd-eh:2010" ] ;
+       fhir:display [ fhir:v "QRPH QMD-EH" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:qrph:qme-eh:2010" ] ;
+       fhir:display [ fhir:v "QRPH QME-EH" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:qrph:vrdr:2013" ] ;
+       fhir:display [ fhir:v "QRPH VRDR" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+       fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+     ] ;
+     fhir:target [
+       fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3"^^xsd:anyURI ;
+       fhir:l <urn:oid:1.3.6.1.4.1.19376.1.2.3>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-nonXMLBody:1.1" ] ;
+       fhir:display [ fhir:v "For documents following C-CDA 1.1 constraints using a non structured body." ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-nonXMLBody:1.1" ] ;
+         fhir:display [ fhir:v "For documents following C-CDA constraints using a non structured body." ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-structuredBody:1.1" ] ;
+       fhir:display [ fhir:v "For documents following C-CDA 1.1 constraints using a structured body." ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-structuredBody:1.1" ] ;
+         fhir:display [ fhir:v "For documents following C-CDA constraints using a structured body." ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:card:CRC:2012" ] ;
+       fhir:display [ fhir:v "CARD CRC" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:card:CRC:2012" ] ;
+         fhir:display [ fhir:v "Cardiology CRC" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:card:EPRC-IE:2014" ] ;
+       fhir:display [ fhir:v "CARD EPRC-IE" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:card:EPRC-IE:2014" ] ;
+         fhir:display [ fhir:v "Cardiology EPRC-IE" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:card:imaging:2011" ] ;
+       fhir:display [ fhir:v "CARD Imaging" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:card:imaging:2011" ] ;
+         fhir:display [ fhir:v "Cardiac Imaging Report" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:dent:CDA:ImagingReportStructuredHeadings:2013" ] ;
+       fhir:display [ fhir:v "DENT CDA" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:dent:CDA:ImagingReportStructuredHeadings:2013" ] ;
+         fhir:display [ fhir:v "Dental CDA" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:dent:PDF" ] ;
+       fhir:display [ fhir:v "DENT PDF" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:dent:PDF" ] ;
+         fhir:display [ fhir:v "Dental PDF" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:dent:TEXT" ] ;
+       fhir:display [ fhir:v "DENT TEXT" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:dent:TEXT" ] ;
+         fhir:display [ fhir:v "Dental Text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:iti:bppc-sd:2007" ] ;
+       fhir:display [ fhir:v "ITI BPPC-SD" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:iti:bppc-sd:2007" ] ;
+         fhir:display [ fhir:v "Basic Patient Privacy Consents with Scanned Document" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:iti:bppc:2007" ] ;
+       fhir:display [ fhir:v "ITI BPPC" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:iti:bppc:2007" ] ;
+         fhir:display [ fhir:v "Basic Patient Privacy Consents" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:iti:dsg:detached:2014" ] ;
+       fhir:display [ fhir:v "ITI DSG Detached" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:iti:dsg:detached:2014" ] ;
+         fhir:display [ fhir:v "DSG Detached Document" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:iti:dsg:enveloping:2014" ] ;
+       fhir:display [ fhir:v "ITI DSG Enveloping" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:iti:dsg:enveloping:2014" ] ;
+         fhir:display [ fhir:v "DSG Enveloping Document" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:iti:xds-sd:pdf:2008" ] ;
+       fhir:display [ fhir:v "ITI XDS-SD PDF" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:iti:xds-sd:pdf:2008" ] ;
+         fhir:display [ fhir:v "PDF embedded in CDA per XDS-SD profile" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:iti:xds-sd:text:2008" ] ;
+       fhir:display [ fhir:v "ITI XDS-SD TEXT" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:iti:xds-sd:text:2008" ] ;
+         fhir:display [ fhir:v "Text embedded in CDA per XDS-SD profile" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:iti:xdw:2011:workflowDoc" ] ;
+       fhir:display [ fhir:v "ITI XDW" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:iti:xdw:2011:workflowDoc" ] ;
+         fhir:display [ fhir:v "XDW Workflow Document" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:lab:xd-lab:2008" ] ;
+       fhir:display [ fhir:v "LAB XD-LAB" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:lab:xd-lab:2008" ] ;
+         fhir:display [ fhir:v "CDA Laboratory Report" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:apr:edu:2008" ] ;
+       fhir:display [ fhir:v "PCC APR EDU" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pcc:apr:edu:2008" ] ;
+         fhir:display [ fhir:v "Antepartum Record (APR) - Education" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:apr:handp:2008" ] ;
+       fhir:display [ fhir:v "PCC APR HANDP" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pcc:apr:handp:2008" ] ;
+         fhir:display [ fhir:v "Antepartum Record (APR) - History and Physical" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:apr:lab:2008" ] ;
+       fhir:display [ fhir:v "PCC APR LAB" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pcc:apr:lab:2008" ] ;
+         fhir:display [ fhir:v "Antepartum Record (APR) - Laboratory" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:aps:2007" ] ;
+       fhir:display [ fhir:v "PCC APS" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pcc:aps:2007" ] ;
+         fhir:display [ fhir:v "IHE Antepartum Summary" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:cm:2008" ] ;
+       fhir:display [ fhir:v "Care Management (CM)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pcc:cm:2008" ] ;
+         fhir:display [ fhir:v "Care Management (CM)" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:crc:2008" ] ;
+       fhir:display [ fhir:v "PCC CRC" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pcc:crc:2008" ] ;
+         fhir:display [ fhir:v "Cancer Registry Content (CRC)" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:ctn:2007" ] ;
+       fhir:display [ fhir:v "PCC CTN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pcc:ctn:2007" ] ;
+         fhir:display [ fhir:v "PCC CTN" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:edes:2007" ] ;
+       fhir:display [ fhir:v "PCC EDES" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pcc:edes:2007" ] ;
+         fhir:display [ fhir:v "Emergency Department Encounter Summary (EDES)" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:edpn:2007" ] ;
+       fhir:display [ fhir:v "PCC EDPN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pcc:edpn:2007" ] ;
+         fhir:display [ fhir:v "PCC EDPN" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:edr:2007" ] ;
+       fhir:display [ fhir:v "PCC EDR" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pcc:edr:2007" ] ;
+         fhir:display [ fhir:v "Emergency Department Referral (EDR)" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:ets:2011" ] ;
+       fhir:display [ fhir:v "PCC ETS" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pcc:ets:2011" ] ;
+         fhir:display [ fhir:v "PCC ETS" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:hp:2008" ] ;
+       fhir:display [ fhir:v "PCC HP" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pcc:hp:2008" ] ;
+         fhir:display [ fhir:v "PCC HP" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:its:2011" ] ;
+       fhir:display [ fhir:v "PCC ITS" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pcc:its:2011" ] ;
+         fhir:display [ fhir:v "PCC ITS" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:ldhp:2009" ] ;
+       fhir:display [ fhir:v "PCC LDHP" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pcc:ldhp:2009" ] ;
+         fhir:display [ fhir:v "PCC LDHP" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:lds:2009" ] ;
+       fhir:display [ fhir:v "PCC LDS" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pcc:lds:2009" ] ;
+         fhir:display [ fhir:v "PCC LDS" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:mds:2009" ] ;
+       fhir:display [ fhir:v "PCC MDS" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pcc:mds:2009" ] ;
+         fhir:display [ fhir:v "PCC MDS" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:nds:2010" ] ;
+       fhir:display [ fhir:v "PCC NDS" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pcc:nds:2010" ] ;
+         fhir:display [ fhir:v "PCC NDS" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:nn:2007" ] ;
+       fhir:display [ fhir:v "PCC NN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pcc:nn:2007" ] ;
+         fhir:display [ fhir:v "PCC NN" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:ppvs:2010" ] ;
+       fhir:display [ fhir:v "PCC PPVS" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pcc:ppvs:2010" ] ;
+         fhir:display [ fhir:v "PCC PPVS" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:tn:2007" ] ;
+       fhir:display [ fhir:v "PCC TN" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pcc:tn:2007" ] ;
+         fhir:display [ fhir:v "PCC TN" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:trs:2011" ] ;
+       fhir:display [ fhir:v "PCC TRS" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pcc:trs:2011" ] ;
+         fhir:display [ fhir:v "PCC TRS" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:xds-ms:2007" ] ;
+       fhir:display [ fhir:v "PCC XDS-MS" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pcc:xds-ms:2007" ] ;
+         fhir:display [ fhir:v "XDS Medical Summaries" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pcc:xphr:2007" ] ;
+       fhir:display [ fhir:v "PCC XPHR" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pcc:xphr:2007" ] ;
+         fhir:display [ fhir:v "HL7 CCD Document" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pharm:dis:2010" ] ;
+       fhir:display [ fhir:v "Pharmacy DIS" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pharm:dis:2010" ] ;
+         fhir:display [ fhir:v "Pharmacy DIS" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pharm:padv:2010" ] ;
+       fhir:display [ fhir:v "Pharmacy PADV" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pharm:padv:2010" ] ;
+         fhir:display [ fhir:v "Pharmacy PADV" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pharm:pml:2013" ] ;
+       fhir:display [ fhir:v "Pharmacy PML" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pharm:pml:2013" ] ;
+         fhir:display [ fhir:v "Pharmacy PML" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:pharm:pre:2010" ] ;
+       fhir:display [ fhir:v "Pharmacy PRE" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:pharm:pre:2010" ] ;
+         fhir:display [ fhir:v "Pharmacy Pre" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:rad:CDA:ImagingReportStructuredHeadings:2013" ] ;
+       fhir:display [ fhir:v "RAD CDA" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:rad:CDA:ImagingReportStructuredHeadings:2013" ] ;
+         fhir:display [ fhir:v "Radiology XDS-I Structured CDA" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:rad:PDF" ] ;
+       fhir:display [ fhir:v "RAD PDF" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:rad:PDF" ] ;
+         fhir:display [ fhir:v "Radiology XDS-I PDF" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:ihe:rad:TEXT" ] ;
+       fhir:display [ fhir:v "RAD TEXT" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:ihe:rad:TEXT" ] ;
+         fhir:display [ fhir:v "Radiology XDS-I Text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://terminology.hl7.org/CodeSystem/endpoint-payload-type"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/endpoint-payload-type>
+     ] ;
+     fhir:sourceVersion [ fhir:v "2.0.1" ] ;
+     fhir:target [
+       fhir:v "http://terminology.hl7.org/CodeSystem/endpoint-payload-type"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/endpoint-payload-type>
+     ] ;
+     fhir:targetVersion [ fhir:v "2.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "any" ] ;
+       fhir:display [ fhir:v "Any" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "any" ] ;
+         fhir:display [ fhir:v "Any" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "none" ] ;
+       fhir:display [ fhir:v "None" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "none" ] ;
+         fhir:display [ fhir:v "None" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes>
+     ] ;
+     fhir:sourceVersion [ fhir:v "4.1.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-nonXMLBody:2.1" ] ;
+       fhir:display [ fhir:v "ccda-nonXMLBody:2.1" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-nonXMLBody:2.2" ] ;
+       fhir:display [ fhir:v "ccda-nonXMLBody:2.2" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-structuredBody:2.1" ] ;
+       fhir:display [ fhir:v "ccda-structuredBody:2.1" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-structuredBody:2.2" ] ;
+       fhir:display [ fhir:v "ccda-structuredBody:2.2" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:pacp-nonXMLBody:1.0" ] ;
+       fhir:display [ fhir:v "pacp-nonXMLBody:1.0" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:pacp-nonXMLBody:1.1" ] ;
+       fhir:display [ fhir:v "pacp-nonXMLBody:1.1" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:pacp-nonXMLBody:1.2" ] ;
+       fhir:display [ fhir:v "pacp-nonXMLBody:1.2" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:pacp-nonXMLBody:1.3" ] ;
+       fhir:display [ fhir:v "pacp-nonXMLBody:1.3" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:pacp-structuredBody:1.0" ] ;
+       fhir:display [ fhir:v "pacp-structuredBody:1.0" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:pacp-structuredBody:1.1" ] ;
+       fhir:display [ fhir:v "pacp-structuredBody:1.1" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:pacp-structuredBody:1.2" ] ;
+       fhir:display [ fhir:v "pacp-structuredBody:1.2" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:pacp-structuredBody:1.3" ] ;
+       fhir:display [ fhir:v "pacp-structuredBody:1.3" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes>
+     ] ;
+     fhir:sourceVersion [ fhir:v "4.1.0" ] ;
+     fhir:target [
+       fhir:v "urn:oid:1.3.6.1.4.1.19376.1.2.3"^^xsd:anyURI ;
+       fhir:l <urn:oid:1.3.6.1.4.1.19376.1.2.3>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-nonXMLBody:1.1" ] ;
+       fhir:display [ fhir:v "ccda-nonXMLBody:1.1" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-nonXMLBody:1.1" ] ;
+         fhir:display [ fhir:v "For documents following C-CDA constraints using a non structured body." ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-structuredBody:1.1" ] ;
+       fhir:display [ fhir:v "ccda-structuredBody:1.1" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-structuredBody:1.1" ] ;
+         fhir:display [ fhir:v "For documents following C-CDA constraints using a structured body." ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

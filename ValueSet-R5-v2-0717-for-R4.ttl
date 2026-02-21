@@ -1,0 +1,982 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-v2-0717-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-v2-0717-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-v2-0717-for-R4</b></p><a name=\"R5-v2-0717-for-R4\"> </a><a name=\"hcR5-v2-0717-for-R4\"> </a><p>This value set expansion contains 76 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-42CFRPart2\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  42CFRPart2</td><td>42 CFR Part 2)</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-42CFRPart2CD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  42CFRPart2CD</td><td>42 CFR Part 2 consent directive</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-ALL\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  ALL</td><td>All</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-COMMONRULE\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  COMMONRULE</td><td>Common Rule</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-CompoundResearchCD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  CompoundResearchCD</td><td>Compound HIPAA Research Authorization and Informed Consent for Research</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-DEM\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  DEM</td><td>All demographic data</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-DRG\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  DRG</td><td>Drug</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-EMRGONLY\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  EMRGONLY</td><td>opt-in emergency only</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-GDPRCD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  GDPRCD</td><td>GDPR Consent Directive</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-GDPRCONSENT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  GDPRCONSENT</td><td>GDPR Consent</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-GDPRCONTRACT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  GDPRCONTRACT</td><td>GDPR contract</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-GDPRHLTHSOCSY\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  GDPRHLTHSOCSY</td><td>GDPR health or social system management</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-GDPRLEGALCLAIM\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  GDPRLEGALCLAIM</td><td>GDPR legal claim</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-GDPRLEGALOBL\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  GDPRLEGALOBL</td><td>GDPR legal obligation</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-GDPRLEGITINTEREST\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  GDPRLEGITINTEREST</td><td>GDPR legitimate interest</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-GDPRPUBLICHEALTH\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  GDPRPUBLICHEALTH</td><td>GDPR public health</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-GDPRPUBLICINTEREST\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  GDPRPUBLICINTEREST</td><td>GDPR public interest</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-GDPRRESEARCH\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  GDPRRESEARCH</td><td>GDPR research</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-GDPRResearchCD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  GDPRResearchCD</td><td>GDPR Research Consent Directive</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-GDPRVITALINTEREST\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  GDPRVITALINTEREST</td><td>GDPR vital interest</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-GRANTORCHOICE\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  GRANTORCHOICE</td><td>grantor choice</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-HIPAAAuth\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  HIPAAAuth</td><td>HIPAA Authorization for Disclosure</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-HIPAAAuthCD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  HIPAAAuthCD</td><td>HIPAA Authorization Consent Directive</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-HIPAAConsent\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  HIPAAConsent</td><td>HIPAA Consent</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-HIPAAConsentCD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  HIPAAConsentCD</td><td>HIPAA Consent Directive</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-HIPAANOPP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  HIPAANOPP</td><td>HIPAA notice of privacy practices</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-HIPAAPsyNotes\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  HIPAAPsyNotes</td><td>HIPAA psychotherapy notes</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-HIPAAROA\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  HIPAAROA</td><td>HIPAA Right of Access</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-HIPAAROACD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  HIPAAROACD</td><td>HIPAA Right of Access Consent Directive</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-HIPAAResearchAuthCD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  HIPAAResearchAuthCD</td><td>HIPAA Authorization for Disclosure for Research Consent Directive</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-HIPAASelfPay\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  HIPAASelfPay</td><td>HIPAA self-pay</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-HIV\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  HIV</td><td>HIV status and results</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-IMPLIED\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  IMPLIED</td><td>implied consent</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-IMPLIEDD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  IMPLIEDD</td><td>implied consent with opportunity to dissent</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-JurisCUI\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  JurisCUI</td><td>jurisdictional controlled unclassified information policy</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-JurisDEID\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  JurisDEID</td><td>jurisdictional de-identified information policy</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-JurisIP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  JurisIP</td><td>jurisdictional information policy</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-JurisLDS\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  JurisLDS</td><td>jurisdictional limited data set</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-JurisNSI\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  JurisNSI</td><td>jurisdictional non-sensitive information policy</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-JurisPI\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  JurisPI</td><td>jurisdictional public information policy</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-JurisSP-CUI\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  JurisSP-CUI</td><td>jurisdictional specified controlled unclassified information policy</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-JurisUUI\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  JurisUUI</td><td>jurisdictional uncontrolled unclassified information policy</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-LOC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  LOC</td><td>Patient Location</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-MDHHS-5515\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  MDHHS-5515</td><td>Michigan Consent to Share Behavioral Health Information for Care Coordination Purposes</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-NO\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  NO</td><td>None</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-NOCONSENT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  NOCONSENT</td><td>no consent</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-NOPP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  NOPP</td><td>notice of privacy practices</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-OI\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  OI</td><td>Opt in all registries (HIPAA)</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-OIC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  OIC</td><td>opt-in to personal information or effect collection in a registry or repository</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-OIS\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  OIS</td><td>opt-in to personal information or effect sharing via a registry or repository</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-OO\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  OO</td><td>Opt out all registries (HIPAA)</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-OOC\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  OOC</td><td>opt-out of personal information or effect collection in a registry or repository</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-OOS\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  OOS</td><td>opt-out of personal information or effect sharing via a registry or repository</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-OPTIN\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  OPTIN</td><td>opt-in</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-OPTINR\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  OPTINR</td><td>opt-in with restrictions</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-OPTOUT\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  OPTOUT</td><td>opt-out</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-OPTOUTE\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  OPTOUTE</td><td>opt-out with exceptions</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-OrgCUI\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  OrgCUI</td><td>organizational basic controlled unclassified information policy</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-OrgDEID\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  OrgDEID</td><td>organizational de-identified information policy</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-OrgIP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  OrgIP</td><td>organizational information policy</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-OrgLDS\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  OrgLDS</td><td>organizational limited data set information policy</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-OrgNSI\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  OrgNSI</td><td>organizational non-sensitive information policy</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-OrgPI\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  OrgPI</td><td>organizational public information policy</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-OrgSP-CUI\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  OrgSP-CUI</td><td>organizational specified controlled unclassified information policy</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-OrgUUI\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  OrgUUI</td><td>organizational uncontrolled unclassified information policy</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-PID-17\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  PID-17</td><td>Religion</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-PID-7\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  PID-7</td><td>Date of Birth</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-PSY\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  PSY</td><td>Psychiatric Mental health</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-PersDEID\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  PersDEID</td><td>personal de-identified information policy</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-PersIP\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  PersIP</td><td>personal information policy</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-PersLDS\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  PersLDS</td><td>personal limited data set information policy</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-PersNSI\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  PersNSI</td><td>personal non-sensitive information policy</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-PersPI\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  PersPI</td><td>personal public information policy</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-SMD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  SMD</td><td>Sensitive medical data</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-STD\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  STD</td><td>Sexually transmitted diseases</td></tr><tr><td><a name=\"R5-v2-0717-for-R4-http://terminology.hl7.org/CodeSystem/v2-0717-Title38Section7332\"> </a><code>http://terminology.hl7.org/CodeSystem/v2-0717</code></td><td>2.2.0</td><td style=\"white-space:nowrap\">  Title38Section7332</td><td>Title 38 Section 7332</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-v2-0717-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-v2-0717-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5V20717ForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.Hl7VSAccessRestrictionValue for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v2-0717|2.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/v2-0717|2.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* \r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://terminology.hl7.org/ValueSet/v2-0717|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "42CFRPart2" ] ;
+         fhir:display [ fhir:v "42 CFR Part 2)" ]
+       ] [
+         fhir:code [ fhir:v "42CFRPart2CD" ] ;
+         fhir:display [ fhir:v "42 CFR Part 2 consent directive" ]
+       ] [
+         fhir:code [ fhir:v "ALL" ] ;
+         fhir:display [ fhir:v "All" ]
+       ] [
+         fhir:code [ fhir:v "COMMONRULE" ] ;
+         fhir:display [ fhir:v "Common Rule" ]
+       ] [
+         fhir:code [ fhir:v "CompoundResearchCD" ] ;
+         fhir:display [ fhir:v "Compound HIPAA Research Authorization and Informed Consent for Research" ]
+       ] [
+         fhir:code [ fhir:v "DEM" ] ;
+         fhir:display [ fhir:v "All demographic data" ]
+       ] [
+         fhir:code [ fhir:v "DRG" ] ;
+         fhir:display [ fhir:v "Drug" ]
+       ] [
+         fhir:code [ fhir:v "EMRGONLY" ] ;
+         fhir:display [ fhir:v "opt-in emergency only" ]
+       ] [
+         fhir:code [ fhir:v "GDPRCD" ] ;
+         fhir:display [ fhir:v "GDPR Consent Directive" ]
+       ] [
+         fhir:code [ fhir:v "GDPRCONSENT" ] ;
+         fhir:display [ fhir:v "GDPR Consent" ]
+       ] [
+         fhir:code [ fhir:v "GDPRCONTRACT" ] ;
+         fhir:display [ fhir:v "GDPR contract" ]
+       ] [
+         fhir:code [ fhir:v "GDPRHLTHSOCSY" ] ;
+         fhir:display [ fhir:v "GDPR health or social system management" ]
+       ] [
+         fhir:code [ fhir:v "GDPRLEGALCLAIM" ] ;
+         fhir:display [ fhir:v "GDPR legal claim" ]
+       ] [
+         fhir:code [ fhir:v "GDPRLEGALOBL" ] ;
+         fhir:display [ fhir:v "GDPR legal obligation" ]
+       ] [
+         fhir:code [ fhir:v "GDPRLEGITINTEREST" ] ;
+         fhir:display [ fhir:v "GDPR legitimate interest" ]
+       ] [
+         fhir:code [ fhir:v "GDPRPUBLICHEALTH" ] ;
+         fhir:display [ fhir:v "GDPR public health" ]
+       ] [
+         fhir:code [ fhir:v "GDPRPUBLICINTEREST" ] ;
+         fhir:display [ fhir:v "GDPR public interest" ]
+       ] [
+         fhir:code [ fhir:v "GDPRRESEARCH" ] ;
+         fhir:display [ fhir:v "GDPR research" ]
+       ] [
+         fhir:code [ fhir:v "GDPRResearchCD" ] ;
+         fhir:display [ fhir:v "GDPR Research Consent Directive" ]
+       ] [
+         fhir:code [ fhir:v "GDPRVITALINTEREST" ] ;
+         fhir:display [ fhir:v "GDPR vital interest" ]
+       ] [
+         fhir:code [ fhir:v "GRANTORCHOICE" ] ;
+         fhir:display [ fhir:v "grantor choice" ]
+       ] [
+         fhir:code [ fhir:v "HIPAAAuth" ] ;
+         fhir:display [ fhir:v "HIPAA Authorization for Disclosure" ]
+       ] [
+         fhir:code [ fhir:v "HIPAAAuthCD" ] ;
+         fhir:display [ fhir:v "HIPAA Authorization Consent Directive" ]
+       ] [
+         fhir:code [ fhir:v "HIPAAConsent" ] ;
+         fhir:display [ fhir:v "HIPAA Consent" ]
+       ] [
+         fhir:code [ fhir:v "HIPAAConsentCD" ] ;
+         fhir:display [ fhir:v "HIPAA Consent Directive" ]
+       ] [
+         fhir:code [ fhir:v "HIPAANOPP" ] ;
+         fhir:display [ fhir:v "HIPAA notice of privacy practices" ]
+       ] [
+         fhir:code [ fhir:v "HIPAAPsyNotes" ] ;
+         fhir:display [ fhir:v "HIPAA psychotherapy notes" ]
+       ] [
+         fhir:code [ fhir:v "HIPAAROA" ] ;
+         fhir:display [ fhir:v "HIPAA Right of Access" ]
+       ] [
+         fhir:code [ fhir:v "HIPAAROACD" ] ;
+         fhir:display [ fhir:v "HIPAA Right of Access Consent Directive" ]
+       ] [
+         fhir:code [ fhir:v "HIPAAResearchAuthCD" ] ;
+         fhir:display [ fhir:v "HIPAA Authorization for Disclosure for Research Consent Directive" ]
+       ] [
+         fhir:code [ fhir:v "HIPAASelfPay" ] ;
+         fhir:display [ fhir:v "HIPAA self-pay" ]
+       ] [
+         fhir:code [ fhir:v "HIV" ] ;
+         fhir:display [ fhir:v "HIV status and results" ]
+       ] [
+         fhir:code [ fhir:v "IMPLIED" ] ;
+         fhir:display [ fhir:v "implied consent" ]
+       ] [
+         fhir:code [ fhir:v "IMPLIEDD" ] ;
+         fhir:display [ fhir:v "implied consent with opportunity to dissent" ]
+       ] [
+         fhir:code [ fhir:v "JurisCUI" ] ;
+         fhir:display [ fhir:v "jurisdictional controlled unclassified information policy" ]
+       ] [
+         fhir:code [ fhir:v "JurisDEID" ] ;
+         fhir:display [ fhir:v "jurisdictional de-identified information policy" ]
+       ] [
+         fhir:code [ fhir:v "JurisIP" ] ;
+         fhir:display [ fhir:v "jurisdictional information policy" ]
+       ] [
+         fhir:code [ fhir:v "JurisLDS" ] ;
+         fhir:display [ fhir:v "jurisdictional limited data set" ]
+       ] [
+         fhir:code [ fhir:v "JurisNSI" ] ;
+         fhir:display [ fhir:v "jurisdictional non-sensitive information policy" ]
+       ] [
+         fhir:code [ fhir:v "JurisPI" ] ;
+         fhir:display [ fhir:v "jurisdictional public information policy" ]
+       ] [
+         fhir:code [ fhir:v "JurisSP-CUI" ] ;
+         fhir:display [ fhir:v "jurisdictional specified controlled unclassified information policy" ]
+       ] [
+         fhir:code [ fhir:v "JurisUUI" ] ;
+         fhir:display [ fhir:v "jurisdictional uncontrolled unclassified information policy" ]
+       ] [
+         fhir:code [ fhir:v "LOC" ] ;
+         fhir:display [ fhir:v "Patient Location" ]
+       ] [
+         fhir:code [ fhir:v "MDHHS-5515" ] ;
+         fhir:display [ fhir:v "Michigan Consent to Share Behavioral Health Information for Care Coordination Purposes" ]
+       ] [
+         fhir:code [ fhir:v "NO" ] ;
+         fhir:display [ fhir:v "None" ]
+       ] [
+         fhir:code [ fhir:v "NOCONSENT" ] ;
+         fhir:display [ fhir:v "no consent" ]
+       ] [
+         fhir:code [ fhir:v "NOPP" ] ;
+         fhir:display [ fhir:v "notice of privacy practices" ]
+       ] [
+         fhir:code [ fhir:v "OI" ] ;
+         fhir:display [ fhir:v "Opt in all registries (HIPAA)" ]
+       ] [
+         fhir:code [ fhir:v "OIC" ] ;
+         fhir:display [ fhir:v "opt-in to personal information or effect collection in a registry or repository" ]
+       ] [
+         fhir:code [ fhir:v "OIS" ] ;
+         fhir:display [ fhir:v "opt-in to personal information or effect sharing via a registry or repository" ]
+       ] [
+         fhir:code [ fhir:v "OO" ] ;
+         fhir:display [ fhir:v "Opt out all registries (HIPAA)" ]
+       ] [
+         fhir:code [ fhir:v "OOC" ] ;
+         fhir:display [ fhir:v "opt-out of personal information or effect collection in a registry or repository" ]
+       ] [
+         fhir:code [ fhir:v "OOS" ] ;
+         fhir:display [ fhir:v "opt-out of personal information or effect sharing via a registry or repository" ]
+       ] [
+         fhir:code [ fhir:v "OPTIN" ] ;
+         fhir:display [ fhir:v "opt-in" ]
+       ] [
+         fhir:code [ fhir:v "OPTINR" ] ;
+         fhir:display [ fhir:v "opt-in with restrictions" ]
+       ] [
+         fhir:code [ fhir:v "OPTOUT" ] ;
+         fhir:display [ fhir:v "opt-out" ]
+       ] [
+         fhir:code [ fhir:v "OPTOUTE" ] ;
+         fhir:display [ fhir:v "opt-out with exceptions" ]
+       ] [
+         fhir:code [ fhir:v "OrgCUI" ] ;
+         fhir:display [ fhir:v "organizational basic controlled unclassified information policy" ]
+       ] [
+         fhir:code [ fhir:v "OrgDEID" ] ;
+         fhir:display [ fhir:v "organizational de-identified information policy" ]
+       ] [
+         fhir:code [ fhir:v "OrgIP" ] ;
+         fhir:display [ fhir:v "organizational information policy" ]
+       ] [
+         fhir:code [ fhir:v "OrgLDS" ] ;
+         fhir:display [ fhir:v "organizational limited data set information policy" ]
+       ] [
+         fhir:code [ fhir:v "OrgNSI" ] ;
+         fhir:display [ fhir:v "organizational non-sensitive information policy" ]
+       ] [
+         fhir:code [ fhir:v "OrgPI" ] ;
+         fhir:display [ fhir:v "organizational public information policy" ]
+       ] [
+         fhir:code [ fhir:v "OrgSP-CUI" ] ;
+         fhir:display [ fhir:v "organizational specified controlled unclassified information policy" ]
+       ] [
+         fhir:code [ fhir:v "OrgUUI" ] ;
+         fhir:display [ fhir:v "organizational uncontrolled unclassified information policy" ]
+       ] [
+         fhir:code [ fhir:v "PID-17" ] ;
+         fhir:display [ fhir:v "Religion" ]
+       ] [
+         fhir:code [ fhir:v "PID-7" ] ;
+         fhir:display [ fhir:v "Date of Birth" ]
+       ] [
+         fhir:code [ fhir:v "PSY" ] ;
+         fhir:display [ fhir:v "Psychiatric Mental health" ]
+       ] [
+         fhir:code [ fhir:v "PersDEID" ] ;
+         fhir:display [ fhir:v "personal de-identified information policy" ]
+       ] [
+         fhir:code [ fhir:v "PersIP" ] ;
+         fhir:display [ fhir:v "personal information policy" ]
+       ] [
+         fhir:code [ fhir:v "PersLDS" ] ;
+         fhir:display [ fhir:v "personal limited data set information policy" ]
+       ] [
+         fhir:code [ fhir:v "PersNSI" ] ;
+         fhir:display [ fhir:v "personal non-sensitive information policy" ]
+       ] [
+         fhir:code [ fhir:v "PersPI" ] ;
+         fhir:display [ fhir:v "personal public information policy" ]
+       ] [
+         fhir:code [ fhir:v "SMD" ] ;
+         fhir:display [ fhir:v "Sensitive medical data" ]
+       ] [
+         fhir:code [ fhir:v "STD" ] ;
+         fhir:display [ fhir:v "Sexually transmitted diseases" ]
+       ] [
+         fhir:code [ fhir:v "Title38Section7332" ] ;
+         fhir:display [ fhir:v "Title 38 Section 7332" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "42CFRPart2" ] ;
+       fhir:display [ fhir:v "42 CFR Part 2)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "42CFRPart2CD" ] ;
+       fhir:display [ fhir:v "42 CFR Part 2 consent directive" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "ALL" ] ;
+       fhir:display [ fhir:v "All" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "COMMONRULE" ] ;
+       fhir:display [ fhir:v "Common Rule" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "CompoundResearchCD" ] ;
+       fhir:display [ fhir:v "Compound HIPAA Research Authorization and Informed Consent for Research" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "DEM" ] ;
+       fhir:display [ fhir:v "All demographic data" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "DRG" ] ;
+       fhir:display [ fhir:v "Drug" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "EMRGONLY" ] ;
+       fhir:display [ fhir:v "opt-in emergency only" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "GDPRCD" ] ;
+       fhir:display [ fhir:v "GDPR Consent Directive" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "GDPRCONSENT" ] ;
+       fhir:display [ fhir:v "GDPR Consent" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "GDPRCONTRACT" ] ;
+       fhir:display [ fhir:v "GDPR contract" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "GDPRHLTHSOCSY" ] ;
+       fhir:display [ fhir:v "GDPR health or social system management" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "GDPRLEGALCLAIM" ] ;
+       fhir:display [ fhir:v "GDPR legal claim" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "GDPRLEGALOBL" ] ;
+       fhir:display [ fhir:v "GDPR legal obligation" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "GDPRLEGITINTEREST" ] ;
+       fhir:display [ fhir:v "GDPR legitimate interest" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "GDPRPUBLICHEALTH" ] ;
+       fhir:display [ fhir:v "GDPR public health" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "GDPRPUBLICINTEREST" ] ;
+       fhir:display [ fhir:v "GDPR public interest" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "GDPRRESEARCH" ] ;
+       fhir:display [ fhir:v "GDPR research" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "GDPRResearchCD" ] ;
+       fhir:display [ fhir:v "GDPR Research Consent Directive" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "GDPRVITALINTEREST" ] ;
+       fhir:display [ fhir:v "GDPR vital interest" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "GRANTORCHOICE" ] ;
+       fhir:display [ fhir:v "grantor choice" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "HIPAAAuth" ] ;
+       fhir:display [ fhir:v "HIPAA Authorization for Disclosure" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "HIPAAAuthCD" ] ;
+       fhir:display [ fhir:v "HIPAA Authorization Consent Directive" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "HIPAAConsent" ] ;
+       fhir:display [ fhir:v "HIPAA Consent" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "HIPAAConsentCD" ] ;
+       fhir:display [ fhir:v "HIPAA Consent Directive" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "HIPAANOPP" ] ;
+       fhir:display [ fhir:v "HIPAA notice of privacy practices" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "HIPAAPsyNotes" ] ;
+       fhir:display [ fhir:v "HIPAA psychotherapy notes" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "HIPAAROA" ] ;
+       fhir:display [ fhir:v "HIPAA Right of Access" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "HIPAAROACD" ] ;
+       fhir:display [ fhir:v "HIPAA Right of Access Consent Directive" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "HIPAAResearchAuthCD" ] ;
+       fhir:display [ fhir:v "HIPAA Authorization for Disclosure for Research Consent Directive" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "HIPAASelfPay" ] ;
+       fhir:display [ fhir:v "HIPAA self-pay" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "HIV" ] ;
+       fhir:display [ fhir:v "HIV status and results" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "IMPLIED" ] ;
+       fhir:display [ fhir:v "implied consent" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "IMPLIEDD" ] ;
+       fhir:display [ fhir:v "implied consent with opportunity to dissent" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "JurisCUI" ] ;
+       fhir:display [ fhir:v "jurisdictional controlled unclassified information policy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "JurisDEID" ] ;
+       fhir:display [ fhir:v "jurisdictional de-identified information policy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "JurisIP" ] ;
+       fhir:display [ fhir:v "jurisdictional information policy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "JurisLDS" ] ;
+       fhir:display [ fhir:v "jurisdictional limited data set" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "JurisNSI" ] ;
+       fhir:display [ fhir:v "jurisdictional non-sensitive information policy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "JurisPI" ] ;
+       fhir:display [ fhir:v "jurisdictional public information policy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "JurisSP-CUI" ] ;
+       fhir:display [ fhir:v "jurisdictional specified controlled unclassified information policy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "JurisUUI" ] ;
+       fhir:display [ fhir:v "jurisdictional uncontrolled unclassified information policy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "LOC" ] ;
+       fhir:display [ fhir:v "Patient Location" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "MDHHS-5515" ] ;
+       fhir:display [ fhir:v "Michigan Consent to Share Behavioral Health Information for Care Coordination Purposes" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "None" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "NOCONSENT" ] ;
+       fhir:display [ fhir:v "no consent" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "NOPP" ] ;
+       fhir:display [ fhir:v "notice of privacy practices" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "OI" ] ;
+       fhir:display [ fhir:v "Opt in all registries (HIPAA)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "OIC" ] ;
+       fhir:display [ fhir:v "opt-in to personal information or effect collection in a registry or repository" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "OIS" ] ;
+       fhir:display [ fhir:v "opt-in to personal information or effect sharing via a registry or repository" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "OO" ] ;
+       fhir:display [ fhir:v "Opt out all registries (HIPAA)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "OOC" ] ;
+       fhir:display [ fhir:v "opt-out of personal information or effect collection in a registry or repository" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "OOS" ] ;
+       fhir:display [ fhir:v "opt-out of personal information or effect sharing via a registry or repository" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "OPTIN" ] ;
+       fhir:display [ fhir:v "opt-in" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "OPTINR" ] ;
+       fhir:display [ fhir:v "opt-in with restrictions" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "OPTOUT" ] ;
+       fhir:display [ fhir:v "opt-out" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "OPTOUTE" ] ;
+       fhir:display [ fhir:v "opt-out with exceptions" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "OrgCUI" ] ;
+       fhir:display [ fhir:v "organizational basic controlled unclassified information policy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "OrgDEID" ] ;
+       fhir:display [ fhir:v "organizational de-identified information policy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "OrgIP" ] ;
+       fhir:display [ fhir:v "organizational information policy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "OrgLDS" ] ;
+       fhir:display [ fhir:v "organizational limited data set information policy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "OrgNSI" ] ;
+       fhir:display [ fhir:v "organizational non-sensitive information policy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "OrgPI" ] ;
+       fhir:display [ fhir:v "organizational public information policy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "OrgSP-CUI" ] ;
+       fhir:display [ fhir:v "organizational specified controlled unclassified information policy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "OrgUUI" ] ;
+       fhir:display [ fhir:v "organizational uncontrolled unclassified information policy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "PID-17" ] ;
+       fhir:display [ fhir:v "Religion" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "PID-7" ] ;
+       fhir:display [ fhir:v "Date of Birth" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "PSY" ] ;
+       fhir:display [ fhir:v "Psychiatric Mental health" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "PersDEID" ] ;
+       fhir:display [ fhir:v "personal de-identified information policy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "PersIP" ] ;
+       fhir:display [ fhir:v "personal information policy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "PersLDS" ] ;
+       fhir:display [ fhir:v "personal limited data set information policy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "PersNSI" ] ;
+       fhir:display [ fhir:v "personal non-sensitive information policy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "PersPI" ] ;
+       fhir:display [ fhir:v "personal public information policy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "SMD" ] ;
+       fhir:display [ fhir:v "Sensitive medical data" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "STD" ] ;
+       fhir:display [ fhir:v "Sexually transmitted diseases" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v2-0717"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v2-0717>
+       ] ;
+       fhir:version [ fhir:v "2.2.0" ] ;
+       fhir:code [ fhir:v "Title38Section7332" ] ;
+       fhir:display [ fhir:v "Title 38 Section 7332" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

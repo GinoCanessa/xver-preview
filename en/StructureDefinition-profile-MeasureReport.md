@@ -1,0 +1,597 @@
+# ProfileMeasureReport - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## Resource Profile: ProfileMeasureReport 
+
+ 
+This cross-version profile allows R5 MeasureReport content to be represented via FHIR R4 MeasureReport resources. 
+
+**Usages:**
+
+* This Profile is not used by any profiles in this Implementation Guide
+
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-MeasureReport)
+
+### Formal Views of Profile Content
+
+ [Description Differentials, Snapshots, and other representations](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#structure-definitions). 
+
+ 
+
+Other representations of profile: [CSV](../StructureDefinition-profile-MeasureReport.csv), [Excel](../StructureDefinition-profile-MeasureReport.xlsx), [Schematron](../StructureDefinition-profile-MeasureReport.sch) 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "profile-MeasureReport",
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "fhir"
+    },
+    {
+      "extension" : [
+        {
+          "url" : "packageId",
+          "valueId" : "hl7.fhir.uv.xver-r5.r4"
+        },
+        {
+          "url" : "version",
+          "valueString" : "0.0.1-snapshot-3"
+        }
+      ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/package-source"
+    },
+    {
+      "extension" : [
+        {
+          "url" : "startFhirVersion",
+          "valueCode" : "4.0.1"
+        },
+        {
+          "url" : "endFhirVersion",
+          "valueCode" : "4.0.1"
+        }
+      ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/version-specific-use"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger" : 0,
+      "_valueInteger" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode" : "trial-use",
+      "_valueCode" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    }
+  ],
+  "url" : "http://hl7.org/fhir/5.0/StructureDefinition/profile-MeasureReport",
+  "version" : "0.0.1-snapshot-3",
+  "name" : "ProfileMeasureReport",
+  "title" : "Cross-version Profile for R5.MeasureReport for use in FHIR R4",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-02-21T13:36:54.2720036-06:00",
+  "publisher" : "FHIR Infrastructure",
+  "contact" : [
+    {
+      "name" : "FHIR Infrastructure",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/fiwg"
+        }
+      ]
+    }
+  ],
+  "description" : "This cross-version profile allows R5 MeasureReport content to be represented via FHIR R4 MeasureReport resources.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }
+      ]
+    }
+  ],
+  "fhirVersion" : "4.0.1",
+  "mapping" : [
+    {
+      "identity" : "w5",
+      "uri" : "http://hl7.org/fhir/fivews",
+      "name" : "FiveWs Pattern Mapping"
+    },
+    {
+      "identity" : "rim",
+      "uri" : "http://hl7.org/v3",
+      "name" : "RIM Mapping"
+    }
+  ],
+  "kind" : "resource",
+  "abstract" : false,
+  "type" : "MeasureReport",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/MeasureReport|4.0.1",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [
+      {
+        "id" : "MeasureReport",
+        "path" : "MeasureReport"
+      },
+      {
+        "id" : "MeasureReport.extension",
+        "path" : "MeasureReport.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "MeasureReport.extension:dataUpdateType",
+        "path" : "MeasureReport.extension",
+        "sliceName" : "dataUpdateType",
+        "short" : "Cross-version extension for MeasureReport.dataUpdateType from R5 for use in FHIR R4",
+        "comment" : "Element `MeasureReport.dataUpdateType` has a context of MeasureReport based on following the parent source element upwards and mapping to `MeasureReport`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.dataUpdateType|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MeasureReport.extension:scoring",
+        "path" : "MeasureReport.extension",
+        "sliceName" : "scoring",
+        "short" : "Cross-version extension for MeasureReport.scoring from R5 for use in FHIR R4",
+        "comment" : "Element `MeasureReport.scoring` has a context of MeasureReport based on following the parent source element upwards and mapping to `MeasureReport`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.scoring|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MeasureReport.group.extension",
+        "path" : "MeasureReport.group.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "MeasureReport.group.extension:linkId",
+        "path" : "MeasureReport.group.extension",
+        "sliceName" : "linkId",
+        "short" : "Cross-version extension for MeasureReport.group.linkId from R5 for use in FHIR R4",
+        "comment" : "Element `MeasureReport.group.linkId` has a context of MeasureReport.group based on following the parent source element upwards and mapping to `MeasureReport`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.linkId|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MeasureReport.group.population.extension",
+        "path" : "MeasureReport.group.population.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "MeasureReport.group.population.extension:linkId",
+        "path" : "MeasureReport.group.population.extension",
+        "sliceName" : "linkId",
+        "short" : "Cross-version extension for MeasureReport.group.population.linkId from R5 for use in FHIR R4",
+        "comment" : "Element `MeasureReport.group.population.linkId` has a context of MeasureReport.group.population based on following the parent source element upwards and mapping to `MeasureReport`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.population.linkId|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MeasureReport.group.measureScore.extension",
+        "path" : "MeasureReport.group.measureScore.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "MeasureReport.group.measureScore",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "MeasureReport.group.measureScore.extension:measureScore",
+        "path" : "MeasureReport.group.measureScore.extension",
+        "sliceName" : "measureScore",
+        "short" : "Cross-version extension for MeasureReport.group.measureScore[x] from R5 for use in FHIR R4",
+        "comment" : "Element `MeasureReport.group.measureScore[x]` is mapped to FHIR R4 element `MeasureReport.group.measureScore` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.measureScore|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MeasureReport.group.stratifier.extension",
+        "path" : "MeasureReport.group.stratifier.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "MeasureReport.group.stratifier.extension:linkId",
+        "path" : "MeasureReport.group.stratifier.extension",
+        "sliceName" : "linkId",
+        "short" : "Cross-version extension for MeasureReport.group.stratifier.linkId from R5 for use in FHIR R4",
+        "comment" : "Element `MeasureReport.group.stratifier.linkId` has a context of MeasureReport.group.stratifier based on following the parent source element upwards and mapping to `MeasureReport`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.linkId|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MeasureReport.group.stratifier.stratum.value.extension",
+        "path" : "MeasureReport.group.stratifier.stratum.value.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "MeasureReport.group.stratifier.stratum.value",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "MeasureReport.group.stratifier.stratum.value.extension:value",
+        "path" : "MeasureReport.group.stratifier.stratum.value.extension",
+        "sliceName" : "value",
+        "short" : "Cross-version extension for MeasureReport.group.stratifier.stratum.value[x] from R5 for use in FHIR R4",
+        "comment" : "Element `MeasureReport.group.stratifier.stratum.value[x]` is mapped to FHIR R4 element `MeasureReport.group.stratifier.stratum.value` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.value|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MeasureReport.group.stratifier.stratum.component.extension",
+        "path" : "MeasureReport.group.stratifier.stratum.component.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "MeasureReport.group.stratifier.stratum.component.extension:linkId",
+        "path" : "MeasureReport.group.stratifier.stratum.component.extension",
+        "sliceName" : "linkId",
+        "short" : "Cross-version extension for MeasureReport.group.stratifier.stratum.component.linkId from R5 for use in FHIR R4",
+        "comment" : "Element `MeasureReport.group.stratifier.stratum.component.linkId` has a context of MeasureReport.group.stratifier.stratum.component based on following the parent source element upwards and mapping to `MeasureReport`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.component.linkId|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MeasureReport.group.stratifier.stratum.component.value.extension",
+        "path" : "MeasureReport.group.stratifier.stratum.component.value.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 1,
+        "max" : "*",
+        "base" : {
+          "path" : "MeasureReport.group.stratifier.stratum.component.value",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "MeasureReport.group.stratifier.stratum.component.value.extension:value",
+        "path" : "MeasureReport.group.stratifier.stratum.component.value.extension",
+        "sliceName" : "value",
+        "short" : "Cross-version extension for MeasureReport.group.stratifier.stratum.component.value[x] from R5 for use in FHIR R4",
+        "comment" : "Element `MeasureReport.group.stratifier.stratum.component.value[x]` is mapped to FHIR R4 element `MeasureReport.group.stratifier.stratum.component.value` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.component.value|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MeasureReport.group.stratifier.stratum.population.extension",
+        "path" : "MeasureReport.group.stratifier.stratum.population.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "MeasureReport.group.stratifier.stratum.population.extension:linkId",
+        "path" : "MeasureReport.group.stratifier.stratum.population.extension",
+        "sliceName" : "linkId",
+        "short" : "Cross-version extension for MeasureReport.group.stratifier.stratum.population.linkId from R5 for use in FHIR R4",
+        "comment" : "Element `MeasureReport.group.stratifier.stratum.population.linkId` has a context of MeasureReport.group.stratifier.stratum.population based on following the parent source element upwards and mapping to `MeasureReport`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.population.linkId|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MeasureReport.group.stratifier.stratum.measureScore.extension",
+        "path" : "MeasureReport.group.stratifier.stratum.measureScore.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "MeasureReport.group.stratifier.stratum.measureScore",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "MeasureReport.group.stratifier.stratum.measureScore.extension:measureScore",
+        "path" : "MeasureReport.group.stratifier.stratum.measureScore.extension",
+        "sliceName" : "measureScore",
+        "short" : "Cross-version extension for MeasureReport.group.stratifier.stratum.measureScore[x] from R5 for use in FHIR R4",
+        "comment" : "Element `MeasureReport.group.stratifier.stratum.measureScore[x]` is mapped to FHIR R4 element `MeasureReport.group.stratifier.stratum.measureScore` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.measureScore|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
+
+```

@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "R5-consent-state-codes-for-R4"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-consent-state-codes-for-R4</b></p><a name=\"R5-consent-state-codes-for-R4\"> </a><a name=\"hcR5-consent-state-codes-for-R4\"> </a><p>This value set expansion contains 2 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-consent-state-codes-for-R4-http://hl7.org/fhir/consent-state-codes-not-done\"> </a><code>http://hl7.org/fhir/consent-state-codes</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  not-done</td><td>Abandoned</td></tr><tr><td><a name=\"R5-consent-state-codes-for-R4-http://hl7.org/fhir/consent-state-codes-unknown\"> </a><code>http://hl7.org/fhir/consent-state-codes</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  unknown</td><td>Unknown</td></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-consent-state-codes-for-R4</b></p><a name=\"R5-consent-state-codes-for-R4\"> </a><a name=\"hcR5-consent-state-codes-for-R4\"> </a><p>This value set expansion contains 2 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"R5-consent-state-codes-for-R4-http://hl7.org/fhir/consent-state-codes-not-done\"> </a><code>http://hl7.org/fhir/consent-state-codes</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-consent-state-codes.html#consent-state-codes-not-done\">not-done</a></td><td>Abandoned</td><td>The consent development has been terminated prior to completion.</td></tr><tr><td><a name=\"R5-consent-state-codes-for-R4-http://hl7.org/fhir/consent-state-codes-unknown\"> </a><code>http://hl7.org/fhir/consent-state-codes</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-consent-state-codes.html#consent-state-codes-unknown\">unknown</a></td><td>Unknown</td><td>The resource is in an indeterminate state.</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:url [
@@ -29,7 +29,7 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "fhir"
+       fhir:v "cbcc"
      ]
   ] [
      fhir:extension ( [
@@ -95,13 +95,13 @@
   fhir:title [ fhir:v "Cross-version ValueSet R5.ConsentState for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-20T17:59:09.1776521+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Community Based Collaborative Care"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:name [ fhir:v "Community Based Collaborative Care" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/cbcc" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "This cross-version ValueSet represents content from http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0 for use in FHIR R4 that is appropriate for use but unavailable in `http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1`."] ; # 
@@ -133,7 +133,7 @@
      ] )
   ] ; # 
   fhir:expansion [
-     fhir:timestamp [ fhir:v "2026-02-20T17:59:09.1776521+00:00"^^xsd:dateTime ] ;
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
      fhir:contains ( [
        fhir:system [
          fhir:v "http://hl7.org/fhir/consent-state-codes"^^xsd:anyURI ;

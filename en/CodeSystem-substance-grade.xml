@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="substance-grade"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/substance-grade</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">USP-NF
+                  <a name="substance-grade-USP-NF"> </a>
+                </td>
+                <td>USP/NF United States Pharmacopeia (USP) and the National Formulary (NF)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">Ph.Eur
+                  <a name="substance-grade-Ph.46Eur"> </a>
+                </td>
+                <td>European Pharmacopoeia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">JP
+                  <a name="substance-grade-JP"> </a>
+                </td>
+                <td>Japanese Pharmacopoeia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">BP
+                  <a name="substance-grade-BP"> </a>
+                </td>
+                <td>British Pharmacopoeia</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">CompanyStandard
+                  <a name="substance-grade-CompanyStandard"> </a>
+                </td>
+                <td>Company Standard</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="brr"/>
+  </extension>
+  <url value="http://hl7.org/fhir/substance-grade"/>
+  <version value="5.0.0"/>
+  <name value="SubstanceGrade"/>
+  <title value="Substance Grade"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Biomedical Research and Regulation"/>
+  <contact>
+    <name value="Biomedical Research and Regulation"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/rcrim"/>
+    </telecom>
+  </contact>
+  <description value="SubstanceGrade"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/substance-grade"/>
+  <content value="complete"/>
+  <concept>
+    <code value="USP-NF"/>
+    <display value="USP/NF United States Pharmacopeia (USP) and the National Formulary (NF)"/>
+  </concept>
+  <concept>
+    <code value="Ph.Eur"/>
+    <display value="European Pharmacopoeia"/>
+  </concept>
+  <concept>
+    <code value="JP"/>
+    <display value="Japanese Pharmacopoeia"/>
+  </concept>
+  <concept>
+    <code value="BP"/>
+    <display value="British Pharmacopoeia"/>
+  </concept>
+  <concept>
+    <code value="CompanyStandard"/>
+    <display value="Company Standard"/>
+  </concept>
+</CodeSystem>

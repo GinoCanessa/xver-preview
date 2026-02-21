@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="directness"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://terminology.hl7.org/CodeSystem/directness</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">low<a name="directness-low"> </a></td><td>Low quality match</td><td>Low level of directness.</td></tr><tr><td style="white-space:nowrap">moderate<a name="directness-moderate"> </a></td><td>Moderate quality match</td><td>Moderate level of directness.</td></tr><tr><td style="white-space:nowrap">high<a name="directness-high"> </a></td><td>High quality match</td><td>High level of directness.</td></tr><tr><td style="white-space:nowrap">exact<a name="directness-exact"> </a></td><td>Exact match</td><td>Exact directness.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="cds"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/directness"/>
+  <version value="0.1.0"/>
+  <name value="EvidenceDirectness"/>
+  <title value="EvidenceDirectness"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-04-09T16:10:28-05:00"/>
+  <publisher value="Clinical Decision Support"/>
+  <contact>
+    <name value="Clinical Decision Support"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/dss"/>
+    </telecom>
+  </contact>
+  <description value="The quality of how direct the match is."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/directness|1.0.0"/>
+  <content value="complete"/>
+  <concept>
+    <code value="low"/>
+    <display value="Low quality match"/>
+    <definition value="Low level of directness."/>
+  </concept>
+  <concept>
+    <code value="moderate"/>
+    <display value="Moderate quality match"/>
+    <definition value="Moderate level of directness."/>
+  </concept>
+  <concept>
+    <code value="high"/>
+    <display value="High quality match"/>
+    <definition value="High level of directness."/>
+  </concept>
+  <concept>
+    <code value="exact"/>
+    <display value="Exact match"/>
+    <definition value="Exact directness."/>
+  </concept>
+</CodeSystem>

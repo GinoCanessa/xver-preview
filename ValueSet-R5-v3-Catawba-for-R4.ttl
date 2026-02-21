@@ -1,0 +1,916 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-Catawba-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-v3-Catawba-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-v3-Catawba-for-R4</b></p><a name=\"R5-v3-Catawba-for-R4\"> </a><a name=\"hcR5-v3-Catawba-for-R4\"> </a><p>This value set expansion contains 70 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1076-9\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1076-9</td><td>Catawba</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1741-8\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1741-8</td><td>Alatna</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1742-6\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1742-6</td><td>Alexander</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1743-4\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1743-4</td><td>Allakaket</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1744-2\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1744-2</td><td>Alanvik</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1745-9\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1745-9</td><td>Anvik</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1746-7\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1746-7</td><td>Arctic</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1747-5\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1747-5</td><td>Beaver</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1748-3\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1748-3</td><td>Birch Creek</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1749-1\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1749-1</td><td>Cantwell</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1750-9\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1750-9</td><td>Chalkyitsik</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1751-7\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1751-7</td><td>Chickaloon</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1752-5\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1752-5</td><td>Chistochina</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1753-3\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1753-3</td><td>Chitina</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1754-1\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1754-1</td><td>Circle</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1755-8\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1755-8</td><td>Cook Inlet</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1756-6\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1756-6</td><td>Copper Center</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1757-4\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1757-4</td><td>Copper River</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1758-2\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1758-2</td><td>Dot Lake</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1759-0\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1759-0</td><td>Doyon</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1760-8\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1760-8</td><td>Eagle</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1761-6\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1761-6</td><td>Eklutna</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1762-4\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1762-4</td><td>Evansville</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1763-2\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1763-2</td><td>Fort Yukon</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1764-0\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1764-0</td><td>Gakona</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1765-7\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1765-7</td><td>Galena</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1766-5\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1766-5</td><td>Grayling</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1767-3\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1767-3</td><td>Gulkana</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1768-1\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1768-1</td><td>Healy Lake</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1769-9\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1769-9</td><td>Holy Cross</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1770-7\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1770-7</td><td>Hughes</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1771-5\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1771-5</td><td>Huslia</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1772-3\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1772-3</td><td>Iliamna</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1773-1\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1773-1</td><td>Kaltag</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1774-9\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1774-9</td><td>Kluti Kaah</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1775-6\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1775-6</td><td>Knik</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1776-4\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1776-4</td><td>Koyukuk</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1777-2\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1777-2</td><td>Lake Minchumina</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1778-0\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1778-0</td><td>Lime</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1779-8\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1779-8</td><td>Mcgrath</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1780-6\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1780-6</td><td>Manley Hot Springs</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1781-4\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1781-4</td><td>Mentasta Lake</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1782-2\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1782-2</td><td>Minto</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1783-0\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1783-0</td><td>Nenana</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1784-8\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1784-8</td><td>Nikolai</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1785-5\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1785-5</td><td>Ninilchik</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1786-3\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1786-3</td><td>Nondalton</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1787-1\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1787-1</td><td>Northway</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1788-9\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1788-9</td><td>Nulato</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1789-7\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1789-7</td><td>Pedro Bay</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1790-5\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1790-5</td><td>Rampart</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1791-3\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1791-3</td><td>Ruby</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1792-1\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1792-1</td><td>Salamatof</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1793-9\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1793-9</td><td>Seldovia</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1794-7\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1794-7</td><td>Slana</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1795-4\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1795-4</td><td>Shageluk</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1796-2\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1796-2</td><td>Stevens</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1797-0\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1797-0</td><td>Stony River</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1798-8\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1798-8</td><td>Takotna</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1799-6\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1799-6</td><td>Tanacross</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1800-2\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1800-2</td><td>Tanaina</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1801-0\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1801-0</td><td>Tanana</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1802-8\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1802-8</td><td>Tanana Chiefs</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1803-6\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1803-6</td><td>Tazlina</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1804-4\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1804-4</td><td>Telida</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1805-1\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1805-1</td><td>Tetlin</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1806-9\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1806-9</td><td>Tok</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1807-7\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1807-7</td><td>Tyonek</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1808-5\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1808-5</td><td>Venetie</td></tr><tr><td><a name=\"R5-v3-Catawba-for-R4-http://terminology.hl7.org/CodeSystem/v3-Race-1809-3\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-Race</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  1809-3</td><td>Wiseman</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-Catawba-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-v3-Catawba-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5V3CatawbaForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.Catawba for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/v3-Catawba|2.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/v3-Catawba|2.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* \r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\n\nFHIR ValueSet `http://terminology.hl7.org/ValueSet/v3-Catawba|2.0.0`, defined in FHIR R5 does not have any mapping to FHIR R4"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "1076-9" ] ;
+         fhir:display [ fhir:v "Catawba" ]
+       ] [
+         fhir:code [ fhir:v "1741-8" ] ;
+         fhir:display [ fhir:v "Alatna" ]
+       ] [
+         fhir:code [ fhir:v "1742-6" ] ;
+         fhir:display [ fhir:v "Alexander" ]
+       ] [
+         fhir:code [ fhir:v "1743-4" ] ;
+         fhir:display [ fhir:v "Allakaket" ]
+       ] [
+         fhir:code [ fhir:v "1744-2" ] ;
+         fhir:display [ fhir:v "Alanvik" ]
+       ] [
+         fhir:code [ fhir:v "1745-9" ] ;
+         fhir:display [ fhir:v "Anvik" ]
+       ] [
+         fhir:code [ fhir:v "1746-7" ] ;
+         fhir:display [ fhir:v "Arctic" ]
+       ] [
+         fhir:code [ fhir:v "1747-5" ] ;
+         fhir:display [ fhir:v "Beaver" ]
+       ] [
+         fhir:code [ fhir:v "1748-3" ] ;
+         fhir:display [ fhir:v "Birch Creek" ]
+       ] [
+         fhir:code [ fhir:v "1749-1" ] ;
+         fhir:display [ fhir:v "Cantwell" ]
+       ] [
+         fhir:code [ fhir:v "1750-9" ] ;
+         fhir:display [ fhir:v "Chalkyitsik" ]
+       ] [
+         fhir:code [ fhir:v "1751-7" ] ;
+         fhir:display [ fhir:v "Chickaloon" ]
+       ] [
+         fhir:code [ fhir:v "1752-5" ] ;
+         fhir:display [ fhir:v "Chistochina" ]
+       ] [
+         fhir:code [ fhir:v "1753-3" ] ;
+         fhir:display [ fhir:v "Chitina" ]
+       ] [
+         fhir:code [ fhir:v "1754-1" ] ;
+         fhir:display [ fhir:v "Circle" ]
+       ] [
+         fhir:code [ fhir:v "1755-8" ] ;
+         fhir:display [ fhir:v "Cook Inlet" ]
+       ] [
+         fhir:code [ fhir:v "1756-6" ] ;
+         fhir:display [ fhir:v "Copper Center" ]
+       ] [
+         fhir:code [ fhir:v "1757-4" ] ;
+         fhir:display [ fhir:v "Copper River" ]
+       ] [
+         fhir:code [ fhir:v "1758-2" ] ;
+         fhir:display [ fhir:v "Dot Lake" ]
+       ] [
+         fhir:code [ fhir:v "1759-0" ] ;
+         fhir:display [ fhir:v "Doyon" ]
+       ] [
+         fhir:code [ fhir:v "1760-8" ] ;
+         fhir:display [ fhir:v "Eagle" ]
+       ] [
+         fhir:code [ fhir:v "1761-6" ] ;
+         fhir:display [ fhir:v "Eklutna" ]
+       ] [
+         fhir:code [ fhir:v "1762-4" ] ;
+         fhir:display [ fhir:v "Evansville" ]
+       ] [
+         fhir:code [ fhir:v "1763-2" ] ;
+         fhir:display [ fhir:v "Fort Yukon" ]
+       ] [
+         fhir:code [ fhir:v "1764-0" ] ;
+         fhir:display [ fhir:v "Gakona" ]
+       ] [
+         fhir:code [ fhir:v "1765-7" ] ;
+         fhir:display [ fhir:v "Galena" ]
+       ] [
+         fhir:code [ fhir:v "1766-5" ] ;
+         fhir:display [ fhir:v "Grayling" ]
+       ] [
+         fhir:code [ fhir:v "1767-3" ] ;
+         fhir:display [ fhir:v "Gulkana" ]
+       ] [
+         fhir:code [ fhir:v "1768-1" ] ;
+         fhir:display [ fhir:v "Healy Lake" ]
+       ] [
+         fhir:code [ fhir:v "1769-9" ] ;
+         fhir:display [ fhir:v "Holy Cross" ]
+       ] [
+         fhir:code [ fhir:v "1770-7" ] ;
+         fhir:display [ fhir:v "Hughes" ]
+       ] [
+         fhir:code [ fhir:v "1771-5" ] ;
+         fhir:display [ fhir:v "Huslia" ]
+       ] [
+         fhir:code [ fhir:v "1772-3" ] ;
+         fhir:display [ fhir:v "Iliamna" ]
+       ] [
+         fhir:code [ fhir:v "1773-1" ] ;
+         fhir:display [ fhir:v "Kaltag" ]
+       ] [
+         fhir:code [ fhir:v "1774-9" ] ;
+         fhir:display [ fhir:v "Kluti Kaah" ]
+       ] [
+         fhir:code [ fhir:v "1775-6" ] ;
+         fhir:display [ fhir:v "Knik" ]
+       ] [
+         fhir:code [ fhir:v "1776-4" ] ;
+         fhir:display [ fhir:v "Koyukuk" ]
+       ] [
+         fhir:code [ fhir:v "1777-2" ] ;
+         fhir:display [ fhir:v "Lake Minchumina" ]
+       ] [
+         fhir:code [ fhir:v "1778-0" ] ;
+         fhir:display [ fhir:v "Lime" ]
+       ] [
+         fhir:code [ fhir:v "1779-8" ] ;
+         fhir:display [ fhir:v "Mcgrath" ]
+       ] [
+         fhir:code [ fhir:v "1780-6" ] ;
+         fhir:display [ fhir:v "Manley Hot Springs" ]
+       ] [
+         fhir:code [ fhir:v "1781-4" ] ;
+         fhir:display [ fhir:v "Mentasta Lake" ]
+       ] [
+         fhir:code [ fhir:v "1782-2" ] ;
+         fhir:display [ fhir:v "Minto" ]
+       ] [
+         fhir:code [ fhir:v "1783-0" ] ;
+         fhir:display [ fhir:v "Nenana" ]
+       ] [
+         fhir:code [ fhir:v "1784-8" ] ;
+         fhir:display [ fhir:v "Nikolai" ]
+       ] [
+         fhir:code [ fhir:v "1785-5" ] ;
+         fhir:display [ fhir:v "Ninilchik" ]
+       ] [
+         fhir:code [ fhir:v "1786-3" ] ;
+         fhir:display [ fhir:v "Nondalton" ]
+       ] [
+         fhir:code [ fhir:v "1787-1" ] ;
+         fhir:display [ fhir:v "Northway" ]
+       ] [
+         fhir:code [ fhir:v "1788-9" ] ;
+         fhir:display [ fhir:v "Nulato" ]
+       ] [
+         fhir:code [ fhir:v "1789-7" ] ;
+         fhir:display [ fhir:v "Pedro Bay" ]
+       ] [
+         fhir:code [ fhir:v "1790-5" ] ;
+         fhir:display [ fhir:v "Rampart" ]
+       ] [
+         fhir:code [ fhir:v "1791-3" ] ;
+         fhir:display [ fhir:v "Ruby" ]
+       ] [
+         fhir:code [ fhir:v "1792-1" ] ;
+         fhir:display [ fhir:v "Salamatof" ]
+       ] [
+         fhir:code [ fhir:v "1793-9" ] ;
+         fhir:display [ fhir:v "Seldovia" ]
+       ] [
+         fhir:code [ fhir:v "1794-7" ] ;
+         fhir:display [ fhir:v "Slana" ]
+       ] [
+         fhir:code [ fhir:v "1795-4" ] ;
+         fhir:display [ fhir:v "Shageluk" ]
+       ] [
+         fhir:code [ fhir:v "1796-2" ] ;
+         fhir:display [ fhir:v "Stevens" ]
+       ] [
+         fhir:code [ fhir:v "1797-0" ] ;
+         fhir:display [ fhir:v "Stony River" ]
+       ] [
+         fhir:code [ fhir:v "1798-8" ] ;
+         fhir:display [ fhir:v "Takotna" ]
+       ] [
+         fhir:code [ fhir:v "1799-6" ] ;
+         fhir:display [ fhir:v "Tanacross" ]
+       ] [
+         fhir:code [ fhir:v "1800-2" ] ;
+         fhir:display [ fhir:v "Tanaina" ]
+       ] [
+         fhir:code [ fhir:v "1801-0" ] ;
+         fhir:display [ fhir:v "Tanana" ]
+       ] [
+         fhir:code [ fhir:v "1802-8" ] ;
+         fhir:display [ fhir:v "Tanana Chiefs" ]
+       ] [
+         fhir:code [ fhir:v "1803-6" ] ;
+         fhir:display [ fhir:v "Tazlina" ]
+       ] [
+         fhir:code [ fhir:v "1804-4" ] ;
+         fhir:display [ fhir:v "Telida" ]
+       ] [
+         fhir:code [ fhir:v "1805-1" ] ;
+         fhir:display [ fhir:v "Tetlin" ]
+       ] [
+         fhir:code [ fhir:v "1806-9" ] ;
+         fhir:display [ fhir:v "Tok" ]
+       ] [
+         fhir:code [ fhir:v "1807-7" ] ;
+         fhir:display [ fhir:v "Tyonek" ]
+       ] [
+         fhir:code [ fhir:v "1808-5" ] ;
+         fhir:display [ fhir:v "Venetie" ]
+       ] [
+         fhir:code [ fhir:v "1809-3" ] ;
+         fhir:display [ fhir:v "Wiseman" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-21T19:36:42.9229177+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1076-9" ] ;
+       fhir:display [ fhir:v "Catawba" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1741-8" ] ;
+       fhir:display [ fhir:v "Alatna" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1742-6" ] ;
+       fhir:display [ fhir:v "Alexander" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1743-4" ] ;
+       fhir:display [ fhir:v "Allakaket" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1744-2" ] ;
+       fhir:display [ fhir:v "Alanvik" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1745-9" ] ;
+       fhir:display [ fhir:v "Anvik" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1746-7" ] ;
+       fhir:display [ fhir:v "Arctic" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1747-5" ] ;
+       fhir:display [ fhir:v "Beaver" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1748-3" ] ;
+       fhir:display [ fhir:v "Birch Creek" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1749-1" ] ;
+       fhir:display [ fhir:v "Cantwell" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1750-9" ] ;
+       fhir:display [ fhir:v "Chalkyitsik" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1751-7" ] ;
+       fhir:display [ fhir:v "Chickaloon" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1752-5" ] ;
+       fhir:display [ fhir:v "Chistochina" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1753-3" ] ;
+       fhir:display [ fhir:v "Chitina" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1754-1" ] ;
+       fhir:display [ fhir:v "Circle" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1755-8" ] ;
+       fhir:display [ fhir:v "Cook Inlet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1756-6" ] ;
+       fhir:display [ fhir:v "Copper Center" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1757-4" ] ;
+       fhir:display [ fhir:v "Copper River" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1758-2" ] ;
+       fhir:display [ fhir:v "Dot Lake" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1759-0" ] ;
+       fhir:display [ fhir:v "Doyon" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1760-8" ] ;
+       fhir:display [ fhir:v "Eagle" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1761-6" ] ;
+       fhir:display [ fhir:v "Eklutna" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1762-4" ] ;
+       fhir:display [ fhir:v "Evansville" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1763-2" ] ;
+       fhir:display [ fhir:v "Fort Yukon" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1764-0" ] ;
+       fhir:display [ fhir:v "Gakona" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1765-7" ] ;
+       fhir:display [ fhir:v "Galena" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1766-5" ] ;
+       fhir:display [ fhir:v "Grayling" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1767-3" ] ;
+       fhir:display [ fhir:v "Gulkana" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1768-1" ] ;
+       fhir:display [ fhir:v "Healy Lake" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1769-9" ] ;
+       fhir:display [ fhir:v "Holy Cross" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1770-7" ] ;
+       fhir:display [ fhir:v "Hughes" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1771-5" ] ;
+       fhir:display [ fhir:v "Huslia" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1772-3" ] ;
+       fhir:display [ fhir:v "Iliamna" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1773-1" ] ;
+       fhir:display [ fhir:v "Kaltag" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1774-9" ] ;
+       fhir:display [ fhir:v "Kluti Kaah" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1775-6" ] ;
+       fhir:display [ fhir:v "Knik" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1776-4" ] ;
+       fhir:display [ fhir:v "Koyukuk" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1777-2" ] ;
+       fhir:display [ fhir:v "Lake Minchumina" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1778-0" ] ;
+       fhir:display [ fhir:v "Lime" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1779-8" ] ;
+       fhir:display [ fhir:v "Mcgrath" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1780-6" ] ;
+       fhir:display [ fhir:v "Manley Hot Springs" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1781-4" ] ;
+       fhir:display [ fhir:v "Mentasta Lake" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1782-2" ] ;
+       fhir:display [ fhir:v "Minto" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1783-0" ] ;
+       fhir:display [ fhir:v "Nenana" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1784-8" ] ;
+       fhir:display [ fhir:v "Nikolai" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1785-5" ] ;
+       fhir:display [ fhir:v "Ninilchik" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1786-3" ] ;
+       fhir:display [ fhir:v "Nondalton" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1787-1" ] ;
+       fhir:display [ fhir:v "Northway" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1788-9" ] ;
+       fhir:display [ fhir:v "Nulato" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1789-7" ] ;
+       fhir:display [ fhir:v "Pedro Bay" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1790-5" ] ;
+       fhir:display [ fhir:v "Rampart" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1791-3" ] ;
+       fhir:display [ fhir:v "Ruby" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1792-1" ] ;
+       fhir:display [ fhir:v "Salamatof" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1793-9" ] ;
+       fhir:display [ fhir:v "Seldovia" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1794-7" ] ;
+       fhir:display [ fhir:v "Slana" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1795-4" ] ;
+       fhir:display [ fhir:v "Shageluk" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1796-2" ] ;
+       fhir:display [ fhir:v "Stevens" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1797-0" ] ;
+       fhir:display [ fhir:v "Stony River" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1798-8" ] ;
+       fhir:display [ fhir:v "Takotna" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1799-6" ] ;
+       fhir:display [ fhir:v "Tanacross" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1800-2" ] ;
+       fhir:display [ fhir:v "Tanaina" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1801-0" ] ;
+       fhir:display [ fhir:v "Tanana" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1802-8" ] ;
+       fhir:display [ fhir:v "Tanana Chiefs" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1803-6" ] ;
+       fhir:display [ fhir:v "Tazlina" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1804-4" ] ;
+       fhir:display [ fhir:v "Telida" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1805-1" ] ;
+       fhir:display [ fhir:v "Tetlin" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1806-9" ] ;
+       fhir:display [ fhir:v "Tok" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1807-7" ] ;
+       fhir:display [ fhir:v "Tyonek" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1808-5" ] ;
+       fhir:display [ fhir:v "Venetie" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-Race"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-Race>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "1809-3" ] ;
+       fhir:display [ fhir:v "Wiseman" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

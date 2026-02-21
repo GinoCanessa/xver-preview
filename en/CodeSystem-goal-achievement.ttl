@@ -1,0 +1,138 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/goal-achievement> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "goal-achievement"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://terminology.hl7.org/CodeSystem/goal-achievement</code> defines the following codes:</p><table class=\"codes\"><tr><td><b>Lvl</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">in-progress<a name=\"goal-achievement-in-progress\"> </a></td><td>In Progress</td><td>The goal is being sought but has not yet been reached. (Also applies if the goal was reached in the past but there has been regression and the goal is again being sought).</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  improving<a name=\"goal-achievement-improving\"> </a></td><td>Improving</td><td>The goal is being sought, and is progressing.</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  worsening<a name=\"goal-achievement-worsening\"> </a></td><td>Worsening</td><td>The goal is being sought, but is regressing.</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  no-change<a name=\"goal-achievement-no-change\"> </a></td><td>No Change</td><td>The goal is being sought, but the trend is flat.</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">achieved<a name=\"goal-achievement-achieved\"> </a></td><td>Achieved</td><td>The goal has been met.</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  sustaining<a name=\"goal-achievement-sustaining\"> </a></td><td>Sustaining</td><td>The goal has been met, but ongoing activity is needed to sustain the goal objective.</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">not-achieved<a name=\"goal-achievement-not-achieved\"> </a></td><td>Not Achieved</td><td>The goal has not been met and there might or might not have been progress towards target.</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  no-progress<a name=\"goal-achievement-no-progress\"> </a></td><td>No Progress</td><td>The goal has not been met and little to no progress towards target.</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  not-attainable<a name=\"goal-achievement-not-attainable\"> </a></td><td>Not Attainable</td><td>The goal is not possible to be met.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "pc"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/goal-achievement"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/goal-achievement>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "GoalAchievementStatus"] ; # 
+  fhir:title [ fhir:v "Goal achievement status"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2023-02-25T12:07:30-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Patient Care"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Patient Care" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/patientcare" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Describes the progression, or lack thereof, towards the goal against the target."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/goal-achievement|1.0.1"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/goal-achievement?version=1.0.1>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "in-progress" ] ;
+     fhir:display [ fhir:v "In Progress" ] ;
+     fhir:definition [ fhir:v "The goal is being sought but has not yet been reached. (Also applies if the goal was reached in the past but there has been regression and the goal is again being sought)." ] ;
+     fhir:concept ( [
+       fhir:code [ fhir:v "improving" ] ;
+       fhir:display [ fhir:v "Improving" ] ;
+       fhir:definition [ fhir:v "The goal is being sought, and is progressing." ]
+     ] [
+       fhir:code [ fhir:v "worsening" ] ;
+       fhir:display [ fhir:v "Worsening" ] ;
+       fhir:definition [ fhir:v "The goal is being sought, but is regressing." ]
+     ] [
+       fhir:code [ fhir:v "no-change" ] ;
+       fhir:display [ fhir:v "No Change" ] ;
+       fhir:definition [ fhir:v "The goal is being sought, but the trend is flat." ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "achieved" ] ;
+     fhir:display [ fhir:v "Achieved" ] ;
+     fhir:definition [ fhir:v "The goal has been met." ] ;
+     fhir:concept ( [
+       fhir:code [ fhir:v "sustaining" ] ;
+       fhir:display [ fhir:v "Sustaining" ] ;
+       fhir:definition [ fhir:v "The goal has been met, but ongoing activity is needed to sustain the goal objective." ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "not-achieved" ] ;
+     fhir:display [ fhir:v "Not Achieved" ] ;
+     fhir:definition [ fhir:v "The goal has not been met and there might or might not have been progress towards target." ] ;
+     fhir:concept ( [
+       fhir:code [ fhir:v "no-progress" ] ;
+       fhir:display [ fhir:v "No Progress" ] ;
+       fhir:definition [ fhir:v "The goal has not been met and little to no progress towards target." ]
+     ] [
+       fhir:code [ fhir:v "not-attainable" ] ;
+       fhir:display [ fhir:v "Not Attainable" ] ;
+       fhir:definition [ fhir:v "The goal is not possible to be met." ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

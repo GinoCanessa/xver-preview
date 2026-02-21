@@ -1,0 +1,792 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/v2-0360> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "v2-0360"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>status</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#status</td><td>code</td><td>Status of the concept</td></tr><tr><td>deprecated</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated</td><td>code</td><td>Version of HL7 in which the code was deprecated</td></tr></table><p><b>Concepts</b></p><p>This code system <code>http://terminology.hl7.org/CodeSystem/v2-0360</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">PN<a name=\"v2-0360-PN\"> </a></td><td>Advanced Practice Nurse</td><td>Advanced Practice Nurse</td></tr><tr><td style=\"white-space:nowrap\">AAS<a name=\"v2-0360-AAS\"> </a></td><td>Associate of Applied Science</td><td>Associate of Applied Science</td></tr><tr><td style=\"white-space:nowrap\">AA<a name=\"v2-0360-AA\"> </a></td><td>Associate of Arts</td><td>Associate of Arts</td></tr><tr><td style=\"white-space:nowrap\">ABA<a name=\"v2-0360-ABA\"> </a></td><td>Associate of Business Administration</td><td>Associate of Business Administration</td></tr><tr><td style=\"white-space:nowrap\">AE<a name=\"v2-0360-AE\"> </a></td><td>Associate of Engineering</td><td>Associate of Engineering</td></tr><tr><td style=\"white-space:nowrap\">AS<a name=\"v2-0360-AS\"> </a></td><td>Associate of Science</td><td>Associate of Science</td></tr><tr><td style=\"white-space:nowrap\">BA<a name=\"v2-0360-BA\"> </a></td><td>Bachelor of Arts</td><td>Bachelor of Arts</td></tr><tr><td style=\"white-space:nowrap\">BBA<a name=\"v2-0360-BBA\"> </a></td><td>Bachelor of Business Administration</td><td>Bachelor of Business Administration</td></tr><tr><td style=\"white-space:nowrap\">BE<a name=\"v2-0360-BE\"> </a></td><td>Bachelor or Engineering</td><td>Bachelor or Engineering</td></tr><tr><td style=\"white-space:nowrap\">BFA<a name=\"v2-0360-BFA\"> </a></td><td>Bachelor of Fine Arts</td><td>Bachelor of Fine Arts</td></tr><tr><td style=\"white-space:nowrap\">BN<a name=\"v2-0360-BN\"> </a></td><td>Bachelor of Nursing</td><td>Bachelor of Nursing</td></tr><tr><td style=\"white-space:nowrap\">BS<a name=\"v2-0360-BS\"> </a></td><td>Bachelor of Science</td><td>Bachelor of Science</td></tr><tr><td style=\"white-space:nowrap\">BSL<a name=\"v2-0360-BSL\"> </a></td><td>Bachelor of Science - Law</td><td>Bachelor of Science - Law</td></tr><tr><td style=\"white-space:nowrap\">BSN<a name=\"v2-0360-BSN\"> </a></td><td>Bachelor on Science - Nursing</td><td>Bachelor on Science - Nursing</td></tr><tr><td style=\"white-space:nowrap\">BT<a name=\"v2-0360-BT\"> </a></td><td>Bachelor of Theology</td><td>Bachelor of Theology</td></tr><tr><td style=\"white-space:nowrap\">CER<a name=\"v2-0360-CER\"> </a></td><td>Certificate</td><td>Certificate</td></tr><tr><td style=\"white-space:nowrap\">CANP<a name=\"v2-0360-CANP\"> </a></td><td>Certified Adult Nurse Practitioner</td><td>Certified Adult Nurse Practitioner</td></tr><tr><td style=\"white-space:nowrap\">CMA<a name=\"v2-0360-CMA\"> </a></td><td>Certified Medical Assistant</td><td>Certified Medical Assistant</td></tr><tr><td style=\"white-space:nowrap\">CNP<a name=\"v2-0360-CNP\"> </a></td><td>Certified Nurse Practitioner</td><td>Certified Nurse Practitioner</td></tr><tr><td style=\"white-space:nowrap\">CNM<a name=\"v2-0360-CNM\"> </a></td><td>Certified Nurse Midwife</td><td>Certified Nurse Midwife</td></tr><tr><td style=\"white-space:nowrap\">CRN<a name=\"v2-0360-CRN\"> </a></td><td>Certified Registered Nurse</td><td>Certified Registered Nurse</td></tr><tr><td style=\"white-space:nowrap\">CNS<a name=\"v2-0360-CNS\"> </a></td><td>Certified Nurse Specialist</td><td>Certified Nurse Specialist</td></tr><tr><td style=\"white-space:nowrap\">CPNP<a name=\"v2-0360-CPNP\"> </a></td><td>Certified Pediatric Nurse Practitioner</td><td>Certified Pediatric Nurse Practitioner</td></tr><tr><td style=\"white-space:nowrap\">CTR<a name=\"v2-0360-CTR\"> </a></td><td>Certified Tumor Registrar</td><td>Certified Tumor Registrar</td></tr><tr><td style=\"white-space:nowrap\">DIP<a name=\"v2-0360-DIP\"> </a></td><td>Diploma</td><td>Diploma</td></tr><tr><td style=\"white-space:nowrap\">DBA<a name=\"v2-0360-DBA\"> </a></td><td>Doctor of Business Administration</td><td>Doctor of Business Administration</td></tr><tr><td style=\"white-space:nowrap\">DED<a name=\"v2-0360-DED\"> </a></td><td>Doctor of Education</td><td>Doctor of Education</td></tr><tr><td style=\"white-space:nowrap\">PharmD<a name=\"v2-0360-PharmD\"> </a></td><td>Doctor of Pharmacy</td><td>Doctor of Pharmacy</td></tr><tr><td style=\"white-space:nowrap\">PHE<a name=\"v2-0360-PHE\"> </a></td><td>Doctor of Engineering</td><td>Doctor of Engineering</td></tr><tr><td style=\"white-space:nowrap\">PHD<a name=\"v2-0360-PHD\"> </a></td><td>Doctor of Philosophy</td><td>Doctor of Philosophy</td></tr><tr><td style=\"white-space:nowrap\">PHS<a name=\"v2-0360-PHS\"> </a></td><td>Doctor of Science</td><td>Doctor of Science</td></tr><tr><td style=\"white-space:nowrap\">MD<a name=\"v2-0360-MD\"> </a></td><td>Doctor of Medicine</td><td>Doctor of Medicine</td></tr><tr><td style=\"white-space:nowrap\">DO<a name=\"v2-0360-DO\"> </a></td><td>Doctor of Osteopathy</td><td>Doctor of Osteopathy</td></tr><tr><td style=\"white-space:nowrap\">EMT<a name=\"v2-0360-EMT\"> </a></td><td>Emergency Medical Technician</td><td>Emergency Medical Technician</td></tr><tr><td style=\"white-space:nowrap\">EMTP<a name=\"v2-0360-EMTP\"> </a></td><td>Emergency Medical Technician - Paramedic</td><td>Emergency Medical Technician - Paramedic</td></tr><tr><td style=\"white-space:nowrap\">FPNP<a name=\"v2-0360-FPNP\"> </a></td><td>Family Practice Nurse Practitioner</td><td>Family Practice Nurse Practitioner</td></tr><tr><td style=\"white-space:nowrap\">HS<a name=\"v2-0360-HS\"> </a></td><td>High School Graduate</td><td>High School Graduate</td></tr><tr><td style=\"white-space:nowrap\">JD<a name=\"v2-0360-JD\"> </a></td><td>Juris Doctor</td><td>Juris Doctor</td></tr><tr><td style=\"white-space:nowrap\">MA<a name=\"v2-0360-MA\"> </a></td><td>Master of Arts</td><td>Master of Arts</td></tr><tr><td style=\"white-space:nowrap\">MBA<a name=\"v2-0360-MBA\"> </a></td><td>Master of Business Administration</td><td>Master of Business Administration</td></tr><tr><td style=\"white-space:nowrap\">MCE<a name=\"v2-0360-MCE\"> </a></td><td>Master of Civil Engineering</td><td>Master of Civil Engineering</td></tr><tr><td style=\"white-space:nowrap\">MDI<a name=\"v2-0360-MDI\"> </a></td><td>Master of Divinity</td><td>Master of Divinity</td></tr><tr><td style=\"white-space:nowrap\">MED<a name=\"v2-0360-MED\"> </a></td><td>Master of Education</td><td>Master of Education</td></tr><tr><td style=\"white-space:nowrap\">MEE<a name=\"v2-0360-MEE\"> </a></td><td>Master of Electrical Engineering</td><td>Master of Electrical Engineering</td></tr><tr><td style=\"white-space:nowrap\">ME<a name=\"v2-0360-ME\"> </a></td><td>Master of Engineering</td><td>Master of Engineering</td></tr><tr><td style=\"white-space:nowrap\">MFA<a name=\"v2-0360-MFA\"> </a></td><td>Master of Fine Arts</td><td>Master of Fine Arts</td></tr><tr><td style=\"white-space:nowrap\">MME<a name=\"v2-0360-MME\"> </a></td><td>Master of Mechanical Engineering</td><td>Master of Mechanical Engineering</td></tr><tr><td style=\"white-space:nowrap\">MS<a name=\"v2-0360-MS\"> </a></td><td>Master of Science</td><td>Master of Science</td></tr><tr><td style=\"white-space:nowrap\">MSL<a name=\"v2-0360-MSL\"> </a></td><td>Master of Science - Law</td><td>Master of Science - Law</td></tr><tr><td style=\"white-space:nowrap\">MSN<a name=\"v2-0360-MSN\"> </a></td><td>Master of Science - Nursing</td><td>Master of Science - Nursing</td></tr><tr><td style=\"white-space:nowrap\">MTH<a name=\"v2-0360-MTH\"> </a></td><td>Master of Theology</td><td>Master of Theology</td></tr><tr><td style=\"white-space:nowrap\">MDA<a name=\"v2-0360-MDA\"> </a></td><td>Medical Assistant</td><td>Medical Assistant</td></tr><tr><td style=\"white-space:nowrap\">MT<a name=\"v2-0360-MT\"> </a></td><td>Medical Technician</td><td>Medical Technician</td></tr><tr><td style=\"white-space:nowrap\">NG<a name=\"v2-0360-NG\"> </a></td><td>Non-Graduate</td><td>Non-Graduate</td></tr><tr><td style=\"white-space:nowrap\">NP<a name=\"v2-0360-NP\"> </a></td><td>Nurse Practitioner</td><td>Nurse Practitioner</td></tr><tr><td style=\"white-space:nowrap\">PA<a name=\"v2-0360-PA\"> </a></td><td>Physician Assistant</td><td>Physician Assistant</td></tr><tr><td style=\"white-space:nowrap\">RMA<a name=\"v2-0360-RMA\"> </a></td><td>Registered Medical Assistant</td><td>Registered Medical Assistant</td></tr><tr><td style=\"white-space:nowrap\">RN<a name=\"v2-0360-RN\"> </a></td><td>Registered Nurse</td><td>Registered Nurse</td></tr><tr><td style=\"white-space:nowrap\">RPH<a name=\"v2-0360-RPH\"> </a></td><td>Registered Pharmacist</td><td>Registered Pharmacist</td></tr><tr><td style=\"white-space:nowrap\">SEC<a name=\"v2-0360-SEC\"> </a></td><td>Secretarial Certificate</td><td>Secretarial Certificate</td></tr><tr><td style=\"white-space:nowrap\">TS<a name=\"v2-0360-TS\"> </a></td><td>Trade School Graduate</td><td>Trade School Graduate</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "oo"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/v2-0360"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/v2-0360>
+  ] ; # 
+  fhir:version [ fhir:v "2.1.0"] ; # 
+  fhir:name [ fhir:v "DegreeLicenseCertificate"] ; # 
+  fhir:title [ fhir:v "degreeLicenseCertificate"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2019-11-30T18:00:00-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Orders and Observations"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Orders and Observations" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/orders" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Code system of concepts specifying an educational degree (e.g., MD).  Used in the CNN datatype (names and identifiers of clinicians) in Version 2 messaging.  Used in HL7 Version 2.x messaging in the CNN segment; note that in releases of HL7 prior to 2.3.1, was also used in person names (XPN), but this use was deprecated, then withdrawn in 2.7."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "Underlying Master Code System for V2 table 0360 (Degree/License/Certificate)"] ; # 
+  fhir:copyright [ fhir:v "Copyright HL7. Licensed under creative commons public domain"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/v2-0360|2.0.0"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/v2-0360?version=2.0.0>
+  ] ; # 
+  fhir:hierarchyMeaning [ fhir:v "is-a"] ; # 
+  fhir:compositional [ fhir:v false] ; # 
+  fhir:versionNeeded [ fhir:v false] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "status" ] ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/CodeSystem/utg-concept-properties#status"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/utg-concept-properties#status>
+     ] ;
+     fhir:description [ fhir:v "Status of the concept" ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "deprecated" ] ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated>
+     ] ;
+     fhir:description [ fhir:v "Version of HL7 in which the code was deprecated" ] ;
+     fhir:type [ fhir:v "code" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "PN" ] ;
+     fhir:display [ fhir:v "Advanced Practice Nurse" ] ;
+     fhir:definition [ fhir:v "Advanced Practice Nurse" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AAS" ] ;
+     fhir:display [ fhir:v "Associate of Applied Science" ] ;
+     fhir:definition [ fhir:v "Associate of Applied Science" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AA" ] ;
+     fhir:display [ fhir:v "Associate of Arts" ] ;
+     fhir:definition [ fhir:v "Associate of Arts" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ABA" ] ;
+     fhir:display [ fhir:v "Associate of Business Administration" ] ;
+     fhir:definition [ fhir:v "Associate of Business Administration" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AE" ] ;
+     fhir:display [ fhir:v "Associate of Engineering" ] ;
+     fhir:definition [ fhir:v "Associate of Engineering" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AS" ] ;
+     fhir:display [ fhir:v "Associate of Science" ] ;
+     fhir:definition [ fhir:v "Associate of Science" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BA" ] ;
+     fhir:display [ fhir:v "Bachelor of Arts" ] ;
+     fhir:definition [ fhir:v "Bachelor of Arts" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BBA" ] ;
+     fhir:display [ fhir:v "Bachelor of Business Administration" ] ;
+     fhir:definition [ fhir:v "Bachelor of Business Administration" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BE" ] ;
+     fhir:display [ fhir:v "Bachelor or Engineering" ] ;
+     fhir:definition [ fhir:v "Bachelor or Engineering" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BFA" ] ;
+     fhir:display [ fhir:v "Bachelor of Fine Arts" ] ;
+     fhir:definition [ fhir:v "Bachelor of Fine Arts" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BN" ] ;
+     fhir:display [ fhir:v "Bachelor of Nursing" ] ;
+     fhir:definition [ fhir:v "Bachelor of Nursing" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BS" ] ;
+     fhir:display [ fhir:v "Bachelor of Science" ] ;
+     fhir:definition [ fhir:v "Bachelor of Science" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BSL" ] ;
+     fhir:display [ fhir:v "Bachelor of Science - Law" ] ;
+     fhir:definition [ fhir:v "Bachelor of Science - Law" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BSN" ] ;
+     fhir:display [ fhir:v "Bachelor on Science - Nursing" ] ;
+     fhir:definition [ fhir:v "Bachelor on Science - Nursing" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BT" ] ;
+     fhir:display [ fhir:v "Bachelor of Theology" ] ;
+     fhir:definition [ fhir:v "Bachelor of Theology" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CER" ] ;
+     fhir:display [ fhir:v "Certificate" ] ;
+     fhir:definition [ fhir:v "Certificate" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CANP" ] ;
+     fhir:display [ fhir:v "Certified Adult Nurse Practitioner" ] ;
+     fhir:definition [ fhir:v "Certified Adult Nurse Practitioner" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CMA" ] ;
+     fhir:display [ fhir:v "Certified Medical Assistant" ] ;
+     fhir:definition [ fhir:v "Certified Medical Assistant" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CNP" ] ;
+     fhir:display [ fhir:v "Certified Nurse Practitioner" ] ;
+     fhir:definition [ fhir:v "Certified Nurse Practitioner" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CNM" ] ;
+     fhir:display [ fhir:v "Certified Nurse Midwife" ] ;
+     fhir:definition [ fhir:v "Certified Nurse Midwife" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CRN" ] ;
+     fhir:display [ fhir:v "Certified Registered Nurse" ] ;
+     fhir:definition [ fhir:v "Certified Registered Nurse" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CNS" ] ;
+     fhir:display [ fhir:v "Certified Nurse Specialist" ] ;
+     fhir:definition [ fhir:v "Certified Nurse Specialist" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CPNP" ] ;
+     fhir:display [ fhir:v "Certified Pediatric Nurse Practitioner" ] ;
+     fhir:definition [ fhir:v "Certified Pediatric Nurse Practitioner" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CTR" ] ;
+     fhir:display [ fhir:v "Certified Tumor Registrar" ] ;
+     fhir:definition [ fhir:v "Certified Tumor Registrar" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DIP" ] ;
+     fhir:display [ fhir:v "Diploma" ] ;
+     fhir:definition [ fhir:v "Diploma" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DBA" ] ;
+     fhir:display [ fhir:v "Doctor of Business Administration" ] ;
+     fhir:definition [ fhir:v "Doctor of Business Administration" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DED" ] ;
+     fhir:display [ fhir:v "Doctor of Education" ] ;
+     fhir:definition [ fhir:v "Doctor of Education" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PharmD" ] ;
+     fhir:display [ fhir:v "Doctor of Pharmacy" ] ;
+     fhir:definition [ fhir:v "Doctor of Pharmacy" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PHE" ] ;
+     fhir:display [ fhir:v "Doctor of Engineering" ] ;
+     fhir:definition [ fhir:v "Doctor of Engineering" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PHD" ] ;
+     fhir:display [ fhir:v "Doctor of Philosophy" ] ;
+     fhir:definition [ fhir:v "Doctor of Philosophy" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PHS" ] ;
+     fhir:display [ fhir:v "Doctor of Science" ] ;
+     fhir:definition [ fhir:v "Doctor of Science" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MD" ] ;
+     fhir:display [ fhir:v "Doctor of Medicine" ] ;
+     fhir:definition [ fhir:v "Doctor of Medicine" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "DO" ] ;
+     fhir:display [ fhir:v "Doctor of Osteopathy" ] ;
+     fhir:definition [ fhir:v "Doctor of Osteopathy" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "EMT" ] ;
+     fhir:display [ fhir:v "Emergency Medical Technician" ] ;
+     fhir:definition [ fhir:v "Emergency Medical Technician" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "EMTP" ] ;
+     fhir:display [ fhir:v "Emergency Medical Technician - Paramedic" ] ;
+     fhir:definition [ fhir:v "Emergency Medical Technician - Paramedic" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FPNP" ] ;
+     fhir:display [ fhir:v "Family Practice Nurse Practitioner" ] ;
+     fhir:definition [ fhir:v "Family Practice Nurse Practitioner" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "HS" ] ;
+     fhir:display [ fhir:v "High School Graduate" ] ;
+     fhir:definition [ fhir:v "High School Graduate" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "JD" ] ;
+     fhir:display [ fhir:v "Juris Doctor" ] ;
+     fhir:definition [ fhir:v "Juris Doctor" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MA" ] ;
+     fhir:display [ fhir:v "Master of Arts" ] ;
+     fhir:definition [ fhir:v "Master of Arts" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MBA" ] ;
+     fhir:display [ fhir:v "Master of Business Administration" ] ;
+     fhir:definition [ fhir:v "Master of Business Administration" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MCE" ] ;
+     fhir:display [ fhir:v "Master of Civil Engineering" ] ;
+     fhir:definition [ fhir:v "Master of Civil Engineering" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MDI" ] ;
+     fhir:display [ fhir:v "Master of Divinity" ] ;
+     fhir:definition [ fhir:v "Master of Divinity" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MED" ] ;
+     fhir:display [ fhir:v "Master of Education" ] ;
+     fhir:definition [ fhir:v "Master of Education" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MEE" ] ;
+     fhir:display [ fhir:v "Master of Electrical Engineering" ] ;
+     fhir:definition [ fhir:v "Master of Electrical Engineering" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ME" ] ;
+     fhir:display [ fhir:v "Master of Engineering" ] ;
+     fhir:definition [ fhir:v "Master of Engineering" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MFA" ] ;
+     fhir:display [ fhir:v "Master of Fine Arts" ] ;
+     fhir:definition [ fhir:v "Master of Fine Arts" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MME" ] ;
+     fhir:display [ fhir:v "Master of Mechanical Engineering" ] ;
+     fhir:definition [ fhir:v "Master of Mechanical Engineering" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MS" ] ;
+     fhir:display [ fhir:v "Master of Science" ] ;
+     fhir:definition [ fhir:v "Master of Science" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MSL" ] ;
+     fhir:display [ fhir:v "Master of Science - Law" ] ;
+     fhir:definition [ fhir:v "Master of Science - Law" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MSN" ] ;
+     fhir:display [ fhir:v "Master of Science - Nursing" ] ;
+     fhir:definition [ fhir:v "Master of Science - Nursing" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MTH" ] ;
+     fhir:display [ fhir:v "Master of Theology" ] ;
+     fhir:definition [ fhir:v "Master of Theology" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MDA" ] ;
+     fhir:display [ fhir:v "Medical Assistant" ] ;
+     fhir:definition [ fhir:v "Medical Assistant" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MT" ] ;
+     fhir:display [ fhir:v "Medical Technician" ] ;
+     fhir:definition [ fhir:v "Medical Technician" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "NG" ] ;
+     fhir:display [ fhir:v "Non-Graduate" ] ;
+     fhir:definition [ fhir:v "Non-Graduate" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "NP" ] ;
+     fhir:display [ fhir:v "Nurse Practitioner" ] ;
+     fhir:definition [ fhir:v "Nurse Practitioner" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PA" ] ;
+     fhir:display [ fhir:v "Physician Assistant" ] ;
+     fhir:definition [ fhir:v "Physician Assistant" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "RMA" ] ;
+     fhir:display [ fhir:v "Registered Medical Assistant" ] ;
+     fhir:definition [ fhir:v "Registered Medical Assistant" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "RN" ] ;
+     fhir:display [ fhir:v "Registered Nurse" ] ;
+     fhir:definition [ fhir:v "Registered Nurse" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "RPH" ] ;
+     fhir:display [ fhir:v "Registered Pharmacist" ] ;
+     fhir:definition [ fhir:v "Registered Pharmacist" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SEC" ] ;
+     fhir:display [ fhir:v "Secretarial Certificate" ] ;
+     fhir:definition [ fhir:v "Secretarial Certificate" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TS" ] ;
+     fhir:display [ fhir:v "Trade School Graduate" ] ;
+     fhir:definition [ fhir:v "Trade School Graduate" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

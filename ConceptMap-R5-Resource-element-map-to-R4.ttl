@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "R5-Resource-element-map-to-R4"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-Resource-element-map-to-R4</b></p><a name=\"R5-Resource-element-map-to-R4\"> </a><a name=\"hcR5-Resource-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Resource|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/resource.html\">Resourceversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Resource.meta (meta)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Resource.meta` has is mapped to FHIR R4 element `Resource.meta`, but has no comparisons.</td></tr><tr><td>Resource.implicitRules (implicitRules)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Resource.implicitRules` has is mapped to FHIR R4 element `Resource.implicitRules`, but has no comparisons.</td></tr><tr><td>Resource.language (language)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Resource.language` has is mapped to FHIR R4 element `Resource.language`, but has no comparisons.</td></tr></table></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-Resource-element-map-to-R4</b></p><a name=\"R5-Resource-element-map-to-R4\"> </a><a name=\"hcR5-Resource-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Resource|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/resource.html\">Resourceversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Resource.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Resource.meta` is mapped to FHIR R4 element `Resource.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Resource.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Resource.implicitRules` is mapped to FHIR R4 element `Resource.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>Resource.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Resource.language` is mapped to FHIR R4 element `Resource.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
      fhir:url [
@@ -72,8 +72,7 @@
   fhir:title [ fhir:v "Cross-version mapping for FHIR R5 Resource to FHIR R4 Resource"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-20T11:59:26.1653023-06:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:date [ fhir:v "2026-02-21T13:36:58.9213026-06:00"^^xsd:dateTime] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
      fhir:telecom ( [
@@ -118,21 +117,21 @@
        fhir:display [ fhir:v "meta" ] ;
        fhir:target ( [
          fhir:equivalence [ fhir:v "equivalent" ] ;
-         fhir:comment [ fhir:v "Element `Resource.meta` has is mapped to FHIR R4 element `Resource.meta`, but has no comparisons." ]
+         fhir:comment [ fhir:v "Element `Resource.meta` is mapped to FHIR R4 element `Resource.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
        ] )
      ] [
        fhir:code [ fhir:v "Resource.implicitRules" ] ;
        fhir:display [ fhir:v "implicitRules" ] ;
        fhir:target ( [
          fhir:equivalence [ fhir:v "equivalent" ] ;
-         fhir:comment [ fhir:v "Element `Resource.implicitRules` has is mapped to FHIR R4 element `Resource.implicitRules`, but has no comparisons." ]
+         fhir:comment [ fhir:v "Element `Resource.implicitRules` is mapped to FHIR R4 element `Resource.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
        ] )
      ] [
        fhir:code [ fhir:v "Resource.language" ] ;
        fhir:display [ fhir:v "language" ] ;
        fhir:target ( [
          fhir:equivalence [ fhir:v "equivalent" ] ;
-         fhir:comment [ fhir:v "Element `Resource.language` has is mapped to FHIR R4 element `Resource.language`, but has no comparisons." ]
+         fhir:comment [ fhir:v "Element `Resource.language` is mapped to FHIR R4 element `Resource.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
        ] )
      ] )
   ] ) . # 

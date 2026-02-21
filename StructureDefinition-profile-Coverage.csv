@@ -24,17 +24,13 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Coverage.extension:kind","Coverage.extension","kind","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.kind]]} {[]}
+"Coverage.extension:kind","Coverage.extension","kind","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.kind|0.0.1-snapshot-3]]} {[]}
 ","Cross-version extension for Coverage.kind from R5 for use in FHIR R4","The nature of the coverage be it insurance, or cash payment such as self-pay.","Element `Coverage.kind` has a context of Coverage based on following the parent source element upwards and mapping to `Coverage`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Coverage.extension:paymentBy","Coverage.extension","paymentBy","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.paymentBy]]} {[]}
+"Coverage.extension:paymentBy","Coverage.extension","paymentBy","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.paymentBy|0.0.1-snapshot-3]]} {[]}
 ","Cross-version extension for Coverage.paymentBy from R5 for use in FHIR R4","Link to the paying party and optionally what specifically they will be responsible to pay.","Element `Coverage.paymentBy` has a context of Coverage based on following the parent source element upwards and mapping to `Coverage`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Coverage.extension:insurancePlan","Coverage.extension","insurancePlan","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference]]} {[]}
-","Cross-version extension for Coverage.insurancePlan from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/InsurancePlan in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Coverage.insurancePlan` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
-Element `Coverage.insurancePlan` has a context of Coverage based on following the parent source element upwards and mapping to `Coverage`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Coverage.modifierExtension","Coverage.modifierExtension","","extensions
 user content","",0,*,"","Y","","Extension {[]} {[]}
@@ -66,8 +62,8 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Coverage.subscriberId.extension:subscriberId","Coverage.subscriberId.extension","subscriberId","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.subscriberId]]} {[]}
-","Cross-version extension for Coverage.subscriberId from R5 for use in FHIR R4","The insurer assigned ID for the Subscriber.","Element `Coverage.subscriberId` has is mapped to FHIR R4 element `Coverage.subscriberId`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"Coverage.subscriberId.extension:subscriberId","Coverage.subscriberId.extension","subscriberId","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.subscriberId|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Coverage.subscriberId from R5 for use in FHIR R4","The insurer assigned ID for the Subscriber.","Element `Coverage.subscriberId` is mapped to FHIR R4 element `Coverage.subscriberId` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Coverage.subscriberId.value","Coverage.subscriberId.value","","","",0,1,"","","","string {[]} {[]}
@@ -93,14 +89,10 @@ For selfpay it may provide multiple paying persons and/or organizations.","Need 
 "
 "Coverage.class.id","Coverage.class.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Coverage.class.extension","Coverage.class.extension","","","",0,*,"","","","Extension {[]} {[]}
-","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
-","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Coverage.class.extension:class","Coverage.class.extension","class","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.class]]} {[]}
-","Cross-version extension for Coverage.class from R5 for use in FHIR R4","A suite of underwriter specific classifiers.","Element `Coverage.class` has is mapped to FHIR R4 element `Coverage.class`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Coverage.class.extension","Coverage.class.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
 "Coverage.class.modifierExtension","Coverage.class.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 ","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -113,6 +105,18 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Coverage.class.value","Coverage.class.value","","","",1,1,"","","Y","string {[]} {[]}
 ","Value associated with the type","The alphanumeric string value associated with the insurer issued label.","For example, the Group or Plan number.","The insurer issued label and value are necessary to identify the specific policy.","","","","","","","",,,,,"",,,,"Coverage.class.value",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","C11 (Division,Section)","IN1-8","C.31"
+"Coverage.class.value.id","Coverage.class.value.id","","","",0,1,"","","","string {[]} {[]}
+","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references)","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
+"Coverage.class.value.extension","Coverage.class.value.extension","","","",1,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Coverage.class.value.extension:value","Coverage.class.value.extension","value","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.class.value|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Coverage.class.value from R5 for use in FHIR R4","The alphanumeric identifier associated with the insurer issued label.","Element `Coverage.class.value` is mapped to FHIR R4 element `Coverage.class.value` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Coverage.class.value.value","Coverage.class.value.value","","","",0,1,"","","","string {[]} {[]}
+","Primitive value for string","The actual value","","","","","","","","","",1048576,,,,"",,,,"string.value",0,1,"",""
 "Coverage.class.name","Coverage.class.name","","","",0,1,"","","Y","string {[]} {[]}
 ","Human readable description of the type and value","A short description for the class.","","Used to provide a meaningful description in correspondence to the patient.","","","","","","","",,,,,"",,,,"Coverage.class.name",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","C11 (Division,Section)","IN1-8","C.31"
@@ -132,8 +136,20 @@ DeductibleExceptions","",0,*,"","","","BackboneElement {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Coverage.costToBeneficiary.extension:costToBeneficiary","Coverage.costToBeneficiary.extension","costToBeneficiary","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary]]} {[]}
-","Cross-version extension for Coverage.costToBeneficiary from R5 for use in FHIR R4","A suite of codes indicating the cost category and associated amount which have been detailed in the policy and may have been  included on the health card.","Element `Coverage.costToBeneficiary` has is mapped to FHIR R4 element `Coverage.costToBeneficiary`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"Coverage.costToBeneficiary.extension:category","Coverage.costToBeneficiary.extension","category","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.category|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Coverage.costToBeneficiary.category from R5 for use in FHIR R4","Code to identify the general type of benefits under which products and services are provided.","Element `Coverage.costToBeneficiary.category` has a context of Coverage.costToBeneficiary based on following the parent source element upwards and mapping to `Coverage`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Coverage.costToBeneficiary.extension:network","Coverage.costToBeneficiary.extension","network","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.network|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Coverage.costToBeneficiary.network from R5 for use in FHIR R4","Is a flag to indicate whether the benefits refer to in-network providers or out-of-network providers.","Element `Coverage.costToBeneficiary.network` has a context of Coverage.costToBeneficiary based on following the parent source element upwards and mapping to `Coverage`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Coverage.costToBeneficiary.extension:unit","Coverage.costToBeneficiary.extension","unit","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.unit|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Coverage.costToBeneficiary.unit from R5 for use in FHIR R4","Indicates if the benefits apply to an individual or to the family.","Element `Coverage.costToBeneficiary.unit` has a context of Coverage.costToBeneficiary based on following the parent source element upwards and mapping to `Coverage`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Coverage.costToBeneficiary.extension:term","Coverage.costToBeneficiary.extension","term","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.term|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Coverage.costToBeneficiary.term from R5 for use in FHIR R4","The term or period of the values such as 'maximum lifetime benefit' or 'maximum annual visits'.","Element `Coverage.costToBeneficiary.term` has a context of Coverage.costToBeneficiary based on following the parent source element upwards and mapping to `Coverage`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Coverage.costToBeneficiary.modifierExtension","Coverage.costToBeneficiary.modifierExtension","","extensions

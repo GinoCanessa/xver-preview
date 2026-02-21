@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="biologicallyderivedproductdispense-status"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/biologicallyderivedproductdispense-status</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">preparation
+                  <a name="biologicallyderivedproductdispense-status-preparation"> </a>
+                </td>
+                <td>Preparation</td>
+                <td>The dispense process has started but not yet completed.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">in-progress
+                  <a name="biologicallyderivedproductdispense-status-in-progress"> </a>
+                </td>
+                <td>In Progress</td>
+                <td>The dispense process is in progress.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">allocated
+                  <a name="biologicallyderivedproductdispense-status-allocated"> </a>
+                </td>
+                <td>Allocated</td>
+                <td>The requested product has been allocated and is ready for transport.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">issued
+                  <a name="biologicallyderivedproductdispense-status-issued"> </a>
+                </td>
+                <td>Issued</td>
+                <td>The dispensed product has been picked up.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">unfulfilled
+                  <a name="biologicallyderivedproductdispense-status-unfulfilled"> </a>
+                </td>
+                <td>Unfulfilled</td>
+                <td>The dispense could not be completed.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">returned
+                  <a name="biologicallyderivedproductdispense-status-returned"> </a>
+                </td>
+                <td>Returned</td>
+                <td>The dispensed product was returned.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">entered-in-error
+                  <a name="biologicallyderivedproductdispense-status-entered-in-error"> </a>
+                </td>
+                <td>Entered in Error</td>
+                <td>The dispense was entered in error and therefore nullified.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">unknown
+                  <a name="biologicallyderivedproductdispense-status-unknown"> </a>
+                </td>
+                <td>Unknown</td>
+                <td>The authoring system does not know which of the status values applies for this dispense. Note: this concept is not to be used for other - one of the listed statuses is presumed to apply, it's just not known which one.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo"/>
+  </extension>
+  <url value="http://hl7.org/fhir/biologicallyderivedproductdispense-status"/>
+  <version value="5.0.0"/>
+  <name value="BiologicallyDerivedProductDispense"/>
+  <title value="BiologicallyDerivedProductDispense Status Codes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-21T13:39:05-06:00"/>
+  <publisher value="Orders and Observations"/>
+  <contact>
+    <name value="Orders and Observations"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/orders"/>
+    </telecom>
+  </contact>
+  <description value="BiologicallyDerivedProductDispense Status Codes"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/biologicallyderivedproductdispense-status"/>
+  <content value="complete"/>
+  <concept>
+    <code value="preparation"/>
+    <display value="Preparation"/>
+    <definition value="The dispense process has started but not yet completed."/>
+  </concept>
+  <concept>
+    <code value="in-progress"/>
+    <display value="In Progress"/>
+    <definition value="The dispense process is in progress."/>
+  </concept>
+  <concept>
+    <code value="allocated"/>
+    <display value="Allocated"/>
+    <definition value="The requested product has been allocated and is ready for transport."/>
+  </concept>
+  <concept>
+    <code value="issued"/>
+    <display value="Issued"/>
+    <definition value="The dispensed product has been picked up."/>
+  </concept>
+  <concept>
+    <code value="unfulfilled"/>
+    <display value="Unfulfilled"/>
+    <definition value="The dispense could not be completed."/>
+  </concept>
+  <concept>
+    <code value="returned"/>
+    <display value="Returned"/>
+    <definition value="The dispensed product was returned."/>
+  </concept>
+  <concept>
+    <code value="entered-in-error"/>
+    <display value="Entered in Error"/>
+    <definition value="The dispense was entered in error and therefore nullified."/>
+  </concept>
+  <concept>
+    <code value="unknown"/>
+    <display value="Unknown"/>
+    <definition value="The authoring system does not know which of the status values applies for this dispense. Note: this concept is not to be used for other - one of the listed statuses is presumed to apply, it's just not known which one."/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,2106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Lookup for R5TargetSpeciesForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"4.671"}
+    h3,h4,h5,h6{--heading-prefix:"4.671"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" data-no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img alt="International flag" src="../assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='lookup-vs.html'><b>ValueSet Lookup</b></a></li><li><b>Lookup for R5TargetSpeciesForR4</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="lookup-vs-R5-system-restful-interaction-for-R4.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="lookup-vs-R5-task-code-for-R4.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Lookup for R5TargetSpeciesForR4</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+</div>
+<h3 id="lookup-for-fhir-r5-valueset-targetspecieshttphl7orgfhirvaluesettarget-species-for-use-in-fhir-r4">Lookup for <a href="https://hl7.org/fhir/R5/">FHIR R5</a> ValueSet TargetSpecies:<a href="https://hl7.org/fhir/R5/valueset-target-species.html"><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/ValueSet/target-species</code></a> for use in <a href="https://hl7.org/fhir/R4/">FHIR R4</a></h3>
+
+<p>The FHIR R5 ValueSet TargetSpecies has no mapping  to FHIR R4.</p>
+
+<table class="grid">
+  <thead>
+    <tr>
+      <th>Source System</th>
+      <th>Code</th>
+      <th>Display</th>
+      <th>Has XVer</th>
+      <th>Target System</th>
+      <th>Code</th>
+      <th>Display</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108874</code></td>
+      <td>Dove</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108875</code></td>
+      <td>Quail</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108876</code></td>
+      <td>Snipe</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108877</code></td>
+      <td>Sparrow</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108878</code></td>
+      <td>Starling</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108879</code></td>
+      <td>Swan</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108880</code></td>
+      <td>Turkey hen</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108881</code></td>
+      <td>Turkey cock</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108882</code></td>
+      <td>Turkeys</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108883</code></td>
+      <td>Turkey for reproduction</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108884</code></td>
+      <td>Poult</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108885</code></td>
+      <td>Turtle dove</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108886</code></td>
+      <td>Bison</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108887</code></td>
+      <td>Buffalo</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108888</code></td>
+      <td>Cows</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108889</code></td>
+      <td>Cow for reproduction</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108890</code></td>
+      <td>Bull for reproduction</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108891</code></td>
+      <td>Ox</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108892</code></td>
+      <td>Bullock</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108893</code></td>
+      <td>Cattle</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108894</code></td>
+      <td>Beef cattle</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108895</code></td>
+      <td>Dairy cattle</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108896</code></td>
+      <td>Dry cow</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108897</code></td>
+      <td>Bull</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108898</code></td>
+      <td>Lactating cow</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108899</code></td>
+      <td>All other food producing species</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108900</code></td>
+      <td>All non-food producing species</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108901</code></td>
+      <td>All species  </td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108902</code></td>
+      <td>Carnivores</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108903</code></td>
+      <td>Domestic animals</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108904</code></td>
+      <td>Fur animals</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108905</code></td>
+      <td>Game animals</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108906</code></td>
+      <td>Laboratory animals</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108907</code></td>
+      <td>Major species</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108908</code></td>
+      <td>Minor species</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108909</code></td>
+      <td>Ruminant</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108910</code></td>
+      <td>Ruminant and porcine</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108911</code></td>
+      <td>Small animals</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108912</code></td>
+      <td>Crocodile</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108913</code></td>
+      <td>Frog</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108914</code></td>
+      <td>Iguana</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108915</code></td>
+      <td>Lizard</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108916</code></td>
+      <td>Amphibians</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108917</code></td>
+      <td>Reptiles</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108918</code></td>
+      <td>Reptiles for production</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108919</code></td>
+      <td>Snake</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108920</code></td>
+      <td>Tortoise</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108921</code></td>
+      <td>Turtle</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108922</code></td>
+      <td>Honey bees</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108923</code></td>
+      <td>Crustacean</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108924</code></td>
+      <td>Spider</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108925</code></td>
+      <td>Indian hen</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108926</code></td>
+      <td>African Goshawk</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108927</code></td>
+      <td>Black Kite</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108928</code></td>
+      <td>Budgerigar</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108929</code></td>
+      <td>Bustard</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108930</code></td>
+      <td>Buzzard</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108931</code></td>
+      <td>Hen</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108932</code></td>
+      <td>Layer hen</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108933</code></td>
+      <td>Cock</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108934</code></td>
+      <td>Broiler</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108935</code></td>
+      <td>Chickens</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108936</code></td>
+      <td>Chicken embryonated eggs</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108937</code></td>
+      <td>Chicken for reproduction</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108938</code></td>
+      <td>Replacement chick</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108939</code></td>
+      <td>Chick</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108940</code></td>
+      <td>Pullet</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108941</code></td>
+      <td>Cockatiel</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108942</code></td>
+      <td>Cockatoo</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108943</code></td>
+      <td>Common canary</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108944</code></td>
+      <td>Crow</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108945</code></td>
+      <td>Duck</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108946</code></td>
+      <td>Duck broiler</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108947</code></td>
+      <td>Duckling</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108948</code></td>
+      <td>Eagle</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108949</code></td>
+      <td>Emu</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108950</code></td>
+      <td>Goose</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108951</code></td>
+      <td>Guinea fowl</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108952</code></td>
+      <td>Kestrel</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108953</code></td>
+      <td>Kite</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108954</code></td>
+      <td>Macaw</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108955</code></td>
+      <td>Ostrich</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108956</code></td>
+      <td>Birds</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108957</code></td>
+      <td>Fowls</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108958</code></td>
+      <td>Finch</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108959</code></td>
+      <td>Galliformes</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108960</code></td>
+      <td>Game birds</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108961</code></td>
+      <td>Pekin duck</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108962</code></td>
+      <td>Ornamental birds</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108963</code></td>
+      <td>Poultry</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108964</code></td>
+      <td>Owl</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108965</code></td>
+      <td>Parakeet</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108966</code></td>
+      <td>Parrot</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108967</code></td>
+      <td>Partridge</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108968</code></td>
+      <td>Peregrine Falcon</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108969</code></td>
+      <td>Pheasants</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108970</code></td>
+      <td>Carrier pigeon</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108971</code></td>
+      <td>Newborn calves</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108972</code></td>
+      <td>Pregnant cow</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108973</code></td>
+      <td>Pregnant heifer</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108974</code></td>
+      <td>Pre-ruminant cattle</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108975</code></td>
+      <td>Ruminant cattle</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108976</code></td>
+      <td>Wild cattle</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108977</code></td>
+      <td>Calf</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108978</code></td>
+      <td>Heifers</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108979</code></td>
+      <td>Other Bovids</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108980</code></td>
+      <td>Alpaca</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108981</code></td>
+      <td>Camel</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108982</code></td>
+      <td>Llama</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108983</code></td>
+      <td>Other Camelids</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108984</code></td>
+      <td>Bitch</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108985</code></td>
+      <td>Bitch for reproduction</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108986</code></td>
+      <td>Adult male dog</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108987</code></td>
+      <td>Adult male dog for reproduction</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108988</code></td>
+      <td>Dogs</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108989</code></td>
+      <td>Lactating bitch</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108990</code></td>
+      <td>Large dog</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108991</code></td>
+      <td>Medium dog</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108992</code></td>
+      <td>Pregnant bitch</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108993</code></td>
+      <td>Small dog</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108994</code></td>
+      <td>Very large dog</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108995</code></td>
+      <td>Very small dog</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108996</code></td>
+      <td>Puppy</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108997</code></td>
+      <td>Foxes</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108998</code></td>
+      <td>Jackal</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000108999</code></td>
+      <td>Other Canids</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109000</code></td>
+      <td>Raccoon dogs</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109001</code></td>
+      <td>Wolf</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109002</code></td>
+      <td>Chamois</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109003</code></td>
+      <td>Other Caprines</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109004</code></td>
+      <td>Adult female goat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109005</code></td>
+      <td>Adult male goat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109006</code></td>
+      <td>Dry adult female goat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109007</code></td>
+      <td>Goats</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109008</code></td>
+      <td>Lactating adult female goat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109009</code></td>
+      <td>Pregnant adult female goat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109010</code></td>
+      <td>Pre-ruminant goat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109011</code></td>
+      <td>Ruminant goat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109012</code></td>
+      <td>Wild goat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109013</code></td>
+      <td>Kid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109014</code></td>
+      <td>Other Ovids</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109015</code></td>
+      <td>Ewe</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109016</code></td>
+      <td>Ram</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109017</code></td>
+      <td>Dry ewe</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109018</code></td>
+      <td>Lactating ewe</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109019</code></td>
+      <td>Pregnant ewe</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109020</code></td>
+      <td>Pre-ruminant sheep</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109021</code></td>
+      <td>Ruminant sheep</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109022</code></td>
+      <td>Sheep</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109023</code></td>
+      <td>Sheep for meat production</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109024</code></td>
+      <td>Dairy sheep</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109025</code></td>
+      <td>Wild sheep</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109026</code></td>
+      <td>Lamb</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109027</code></td>
+      <td>Elk</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109028</code></td>
+      <td>Fallow deer</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109029</code></td>
+      <td>Moose</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109030</code></td>
+      <td>Antelope</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109031</code></td>
+      <td>Cervid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109032</code></td>
+      <td>Deer</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109033</code></td>
+      <td>Other Deer</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109034</code></td>
+      <td>Red deer</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109035</code></td>
+      <td>Reindeer</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109036</code></td>
+      <td>Roe deer</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109037</code></td>
+      <td>Donkey</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109038</code></td>
+      <td>Mare</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109039</code></td>
+      <td>Gelding</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109040</code></td>
+      <td>Horses</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109041</code></td>
+      <td>Stallion</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109042</code></td>
+      <td>Pony</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109043</code></td>
+      <td>Pregnant mare</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109044</code></td>
+      <td>Non food-producing horse</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109045</code></td>
+      <td>Suckling colt</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109046</code></td>
+      <td>Colt</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109047</code></td>
+      <td>Mule</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109048</code></td>
+      <td>Equid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109049</code></td>
+      <td>Female equid</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109050</code></td>
+      <td>Other Equids</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109051</code></td>
+      <td>Zebra</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109052</code></td>
+      <td>Bobcat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109053</code></td>
+      <td>Adult female cat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109054</code></td>
+      <td>Adult female cat for reproduction</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109055</code></td>
+      <td>Adult male cat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109056</code></td>
+      <td>Cats</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109057</code></td>
+      <td>Lactating cat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109058</code></td>
+      <td>Large cat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109059</code></td>
+      <td>Medium cat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109060</code></td>
+      <td>Pregnant cat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109061</code></td>
+      <td>Small cat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109062</code></td>
+      <td>Kitten</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109063</code></td>
+      <td>Cougar</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109064</code></td>
+      <td>Jaguar</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109065</code></td>
+      <td>Leopard</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109066</code></td>
+      <td>Lion</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109067</code></td>
+      <td>Lynx</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109068</code></td>
+      <td>Other Felids</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109069</code></td>
+      <td>Tiger</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109070</code></td>
+      <td>Tsushima wild cat</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109071</code></td>
+      <td>Other Leporids</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109072</code></td>
+      <td>Hare</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">http://hl7.org/fhir/target-species</code></td>
+      <td><code class="language-plaintext highlighter-rouge">100000109073</code></td>
+      <td>Female rabbit for reproduction</td>
+      <td>Yes</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="lookup-vs-R5-system-restful-interaction-for-R4.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="lookup-vs-R5-task-code-for-R4.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-21 13:39:00 -0600">
+    2026-02-21
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir/uv/xver/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

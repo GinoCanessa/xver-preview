@@ -1,0 +1,417 @@
+# R5NutritionProductElementMapToR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## ConceptMap: R5NutritionProductElementMapToR4 
+
+ 
+This ConceptMap represents cross-version mappings for elements from a FHIR R5 NutritionProduct to FHIR R4. 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ConceptMap",
+  "id" : "R5-NutritionProduct-element-map-to-R4",
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "fhir"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger" : 0,
+      "_valueInteger" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode" : "trial-use",
+      "_valueCode" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    }
+  ],
+  "url" : "http://hl7.org/fhir/uv/xver/ConceptMap/R5-NutritionProduct-element-map-to-R4",
+  "version" : "0.0.1-snapshot-3",
+  "name" : "R5NutritionProductElementMapToR4",
+  "title" : "Cross-version mapping for FHIR R5 NutritionProduct to FHIR R4 Basic",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-02-21T13:36:57.9312131-06:00",
+  "contact" : [
+    {
+      "name" : "FHIR Infrastructure",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/fiwg"
+        }
+      ]
+    }
+  ],
+  "description" : "This ConceptMap represents cross-version mappings for elements from a FHIR R5 NutritionProduct to FHIR R4.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }
+      ]
+    }
+  ],
+  "sourceCanonical" : "http://hl7.org/fhir/5.0",
+  "targetUri" : "http://hl7.org/fhir/4.0",
+  "group" : [
+    {
+      "source" : "http://hl7.org/fhir/StructureDefinition/NutritionProduct",
+      "sourceVersion" : "5.0.0",
+      "target" : "http://hl7.org/fhir/StructureDefinition/Basic",
+      "targetVersion" : "4.0.1",
+      "element" : [
+        {
+          "code" : "NutritionProduct.meta",
+          "display" : "meta",
+          "target" : [
+            {
+              "code" : "Resource.meta",
+              "display" : "Resource.meta",
+              "equivalence" : "equivalent",
+              "comment" : "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `NutritionProduct.meta` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "NutritionProduct.implicitRules",
+          "display" : "implicitRules",
+          "target" : [
+            {
+              "code" : "Resource.implicitRules",
+              "display" : "Resource.implicitRules",
+              "equivalence" : "equivalent",
+              "comment" : "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `NutritionProduct.implicitRules` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "NutritionProduct.language",
+          "display" : "language",
+          "target" : [
+            {
+              "code" : "Resource.language",
+              "display" : "Resource.language",
+              "equivalence" : "equivalent",
+              "comment" : "Element matches Basic element path `Resource.language`, use that element instead.\nElement `NutritionProduct.language` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "NutritionProduct.text",
+          "display" : "text",
+          "target" : [
+            {
+              "code" : "DomainResource.text",
+              "display" : "DomainResource.text",
+              "equivalence" : "equivalent",
+              "comment" : "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `NutritionProduct.text` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "NutritionProduct.contained",
+          "display" : "contained",
+          "target" : [
+            {
+              "code" : "DomainResource.contained",
+              "display" : "DomainResource.contained",
+              "equivalence" : "equivalent",
+              "comment" : "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `NutritionProduct.contained` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source" : "http://hl7.org/fhir/StructureDefinition/NutritionProduct",
+      "sourceVersion" : "5.0.0",
+      "element" : [
+        {
+          "code" : "NutritionProduct.code",
+          "display" : "code",
+          "target" : [
+            {
+              "code" : "code",
+              "equivalence" : "wider",
+              "comment" : "Element `NutritionProduct.code` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "NutritionProduct.status",
+          "display" : "status",
+          "target" : [
+            {
+              "code" : "status",
+              "equivalence" : "wider",
+              "comment" : "Element `NutritionProduct.status` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "NutritionProduct.category",
+          "display" : "category",
+          "target" : [
+            {
+              "code" : "category",
+              "equivalence" : "wider",
+              "comment" : "Element `NutritionProduct.category` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "NutritionProduct.nutrient",
+          "display" : "nutrient",
+          "target" : [
+            {
+              "code" : "nutrient",
+              "equivalence" : "wider",
+              "comment" : "Element `NutritionProduct.nutrient` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "NutritionProduct.nutrient.item",
+          "display" : "item",
+          "target" : [
+            {
+              "code" : "item",
+              "equivalence" : "wider",
+              "comment" : "Element `NutritionProduct.nutrient.item` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "NutritionProduct.nutrient.amount",
+          "display" : "amount",
+          "target" : [
+            {
+              "code" : "amount",
+              "equivalence" : "wider",
+              "comment" : "Element `NutritionProduct.nutrient.amount` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "NutritionProduct.ingredient",
+          "display" : "ingredient",
+          "target" : [
+            {
+              "code" : "ingredient",
+              "equivalence" : "wider",
+              "comment" : "Element `NutritionProduct.ingredient` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "NutritionProduct.ingredient.item",
+          "display" : "item",
+          "target" : [
+            {
+              "code" : "item",
+              "equivalence" : "wider",
+              "comment" : "Element `NutritionProduct.ingredient.item` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "NutritionProduct.ingredient.amount",
+          "display" : "amount",
+          "target" : [
+            {
+              "code" : "amount",
+              "equivalence" : "wider",
+              "comment" : "Element `NutritionProduct.ingredient.amount` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "NutritionProduct.knownAllergen",
+          "display" : "knownAllergen",
+          "target" : [
+            {
+              "code" : "knownAllergen",
+              "equivalence" : "wider",
+              "comment" : "Element `NutritionProduct.knownAllergen` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "NutritionProduct.characteristic",
+          "display" : "characteristic",
+          "target" : [
+            {
+              "code" : "characteristic",
+              "equivalence" : "wider",
+              "comment" : "Element `NutritionProduct.characteristic` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "NutritionProduct.characteristic.type",
+          "display" : "type",
+          "target" : [
+            {
+              "code" : "type",
+              "equivalence" : "wider",
+              "comment" : "Element `NutritionProduct.characteristic.type` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "NutritionProduct.characteristic.value[x]",
+          "display" : "value[x]",
+          "target" : [
+            {
+              "code" : "value",
+              "equivalence" : "wider",
+              "comment" : "Element `NutritionProduct.characteristic.value[x]` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "NutritionProduct.instance",
+          "display" : "instance",
+          "target" : [
+            {
+              "code" : "instance",
+              "equivalence" : "wider",
+              "comment" : "Element `NutritionProduct.instance` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "NutritionProduct.instance.quantity",
+          "display" : "quantity",
+          "target" : [
+            {
+              "code" : "quantity",
+              "equivalence" : "wider",
+              "comment" : "Element `NutritionProduct.instance.quantity` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "NutritionProduct.instance.identifier",
+          "display" : "identifier",
+          "target" : [
+            {
+              "code" : "identifier",
+              "equivalence" : "wider",
+              "comment" : "Element `NutritionProduct.instance.identifier` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "NutritionProduct.instance.name",
+          "display" : "name",
+          "target" : [
+            {
+              "code" : "name",
+              "equivalence" : "wider",
+              "comment" : "Element `NutritionProduct.instance.name` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "NutritionProduct.instance.lotNumber",
+          "display" : "lotNumber",
+          "target" : [
+            {
+              "code" : "lotNumber",
+              "equivalence" : "wider",
+              "comment" : "Element `NutritionProduct.instance.lotNumber` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "NutritionProduct.instance.expiry",
+          "display" : "expiry",
+          "target" : [
+            {
+              "code" : "expiry",
+              "equivalence" : "wider",
+              "comment" : "Element `NutritionProduct.instance.expiry` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "NutritionProduct.instance.useBy",
+          "display" : "useBy",
+          "target" : [
+            {
+              "code" : "useBy",
+              "equivalence" : "wider",
+              "comment" : "Element `NutritionProduct.instance.useBy` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "NutritionProduct.instance.biologicalSourceEvent",
+          "display" : "biologicalSourceEvent",
+          "target" : [
+            {
+              "code" : "biologicalSourceEvent",
+              "equivalence" : "wider",
+              "comment" : "Element `NutritionProduct.instance.biologicalSourceEvent` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "NutritionProduct.note",
+          "display" : "note",
+          "target" : [
+            {
+              "code" : "note",
+              "equivalence" : "wider",
+              "comment" : "Element `NutritionProduct.note` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source" : "http://hl7.org/fhir/StructureDefinition/NutritionProduct",
+      "sourceVersion" : "5.0.0",
+      "target" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+      "targetVersion" : "5.2.0",
+      "element" : [
+        {
+          "code" : "NutritionProduct.manufacturer",
+          "display" : "manufacturer",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
+              "equivalence" : "wider",
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `NutritionProduct.manufacturer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `NutritionProduct.manufacturer` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+```

@@ -63,25 +63,25 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "fhir"
+       fhir:v "fm"
      ]
   ] ) ; # 
   fhir:url [
      fhir:v "http://terminology.hl7.org/CodeSystem/payeetype"^^xsd:anyURI ;
      fhir:l <http://terminology.hl7.org/CodeSystem/payeetype>
   ] ; # 
-  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
   fhir:name [ fhir:v "ClaimPayeeTypeCodes"] ; # 
   fhir:title [ fhir:v "Claim Payee Type Codes"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v true] ; # 
   fhir:date [ fhir:v "2023-02-25T12:07:30-06:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:publisher [ fhir:v "Financial Management"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:name [ fhir:v "Financial Management" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fm" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "This value set includes sample Payee Type codes."] ; # 
@@ -98,8 +98,8 @@
   fhir:copyright [ fhir:v "This is an example set."] ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://terminology.hl7.org/ValueSet/payeetype"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/ValueSet/payeetype>
+     fhir:v "http://terminology.hl7.org/ValueSet/payeetype|1.0.1"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/payeetype?version=1.0.1>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

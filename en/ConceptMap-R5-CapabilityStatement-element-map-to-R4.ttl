@@ -1,0 +1,808 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-CapabilityStatement-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-CapabilityStatement-element-map-to-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-CapabilityStatement-element-map-to-R4</b></p><a name=\"R5-CapabilityStatement-element-map-to-R4\"> </a><a name=\"hcR5-CapabilityStatement-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/CapabilityStatement|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/capabilitystatement.html\">CapabilityStatementversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>CapabilityStatement.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.meta` is mapped to FHIR R4 element `CapabilityStatement.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.implicitRules` is mapped to FHIR R4 element `CapabilityStatement.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.language` is mapped to FHIR R4 element `CapabilityStatement.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.text` is mapped to FHIR R4 element `CapabilityStatement.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.contained` is mapped to FHIR R4 element `CapabilityStatement.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.url (url)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.url` is mapped to FHIR R4 element `CapabilityStatement.url` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.version (version)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.version` is mapped to FHIR R4 element `CapabilityStatement.version` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.name` is mapped to FHIR R4 element `CapabilityStatement.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.title (title)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.title` is mapped to FHIR R4 element `CapabilityStatement.title` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.status` is mapped to FHIR R4 element `CapabilityStatement.status` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.experimental (experimental)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.experimental` is mapped to FHIR R4 element `CapabilityStatement.experimental` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.date (date)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.date` is mapped to FHIR R4 element `CapabilityStatement.date` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.publisher (publisher)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.publisher` is mapped to FHIR R4 element `CapabilityStatement.publisher` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.contact (contact)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.contact` is mapped to FHIR R4 element `CapabilityStatement.contact` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.description` is mapped to FHIR R4 element `CapabilityStatement.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.useContext (useContext)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.useContext` is mapped to FHIR R4 element `CapabilityStatement.useContext` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.jurisdiction (jurisdiction)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.jurisdiction` is mapped to FHIR R4 element `CapabilityStatement.jurisdiction` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.purpose (purpose)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.purpose` is mapped to FHIR R4 element `CapabilityStatement.purpose` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.copyright (copyright)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.copyright` is mapped to FHIR R4 element `CapabilityStatement.copyright` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.kind (kind)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.kind` is mapped to FHIR R4 element `CapabilityStatement.kind` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.instantiates (instantiates)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.instantiates` is mapped to FHIR R4 element `CapabilityStatement.instantiates` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.imports (imports)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.imports` is mapped to FHIR R4 element `CapabilityStatement.imports` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.software (software)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CapabilityStatement.software` is mapped to FHIR R4 element `CapabilityStatement.software` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.software.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.software.name` is mapped to FHIR R4 element `CapabilityStatement.software.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.software.version (version)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.software.version` is mapped to FHIR R4 element `CapabilityStatement.software.version` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.software.releaseDate (releaseDate)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.software.releaseDate` is mapped to FHIR R4 element `CapabilityStatement.software.releaseDate` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.implementation (implementation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CapabilityStatement.implementation` is mapped to FHIR R4 element `CapabilityStatement.implementation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.implementation.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.implementation.description` is mapped to FHIR R4 element `CapabilityStatement.implementation.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.implementation.url (url)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.implementation.url` is mapped to FHIR R4 element `CapabilityStatement.implementation.url` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.implementation.custodian (custodian)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.implementation.custodian` is mapped to FHIR R4 element `CapabilityStatement.implementation.custodian` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.fhirVersion (fhirVersion)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CapabilityStatement.fhirVersion` is mapped to FHIR R4 element `CapabilityStatement.fhirVersion` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.format (format)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.format` is mapped to FHIR R4 element `CapabilityStatement.format` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.patchFormat (patchFormat)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.patchFormat` is mapped to FHIR R4 element `CapabilityStatement.patchFormat` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.implementationGuide (implementationGuide)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.implementationGuide` is mapped to FHIR R4 element `CapabilityStatement.implementationGuide` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest (rest)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CapabilityStatement.rest` is mapped to FHIR R4 element `CapabilityStatement.rest` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.mode (mode)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.mode` is mapped to FHIR R4 element `CapabilityStatement.rest.mode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.documentation (documentation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.documentation` is mapped to FHIR R4 element `CapabilityStatement.rest.documentation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.security (security)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CapabilityStatement.rest.security` is mapped to FHIR R4 element `CapabilityStatement.rest.security` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.security.cors (cors)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.security.cors` is mapped to FHIR R4 element `CapabilityStatement.rest.security.cors` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.security.service (service)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.security.service` is mapped to FHIR R4 element `CapabilityStatement.rest.security.service` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.security.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.security.description` is mapped to FHIR R4 element `CapabilityStatement.rest.security.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.resource (resource)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CapabilityStatement.rest.resource` is mapped to FHIR R4 element `CapabilityStatement.rest.resource` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.resource.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CapabilityStatement.rest.resource.type` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.type` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.resource.profile (profile)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.resource.profile` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.profile` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.resource.supportedProfile (supportedProfile)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.supportedProfile` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.resource.documentation (documentation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.resource.documentation` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.documentation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.resource.interaction (interaction)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CapabilityStatement.rest.resource.interaction` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.interaction` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.resource.interaction.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.resource.interaction.code` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.interaction.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.resource.interaction.documentation (documentation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.resource.interaction.documentation` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.interaction.documentation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.resource.versioning (versioning)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.resource.versioning` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.versioning` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.resource.readHistory (readHistory)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.resource.readHistory` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.readHistory` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.resource.updateCreate (updateCreate)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.resource.updateCreate` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.updateCreate` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.resource.conditionalCreate (conditionalCreate)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.resource.conditionalCreate` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.conditionalCreate` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.resource.conditionalRead (conditionalRead)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.resource.conditionalRead` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.conditionalRead` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.resource.conditionalUpdate (conditionalUpdate)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.resource.conditionalUpdate` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.conditionalUpdate` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.resource.conditionalDelete (conditionalDelete)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.resource.conditionalDelete` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.conditionalDelete` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.resource.referencePolicy (referencePolicy)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.resource.referencePolicy` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.referencePolicy` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.resource.searchInclude (searchInclude)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.resource.searchInclude` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.searchInclude` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.resource.searchRevInclude (searchRevInclude)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.resource.searchRevInclude` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.searchRevInclude` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.resource.searchParam (searchParam)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CapabilityStatement.rest.resource.searchParam` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.searchParam` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CapabilityStatement.rest.searchParam` because `CapabilityStatement.rest.searchParam` is defined as a content reference to `CapabilityStatement.rest.resource.searchParam`.</td></tr><tr><td>CapabilityStatement.rest.resource.searchParam.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.resource.searchParam.name` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.searchParam.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CapabilityStatement.rest.searchParam.name` because `CapabilityStatement.rest.searchParam` is defined via a content reference to `CapabilityStatement.rest.resource.searchParam`.</td></tr><tr><td>CapabilityStatement.rest.resource.searchParam.definition (definition)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.resource.searchParam.definition` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.searchParam.definition` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CapabilityStatement.rest.searchParam.definition` because `CapabilityStatement.rest.searchParam` is defined via a content reference to `CapabilityStatement.rest.resource.searchParam`.</td></tr><tr><td>CapabilityStatement.rest.resource.searchParam.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.resource.searchParam.type` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.searchParam.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CapabilityStatement.rest.searchParam.type` because `CapabilityStatement.rest.searchParam` is defined via a content reference to `CapabilityStatement.rest.resource.searchParam`.</td></tr><tr><td>CapabilityStatement.rest.resource.searchParam.documentation (documentation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.resource.searchParam.documentation` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.searchParam.documentation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CapabilityStatement.rest.searchParam.documentation` because `CapabilityStatement.rest.searchParam` is defined via a content reference to `CapabilityStatement.rest.resource.searchParam`.</td></tr><tr><td>CapabilityStatement.rest.resource.operation (operation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CapabilityStatement.rest.resource.operation` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.operation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CapabilityStatement.rest.operation` because `CapabilityStatement.rest.operation` is defined as a content reference to `CapabilityStatement.rest.resource.operation`.</td></tr><tr><td>CapabilityStatement.rest.resource.operation.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.resource.operation.name` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.operation.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CapabilityStatement.rest.operation.name` because `CapabilityStatement.rest.operation` is defined via a content reference to `CapabilityStatement.rest.resource.operation`.</td></tr><tr><td>CapabilityStatement.rest.resource.operation.definition (definition)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.resource.operation.definition` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.operation.definition` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CapabilityStatement.rest.operation.definition` because `CapabilityStatement.rest.operation` is defined via a content reference to `CapabilityStatement.rest.resource.operation`.</td></tr><tr><td>CapabilityStatement.rest.resource.operation.documentation (documentation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.resource.operation.documentation` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.operation.documentation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CapabilityStatement.rest.operation.documentation` because `CapabilityStatement.rest.operation` is defined via a content reference to `CapabilityStatement.rest.resource.operation`.</td></tr><tr><td>CapabilityStatement.rest.interaction (interaction)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CapabilityStatement.rest.interaction` is mapped to FHIR R4 element `CapabilityStatement.rest.interaction` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.interaction.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.interaction.code` is mapped to FHIR R4 element `CapabilityStatement.rest.interaction.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.interaction.documentation (documentation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.interaction.documentation` is mapped to FHIR R4 element `CapabilityStatement.rest.interaction.documentation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.searchParam (searchParam)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.searchParam` is mapped to FHIR R4 element `CapabilityStatement.rest.searchParam` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.operation (operation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.operation` is mapped to FHIR R4 element `CapabilityStatement.rest.operation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.compartment (compartment)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.rest.compartment` is mapped to FHIR R4 element `CapabilityStatement.rest.compartment` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.messaging (messaging)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CapabilityStatement.messaging` is mapped to FHIR R4 element `CapabilityStatement.messaging` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.messaging.endpoint (endpoint)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CapabilityStatement.messaging.endpoint` is mapped to FHIR R4 element `CapabilityStatement.messaging.endpoint` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.messaging.endpoint.protocol (protocol)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.messaging.endpoint.protocol` is mapped to FHIR R4 element `CapabilityStatement.messaging.endpoint.protocol` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.messaging.endpoint.address (address)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.messaging.endpoint.address` is mapped to FHIR R4 element `CapabilityStatement.messaging.endpoint.address` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.messaging.reliableCache (reliableCache)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.messaging.reliableCache` is mapped to FHIR R4 element `CapabilityStatement.messaging.reliableCache` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.messaging.documentation (documentation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.messaging.documentation` is mapped to FHIR R4 element `CapabilityStatement.messaging.documentation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.messaging.supportedMessage (supportedMessage)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CapabilityStatement.messaging.supportedMessage` is mapped to FHIR R4 element `CapabilityStatement.messaging.supportedMessage` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.messaging.supportedMessage.mode (mode)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.messaging.supportedMessage.mode` is mapped to FHIR R4 element `CapabilityStatement.messaging.supportedMessage.mode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.messaging.supportedMessage.definition (definition)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.messaging.supportedMessage.definition` is mapped to FHIR R4 element `CapabilityStatement.messaging.supportedMessage.definition` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.document (document)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CapabilityStatement.document` is mapped to FHIR R4 element `CapabilityStatement.document` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.document.mode (mode)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.document.mode` is mapped to FHIR R4 element `CapabilityStatement.document.mode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.document.documentation (documentation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.document.documentation` is mapped to FHIR R4 element `CapabilityStatement.document.documentation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.document.profile (profile)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CapabilityStatement.document.profile` is mapped to FHIR R4 element `CapabilityStatement.document.profile` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/CapabilityStatement|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>CapabilityStatement.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.identifier</td><td>Element `CapabilityStatement.identifier` has a context of CapabilityStatement based on following the parent source element upwards and mapping to `CapabilityStatement`.</td></tr><tr><td>CapabilityStatement.fhirVersion (fhirVersion)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.fhirVersion</td><td>Element `CapabilityStatement.fhirVersion` is mapped to FHIR R4 element `CapabilityStatement.fhirVersion` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.acceptLanguage (acceptLanguage)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.acceptLanguage</td><td>Element `CapabilityStatement.acceptLanguage` has a context of CapabilityStatement based on following the parent source element upwards and mapping to `CapabilityStatement`.</td></tr><tr><td>CapabilityStatement.rest.resource.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.resource.type</td><td>Element `CapabilityStatement.rest.resource.type` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.type` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.</td></tr><tr><td>CapabilityStatement.rest.resource.conditionalPatch (conditionalPatch)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.resource.conditionalPatch</td><td>Element `CapabilityStatement.rest.resource.conditionalPatch` has a context of CapabilityStatement.rest.resource based on following the parent source element upwards and mapping to `CapabilityStatement`.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/CapabilityStatement|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Packversion: 5.2.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>CapabilityStatement.versionAlgorithm[x] (versionAlgorithm[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CapabilityStatement.versionAlgorithm[x]`: `http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm`.\nElement `CapabilityStatement.versionAlgorithm[x]` has a context of CapabilityStatement based on following the parent source element upwards and mapping to `CapabilityStatement`.</td></tr><tr><td>CapabilityStatement.copyrightLabel (copyrightLabel)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CapabilityStatement.copyrightLabel`: `http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel`.\nElement `CapabilityStatement.copyrightLabel` has a context of CapabilityStatement based on following the parent source element upwards and mapping to `CapabilityStatement`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-CapabilityStatement-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-CapabilityStatement-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5CapabilityStatementElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 CapabilityStatement to FHIR R4 CapabilityStatement"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T13:36:55.2555887-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 CapabilityStatement to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/CapabilityStatement>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/CapabilityStatement>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "CapabilityStatement.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.meta` is mapped to FHIR R4 element `CapabilityStatement.meta` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.implicitRules` is mapped to FHIR R4 element `CapabilityStatement.implicitRules` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.language` is mapped to FHIR R4 element `CapabilityStatement.language` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.text` is mapped to FHIR R4 element `CapabilityStatement.text` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.contained` is mapped to FHIR R4 element `CapabilityStatement.contained` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.url` is mapped to FHIR R4 element `CapabilityStatement.url` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.version` is mapped to FHIR R4 element `CapabilityStatement.version` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.name` is mapped to FHIR R4 element `CapabilityStatement.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.title` is mapped to FHIR R4 element `CapabilityStatement.title` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.status` is mapped to FHIR R4 element `CapabilityStatement.status` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.experimental" ] ;
+       fhir:display [ fhir:v "experimental" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.experimental` is mapped to FHIR R4 element `CapabilityStatement.experimental` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.date` is mapped to FHIR R4 element `CapabilityStatement.date` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.publisher" ] ;
+       fhir:display [ fhir:v "publisher" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.publisher` is mapped to FHIR R4 element `CapabilityStatement.publisher` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.contact` is mapped to FHIR R4 element `CapabilityStatement.contact` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.description` is mapped to FHIR R4 element `CapabilityStatement.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.useContext" ] ;
+       fhir:display [ fhir:v "useContext" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.useContext` is mapped to FHIR R4 element `CapabilityStatement.useContext` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.jurisdiction` is mapped to FHIR R4 element `CapabilityStatement.jurisdiction` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.purpose" ] ;
+       fhir:display [ fhir:v "purpose" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.purpose` is mapped to FHIR R4 element `CapabilityStatement.purpose` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.copyright" ] ;
+       fhir:display [ fhir:v "copyright" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.copyright` is mapped to FHIR R4 element `CapabilityStatement.copyright` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.kind" ] ;
+       fhir:display [ fhir:v "kind" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.kind` is mapped to FHIR R4 element `CapabilityStatement.kind` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.instantiates" ] ;
+       fhir:display [ fhir:v "instantiates" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.instantiates` is mapped to FHIR R4 element `CapabilityStatement.instantiates` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.imports" ] ;
+       fhir:display [ fhir:v "imports" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.imports` is mapped to FHIR R4 element `CapabilityStatement.imports` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.software" ] ;
+       fhir:display [ fhir:v "software" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.software` is mapped to FHIR R4 element `CapabilityStatement.software` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.software.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.software.name` is mapped to FHIR R4 element `CapabilityStatement.software.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.software.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.software.version` is mapped to FHIR R4 element `CapabilityStatement.software.version` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.software.releaseDate" ] ;
+       fhir:display [ fhir:v "releaseDate" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.software.releaseDate` is mapped to FHIR R4 element `CapabilityStatement.software.releaseDate` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.implementation" ] ;
+       fhir:display [ fhir:v "implementation" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.implementation` is mapped to FHIR R4 element `CapabilityStatement.implementation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.implementation.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.implementation.description` is mapped to FHIR R4 element `CapabilityStatement.implementation.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.implementation.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.implementation.url` is mapped to FHIR R4 element `CapabilityStatement.implementation.url` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.implementation.custodian" ] ;
+       fhir:display [ fhir:v "custodian" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.implementation.custodian` is mapped to FHIR R4 element `CapabilityStatement.implementation.custodian` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.fhirVersion" ] ;
+       fhir:display [ fhir:v "fhirVersion" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.fhirVersion` is mapped to FHIR R4 element `CapabilityStatement.fhirVersion` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.format" ] ;
+       fhir:display [ fhir:v "format" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.format` is mapped to FHIR R4 element `CapabilityStatement.format` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.patchFormat" ] ;
+       fhir:display [ fhir:v "patchFormat" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.patchFormat` is mapped to FHIR R4 element `CapabilityStatement.patchFormat` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.implementationGuide" ] ;
+       fhir:display [ fhir:v "implementationGuide" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.implementationGuide` is mapped to FHIR R4 element `CapabilityStatement.implementationGuide` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest" ] ;
+       fhir:display [ fhir:v "rest" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest` is mapped to FHIR R4 element `CapabilityStatement.rest` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.mode" ] ;
+       fhir:display [ fhir:v "mode" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.mode` is mapped to FHIR R4 element `CapabilityStatement.rest.mode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.documentation" ] ;
+       fhir:display [ fhir:v "documentation" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.documentation` is mapped to FHIR R4 element `CapabilityStatement.rest.documentation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.security" ] ;
+       fhir:display [ fhir:v "security" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.security` is mapped to FHIR R4 element `CapabilityStatement.rest.security` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.security.cors" ] ;
+       fhir:display [ fhir:v "cors" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.security.cors` is mapped to FHIR R4 element `CapabilityStatement.rest.security.cors` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.security.service" ] ;
+       fhir:display [ fhir:v "service" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.security.service` is mapped to FHIR R4 element `CapabilityStatement.rest.security.service` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.security.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.security.description` is mapped to FHIR R4 element `CapabilityStatement.rest.security.description` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource" ] ;
+       fhir:display [ fhir:v "resource" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource` is mapped to FHIR R4 element `CapabilityStatement.rest.resource` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.type` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.type` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.profile" ] ;
+       fhir:display [ fhir:v "profile" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.profile` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.profile` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.supportedProfile" ] ;
+       fhir:display [ fhir:v "supportedProfile" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.supportedProfile` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.documentation" ] ;
+       fhir:display [ fhir:v "documentation" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.documentation` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.documentation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.interaction" ] ;
+       fhir:display [ fhir:v "interaction" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.interaction` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.interaction` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.interaction.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.interaction.code` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.interaction.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.interaction.documentation" ] ;
+       fhir:display [ fhir:v "documentation" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.interaction.documentation` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.interaction.documentation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.versioning" ] ;
+       fhir:display [ fhir:v "versioning" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.versioning` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.versioning` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.readHistory" ] ;
+       fhir:display [ fhir:v "readHistory" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.readHistory` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.readHistory` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.updateCreate" ] ;
+       fhir:display [ fhir:v "updateCreate" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.updateCreate` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.updateCreate` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.conditionalCreate" ] ;
+       fhir:display [ fhir:v "conditionalCreate" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.conditionalCreate` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.conditionalCreate` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.conditionalRead" ] ;
+       fhir:display [ fhir:v "conditionalRead" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.conditionalRead` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.conditionalRead` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.conditionalUpdate" ] ;
+       fhir:display [ fhir:v "conditionalUpdate" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.conditionalUpdate` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.conditionalUpdate` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.conditionalDelete" ] ;
+       fhir:display [ fhir:v "conditionalDelete" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.conditionalDelete` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.conditionalDelete` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.referencePolicy" ] ;
+       fhir:display [ fhir:v "referencePolicy" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.referencePolicy` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.referencePolicy` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.searchInclude" ] ;
+       fhir:display [ fhir:v "searchInclude" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.searchInclude` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.searchInclude` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.searchRevInclude" ] ;
+       fhir:display [ fhir:v "searchRevInclude" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.searchRevInclude` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.searchRevInclude` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.searchParam" ] ;
+       fhir:display [ fhir:v "searchParam" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.searchParam` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.searchParam` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CapabilityStatement.rest.searchParam` because `CapabilityStatement.rest.searchParam` is defined as a content reference to `CapabilityStatement.rest.resource.searchParam`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.searchParam.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.searchParam.name` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.searchParam.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CapabilityStatement.rest.searchParam.name` because `CapabilityStatement.rest.searchParam` is defined via a content reference to `CapabilityStatement.rest.resource.searchParam`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.searchParam.definition" ] ;
+       fhir:display [ fhir:v "definition" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.searchParam.definition` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.searchParam.definition` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CapabilityStatement.rest.searchParam.definition` because `CapabilityStatement.rest.searchParam` is defined via a content reference to `CapabilityStatement.rest.resource.searchParam`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.searchParam.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.searchParam.type` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.searchParam.type` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CapabilityStatement.rest.searchParam.type` because `CapabilityStatement.rest.searchParam` is defined via a content reference to `CapabilityStatement.rest.resource.searchParam`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.searchParam.documentation" ] ;
+       fhir:display [ fhir:v "documentation" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.searchParam.documentation` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.searchParam.documentation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CapabilityStatement.rest.searchParam.documentation` because `CapabilityStatement.rest.searchParam` is defined via a content reference to `CapabilityStatement.rest.resource.searchParam`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.operation" ] ;
+       fhir:display [ fhir:v "operation" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.operation` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.operation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CapabilityStatement.rest.operation` because `CapabilityStatement.rest.operation` is defined as a content reference to `CapabilityStatement.rest.resource.operation`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.operation.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.operation.name` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.operation.name` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CapabilityStatement.rest.operation.name` because `CapabilityStatement.rest.operation` is defined via a content reference to `CapabilityStatement.rest.resource.operation`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.operation.definition" ] ;
+       fhir:display [ fhir:v "definition" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.operation.definition` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.operation.definition` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CapabilityStatement.rest.operation.definition` because `CapabilityStatement.rest.operation` is defined via a content reference to `CapabilityStatement.rest.resource.operation`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.operation.documentation" ] ;
+       fhir:display [ fhir:v "documentation" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.operation.documentation` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.operation.documentation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`.\nNote available implied context: `CapabilityStatement.rest.operation.documentation` because `CapabilityStatement.rest.operation` is defined via a content reference to `CapabilityStatement.rest.resource.operation`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.interaction" ] ;
+       fhir:display [ fhir:v "interaction" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.interaction` is mapped to FHIR R4 element `CapabilityStatement.rest.interaction` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.interaction.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.interaction.code` is mapped to FHIR R4 element `CapabilityStatement.rest.interaction.code` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.interaction.documentation" ] ;
+       fhir:display [ fhir:v "documentation" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.interaction.documentation` is mapped to FHIR R4 element `CapabilityStatement.rest.interaction.documentation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.searchParam" ] ;
+       fhir:display [ fhir:v "searchParam" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.searchParam` is mapped to FHIR R4 element `CapabilityStatement.rest.searchParam` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.operation" ] ;
+       fhir:display [ fhir:v "operation" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.operation` is mapped to FHIR R4 element `CapabilityStatement.rest.operation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.compartment" ] ;
+       fhir:display [ fhir:v "compartment" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.compartment` is mapped to FHIR R4 element `CapabilityStatement.rest.compartment` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.messaging" ] ;
+       fhir:display [ fhir:v "messaging" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging` is mapped to FHIR R4 element `CapabilityStatement.messaging` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.messaging.endpoint" ] ;
+       fhir:display [ fhir:v "endpoint" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging.endpoint` is mapped to FHIR R4 element `CapabilityStatement.messaging.endpoint` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.messaging.endpoint.protocol" ] ;
+       fhir:display [ fhir:v "protocol" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging.endpoint.protocol` is mapped to FHIR R4 element `CapabilityStatement.messaging.endpoint.protocol` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.messaging.endpoint.address" ] ;
+       fhir:display [ fhir:v "address" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging.endpoint.address` is mapped to FHIR R4 element `CapabilityStatement.messaging.endpoint.address` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.messaging.reliableCache" ] ;
+       fhir:display [ fhir:v "reliableCache" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging.reliableCache` is mapped to FHIR R4 element `CapabilityStatement.messaging.reliableCache` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.messaging.documentation" ] ;
+       fhir:display [ fhir:v "documentation" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging.documentation` is mapped to FHIR R4 element `CapabilityStatement.messaging.documentation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.messaging.supportedMessage" ] ;
+       fhir:display [ fhir:v "supportedMessage" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging.supportedMessage` is mapped to FHIR R4 element `CapabilityStatement.messaging.supportedMessage` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.messaging.supportedMessage.mode" ] ;
+       fhir:display [ fhir:v "mode" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging.supportedMessage.mode` is mapped to FHIR R4 element `CapabilityStatement.messaging.supportedMessage.mode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.messaging.supportedMessage.definition" ] ;
+       fhir:display [ fhir:v "definition" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging.supportedMessage.definition` is mapped to FHIR R4 element `CapabilityStatement.messaging.supportedMessage.definition` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.document" ] ;
+       fhir:display [ fhir:v "document" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.document` is mapped to FHIR R4 element `CapabilityStatement.document` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.document.mode" ] ;
+       fhir:display [ fhir:v "mode" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.document.mode` is mapped to FHIR R4 element `CapabilityStatement.document.mode` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.document.documentation" ] ;
+       fhir:display [ fhir:v "documentation" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.document.documentation` is mapped to FHIR R4 element `CapabilityStatement.document.documentation` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.document.profile" ] ;
+       fhir:display [ fhir:v "profile" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.document.profile` is mapped to FHIR R4 element `CapabilityStatement.document.profile` as `Equivalent`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/CapabilityStatement>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "CapabilityStatement.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.identifier" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.identifier` has a context of CapabilityStatement based on following the parent source element upwards and mapping to `CapabilityStatement`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.fhirVersion" ] ;
+       fhir:display [ fhir:v "fhirVersion" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.fhirVersion" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.fhirVersion` is mapped to FHIR R4 element `CapabilityStatement.fhirVersion` as `SourceIsBroaderThanTarget`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.acceptLanguage" ] ;
+       fhir:display [ fhir:v "acceptLanguage" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.acceptLanguage" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.acceptLanguage` has a context of CapabilityStatement based on following the parent source element upwards and mapping to `CapabilityStatement`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.resource.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.type` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.type` as `RelatedTo`, concept domain: `NotRelatedTo`, value domain: `NotRelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.conditionalPatch" ] ;
+       fhir:display [ fhir:v "conditionalPatch" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.resource.conditionalPatch" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.conditionalPatch` has a context of CapabilityStatement.rest.resource based on following the parent source element upwards and mapping to `CapabilityStatement`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/CapabilityStatement>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.2.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "CapabilityStatement.versionAlgorithm[x]" ] ;
+       fhir:display [ fhir:v "versionAlgorithm[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CapabilityStatement.versionAlgorithm[x]`: `http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm`.\nElement `CapabilityStatement.versionAlgorithm[x]` has a context of CapabilityStatement based on following the parent source element upwards and mapping to `CapabilityStatement`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.copyrightLabel" ] ;
+       fhir:display [ fhir:v "copyrightLabel" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CapabilityStatement.copyrightLabel`: `http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel`.\nElement `CapabilityStatement.copyrightLabel` has a context of CapabilityStatement based on following the parent source element upwards and mapping to `CapabilityStatement`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

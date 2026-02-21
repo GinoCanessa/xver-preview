@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="catalogType"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/catalogType</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">medication
+                  <a name="catalogType-medication"> </a>
+                </td>
+                <td>Medication Catalog</td>
+                <td>Medication Catalog.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">device
+                  <a name="catalogType-device"> </a>
+                </td>
+                <td>Device Catalog</td>
+                <td>Device Catalog.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">protocol
+                  <a name="catalogType-protocol"> </a>
+                </td>
+                <td>Protocol List</td>
+                <td>Protocol List.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="sd"/>
+  </extension>
+  <url value="http://hl7.org/fhir/catalogType"/>
+  <version value="5.0.0"/>
+  <name value="CatalogType"/>
+  <title value="Catalog Type"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2026-02-21T13:39:05-06:00"/>
+  <publisher value="Structured Documents"/>
+  <contact>
+    <name value="Structured Documents"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/structure"/>
+    </telecom>
+  </contact>
+  <description value="CatalogType"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="medication"/>
+    <display value="Medication Catalog"/>
+    <definition value="Medication Catalog."/>
+  </concept>
+  <concept>
+    <code value="device"/>
+    <display value="Device Catalog"/>
+    <definition value="Device Catalog."/>
+  </concept>
+  <concept>
+    <code value="protocol"/>
+    <display value="Protocol List"/>
+    <definition value="Protocol List."/>
+  </concept>
+</CodeSystem>

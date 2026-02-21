@@ -1,0 +1,384 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-ManufacturedItemDefinition-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-ManufacturedItemDefinition-element-map-to-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-ManufacturedItemDefinition-element-map-to-R4</b></p><a name=\"R5-ManufacturedItemDefinition-element-map-to-R4\"> </a><a name=\"hcR5-ManufacturedItemDefinition-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/basic.html\">Basicversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ManufacturedItemDefinition.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Resource.meta</td><td>Element matches Basic element path `Resource.meta`, use that element instead.\nElement `ManufacturedItemDefinition.meta` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr><tr><td>ManufacturedItemDefinition.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Resource.implicitRules</td><td>Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `ManufacturedItemDefinition.implicitRules` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr><tr><td>ManufacturedItemDefinition.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Resource.language</td><td>Element matches Basic element path `Resource.language`, use that element instead.\nElement `ManufacturedItemDefinition.language` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr><tr><td>ManufacturedItemDefinition.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>DomainResource.text</td><td>Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `ManufacturedItemDefinition.text` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr><tr><td>ManufacturedItemDefinition.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>DomainResource.contained</td><td>Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `ManufacturedItemDefinition.contained` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr><tr><td>ManufacturedItemDefinition.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Basic.identifier</td><td>Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `ManufacturedItemDefinition.identifier` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ManufacturedItemDefinition.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>status</td><td>Element `ManufacturedItemDefinition.status` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr><tr><td>ManufacturedItemDefinition.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>name</td><td>Element `ManufacturedItemDefinition.name` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr><tr><td>ManufacturedItemDefinition.manufacturedDoseForm (manufacturedDoseForm)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>manufacturedDoseForm</td><td>Element `ManufacturedItemDefinition.manufacturedDoseForm` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr><tr><td>ManufacturedItemDefinition.unitOfPresentation (unitOfPresentation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>unitOfPresentation</td><td>Element `ManufacturedItemDefinition.unitOfPresentation` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr><tr><td>ManufacturedItemDefinition.marketingStatus (marketingStatus)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>marketingStatus</td><td>Element `ManufacturedItemDefinition.marketingStatus` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr><tr><td>ManufacturedItemDefinition.ingredient (ingredient)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>ingredient</td><td>Element `ManufacturedItemDefinition.ingredient` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr><tr><td>ManufacturedItemDefinition.property (property)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>property</td><td>Element `ManufacturedItemDefinition.property` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr><tr><td>ManufacturedItemDefinition.property.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>type</td><td>Element `ManufacturedItemDefinition.property.type` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr><tr><td>ManufacturedItemDefinition.property.value[x] (value[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>value</td><td>Element `ManufacturedItemDefinition.property.value[x]` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr><tr><td>ManufacturedItemDefinition.component (component)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>component</td><td>Element `ManufacturedItemDefinition.component` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr><tr><td>ManufacturedItemDefinition.component.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>type</td><td>Element `ManufacturedItemDefinition.component.type` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr><tr><td>ManufacturedItemDefinition.component.function (function)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>function</td><td>Element `ManufacturedItemDefinition.component.function` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr><tr><td>ManufacturedItemDefinition.component.amount (amount)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>amount</td><td>Element `ManufacturedItemDefinition.component.amount` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr><tr><td>ManufacturedItemDefinition.component.constituent (constituent)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>constituent</td><td>Element `ManufacturedItemDefinition.component.constituent` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr><tr><td>ManufacturedItemDefinition.component.constituent.amount (amount)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>amount</td><td>Element `ManufacturedItemDefinition.component.constituent.amount` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr><tr><td>ManufacturedItemDefinition.component.constituent.location (location)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>location</td><td>Element `ManufacturedItemDefinition.component.constituent.location` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr><tr><td>ManufacturedItemDefinition.component.constituent.function (function)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>function</td><td>Element `ManufacturedItemDefinition.component.constituent.function` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr><tr><td>ManufacturedItemDefinition.component.constituent.hasIngredient (hasIngredient)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>hasIngredient</td><td>Element `ManufacturedItemDefinition.component.constituent.hasIngredient` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Packversion: 5.2.0)</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition|5.0.0</td><td/><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions|5.2.0</td><td/></tr><tr><td style=\"border-right-width: 0px\">ManufacturedItemDefinition.manufacturer</td><td style=\"border-left-width: 0px\">manufacturer</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td style=\"border-left-width: 0px\"/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ManufacturedItemDefinition.manufacturer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ManufacturedItemDefinition.manufacturer` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ManufacturedItemDefinition.property.value[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">value[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/alternate-canonical</td><td style=\"border-left-width: 0px\"/><td>Element `ManufacturedItemDefinition.property.value[x]` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td style=\"border-left-width: 0px\"/><td>Element `ManufacturedItemDefinition.property.value[x]` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr></table><hr/><p><b>Group 4 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ManufacturedItemDefinition.component.property (property)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.property</td><td>Element `ManufacturedItemDefinition.component.property` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr><tr><td>ManufacturedItemDefinition.component.component (component)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.component</td><td>Element `ManufacturedItemDefinition.component.component` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-ManufacturedItemDefinition-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-ManufacturedItemDefinition-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5ManufacturedItemDefinitionElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 ManufacturedItemDefinition to FHIR R4 Basic"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-21T13:36:57.4932462-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 ManufacturedItemDefinition to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Basic"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Basic>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Resource.meta" ] ;
+         fhir:display [ fhir:v "Resource.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `ManufacturedItemDefinition.meta` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Resource.implicitRules" ] ;
+         fhir:display [ fhir:v "Resource.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `ManufacturedItemDefinition.implicitRules` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Resource.language" ] ;
+         fhir:display [ fhir:v "Resource.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.language`, use that element instead.\nElement `ManufacturedItemDefinition.language` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DomainResource.text" ] ;
+         fhir:display [ fhir:v "DomainResource.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `ManufacturedItemDefinition.text` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DomainResource.contained" ] ;
+         fhir:display [ fhir:v "DomainResource.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `ManufacturedItemDefinition.contained` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.identifier" ] ;
+         fhir:display [ fhir:v "Basic.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `ManufacturedItemDefinition.identifier` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "status" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ManufacturedItemDefinition.status` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "name" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ManufacturedItemDefinition.name` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.manufacturedDoseForm" ] ;
+       fhir:display [ fhir:v "manufacturedDoseForm" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "manufacturedDoseForm" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ManufacturedItemDefinition.manufacturedDoseForm` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.unitOfPresentation" ] ;
+       fhir:display [ fhir:v "unitOfPresentation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "unitOfPresentation" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ManufacturedItemDefinition.unitOfPresentation` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.marketingStatus" ] ;
+       fhir:display [ fhir:v "marketingStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "marketingStatus" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ManufacturedItemDefinition.marketingStatus` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.ingredient" ] ;
+       fhir:display [ fhir:v "ingredient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ingredient" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ManufacturedItemDefinition.ingredient` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.property" ] ;
+       fhir:display [ fhir:v "property" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "property" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ManufacturedItemDefinition.property` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.property.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ManufacturedItemDefinition.property.type` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.property.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "value" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ManufacturedItemDefinition.property.value[x]` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.component" ] ;
+       fhir:display [ fhir:v "component" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "component" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ManufacturedItemDefinition.component` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.component.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ManufacturedItemDefinition.component.type` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.component.function" ] ;
+       fhir:display [ fhir:v "function" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "function" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ManufacturedItemDefinition.component.function` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.component.amount" ] ;
+       fhir:display [ fhir:v "amount" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "amount" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ManufacturedItemDefinition.component.amount` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.component.constituent" ] ;
+       fhir:display [ fhir:v "constituent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "constituent" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ManufacturedItemDefinition.component.constituent` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.component.constituent.amount" ] ;
+       fhir:display [ fhir:v "amount" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "amount" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ManufacturedItemDefinition.component.constituent.amount` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.component.constituent.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "location" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ManufacturedItemDefinition.component.constituent.location` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.component.constituent.function" ] ;
+       fhir:display [ fhir:v "function" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "function" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ManufacturedItemDefinition.component.constituent.function` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.component.constituent.hasIngredient" ] ;
+       fhir:display [ fhir:v "hasIngredient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "hasIngredient" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ManufacturedItemDefinition.component.constituent.hasIngredient` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.2.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.manufacturer" ] ;
+       fhir:display [ fhir:v "manufacturer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ManufacturedItemDefinition.manufacturer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ManufacturedItemDefinition.manufacturer` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.property.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-canonical" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ManufacturedItemDefinition.property.value[x]` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ManufacturedItemDefinition.property.value[x]` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.component.property" ] ;
+       fhir:display [ fhir:v "property" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.property" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ManufacturedItemDefinition.component.property` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ManufacturedItemDefinition.component.component" ] ;
+       fhir:display [ fhir:v "component" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.component" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ManufacturedItemDefinition.component.component` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
